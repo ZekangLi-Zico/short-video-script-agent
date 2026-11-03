@@ -19,7 +19,8 @@ GitHub URL：填写实际上传后的仓库地址
 测试及验收结果：examples/test-results/、examples/live/evaluation.md
 需求、方案、评估、AI 使用与复盘：docs/01–05
 
-实现说明：Python 标准库 CLI；真实模型根据检索、估时和规则检查结果选择后续动作。
+人工测试网页：双击 启动网页.cmd，或运行 python -m src.web --open；操作说明 docs/07-web-manual-test.md。
+实现说明：Python 标准库 CLI 与本地网页共用 Agent；真实模型根据检索、估时和规则检查结果选择后续动作。
 支持资料不足、工具失败、超时修订和无依据宣传纠错，设置执行步数上限。
 公开文案采用带来源的事实块和批准连接语；时长为文本估算。
 

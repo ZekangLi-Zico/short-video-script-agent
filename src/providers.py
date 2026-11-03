@@ -129,6 +129,19 @@ class APIModel:
             raise ModelError("api_transport_or_response_error") from exc
 
 
+def discover_codex():
+    """Prefer the installed desktop runtime over an obsolete npm CLI on Windows."""
+    explicit = os.environ.get("CODEX_BIN") or os.environ.get("CODEX_APP_RUNTIME_CLI_PATH")
+    if explicit:
+        return explicit
+    if os.name == "nt":
+        app_bin = Path.home() / "AppData/Local/OpenAI/Codex/bin"
+        candidates = list(app_bin.glob("*/codex.exe"))
+        if candidates:
+            return str(max(candidates, key=lambda p: p.stat().st_mtime))
+    return shutil.which("codex")
+
+
 class CodexModel:
     name = "codex"
     evidence_kind = "real_model"
@@ -136,7 +149,7 @@ class CodexModel:
     def __init__(self, timeout=180):
         self.timeout = timeout
         self.model = os.environ.get("CODEX_MODEL", "")
-        executable = os.environ.get("CODEX_BIN") or os.environ.get("CODEX_APP_RUNTIME_CLI_PATH") or shutil.which("codex")
+        executable = discover_codex()
         if not executable:
             raise ValueError("找不到 Codex CLI；请安装并登录，或配置 CODEX_BIN")
         path = Path(executable)

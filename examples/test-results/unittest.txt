@@ -43,8 +43,21 @@ test_search_can_return_no_results (test_tools.ToolTests.test_search_can_return_n
 test_search_has_real_source_and_product_isolation (test_tools.ToolTests.test_search_has_real_source_and_product_isolation) ... ok
 test_source_update_invalidates_old_statement (test_tools.ToolTests.test_source_update_invalidates_old_statement) ... ok
 test_successful_quotes_are_exact (test_tools.ToolTests.test_successful_quotes_are_exact) ... ok
+test_cancel_after_model_prevents_tool_execution (test_web.ProgressTests.test_cancel_after_model_prevents_tool_execution) ... ok
+test_cancel_before_model_never_calls_model (test_web.ProgressTests.test_cancel_before_model_never_calls_model) ... ok
+test_progress_exposes_actual_steps_without_mutating_core_state (test_web.ProgressTests.test_progress_exposes_actual_steps_without_mutating_core_state) ... ok
+test_fault_injection_returns_real_failure (test_web.WebTests.test_fault_injection_returns_real_failure) ... ok
+test_host_and_path_are_not_arbitrary_file_access (test_web.WebTests.test_host_and_path_are_not_arbitrary_file_access) ... ok
+test_http_run_download_and_saved_evidence (test_web.WebTests.test_http_run_download_and_saved_evidence) ... ok
+test_invalid_input_and_faults_are_400 (test_web.WebTests.test_invalid_input_and_faults_are_400) ... ok
+test_missing_field_is_a_testable_business_result (test_web.WebTests.test_missing_field_is_a_testable_business_result) ... ok
+test_no_csrf_token_and_foreign_origin_are_rejected (test_web.WebTests.test_no_csrf_token_and_foreign_origin_are_rejected) ... ok
+test_only_one_active_run_and_cooperative_stop (test_web.WebTests.test_only_one_active_run_and_cooperative_stop) ... ok
+test_page_and_static_assets_have_correct_types (test_web.WebTests.test_page_and_static_assets_have_correct_types) ... ok
+test_restart_restores_saved_runs_without_running_models (test_web.WebTests.test_restart_restores_saved_runs_without_running_models) ... ok
+test_setup_error_is_visible_not_fake_completion (test_web.WebTests.test_setup_error_is_visible_not_fake_completion) ... ok
 
 ----------------------------------------------------------------------
-Ran 45 tests in 0.201s
+Ran 58 tests in 5.475s
 
 OK

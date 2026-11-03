@@ -4,12 +4,33 @@
 
 **评审入口：** [需求与验收映射](docs/01-requirements.md) · [方案与动态决策](docs/02-solution.md) · [实际验证](docs/03-evaluation.md) · [AI 使用说明](docs/04-ai-usage.md) · [复盘](docs/05-retrospective.md)
 
-已保存的验证结果：**45 项自动测试通过，8/8 离线验收、8/8 真实后端场景符合预期**。其中缺信息场景由宿主校验，其余 7 类场景含真实模型响应。可直接阅读 [27 秒正常脚本](examples/live/normal/script.md)、[38 秒修订为 25 秒的执行记录](examples/live/over_duration/trace.jsonl) 和 [持续工具失败的停止记录](examples/live/tool_failure/trace.jsonl)。
+已保存的验证结果：**58 项自动测试通过，8/8 离线验收、8/8 真实后端场景符合预期**。其中缺信息场景由宿主校验，其余 7 类场景含真实模型响应。可直接阅读 [27 秒正常脚本](examples/live/normal/script.md)、[38 秒修订为 25 秒的执行记录](examples/live/over_duration/trace.jsonl) 和 [持续工具失败的停止记录](examples/live/tool_failure/trace.jsonl)。网页新增的真实模型运行另见 [38 秒修订为 26 秒](examples/ui/live-run/script.md)。
+
+## 网页人工测试
+
+Windows 双击根目录的 **`启动网页.cmd`**，或在 PowerShell 执行：
+
+```powershell
+.\run.ps1 -Mode web
+```
+
+浏览器打开 **http://127.0.0.1:8765/**。跨平台可用 `python -m src.web --open`；换端口用 `--port 8766`。
+
+1. 填写主题、受众、平台、目标时长和风格，或载入八种测试场景。
+2. 选择“真实模型 · Codex”或“离线演练 · Mock”，点击“生成并检查”。
+3. 在“脚本预览”看分镜、旁白、来源和估时；在“执行过程”展开每步实际参数、返回结果和简短依据。
+4. 运行完成后下载 Markdown、Trace 或 JSON；最近运行可重新打开、修改输入后再试。
+
+真实模型使用本机已登录 Codex 的额度。Mock 是固定桩，页面全程标注，不能证明模型决策。模型 API 只有在服务启动前配置环境变量才可选。
+
+每次结果保存在 `outputs/web/<运行ID>/`。刷新页面可重新接上进行中的任务；重启服务后恢复最近 32 条已保存记录，不会自动继续未完成调用。“停止后续步骤”会等待当前模型调用返回，保留已有结果。网页只在本机监听，一次执行一个任务。
+
+完整操作与逐项核对见 [网页人工测试指南](docs/07-web-manual-test.md)。当前素材是虚构产品“剪影练习版”，任意主题仍受现有素材与品牌批准文案约束。
 
 ## 运行环境与安装
 
 - Python **3.11 或以上**。运行、测试均只使用标准库，`requirements.txt` 无第三方依赖。
-- 在仓库根目录运行下列命令。不要求界面、数据库、部署或视频生成服务。
+- 在仓库根目录运行下列命令。不需要数据库、部署或视频生成服务；CLI 和网页共用核心代码。
 - 真实模型可选已登录的 Codex CLI，或者支持结构化 JSON 输出的模型 API。
 
 ```bash
@@ -40,7 +61,7 @@ Windows 便捷入口：
 
 ## 真实模型入口 A：Codex CLI
 
-自行安装可支持所选模型的 Codex CLI，并执行 `codex login`。程序优先使用 `CODEX_BIN`，其次 Codex 桌面环境提供的 `CODEX_APP_RUNTIME_CLI_PATH`，最后 PATH 中的 CLI。
+自行安装可支持所选模型的 Codex CLI，并执行 `codex login`。程序依次寻找 `CODEX_BIN`、桌面环境提供的 `CODEX_APP_RUNTIME_CLI_PATH`、Windows 已安装 Codex 桌面应用的 CLI、PATH 中的 CLI。
 
 ```bash
 python -m src.cli --provider codex --input examples/inputs/normal.json --output outputs/real
@@ -120,7 +141,8 @@ python -m src.cli --provider mock --input examples/inputs/normal.json --fail-too
 ## 文件结构
 
 ```text
-src/        模型决策循环、业务工具、真实模型接入、Mock、CLI、报告
+src/        模型决策循环、业务工具、真实模型接入、Mock、CLI、网页服务、报告
+web/        本地网页表单、脚本预览与实际执行过程
 tests/      单元、集成、适配器契约与反例测试
 scripts/    批量验收及测试证据生成
 examples/   输入、实际输出、执行记录、测试与验收结果

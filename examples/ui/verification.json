@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-03",
+  "operator": "AI development assistant using an actual browser; not candidate-operated manual acceptance",
+  "url": "http://127.0.0.1:8765/",
+  "automated_tests": {"total": 58, "passed": 58, "new_web_tests": 13, "report": "../test-results/summary.json"},
+  "browser_checks": [
+    {"case": "normal_mock", "observed_status": "completed", "steps": 5, "run_id": "df25225482dd416f9c2f001ff4e814f6"},
+    {"case": "missing_information_mock", "observed_status": "needs_input", "steps": 0, "run_id": "27db3babac0d497488ed921971e8837d", "visible_message": "请补充关键字段：目标时长"},
+    {"case": "tool_failure_mock", "observed_status": "blocked", "steps": 3, "run_id": "2003e4de59cc42d3acfe5b642744c083"},
+    {"case": "over_duration_codex", "observed_status": "completed", "steps": 7, "run_id": "da4a1f3b972348e3b4cc16265cac5778", "seconds_before": 38, "seconds_after": 26, "rules_passed": true, "artifacts": "live-run/", "local_tool_replay_errors": []},
+    {"case": "restart_and_reload", "passed": true, "observed": "Saved real run, original 38-second input, provider, checks and trace restored; no new model call triggered"},
+    {"case": "history_selection", "passed": true, "observed": "Switching from missing-information run to prior real run restores both input and result"},
+    {"case": "download_script", "passed": true, "observed": "Actual browser download of script.md completed"}
+  ],
+  "layout_checks": [
+    {"viewport": {"width": 1366, "height": 900}, "screenshot": "desktop.png", "result": "Input and script side by side, legible controls and no observed clipping"},
+    {"viewport": {"width": 390, "height": 844}, "screenshot": "mobile.png", "document_width": 380, "result": "Stacked form/result with no horizontal overflow"}
+  ],
+  "trace_screenshot": "trace.png",
+  "browser_console_errors": [],
+  "review_fixes": ["Do not label unchecked unsourced text as approved", "Clear recovered polling errors", "Restore original input and provider with history", "Disambiguate history labels", "Increase small text and contrast"],
+  "limitations": ["Mock verifies deterministic flow only", "Codex real-model check is one sample, not a success-rate benchmark", "API provider was not tested with a real API key", "Cancel waits for the current model call before preventing further steps"]
+}

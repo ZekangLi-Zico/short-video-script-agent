@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>脚本试验台 · 短视频 Agent</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="脚本试验台首页"
+        ><img src="/favicon.svg" alt="" width="34" height="34" /><span
+          >脚本试验台</span
+        ></a
+      >
+      <div class="header-note">
+        <span class="connection-dot"></span>本地人工测试
+      </div>
+    </header>
+    <main>
+      <div class="page-heading">
+        <div>
+          <h1>从一个需求，到一份可核验的脚本。</h1>
+          <p>
+            填入创作需求，观察 Agent 如何查资料、写分镜，再根据检查结果修订。
+          </p>
+        </div>
+        <span class="project-label">第 4 题 · 短视频脚本 Agent</span>
+      </div>
+      <div id="global-error" class="error-banner" role="alert" hidden></div>
+      <div class="workspace">
+        <aside class="brief-panel" aria-label="创作需求与测试设置">
+          <form id="brief-form" novalidate>
+            <fieldset id="form-fields">
+              <div class="section-heading">
+                <h2>创作需求</h2>
+                <button type="button" id="reset-button" class="text-button">
+                  重置
+                </button>
+              </div>
+              <label for="preset">载入测试场景</label>
+              <select id="preset" name="preset">
+                <option value="normal">正常生成</option>
+              </select>
+              <p id="preset-hint" class="field-help">
+                检索产品资料，生成并检查一份脚本。
+              </p>
+
+              <label for="topic">主题</label>
+              <textarea
+                id="topic"
+                name="topic"
+                rows="3"
+                maxlength="500"
+                placeholder="例如：面向新手，介绍为口播视频添加字幕"
+              >
+介绍字幕功能</textarea
+              >
+              <label for="audience">给谁看</label>
+              <input
+                id="audience"
+                name="audience"
+                maxlength="500"
+                value="第一次制作口播短视频的创作者"
+                placeholder="描述你的目标受众"
+              />
+              <div class="field-row">
+                <div>
+                  <label for="platform">发布平台</label
+                  ><select id="platform" name="platform">
+                    <option>抖音</option>
+                    <option>小红书</option>
+                    <option>视频号</option>
+                    <option>B站</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="target-seconds"
+                    >目标时长 <span class="label-note">秒</span></label
+                  ><input
+                    id="target-seconds"
+                    name="target_seconds"
+                    type="number"
+                    min="1"
+                    max="300"
+                    value="30"
+                    placeholder="可留空测试"
+                  />
+                </div>
+              </div>
+              <label for="style">表达风格</label>
+              <input
+                id="style"
+                name="style"
+                maxlength="500"
+                value="清楚、友好、克制"
+              />
+              <label for="product">使用的产品资料</label>
+              <select id="product" name="product">
+                <option value="demo-editor">剪影练习版 · 示例素材</option>
+                <option value="product-without-materials">
+                  无素材产品 · 测试资料不足
+                </option>
+              </select>
+              <details class="material-details">
+                <summary>查看可用素材</summary>
+                <div id="materials" class="material-list"></div>
+                <p class="field-help">
+                  全部为虚构产品资料。当前脚本以这些原文与批准的连接语组合生成。
+                </p>
+              </details>
+
+              <div class="model-section">
+                <label for="provider">运行方式</label>
+                <select id="provider" name="provider">
+                  <option value="codex">真实模型 · Codex</option>
+                  <option value="mock">离线演练 · Mock</option>
+                  <option value="api">模型 API</option>
+                </select>
+                <p id="provider-hint" class="field-help">
+                  调用本机已登录的 Codex，通常需要一到数分钟。
+                </p>
+              </div>
+              <details id="advanced" class="advanced">
+                <summary>测试设置与旧稿</summary>
+                <label for="fault">工具故障模拟</label
+                ><select id="fault">
+                  <option value="none">不注入故障</option>
+                  <option value="search_materials:1">素材检索失败一次</option>
+                  <option value="search_materials:-1">素材检索持续失败</option>
+                  <option value="estimate_duration:-1">时长工具持续失败</option>
+                  <option value="check_rules:-1">规则工具持续失败</option>
+                </select>
+                <label for="initial-script"
+                  >待修订旧稿 <span class="label-note">JSON，可选</span></label
+                ><textarea
+                  id="initial-script"
+                  rows="7"
+                  spellcheck="false"
+                  placeholder="载入超时或纠错场景后，可在这里编辑旧稿。"
+                ></textarea>
+                <p class="field-help">
+                  留空则生成新稿。停止任务会等待当前模型调用返回，不会开始下一步。
+                </p>
+              </details>
+              <button type="submit" id="run-button" class="primary-button">
+                <svg viewBox="0 0 20 20" aria-hidden="true">
+                  <path d="m7 4 9 6-9 6Z" /></svg
+                ><span>生成并检查</span>
+              </button>
+              <p class="run-note" id="run-note">
+                真实模型运行会使用当前账号的额度。
+              </p>
+            </fieldset>
+          </form>
+        </aside>
+
+        <section class="result-panel" aria-label="运行结果">
+          <div class="result-topline">
+            <div class="run-status">
+              <span id="status-badge" class="status-badge idle">待运行</span
+              ><span id="run-detail">准备好后，开始第一次测试</span>
+            </div>
+            <button id="cancel-button" class="secondary-button small" hidden>
+              停止后续步骤
+            </button>
+          </div>
+          <div class="result-toolbar">
+            <div role="tablist" aria-label="结果视图" class="tabs">
+              <button
+                role="tab"
+                id="tab-script"
+                aria-controls="panel-script"
+                aria-selected="true"
+                data-tab="script"
+              >
+                脚本预览
+              </button>
+              <button
+                role="tab"
+                id="tab-trace"
+                aria-controls="panel-trace"
+                aria-selected="false"
+                tabindex="-1"
+                data-tab="trace"
+              >
+                执行过程 <span id="trace-count" class="count">0</span>
+              </button>
+              <button
+                role="tab"
+                id="tab-raw"
+                aria-controls="panel-raw"
+                aria-selected="false"
+                tabindex="-1"
+                data-tab="raw"
+              >
+                原始结果
+              </button>
+            </div>
+            <label class="history-label" for="history"
+              >最近运行<select id="history" aria-label="查看最近运行">
+                <option value="">暂无记录</option>
+              </select></label
+            >
+          </div>
+          <div id="offline-banner" class="offline-banner" hidden>
+            当前为离线演练：固定测试桩验证流程，不代表真实模型决策。
+          </div>
+          <div
+            id="result-message"
+            class="result-message"
+            role="status"
+            hidden
+          ></div>
+          <div id="summary-bar" class="summary-bar" hidden>
+            <span>预计时长 <strong id="duration-value">—</strong></span
+            ><span>事实与规则 <strong id="rule-value">待检查</strong></span
+            ><span>引用素材 <strong id="source-value">—</strong></span>
+          </div>
+
+          <section
+            id="panel-script"
+            class="tab-panel"
+            role="tabpanel"
+            aria-labelledby="tab-script"
+          >
+            <div id="script-empty" class="empty-state">
+              <svg viewBox="0 0 72 72" aria-hidden="true">
+                <rect x="12" y="15" width="48" height="42" rx="5" />
+                <path
+                  d="M12 26h48M23 15v11m13-11v11m13-11v11M29 35l15 8-15 8Z"
+                />
+              </svg>
+              <h2>你的下一份脚本，从这里开始。</h2>
+              <p>
+                先填写需求，或载入一个测试场景。<br />生成的分镜、来源和时长检查会显示在这里。
+              </p>
+              <button type="button" id="offline-demo" class="secondary-button">
+                先体验一次离线演练
+              </button>
+            </div>
+            <div id="script-content" hidden>
+              <div class="script-heading">
+                <h2 id="script-title"></h2>
+                <span id="draft-label" class="subtle-tag">草稿 · 待检查</span>
+              </div>
+              <div id="shots" class="shots"></div>
+              <div id="risks" class="risks" hidden></div>
+              <p class="estimate-note">
+                时长按旁白和镜头停留估算，未经实际配音或成片测量。
+              </p>
+            </div>
+          </section>
+          <section
+            id="panel-trace"
+            class="tab-panel"
+            role="tabpanel"
+            aria-labelledby="tab-trace"
+            hidden
+          >
+            <div class="trace-intro">
+              <h2>每一步，都有记录。</h2>
+              <p>这里展示实际工具调用、观察结果与简短动作依据。</p>
+            </div>
+            <ol id="timeline" class="timeline"></ol>
+            <p id="trace-empty" class="quiet-empty">
+              开始运行后，这里会随执行过程更新。
+            </p>
+            <div id="thinking" class="thinking" hidden>
+              <span class="spinner"></span>
+              <div>
+                <strong id="thinking-title">模型正在决定下一步</strong>
+                <p id="thinking-detail">当前调用完成后，将显示实际执行结果。</p>
+              </div>
+            </div>
+          </section>
+          <section
+            id="panel-raw"
+            class="tab-panel"
+            role="tabpanel"
+            aria-labelledby="tab-raw"
+            hidden
+          >
+            <h2>结构化结果</h2>
+            <p class="field-help">
+              便于核对状态、来源与检查结果。任务运行中显示当前草稿。
+            </p>
+            <pre id="raw-output">尚未运行。</pre>
+          </section>
+
+          <footer class="result-footer">
+            <span id="save-note">运行记录会保存在本机，便于复验。</span>
+            <div id="downloads" hidden>
+              <a id="download-script" class="download-link">下载脚本</a
+              ><a id="download-trace" class="download-link">下载 Trace</a
+              ><a id="download-result" class="download-link">下载 JSON</a>
+            </div>
+          </footer>
+        </section>
+      </div>
+      <footer class="page-footer">
+        <span>本地运行 · 合成素材 · 只生成脚本</span
+        ><span>先核对事实，再判断表达。</span>
+      </footer>
+    </main>
+  </body>
+</html>
