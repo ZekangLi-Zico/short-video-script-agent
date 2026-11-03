@@ -1,0 +1,2 @@
+# Python >= 3.11. Runtime and tests use only the Python standard library.
+# Optional real-model backend: separately installed, logged-in Codex CLI.

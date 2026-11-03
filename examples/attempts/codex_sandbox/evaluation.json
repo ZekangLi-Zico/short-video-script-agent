@@ -1,0 +1,17 @@
+[
+  {
+    "case": "normal",
+    "expected_status": [
+      "completed"
+    ],
+    "actual_status": "blocked",
+    "passed": false,
+    "errors": [
+      "status=blocked, expected one of ['completed']"
+    ],
+    "steps": 1,
+    "evidence_kind": "real_model",
+    "path": "model_error",
+    "artifacts": "examples\\live\\normal"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "status": "blocked",
+  "message": "检索工具持续故障，尚未获得可引用的字幕功能事实，无法生成合规脚本或完成时长与规则检查。需待检索工具恢复后继续。",
+  "script": null,
+  "duration": null,
+  "rules_check": null,
+  "sources": [],
+  "metadata": {
+    "started_at": "2026-11-03T11:45:12.880584+00:00",
+    "finished_at": "2026-11-03T11:46:15.638374+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 4,
+    "synthetic_data": true,
+    "model_responses": 4
+  }
+}

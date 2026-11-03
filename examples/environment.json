@@ -1,0 +1,14 @@
+{
+  "verified_date": "2026-11-03",
+  "timezone_for_user_dates": "Asia/Shanghai",
+  "os": "Windows",
+  "python": "3.12.14",
+  "third_party_python_dependencies": [],
+  "model_backend": "Codex CLI",
+  "working_cli_version": "0.166.0-alpha.5.1",
+  "incompatible_path_cli_version": "0.152.1",
+  "real_model": "gpt-6-astra",
+  "model_api_live_tested": false,
+  "global_model_configuration_changed": false,
+  "github_uploaded": false
+}

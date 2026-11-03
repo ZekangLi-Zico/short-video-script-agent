@@ -1,0 +1,110 @@
+[
+  {
+    "case": "normal",
+    "expected_status": [
+      "completed"
+    ],
+    "actual_status": "completed",
+    "passed": true,
+    "errors": [],
+    "steps": 5,
+    "evidence_kind": "real_model",
+    "path": "search_materials -> write_script -> estimate_duration -> check_rules -> finish",
+    "artifacts": "examples\\live\\normal"
+  },
+  {
+    "case": "missing_information",
+    "expected_status": [
+      "needs_input"
+    ],
+    "actual_status": "needs_input",
+    "passed": true,
+    "errors": [],
+    "steps": 0,
+    "evidence_kind": "real_model",
+    "path": "",
+    "artifacts": "examples\\live\\missing_information"
+  },
+  {
+    "case": "no_material",
+    "expected_status": [
+      "blocked",
+      "needs_input"
+    ],
+    "actual_status": "needs_input",
+    "passed": true,
+    "errors": [],
+    "steps": 3,
+    "evidence_kind": "real_model",
+    "path": "search_materials -> search_materials -> finish",
+    "artifacts": "examples\\live\\no_material"
+  },
+  {
+    "case": "tool_failure",
+    "expected_status": [
+      "blocked",
+      "step_limit"
+    ],
+    "actual_status": "blocked",
+    "passed": true,
+    "errors": [],
+    "steps": 4,
+    "evidence_kind": "real_model",
+    "path": "search_materials -> search_materials -> search_materials -> finish",
+    "artifacts": "examples\\live\\tool_failure"
+  },
+  {
+    "case": "recoverable_failure",
+    "expected_status": [
+      "completed"
+    ],
+    "actual_status": "completed",
+    "passed": true,
+    "errors": [],
+    "steps": 6,
+    "evidence_kind": "real_model",
+    "path": "search_materials -> search_materials -> write_script -> estimate_duration -> check_rules -> finish",
+    "artifacts": "examples\\live\\recoverable_failure"
+  },
+  {
+    "case": "over_duration",
+    "expected_status": [
+      "completed"
+    ],
+    "actual_status": "completed",
+    "passed": true,
+    "errors": [],
+    "steps": 7,
+    "evidence_kind": "real_model",
+    "path": "estimate_duration -> check_rules -> search_materials -> write_script -> estimate_duration -> check_rules -> finish",
+    "artifacts": "examples\\live\\over_duration"
+  },
+  {
+    "case": "rule_revision",
+    "expected_status": [
+      "completed"
+    ],
+    "actual_status": "completed",
+    "passed": true,
+    "errors": [],
+    "steps": 7,
+    "evidence_kind": "real_model",
+    "path": "estimate_duration -> check_rules -> search_materials -> write_script -> estimate_duration -> check_rules -> finish",
+    "artifacts": "examples\\live\\rule_revision"
+  },
+  {
+    "case": "impossible_duration",
+    "expected_status": [
+      "blocked",
+      "needs_input",
+      "step_limit"
+    ],
+    "actual_status": "needs_input",
+    "passed": true,
+    "errors": [],
+    "steps": 1,
+    "evidence_kind": "real_model",
+    "path": "finish",
+    "artifacts": "examples\\live\\impossible_duration"
+  }
+]

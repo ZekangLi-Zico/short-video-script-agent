@@ -1,0 +1,50 @@
+test_all_acceptance_scenarios_offline (test_agent.AgentTests.test_all_acceptance_scenarios_offline) ... ok
+test_cannot_finish_without_checks (test_agent.AgentTests.test_cannot_finish_without_checks) ... ok
+test_failed_check_cannot_be_reported_as_completed (test_agent.AgentTests.test_failed_check_cannot_be_reported_as_completed) ... ok
+test_invalid_target_values (test_agent.AgentTests.test_invalid_target_values) ... ok
+test_missing_field_never_calls_model (test_agent.AgentTests.test_missing_field_never_calls_model) ... ok
+test_model_error_is_not_offline_fallback (test_agent.AgentTests.test_model_error_is_not_offline_fallback) ... ok
+test_no_mutation_of_input_or_materials (test_agent.AgentTests.test_no_mutation_of_input_or_materials) ... ok
+test_request_target_is_bound_by_host (test_agent.AgentTests.test_request_target_is_bound_by_host) ... ok
+test_revision_invalidates_both_checks (test_agent.AgentTests.test_revision_invalidates_both_checks) ... ok
+test_step_limit_is_validated (test_agent.AgentTests.test_step_limit_is_validated) ... ok
+test_unknown_action_is_observation_and_bounded (test_agent.AgentTests.test_unknown_action_is_observation_and_bounded) ... ok
+test_valid_completion_and_saved_artifacts (test_agent.AgentTests.test_valid_completion_and_saved_artifacts) ... ok
+test_save_failure_never_prints_success (test_cli.CLITests.test_save_failure_never_prints_success) ... ok
+test_step_limit_cli_exit_is_nonzero (test_cli.CLITests.test_step_limit_cli_exit_is_nonzero) ... ok
+test_success_exit_and_actual_files (test_cli.CLITests.test_success_exit_and_actual_files) ... ok
+test_replay_accepts_real_tool_outputs_and_detects_tampering (test_evidence.EvidenceTests.test_replay_accepts_real_tool_outputs_and_detects_tampering) ... ok
+test_bad_api_configuration_is_rejected (test_providers.ProviderTests.test_bad_api_configuration_is_rejected) ... ok
+test_chat_compatible_adapter (test_providers.ProviderTests.test_chat_compatible_adapter) ... ok
+test_codex_adapter_uses_json_and_keeps_reasoning_out_of_metadata (test_providers.ProviderTests.test_codex_adapter_uses_json_and_keeps_reasoning_out_of_metadata) ... ok
+test_codex_timeout_is_explicit (test_providers.ProviderTests.test_codex_timeout_is_explicit) ... ok
+test_codex_unexpected_tools_are_rejected (test_providers.ProviderTests.test_codex_unexpected_tools_are_rejected) ... ok
+test_http_error_does_not_echo_provider_body_or_key (test_providers.ProviderTests.test_http_error_does_not_echo_provider_body_or_key) ... ok
+test_json_markdown_or_text_is_not_silently_accepted (test_providers.ProviderTests.test_json_markdown_or_text_is_not_silently_accepted) ... ok
+test_missing_credentials_have_no_fallback (test_providers.ProviderTests.test_missing_credentials_have_no_fallback) ... ok
+test_responses_adapter_sends_observation_and_schema (test_providers.ProviderTests.test_responses_adapter_sends_observation_and_schema) ... ok
+test_timeout_terminates_only_the_created_process_tree (test_providers.ProviderTests.test_timeout_terminates_only_the_created_process_tree) ... ok
+test_boundary_duration_is_allowed (test_tools.ToolTests.test_boundary_duration_is_allowed) ... ok
+test_cannot_fake_duration_by_zeroing_holds (test_tools.ToolTests.test_cannot_fake_duration_by_zeroing_holds) ... ok
+test_changed_query_changes_result (test_tools.ToolTests.test_changed_query_changes_result) ... ok
+test_chinese_and_english_units (test_tools.ToolTests.test_chinese_and_english_units) ... ok
+test_citation_with_real_id_and_fake_text_is_rejected (test_tools.ToolTests.test_citation_with_real_id_and_fake_text_is_rejected) ... ok
+test_claim_in_title_or_visual_cannot_bypass_rules (test_tools.ToolTests.test_claim_in_title_or_visual_cannot_bypass_rules) ... ok
+test_custom_materials_are_not_assumed_synthetic (test_tools.ToolTests.test_custom_materials_are_not_assumed_synthetic) ... ok
+test_duplicate_source_and_malformed_data_are_rejected (test_tools.ToolTests.test_duplicate_source_and_malformed_data_are_rejected) ... ok
+test_fact_in_creative_block_is_rejected (test_tools.ToolTests.test_fact_in_creative_block_is_rejected) ... ok
+test_fact_is_not_accepted_without_retrieval (test_tools.ToolTests.test_fact_is_not_accepted_without_retrieval) ... ok
+test_fault_injection_only_changes_requested_count (test_tools.ToolTests.test_fault_injection_only_changes_requested_count) ... ok
+test_invalid_estimator_configuration_is_rejected (test_tools.ToolTests.test_invalid_estimator_configuration_is_rejected) ... ok
+test_malformed_tool_arguments_are_errors (test_tools.ToolTests.test_malformed_tool_arguments_are_errors) ... ok
+test_no_fact_script_is_rejected (test_tools.ToolTests.test_no_fact_script_is_rejected) ... ok
+test_overlong_hold_is_detected_even_if_speech_is_short (test_tools.ToolTests.test_overlong_hold_is_detected_even_if_speech_is_short) ... ok
+test_search_can_return_no_results (test_tools.ToolTests.test_search_can_return_no_results) ... ok
+test_search_has_real_source_and_product_isolation (test_tools.ToolTests.test_search_has_real_source_and_product_isolation) ... ok
+test_source_update_invalidates_old_statement (test_tools.ToolTests.test_source_update_invalidates_old_statement) ... ok
+test_successful_quotes_are_exact (test_tools.ToolTests.test_successful_quotes_are_exact) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 0.201s
+
+OK

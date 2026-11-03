@@ -1,0 +1,10 @@
+{
+  "synthetic": true,
+  "description": "笔试用虚构产品‘剪影练习版’，不代表任何真实产品。",
+  "materials": [
+    {"id": "P01", "product_id": "demo-editor", "title": "字幕功能说明", "version": "2026-11-01", "keywords": ["字幕", "口播", "文字", "caption", "subtitle"], "facts": [{"id": "P01.F1", "text": "剪影练习版支持为视频添加字幕。"}, {"id": "P01.F2", "text": "字幕文字可以手动编辑。"}]},
+    {"id": "P02", "product_id": "demo-editor", "title": "剪辑功能说明", "version": "2026-11-01", "keywords": ["剪辑", "裁剪", "片段", "trim", "edit"], "facts": [{"id": "P02.F1", "text": "剪影练习版支持裁剪视频片段。"}]},
+    {"id": "P03", "product_id": "demo-editor", "title": "画面比例说明", "version": "2026-11-01", "keywords": ["比例", "竖屏", "横屏", "画面", "aspect"], "facts": [{"id": "P03.F1", "text": "剪影练习版提供横屏和竖屏画面比例选项。"}]},
+    {"id": "OTHER01", "product_id": "other-product", "title": "其他产品", "version": "2026-11-01", "keywords": ["字幕"], "facts": [{"id": "OTHER01.F1", "text": "其他产品支持导出字幕文件。"}]}
+  ]
+}
