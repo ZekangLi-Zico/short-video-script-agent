@@ -14,7 +14,7 @@
 
 历史结果单独保留：[v7自然旁白20次](docs/17-v7-natural-voice.md)、[v7.2调用故障修复](evaluations/call-fix-v7.2-20261106/README.md)、[v7.3动作与对白对照](evaluations/staging-v7.3-20261106/README.md)。这些不是本次v7.3.1的实验次数。需求、方案、评估、AI辅助与复盘见docs/01–05。
 
-仓库为公开项目，当前提交版本以Git commit SHA为准，可运行`git rev-parse HEAD`获取。GitHub发布与笔试平台交卷是两个步骤；候选人实际投入时间仍须本人补充，具体见提交清单。旧报告保留当时的提交状态，最新交付入口以本页为准。
+仓库为公开项目，当前提交版本以Git commit SHA为准，可运行`git rev-parse HEAD`获取。GitHub发布与笔试平台交卷是两个步骤；候选人实际投入约4小时，根据2026年11月3日至6日的聊天与人工测试记录事后估算，不含AI后台编码、自动测试和模型等待；具体见[个人投入与贡献说明](docs/20-personal-contribution.md)。旧报告保留当时的提交状态，最新交付入口以本页为准。
 
 ## 网页人工测试
 
