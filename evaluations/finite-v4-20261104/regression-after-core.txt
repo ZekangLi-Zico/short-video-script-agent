@@ -1,0 +1,9 @@
+test_adapter_sends_bound_timing_and_hold_semantics (tests.test_finite_v4.DurationContextTests.test_adapter_sends_bound_timing_and_hold_semantics) ... ok
+test_agent_passes_actual_current_timing_to_reviewer (tests.test_finite_v4.DurationContextTests.test_agent_passes_actual_current_timing_to_reviewer) ... ok
+test_unexpected_exception_preserves_last_completed_steps_and_draft (tests.test_finite_v4.EvidenceDurabilityTests.test_unexpected_exception_preserves_last_completed_steps_and_draft) ... ok
+test_valid_codex_response_survives_cleanup_lock (tests.test_finite_v4.EvidenceDurabilityTests.test_valid_codex_response_survives_cleanup_lock) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.152s
+
+OK

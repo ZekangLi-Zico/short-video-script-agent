@@ -1,0 +1,8 @@
+{
+  "case": "V20",
+  "assessment": "改进",
+  "note": "新标题直接包含大厅横屏、手机竖屏，正文先大厅后手机，两种比例说明明确且没有自动同步或追踪承诺。15.7秒仍在25秒上限内；旧稿9.8秒也合格，提升主要是场景辨识和交付说明。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

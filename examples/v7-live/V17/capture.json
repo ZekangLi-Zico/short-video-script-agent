@@ -1,0 +1,13 @@
+{
+  "case": "V17",
+  "index": 10,
+  "attempt": 1,
+  "run_id": "b2efd01b86914cb3a6fd0d15640ef44a",
+  "folder": "V17",
+  "status": "completed",
+  "steps": 4,
+  "responses": 5,
+  "provider": "codex",
+  "seconds": 24,
+  "message": "已完成两镜静音展位屏脚本，介绍添加字幕与裁剪片段，所有关键信息均以屏幕文字呈现。预计24秒，时长、规则与需求检查全部通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

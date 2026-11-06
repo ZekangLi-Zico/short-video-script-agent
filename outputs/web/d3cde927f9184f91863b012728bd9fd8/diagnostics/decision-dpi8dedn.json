@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-dpi8dedn",
+  "started_at": "2026-11-03T20:26:27.290299+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:26:53.269751+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a317-7da5-79d1-8122-8c43bfc4d514",
+    "usage": {
+      "input_tokens": 35933,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 350,
+      "reasoning_output_tokens": 221
+    },
+    "call_id": "decision-dpi8dedn",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-fdmj42rv",
+  "started_at": "2026-11-04T15:27:08.661026+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:27:34.274950+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a72b-d4bf-7cb1-a5ad-f42d312cf0be",
+    "usage": {
+      "input_tokens": 31370,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 175,
+      "reasoning_output_tokens": 81
+    },
+    "call_id": "decision-fdmj42rv",
+    "warnings": []
+  }
+}

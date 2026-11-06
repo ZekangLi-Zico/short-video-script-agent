@@ -1,0 +1,48 @@
+{
+  "topic": "审核并修改所附字幕介绍旧稿；客户没有提供自动识别和准确率数据。保留可确认的产品功能，明确处理无法确认的说法。",
+  "audience": "新手内容创作者",
+  "platform": "小红书",
+  "target_seconds": 28,
+  "style": "客观，实用",
+  "product_id": "demo-editor",
+  "expression_mode": "creative",
+  "duration_mode": "max",
+  "initial_script": {
+    "title": "口播字幕小帮手",
+    "shots": [
+      {
+        "visual": "桌上的采访话筒",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "显示自动识别示意",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "自动识别人声，字幕准确率达到99%。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "便签上手改错字",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      }
+    ]
+  }
+}

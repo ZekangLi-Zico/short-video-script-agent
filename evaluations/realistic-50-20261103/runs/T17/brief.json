@@ -1,0 +1,16 @@
+{
+  "id": "T17",
+  "name": "英文受众",
+  "context": "创作者给英语观众发布工具介绍。",
+  "request": {
+    "topic": "Write an English-only short video script introducing video captions and manual caption text editing in 剪影练习版. Keep the product name unchanged.",
+    "audience": "English-speaking beginner creators",
+    "platform": "B站",
+    "style": "English only, plain and friendly",
+    "product_id": "demo-editor",
+    "target_seconds": 20
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

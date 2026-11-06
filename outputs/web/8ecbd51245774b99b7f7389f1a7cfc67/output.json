@@ -1,0 +1,288 @@
+{
+  "status": "completed",
+  "message": "已完成三镜工作记录稿，包含修剪花枝、摆花桶、整理台面，仅介绍裁剪视频片段，无花店推销、价格或优惠。本轮无需删改。估时约11秒，符合18秒上限；实际时长以剪辑成片为准。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "花店工作记录｜裁剪视频片段",
+    "shots": [
+      {
+        "visual": "修剪花枝的工作录像近景：手边留着剪下的枝叶，保持真实工作状态。旁白同步显示字幕。",
+        "hold_seconds": 3,
+        "blocks": [
+          {
+            "text": "先记下手边的活。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "摆放花桶的工作录像中景，背景保留日常工作现场。叠加产品功能文字卡，不展示软件界面；卡片文字不另配旁白。",
+        "hold_seconds": 5,
+        "blocks": [
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ]
+      },
+      {
+        "visual": "整理台面的工作录像：归拢枝叶、擦拭台面，最后停在收拾后的工作台。旁白同步显示字幕，保留轻微现场声。",
+        "hold_seconds": 3,
+        "blocks": [
+          {
+            "text": "今天的工作，留这一小段。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ],
+    "editor_notes": "整体采用随手记录的质感，只介绍裁剪视频片段，不加入其他功能、花店推销或价格优惠。第二镜的事实卡仅供阅读；估时工具仍会串行计算全部文字，结果作为剪辑参考。"
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "027d87ad08fe361ae3441cabde082e3b3fcd28000c6cba0392598775b088ef84",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 7,
+        "estimated_seconds": 3.0
+      },
+      {
+        "shot": 2,
+        "speech_units": 13,
+        "estimated_seconds": 5.0
+      },
+      {
+        "shot": 3,
+        "speech_units": 10,
+        "estimated_seconds": 3.0
+      }
+    ],
+    "total_seconds": 11.0,
+    "target_seconds": 18,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "027d87ad08fe361ae3441cabde082e3b3fcd28000c6cba0392598775b088ef84",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "花店工作记录｜裁剪视频片段"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "修剪花枝的工作录像近景：手边留着剪下的枝叶，保持真实工作状态。旁白同步显示字幕。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "先记下手边的活。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "摆放花桶的工作录像中景，背景保留日常工作现场。叠加产品功能文字卡，不展示软件界面；卡片文字不另配旁白。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "整理台面的工作录像：归拢枝叶、擦拭台面，最后停在收拾后的工作台。旁白同步显示字幕，保留轻微现场声。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "今天的工作，留这一小段。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "027d87ad08fe361ae3441cabde082e3b3fcd28000c6cba0392598775b088ef84",
+    "request_hash": "a24a1a5495f8304a488d6830e49e8e02297d4b9034ae85c69a80899436b21d87",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "修剪花枝",
+        "verdict": "met",
+        "evidence": "第1镜明确使用“修剪花枝的工作录像近景”，并保留剪下的枝叶。"
+      },
+      {
+        "field": "topic",
+        "requirement": "摆花桶",
+        "verdict": "met",
+        "evidence": "第2镜明确使用“摆放花桶的工作录像中景”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "整理台面",
+        "verdict": "met",
+        "evidence": "第3镜明确安排“归拢枝叶、擦拭台面”，最后展示收拾后的工作台。"
+      },
+      {
+        "field": "topic",
+        "requirement": "只介绍裁剪视频片段",
+        "verdict": "met",
+        "evidence": "标题及第2镜仅介绍“裁剪视频片段”；第2镜原文为“剪影练习版支持裁剪视频片段。”全稿未出现其他产品功能。同步字幕、文字卡和现场声均为拍摄制作安排，未宣称为产品能力。"
+      },
+      {
+        "field": "topic",
+        "requirement": "片子像工作记录",
+        "verdict": "met",
+        "evidence": "三镜依次记录修枝、摆桶、整理台面；“先记下手边的活”“今天的工作，留这一小段”与现场声共同形成工作记录语气。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不是花店广告",
+        "verdict": "met",
+        "evidence": "画面聚焦花店劳动过程，没有花店商品卖点、购买邀请或到店推广。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不能出现价格或优惠",
+        "verdict": "met",
+        "evidence": "标题、三镜画面说明及全部文字均未出现价格、折扣或优惠信息。"
+      },
+      {
+        "field": "audience",
+        "requirement": "独立花店运营",
+        "verdict": "met",
+        "evidence": "修枝、摆桶、清理工作台均直接对应花店运营工作，裁剪工作录像的内容与该受众相关。"
+      },
+      {
+        "field": "platform",
+        "requirement": "小红书",
+        "verdict": "met",
+        "evidence": "采用简短工作记录、近景与中景、同步字幕及功能文字卡，适合短视频观看；无需直接写出平台名称。"
+      },
+      {
+        "field": "style",
+        "requirement": "轻松",
+        "verdict": "met",
+        "evidence": "“先记下手边的活”“今天的工作，留这一小段”表达自然简短，没有强推销或夸张措辞。"
+      },
+      {
+        "field": "style",
+        "requirement": "真实",
+        "verdict": "met",
+        "evidence": "第1镜保留剪下的枝叶，第2镜保留日常工作现场，第3镜保留轻微现场声，均支持真实记录的表现方式。"
+      }
+    ],
+    "summary": "需求均已落实：三类工作场景齐全，仅介绍裁剪视频片段，没有花店推销、价格或优惠。表达有资料支持，镜头节奏合理。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "花店工作记录｜裁剪视频片段",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ],
+        "evidence": "标题中的功能“裁剪视频片段”由P02.F1“剪影练习版支持裁剪视频片段。”支持；“花店工作记录”为题材定位，没有额外效果承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "修剪花枝的工作录像近景：手边留着剪下的枝叶，保持真实工作状态。旁白同步显示字幕。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "内容为修枝场景、景别及字幕安排，没有声称产品具备自动字幕等能力。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "先记下手边的活。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于工作记录的开场连接语，不包含可验证的产品能力或效果承诺。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "摆放花桶的工作录像中景，背景保留日常工作现场。叠加产品功能文字卡，不展示软件界面；卡片文字不另配旁白。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "描述摆桶背景、文字卡及声音安排，没有虚构产品按钮、界面布局或操作流程。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "整理台面的工作录像：归拢枝叶、擦拭台面，最后停在收拾后的工作台。旁白同步显示字幕，保留轻微现场声。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于整理台面的动作、收尾画面及声音制作安排，不包含产品声明。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "今天的工作，留这一小段。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于记录工作片段的收尾表达，没有承诺产品自动选片、保存或其他能力。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "duration_check给出的三镜预计时长分别为3秒、5秒、3秒，均满足对应hold_seconds。第1镜配7个语音单位及修枝近景；第2镜用5秒阅读13单位功能卡，同时观察摆桶，且明确不另配旁白；第3镜配10个语音单位及归拢、擦拭、收尾的简短动作。每镜均有明确内容支撑，没有重复事实或空镜凑时长。总长11秒，宿主已判定通过18秒上限。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-04T01:12:11.157629+00:00",
+    "finished_at": "2026-11-04T01:15:37.720078+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "optional_editor_notes_v1",
+    "model_responses": 7,
+    "run_id": "d5bebdbb651743f58d3b08fbbeb0d184",
+    "persistence": "checkpoint_v1"
+  }
+}

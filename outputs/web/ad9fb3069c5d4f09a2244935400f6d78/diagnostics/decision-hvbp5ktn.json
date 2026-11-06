@@ -1,0 +1,24 @@
+{
+  "call_id": "decision-hvbp5ktn",
+  "started_at": "2026-11-04T15:25:16.306952+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "cleanup_error_type": "PermissionError",
+  "finished_at": "2026-11-04T15:25:48.842266+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a72a-1b5c-7343-a896-c87d98ce202b",
+    "usage": {
+      "input_tokens": 32058,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 162,
+      "reasoning_output_tokens": 69
+    },
+    "call_id": "decision-hvbp5ktn",
+    "warnings": [
+      "cleanup_deferred"
+    ]
+  }
+}

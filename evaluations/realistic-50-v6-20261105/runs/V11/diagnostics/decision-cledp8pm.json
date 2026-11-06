@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-cledp8pm",
+  "started_at": "2026-11-04T17:21:34.753832+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:22:15.145531+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a794-9698-7f32-8e2f-d707688415a6",
+    "usage": {
+      "input_tokens": 29492,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1538,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-cledp8pm",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-zrap_b7x",
+  "started_at": "2026-11-04T01:44:00.532623+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:44:34.936560+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a43a-37f3-7cf3-9ec9-7e83a7cf39a6",
+    "usage": {
+      "input_tokens": 29617,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 812,
+      "reasoning_output_tokens": 514
+    },
+    "call_id": "decision-zrap_b7x",
+    "warnings": []
+  }
+}

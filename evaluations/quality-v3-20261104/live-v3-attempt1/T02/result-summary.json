@@ -1,0 +1,16 @@
+{
+  "id": "T02",
+  "status": "completed",
+  "steps": 6,
+  "model_responses": 7,
+  "duration": 16.3,
+  "path": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "check_requirements",
+    "finish"
+  ],
+  "message": "已完成4镜头脚本，以校园采访花絮为背景，分步介绍添加字幕和手动编辑字幕文字。当前稿无需删改，三项检查均通过；工具估算约16.3秒，符合25秒上限。该时长非成片实测，文字卡阅读节奏需在剪辑时核对。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

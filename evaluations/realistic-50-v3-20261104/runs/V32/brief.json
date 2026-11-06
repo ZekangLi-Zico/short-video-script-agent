@@ -1,0 +1,18 @@
+{
+  "id": "V32",
+  "name": "慢节奏教学卡",
+  "context": "培训老师希望每个信息点有阅读时间。",
+  "request": {
+    "topic": "用三个分镜介绍字幕添加和手动改字，每个镜头至少停留5秒。场景为笔记本、字幕示意卡、讲义夹，目标接近25秒。",
+    "audience": "初次编辑课程视频的教师",
+    "platform": "B站",
+    "target_seconds": 25,
+    "style": "慢节奏，明确",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "target"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

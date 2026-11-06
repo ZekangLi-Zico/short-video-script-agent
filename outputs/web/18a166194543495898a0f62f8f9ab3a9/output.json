@@ -1,0 +1,531 @@
+{
+  "status": "completed",
+  "message": "已完成面向运营实习生的B站六镜头教学稿，围绕工作交接依次讲解片段裁剪、字幕核对和比例选择，并安排复查与交接说明。保留当前稿，无需追加删改；未虚构按钮操作，也未安排无意义长停留。估时58.1秒，符合54—60秒目标区间，三项检查全部通过；实际成片时长仍需制作后确认。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "工作交接：围绕现有录像安排剪辑",
+    "shots": [
+      {
+        "visual": "旁白对应全部文字块。实习生观看同事留下的工作录像，画面依次切到录像中的工作过程、纸上记录的步骤、负责人和期限；记录内容以实际录像为准。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "接手同事留下的录像，先完整看一遍，记下这项工作的步骤、负责人和交接期限。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "旁白对应全部文字块。依次展示原录像中的准备、执行、检查片段，再用纸面分镜标记要保留的关键动作和可删去的等待、重复内容；不展示软件按钮。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          },
+          {
+            "text": "先标出准备、执行、检查三段，保留关键动作，删去等待和重复。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "旁白对应全部文字块。播放现有录像的不同片段，将对应原声文字作为字幕叠加；随后切到字幕文字特写和纸面核对清单，逐项核对录像实际出现的姓名、数字与期限。不展示未经提供的编辑界面。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          },
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          },
+          {
+            "text": "听着原录音核对字幕，把姓名、数字和交接期限逐项看清。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "旁白对应全部文字块。通过后期示意，先后把同一段现有录像放入横屏和竖屏画框，分别观察关键动作与字幕的可见范围，再切到实习生在纸上记录选择理由；不暗示产品具有并排预览或自动适配功能。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          },
+          {
+            "text": "对照同一段录像，选择能保留关键动作、又方便阅读字幕的比例。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "旁白对应全部文字块。连续展示片段衔接处、字幕与对应动作、关键动作的完整画面；实习生随观看进度在纸面检查单上逐项打勾。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "从头复看一次：步骤衔接是否清楚，字幕是否对应画面，关键动作是否完整入镜。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "旁白对应全部文字块。实习生整理纸面交接说明，依次指向保留片段的记录、待核对的字幕文字和比例选择理由，再将说明交给同事，结尾落在双方共同查看录像的动作上。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "交接时，附上保留片段、字幕疑问和比例选择，方便接手的人继续核对。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "51d3f75860ed09a7e527e998c9865273ef1b93a9c3ed2e5fdaf5a2583c1eff48",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 32,
+        "estimated_seconds": 8.5
+      },
+      {
+        "shot": 2,
+        "speech_units": 37,
+        "estimated_seconds": 9.8
+      },
+      {
+        "shot": 3,
+        "speech_units": 47,
+        "estimated_seconds": 12.3
+      },
+      {
+        "shot": 4,
+        "speech_units": 44,
+        "estimated_seconds": 11.5
+      },
+      {
+        "shot": 5,
+        "speech_units": 32,
+        "estimated_seconds": 8.5
+      },
+      {
+        "shot": 6,
+        "speech_units": 28,
+        "estimated_seconds": 7.5
+      }
+    ],
+    "total_seconds": 58.1,
+    "target_seconds": 60,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true,
+    "duration_mode": "target",
+    "min_seconds": 54.0,
+    "max_seconds": 60,
+    "issue": null
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "51d3f75860ed09a7e527e998c9865273ef1b93a9c3ed2e5fdaf5a2583c1eff48",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:3/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:3/block:2",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:4/block:1",
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "工作交接：围绕现有录像安排剪辑"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "旁白对应全部文字块。实习生观看同事留下的工作录像，画面依次切到录像中的工作过程、纸上记录的步骤、负责人和期限；记录内容以实际录像为准。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "接手同事留下的录像，先完整看一遍，记下这项工作的步骤、负责人和交接期限。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "旁白对应全部文字块。依次展示原录像中的准备、执行、检查片段，再用纸面分镜标记要保留的关键动作和可删去的等待、重复内容；不展示软件按钮。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "先标出准备、执行、检查三段，保留关键动作，删去等待和重复。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "旁白对应全部文字块。播放现有录像的不同片段，将对应原声文字作为字幕叠加；随后切到字幕文字特写和纸面核对清单，逐项核对录像实际出现的姓名、数字与期限。不展示未经提供的编辑界面。"
+      },
+      {
+        "location": "shot:3/block:3",
+        "text": "听着原录音核对字幕，把姓名、数字和交接期限逐项看清。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "旁白对应全部文字块。通过后期示意，先后把同一段现有录像放入横屏和竖屏画框，分别观察关键动作与字幕的可见范围，再切到实习生在纸上记录选择理由；不暗示产品具有并排预览或自动适配功能。"
+      },
+      {
+        "location": "shot:4/block:2",
+        "text": "对照同一段录像，选择能保留关键动作、又方便阅读字幕的比例。"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "旁白对应全部文字块。连续展示片段衔接处、字幕与对应动作、关键动作的完整画面；实习生随观看进度在纸面检查单上逐项打勾。"
+      },
+      {
+        "location": "shot:5/block:1",
+        "text": "从头复看一次：步骤衔接是否清楚，字幕是否对应画面，关键动作是否完整入镜。"
+      },
+      {
+        "location": "shot:6/visual",
+        "text": "旁白对应全部文字块。实习生整理纸面交接说明，依次指向保留片段的记录、待核对的字幕文字和比例选择理由，再将说明交给同事，结尾落在双方共同查看录像的动作上。"
+      },
+      {
+        "location": "shot:6/block:1",
+        "text": "交接时，附上保留片段、字幕疑问和比例选择，方便接手的人继续核对。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "51d3f75860ed09a7e527e998c9865273ef1b93a9c3ed2e5fdaf5a2583c1eff48",
+    "request_hash": "e649bd32b380ab985c81ac5b1dd8cb23cf20267ebcbd534e6731c545f0d4c7e9",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "用一分钟左右",
+        "verdict": "met",
+        "evidence": "duration_check估算总长58.1秒，目标区间54—60秒，passed=true。"
+      },
+      {
+        "field": "topic",
+        "requirement": "围绕现有录像",
+        "verdict": "met",
+        "evidence": "镜头1观看“同事留下的工作录像”；镜头2—4均围绕原录像规划裁剪、核对字幕、比较比例。"
+      },
+      {
+        "field": "topic",
+        "requirement": "安排字幕",
+        "verdict": "met",
+        "evidence": "镜头3展示原声文字叠加为字幕，并指导“听着原录音核对字幕，把姓名、数字和交接期限逐项看清”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "片段裁剪",
+        "verdict": "met",
+        "evidence": "镜头2说明支持裁剪视频片段，并给出“保留关键动作，删去等待和重复”的具体取舍方法。"
+      },
+      {
+        "field": "topic",
+        "requirement": "比例选择",
+        "verdict": "met",
+        "evidence": "镜头4用同一段录像先后示意横屏、竖屏，指导依据关键动作和字幕可见范围选择比例。"
+      },
+      {
+        "field": "topic",
+        "requirement": "背景是工作交接",
+        "verdict": "met",
+        "evidence": "标题明确“工作交接”；镜头1记录工作步骤、负责人和期限，镜头6整理交接说明并交给同事，场景贯穿全稿。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不要虚构按钮操作",
+        "verdict": "met",
+        "evidence": "镜头2明确“不展示软件按钮”，镜头3不展示未经提供的编辑界面，镜头4采用后期示意；全文未编造按钮名称、界面布局或点击路径。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不要同一画面无意义长停留",
+        "verdict": "met",
+        "evidence": "各镜均安排片段切换或具体动作。最长的镜头3为12.3秒，包含不同片段、字幕特写和逐项核对；镜头4为11.5秒，包含两种画框比较及记录理由，没有静止空镜凑时长。"
+      },
+      {
+        "field": "audience",
+        "requirement": "工作室新来的运营实习生",
+        "verdict": "met",
+        "evidence": "以实习生接手同事录像为情境，使用纸面记录、关键动作取舍和检查清单解释流程，适合缺少剪辑经验的新运营理解。"
+      },
+      {
+        "field": "platform",
+        "requirement": "B站",
+        "verdict": "met",
+        "evidence": "稿件为约一分钟的完整教学视频，标题交代主题，旁白结合录像示意与核对动作，适合B站知识教学内容；无需直接写出平台名称。"
+      },
+      {
+        "field": "style",
+        "requirement": "教学式",
+        "verdict": "met",
+        "evidence": "镜头2—4分别解释裁剪取舍、字幕核对和比例选择的方法，镜头5提供复查清单，具有明确教学内容。"
+      },
+      {
+        "field": "style",
+        "requirement": "循序渐进",
+        "verdict": "met",
+        "evidence": "六镜依次为观看记录、规划裁剪、核对字幕、选择比例、整体复查、交接说明，步骤衔接清楚。"
+      }
+    ],
+    "summary": "稿件已覆盖全部明确要求，工作交接场景具体，教学步骤清楚。预计58.1秒，节奏有内容支撑；未发现虚构按钮操作或缺乏资料支持的产品承诺。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "工作交接：围绕现有录像安排剪辑",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "标题说明业务场景和教学主题，不包含产品能力或效果承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "旁白对应全部文字块。实习生观看同事留下的工作录像，画面依次切到录像中的工作过程、纸上记录的步骤、负责人和期限；记录内容以实际录像为准。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于观看录像和纸面记录的场景安排，没有声称产品会自动提取步骤、负责人或期限。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "接手同事留下的录像，先完整看一遍，记下这项工作的步骤、负责人和交接期限。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "要求观众人工观看并记录交接信息，属于工作方法建议。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "旁白对应全部文字块。依次展示原录像中的准备、执行、检查片段，再用纸面分镜标记要保留的关键动作和可删去的等待、重复内容；不展示软件按钮。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "展示原片并在纸面规划删留，没有宣称产品自动分段、识别重复或执行剪辑，也未虚构界面操作。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "先标出准备、执行、检查三段，保留关键动作，删去等待和重复。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于人工选择剪辑内容的教学建议，没有承诺自动识别工作阶段或判断关键动作。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "旁白对应全部文字块。播放现有录像的不同片段，将对应原声文字作为字幕叠加；随后切到字幕文字特写和纸面核对清单，逐项核对录像实际出现的姓名、数字与期限。不展示未经提供的编辑界面。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "字幕叠加展示由“支持为视频添加字幕”支持；其余为字幕特写和人工核对安排，没有声称自动转写、自动纠错或虚构产品界面。"
+      },
+      {
+        "location": "shot:3/block:3",
+        "text": "听着原录音核对字幕，把姓名、数字和交接期限逐项看清。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "指导观众人工核对文字，不承诺产品自动核验姓名、数字或期限。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "旁白对应全部文字块。通过后期示意，先后把同一段现有录像放入横屏和竖屏画框，分别观察关键动作与字幕的可见范围，再切到实习生在纸上记录选择理由；不暗示产品具有并排预览或自动适配功能。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          },
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "横屏、竖屏比例及字幕展示分别由比例选项和添加字幕事实支持。画面明确为后期先后示意，未增加并排预览、自动适配或产品UI能力。"
+      },
+      {
+        "location": "shot:4/block:2",
+        "text": "对照同一段录像，选择能保留关键动作、又方便阅读字幕的比例。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "给出人工选择比例的判断标准，没有保证任意素材都能完整适配，也没有宣称自动选择比例。"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "旁白对应全部文字块。连续展示片段衔接处、字幕与对应动作、关键动作的完整画面；实习生随观看进度在纸面检查单上逐项打勾。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于复看成片和人工检查的拍摄安排，没有声称产品自动检测衔接、字幕对应关系或画面完整性。"
+      },
+      {
+        "location": "shot:5/block:1",
+        "text": "从头复看一次：步骤衔接是否清楚，字幕是否对应画面，关键动作是否完整入镜。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "列出人工复查问题，不承诺软件自动完成检查或保证剪辑效果。"
+      },
+      {
+        "location": "shot:6/visual",
+        "text": "旁白对应全部文字块。实习生整理纸面交接说明，依次指向保留片段的记录、待核对的字幕文字和比例选择理由，再将说明交给同事，结尾落在双方共同查看录像的动作上。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "展示整理纸面说明和同事交接的生活场景，没有宣称产品具备自动生成说明或协同交接功能。"
+      },
+      {
+        "location": "shot:6/block:1",
+        "text": "交接时，附上保留片段、字幕疑问和比例选择，方便接手的人继续核对。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "建议人工补充交接信息，“方便接手的人继续核对”描述该工作方法的用途，不是产品效率或自动化承诺。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "镜头1为8.5秒、32个旁白单位，配合观看与记录；镜头2为9.8秒、37个单位，展示三个工作阶段和纸面删留；镜头3为12.3秒、47个单位，安排片段、字幕特写与清单核对；镜头4为11.5秒、44个单位，先后比较横竖画框并记录理由；镜头5为8.5秒、32个单位，检查衔接、字幕与动作；镜头6为7.5秒、28个单位，整理说明并交接。各镜旁白长度与估算时长协调，画面均有观察或动作任务。复查与交接承担不同用途，没有重复同一事实或空镜凑时长；hold_seconds均为0仅表示没有额外最低停留要求。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T21:56:28.991650+00:00",
+    "finished_at": "2026-11-03T22:00:15.528650+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "model_responses": 7,
+    "run_id": "e7839ba19c714c90a01cc162107b5fff",
+    "persistence": "checkpoint_v1"
+  }
+}

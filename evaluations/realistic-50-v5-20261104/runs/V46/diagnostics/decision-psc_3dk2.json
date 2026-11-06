@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-psc_3dk2",
+  "started_at": "2026-11-04T16:08:35.843198+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:09:13.476948+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a751-c641-7382-85f8-f657436c4af2",
+    "usage": {
+      "input_tokens": 31931,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 144,
+      "reasoning_output_tokens": 65
+    },
+    "call_id": "decision-psc_3dk2",
+    "warnings": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "real_model_web_campaign",
+  "version": "v4.1-final-polish",
+  "model_started_at": "2026-11-04T00:55:22.979207+00:00",
+  "model_finished_at": "2026-11-04T01:54:52.648842+00:00",
+  "reported_at": "2026-11-04T01:59:08.764851+00:00",
+  "cases": 50,
+  "unique_inputs": 49,
+  "responses": 317,
+  "application_changed": false,
+  "zero_response_attempts": 0,
+  "fault_injection": false,
+  "mock_runs": 0,
+  "submission_path": "browser form UI",
+  "initial_concurrency": 2,
+  "later_concurrency": 4,
+  "review_helper_event": {
+    "exit_code": -1073741502,
+    "action": "V44 review.json writer process failed to start; absence verified then writer rerun",
+    "model_experiment_repeated": false
+  },
+  "note": "AI execution and model waiting, not candidate independent work time. No GitHub push or exam submission."
+}

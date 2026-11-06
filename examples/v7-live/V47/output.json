@@ -1,0 +1,457 @@
+{
+  "status": "completed",
+  "message": "《采访后的整理》已完成：保留原四镜顺序、场景及两项字幕功能，每镜4秒，预计共16秒，符合22秒上限。全部检查已通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "format_version": 2,
+    "title": "采访后的整理",
+    "shots": [
+      {
+        "purpose": "交代采访结束，开始整理记录。",
+        "visual": "社区入口标牌，固定镜头展示标牌。",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "采访结束，整理开始。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "介绍为采访视频添加字幕。",
+        "visual": "采访笔记和录音笔，镜头从笔记缓慢移向录音笔。",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "说明字幕文字可以手动编辑。",
+        "visual": "手改纸上的错字，拍摄划掉错字并写下正确文字的过程。",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "以保存采访记录收尾。",
+        "visual": "合上的笔记本，固定镜头停留在封面。",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "把这一段记录留下。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      }
+    ],
+    "editor_notes": "保留原标题、四镜数量与顺序、原场景及全部文案；每镜最低停留由10秒缩短为4秒，迁移为format_version=2并添加同步旁白与字幕标记。"
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "3c832be49f94f3a4bdfd9f01bd9552ff0c8876e90518f2871601b1baa0dc5ed9",
+    "shots": [
+      {
+        "shot": 1,
+        "estimated_seconds": 4.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 2.5,
+            "voice_seconds": 2.5,
+            "screen_read_seconds": 2.5,
+            "display_seconds": 0,
+            "estimated_seconds": 2.5
+          }
+        ],
+        "tail_hold_seconds": 1.5
+      },
+      {
+        "shot": 2,
+        "estimated_seconds": 4.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 4.0,
+            "voice_seconds": 4.0,
+            "screen_read_seconds": 4.0,
+            "display_seconds": 0,
+            "estimated_seconds": 4.0
+          }
+        ],
+        "tail_hold_seconds": 0.0
+      },
+      {
+        "shot": 3,
+        "estimated_seconds": 4.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 3.0,
+            "voice_seconds": 3.0,
+            "screen_read_seconds": 3.0,
+            "display_seconds": 0,
+            "estimated_seconds": 3.0
+          }
+        ],
+        "tail_hold_seconds": 1.0
+      },
+      {
+        "shot": 4,
+        "estimated_seconds": 4.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 2.5,
+            "voice_seconds": 2.5,
+            "screen_read_seconds": 2.5,
+            "display_seconds": 0,
+            "estimated_seconds": 2.5
+          }
+        ],
+        "tail_hold_seconds": 1.5
+      }
+    ],
+    "total_seconds": 16.0,
+    "target_seconds": 22,
+    "passed": true,
+    "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "3c832be49f94f3a4bdfd9f01bd9552ff0c8876e90518f2871601b1baa0dc5ed9",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01",
+        "text": "剪影练习版支持为视频添加字幕。",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:3/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01",
+        "text": "字幕文字可以手动编辑。",
+        "requires_semantic_review": true
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "采访后的整理"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "社区入口标牌，固定镜头展示标牌。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "采访结束，整理开始。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "采访笔记和录音笔，镜头从笔记缓慢移向录音笔。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "剪影练习版支持为视频添加字幕。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "手改纸上的错字，拍摄划掉错字并写下正确文字的过程。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "字幕文字可以手动编辑。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "合上的笔记本，固定镜头停留在封面。"
+      },
+      {
+        "location": "shot:4/block:1",
+        "text": "把这一段记录留下。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "3c832be49f94f3a4bdfd9f01bd9552ff0c8876e90518f2871601b1baa0dc5ed9",
+    "request_hash": "026bee1ada5099c7ef110386e08099a04e81e3cc29aae8712cd1a7d99e939ef8",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "所附旧稿四个镜头顺序与数量不能改",
+        "verdict": "met",
+        "evidence": "当前仍为四镜，依次为社区入口标牌、采访笔记和录音笔、手改纸上错字、合上的笔记本，与旧稿一致。"
+      },
+      {
+        "field": "topic",
+        "requirement": "保留两项字幕功能",
+        "verdict": "met",
+        "evidence": "第2镜保留“为视频添加字幕”，第3镜保留“字幕文字可以手动编辑”，两项均有对应原文支持。"
+      },
+      {
+        "field": "topic",
+        "requirement": "把总长压缩到22秒以内",
+        "verdict": "met",
+        "evidence": "duration_check估算四镜各4秒、总长16秒，passed为true，满足22秒上限。"
+      },
+      {
+        "field": "topic",
+        "requirement": "可以修改文案和每镜停留",
+        "verdict": "met",
+        "evidence": "当前保留原文案，将各镜最低停留从10秒缩短为4秒，属于允许的调整。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不要引入新场景",
+        "verdict": "met",
+        "evidence": "各镜只为原有场景补充固定拍摄、移动镜头和改字动作，没有新增场景。"
+      },
+      {
+        "field": "audience",
+        "requirement": "社区采访视频编辑",
+        "verdict": "met",
+        "evidence": "社区标牌、采访笔记及录音笔明确体现社区采访，连续旁白围绕采访结束后的字幕整理展开。"
+      },
+      {
+        "field": "platform",
+        "requirement": "视频号",
+        "verdict": "met",
+        "evidence": "16秒四镜短片采用同步旁白和字幕，内容独立完整，适合视频号观看。"
+      },
+      {
+        "field": "style",
+        "requirement": "直接，清楚",
+        "verdict": "met",
+        "evidence": "旁白从“采访结束，整理开始”接到添加字幕、手动编辑，再以留下记录收尾，指代与衔接清楚。"
+      }
+    ],
+    "summary": "当前稿满足镜头数量、顺序、原场景和两项字幕功能要求，预计16秒，符合22秒上限。公开文案有来源支持，表达清楚，节奏合理。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "采访后的整理",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "概括采访后的整理主题，不包含产品能力承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "社区入口标牌，固定镜头展示标牌。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于社区背景与拍摄安排，无产品声明。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "采访结束，整理开始。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "交代叙事阶段，不宣称产品效果。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "采访笔记和录音笔，镜头从笔记缓慢移向录音笔。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "展示采访工具并安排运镜，未暗示自动导入或转录能力。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "剪影练习版支持为视频添加字幕。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "全文与P01.F1原文一致，仅声明为视频添加字幕。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "手改纸上的错字，拍摄划掉错字并写下正确文字的过程。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "以纸上改字动作作示意，没有虚构产品界面或操作流程。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "字幕文字可以手动编辑。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ],
+        "evidence": "全文与P01.F2原文一致，没有增加自动纠错等能力。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "合上的笔记本，固定镜头停留在封面。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于记录整理的收尾画面，不包含产品承诺。"
+      },
+      {
+        "location": "shot:4/block:1",
+        "text": "把这一段记录留下。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于保存记录的行动邀请，未声明产品存储或导出能力。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "四镜各4秒：第1、4镜各含2.5秒同步声画与1.5秒收尾停留，第2镜朗读占满4秒并有运镜，第3镜3秒文案配改字动作及1秒停留，均有明确内容支撑。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "app_version": "v7-natural-voice",
+    "started_at": "2026-11-04T21:29:47.287396+00:00",
+    "finished_at": "2026-11-04T21:32:00.280550+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 5,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v6",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+    "model_responses": 6,
+    "run_id": "a2d91d3fe1a44442a0fdc892fd00ba57",
+    "persistence": "checkpoint_v1"
+  }
+}

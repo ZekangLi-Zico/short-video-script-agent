@@ -1,0 +1,16 @@
+{
+  "id": "T29",
+  "name": "老年学习需求",
+  "context": "社区志愿者需要适老说明。",
+  "request": {
+    "topic": "写给老年初学者的字幕功能介绍，说明添加字幕和手动改字，并解释学习时可能需要什么帮助，不要做无依据的易用性保证。",
+    "audience": "社区老年手机课堂学员",
+    "platform": "视频号",
+    "style": "耐心、慢节奏、无术语",
+    "product_id": "demo-editor",
+    "target_seconds": 35
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

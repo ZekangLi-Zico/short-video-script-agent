@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-sblyz5kw",
+  "started_at": "2026-11-03T23:07:24.076065+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:07:36.528135+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3aa-d67c-7452-971a-48cf9f570439",
+    "usage": {
+      "input_tokens": 30850,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 99,
+      "reasoning_output_tokens": 40
+    },
+    "call_id": "decision-sblyz5kw",
+    "warnings": []
+  }
+}

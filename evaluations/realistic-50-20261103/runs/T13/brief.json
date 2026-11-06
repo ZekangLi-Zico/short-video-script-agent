@@ -1,0 +1,16 @@
+{
+  "id": "T13",
+  "name": "六秒入口",
+  "context": "活动页只有一个六秒产品入口视频。",
+  "request": {
+    "topic": "写一条六秒以内的产品入口短片脚本，只告诉观众剪影练习版支持为视频添加字幕。",
+    "audience": "刚打开活动页的新用户",
+    "platform": "抖音",
+    "style": "极简，不要开场寒暄",
+    "product_id": "demo-editor",
+    "target_seconds": 6
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

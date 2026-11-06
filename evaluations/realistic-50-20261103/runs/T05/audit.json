@@ -1,0 +1,95 @@
+{
+  "case": "T05",
+  "name": "宠物片段",
+  "run_id": "82669d60c4254e6f9a98a675fa779390",
+  "status": "completed",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "steps": 5,
+  "model_calls": 5,
+  "seconds": 10.0,
+  "target_seconds": 12,
+  "rules_passed": true,
+  "shots": 3,
+  "title": "从一段记录开始",
+  "citations": [
+    "P02.F1"
+  ],
+  "script_lines": [
+    "从一段日常记录开始。",
+    "剪影练习版支持裁剪视频片段。",
+    "试试你的下一条短片吧。"
+  ],
+  "actions": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 剪影练习版 支持裁剪视频片段"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前没有产品事实素材，先检索视频片段裁剪功能。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "basis": "已检索到裁剪功能事实，采用日常记录、功能介绍和结尾邀请三镜头结构。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "basis": "当前稿尚未检查时长，先确认是否符合12秒上限。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": 10.0,
+      "issues": null
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "basis": "当前稿时长估算为10秒，已通过12秒上限检查，尚缺规则检查。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": null,
+      "issues": []
+    },
+    {
+      "step": 5,
+      "action": "finish",
+      "basis": "当前同一稿的时长检查和规则检查均已通过，预计10秒，符合12秒上限。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 112.2,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "ea17d35bad2949a5fe9c0ca0b1c3df7b09074492a6e53014a1a996813f893cea",
+    "output.json": "67fda0a38cdc5b0c43433ecb4a4cb7e5e9e529f1281bf72aea866c45ae56a2a2",
+    "trace.jsonl": "237ddca5ed6989e1cb33d8f222a8d4bb31dd1061c8c33ae897cf242b0cc38c04",
+    "manifest.json": "c5cdb7d5462aa29a07b75d53af712affa2e4837c6ef20a291f5350ee45fcef99",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "e2c425c0c125177aab4dd0c66f0291244e2a3e10e769abc78aa43b15ef164387"
+  }
+}

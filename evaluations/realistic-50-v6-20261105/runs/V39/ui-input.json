@@ -1,0 +1,19 @@
+{
+  "port": 8833,
+  "submitted_at": "2026-11-04T17:41:41.261Z",
+  "fields": {
+    "audience": "摄影社团编辑",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "f51468430f9e4918a0ad98e5e0fe7270",
+    "initial-script": "",
+    "platform": "B站",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "技术信息清楚，不夸大",
+    "target-seconds": "30",
+    "topic": "介绍视频能否导出4K、是否有水印、竖屏导出有哪些限制。不要用有横竖屏比例选项来代替导出规格。"
+  }
+}

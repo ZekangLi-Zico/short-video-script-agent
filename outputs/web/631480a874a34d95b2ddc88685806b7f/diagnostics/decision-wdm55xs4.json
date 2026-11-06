@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-wdm55xs4",
+  "started_at": "2026-11-03T21:03:05.192422+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:03:37.122352+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a339-063d-7bf3-855a-fabc7b9ac1e3",
+    "usage": {
+      "input_tokens": 35560,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 352,
+      "reasoning_output_tokens": 227
+    },
+    "call_id": "decision-wdm55xs4",
+    "warnings": []
+  }
+}

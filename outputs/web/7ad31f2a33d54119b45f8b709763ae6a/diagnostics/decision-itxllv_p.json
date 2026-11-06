@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-itxllv_p",
+  "started_at": "2026-11-03T21:45:24.465921+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:45:40.102466+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a35f-c5ae-7081-aab4-fd8c44eadbf8",
+    "usage": {
+      "input_tokens": 36720,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 146,
+      "reasoning_output_tokens": 90
+    },
+    "call_id": "decision-itxllv_p",
+    "warnings": []
+  }
+}

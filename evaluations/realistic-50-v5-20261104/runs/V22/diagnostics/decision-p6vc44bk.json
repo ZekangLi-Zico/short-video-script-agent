@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-p6vc44bk",
+  "started_at": "2026-11-04T15:28:55.395458+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:29:29.792097+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a72d-78be-7c21-a5bf-a849e530cc87",
+    "usage": {
+      "input_tokens": 27356,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 155,
+      "reasoning_output_tokens": 58
+    },
+    "call_id": "decision-p6vc44bk",
+    "warnings": []
+  }
+}

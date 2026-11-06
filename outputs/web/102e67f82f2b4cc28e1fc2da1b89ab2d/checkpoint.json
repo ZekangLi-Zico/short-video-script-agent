@@ -1,0 +1,2793 @@
+{
+  "format": "checkpoint_v1",
+  "recorded_at": "2026-11-04T21:28:55.514745+00:00",
+  "last_event": {
+    "kind": "step",
+    "step": 8
+  },
+  "result": {
+    "status": "in_progress",
+    "message": "任务执行中，尚未完成。",
+    "script": {
+      "format_version": 2,
+      "title": "给课程录像添加字幕",
+      "shots": [
+        {
+          "purpose": "交代课程录像配字幕的具体需要",
+          "visual": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+          "hold_seconds": 6,
+          "blocks": [
+            {
+              "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "展示为课程视频添加字幕的能力",
+          "visual": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+          "hold_seconds": 6,
+          "blocks": [
+            {
+              "text": "在剪影练习版里，可以为视频添加字幕。",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "观看添加字幕后的课程片段，结束本次分享",
+          "visual": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。",
+          "hold_seconds": 6,
+          "blocks": [
+            {
+              "text": "加好字幕后，我会再看一遍录像，听着讲解，对照画面上的文字。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        }
+      ],
+      "editor_notes": "已删除第3镜的手动编辑字幕功能介绍及修改前后演示，改为观看添加字幕后的课程片段；进一步精简第3镜旁白以缩短时长。"
+    },
+    "duration": {
+      "ok": true,
+      "script_hash": "400f8bf154c57f9b701abc2b5894a969a747819961ded4441893b8fe70af12b9",
+      "shots": [
+        {
+          "shot": 1,
+          "estimated_seconds": 7.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 7.0,
+              "voice_seconds": 7.0,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 7.0
+            }
+          ],
+          "tail_hold_seconds": 0.0
+        },
+        {
+          "shot": 2,
+          "estimated_seconds": 6.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 4.5,
+              "voice_seconds": 4.5,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 4.5
+            }
+          ],
+          "tail_hold_seconds": 1.5
+        },
+        {
+          "shot": 3,
+          "estimated_seconds": 6.8,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 6.8,
+              "voice_seconds": 6.75,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 6.8
+            }
+          ],
+          "tail_hold_seconds": 0.0
+        }
+      ],
+      "total_seconds": 19.8,
+      "target_seconds": 20,
+      "passed": true,
+      "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+      "is_estimate": true,
+      "duration_mode": "target",
+      "min_seconds": 18.0,
+      "max_seconds": 20,
+      "issue": null
+    },
+    "rules_check": {
+      "ok": true,
+      "script_hash": "400f8bf154c57f9b701abc2b5894a969a747819961ded4441893b8fe70af12b9",
+      "passed": true,
+      "issues": [],
+      "citations": [
+        {
+          "location": "shot:2/block:1",
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01",
+          "text": "在剪影练习版里，可以为视频添加字幕。",
+          "requires_semantic_review": true
+        }
+      ],
+      "rules_version": "2026-11-03-v1",
+      "requires_expression_review": true,
+      "expression_slots": [
+        {
+          "location": "title",
+          "text": "给课程录像添加字幕"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "在剪影练习版里，可以为视频添加字幕。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "加好字幕后，我会再看一遍录像，听着讲解，对照画面上的文字。"
+        }
+      ],
+      "available_facts": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F2",
+          "quote": "字幕文字可以手动编辑。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01"
+        }
+      ],
+      "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+    },
+    "requirements_check": {
+      "ok": true,
+      "script_hash": "400f8bf154c57f9b701abc2b5894a969a747819961ded4441893b8fe70af12b9",
+      "request_hash": "fe513b9257dbed69caead2482b20e7d77c4402d6ab34c67d59e7319e8c7156e7",
+      "passed": true,
+      "items": [
+        {
+          "field": "topic",
+          "requirement": "介绍字幕添加",
+          "verdict": "met",
+          "evidence": "第2镜明确介绍“可以为视频添加字幕”，并展示添加前后的画面。"
+        },
+        {
+          "field": "topic",
+          "requirement": "背景是擦净的黑板、课程讲义、空座位。",
+          "verdict": "met",
+          "evidence": "第1镜画面同时包含擦净的黑板、摊开的课程讲义及后方空座位。"
+        },
+        {
+          "field": "topic",
+          "requirement": "不要问句",
+          "verdict": "met",
+          "evidence": "标题及三镜旁白均为陈述句，没有问句。"
+        },
+        {
+          "field": "topic",
+          "requirement": "感叹号",
+          "verdict": "met",
+          "evidence": "标题、旁白及画面说明均未使用感叹号。"
+        },
+        {
+          "field": "topic",
+          "requirement": "下载引导",
+          "verdict": "met",
+          "evidence": "全部公开文案均无下载引导，第3镜以观看课程片段结束。"
+        },
+        {
+          "field": "topic",
+          "requirement": "“轻松搞定”式保证",
+          "verdict": "met",
+          "evidence": "旁白仅说明添加字幕及观看核对，没有省力、速度或效果保证。"
+        },
+        {
+          "field": "topic",
+          "requirement": "只讲这个功能。",
+          "verdict": "met",
+          "evidence": "全部镜头仅围绕添加字幕展开，未介绍手动编辑字幕或裁剪视频；第3镜是人工观看核对。"
+        },
+        {
+          "field": "audience",
+          "requirement": "线上课程剪辑助教",
+          "verdict": "met",
+          "evidence": "连续旁白依次交代课程录像配字幕的需要、添加能力和观看核对，贴合助教整理课程录像的工作。"
+        },
+        {
+          "field": "platform",
+          "requirement": "B站",
+          "verdict": "met",
+          "evidence": "约20秒的课程剪辑功能演示具有明确主题和具体画面，适合B站短视频呈现。"
+        },
+        {
+          "field": "style",
+          "requirement": "平实，克制",
+          "verdict": "met",
+          "evidence": "“整理这段课程录像时”到“加好字幕后”的叙述连贯，语气客观，无夸张承诺或煽动性结尾。"
+        }
+      ],
+      "summary": "当前稿落实了字幕添加的单一功能范围、指定背景和各项禁用要求，表达连贯且适合课程剪辑助教。产品声明有资料支持，预计19.8秒，镜头节奏合理。",
+      "method": "model_assessment_not_deterministic_proof",
+      "expressions": [
+        {
+          "location": "title",
+          "text": "给课程录像添加字幕",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "课程录像属于视频，标题仅涉及资料支持的添加字幕能力。"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "仅为教室背景和镜头运动安排，不包含产品承诺。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "表达配字幕的个人意图与使用场景，没有承诺学习效果或额外产品能力。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "示意画面只展示视频添加字幕的结果，未虚构按钮、布局或自动流程。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "在剪影练习版里，可以为视频添加字幕。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "准确改写原文“剪影练习版支持为视频添加字幕”，保留了原块引用。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "展示添加字幕后的课程视频，不暗示自动识别、自动同步或编辑功能。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "加好字幕后，我会再看一遍录像，听着讲解，对照画面上的文字。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "描述创作者人工观看和核对的安排，不声明产品具备核对能力。"
+        }
+      ],
+      "pacing": {
+        "verdict": "met",
+        "evidence": "三镜预计7.0、6.0、6.8秒，分别由课程背景移动镜头、字幕前后切换、讲解与字幕核对支撑；第2镜旁白后的1.5秒可供观察字幕，其余镜头与旁白时长匹配。"
+      },
+      "expression_review_passed": true
+    },
+    "sources": [
+      {
+        "id": "P01",
+        "product_id": "demo-editor",
+        "title": "字幕功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "字幕",
+          "口播",
+          "文字",
+          "caption",
+          "subtitle"
+        ],
+        "facts": [
+          {
+            "id": "P01.F1",
+            "text": "剪影练习版支持为视频添加字幕。"
+          },
+          {
+            "id": "P01.F2",
+            "text": "字幕文字可以手动编辑。"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "product_id": "demo-editor",
+        "title": "剪辑功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "剪辑",
+          "裁剪",
+          "片段",
+          "trim",
+          "edit"
+        ],
+        "facts": [
+          {
+            "id": "P02.F1",
+            "text": "剪影练习版支持裁剪视频片段。"
+          }
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "action": "search_materials",
+        "arguments": {
+          "query": "demo-editor 字幕添加 支持的能力及操作",
+          "product_id": "demo-editor"
+        },
+        "decision_basis": "检索字幕添加的产品事实，为线上课程剪辑场景提供准确依据，仅使用该功能。",
+        "observation": {
+          "ok": true,
+          "query": "demo-editor 字幕添加 支持的能力及操作",
+          "product_id": "demo-editor",
+          "materials": [
+            {
+              "id": "P01",
+              "product_id": "demo-editor",
+              "title": "字幕功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "字幕",
+                "口播",
+                "文字",
+                "caption",
+                "subtitle"
+              ],
+              "facts": [
+                {
+                  "id": "P01.F1",
+                  "text": "剪影练习版支持为视频添加字幕。"
+                },
+                {
+                  "id": "P01.F2",
+                  "text": "字幕文字可以手动编辑。"
+                }
+              ]
+            },
+            {
+              "id": "P02",
+              "product_id": "demo-editor",
+              "title": "剪辑功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "剪辑",
+                "裁剪",
+                "片段",
+                "trim",
+                "edit"
+              ],
+              "facts": [
+                {
+                  "id": "P02.F1",
+                  "text": "剪影练习版支持裁剪视频片段。"
+                }
+              ]
+            }
+          ],
+          "count": 2
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a871-5a5a-7082-89ab-1fe346359f88",
+          "usage": {
+            "input_tokens": 27468,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 68,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-s8_4yyw8",
+          "warnings": []
+        },
+        "elapsed_ms": 30016
+      },
+      {
+        "step": 2,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "给课程录像添加字幕",
+            "shots": [
+              {
+                "purpose": "交代课程录像配字幕的具体需要",
+                "visual": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "展示为课程视频添加字幕的能力",
+                "visual": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "在剪影练习版里，可以为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "结合讲义说明字幕文字的手动编辑",
+                "visual": "课程讲义放在电脑旁，手指停在讲义中的课程术语处；切到对应字幕文字的修改前后画面，最后停留在修改后的课程预览。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "字幕文字也能手动编辑，我会对照讲义，把课程里的术语写准确。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          }
+        },
+        "decision_basis": "依据已检索的字幕事实，围绕课程录像添加字幕成稿，保留指定背景与克制语气。",
+        "observation": {
+          "ok": true,
+          "script_hash": "77b1bb4e22030aee33fab8d58d493037d93e96a045462c21e4192798b3550d80",
+          "revision": {
+            "before_hash": null,
+            "after_hash": "77b1bb4e22030aee33fab8d58d493037d93e96a045462c21e4192798b3550d80",
+            "changed_fields": [
+              "script:new"
+            ],
+            "unchanged_shots": 0,
+            "unchanged_blocks": 0,
+            "feedback": [],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a871-d5de-7ca1-904c-495669b38f50",
+          "usage": {
+            "input_tokens": 27738,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 713,
+            "reasoning_output_tokens": 297
+          },
+          "call_id": "decision-ltprizl0",
+          "warnings": []
+        },
+        "elapsed_ms": 63703
+      },
+      {
+        "step": 3,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "给课程录像添加字幕",
+            "shots": [
+              {
+                "purpose": "交代课程录像配字幕的具体需要",
+                "visual": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "展示为课程视频添加字幕的能力",
+                "visual": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "在剪影练习版里，可以为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "结合讲义说明字幕文字的手动编辑",
+                "visual": "课程讲义放在电脑旁，手指停在讲义中的课程术语处；切到对应字幕文字的修改前后画面，最后停留在修改后的课程预览。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "字幕文字也能手动编辑，我会对照讲义，把课程里的术语写准确。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "request": {
+            "topic": "介绍字幕添加，背景是擦净的黑板、课程讲义、空座位。不要问句、感叹号、下载引导或“轻松搞定”式保证。只讲这个功能。",
+            "audience": "线上课程剪辑助教",
+            "platform": "B站",
+            "style": "平实，克制",
+            "product_id": "demo-editor",
+            "duration_mode": "target",
+            "expression_mode": "creative",
+            "target_seconds": 20
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "77b1bb4e22030aee33fab8d58d493037d93e96a045462c21e4192798b3550d80",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:2/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01",
+                "text": "在剪影练习版里，可以为视频添加字幕。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:3/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01",
+                "text": "字幕文字也能手动编辑，我会对照讲义，把课程里的术语写准确。",
+                "requires_semantic_review": true
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "给课程录像添加字幕"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。"
+              },
+              {
+                "location": "shot:2/block:1",
+                "text": "在剪影练习版里，可以为视频添加字幕。"
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "课程讲义放在电脑旁，手指停在讲义中的课程术语处；切到对应字幕文字的修改前后画面，最后停留在修改后的课程预览。"
+              },
+              {
+                "location": "shot:3/block:1",
+                "text": "字幕文字也能手动编辑，我会对照讲义，把课程里的术语写准确。"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "77b1bb4e22030aee33fab8d58d493037d93e96a045462c21e4192798b3550d80",
+            "shots": [
+              {
+                "shot": 1,
+                "estimated_seconds": 7.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 7.0,
+                    "voice_seconds": 7.0,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 7.0
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              },
+              {
+                "shot": 2,
+                "estimated_seconds": 6.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 4.5,
+                    "voice_seconds": 4.5,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.5
+                  }
+                ],
+                "tail_hold_seconds": 1.5
+              },
+              {
+                "shot": 3,
+                "estimated_seconds": 7.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 7.0,
+                    "voice_seconds": 7.0,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 7.0
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              }
+            ],
+            "total_seconds": 20.0,
+            "target_seconds": 20,
+            "passed": true,
+            "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+            "is_estimate": true,
+            "duration_mode": "target",
+            "min_seconds": 18.0,
+            "max_seconds": 20,
+            "issue": null
+          }
+        },
+        "decision_basis": "核对当前稿的20秒目标时长、字幕功能范围、指定教室背景及克制表达要求，并补齐时长和规则检查。",
+        "observation": {
+          "ok": true,
+          "script_hash": "77b1bb4e22030aee33fab8d58d493037d93e96a045462c21e4192798b3550d80",
+          "request_hash": "fe513b9257dbed69caead2482b20e7d77c4402d6ab34c67d59e7319e8c7156e7",
+          "passed": false,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "介绍字幕添加",
+              "verdict": "met",
+              "evidence": "第2镜口播“可以为视频添加字幕”，并展示添加前后的画面。"
+            },
+            {
+              "field": "topic",
+              "requirement": "背景是擦净的黑板、课程讲义、空座位。",
+              "verdict": "met",
+              "evidence": "第1镜画面明确包含擦净的黑板、桌上课程讲义和后方空座位。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不要问句",
+              "verdict": "met",
+              "evidence": "标题及三镜口播均为陈述句，没有问句。"
+            },
+            {
+              "field": "topic",
+              "requirement": "感叹号",
+              "verdict": "met",
+              "evidence": "全部公开文案均未使用感叹号。"
+            },
+            {
+              "field": "topic",
+              "requirement": "下载引导",
+              "verdict": "met",
+              "evidence": "三镜仅叙述课程字幕使用，没有下载邀请或指引。"
+            },
+            {
+              "field": "topic",
+              "requirement": "“轻松搞定”式保证",
+              "verdict": "met",
+              "evidence": "文案未保证省力或自动获得效果，“我会对照讲义”描述人工处理意图。"
+            },
+            {
+              "field": "topic",
+              "requirement": "只讲这个功能。",
+              "verdict": "unmet",
+              "evidence": "第2镜介绍字幕添加，第3镜另介绍“字幕文字也能手动编辑”，超出仅讲字幕添加的范围，应删除该功能介绍及对应演示。"
+            },
+            {
+              "field": "audience",
+              "requirement": "线上课程剪辑助教",
+              "verdict": "met",
+              "evidence": "口播围绕课程录像、学生观看和讲义术语展开，连续听读能理解助教整理课程素材的用途。"
+            },
+            {
+              "field": "platform",
+              "requirement": "B站",
+              "verdict": "met",
+              "evidence": "课程场景结合功能前后对比适合知识类短视频，未见与B站呈现方式冲突的内容。"
+            },
+            {
+              "field": "style",
+              "requirement": "平实，克制",
+              "verdict": "met",
+              "evidence": "三镜以需求、添加能力、人工编辑依次展开，语义连贯，无夸张宣传或强烈号召。"
+            }
+          ],
+          "summary": "稿件落实了课程背景、受众和克制表达，但第3镜增加了手动编辑字幕功能，违反“只讲字幕添加”的限定。产品说法有资料支持，20秒估算通过，节奏合理。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "给课程录像添加字幕",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "标题介绍的视频字幕添加能力由P01.F1支持，课程录像是使用场景。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "仅为教室布景和镜头移动安排，不包含产品承诺。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "描述叙述者配字幕的需求和目的，没有宣称产品效果或自动化能力。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "添加字幕的前后示意由P01.F1支持，未虚构具体按钮、界面布局或操作流程。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "在剪影练习版里，可以为视频添加字幕。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "准确改写原文“剪影练习版支持为视频添加字幕”，未扩大能力。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "课程讲义放在电脑旁，手指停在讲义中的课程术语处；切到对应字幕文字的修改前后画面，最后停留在修改后的课程预览。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ],
+              "evidence": "字幕文字修改前后示意由手动编辑能力支持，但该功能超出用户限定范围。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "字幕文字也能手动编辑，我会对照讲义，把课程里的术语写准确。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ],
+              "evidence": "手动编辑由P01.F2支持，后半句是人工核对计划，没有声称产品自动纠错；仍违反功能范围限定。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "三镜预计7、6、7秒；第1镜移动观察讲义，第2镜4.5秒口播后留1.5秒观察字幕对比，第3镜核对术语并展示修改前后，内容可支撑停留，总长估算20秒通过。"
+          },
+          "expression_review_passed": true
+        },
+        "preflight_checks": [
+          {
+            "action": "estimate_duration",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "给课程录像添加字幕",
+                "shots": [
+                  {
+                    "purpose": "交代课程录像配字幕的具体需要",
+                    "visual": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "展示为课程视频添加字幕的能力",
+                    "visual": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "在剪影练习版里，可以为视频添加字幕。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "结合讲义说明字幕文字的手动编辑",
+                    "visual": "课程讲义放在电脑旁，手指停在讲义中的课程术语处；切到对应字幕文字的修改前后画面，最后停留在修改后的课程预览。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "字幕文字也能手动编辑，我会对照讲义，把课程里的术语写准确。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F2",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "target_seconds": 20,
+              "duration_mode": "target"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "77b1bb4e22030aee33fab8d58d493037d93e96a045462c21e4192798b3550d80",
+              "shots": [
+                {
+                  "shot": 1,
+                  "estimated_seconds": 7.0,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 7.0,
+                      "voice_seconds": 7.0,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 7.0
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                },
+                {
+                  "shot": 2,
+                  "estimated_seconds": 6.0,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 4.5,
+                      "voice_seconds": 4.5,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 4.5
+                    }
+                  ],
+                  "tail_hold_seconds": 1.5
+                },
+                {
+                  "shot": 3,
+                  "estimated_seconds": 7.0,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 7.0,
+                      "voice_seconds": 7.0,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 7.0
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                }
+              ],
+              "total_seconds": 20.0,
+              "target_seconds": 20,
+              "passed": true,
+              "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+              "is_estimate": true,
+              "duration_mode": "target",
+              "min_seconds": 18.0,
+              "max_seconds": 20,
+              "issue": null
+            }
+          },
+          {
+            "action": "check_rules",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "给课程录像添加字幕",
+                "shots": [
+                  {
+                    "purpose": "交代课程录像配字幕的具体需要",
+                    "visual": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "展示为课程视频添加字幕的能力",
+                    "visual": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "在剪影练习版里，可以为视频添加字幕。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "结合讲义说明字幕文字的手动编辑",
+                    "visual": "课程讲义放在电脑旁，手指停在讲义中的课程术语处；切到对应字幕文字的修改前后画面，最后停留在修改后的课程预览。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "字幕文字也能手动编辑，我会对照讲义，把课程里的术语写准确。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F2",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "retrieved_ids": [
+                "P01",
+                "P02"
+              ],
+              "expression_mode": "creative"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "77b1bb4e22030aee33fab8d58d493037d93e96a045462c21e4192798b3550d80",
+              "passed": true,
+              "issues": [],
+              "citations": [
+                {
+                  "location": "shot:2/block:1",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1",
+                  "quote": "剪影练习版支持为视频添加字幕。",
+                  "version": "2026-11-01",
+                  "text": "在剪影练习版里，可以为视频添加字幕。",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:3/block:1",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2",
+                  "quote": "字幕文字可以手动编辑。",
+                  "version": "2026-11-01",
+                  "text": "字幕文字也能手动编辑，我会对照讲义，把课程里的术语写准确。",
+                  "requires_semantic_review": true
+                }
+              ],
+              "rules_version": "2026-11-03-v1",
+              "requires_expression_review": true,
+              "expression_slots": [
+                {
+                  "location": "title",
+                  "text": "给课程录像添加字幕"
+                },
+                {
+                  "location": "shot:1/visual",
+                  "text": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。"
+                },
+                {
+                  "location": "shot:1/block:1",
+                  "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。"
+                },
+                {
+                  "location": "shot:2/visual",
+                  "text": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。"
+                },
+                {
+                  "location": "shot:2/block:1",
+                  "text": "在剪影练习版里，可以为视频添加字幕。"
+                },
+                {
+                  "location": "shot:3/visual",
+                  "text": "课程讲义放在电脑旁，手指停在讲义中的课程术语处；切到对应字幕文字的修改前后画面，最后停留在修改后的课程预览。"
+                },
+                {
+                  "location": "shot:3/block:1",
+                  "text": "字幕文字也能手动编辑，我会对照讲义，把课程里的术语写准确。"
+                }
+              ],
+              "available_facts": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1",
+                  "quote": "剪影练习版支持为视频添加字幕。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2",
+                  "quote": "字幕文字可以手动编辑。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1",
+                  "quote": "剪影练习版支持裁剪视频片段。",
+                  "version": "2026-11-01"
+                }
+              ],
+              "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+            }
+          }
+        ],
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a872-d6ec-7862-9d43-bd21d2819414",
+          "usage": {
+            "input_tokens": 28275,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 67,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-4ac9hqis",
+          "warnings": [
+            "cleanup_deferred"
+          ]
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a873-465f-7700-be29-76054eb9fc3e",
+          "usage": {
+            "input_tokens": 29134,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1328,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-ydd1sg1a",
+          "warnings": []
+        },
+        "elapsed_ms": 81484
+      },
+      {
+        "step": 4,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "给课程录像添加字幕",
+            "shots": [
+              {
+                "purpose": "交代课程录像配字幕的具体需要",
+                "visual": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "展示为课程视频添加字幕的能力",
+                "visual": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "在剪影练习版里，可以为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "观看添加字幕后的课程片段，结束本次分享",
+                "visual": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "加好字幕后，我会看一遍这段录像，听着讲解，也读一遍画面上的文字。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": "已删除第3镜的手动编辑字幕功能介绍及修改前后演示，改为观看添加字幕后的课程片段。"
+          }
+        },
+        "decision_basis": "仅修改第3镜，删除超出范围的手动编辑介绍与演示，改为观看已添加字幕的课程片段，保留标题及前两镜。",
+        "observation": {
+          "ok": true,
+          "script_hash": "79104453519f5f6a36aa17045b5092ad08fb6e52b5c25e8bebcff25563debdd7",
+          "revision": {
+            "before_hash": "77b1bb4e22030aee33fab8d58d493037d93e96a045462c21e4192798b3550d80",
+            "after_hash": "79104453519f5f6a36aa17045b5092ad08fb6e52b5c25e8bebcff25563debdd7",
+            "changed_fields": [
+              "editor_notes",
+              "shot:3/visual",
+              "shot:3/purpose",
+              "shot:3/block:1"
+            ],
+            "unchanged_shots": 2,
+            "unchanged_blocks": 2,
+            "feedback": [
+              {
+                "check": "requirements_check",
+                "observation": {
+                  "ok": true,
+                  "script_hash": "77b1bb4e22030aee33fab8d58d493037d93e96a045462c21e4192798b3550d80",
+                  "request_hash": "fe513b9257dbed69caead2482b20e7d77c4402d6ab34c67d59e7319e8c7156e7",
+                  "passed": false,
+                  "items": [
+                    {
+                      "field": "topic",
+                      "requirement": "介绍字幕添加",
+                      "verdict": "met",
+                      "evidence": "第2镜口播“可以为视频添加字幕”，并展示添加前后的画面。"
+                    },
+                    {
+                      "field": "topic",
+                      "requirement": "背景是擦净的黑板、课程讲义、空座位。",
+                      "verdict": "met",
+                      "evidence": "第1镜画面明确包含擦净的黑板、桌上课程讲义和后方空座位。"
+                    },
+                    {
+                      "field": "topic",
+                      "requirement": "不要问句",
+                      "verdict": "met",
+                      "evidence": "标题及三镜口播均为陈述句，没有问句。"
+                    },
+                    {
+                      "field": "topic",
+                      "requirement": "感叹号",
+                      "verdict": "met",
+                      "evidence": "全部公开文案均未使用感叹号。"
+                    },
+                    {
+                      "field": "topic",
+                      "requirement": "下载引导",
+                      "verdict": "met",
+                      "evidence": "三镜仅叙述课程字幕使用，没有下载邀请或指引。"
+                    },
+                    {
+                      "field": "topic",
+                      "requirement": "“轻松搞定”式保证",
+                      "verdict": "met",
+                      "evidence": "文案未保证省力或自动获得效果，“我会对照讲义”描述人工处理意图。"
+                    },
+                    {
+                      "field": "topic",
+                      "requirement": "只讲这个功能。",
+                      "verdict": "unmet",
+                      "evidence": "第2镜介绍字幕添加，第3镜另介绍“字幕文字也能手动编辑”，超出仅讲字幕添加的范围，应删除该功能介绍及对应演示。"
+                    },
+                    {
+                      "field": "audience",
+                      "requirement": "线上课程剪辑助教",
+                      "verdict": "met",
+                      "evidence": "口播围绕课程录像、学生观看和讲义术语展开，连续听读能理解助教整理课程素材的用途。"
+                    },
+                    {
+                      "field": "platform",
+                      "requirement": "B站",
+                      "verdict": "met",
+                      "evidence": "课程场景结合功能前后对比适合知识类短视频，未见与B站呈现方式冲突的内容。"
+                    },
+                    {
+                      "field": "style",
+                      "requirement": "平实，克制",
+                      "verdict": "met",
+                      "evidence": "三镜以需求、添加能力、人工编辑依次展开，语义连贯，无夸张宣传或强烈号召。"
+                    }
+                  ],
+                  "summary": "稿件落实了课程背景、受众和克制表达，但第3镜增加了手动编辑字幕功能，违反“只讲字幕添加”的限定。产品说法有资料支持，20秒估算通过，节奏合理。",
+                  "method": "model_assessment_not_deterministic_proof",
+                  "expressions": [
+                    {
+                      "location": "title",
+                      "text": "给课程录像添加字幕",
+                      "verdict": "supported_claim",
+                      "references": [
+                        {
+                          "source_id": "P01",
+                          "fact_id": "P01.F1"
+                        }
+                      ],
+                      "evidence": "标题介绍的视频字幕添加能力由P01.F1支持，课程录像是使用场景。"
+                    },
+                    {
+                      "location": "shot:1/visual",
+                      "text": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+                      "verdict": "plain_expression",
+                      "references": [],
+                      "evidence": "仅为教室布景和镜头移动安排，不包含产品承诺。"
+                    },
+                    {
+                      "location": "shot:1/block:1",
+                      "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+                      "verdict": "plain_expression",
+                      "references": [],
+                      "evidence": "描述叙述者配字幕的需求和目的，没有宣称产品效果或自动化能力。"
+                    },
+                    {
+                      "location": "shot:2/visual",
+                      "text": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+                      "verdict": "supported_claim",
+                      "references": [
+                        {
+                          "source_id": "P01",
+                          "fact_id": "P01.F1"
+                        }
+                      ],
+                      "evidence": "添加字幕的前后示意由P01.F1支持，未虚构具体按钮、界面布局或操作流程。"
+                    },
+                    {
+                      "location": "shot:2/block:1",
+                      "text": "在剪影练习版里，可以为视频添加字幕。",
+                      "verdict": "supported_claim",
+                      "references": [
+                        {
+                          "source_id": "P01",
+                          "fact_id": "P01.F1"
+                        }
+                      ],
+                      "evidence": "准确改写原文“剪影练习版支持为视频添加字幕”，未扩大能力。"
+                    },
+                    {
+                      "location": "shot:3/visual",
+                      "text": "课程讲义放在电脑旁，手指停在讲义中的课程术语处；切到对应字幕文字的修改前后画面，最后停留在修改后的课程预览。",
+                      "verdict": "supported_claim",
+                      "references": [
+                        {
+                          "source_id": "P01",
+                          "fact_id": "P01.F2"
+                        }
+                      ],
+                      "evidence": "字幕文字修改前后示意由手动编辑能力支持，但该功能超出用户限定范围。"
+                    },
+                    {
+                      "location": "shot:3/block:1",
+                      "text": "字幕文字也能手动编辑，我会对照讲义，把课程里的术语写准确。",
+                      "verdict": "supported_claim",
+                      "references": [
+                        {
+                          "source_id": "P01",
+                          "fact_id": "P01.F2"
+                        }
+                      ],
+                      "evidence": "手动编辑由P01.F2支持，后半句是人工核对计划，没有声称产品自动纠错；仍违反功能范围限定。"
+                    }
+                  ],
+                  "pacing": {
+                    "verdict": "met",
+                    "evidence": "三镜预计7、6、7秒；第1镜移动观察讲义，第2镜4.5秒口播后留1.5秒观察字幕对比，第3镜核对术语并展示修改前后，内容可支撑停留，总长估算20秒通过。"
+                  },
+                  "expression_review_passed": true
+                }
+              }
+            ],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a874-05ff-70d1-904e-468a5cde7a96",
+          "usage": {
+            "input_tokens": 30430,
+            "cached_input_tokens": 13696,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 453,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-gfy5e6mb",
+          "warnings": []
+        },
+        "elapsed_ms": 33266
+      },
+      {
+        "step": 5,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "给课程录像添加字幕",
+            "shots": [
+              {
+                "purpose": "交代课程录像配字幕的具体需要",
+                "visual": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "展示为课程视频添加字幕的能力",
+                "visual": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "在剪影练习版里，可以为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "观看添加字幕后的课程片段，结束本次分享",
+                "visual": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "加好字幕后，我会看一遍这段录像，听着讲解，也读一遍画面上的文字。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": "已删除第3镜的手动编辑字幕功能介绍及修改前后演示，改为观看添加字幕后的课程片段。"
+          },
+          "request": {
+            "topic": "介绍字幕添加，背景是擦净的黑板、课程讲义、空座位。不要问句、感叹号、下载引导或“轻松搞定”式保证。只讲这个功能。",
+            "audience": "线上课程剪辑助教",
+            "platform": "B站",
+            "style": "平实，克制",
+            "product_id": "demo-editor",
+            "duration_mode": "target",
+            "expression_mode": "creative",
+            "target_seconds": 20
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "79104453519f5f6a36aa17045b5092ad08fb6e52b5c25e8bebcff25563debdd7",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:2/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01",
+                "text": "在剪影练习版里，可以为视频添加字幕。",
+                "requires_semantic_review": true
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "给课程录像添加字幕"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。"
+              },
+              {
+                "location": "shot:2/block:1",
+                "text": "在剪影练习版里，可以为视频添加字幕。"
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。"
+              },
+              {
+                "location": "shot:3/block:1",
+                "text": "加好字幕后，我会看一遍这段录像，听着讲解，也读一遍画面上的文字。"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "79104453519f5f6a36aa17045b5092ad08fb6e52b5c25e8bebcff25563debdd7",
+            "shots": [
+              {
+                "shot": 1,
+                "estimated_seconds": 7.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 7.0,
+                    "voice_seconds": 7.0,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 7.0
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              },
+              {
+                "shot": 2,
+                "estimated_seconds": 6.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 4.5,
+                    "voice_seconds": 4.5,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.5
+                  }
+                ],
+                "tail_hold_seconds": 1.5
+              },
+              {
+                "shot": 3,
+                "estimated_seconds": 7.5,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 7.5,
+                    "voice_seconds": 7.5,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 7.5
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              }
+            ],
+            "total_seconds": 20.5,
+            "target_seconds": 20,
+            "passed": false,
+            "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+            "is_estimate": true,
+            "duration_mode": "target",
+            "min_seconds": 18.0,
+            "max_seconds": 20,
+            "issue": "too_long"
+          }
+        },
+        "decision_basis": "复核删除手动编辑介绍后的当前稿，确认只讲字幕添加、保留指定背景与克制表达，并重新核验20秒目标时长及品牌规则。",
+        "observation": {
+          "ok": false,
+          "error": "local_checks_failed",
+          "message": "时长或规则检查发现需要处理的内容，先根据检查结果修订或补查。"
+        },
+        "preflight_checks": [
+          {
+            "action": "estimate_duration",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "给课程录像添加字幕",
+                "shots": [
+                  {
+                    "purpose": "交代课程录像配字幕的具体需要",
+                    "visual": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "展示为课程视频添加字幕的能力",
+                    "visual": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "在剪影练习版里，可以为视频添加字幕。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "观看添加字幕后的课程片段，结束本次分享",
+                    "visual": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "加好字幕后，我会看一遍这段录像，听着讲解，也读一遍画面上的文字。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": "已删除第3镜的手动编辑字幕功能介绍及修改前后演示，改为观看添加字幕后的课程片段。"
+              },
+              "target_seconds": 20,
+              "duration_mode": "target"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "79104453519f5f6a36aa17045b5092ad08fb6e52b5c25e8bebcff25563debdd7",
+              "shots": [
+                {
+                  "shot": 1,
+                  "estimated_seconds": 7.0,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 7.0,
+                      "voice_seconds": 7.0,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 7.0
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                },
+                {
+                  "shot": 2,
+                  "estimated_seconds": 6.0,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 4.5,
+                      "voice_seconds": 4.5,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 4.5
+                    }
+                  ],
+                  "tail_hold_seconds": 1.5
+                },
+                {
+                  "shot": 3,
+                  "estimated_seconds": 7.5,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 7.5,
+                      "voice_seconds": 7.5,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 7.5
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                }
+              ],
+              "total_seconds": 20.5,
+              "target_seconds": 20,
+              "passed": false,
+              "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+              "is_estimate": true,
+              "duration_mode": "target",
+              "min_seconds": 18.0,
+              "max_seconds": 20,
+              "issue": "too_long"
+            }
+          },
+          {
+            "action": "check_rules",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "给课程录像添加字幕",
+                "shots": [
+                  {
+                    "purpose": "交代课程录像配字幕的具体需要",
+                    "visual": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "展示为课程视频添加字幕的能力",
+                    "visual": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "在剪影练习版里，可以为视频添加字幕。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "观看添加字幕后的课程片段，结束本次分享",
+                    "visual": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "加好字幕后，我会看一遍这段录像，听着讲解，也读一遍画面上的文字。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": "已删除第3镜的手动编辑字幕功能介绍及修改前后演示，改为观看添加字幕后的课程片段。"
+              },
+              "retrieved_ids": [
+                "P01",
+                "P02"
+              ],
+              "expression_mode": "creative"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "79104453519f5f6a36aa17045b5092ad08fb6e52b5c25e8bebcff25563debdd7",
+              "passed": true,
+              "issues": [],
+              "citations": [
+                {
+                  "location": "shot:2/block:1",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1",
+                  "quote": "剪影练习版支持为视频添加字幕。",
+                  "version": "2026-11-01",
+                  "text": "在剪影练习版里，可以为视频添加字幕。",
+                  "requires_semantic_review": true
+                }
+              ],
+              "rules_version": "2026-11-03-v1",
+              "requires_expression_review": true,
+              "expression_slots": [
+                {
+                  "location": "title",
+                  "text": "给课程录像添加字幕"
+                },
+                {
+                  "location": "shot:1/visual",
+                  "text": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。"
+                },
+                {
+                  "location": "shot:1/block:1",
+                  "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。"
+                },
+                {
+                  "location": "shot:2/visual",
+                  "text": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。"
+                },
+                {
+                  "location": "shot:2/block:1",
+                  "text": "在剪影练习版里，可以为视频添加字幕。"
+                },
+                {
+                  "location": "shot:3/visual",
+                  "text": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。"
+                },
+                {
+                  "location": "shot:3/block:1",
+                  "text": "加好字幕后，我会看一遍这段录像，听着讲解，也读一遍画面上的文字。"
+                }
+              ],
+              "available_facts": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1",
+                  "quote": "剪影练习版支持为视频添加字幕。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2",
+                  "quote": "字幕文字可以手动编辑。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1",
+                  "quote": "剪影练习版支持裁剪视频片段。",
+                  "version": "2026-11-01"
+                }
+              ],
+              "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+            }
+          }
+        ],
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a874-893d-7280-baf5-0d34226146f5",
+          "usage": {
+            "input_tokens": 28681,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 72,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-dt8aa048",
+          "warnings": []
+        },
+        "elapsed_ms": 18735
+      },
+      {
+        "step": 6,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "给课程录像添加字幕",
+            "shots": [
+              {
+                "purpose": "交代课程录像配字幕的具体需要",
+                "visual": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "展示为课程视频添加字幕的能力",
+                "visual": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "在剪影练习版里，可以为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "观看添加字幕后的课程片段，结束本次分享",
+                "visual": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "加好字幕后，我会再看一遍录像，听着讲解，对照画面上的文字。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": "已删除第3镜的手动编辑字幕功能介绍及修改前后演示，改为观看添加字幕后的课程片段；进一步精简第3镜旁白以缩短时长。"
+          }
+        },
+        "decision_basis": "当前稿估时超出0.5秒，仅精简第3镜旁白，保留标题、前两镜和字幕添加范围。",
+        "observation": {
+          "ok": true,
+          "script_hash": "400f8bf154c57f9b701abc2b5894a969a747819961ded4441893b8fe70af12b9",
+          "revision": {
+            "before_hash": "79104453519f5f6a36aa17045b5092ad08fb6e52b5c25e8bebcff25563debdd7",
+            "after_hash": "400f8bf154c57f9b701abc2b5894a969a747819961ded4441893b8fe70af12b9",
+            "changed_fields": [
+              "editor_notes",
+              "shot:3/block:1"
+            ],
+            "unchanged_shots": 2,
+            "unchanged_blocks": 2,
+            "feedback": [
+              {
+                "check": "duration",
+                "observation": {
+                  "ok": true,
+                  "script_hash": "79104453519f5f6a36aa17045b5092ad08fb6e52b5c25e8bebcff25563debdd7",
+                  "shots": [
+                    {
+                      "shot": 1,
+                      "estimated_seconds": 7.0,
+                      "beats": [
+                        {
+                          "beat": 1,
+                          "start_seconds": 0,
+                          "end_seconds": 7.0,
+                          "voice_seconds": 7.0,
+                          "screen_read_seconds": 0,
+                          "display_seconds": 0,
+                          "estimated_seconds": 7.0
+                        }
+                      ],
+                      "tail_hold_seconds": 0.0
+                    },
+                    {
+                      "shot": 2,
+                      "estimated_seconds": 6.0,
+                      "beats": [
+                        {
+                          "beat": 1,
+                          "start_seconds": 0,
+                          "end_seconds": 4.5,
+                          "voice_seconds": 4.5,
+                          "screen_read_seconds": 0,
+                          "display_seconds": 0,
+                          "estimated_seconds": 4.5
+                        }
+                      ],
+                      "tail_hold_seconds": 1.5
+                    },
+                    {
+                      "shot": 3,
+                      "estimated_seconds": 7.5,
+                      "beats": [
+                        {
+                          "beat": 1,
+                          "start_seconds": 0,
+                          "end_seconds": 7.5,
+                          "voice_seconds": 7.5,
+                          "screen_read_seconds": 0,
+                          "display_seconds": 0,
+                          "estimated_seconds": 7.5
+                        }
+                      ],
+                      "tail_hold_seconds": 0.0
+                    }
+                  ],
+                  "total_seconds": 20.5,
+                  "target_seconds": 20,
+                  "passed": false,
+                  "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+                  "is_estimate": true,
+                  "duration_mode": "target",
+                  "min_seconds": 18.0,
+                  "max_seconds": 20,
+                  "issue": "too_long"
+                }
+              },
+              {
+                "check": "requirements_check",
+                "observation": {
+                  "ok": false,
+                  "error": "local_checks_failed",
+                  "message": "时长或规则检查发现需要处理的内容，先根据检查结果修订或补查。"
+                }
+              }
+            ],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a874-d213-7101-96b7-147e770aa5fd",
+          "usage": {
+            "input_tokens": 29854,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 457,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-vm371ktu",
+          "warnings": []
+        },
+        "elapsed_ms": 29547
+      },
+      {
+        "step": 7,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "给课程录像添加字幕",
+            "shots": [
+              {
+                "purpose": "交代课程录像配字幕的具体需要",
+                "visual": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "展示为课程视频添加字幕的能力",
+                "visual": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "在剪影练习版里，可以为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "观看添加字幕后的课程片段，结束本次分享",
+                "visual": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "加好字幕后，我会再看一遍录像，听着讲解，对照画面上的文字。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": "已删除第3镜的手动编辑字幕功能介绍及修改前后演示，改为观看添加字幕后的课程片段；进一步精简第3镜旁白以缩短时长。"
+          },
+          "request": {
+            "topic": "介绍字幕添加，背景是擦净的黑板、课程讲义、空座位。不要问句、感叹号、下载引导或“轻松搞定”式保证。只讲这个功能。",
+            "audience": "线上课程剪辑助教",
+            "platform": "B站",
+            "style": "平实，克制",
+            "product_id": "demo-editor",
+            "duration_mode": "target",
+            "expression_mode": "creative",
+            "target_seconds": 20
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "400f8bf154c57f9b701abc2b5894a969a747819961ded4441893b8fe70af12b9",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:2/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01",
+                "text": "在剪影练习版里，可以为视频添加字幕。",
+                "requires_semantic_review": true
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "给课程录像添加字幕"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。"
+              },
+              {
+                "location": "shot:2/block:1",
+                "text": "在剪影练习版里，可以为视频添加字幕。"
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。"
+              },
+              {
+                "location": "shot:3/block:1",
+                "text": "加好字幕后，我会再看一遍录像，听着讲解，对照画面上的文字。"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "400f8bf154c57f9b701abc2b5894a969a747819961ded4441893b8fe70af12b9",
+            "shots": [
+              {
+                "shot": 1,
+                "estimated_seconds": 7.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 7.0,
+                    "voice_seconds": 7.0,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 7.0
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              },
+              {
+                "shot": 2,
+                "estimated_seconds": 6.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 4.5,
+                    "voice_seconds": 4.5,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.5
+                  }
+                ],
+                "tail_hold_seconds": 1.5
+              },
+              {
+                "shot": 3,
+                "estimated_seconds": 6.8,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 6.8,
+                    "voice_seconds": 6.75,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 6.8
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              }
+            ],
+            "total_seconds": 19.8,
+            "target_seconds": 20,
+            "passed": true,
+            "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+            "is_estimate": true,
+            "duration_mode": "target",
+            "min_seconds": 18.0,
+            "max_seconds": 20,
+            "issue": null
+          }
+        },
+        "decision_basis": "核验精简后的当前稿是否满足20秒目标时长、仅介绍字幕添加、指定教室背景和克制表达要求，并补齐本稿的时长与规则检查。",
+        "observation": {
+          "ok": true,
+          "script_hash": "400f8bf154c57f9b701abc2b5894a969a747819961ded4441893b8fe70af12b9",
+          "request_hash": "fe513b9257dbed69caead2482b20e7d77c4402d6ab34c67d59e7319e8c7156e7",
+          "passed": true,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "介绍字幕添加",
+              "verdict": "met",
+              "evidence": "第2镜明确介绍“可以为视频添加字幕”，并展示添加前后的画面。"
+            },
+            {
+              "field": "topic",
+              "requirement": "背景是擦净的黑板、课程讲义、空座位。",
+              "verdict": "met",
+              "evidence": "第1镜画面同时包含擦净的黑板、摊开的课程讲义及后方空座位。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不要问句",
+              "verdict": "met",
+              "evidence": "标题及三镜旁白均为陈述句，没有问句。"
+            },
+            {
+              "field": "topic",
+              "requirement": "感叹号",
+              "verdict": "met",
+              "evidence": "标题、旁白及画面说明均未使用感叹号。"
+            },
+            {
+              "field": "topic",
+              "requirement": "下载引导",
+              "verdict": "met",
+              "evidence": "全部公开文案均无下载引导，第3镜以观看课程片段结束。"
+            },
+            {
+              "field": "topic",
+              "requirement": "“轻松搞定”式保证",
+              "verdict": "met",
+              "evidence": "旁白仅说明添加字幕及观看核对，没有省力、速度或效果保证。"
+            },
+            {
+              "field": "topic",
+              "requirement": "只讲这个功能。",
+              "verdict": "met",
+              "evidence": "全部镜头仅围绕添加字幕展开，未介绍手动编辑字幕或裁剪视频；第3镜是人工观看核对。"
+            },
+            {
+              "field": "audience",
+              "requirement": "线上课程剪辑助教",
+              "verdict": "met",
+              "evidence": "连续旁白依次交代课程录像配字幕的需要、添加能力和观看核对，贴合助教整理课程录像的工作。"
+            },
+            {
+              "field": "platform",
+              "requirement": "B站",
+              "verdict": "met",
+              "evidence": "约20秒的课程剪辑功能演示具有明确主题和具体画面，适合B站短视频呈现。"
+            },
+            {
+              "field": "style",
+              "requirement": "平实，克制",
+              "verdict": "met",
+              "evidence": "“整理这段课程录像时”到“加好字幕后”的叙述连贯，语气客观，无夸张承诺或煽动性结尾。"
+            }
+          ],
+          "summary": "当前稿落实了字幕添加的单一功能范围、指定背景和各项禁用要求，表达连贯且适合课程剪辑助教。产品声明有资料支持，预计19.8秒，镜头节奏合理。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "给课程录像添加字幕",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "课程录像属于视频，标题仅涉及资料支持的添加字幕能力。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "仅为教室背景和镜头运动安排，不包含产品承诺。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "表达配字幕的个人意图与使用场景，没有承诺学习效果或额外产品能力。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "示意画面只展示视频添加字幕的结果，未虚构按钮、布局或自动流程。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "在剪影练习版里，可以为视频添加字幕。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "准确改写原文“剪影练习版支持为视频添加字幕”，保留了原块引用。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "展示添加字幕后的课程视频，不暗示自动识别、自动同步或编辑功能。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "加好字幕后，我会再看一遍录像，听着讲解，对照画面上的文字。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "描述创作者人工观看和核对的安排，不声明产品具备核对能力。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "三镜预计7.0、6.0、6.8秒，分别由课程背景移动镜头、字幕前后切换、讲解与字幕核对支撑；第2镜旁白后的1.5秒可供观察字幕，其余镜头与旁白时长匹配。"
+          },
+          "expression_review_passed": true
+        },
+        "preflight_checks": [
+          {
+            "action": "estimate_duration",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "给课程录像添加字幕",
+                "shots": [
+                  {
+                    "purpose": "交代课程录像配字幕的具体需要",
+                    "visual": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "展示为课程视频添加字幕的能力",
+                    "visual": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "在剪影练习版里，可以为视频添加字幕。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "观看添加字幕后的课程片段，结束本次分享",
+                    "visual": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "加好字幕后，我会再看一遍录像，听着讲解，对照画面上的文字。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": "已删除第3镜的手动编辑字幕功能介绍及修改前后演示，改为观看添加字幕后的课程片段；进一步精简第3镜旁白以缩短时长。"
+              },
+              "target_seconds": 20,
+              "duration_mode": "target"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "400f8bf154c57f9b701abc2b5894a969a747819961ded4441893b8fe70af12b9",
+              "shots": [
+                {
+                  "shot": 1,
+                  "estimated_seconds": 7.0,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 7.0,
+                      "voice_seconds": 7.0,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 7.0
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                },
+                {
+                  "shot": 2,
+                  "estimated_seconds": 6.0,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 4.5,
+                      "voice_seconds": 4.5,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 4.5
+                    }
+                  ],
+                  "tail_hold_seconds": 1.5
+                },
+                {
+                  "shot": 3,
+                  "estimated_seconds": 6.8,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 6.8,
+                      "voice_seconds": 6.75,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 6.8
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                }
+              ],
+              "total_seconds": 19.8,
+              "target_seconds": 20,
+              "passed": true,
+              "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+              "is_estimate": true,
+              "duration_mode": "target",
+              "min_seconds": 18.0,
+              "max_seconds": 20,
+              "issue": null
+            }
+          },
+          {
+            "action": "check_rules",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "给课程录像添加字幕",
+                "shots": [
+                  {
+                    "purpose": "交代课程录像配字幕的具体需要",
+                    "visual": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "展示为课程视频添加字幕的能力",
+                    "visual": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "在剪影练习版里，可以为视频添加字幕。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "观看添加字幕后的课程片段，结束本次分享",
+                    "visual": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "加好字幕后，我会再看一遍录像，听着讲解，对照画面上的文字。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": "已删除第3镜的手动编辑字幕功能介绍及修改前后演示，改为观看添加字幕后的课程片段；进一步精简第3镜旁白以缩短时长。"
+              },
+              "retrieved_ids": [
+                "P01",
+                "P02"
+              ],
+              "expression_mode": "creative"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "400f8bf154c57f9b701abc2b5894a969a747819961ded4441893b8fe70af12b9",
+              "passed": true,
+              "issues": [],
+              "citations": [
+                {
+                  "location": "shot:2/block:1",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1",
+                  "quote": "剪影练习版支持为视频添加字幕。",
+                  "version": "2026-11-01",
+                  "text": "在剪影练习版里，可以为视频添加字幕。",
+                  "requires_semantic_review": true
+                }
+              ],
+              "rules_version": "2026-11-03-v1",
+              "requires_expression_review": true,
+              "expression_slots": [
+                {
+                  "location": "title",
+                  "text": "给课程录像添加字幕"
+                },
+                {
+                  "location": "shot:1/visual",
+                  "text": "擦净的黑板前，桌上摊开课程讲义，后方是空座位。镜头从教室全景缓慢移向讲义。"
+                },
+                {
+                  "location": "shot:1/block:1",
+                  "text": "整理这段课程录像时，我想给讲解配上字幕，方便学生对照着看。"
+                },
+                {
+                  "location": "shot:2/visual",
+                  "text": "拍摄电脑上的课程视频预览，画面为擦净的黑板与空座位；从无字幕画面切换到带课程主题字幕的画面，不展示未经核实的按钮。"
+                },
+                {
+                  "location": "shot:2/block:1",
+                  "text": "在剪影练习版里，可以为视频添加字幕。"
+                },
+                {
+                  "location": "shot:3/visual",
+                  "text": "电脑旁放着课程讲义，播放已添加字幕的课程片段；镜头靠近预览画面，展示一句讲解及其对应字幕，最后停留在字幕上。"
+                },
+                {
+                  "location": "shot:3/block:1",
+                  "text": "加好字幕后，我会再看一遍录像，听着讲解，对照画面上的文字。"
+                }
+              ],
+              "available_facts": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1",
+                  "quote": "剪影练习版支持为视频添加字幕。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2",
+                  "quote": "字幕文字可以手动编辑。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1",
+                  "quote": "剪影练习版支持裁剪视频片段。",
+                  "version": "2026-11-01"
+                }
+              ],
+              "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+            }
+          }
+        ],
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a875-4530-7d90-91f8-799c1885cb6d",
+          "usage": {
+            "input_tokens": 28925,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 75,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-gmeeo2jn",
+          "warnings": []
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a875-d022-75d0-b94f-f105715b4bfb",
+          "usage": {
+            "input_tokens": 29089,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1214,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-jx3l8911",
+          "warnings": []
+        },
+        "elapsed_ms": 93329
+      },
+      {
+        "step": 8,
+        "action": "finish",
+        "arguments": {
+          "status": "completed",
+          "message": "已完成《给课程录像添加字幕》三镜脚本，预计19.8秒。保留指定教室背景，仅介绍字幕添加，已删除手动编辑功能内容，全部检查通过。"
+        },
+        "decision_basis": "当前同一稿的时长、规则和需求检查均已通过。",
+        "observation": {
+          "ok": true,
+          "status": "completed",
+          "script_hash": "400f8bf154c57f9b701abc2b5894a969a747819961ded4441893b8fe70af12b9"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a876-b90f-7d02-8cc7-17712d1ef519",
+          "usage": {
+            "input_tokens": 31567,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 90,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-exjtc851",
+          "warnings": []
+        },
+        "elapsed_ms": 22688
+      }
+    ],
+    "metadata": {
+      "app_version": "v7-natural-voice",
+      "started_at": "2026-11-04T21:22:42.561326+00:00",
+      "finished_at": "2026-11-04T21:28:55.510523+00:00",
+      "provider": "codex",
+      "evidence_kind": "real_model",
+      "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+      "max_steps": 12,
+      "steps": 8,
+      "synthetic_data": true,
+      "completion_policy": "facts_duration_requirements_v6",
+      "requirements_review_context": "current_rules_and_duration_v2",
+      "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+      "model_responses": 10,
+      "run_id": "c8724cd82fa440508eaa45e8d6b9ca07",
+      "persistence": "checkpoint_v1",
+      "fault_injection": {}
+    }
+  }
+}

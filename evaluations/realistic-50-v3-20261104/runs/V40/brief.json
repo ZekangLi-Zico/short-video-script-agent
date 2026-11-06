@@ -1,0 +1,18 @@
+{
+  "id": "V40",
+  "name": "本周更新通知",
+  "context": "老用户想知道新旧版本差异。",
+  "request": {
+    "topic": "写本周新版剪影练习版更新介绍，说明新增加了什么字幕能力、旧版还能否使用。我们没有给版本更新日志。",
+    "audience": "已经用过旧版的用户",
+    "platform": "视频号",
+    "target_seconds": 25,
+    "style": "像公告，具体",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

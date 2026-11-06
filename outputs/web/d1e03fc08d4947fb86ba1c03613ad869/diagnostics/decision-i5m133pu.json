@@ -1,0 +1,43 @@
+{
+  "call_id": "decision-i5m133pu",
+  "started_at": "2026-11-05T21:01:30.311077+00:00",
+  "response_received": true,
+  "phase": "review",
+  "timeout_seconds": 180,
+  "request_bytes": 13101,
+  "exit_code": 0,
+  "runtime": {
+    "event_counts": {
+      "thread.started": 1,
+      "turn.started": 1,
+      "item.completed": 1,
+      "turn.completed": 1
+    },
+    "last_event": "turn.completed",
+    "turn_started": true,
+    "turn_completed": true,
+    "external_tool_used": false,
+    "signals": [],
+    "stdout_bytes": 4175,
+    "stderr_bytes": 158
+  },
+  "finished_at": "2026-11-05T21:01:56.109419+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1ad84-4b09-7eb0-a2d2-41d03e7bf848",
+    "usage": {
+      "input_tokens": 24100,
+      "cached_input_tokens": 19584,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 984,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-i5m133pu",
+    "warnings": [],
+    "configuration_mode": "isolated",
+    "phase": "review"
+  },
+  "elapsed_seconds": 25.797
+}

@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-moblkt02",
+  "started_at": "2026-11-04T17:37:43.384322+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:38:02.870538+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a7a3-5d99-71b1-9dc7-48d75cb279ea",
+    "usage": {
+      "input_tokens": 33419,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 107,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-moblkt02",
+    "warnings": []
+  }
+}

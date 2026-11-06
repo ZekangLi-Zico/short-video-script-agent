@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-_ua6s_ij",
+  "started_at": "2026-11-03T23:15:50.944236+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:16:17.989613+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3b2-924b-7362-b0a1-8296804c53cf",
+    "usage": {
+      "input_tokens": 27486,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 317,
+      "reasoning_output_tokens": 204
+    },
+    "call_id": "decision-_ua6s_ij",
+    "warnings": []
+  }
+}

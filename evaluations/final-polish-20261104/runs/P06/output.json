@@ -1,0 +1,25 @@
+{
+  "status": "needs_input",
+  "message": "暂未生成脚本，也未完成时长、规则和需求检查。请将该产品字幕功能的官方说明或经确认可公开引用的功能文案交给项目维护者补充，再继续制作仅介绍字幕功能、30秒以内的脚本。",
+  "script": null,
+  "duration": null,
+  "rules_check": null,
+  "requirements_check": null,
+  "sources": [],
+  "metadata": {
+    "started_at": "2026-11-03T23:13:17.319851+00:00",
+    "finished_at": "2026-11-03T23:14:08.937931+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 3,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "optional_editor_notes_v1",
+    "model_responses": 3,
+    "run_id": "e6d9e4ae11bb45c885cd50b612c03d65",
+    "persistence": "checkpoint_v1"
+  }
+}

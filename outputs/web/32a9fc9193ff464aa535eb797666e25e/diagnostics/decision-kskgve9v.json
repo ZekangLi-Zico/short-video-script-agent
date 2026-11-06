@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-kskgve9v",
+  "started_at": "2026-11-03T23:12:47.143257+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:13:06.105608+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3af-c53d-79d0-bde4-fcf0248803e8",
+    "usage": {
+      "input_tokens": 29002,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 247,
+      "reasoning_output_tokens": 173
+    },
+    "call_id": "decision-kskgve9v",
+    "warnings": []
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-11-03T16:04:16.528261+00:00",
+  "finished_at": "2026-11-03T16:04:16.528770+00:00",
+  "provider": "mock",
+  "evidence_kind": "offline_mock_not_model_evidence",
+  "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+  "max_steps": 12,
+  "steps": 3,
+  "synthetic_data": true,
+  "completion_policy": "facts_duration_requirements_v2",
+  "requirements_review_context": "current_rules_check_v1",
+  "model_responses": 3,
+  "fault_injection": {}
+}

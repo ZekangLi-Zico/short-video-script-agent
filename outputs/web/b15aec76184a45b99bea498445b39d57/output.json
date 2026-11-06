@@ -1,0 +1,290 @@
+{
+  "status": "completed",
+  "message": "已完成三镜头工作记录脚本，涵盖修剪花枝、摆花桶和整理台面，仅介绍裁剪视频片段，无价格、优惠或花店推销内容。预计12秒，符合18秒上限，无需进一步删改；实际成片时长以剪辑结果为准。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "花店工作记录｜裁剪视频片段",
+    "shots": [
+      {
+        "visual": "修剪花枝的实拍录像，近景记录手部动作，保留现场声。文字作为旁白及同步字幕，不出现价格、优惠或广告招牌。",
+        "hold_seconds": 3,
+        "blocks": [
+          {
+            "text": "修修花枝，记一段日常。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "摆花桶的实拍录像，固定机位记录把花桶摆好的过程。产品事实作为旁白及同步字幕，不另设事实卡，不展示软件界面或其他功能。",
+        "hold_seconds": 5,
+        "blocks": [
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ]
+      },
+      {
+        "visual": "整理台面的实拍录像，收起工具、清理散落枝叶，随后自然结束。文字作为旁白及同步字幕，保留工作记录的随手拍质感。",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "收好台面，今天就记录到这里。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "579b7a4bcf5310316506fccadfdb94c07df4b65eb39367bd8df706bd0505d29e",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 9,
+        "estimated_seconds": 3.0
+      },
+      {
+        "shot": 2,
+        "speech_units": 13,
+        "estimated_seconds": 5.0
+      },
+      {
+        "shot": 3,
+        "speech_units": 12,
+        "estimated_seconds": 4.0
+      }
+    ],
+    "total_seconds": 12.0,
+    "target_seconds": 18,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "579b7a4bcf5310316506fccadfdb94c07df4b65eb39367bd8df706bd0505d29e",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "花店工作记录｜裁剪视频片段"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "修剪花枝的实拍录像，近景记录手部动作，保留现场声。文字作为旁白及同步字幕，不出现价格、优惠或广告招牌。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "修修花枝，记一段日常。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "摆花桶的实拍录像，固定机位记录把花桶摆好的过程。产品事实作为旁白及同步字幕，不另设事实卡，不展示软件界面或其他功能。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "整理台面的实拍录像，收起工具、清理散落枝叶，随后自然结束。文字作为旁白及同步字幕，保留工作记录的随手拍质感。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "收好台面，今天就记录到这里。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "579b7a4bcf5310316506fccadfdb94c07df4b65eb39367bd8df706bd0505d29e",
+    "request_hash": "a24a1a5495f8304a488d6830e49e8e02297d4b9034ae85c69a80899436b21d87",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "修剪花枝",
+        "verdict": "met",
+        "evidence": "镜头1以“修剪花枝的实拍录像”为背景，近景记录手部动作。"
+      },
+      {
+        "field": "topic",
+        "requirement": "摆花桶",
+        "verdict": "met",
+        "evidence": "镜头2以“摆花桶的实拍录像”为背景，固定机位记录摆放过程。"
+      },
+      {
+        "field": "topic",
+        "requirement": "整理台面",
+        "verdict": "met",
+        "evidence": "镜头3安排“整理台面的实拍录像”，具体动作包括收起工具、清理散落枝叶。"
+      },
+      {
+        "field": "topic",
+        "requirement": "只介绍裁剪视频片段",
+        "verdict": "met",
+        "evidence": "镜头2旁白仅介绍“剪影练习版支持裁剪视频片段。”标题亦仅涉及裁剪；其余内容为花店工作场景和拍摄安排，没有介绍其他产品功能。"
+      },
+      {
+        "field": "topic",
+        "requirement": "片子像工作记录",
+        "verdict": "met",
+        "evidence": "标题为“花店工作记录｜裁剪视频片段”；三个镜头连续记录修剪、摆放和清理，并安排现场声及随手拍质感。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不是花店广告",
+        "verdict": "met",
+        "evidence": "全稿围绕工作动作展开，没有花店商品推销、购买引导或到店邀请；镜头3以“今天就记录到这里”自然收尾。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不能出现价格",
+        "verdict": "met",
+        "evidence": "标题及全部旁白、同步字幕均无价格信息；镜头1还明确要求画面“不出现价格”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不能出现价格或优惠",
+        "verdict": "met",
+        "evidence": "优惠限制已落实：全稿没有折扣、满减等优惠内容，镜头1也明确要求不出现优惠。"
+      },
+      {
+        "field": "audience",
+        "requirement": "独立花店运营",
+        "verdict": "met",
+        "evidence": "修剪花枝、摆花桶、整理台面均直接对应花店运营日常，裁剪工作录像的内容与该受众相关。"
+      },
+      {
+        "field": "platform",
+        "requirement": "小红书",
+        "verdict": "met",
+        "evidence": "采用明确的工作记录标题、生活实拍和简短同步字幕，适合小红书日常记录类短视频表达。"
+      },
+      {
+        "field": "style",
+        "requirement": "轻松",
+        "verdict": "met",
+        "evidence": "“修修花枝，记一段日常”“今天就记录到这里”语气随和，没有强推销或紧迫表达。"
+      },
+      {
+        "field": "style",
+        "requirement": "真实",
+        "verdict": "met",
+        "evidence": "三个镜头均安排实际工作录像，包含现场声、固定机位和随手拍质感，没有虚构客户背书或效果数据。"
+      }
+    ],
+    "summary": "稿件已落实三类花店工作背景，仅介绍裁剪视频片段，无价格、优惠或花店推销内容；受众、平台、风格及镜头停留安排均符合要求。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "花店工作记录｜裁剪视频片段",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ],
+        "evidence": "标题涉及的产品能力仅为“裁剪视频片段”，由P02.F1“剪影练习版支持裁剪视频片段。”支持；“花店工作记录”为场景定位。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "修剪花枝的实拍录像，近景记录手部动作，保留现场声。文字作为旁白及同步字幕，不出现价格、优惠或广告招牌。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "全部内容为背景活动、取景、声音和字幕安排；“保留现场声”没有被表述为产品音频功能。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "修修花枝，记一段日常。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "描述修剪花枝和日常记录，不包含产品能力或效果承诺。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "摆花桶的实拍录像，固定机位记录把花桶摆好的过程。产品事实作为旁白及同步字幕，不另设事实卡，不展示软件界面或其他功能。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "描述摆花桶的背景及旁白、字幕的呈现方式，没有新增产品声明，也没有虚构界面、按钮或操作步骤。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "整理台面的实拍录像，收起工具、清理散落枝叶，随后自然结束。文字作为旁白及同步字幕，保留工作记录的随手拍质感。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "内容均为清理动作、结束方式和拍摄风格安排，没有将随手拍质感归因于产品效果。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "收好台面，今天就记录到这里。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "描述工作收尾并结束记录，不包含产品承诺或营销声明。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "镜头1停留3秒，配简短旁白和修剪手部动作；镜头2停留5秒，承载一句裁剪功能介绍及摆花桶过程；镜头3停留4秒，配收尾旁白和收工具、清枝叶动作。各镜头均有可观察内容支撑停留，没有重复功能介绍或空镜凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T18:07:22.035794+00:00",
+    "finished_at": "2026-11-03T18:10:47.675265+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v3",
+    "requirements_review_context": "current_rules_check_v1",
+    "model_responses": 7
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-wejfxvzm",
+  "started_at": "2026-11-04T01:11:10.331719+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:11:23.116414+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a41c-26d6-71c2-a97b-228307efdd31",
+    "usage": {
+      "input_tokens": 29358,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 121,
+      "reasoning_output_tokens": 61
+    },
+    "call_id": "decision-wejfxvzm",
+    "warnings": []
+  }
+}

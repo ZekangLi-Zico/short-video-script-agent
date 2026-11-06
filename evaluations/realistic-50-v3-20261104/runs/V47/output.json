@@ -1,0 +1,367 @@
+{
+  "status": "completed",
+  "message": "脚本压缩完成：仅将四镜停留从各10秒调整为3、5、4、3秒，预计总长15秒，低于22秒上限。原标题、四镜数量与顺序、全部场景和文案均保留，包含添加字幕、手动编辑字幕两项功能。三项检查均通过；时长为估算值。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "采访后的整理",
+    "shots": [
+      {
+        "visual": "社区入口标牌",
+        "hold_seconds": 3,
+        "blocks": [
+          {
+            "text": "采访结束，整理开始。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "采访笔记和录音笔",
+        "hold_seconds": 5,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "手改纸上的错字",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      },
+      {
+        "visual": "合上的笔记本",
+        "hold_seconds": 3,
+        "blocks": [
+          {
+            "text": "把这一段记录留下。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "ab0ed127ef706ab041e09622d69837f150a62dae243867a718b2dd36385da895",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 8,
+        "estimated_seconds": 3.0
+      },
+      {
+        "shot": 2,
+        "speech_units": 14,
+        "estimated_seconds": 5.0
+      },
+      {
+        "shot": 3,
+        "speech_units": 10,
+        "estimated_seconds": 4.0
+      },
+      {
+        "shot": 4,
+        "speech_units": 8,
+        "estimated_seconds": 3.0
+      }
+    ],
+    "total_seconds": 15.0,
+    "target_seconds": 22,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "ab0ed127ef706ab041e09622d69837f150a62dae243867a718b2dd36385da895",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:3/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "采访后的整理"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "社区入口标牌"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "采访结束，整理开始。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "采访笔记和录音笔"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "手改纸上的错字"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "合上的笔记本"
+      },
+      {
+        "location": "shot:4/block:1",
+        "text": "把这一段记录留下。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "ab0ed127ef706ab041e09622d69837f150a62dae243867a718b2dd36385da895",
+    "request_hash": "026bee1ada5099c7ef110386e08099a04e81e3cc29aae8712cd1a7d99e939ef8",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "所附旧稿四个镜头顺序与数量不能改",
+        "verdict": "met",
+        "evidence": "数量保持：旧稿与当前稿均为4个镜头，无增删。"
+      },
+      {
+        "field": "topic",
+        "requirement": "所附旧稿四个镜头顺序与数量不能改",
+        "verdict": "met",
+        "evidence": "顺序保持：社区入口标牌→采访笔记和录音笔→手改纸上的错字→合上的笔记本，与旧稿一致。"
+      },
+      {
+        "field": "topic",
+        "requirement": "保留两项字幕功能",
+        "verdict": "met",
+        "evidence": "第一项功能保留：镜头2原文“剪影练习版支持为视频添加字幕。”，宿主已核对P01/P01.F1并通过。"
+      },
+      {
+        "field": "topic",
+        "requirement": "保留两项字幕功能",
+        "verdict": "met",
+        "evidence": "第二项功能保留：镜头3原文“字幕文字可以手动编辑。”，宿主已核对P01/P01.F2并通过。"
+      },
+      {
+        "field": "topic",
+        "requirement": "把总长压缩到22秒以内",
+        "verdict": "met",
+        "evidence": "当前稿四镜标注停留为3、5、4、3秒，合计15秒，低于22秒；宿主规则检查passed=true。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不要引入新场景",
+        "verdict": "met",
+        "evidence": "四镜visual均逐字沿用旧稿，未引入新场景。"
+      },
+      {
+        "field": "audience",
+        "requirement": "社区采访视频编辑",
+        "verdict": "met",
+        "evidence": "镜头1“社区入口标牌”明确社区背景；镜头2“采访笔记和录音笔”体现采访素材整理，旁白介绍添加字幕及手动编辑，贴合采访视频编辑需要。"
+      },
+      {
+        "field": "platform",
+        "requirement": "视频号",
+        "verdict": "met",
+        "evidence": "四镜短片围绕社区采访整理展开，使用简短中文旁白，内容集中，适合视频号短视频表达。"
+      },
+      {
+        "field": "style",
+        "requirement": "直接",
+        "verdict": "met",
+        "evidence": "镜头2直接说明“支持为视频添加字幕”，镜头3直接说明“可以手动编辑”，无冗长铺垫。"
+      },
+      {
+        "field": "style",
+        "requirement": "清楚",
+        "verdict": "met",
+        "evidence": "两项功能分别放在镜头2、3，以完整短句说明；开场交代采访结束，末镜收束记录主题，表达清楚。"
+      }
+    ],
+    "summary": "需求均已落实：保留原有四镜顺序、两项字幕功能和全部场景，标注总长15秒。附加表达没有未经支持的产品承诺，各镜停留合理。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "采访后的整理",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "标题概括采访后的整理情境，未承诺产品能力或效果。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "社区入口标牌",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "社区背景的拍摄安排，不涉及产品功能或客户背书。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "采访结束，整理开始。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "交代叙事阶段的连接语，不含产品承诺。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "采访笔记和录音笔",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "展示采访相关物件，未宣称产品能够导入录音、识别语音或自动整理。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "手改纸上的错字",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "纸面改字的示意动作，不涉及具体产品界面、按钮或未经证实的操作流程。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "合上的笔记本",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "用于收束的生活物件画面，不含产品能力声明。"
+      },
+      {
+        "location": "shot:4/block:1",
+        "text": "把这一段记录留下。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "保留记录的行动邀请，未承诺产品存储、导出等具体能力。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "镜头1用3秒展示标牌并说“采访结束，整理开始。”；镜头2用5秒展示笔记和录音笔并介绍添加字幕；镜头3用4秒展示改字动作并说明手动编辑；镜头4用3秒展示合上的笔记本并说“把这一段记录留下。”。各镜旁白长度与观察、动作任务匹配，无重复事实或明显空镜凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T19:11:56.527326+00:00",
+    "finished_at": "2026-11-03T19:16:00.832034+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 8,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v3",
+    "requirements_review_context": "current_rules_check_v1",
+    "model_responses": 9
+  }
+}

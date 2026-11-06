@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-yr88d1p_",
+  "started_at": "2026-11-04T01:22:21.048537+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:23:30.505900+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a426-62f7-7e03-aa80-630d2ee4b713",
+    "usage": {
+      "input_tokens": 28544,
+      "cached_input_tokens": 9600,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2797,
+      "reasoning_output_tokens": 893
+    },
+    "call_id": "decision-yr88d1p_",
+    "warnings": []
+  }
+}

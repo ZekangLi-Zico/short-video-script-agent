@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-28n7jdsl",
+  "started_at": "2026-11-03T20:24:44.113839+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:25:02.123647+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a315-ebe4-7ff0-98fa-d42cf1ce71c8",
+    "usage": {
+      "input_tokens": 29456,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 100,
+      "reasoning_output_tokens": 44
+    },
+    "call_id": "decision-28n7jdsl",
+    "warnings": []
+  }
+}

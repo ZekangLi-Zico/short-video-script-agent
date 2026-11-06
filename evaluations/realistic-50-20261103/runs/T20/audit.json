@@ -1,0 +1,68 @@
+{
+  "case": "T20",
+  "name": "按钮教程",
+  "run_id": "9e1822fa1d1e4bf48dc369172198a74d",
+  "status": "needs_input",
+  "message": "请补充添加字幕、修改错字及确认保存的操作资料，包含每步按钮名称、菜单路径和可逐字引用的步骤原文。现有素材仅说明功能，无法据此编写准确的新手教程。",
+  "steps": 3,
+  "model_calls": 3,
+  "seconds": null,
+  "target_seconds": 40,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "search_materials",
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 新手字幕教程：添加字幕、编辑字幕文字和修改错字的完整操作步骤，包括每步点击的按钮名称、进入的菜单及保存修改方式。",
+    "demo-editor 剪影练习版 字幕操作指南 帮助文档：添加字幕和手动修改字幕错字的具体步骤、实际按钮名称、菜单路径、确认保存方式；查找可逐字引用的操作步骤原文。"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前没有素材，需要添加字幕和修改错字的具体按钮、菜单及操作顺序。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "basis": "已检索素材仅说明字幕功能，缺少教程所需的按钮名称、菜单路径和操作顺序。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "basis": "两次检索均未获得具体按钮名称、菜单路径和操作步骤。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 62.7,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "712f16ef0384767402c19309d0d4ff47f1f89e44d50fd969dfb42fd3636823be",
+    "output.json": "6a0be3b14f8d07a330290b17f416e748fba4d16175b5172a19adae24e51121a9",
+    "trace.jsonl": "12bf02af64a113fc5bf1afc8019c769bd1cd26113f1de1bae8d36275b59cd86d",
+    "manifest.json": "0221568bbc638b7eab446f04d4cb1ed9343dae3f6f50f96c19aac934a3459f9c",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "c015f90c1919d6a71819a1fd1da588231b6e78d15afedf5b982515080895b4ca"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "case_id": "T21",
+  "capture_mode": "fullPage",
+  "finished_capture_at": "2026-11-03T14:27:30.708Z",
+  "busy": false,
+  "detail": "真实模型 · 3 个执行步骤",
+  "download": "/api/runs/408506a128c24ef984614b3cab5c8b5d/download/output.json",
+  "error": "",
+  "history": "408506a128c24ef984614b3cab5c8b5d",
+  "message": "现有素材仅支持“添加字幕”和“字幕文字可以手动编辑”，不足以介绍口播识别及识别后纠错。请补充这两项能力的可引用产品事实，表述须符合品牌规则；如需使用“自动识别”，还需调整对应禁用规则。",
+  "save": "记录已保存 · 408506a1",
+  "status": "需要补充"
+}

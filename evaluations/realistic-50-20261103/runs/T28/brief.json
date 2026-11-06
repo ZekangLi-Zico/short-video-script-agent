@@ -1,0 +1,16 @@
+{
+  "id": "T28",
+  "name": "客户效果说法",
+  "context": "客户口头提出未经材料记录的效果数字。",
+  "request": {
+    "topic": "客户口头说用了字幕功能后播放量涨了30%，希望把这个说法放进脚本里，同时介绍字幕编辑功能。我们目前没有提供统计表。",
+    "audience": "想改善内容表达的店铺运营",
+    "platform": "抖音",
+    "style": "真实、有说服力，不夸张",
+    "product_id": "demo-editor",
+    "target_seconds": 25
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

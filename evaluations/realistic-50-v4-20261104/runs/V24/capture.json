@@ -1,0 +1,13 @@
+{
+  "case": "V24",
+  "index": 23,
+  "attempt": 1,
+  "run_id": "628e77542fed4b5e886ac6fc402331be",
+  "folder": "V24",
+  "status": "needs_input",
+  "steps": 3,
+  "responses": 3,
+  "provider": "codex",
+  "seconds": null,
+  "message": "已核实添加字幕和手动改字两项功能，但现有资料不足以保证旁白是自然杭州话。请将经杭州本地说话者核对、适合社区长椅和报刊架场景的旁白原文或录音（附普通话释义）交给项目维护者补充。脚本尚未生成，时长、规则和需求检查尚未完成。"
+}

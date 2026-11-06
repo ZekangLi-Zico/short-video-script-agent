@@ -1,0 +1,16 @@
+{
+  "id": "T24",
+  "name": "费用说明",
+  "context": "用户购买前关心功能收费。",
+  "request": {
+    "topic": "写一条说明字幕功能是否免费、免费版有什么限制的短视频，不要只介绍功能存在。",
+    "audience": "正在决定是否使用的个人用户",
+    "platform": "小红书",
+    "style": "坦诚、解释清楚",
+    "product_id": "demo-editor",
+    "target_seconds": 25
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

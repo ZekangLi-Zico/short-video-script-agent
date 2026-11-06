@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ss_gr5xk",
+  "started_at": "2026-11-03T21:47:11.822068+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:47:35.845714+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a361-682d-78e0-8f05-72f8b1d2a8c2",
+    "usage": {
+      "input_tokens": 44208,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 402,
+      "reasoning_output_tokens": 253
+    },
+    "call_id": "decision-ss_gr5xk",
+    "warnings": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "status": "needs_input",
+  "message": "字幕添加和手动改字已有事实资料，画面可按社区长椅、报刊架安排。仍缺自然杭州话口播参考，请将经杭州话母语者核验的相关文稿或原声参考及普通话释义交给项目维护者。目前尚未生成脚本，也未完成时长、规则和需求检查；不能用普通话加语气词冒充地道杭州话。",
+  "script": null,
+  "duration": null,
+  "rules_check": null,
+  "requirements_check": null,
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-04T01:24:36.925046+00:00",
+    "finished_at": "2026-11-04T01:26:05.842198+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 3,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "optional_editor_notes_v1",
+    "model_responses": 3,
+    "run_id": "d94139b0d59443f0a509870a7f2aa7d1",
+    "persistence": "checkpoint_v1"
+  }
+}

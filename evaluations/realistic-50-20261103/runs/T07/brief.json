@@ -1,0 +1,16 @@
+{
+  "id": "T07",
+  "name": "运动录像",
+  "context": "健身教练想缩短训练录像开头和结尾。",
+  "request": {
+    "topic": "为拍训练录像的教练介绍视频片段裁剪功能，只介绍功能，不提供具体按钮操作步骤。",
+    "audience": "独立健身教练",
+    "platform": "视频号",
+    "style": "直接、专业但易懂",
+    "product_id": "demo-editor",
+    "target_seconds": 15
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

@@ -1,0 +1,340 @@
+{
+  "status": "completed",
+  "message": "已完成《收摊以后》三镜头脚本，覆盖裁剪片段与添加字幕，按折叠桌、旧书、收摊纸箱顺序展开，保持朴素轻叙事，结尾无关注点赞引导。估算14.5秒，符合22秒上限，无需进一步删改；实际时长以成片为准。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "收摊以后",
+    "shots": [
+      {
+        "visual": "折叠桌近景：摊主合起桌板，保留桌板合拢的一段动作。片头显示“收摊以后”。文案依次口播，裁剪功能事实句同步显示为文字卡，不展示软件界面。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "周末的摊，慢慢收。",
+            "source_id": "",
+            "fact_id": ""
+          },
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ]
+      },
+      {
+        "visual": "旧书近景：摊主把最后几本旧书码齐。第一句旁白同步作为字幕叠在旧书画面上；随后口播添加字幕的事实句，并同步显示该句文字卡，不展示软件界面。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "给这摞旧书，留句话。",
+            "source_id": "",
+            "fact_id": ""
+          },
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "收摊纸箱近景：摊主合上装好旧书的纸箱，双手离开箱盖。口播结尾文案，保留轻微纸箱摩擦声，画面自然结束。",
+        "hold_seconds": 3,
+        "blocks": [
+          {
+            "text": "纸箱合上，今天就到这里。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "e69aaa635a05d4b7e1df5a45221433eb310c93871426668dc0042a9a2bf30934",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 20,
+        "estimated_seconds": 5.5
+      },
+      {
+        "shot": 2,
+        "speech_units": 22,
+        "estimated_seconds": 6.0
+      },
+      {
+        "shot": 3,
+        "speech_units": 10,
+        "estimated_seconds": 3.0
+      }
+    ],
+    "total_seconds": 14.5,
+    "target_seconds": 22,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "e69aaa635a05d4b7e1df5a45221433eb310c93871426668dc0042a9a2bf30934",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:1/block:2",
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:2/block:2",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "收摊以后"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "折叠桌近景：摊主合起桌板，保留桌板合拢的一段动作。片头显示“收摊以后”。文案依次口播，裁剪功能事实句同步显示为文字卡，不展示软件界面。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "周末的摊，慢慢收。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "旧书近景：摊主把最后几本旧书码齐。第一句旁白同步作为字幕叠在旧书画面上；随后口播添加字幕的事实句，并同步显示该句文字卡，不展示软件界面。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "给这摞旧书，留句话。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "收摊纸箱近景：摊主合上装好旧书的纸箱，双手离开箱盖。口播结尾文案，保留轻微纸箱摩擦声，画面自然结束。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "纸箱合上，今天就到这里。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "e69aaa635a05d4b7e1df5a45221433eb310c93871426668dc0042a9a2bf30934",
+    "request_hash": "bceb0659a6ebdae1e0dc6ecf8ecaa4c0a9a8ee07337ab0c24112bb4db60db25d",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "介绍裁剪片段",
+        "verdict": "met",
+        "evidence": "镜头1第2段明确介绍“剪影练习版支持裁剪视频片段。”，并同步显示功能文字卡。"
+      },
+      {
+        "field": "topic",
+        "requirement": "添加字幕",
+        "verdict": "met",
+        "evidence": "镜头2第2段明确介绍“剪影练习版支持为视频添加字幕。”；画面还安排将第一句旁白作为字幕叠在旧书画面上。"
+      },
+      {
+        "field": "topic",
+        "requirement": "画面顺序为折叠桌、旧书、收摊纸箱。",
+        "verdict": "met",
+        "evidence": "镜头1为折叠桌近景、摊主合起桌板；镜头2为旧书近景、摊主码齐旧书；镜头3为收摊纸箱近景、摊主合上纸箱，顺序一致。"
+      },
+      {
+        "field": "topic",
+        "requirement": "标题用“收摊以后”",
+        "verdict": "met",
+        "evidence": "脚本标题为“收摊以后”，镜头1也明确安排片头显示“收摊以后”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "结尾不说关注点赞。",
+        "verdict": "met",
+        "evidence": "镜头3结尾为“纸箱合上，今天就到这里。”，画面自然结束，没有关注或点赞引导。"
+      },
+      {
+        "field": "audience",
+        "requirement": "周末市集摊主",
+        "verdict": "met",
+        "evidence": "镜头1口播“周末的摊，慢慢收。”，三个镜头连续展示摊主合桌、整理旧书和装箱收摊，贴合周末市集摊主的场景。"
+      },
+      {
+        "field": "platform",
+        "requirement": "抖音",
+        "verdict": "met",
+        "evidence": "采用三个近景镜头、简短口播和同步字幕或文字卡，主题集中，适合短视频观看；无需直接写出平台名称。"
+      },
+      {
+        "field": "style",
+        "requirement": "朴素",
+        "verdict": "met",
+        "evidence": "使用折叠桌、旧书、纸箱等日常物件，旁白如“周末的摊，慢慢收。”用词平实，没有夸张效果承诺。"
+      },
+      {
+        "field": "style",
+        "requirement": "轻叙事",
+        "verdict": "met",
+        "evidence": "从合桌、码书推进到合箱，以“纸箱合上，今天就到这里。”收束，形成简短的收摊过程叙事。"
+      }
+    ],
+    "summary": "已落实两项功能介绍、指定画面顺序、标题及结尾限制，受众和风格适配。表达未超出资料支持的能力范围，镜头停留安排合理。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "收摊以后",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "标题交代收摊后的叙事背景，不含产品能力或效果承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "折叠桌近景：摊主合起桌板，保留桌板合拢的一段动作。片头显示“收摊以后”。文案依次口播，裁剪功能事实句同步显示为文字卡，不展示软件界面。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ],
+        "evidence": "涉及的裁剪片段能力由P02.F1“剪影练习版支持裁剪视频片段。”支持。合桌动作、片头及文字卡属于拍摄安排，未增加自动裁剪、按钮名称或操作流程声明。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "周末的摊，慢慢收。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "描述周末收摊场景与节奏，不含可验证的产品承诺。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "旧书近景：摊主把最后几本旧书码齐。第一句旁白同步作为字幕叠在旧书画面上；随后口播添加字幕的事实句，并同步显示该句文字卡，不展示软件界面。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "字幕示意及添加字幕的功能介绍由P01.F1“剪影练习版支持为视频添加字幕。”支持。“同步”描述成片中字幕与旁白的呈现关系，未声称产品自动识别或自动同步字幕，也未虚构软件界面。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "给这摞旧书，留句话。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于围绕旧书的叙事连接语，没有声称产品自动生成文字或其他能力。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "收摊纸箱近景：摊主合上装好旧书的纸箱，双手离开箱盖。口播结尾文案，保留轻微纸箱摩擦声，画面自然结束。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "仅安排合箱动作、结尾口播和现场声音；保留纸箱摩擦声是制作安排，没有声称产品具备音频处理功能。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "纸箱合上，今天就到这里。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "描述合箱并结束当天收摊叙事，不含产品声明。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "镜头1、2的hold_seconds均为0，没有额外延长停留；各有两句短旁白，分别配合合桌、码书动作及同步文字。镜头3的hold_seconds为3，有合箱、双手离开箱盖和轻微纸箱摩擦声支撑停留，并以一句短旁白收尾。两项功能各介绍一次，未见重复事实或空镜凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T18:15:44.447037+00:00",
+    "finished_at": "2026-11-03T18:19:05.728469+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v3",
+    "requirements_review_context": "current_rules_check_v1",
+    "model_responses": 7
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "port": 8791,
+  "submitted_at": "2026-11-03T22:16:35.407Z",
+  "fields": {
+    "audience": "社区采访视频编辑",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "2163bbc6ec18415192e725b1e767d363",
+    "initial-script": "{\n  \"title\": \"采访后的整理\",\n  \"shots\": [\n    {\n      \"visual\": \"社区入口标牌\",\n      \"hold_seconds\": 10,\n      \"blocks\": [\n        {\n          \"text\": \"采访结束，整理开始。\",\n          \"source_id\": \"\",\n          \"fact_id\": \"\"\n        }\n      ]\n    },\n    {\n      \"visual\": \"采访笔记和录音笔\",\n      \"hold_seconds\": 10,\n      \"blocks\": [\n        {\n          \"text\": \"剪影练习版支持为视频添加字幕。\",\n          \"source_id\": \"P01\",\n          \"fact_id\": \"P01.F1\"\n        }\n      ]\n    },\n    {\n      \"visual\": \"手改纸上的错字\",\n      \"hold_seconds\": 10,\n      \"blocks\": [\n        {\n          \"text\": \"字幕文字可以手动编辑。\",\n          \"source_id\": \"P01\",\n          \"fact_id\": \"P01.F2\"\n        }\n      ]\n    },\n    {\n      \"visual\": \"合上的笔记本\",\n      \"hold_seconds\": 10,\n      \"blocks\": [\n        {\n          \"text\": \"把这一段记录留下。\",\n          \"source_id\": \"\",\n          \"fact_id\": \"\"\n        }\n      ]\n    }\n  ]\n}",
+    "platform": "视频号",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "直接，清楚",
+    "target-seconds": "22",
+    "topic": "所附旧稿四个镜头顺序与数量不能改，保留两项字幕功能，把总长压缩到22秒以内。可以修改文案和每镜停留，不要引入新场景。"
+  }
+}

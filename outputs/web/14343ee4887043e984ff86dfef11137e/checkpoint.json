@@ -1,0 +1,1251 @@
+{
+  "format": "checkpoint_v1",
+  "recorded_at": "2026-11-04T16:03:47.918472+00:00",
+  "last_event": {
+    "kind": "step",
+    "step": 6
+  },
+  "result": {
+    "status": "in_progress",
+    "message": "任务执行中，尚未完成。",
+    "script": {
+      "format_version": 2,
+      "title": "字幕，让表达被看见",
+      "shots": [
+        {
+          "purpose": "通过店铺口播回放引出字幕需求。",
+          "visual": "店员在货架前录制商品口播，运营拿起手机回看。镜头从拍摄现场切到尚未添加字幕的素材预览；本镜文案置于预览画面外。",
+          "hold_seconds": 0,
+          "blocks": [
+            {
+              "text": "想让画面里的表达更清楚？",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "both",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "展示为店铺视频添加字幕的能力。",
+          "visual": "延续同一段店铺素材，从无字幕画面切到叠加本镜文案的画面，停留展示字幕。采用成片示意，不展示具体产品界面或按钮。",
+          "hold_seconds": 5,
+          "blocks": [
+            {
+              "text": "剪影练习版支持为视频添加字幕。",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "channel": "both",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "展示字幕文字可以手动修改。",
+          "visual": "运营对照视频核对文字，镜头切到手部敲键；中性编辑示意中，本镜字幕文字被选中并手动重新输入，最后切回带字幕的视频预览。不展示具体产品按钮。",
+          "hold_seconds": 5,
+          "blocks": [
+            {
+              "text": "字幕文字可以手动编辑。",
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "channel": "both",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        }
+      ],
+      "editor_notes": "未将客户口述的“播放量提高30%”用于标题、旁白或屏幕文字：目前缺少统计依据及使用授权，不能作为已验证效果或公开案例。正文仅介绍已有资料支持的字幕能力。"
+    },
+    "duration": {
+      "ok": true,
+      "script_hash": "80b703f85fb37fcb68757bd501c711ef2d9982e0f68cd96b9acba3bd1c0d8854",
+      "shots": [
+        {
+          "shot": 1,
+          "estimated_seconds": 3.3,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 3.3,
+              "voice_seconds": 3.25,
+              "screen_read_seconds": 3.25,
+              "display_seconds": 0,
+              "estimated_seconds": 3.3
+            }
+          ],
+          "tail_hold_seconds": 0.0
+        },
+        {
+          "shot": 2,
+          "estimated_seconds": 5.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 4.0,
+              "voice_seconds": 4.0,
+              "screen_read_seconds": 4.0,
+              "display_seconds": 0,
+              "estimated_seconds": 4.0
+            }
+          ],
+          "tail_hold_seconds": 1.0
+        },
+        {
+          "shot": 3,
+          "estimated_seconds": 5.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 3.0,
+              "voice_seconds": 3.0,
+              "screen_read_seconds": 3.0,
+              "display_seconds": 0,
+              "estimated_seconds": 3.0
+            }
+          ],
+          "tail_hold_seconds": 2.0
+        }
+      ],
+      "total_seconds": 13.3,
+      "target_seconds": 25,
+      "passed": true,
+      "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+      "is_estimate": true
+    },
+    "rules_check": {
+      "ok": true,
+      "script_hash": "80b703f85fb37fcb68757bd501c711ef2d9982e0f68cd96b9acba3bd1c0d8854",
+      "passed": true,
+      "issues": [],
+      "citations": [
+        {
+          "location": "shot:2/block:1",
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01",
+          "text": "剪影练习版支持为视频添加字幕。",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:3/block:1",
+          "source_id": "P01",
+          "fact_id": "P01.F2",
+          "quote": "字幕文字可以手动编辑。",
+          "version": "2026-11-01",
+          "text": "字幕文字可以手动编辑。",
+          "requires_semantic_review": true
+        }
+      ],
+      "rules_version": "2026-11-03-v1",
+      "requires_expression_review": true,
+      "expression_slots": [
+        {
+          "location": "title",
+          "text": "字幕，让表达被看见"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "店员在货架前录制商品口播，运营拿起手机回看。镜头从拍摄现场切到尚未添加字幕的素材预览；本镜文案置于预览画面外。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "想让画面里的表达更清楚？"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "延续同一段店铺素材，从无字幕画面切到叠加本镜文案的画面，停留展示字幕。采用成片示意，不展示具体产品界面或按钮。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "运营对照视频核对文字，镜头切到手部敲键；中性编辑示意中，本镜字幕文字被选中并手动重新输入，最后切回带字幕的视频预览。不展示具体产品按钮。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ],
+      "available_facts": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F2",
+          "quote": "字幕文字可以手动编辑。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01"
+        }
+      ],
+      "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+    },
+    "requirements_check": {
+      "ok": true,
+      "script_hash": "80b703f85fb37fcb68757bd501c711ef2d9982e0f68cd96b9acba3bd1c0d8854",
+      "request_hash": "93972873cc931936e79f564ca370d65259052b284f9983eeaaba7d87a79a6a9d",
+      "passed": true,
+      "items": [
+        {
+          "field": "topic",
+          "requirement": "请写一条介绍字幕功能的脚本",
+          "verdict": "met",
+          "evidence": "第2镜介绍“支持为视频添加字幕”，第3镜介绍“字幕文字可以手动编辑”，均配有相应示意画面。"
+        },
+        {
+          "field": "topic",
+          "requirement": "处理这个说法",
+          "verdict": "met",
+          "evidence": "公开内容未使用“播放量提高30%”；editor_notes准确说明已删除该效果说法，并指出缺少统计依据及使用授权。"
+        },
+        {
+          "field": "topic",
+          "requirement": "不要把口头反馈包装成已验证效果",
+          "verdict": "met",
+          "evidence": "标题及全部分镜均未宣称播放量提升，也未将客户口述作为案例或背书；正文仅介绍有来源支持的字幕能力。"
+        },
+        {
+          "field": "audience",
+          "requirement": "店铺内容运营",
+          "verdict": "met",
+          "evidence": "第1镜呈现店员在货架前录制商品口播、运营回看素材；第3镜呈现运营核对并修改字幕，贴合店铺内容工作。"
+        },
+        {
+          "field": "platform",
+          "requirement": "抖音",
+          "verdict": "met",
+          "evidence": "采用问题开场、三镜短篇和同步声画文案，字幕能力通过直观示意展示，适合短视频观看；宿主估算总长13.3秒。"
+        },
+        {
+          "field": "style",
+          "requirement": "可信",
+          "verdict": "met",
+          "evidence": "第2、3镜功能文案分别由P01.F1、P01.F2直接支持，未使用未经验证的增长数字或客户背书。"
+        },
+        {
+          "field": "style",
+          "requirement": "少口号",
+          "verdict": "met",
+          "evidence": "标题“字幕，让表达被看见”为简短修辞；主体两镜直接说明添加字幕和手动编辑功能，没有连续口号或夸张效果承诺。"
+        }
+      ],
+      "summary": "需求已落实。公开内容未使用“播放量提高30%”，审稿备注准确交代了统计依据及授权缺口；字幕功能介绍有资料支持，店铺场景和节奏合理。",
+      "method": "model_assessment_not_deterministic_proof",
+      "expressions": [
+        {
+          "location": "title",
+          "text": "字幕，让表达被看见",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于与字幕主题相关的修辞标题，未承诺播放量、传播效果或额外产品能力。"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "店员在货架前录制商品口播，运营拿起手机回看。镜头从拍摄现场切到尚未添加字幕的素材预览；本镜文案置于预览画面外。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "描述店铺拍摄、回看和文案位置安排，未声称产品提供拍摄或预览功能，也未呈现具体产品界面。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "想让画面里的表达更清楚？",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "以问句引出表达需求，未断言产品能实现某种经验证的效果。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "延续同一段店铺素材，从无字幕画面切到叠加本镜文案的画面，停留展示字幕。采用成片示意，不展示具体产品界面或按钮。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "无字幕到带字幕的成片示意对应“支持为视频添加字幕”，没有增加自动生成、识别或具体操作流程的声明。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "剪影练习版支持为视频添加字幕。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "与P01.F1原文完全一致，引用保留原块标注的来源和事实ID。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "运营对照视频核对文字，镜头切到手部敲键；中性编辑示意中，本镜字幕文字被选中并手动重新输入，最后切回带字幕的视频预览。不展示具体产品按钮。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "选中文字并重新输入是手动编辑的中性示意，由P01.F2支持；带字幕的成片由P01.F1支持。未指定产品按钮、界面布局或自动流程。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "字幕文字可以手动编辑。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2"
+            }
+          ],
+          "evidence": "与P01.F2原文完全一致，未增加自动纠错等能力，引用与原块标注一致。"
+        }
+      ],
+      "pacing": {
+        "verdict": "met",
+        "evidence": "第1镜预计3.3秒，承载简短提问及拍摄现场转回看画面；第2镜5秒包含4秒同步声画和1秒字幕观察；第3镜5秒包含3秒同步声画和2秒编辑、成片观察余量。两处5秒最低停留均有具体画面任务，未重复同一事实凑时长。总长13.3秒，宿主已判定符合25秒上限；editor_notes不计入播放。"
+      },
+      "expression_review_passed": true
+    },
+    "sources": [
+      {
+        "id": "P01",
+        "product_id": "demo-editor",
+        "title": "字幕功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "字幕",
+          "口播",
+          "文字",
+          "caption",
+          "subtitle"
+        ],
+        "facts": [
+          {
+            "id": "P01.F1",
+            "text": "剪影练习版支持为视频添加字幕。"
+          },
+          {
+            "id": "P01.F2",
+            "text": "字幕文字可以手动编辑。"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "product_id": "demo-editor",
+        "title": "剪辑功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "剪辑",
+          "裁剪",
+          "片段",
+          "trim",
+          "edit"
+        ],
+        "facts": [
+          {
+            "id": "P02.F1",
+            "text": "剪影练习版支持裁剪视频片段。"
+          }
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "action": "search_materials",
+        "arguments": {
+          "query": "demo-editor 字幕功能的官方说明、支持的字幕编辑能力及适用范围",
+          "product_id": "demo-editor"
+        },
+        "decision_basis": "先核实字幕功能的具体能力；口头提到的播放量增长缺少统计依据和授权，不作为公开效果宣传。",
+        "observation": {
+          "ok": true,
+          "query": "demo-editor 字幕功能的官方说明、支持的字幕编辑能力及适用范围",
+          "product_id": "demo-editor",
+          "materials": [
+            {
+              "id": "P01",
+              "product_id": "demo-editor",
+              "title": "字幕功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "字幕",
+                "口播",
+                "文字",
+                "caption",
+                "subtitle"
+              ],
+              "facts": [
+                {
+                  "id": "P01.F1",
+                  "text": "剪影练习版支持为视频添加字幕。"
+                },
+                {
+                  "id": "P01.F2",
+                  "text": "字幕文字可以手动编辑。"
+                }
+              ]
+            },
+            {
+              "id": "P02",
+              "product_id": "demo-editor",
+              "title": "剪辑功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "剪辑",
+                "裁剪",
+                "片段",
+                "trim",
+                "edit"
+              ],
+              "facts": [
+                {
+                  "id": "P02.F1",
+                  "text": "剪影练习版支持裁剪视频片段。"
+                }
+              ]
+            }
+          ],
+          "count": 2
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a747-4348-7122-95dc-a1796423d8dc",
+          "usage": {
+            "input_tokens": 27357,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 242,
+            "reasoning_output_tokens": 158
+          },
+          "call_id": "decision-w9qvvh9i",
+          "warnings": []
+        },
+        "elapsed_ms": 129937
+      },
+      {
+        "step": 2,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "字幕，让表达被看见",
+            "shots": [
+              {
+                "purpose": "通过店铺口播回放引出字幕需求。",
+                "visual": "店员在货架前录制商品口播，运营拿起手机回看。镜头从拍摄现场切到尚未添加字幕的素材预览；本镜文案置于预览画面外。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "想让画面里的表达更清楚？",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "展示为店铺视频添加字幕的能力。",
+                "visual": "延续同一段店铺素材，从无字幕画面切到叠加本镜文案的画面，停留展示字幕。采用成片示意，不展示具体产品界面或按钮。",
+                "hold_seconds": 5,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "展示字幕文字可以手动修改。",
+                "visual": "运营对照视频核对文字，镜头切到手部敲键；中性编辑示意中，本镜字幕文字被选中并手动重新输入，最后切回带字幕的视频预览。不展示具体产品按钮。",
+                "hold_seconds": 5,
+                "blocks": [
+                  {
+                    "text": "字幕文字可以手动编辑。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": "未将客户口述的“播放量提高30%”用于标题、旁白或屏幕文字：目前缺少统计依据及使用授权，不能作为已验证效果或公开案例。正文仅介绍已有资料支持的字幕能力。"
+          }
+        },
+        "decision_basis": "资料已覆盖添加字幕和手动编辑两项能力。用店铺口播场景展示功能，排除缺少统计依据及授权的播放量增长说法。",
+        "observation": {
+          "ok": true,
+          "script_hash": "80b703f85fb37fcb68757bd501c711ef2d9982e0f68cd96b9acba3bd1c0d8854",
+          "revision": {
+            "before_hash": null,
+            "after_hash": "80b703f85fb37fcb68757bd501c711ef2d9982e0f68cd96b9acba3bd1c0d8854",
+            "changed_fields": [
+              "script:new"
+            ],
+            "unchanged_shots": 0,
+            "unchanged_blocks": 0,
+            "feedback": [],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a749-2106-7c60-8145-9e45d1e6c1ec",
+          "usage": {
+            "input_tokens": 27868,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1892,
+            "reasoning_output_tokens": 1418
+          },
+          "call_id": "decision-d_v_2z8o",
+          "warnings": []
+        },
+        "elapsed_ms": 102969
+      },
+      {
+        "step": 3,
+        "action": "estimate_duration",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "字幕，让表达被看见",
+            "shots": [
+              {
+                "purpose": "通过店铺口播回放引出字幕需求。",
+                "visual": "店员在货架前录制商品口播，运营拿起手机回看。镜头从拍摄现场切到尚未添加字幕的素材预览；本镜文案置于预览画面外。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "想让画面里的表达更清楚？",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "展示为店铺视频添加字幕的能力。",
+                "visual": "延续同一段店铺素材，从无字幕画面切到叠加本镜文案的画面，停留展示字幕。采用成片示意，不展示具体产品界面或按钮。",
+                "hold_seconds": 5,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "展示字幕文字可以手动修改。",
+                "visual": "运营对照视频核对文字，镜头切到手部敲键；中性编辑示意中，本镜字幕文字被选中并手动重新输入，最后切回带字幕的视频预览。不展示具体产品按钮。",
+                "hold_seconds": 5,
+                "blocks": [
+                  {
+                    "text": "字幕文字可以手动编辑。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": "未将客户口述的“播放量提高30%”用于标题、旁白或屏幕文字：目前缺少统计依据及使用授权，不能作为已验证效果或公开案例。正文仅介绍已有资料支持的字幕能力。"
+          },
+          "target_seconds": 25,
+          "duration_mode": "max"
+        },
+        "decision_basis": "核算当前三镜稿的旁白、字幕阅读与画面停留时间，确认总时长不超过25秒。",
+        "observation": {
+          "ok": true,
+          "script_hash": "80b703f85fb37fcb68757bd501c711ef2d9982e0f68cd96b9acba3bd1c0d8854",
+          "shots": [
+            {
+              "shot": 1,
+              "estimated_seconds": 3.3,
+              "beats": [
+                {
+                  "beat": 1,
+                  "start_seconds": 0,
+                  "end_seconds": 3.3,
+                  "voice_seconds": 3.25,
+                  "screen_read_seconds": 3.25,
+                  "display_seconds": 0,
+                  "estimated_seconds": 3.3
+                }
+              ],
+              "tail_hold_seconds": 0.0
+            },
+            {
+              "shot": 2,
+              "estimated_seconds": 5.0,
+              "beats": [
+                {
+                  "beat": 1,
+                  "start_seconds": 0,
+                  "end_seconds": 4.0,
+                  "voice_seconds": 4.0,
+                  "screen_read_seconds": 4.0,
+                  "display_seconds": 0,
+                  "estimated_seconds": 4.0
+                }
+              ],
+              "tail_hold_seconds": 1.0
+            },
+            {
+              "shot": 3,
+              "estimated_seconds": 5.0,
+              "beats": [
+                {
+                  "beat": 1,
+                  "start_seconds": 0,
+                  "end_seconds": 3.0,
+                  "voice_seconds": 3.0,
+                  "screen_read_seconds": 3.0,
+                  "display_seconds": 0,
+                  "estimated_seconds": 3.0
+                }
+              ],
+              "tail_hold_seconds": 2.0
+            }
+          ],
+          "total_seconds": 13.3,
+          "target_seconds": 25,
+          "passed": true,
+          "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+          "is_estimate": true
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a74a-9b4b-7613-a61e-b893663d6a54",
+          "usage": {
+            "input_tokens": 29030,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 159,
+            "reasoning_output_tokens": 96
+          },
+          "call_id": "decision-mmbu6amq",
+          "warnings": []
+        },
+        "elapsed_ms": 33157
+      },
+      {
+        "step": 4,
+        "action": "check_rules",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "字幕，让表达被看见",
+            "shots": [
+              {
+                "purpose": "通过店铺口播回放引出字幕需求。",
+                "visual": "店员在货架前录制商品口播，运营拿起手机回看。镜头从拍摄现场切到尚未添加字幕的素材预览；本镜文案置于预览画面外。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "想让画面里的表达更清楚？",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "展示为店铺视频添加字幕的能力。",
+                "visual": "延续同一段店铺素材，从无字幕画面切到叠加本镜文案的画面，停留展示字幕。采用成片示意，不展示具体产品界面或按钮。",
+                "hold_seconds": 5,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "展示字幕文字可以手动修改。",
+                "visual": "运营对照视频核对文字，镜头切到手部敲键；中性编辑示意中，本镜字幕文字被选中并手动重新输入，最后切回带字幕的视频预览。不展示具体产品按钮。",
+                "hold_seconds": 5,
+                "blocks": [
+                  {
+                    "text": "字幕文字可以手动编辑。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": "未将客户口述的“播放量提高30%”用于标题、旁白或屏幕文字：目前缺少统计依据及使用授权，不能作为已验证效果或公开案例。正文仅介绍已有资料支持的字幕能力。"
+          },
+          "retrieved_ids": [
+            "P01",
+            "P02"
+          ],
+          "expression_mode": "creative"
+        },
+        "decision_basis": "当前稿时长检查已通过；检查字幕功能引用、品牌禁用词及公开文案，确认未将缺少统计依据和授权的“播放量提高30%”作为效果宣传。",
+        "observation": {
+          "ok": true,
+          "script_hash": "80b703f85fb37fcb68757bd501c711ef2d9982e0f68cd96b9acba3bd1c0d8854",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:2/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01",
+              "text": "剪影练习版支持为视频添加字幕。",
+              "requires_semantic_review": true
+            },
+            {
+              "location": "shot:3/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01",
+              "text": "字幕文字可以手动编辑。",
+              "requires_semantic_review": true
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "字幕，让表达被看见"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "店员在货架前录制商品口播，运营拿起手机回看。镜头从拍摄现场切到尚未添加字幕的素材预览；本镜文案置于预览画面外。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "想让画面里的表达更清楚？"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "延续同一段店铺素材，从无字幕画面切到叠加本镜文案的画面，停留展示字幕。采用成片示意，不展示具体产品界面或按钮。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "剪影练习版支持为视频添加字幕。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "运营对照视频核对文字，镜头切到手部敲键；中性编辑示意中，本镜字幕文字被选中并手动重新输入，最后切回带字幕的视频预览。不展示具体产品按钮。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "字幕文字可以手动编辑。"
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a74b-1da5-7812-92fa-4483df353c28",
+          "usage": {
+            "input_tokens": 30358,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 141,
+            "reasoning_output_tokens": 63
+          },
+          "call_id": "decision-u0b5sqpq",
+          "warnings": []
+        },
+        "elapsed_ms": 19969
+      },
+      {
+        "step": 5,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "字幕，让表达被看见",
+            "shots": [
+              {
+                "purpose": "通过店铺口播回放引出字幕需求。",
+                "visual": "店员在货架前录制商品口播，运营拿起手机回看。镜头从拍摄现场切到尚未添加字幕的素材预览；本镜文案置于预览画面外。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "想让画面里的表达更清楚？",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "展示为店铺视频添加字幕的能力。",
+                "visual": "延续同一段店铺素材，从无字幕画面切到叠加本镜文案的画面，停留展示字幕。采用成片示意，不展示具体产品界面或按钮。",
+                "hold_seconds": 5,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "展示字幕文字可以手动修改。",
+                "visual": "运营对照视频核对文字，镜头切到手部敲键；中性编辑示意中，本镜字幕文字被选中并手动重新输入，最后切回带字幕的视频预览。不展示具体产品按钮。",
+                "hold_seconds": 5,
+                "blocks": [
+                  {
+                    "text": "字幕文字可以手动编辑。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": "未将客户口述的“播放量提高30%”用于标题、旁白或屏幕文字：目前缺少统计依据及使用授权，不能作为已验证效果或公开案例。正文仅介绍已有资料支持的字幕能力。"
+          },
+          "request": {
+            "topic": "客户口头说加字幕后播放量提高了30%，但还没有统计表和授权。请写一条介绍字幕功能的脚本，处理这个说法，不要把口头反馈包装成已验证效果。",
+            "audience": "店铺内容运营",
+            "platform": "抖音",
+            "style": "可信，少口号",
+            "product_id": "demo-editor",
+            "duration_mode": "max",
+            "expression_mode": "creative",
+            "target_seconds": 25
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "80b703f85fb37fcb68757bd501c711ef2d9982e0f68cd96b9acba3bd1c0d8854",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:2/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01",
+                "text": "剪影练习版支持为视频添加字幕。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:3/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01",
+                "text": "字幕文字可以手动编辑。",
+                "requires_semantic_review": true
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "字幕，让表达被看见"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "店员在货架前录制商品口播，运营拿起手机回看。镜头从拍摄现场切到尚未添加字幕的素材预览；本镜文案置于预览画面外。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "想让画面里的表达更清楚？"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "延续同一段店铺素材，从无字幕画面切到叠加本镜文案的画面，停留展示字幕。采用成片示意，不展示具体产品界面或按钮。"
+              },
+              {
+                "location": "shot:2/block:1",
+                "text": "剪影练习版支持为视频添加字幕。"
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "运营对照视频核对文字，镜头切到手部敲键；中性编辑示意中，本镜字幕文字被选中并手动重新输入，最后切回带字幕的视频预览。不展示具体产品按钮。"
+              },
+              {
+                "location": "shot:3/block:1",
+                "text": "字幕文字可以手动编辑。"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "80b703f85fb37fcb68757bd501c711ef2d9982e0f68cd96b9acba3bd1c0d8854",
+            "shots": [
+              {
+                "shot": 1,
+                "estimated_seconds": 3.3,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 3.3,
+                    "voice_seconds": 3.25,
+                    "screen_read_seconds": 3.25,
+                    "display_seconds": 0,
+                    "estimated_seconds": 3.3
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              },
+              {
+                "shot": 2,
+                "estimated_seconds": 5.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 4.0,
+                    "voice_seconds": 4.0,
+                    "screen_read_seconds": 4.0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.0
+                  }
+                ],
+                "tail_hold_seconds": 1.0
+              },
+              {
+                "shot": 3,
+                "estimated_seconds": 5.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 3.0,
+                    "voice_seconds": 3.0,
+                    "screen_read_seconds": 3.0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 3.0
+                  }
+                ],
+                "tail_hold_seconds": 2.0
+              }
+            ],
+            "total_seconds": 13.3,
+            "target_seconds": 25,
+            "passed": true,
+            "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+            "is_estimate": true
+          }
+        },
+        "decision_basis": "当前稿时长与规则检查均已通过；核对店铺运营场景、字幕功能事实及表达是否符合需求，并确认未将缺少统计依据和授权的“播放量提高30%”包装为已验证效果。",
+        "observation": {
+          "ok": true,
+          "script_hash": "80b703f85fb37fcb68757bd501c711ef2d9982e0f68cd96b9acba3bd1c0d8854",
+          "request_hash": "93972873cc931936e79f564ca370d65259052b284f9983eeaaba7d87a79a6a9d",
+          "passed": true,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "请写一条介绍字幕功能的脚本",
+              "verdict": "met",
+              "evidence": "第2镜介绍“支持为视频添加字幕”，第3镜介绍“字幕文字可以手动编辑”，均配有相应示意画面。"
+            },
+            {
+              "field": "topic",
+              "requirement": "处理这个说法",
+              "verdict": "met",
+              "evidence": "公开内容未使用“播放量提高30%”；editor_notes准确说明已删除该效果说法，并指出缺少统计依据及使用授权。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不要把口头反馈包装成已验证效果",
+              "verdict": "met",
+              "evidence": "标题及全部分镜均未宣称播放量提升，也未将客户口述作为案例或背书；正文仅介绍有来源支持的字幕能力。"
+            },
+            {
+              "field": "audience",
+              "requirement": "店铺内容运营",
+              "verdict": "met",
+              "evidence": "第1镜呈现店员在货架前录制商品口播、运营回看素材；第3镜呈现运营核对并修改字幕，贴合店铺内容工作。"
+            },
+            {
+              "field": "platform",
+              "requirement": "抖音",
+              "verdict": "met",
+              "evidence": "采用问题开场、三镜短篇和同步声画文案，字幕能力通过直观示意展示，适合短视频观看；宿主估算总长13.3秒。"
+            },
+            {
+              "field": "style",
+              "requirement": "可信",
+              "verdict": "met",
+              "evidence": "第2、3镜功能文案分别由P01.F1、P01.F2直接支持，未使用未经验证的增长数字或客户背书。"
+            },
+            {
+              "field": "style",
+              "requirement": "少口号",
+              "verdict": "met",
+              "evidence": "标题“字幕，让表达被看见”为简短修辞；主体两镜直接说明添加字幕和手动编辑功能，没有连续口号或夸张效果承诺。"
+            }
+          ],
+          "summary": "需求已落实。公开内容未使用“播放量提高30%”，审稿备注准确交代了统计依据及授权缺口；字幕功能介绍有资料支持，店铺场景和节奏合理。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "字幕，让表达被看见",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于与字幕主题相关的修辞标题，未承诺播放量、传播效果或额外产品能力。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "店员在货架前录制商品口播，运营拿起手机回看。镜头从拍摄现场切到尚未添加字幕的素材预览；本镜文案置于预览画面外。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "描述店铺拍摄、回看和文案位置安排，未声称产品提供拍摄或预览功能，也未呈现具体产品界面。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "想让画面里的表达更清楚？",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "以问句引出表达需求，未断言产品能实现某种经验证的效果。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "延续同一段店铺素材，从无字幕画面切到叠加本镜文案的画面，停留展示字幕。采用成片示意，不展示具体产品界面或按钮。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "无字幕到带字幕的成片示意对应“支持为视频添加字幕”，没有增加自动生成、识别或具体操作流程的声明。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "剪影练习版支持为视频添加字幕。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "与P01.F1原文完全一致，引用保留原块标注的来源和事实ID。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "运营对照视频核对文字，镜头切到手部敲键；中性编辑示意中，本镜字幕文字被选中并手动重新输入，最后切回带字幕的视频预览。不展示具体产品按钮。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                },
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "选中文字并重新输入是手动编辑的中性示意，由P01.F2支持；带字幕的成片由P01.F1支持。未指定产品按钮、界面布局或自动流程。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "字幕文字可以手动编辑。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ],
+              "evidence": "与P01.F2原文完全一致，未增加自动纠错等能力，引用与原块标注一致。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "第1镜预计3.3秒，承载简短提问及拍摄现场转回看画面；第2镜5秒包含4秒同步声画和1秒字幕观察；第3镜5秒包含3秒同步声画和2秒编辑、成片观察余量。两处5秒最低停留均有具体画面任务，未重复同一事实凑时长。总长13.3秒，宿主已判定符合25秒上限；editor_notes不计入播放。"
+          },
+          "expression_review_passed": true
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a74b-6aef-76d0-ae59-858f9944cfeb",
+          "usage": {
+            "input_tokens": 32266,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 162,
+            "reasoning_output_tokens": 75
+          },
+          "call_id": "decision-gu1zvn3w",
+          "warnings": []
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a74b-b53e-7763-91e6-3d5df80441b3",
+          "usage": {
+            "input_tokens": 28772,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2430,
+            "reasoning_output_tokens": 896
+          },
+          "call_id": "decision-wsu_rpj9",
+          "warnings": []
+        },
+        "elapsed_ms": 107906
+      },
+      {
+        "step": 6,
+        "action": "finish",
+        "arguments": {
+          "status": "completed",
+          "message": "已完成3镜字幕功能脚本，预计13.3秒，符合25秒上限。介绍添加字幕和手动编辑能力；公开文案未采用“播放量提高30%”，备注已说明统计依据及授权缺口。"
+        },
+        "decision_basis": "当前同一稿的时长、规则及需求检查均已通过，可完成交付。",
+        "observation": {
+          "ok": true,
+          "status": "completed",
+          "script_hash": "80b703f85fb37fcb68757bd501c711ef2d9982e0f68cd96b9acba3bd1c0d8854"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a74d-103e-77c1-a556-70317cf461f9",
+          "usage": {
+            "input_tokens": 36947,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 233,
+            "reasoning_output_tokens": 128
+          },
+          "call_id": "decision-kkn4shga",
+          "warnings": []
+        },
+        "elapsed_ms": 20640
+      }
+    ],
+    "metadata": {
+      "started_at": "2026-11-04T15:56:53.243231+00:00",
+      "finished_at": "2026-11-04T16:03:47.914485+00:00",
+      "provider": "codex",
+      "evidence_kind": "real_model",
+      "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+      "max_steps": 12,
+      "steps": 6,
+      "synthetic_data": true,
+      "completion_policy": "facts_duration_requirements_v5",
+      "requirements_review_context": "current_rules_and_duration_v2",
+      "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+      "model_responses": 7,
+      "run_id": "352d9e45441f4479a16e2a2d52a38587",
+      "persistence": "checkpoint_v1",
+      "fault_injection": {}
+    }
+  }
+}

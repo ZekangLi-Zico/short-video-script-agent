@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-cuzivpw1",
+  "started_at": "2026-11-04T21:10:31.014879+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T21:11:14.606639+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a866-30b3-7ad1-ab4b-84102d73b813",
+    "usage": {
+      "input_tokens": 27650,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 697,
+      "reasoning_output_tokens": 196
+    },
+    "call_id": "decision-cuzivpw1",
+    "warnings": []
+  }
+}

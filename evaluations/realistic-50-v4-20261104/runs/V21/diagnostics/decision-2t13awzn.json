@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-2t13awzn",
+  "started_at": "2026-11-03T21:45:40.147466+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:45:53.655166+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a360-0262-78b1-a91d-4b2c8ec28de4",
+    "usage": {
+      "input_tokens": 38779,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 102,
+      "reasoning_output_tokens": 41
+    },
+    "call_id": "decision-2t13awzn",
+    "warnings": []
+  }
+}

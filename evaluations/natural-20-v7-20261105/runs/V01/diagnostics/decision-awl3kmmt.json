@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-awl3kmmt",
+  "started_at": "2026-11-04T21:12:40.470020+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T21:13:29.381277+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a868-4ea4-7e73-b51b-1a7618ab8d53",
+    "usage": {
+      "input_tokens": 31038,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 90,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-awl3kmmt",
+    "warnings": []
+  }
+}

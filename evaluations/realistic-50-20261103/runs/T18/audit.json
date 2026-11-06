@@ -1,0 +1,68 @@
+{
+  "case": "T18",
+  "name": "双语字幕",
+  "run_id": "5a75c4d081974ee7ac0e4a276a4ec926",
+  "status": "needs_input",
+  "message": "请补充字幕功能中文事实对应的英文原文及准确 source_id、fact_id；若需英文连接语，请一并加入 creative_copy。现有逐字引用规则不允许自行翻译，暂无法生成符合要求的双语稿。",
+  "steps": 3,
+  "model_calls": 3,
+  "seconds": null,
+  "target_seconds": 25,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "search_materials",
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 为视频添加字幕功能，可逐字引用的中文事实及对应英文事实，包含准确 source_id 和 fact_id",
+    "demo-editor 字幕功能英文版素材：为视频添加字幕、手动编辑字幕文字的对应英文事实原文及准确 source_id、fact_id"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前没有可引用素材，需要检索字幕功能的中文及对应英文事实。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "basis": "现有事实和批准文案均为中文，缺少逐镜配对所需的英文引用。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "basis": "两次检索均未获得英文事实，批准文案也仅有中文，无法满足每个分镜中英对应。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 69.6,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "75f550a8b9516fd42f4b934999cf55083a30bb35b918676cfeca546e9adc5418",
+    "output.json": "a4aa17a0564b6042b3a654c2ace7573041253e4e6f943244ebcda53ef218fb61",
+    "trace.jsonl": "4f4353dd3efe555d68664adc5ca040a822486133aa2100f4d7eb6345e062df52",
+    "manifest.json": "717d1954c76076cb6dabde9b26c65385b404c08327fc16f28fa96ae42e7e5d93",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "b4a4c03a3c0e8de78a22c7468bc25b156867e75c4817d99c32ed24185bdae183"
+  }
+}

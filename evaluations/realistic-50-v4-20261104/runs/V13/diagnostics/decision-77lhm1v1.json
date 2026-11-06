@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-77lhm1v1",
+  "started_at": "2026-11-03T21:21:57.293576+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:22:54.634818+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a34a-4c9b-7651-9e6f-f6161f547ea5",
+    "usage": {
+      "input_tokens": 27722,
+      "cached_input_tokens": 9600,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2123,
+      "reasoning_output_tokens": 816
+    },
+    "call_id": "decision-77lhm1v1",
+    "warnings": []
+  }
+}

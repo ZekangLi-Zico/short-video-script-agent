@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-rso0p15y",
+  "started_at": "2026-11-04T01:36:51.933211+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:38:07.775655+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a433-b1ff-7da0-8167-66851c44b938",
+    "usage": {
+      "input_tokens": 28244,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2805,
+      "reasoning_output_tokens": 1034
+    },
+    "call_id": "decision-rso0p15y",
+    "warnings": []
+  }
+}

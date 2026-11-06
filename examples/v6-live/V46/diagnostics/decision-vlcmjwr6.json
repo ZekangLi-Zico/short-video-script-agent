@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-vlcmjwr6",
+  "started_at": "2026-11-04T17:46:25.587031+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:46:39.320478+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a7ab-5759-7ce0-a472-b95b4dc68ae3",
+    "usage": {
+      "input_tokens": 30698,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 102,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-vlcmjwr6",
+    "warnings": []
+  }
+}

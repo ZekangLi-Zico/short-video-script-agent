@@ -1,0 +1,278 @@
+[
+  {
+    "id": "P01",
+    "source": "V46",
+    "name": "旧稿能力核对",
+    "request": {
+      "topic": "审核并修改所附字幕介绍旧稿；客户没有提供自动识别和准确率数据。保留可确认的产品功能，明确处理无法确认的说法。",
+      "audience": "新手内容创作者",
+      "platform": "小红书",
+      "target_seconds": 28,
+      "style": "客观，实用",
+      "product_id": "demo-editor",
+      "expression_mode": "creative",
+      "duration_mode": "max",
+      "initial_script": {
+        "title": "口播字幕小帮手",
+        "shots": [
+          {
+            "visual": "桌上的采访话筒",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "剪影练习版支持为视频添加字幕。",
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ]
+          },
+          {
+            "visual": "显示自动识别示意",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "自动识别人声，字幕准确率达到99%。",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          },
+          {
+            "visual": "便签上手改错字",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "字幕文字可以手动编辑。",
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "failures": {}
+  },
+  {
+    "id": "P02",
+    "source": "V01",
+    "name": "早餐摊口播",
+    "request": {
+      "topic": "做一条剪影练习版字幕功能介绍，背景是早餐摊主讲今日备料。只介绍添加字幕，画面按蒸笼、手写菜单、打包台的顺序，不要出现顾客正脸。",
+      "audience": "小店新媒体兼职",
+      "platform": "抖音",
+      "target_seconds": 25,
+      "style": "像同事分享经验，短句",
+      "product_id": "demo-editor",
+      "expression_mode": "creative",
+      "duration_mode": "max"
+    },
+    "failures": {}
+  },
+  {
+    "id": "P03",
+    "source": "V45",
+    "name": "字幕旧稿压缩",
+    "request": {
+      "topic": "把所附旧稿压缩到25秒以内，保留添加字幕和手动改字两个功能。标题保持“记录里的每句话”，优先改冗长停留，不要额外添功能。",
+      "audience": "第一次拍口播的店主",
+      "platform": "抖音",
+      "target_seconds": 25,
+      "style": "自然，紧凑",
+      "product_id": "demo-editor",
+      "expression_mode": "creative",
+      "duration_mode": "max",
+      "initial_script": {
+        "title": "记录里的每句话",
+        "shots": [
+          {
+            "visual": "店主背影和备料台",
+            "hold_seconds": 15,
+            "blocks": [
+              {
+                "text": "一天的准备，从这里开始。",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          },
+          {
+            "visual": "字幕示意卡",
+            "hold_seconds": 15,
+            "blocks": [
+              {
+                "text": "剪影练习版支持为视频添加字幕。",
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ]
+          },
+          {
+            "visual": "纸上修改一个错字",
+            "hold_seconds": 15,
+            "blocks": [
+              {
+                "text": "字幕文字可以手动编辑。",
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "failures": {}
+  },
+  {
+    "id": "P04",
+    "source": "V46",
+    "name": "旧稿能力核对（预定重复）",
+    "request": {
+      "topic": "审核并修改所附字幕介绍旧稿；客户没有提供自动识别和准确率数据。保留可确认的产品功能，明确处理无法确认的说法。",
+      "audience": "新手内容创作者",
+      "platform": "小红书",
+      "target_seconds": 28,
+      "style": "客观，实用",
+      "product_id": "demo-editor",
+      "expression_mode": "creative",
+      "duration_mode": "max",
+      "initial_script": {
+        "title": "口播字幕小帮手",
+        "shots": [
+          {
+            "visual": "桌上的采访话筒",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "剪影练习版支持为视频添加字幕。",
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ]
+          },
+          {
+            "visual": "显示自动识别示意",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "自动识别人声，字幕准确率达到99%。",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          },
+          {
+            "visual": "便签上手改错字",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "字幕文字可以手动编辑。",
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "failures": {}
+  },
+  {
+    "id": "P05",
+    "source": "missing_information",
+    "name": "missing_information",
+    "request": {
+      "topic": "介绍字幕功能",
+      "audience": "第一次制作口播短视频的创作者",
+      "platform": "抖音",
+      "style": "清楚、友好、克制",
+      "product_id": "demo-editor",
+      "expression_mode": "strict",
+      "duration_mode": "max"
+    },
+    "failures": {},
+    "original_request": {
+      "topic": "介绍字幕功能",
+      "audience": "第一次制作口播短视频的创作者",
+      "platform": "抖音",
+      "style": "清楚、友好、克制",
+      "product_id": "demo-editor"
+    }
+  },
+  {
+    "id": "P06",
+    "source": "no_material",
+    "name": "no_material",
+    "request": {
+      "topic": "介绍字幕功能",
+      "audience": "第一次制作口播短视频的创作者",
+      "platform": "抖音",
+      "target_seconds": 30,
+      "style": "清楚、友好、克制",
+      "product_id": "product-without-materials",
+      "expression_mode": "strict",
+      "duration_mode": "max"
+    },
+    "failures": {},
+    "original_request": {
+      "topic": "介绍字幕功能",
+      "audience": "第一次制作口播短视频的创作者",
+      "platform": "抖音",
+      "target_seconds": 30,
+      "style": "清楚、友好、克制",
+      "product_id": "product-without-materials"
+    }
+  },
+  {
+    "id": "P07",
+    "source": "tool_failure",
+    "name": "tool_failure",
+    "request": {
+      "topic": "介绍字幕功能",
+      "audience": "第一次制作口播短视频的创作者",
+      "platform": "抖音",
+      "target_seconds": 30,
+      "style": "清楚、友好、克制",
+      "product_id": "demo-editor",
+      "expression_mode": "strict",
+      "duration_mode": "max"
+    },
+    "failures": {
+      "search_materials": -1
+    },
+    "original_request": {
+      "topic": "介绍字幕功能",
+      "audience": "第一次制作口播短视频的创作者",
+      "platform": "抖音",
+      "target_seconds": 30,
+      "style": "清楚、友好、克制",
+      "product_id": "demo-editor"
+    }
+  },
+  {
+    "id": "P08",
+    "source": "recoverable_failure",
+    "name": "recoverable_failure",
+    "request": {
+      "topic": "介绍字幕功能",
+      "audience": "第一次制作口播短视频的创作者",
+      "platform": "抖音",
+      "target_seconds": 30,
+      "style": "清楚、友好、克制",
+      "product_id": "demo-editor",
+      "expression_mode": "strict",
+      "duration_mode": "max"
+    },
+    "failures": {
+      "search_materials": 1
+    },
+    "original_request": {
+      "topic": "介绍字幕功能",
+      "audience": "第一次制作口播短视频的创作者",
+      "platform": "抖音",
+      "target_seconds": 30,
+      "style": "清楚、友好、克制",
+      "product_id": "demo-editor"
+    }
+  }
+]

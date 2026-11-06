@@ -1,0 +1,68 @@
+{
+  "case": "T46",
+  "name": "新门店资料",
+  "run_id": "0cc9ebb532094e9fa9166a27d157f5fa",
+  "status": "needs_input",
+  "message": "请上传新品资料，如面包名称、特点及出炉安排；“刚出炉”也需资料支持。收到可引用素材后，才能生成并检查20秒内的分镜稿。",
+  "steps": 3,
+  "model_calls": 3,
+  "seconds": null,
+  "target_seconds": 20,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "search_materials",
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "product-without-materials 晴天烘焙 周末新品 面包 刚出炉 产品资料",
+    "晴天烘焙 面包 新品"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前没有产品素材，先检索可引用的新品事实。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "basis": "首轮检索无结果，简化关键词再次查找可引用的产品资料。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "basis": "两次检索均无结果，缺少必需的有来源产品事实。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 72.6,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "5799e7c43303fd4ad3c49495db2277b7738f0b2f8444a44797cf67e76b43679e",
+    "output.json": "54b75bbfb407da65ff13734cd56493efa80aa99f902bc6cc77bd9abdbffdbc07",
+    "trace.jsonl": "2040bd1274ac87c73bdbc2b989e0aa4b88b44f7882cb2595f6f3e29409369ab0",
+    "manifest.json": "3d5a45a2fd807a710697af5f268605055d334c5028e3b79ead53a8332871c255",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "7e27de41ad8534d1184a570cbaa76d5dcf8dae1ffb1a18d9180d3eacd4fbe86e"
+  }
+}

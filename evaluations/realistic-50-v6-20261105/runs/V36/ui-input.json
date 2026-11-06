@@ -1,0 +1,19 @@
+{
+  "port": 8832,
+  "submitted_at": "2026-11-04T17:40:21.586Z",
+  "fields": {
+    "audience": "店铺内容运营",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "60263b9e97f746aaae108d26de8295d3",
+    "initial-script": "",
+    "platform": "抖音",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "可信，少口号",
+    "target-seconds": "25",
+    "topic": "客户口头说加字幕后播放量提高了30%，但还没有统计表和授权。请写一条介绍字幕功能的脚本，处理这个说法，不要把口头反馈包装成已验证效果。"
+  }
+}

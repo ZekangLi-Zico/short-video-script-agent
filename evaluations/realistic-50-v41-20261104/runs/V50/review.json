@@ -1,0 +1,8 @@
+{
+  "case": "V50",
+  "assessment": "重复输入仍满足约束；稿件存在随机差异",
+  "note": "与V01字节相同的预定重复，蒸笼—手写菜单—打包台顺序正确且避开顾客正脸，只讲P01添加字幕。13.1秒符合25秒上限；V01为17秒，两者均6步7响应，标题与情境文案不同。一对重复不足以证明总体稳定性。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

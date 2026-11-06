@@ -1,0 +1,13 @@
+{
+  "case_id": "T26",
+  "capture_mode": "viewport_fallback",
+  "finished_capture_at": "2026-11-03T14:36:52.585Z",
+  "busy": false,
+  "detail": "真实模型 · 3 个执行步骤",
+  "download": "/api/runs/0b7e2f5a07d041359d8fe6c9765ecbe4/download/output.json",
+  "error": "",
+  "history": "0b7e2f5a07d041359d8fe6c9765ecbe4",
+  "message": "请提供产品最高导出分辨率、是否支持4K，以及导出是否带水印和适用条件的官方素材。当前资料不足以讲清这两个问题，无法生成符合要求的脚本。",
+  "save": "记录已保存 · 0b7e2f5a",
+  "status": "需要补充"
+}

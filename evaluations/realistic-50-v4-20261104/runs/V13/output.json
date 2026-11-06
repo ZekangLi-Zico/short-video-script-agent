@@ -1,0 +1,308 @@
+{
+  "status": "completed",
+  "message": "已完成两个指定分镜：会议室空椅子介绍添加字幕，会议资料封面介绍横竖屏比例选项。稿件不含发言内容和员工姓名，无需进一步删改。估算总长11秒，符合20秒上限；三项检查均通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "添加字幕与横竖屏比例选项",
+    "shots": [
+      {
+        "visual": "固定机位拍摄会议室空椅子，无人出镜。叠加本镜事实块作为产品功能文字卡，不出现会议发言内容、员工姓名或软件界面。",
+        "hold_seconds": 5,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "固定机位拍摄会议资料封面，封面仅印“会议资料”，不展示内页、发言内容或员工姓名。叠加本镜事实块作为产品功能文字卡，不展示软件界面。",
+        "hold_seconds": 6,
+        "blocks": [
+          {
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "d7e7df0cffcbdc197ac22cd9c793ac87abfdd65a77f91db5ee18f1845bd3d250",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 14,
+        "estimated_seconds": 5.0
+      },
+      {
+        "shot": 2,
+        "speech_units": 18,
+        "estimated_seconds": 6.0
+      }
+    ],
+    "total_seconds": 11.0,
+    "target_seconds": 20,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "d7e7df0cffcbdc197ac22cd9c793ac87abfdd65a77f91db5ee18f1845bd3d250",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:1/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "添加字幕与横竖屏比例选项"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "固定机位拍摄会议室空椅子，无人出镜。叠加本镜事实块作为产品功能文字卡，不出现会议发言内容、员工姓名或软件界面。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "固定机位拍摄会议资料封面，封面仅印“会议资料”，不展示内页、发言内容或员工姓名。叠加本镜事实块作为产品功能文字卡，不展示软件界面。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "d7e7df0cffcbdc197ac22cd9c793ac87abfdd65a77f91db5ee18f1845bd3d250",
+    "request_hash": "ba2bdefd5f318c1b41a9d753aafc5e14453b6a56431a14aaa98befe8c588f8ca",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "添加字幕",
+        "verdict": "met",
+        "evidence": "第1镜文字为“剪影练习版支持为视频添加字幕。”，已介绍该功能。"
+      },
+      {
+        "field": "topic",
+        "requirement": "横竖屏比例选项",
+        "verdict": "met",
+        "evidence": "第2镜文字为“剪影练习版提供横屏和竖屏画面比例选项。”，同时覆盖横屏和竖屏选项。"
+      },
+      {
+        "field": "topic",
+        "requirement": "固定两个分镜",
+        "verdict": "met",
+        "evidence": "稿件恰好包含两个分镜，没有额外分镜。"
+      },
+      {
+        "field": "topic",
+        "requirement": "第一镜会议室空椅子",
+        "verdict": "met",
+        "evidence": "第1镜明确安排“固定机位拍摄会议室空椅子，无人出镜”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "第二镜会议资料封面",
+        "verdict": "met",
+        "evidence": "第2镜明确安排“固定机位拍摄会议资料封面”，封面仅印“会议资料”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不出现发言内容和员工姓名。",
+        "verdict": "met",
+        "evidence": "发言内容限制已落实：第1镜要求“不出现会议发言内容”，第2镜要求“不展示内页、发言内容”；两镜文字均仅介绍产品功能。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不出现发言内容和员工姓名。",
+        "verdict": "met",
+        "evidence": "员工姓名限制已落实：两镜画面说明均明确排除员工姓名；封面仅印“会议资料”，标题与功能文字均未包含姓名。"
+      },
+      {
+        "field": "audience",
+        "requirement": "公司行政视频编辑",
+        "verdict": "met",
+        "evidence": "会议室和会议资料封面对应公司行政场景，字幕与画面比例介绍直接关联视频编辑工作。"
+      },
+      {
+        "field": "platform",
+        "requirement": "视频号",
+        "verdict": "met",
+        "evidence": "两镜各呈现一条简短功能文字，内容便于短视频观看；宿主估算总长11秒，未见与视频号使用场景冲突的安排。"
+      },
+      {
+        "field": "style",
+        "requirement": "简洁",
+        "verdict": "met",
+        "evidence": "标题直接点明两项功能，每镜仅有一句功能介绍，没有额外铺垫或重复总结。"
+      },
+      {
+        "field": "style",
+        "requirement": "专业",
+        "verdict": "met",
+        "evidence": "采用会议场景、固定机位和客观功能陈述，没有夸张效果承诺或娱乐化措辞。"
+      }
+    ],
+    "summary": "需求均已落实：两项功能完整介绍，两个指定镜头及顺序正确，稿件排除了发言内容和员工姓名。表达有资料支持，预计11秒，节奏合理。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "添加字幕与横竖屏比例选项",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          },
+          {
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          }
+        ],
+        "evidence": "标题概括的添加字幕能力由P01.F1支持，横屏和竖屏比例选项由P03.F1支持，未增加额外能力或效果承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "固定机位拍摄会议室空椅子，无人出镜。叠加本镜事实块作为产品功能文字卡，不出现会议发言内容、员工姓名或软件界面。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "内容为拍摄对象、机位、文字卡呈现和画面排除安排，没有新增产品能力声明，也未虚构软件界面或操作步骤。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "固定机位拍摄会议资料封面，封面仅印“会议资料”，不展示内页、发言内容或员工姓名。叠加本镜事实块作为产品功能文字卡，不展示软件界面。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "内容为封面道具、拍摄方式和文字卡呈现安排；“会议资料”是场景文字，不构成产品承诺，没有新增能力或操作流程。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "第1镜预计5秒、最低停留5秒，承载14个旁白单位及添加字幕文字卡；第2镜预计6秒、最低停留6秒，承载18个旁白单位及横竖屏比例文字卡。每镜均有独立信息可供朗读和阅读，画面任务简单，无复杂操作需要额外时间，也没有重复同一事实或纯空镜凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T21:20:21.102234+00:00",
+    "finished_at": "2026-11-03T21:23:25.176934+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "model_responses": 7,
+    "run_id": "35feaf11fbc24e6e9f906e3b24524aee",
+    "persistence": "checkpoint_v1"
+  }
+}

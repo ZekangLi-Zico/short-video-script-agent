@@ -1,0 +1,1 @@
+{"case": "tool_failure", "expected_status": ["blocked", "step_limit"], "actual_status": "blocked", "passed": true, "errors": [], "steps": 4, "evidence_kind": "real_model", "path": "search_materials -> search_materials -> search_materials -> finish", "artifacts": "evaluations\\quality-v3-20261104\\final-real-acceptance\\tool_failure"}

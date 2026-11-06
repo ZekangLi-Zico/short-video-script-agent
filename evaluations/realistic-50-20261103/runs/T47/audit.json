@@ -1,0 +1,56 @@
+{
+  "case": "T47",
+  "name": "游戏活动资料",
+  "run_id": "7deb04fae51249778077fc2ef3e82089",
+  "status": "needs_input",
+  "message": "请提供“星港漫游”周末活动的时间、参与条件、规则和奖励资料，并补充适用于该活动的标题与文案白名单；当前白名单主要面向短片创作。",
+  "steps": 2,
+  "model_calls": 2,
+  "seconds": null,
+  "target_seconds": 30,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "星港漫游 周末活动 活动时间 参与条件 活动规则 奖励"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前没有活动素材，需检索可引用的规则和奖励事实。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "finish",
+      "basis": "素材检索无结果，缺少可引用的活动规则和奖励事实。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 49.3,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "0dbf505f5e933cd64b96d0029364af6e1773b70861be12725296799d48cf51a0",
+    "output.json": "1f24a582e6258739ffb0e3a6feb39522e74276e898956728fefd724bd9b4f2d6",
+    "trace.jsonl": "054fc24b4f09dbb43ce07f9192835398da7e33244cb1edf494bb93a62d94b256",
+    "manifest.json": "ea4471f4caea567556ff7d93a4fe960f9b6cacdc1386496f436fb77aeec32cca",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "f3b673a0d5861f940cec26992bc8df04e902432307ce523936825ef81f4e0897"
+  }
+}

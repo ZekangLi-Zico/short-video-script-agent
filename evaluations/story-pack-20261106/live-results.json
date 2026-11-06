@@ -1,0 +1,220 @@
+{
+  "scope": "Two targeted real-model UI runs; not a campaign or paired before-after benchmark.",
+  "inputs_written_before_execution": true,
+  "mock": false,
+  "results": [
+    {
+      "case": "candle",
+      "label": "门缝里的烛光",
+      "web_run_id": "5da6d3d86b904fbda9deef30793fda81",
+      "entry": "http://127.0.0.1:8765/",
+      "submitted_by": "browser UI generate button",
+      "input": {
+        "topic": "把第八集阿晴送叉烧饭这一段改成一个独立短片，从递饭开始，以她拒绝帮忙修电路后离开收尾。主要靠陈峥和阿晴的对白与反应推进，不加解说旁白。",
+        "audience": "已经认识陈峥和阿晴、在追这部漫剧的观众",
+        "platform": "B站",
+        "style": "生活化，先有邻里的温度，再留一点说不清的疑问",
+        "product_id": "city-drama",
+        "duration_mode": "max",
+        "expression_mode": "creative",
+        "target_seconds": 35
+      },
+      "original": "../../outputs/web/5da6d3d86b904fbda9deef30793fda81",
+      "saved": "runs/candle",
+      "status": "blocked",
+      "message": "模型调用失败，未完成；见执行记录。",
+      "title": "阿晴送来的叉烧饭",
+      "shots": 5,
+      "duration_seconds": 23.4,
+      "duration_passed": true,
+      "rules_passed": true,
+      "requirements_passed": true,
+      "elapsed_seconds": 505.27,
+      "model_responses": 4,
+      "failed_attempts": [
+        {
+          "call_id": "decision-y50a044p",
+          "started_at": "2026-11-05T17:38:21.501494+00:00",
+          "response_received": false,
+          "error_code": "codex_timeout",
+          "finished_at": "2026-11-05T17:41:22.611733+00:00",
+          "metadata": {
+            "provider": "codex",
+            "model": "CLI configured default",
+            "reasoning_effort": "medium",
+            "thread_id": null,
+            "usage": {},
+            "call_id": "decision-y50a044p",
+            "warnings": []
+          }
+        },
+        {
+          "call_id": "decision-z3w1iqvd",
+          "started_at": "2026-11-05T17:41:22.634564+00:00",
+          "response_received": false,
+          "error_code": "codex_timeout",
+          "finished_at": "2026-11-05T17:44:23.924046+00:00",
+          "metadata": {
+            "provider": "codex",
+            "model": "CLI configured default",
+            "reasoning_effort": "medium",
+            "thread_id": null,
+            "usage": {},
+            "call_id": "decision-z3w1iqvd",
+            "warnings": [],
+            "recovered_attempts": [
+              {
+                "error_code": "codex_timeout",
+                "call_id": "decision-y50a044p"
+              }
+            ]
+          }
+        }
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "check_requirements",
+        "model_error"
+      ],
+      "sources": [
+        "CZ-E08",
+        "CZ-C-QING",
+        "CZ-S-HOME"
+      ],
+      "voice": "我妈做的叉烧饭，让我给你送一份。谢谢啊，也替我谢谢你妈。\n\n你家怎么还点着蜡烛？\n\n电路坏了，好久了。要不我帮你看看？\n\n不用了。……行。\n\n那我回去了，你吃饭吧。好，回去吧。\n",
+      "metadata": {
+        "app_version": "v7.1-story-materials",
+        "started_at": "2026-11-05T17:35:58.673867+00:00",
+        "finished_at": "2026-11-05T17:44:23.945074+00:00",
+        "provider": "codex",
+        "evidence_kind": "real_model",
+        "data_hash": "5d865600d50d103f98dc820f7ba7505232f2991b7eda6b008e02601df670bf25",
+        "max_steps": 12,
+        "steps": 4,
+        "synthetic_data": false,
+        "completion_policy": "facts_duration_requirements_v6",
+        "requirements_review_context": "current_rules_and_duration_v2",
+        "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+        "model_responses": 4,
+        "run_id": "5980f24ff482456598562e471d1db970",
+        "persistence": "checkpoint_v1"
+      }
+    },
+    {
+      "case": "character",
+      "label": "陈峥的人物预告",
+      "web_run_id": "f11638b8792a4e799d71bf29f1612eb2",
+      "entry": "http://127.0.0.1:8766/",
+      "submitted_by": "browser UI generate button",
+      "input": {
+        "topic": "给《城寨风云》的陈峥做一支人物预告，用前六集的经历串起他为什么来到城寨、为什么非赢不可，也让人看到他保护阿晴的一面。最后留下继续追剧的念头。",
+        "audience": "没有看过原剧、喜欢港片和人物故事的成年观众",
+        "platform": "B站",
+        "style": "克制、有情绪，旁白像在讲一个人的遭遇，不念人物档案",
+        "product_id": "city-drama",
+        "duration_mode": "max",
+        "expression_mode": "creative",
+        "target_seconds": 45
+      },
+      "original": "../../outputs/web/f11638b8792a4e799d71bf29f1612eb2",
+      "saved": "runs/character",
+      "status": "blocked",
+      "message": "模型调用失败，未完成；见执行记录。",
+      "title": "《城寨风云》陈峥人物预告：他比谁都想活着赢",
+      "shots": 7,
+      "duration_seconds": 35.2,
+      "duration_passed": true,
+      "rules_passed": true,
+      "requirements_passed": true,
+      "elapsed_seconds": 562.81,
+      "model_responses": 5,
+      "failed_attempts": [
+        {
+          "call_id": "decision-ewwm0bm8",
+          "started_at": "2026-11-05T17:52:34.213924+00:00",
+          "response_received": false,
+          "error_code": "codex_timeout",
+          "cleanup_error_type": "PermissionError",
+          "finished_at": "2026-11-05T17:55:35.272342+00:00",
+          "metadata": {
+            "provider": "codex",
+            "model": "CLI configured default",
+            "reasoning_effort": "medium",
+            "thread_id": null,
+            "usage": {},
+            "call_id": "decision-ewwm0bm8",
+            "warnings": [
+              "cleanup_deferred"
+            ]
+          }
+        },
+        {
+          "call_id": "decision-mqx4vwn8",
+          "started_at": "2026-11-05T17:55:35.315852+00:00",
+          "response_received": false,
+          "error_code": "codex_timeout",
+          "finished_at": "2026-11-05T17:58:36.876059+00:00",
+          "metadata": {
+            "provider": "codex",
+            "model": "CLI configured default",
+            "reasoning_effort": "medium",
+            "thread_id": null,
+            "usage": {},
+            "call_id": "decision-mqx4vwn8",
+            "warnings": [],
+            "recovered_attempts": [
+              {
+                "error_code": "codex_timeout",
+                "call_id": "decision-ewwm0bm8"
+              }
+            ]
+          }
+        }
+      ],
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "write_script",
+        "check_requirements",
+        "model_error"
+      ],
+      "sources": [
+        "CZ-E01",
+        "CZ-E02",
+        "CZ-E03",
+        "CZ-E04",
+        "CZ-E05",
+        "CZ-WORLD",
+        "CZ-E06",
+        "CZ-C-CHEN"
+      ],
+      "voice": "白血病，把陈峥这个练武的人困在了音像店里。\n\n为了活下去，他接受试炼，来到九龙城寨。\n\n治病要攒够三百万。可只要输一场，他就得离开这里。\n\n可枪口抵着自己时，他还记得支开阿晴，让她去买糖。\n\n被押进医馆后，他趁乱挣脱，用手术刀搏出一条生路。\n\n我比谁都想活着赢。\n\n下一场，他还能赢吗？\n",
+      "metadata": {
+        "app_version": "v7.1-story-materials",
+        "started_at": "2026-11-05T17:49:14.118333+00:00",
+        "finished_at": "2026-11-05T17:58:36.933056+00:00",
+        "provider": "codex",
+        "evidence_kind": "real_model",
+        "data_hash": "5d865600d50d103f98dc820f7ba7505232f2991b7eda6b008e02601df670bf25",
+        "max_steps": 12,
+        "steps": 5,
+        "synthetic_data": false,
+        "completion_policy": "facts_duration_requirements_v6",
+        "requirements_review_context": "current_rules_and_duration_v2",
+        "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+        "model_responses": 5,
+        "run_id": "f2609d71e751475f82a6e9c51302c50c",
+        "persistence": "checkpoint_v1"
+      }
+    }
+  ],
+  "ui_checks": {
+    "story_catalog_cards": 32,
+    "original_product_cards": 3,
+    "category_and_keyword": "分集剧情 + 烛光 -> 第8集·全都拿走",
+    "bundle_download_used": true,
+    "bundle_sha256": "6a83c4c4762078a993054b7a333f7ecda8762744c7ae441a9bc7a08fdc39a56e",
+    "download_bytes_match_bundle": true
+  }
+}

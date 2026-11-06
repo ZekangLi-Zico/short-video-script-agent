@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-au29hmw_",
+  "started_at": "2026-11-03T20:39:59.459489+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:41:06.726824+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a323-e0d0-7843-817a-d6b75c8438c5",
+    "usage": {
+      "input_tokens": 28090,
+      "cached_input_tokens": 9600,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2711,
+      "reasoning_output_tokens": 1034
+    },
+    "call_id": "decision-au29hmw_",
+    "warnings": []
+  }
+}

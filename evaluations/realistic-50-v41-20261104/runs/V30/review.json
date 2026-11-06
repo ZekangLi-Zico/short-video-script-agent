@@ -1,0 +1,8 @@
+{
+  "case": "V30",
+  "assessment": "未完成；短时长与逐字引用策略限制",
+  "note": "三项事实各出现一次、无人像，实际估时12.8秒超过8秒；再次检索后要求更短可引用原文，未假报成功。仅证明当前逐字引用与串行估时策略无法交付，不证明真实剪辑中绝无8秒方案。保留超时草稿有诊断价值；备注仍称八秒要求尚待估时核验，阶段信息过时。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": true
+}

@@ -1,0 +1,1270 @@
+{
+  "status": "completed",
+  "message": "脚本已完成：画面仅为“开讲”卡片，旁白只介绍添加字幕，无寒暄或第二功能。修订仅补充0—4秒拍摄安排，保留标题和旁白。估时4秒，符合6秒上限；成片时长尚未实测。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "开讲",
+    "shots": [
+      {
+        "visual": "全片计划时段为0—4秒：静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。此时段为拍摄安排，并非成片实测时长。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "d5cd6e1a234ee1b534026748602ca4e18d5742d2bbebfac4e377d440df39ad9d",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 14,
+        "estimated_seconds": 4
+      }
+    ],
+    "total_seconds": 4,
+    "target_seconds": 6,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "d5cd6e1a234ee1b534026748602ca4e18d5742d2bbebfac4e377d440df39ad9d",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:1/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "开讲"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "全片计划时段为0—4秒：静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。此时段为拍摄安排，并非成片实测时长。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "d5cd6e1a234ee1b534026748602ca4e18d5742d2bbebfac4e377d440df39ad9d",
+    "request_hash": "0d282f89aa8e9846961d0637ec6061a9078d699019bca1b92d101b914577a3e9",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "六秒以内",
+        "verdict": "met",
+        "evidence": "镜头1写明“全片计划时段为0—4秒”，在脚本安排层面覆盖六秒上限；成片实际时长由确定性工具另行核验。"
+      },
+      {
+        "field": "topic",
+        "requirement": "剪影练习版支持为视频添加字幕",
+        "verdict": "met",
+        "evidence": "镜头1/block:1原文为“剪影练习版支持为视频添加字幕。”，rules_check已核对其对应P01.F1。"
+      },
+      {
+        "field": "topic",
+        "requirement": "只介绍剪影练习版支持为视频添加字幕",
+        "verdict": "met",
+        "evidence": "全文唯一产品功能是添加字幕；未介绍手动编辑字幕、裁剪视频或画面比例选项。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不要开场寒暄",
+        "verdict": "met",
+        "evidence": "镜头1直接朗读“剪影练习版支持为视频添加字幕。”，标题及旁白均无寒暄。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不加第二个功能",
+        "verdict": "met",
+        "evidence": "仅有一个事实块，介绍添加字幕；标题“开讲”和画面安排均未增加其他功能。"
+      },
+      {
+        "field": "topic",
+        "requirement": "画面是一张写着“开讲”的卡片",
+        "verdict": "met",
+        "evidence": "镜头1明确要求“静态展示一张仅写着‘开讲’的卡片”，与指定画面一致。"
+      },
+      {
+        "field": "audience",
+        "requirement": "刚进入课程页的访客",
+        "verdict": "met",
+        "evidence": "“开讲”卡片贴合课程开始的情境，一句直接介绍功能的旁白无需访客具备先验知识。"
+      },
+      {
+        "field": "platform",
+        "requirement": "抖音",
+        "verdict": "met",
+        "evidence": "单镜头、短旁白及两字卡片便于快速理解，符合简短视频的信息呈现方式。"
+      },
+      {
+        "field": "style",
+        "requirement": "极简，信息优先",
+        "verdict": "met",
+        "evidence": "成片安排仅包含“开讲”卡片和一句功能旁白，没有铺垫、装饰性文案或额外信息。"
+      }
+    ],
+    "summary": "稿件覆盖全部明确需求：仅介绍添加字幕，无寒暄或第二功能，画面为“开讲”卡片。计划时长为4秒，实际时长由确定性工具另验。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "开讲",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于开场提示，不含产品能力或效果承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "全片计划时段为0—4秒：静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。此时段为拍摄安排，并非成片实测时长。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "全文描述计划时段、卡片画面和旁白安排；未增加产品声明，也未虚构产品界面、按钮或操作流程。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "镜头1安排约4秒呈现一句简短旁白和两字卡片，hold_seconds为0，未增加额外停留；没有重复事实、复杂操作或空镜凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "arguments": {
+        "query": "剪影练习版（demo-editor）支持为视频添加字幕",
+        "product_id": "demo-editor"
+      },
+      "decision_basis": "需要检索添加字幕功能的可引用产品事实。",
+      "observation": {
+        "ok": true,
+        "query": "剪影练习版（demo-editor）支持为视频添加字幕",
+        "product_id": "demo-editor",
+        "materials": [
+          {
+            "id": "P01",
+            "product_id": "demo-editor",
+            "title": "字幕功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "字幕",
+              "口播",
+              "文字",
+              "caption",
+              "subtitle"
+            ],
+            "facts": [
+              {
+                "id": "P01.F1",
+                "text": "剪影练习版支持为视频添加字幕。"
+              },
+              {
+                "id": "P01.F2",
+                "text": "字幕文字可以手动编辑。"
+              }
+            ]
+          },
+          {
+            "id": "P02",
+            "product_id": "demo-editor",
+            "title": "剪辑功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "剪辑",
+              "裁剪",
+              "片段",
+              "trim",
+              "edit"
+            ],
+            "facts": [
+              {
+                "id": "P02.F1",
+                "text": "剪影练习版支持裁剪视频片段。"
+              }
+            ]
+          },
+          {
+            "id": "P03",
+            "product_id": "demo-editor",
+            "title": "画面比例说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "比例",
+              "竖屏",
+              "横屏",
+              "画面",
+              "aspect"
+            ],
+            "facts": [
+              {
+                "id": "P03.F1",
+                "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+              }
+            ]
+          }
+        ],
+        "count": 3
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b1-d815-7ad3-8745-2f322fb095b9",
+        "usage": {
+          "input_tokens": 27041,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 147,
+          "reasoning_output_tokens": 84
+        }
+      },
+      "elapsed_ms": 13938
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "arguments": {
+        "script": {
+          "title": "开讲",
+          "shots": [
+            {
+              "visual": "静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision_basis": "已检索到添加字幕的原文事实，采用单张卡片和单句旁白。",
+      "observation": {
+        "ok": true,
+        "script_hash": "1e7c3948ccda632b5ada7897cef4ba9bb948e379b3e35196bee7edcc2fe62445",
+        "revision": {
+          "before_hash": null,
+          "after_hash": "1e7c3948ccda632b5ada7897cef4ba9bb948e379b3e35196bee7edcc2fe62445",
+          "changed_fields": [
+            "script:new"
+          ],
+          "unchanged_shots": 0,
+          "unchanged_blocks": 0,
+          "feedback": [],
+          "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+        },
+        "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b2-0d83-7431-bce6-51690f5f00cb",
+        "usage": {
+          "input_tokens": 27713,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 390,
+          "reasoning_output_tokens": 255
+        }
+      },
+      "elapsed_ms": 18937
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "开讲",
+          "shots": [
+            {
+              "visual": "静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            }
+          ]
+        },
+        "target_seconds": 6,
+        "duration_mode": "max"
+      },
+      "decision_basis": "当前稿尚未估时，需确认单句旁白符合六秒上限。",
+      "observation": {
+        "ok": true,
+        "script_hash": "1e7c3948ccda632b5ada7897cef4ba9bb948e379b3e35196bee7edcc2fe62445",
+        "shots": [
+          {
+            "shot": 1,
+            "speech_units": 14,
+            "estimated_seconds": 4
+          }
+        ],
+        "total_seconds": 4,
+        "target_seconds": 6,
+        "passed": true,
+        "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+        "is_estimate": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b2-5803-7050-b230-12efbf98717f",
+        "usage": {
+          "input_tokens": 28113,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 118,
+          "reasoning_output_tokens": 64
+        }
+      },
+      "elapsed_ms": 16313
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "arguments": {
+        "script": {
+          "title": "开讲",
+          "shots": [
+            {
+              "visual": "静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            }
+          ]
+        },
+        "retrieved_ids": [
+          "P01",
+          "P02",
+          "P03"
+        ],
+        "expression_mode": "creative"
+      },
+      "decision_basis": "当前稿估时4秒，符合6秒上限，尚需检查事实引用与规则。",
+      "observation": {
+        "ok": true,
+        "script_hash": "1e7c3948ccda632b5ada7897cef4ba9bb948e379b3e35196bee7edcc2fe62445",
+        "passed": true,
+        "issues": [],
+        "citations": [
+          {
+            "location": "shot:1/block:1",
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          }
+        ],
+        "rules_version": "2026-11-03-v1",
+        "requires_expression_review": true,
+        "expression_slots": [
+          {
+            "location": "title",
+            "text": "开讲"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。"
+          }
+        ],
+        "available_facts": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1",
+            "quote": "剪影练习版支持裁剪视频片段。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P03",
+            "fact_id": "P03.F1",
+            "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "version": "2026-11-01"
+          }
+        ],
+        "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b2-97d2-7d81-821a-a2037c23864d",
+        "usage": {
+          "input_tokens": 27872,
+          "cached_input_tokens": 23808,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 100,
+          "reasoning_output_tokens": 44
+        }
+      },
+      "elapsed_ms": 11078
+    },
+    {
+      "step": 5,
+      "action": "check_requirements",
+      "arguments": {
+        "script": {
+          "title": "开讲",
+          "shots": [
+            {
+              "visual": "静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            }
+          ]
+        },
+        "request": {
+          "topic": "六秒以内只介绍剪影练习版支持为视频添加字幕。不要开场寒暄，不加第二个功能；画面是一张写着“开讲”的卡片。",
+          "audience": "刚进入课程页的访客",
+          "platform": "抖音",
+          "style": "极简，信息优先",
+          "product_id": "demo-editor",
+          "duration_mode": "max",
+          "expression_mode": "creative",
+          "target_seconds": 6
+        },
+        "rules_check": {
+          "ok": true,
+          "script_hash": "1e7c3948ccda632b5ada7897cef4ba9bb948e379b3e35196bee7edcc2fe62445",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:1/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "开讲"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。"
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+        }
+      },
+      "decision_basis": "当前稿估时4秒且规则检查通过，尚需核对需求覆盖与公开表达。",
+      "observation": {
+        "ok": true,
+        "script_hash": "1e7c3948ccda632b5ada7897cef4ba9bb948e379b3e35196bee7edcc2fe62445",
+        "request_hash": "0d282f89aa8e9846961d0637ec6061a9078d699019bca1b92d101b914577a3e9",
+        "passed": false,
+        "items": [
+          {
+            "field": "topic",
+            "requirement": "六秒以内",
+            "verdict": "uncertain",
+            "evidence": "当前稿件为一镜头、一句旁白；未提供实际总时长。此项以另行确定性时长检查为准，当前 rules_check 的检查范围不包含时长。"
+          },
+          {
+            "field": "topic",
+            "requirement": "剪影练习版支持为视频添加字幕",
+            "verdict": "met",
+            "evidence": "镜头1/block:1原文为“剪影练习版支持为视频添加字幕。”，已由 rules_check 核对并引用 P01/P01.F1。"
+          },
+          {
+            "field": "topic",
+            "requirement": "只介绍剪影练习版支持为视频添加字幕",
+            "verdict": "met",
+            "evidence": "全文仅介绍添加字幕；未加入手动编辑字幕、裁剪片段、画面比例或其他产品功能。"
+          },
+          {
+            "field": "topic",
+            "requirement": "不要开场寒暄",
+            "verdict": "met",
+            "evidence": "镜头1直接朗读字幕功能，视觉说明也明确“无开场寒暄”。"
+          },
+          {
+            "field": "topic",
+            "requirement": "不加第二个功能",
+            "verdict": "met",
+            "evidence": "唯一旁白只包含添加字幕一个功能，标题和画面说明没有新增功能。"
+          },
+          {
+            "field": "topic",
+            "requirement": "画面是一张写着“开讲”的卡片",
+            "verdict": "met",
+            "evidence": "镜头1明确安排“静态展示一张仅写着‘开讲’的卡片”，功能信息通过旁白传达。"
+          },
+          {
+            "field": "audience",
+            "requirement": "刚进入课程页的访客",
+            "verdict": "met",
+            "evidence": "“开讲”卡片符合课程入口语境；一句直白的功能介绍无需背景知识即可理解。"
+          },
+          {
+            "field": "platform",
+            "requirement": "抖音",
+            "verdict": "met",
+            "evidence": "采用单镜头、两个字的卡片和一句直接旁白，信息集中，符合短视频观看方式。"
+          },
+          {
+            "field": "style",
+            "requirement": "极简",
+            "verdict": "met",
+            "evidence": "全稿只有一张静态卡片和一句旁白，没有额外场景或装饰性文案。"
+          },
+          {
+            "field": "style",
+            "requirement": "信息优先",
+            "verdict": "met",
+            "evidence": "旁白开头即陈述添加字幕功能，没有寒暄、铺垫或无关信息。"
+          }
+        ],
+        "summary": "功能、范围、开场、卡片画面及风格均符合要求；六秒上限需以独立时长检查结果确认。",
+        "method": "model_assessment_not_deterministic_proof",
+        "expressions": [
+          {
+            "location": "title",
+            "text": "开讲",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "属于课程开场提示，不含产品能力或效果承诺。"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "全文仅说明卡片画面、旁白安排和开场方式，没有新增产品声明、虚构界面或操作步骤。"
+          }
+        ],
+        "pacing": {
+          "verdict": "met",
+          "evidence": "镜头1用一句功能旁白配合“开讲”静态卡片，hold_seconds=0，没有额外停留、重复事实或空镜凑时长，也没有需要长时间观察的复杂画面任务。"
+        },
+        "expression_review_passed": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b2-c254-79d3-a453-6e36ebccaeed",
+        "usage": {
+          "input_tokens": 28853,
+          "cached_input_tokens": 13696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 128,
+          "reasoning_output_tokens": 71
+        }
+      },
+      "review_model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b2-ef3a-7ab0-aef2-2afa178aa271",
+        "usage": {
+          "input_tokens": 27096,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2473,
+          "reasoning_output_tokens": 1512
+        }
+      },
+      "elapsed_ms": 89187
+    },
+    {
+      "step": 6,
+      "action": "write_script",
+      "arguments": {
+        "script": {
+          "title": "开讲",
+          "shots": [
+            {
+              "visual": "全片计划时段为0—4秒：静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。此时段为拍摄安排，并非成片实测时长。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision_basis": "需求审核仅对六秒上限存疑，依据现有4秒估时补充计划时段，保留卡片与旁白。",
+      "observation": {
+        "ok": true,
+        "script_hash": "d5cd6e1a234ee1b534026748602ca4e18d5742d2bbebfac4e377d440df39ad9d",
+        "revision": {
+          "before_hash": "1e7c3948ccda632b5ada7897cef4ba9bb948e379b3e35196bee7edcc2fe62445",
+          "after_hash": "d5cd6e1a234ee1b534026748602ca4e18d5742d2bbebfac4e377d440df39ad9d",
+          "changed_fields": [
+            "shot:1/visual"
+          ],
+          "unchanged_shots": 0,
+          "unchanged_blocks": 1,
+          "feedback": [
+            {
+              "check": "requirements_check",
+              "observation": {
+                "ok": true,
+                "script_hash": "1e7c3948ccda632b5ada7897cef4ba9bb948e379b3e35196bee7edcc2fe62445",
+                "request_hash": "0d282f89aa8e9846961d0637ec6061a9078d699019bca1b92d101b914577a3e9",
+                "passed": false,
+                "items": [
+                  {
+                    "field": "topic",
+                    "requirement": "六秒以内",
+                    "verdict": "uncertain",
+                    "evidence": "当前稿件为一镜头、一句旁白；未提供实际总时长。此项以另行确定性时长检查为准，当前 rules_check 的检查范围不包含时长。"
+                  },
+                  {
+                    "field": "topic",
+                    "requirement": "剪影练习版支持为视频添加字幕",
+                    "verdict": "met",
+                    "evidence": "镜头1/block:1原文为“剪影练习版支持为视频添加字幕。”，已由 rules_check 核对并引用 P01/P01.F1。"
+                  },
+                  {
+                    "field": "topic",
+                    "requirement": "只介绍剪影练习版支持为视频添加字幕",
+                    "verdict": "met",
+                    "evidence": "全文仅介绍添加字幕；未加入手动编辑字幕、裁剪片段、画面比例或其他产品功能。"
+                  },
+                  {
+                    "field": "topic",
+                    "requirement": "不要开场寒暄",
+                    "verdict": "met",
+                    "evidence": "镜头1直接朗读字幕功能，视觉说明也明确“无开场寒暄”。"
+                  },
+                  {
+                    "field": "topic",
+                    "requirement": "不加第二个功能",
+                    "verdict": "met",
+                    "evidence": "唯一旁白只包含添加字幕一个功能，标题和画面说明没有新增功能。"
+                  },
+                  {
+                    "field": "topic",
+                    "requirement": "画面是一张写着“开讲”的卡片",
+                    "verdict": "met",
+                    "evidence": "镜头1明确安排“静态展示一张仅写着‘开讲’的卡片”，功能信息通过旁白传达。"
+                  },
+                  {
+                    "field": "audience",
+                    "requirement": "刚进入课程页的访客",
+                    "verdict": "met",
+                    "evidence": "“开讲”卡片符合课程入口语境；一句直白的功能介绍无需背景知识即可理解。"
+                  },
+                  {
+                    "field": "platform",
+                    "requirement": "抖音",
+                    "verdict": "met",
+                    "evidence": "采用单镜头、两个字的卡片和一句直接旁白，信息集中，符合短视频观看方式。"
+                  },
+                  {
+                    "field": "style",
+                    "requirement": "极简",
+                    "verdict": "met",
+                    "evidence": "全稿只有一张静态卡片和一句旁白，没有额外场景或装饰性文案。"
+                  },
+                  {
+                    "field": "style",
+                    "requirement": "信息优先",
+                    "verdict": "met",
+                    "evidence": "旁白开头即陈述添加字幕功能，没有寒暄、铺垫或无关信息。"
+                  }
+                ],
+                "summary": "功能、范围、开场、卡片画面及风格均符合要求；六秒上限需以独立时长检查结果确认。",
+                "method": "model_assessment_not_deterministic_proof",
+                "expressions": [
+                  {
+                    "location": "title",
+                    "text": "开讲",
+                    "verdict": "plain_expression",
+                    "references": [],
+                    "evidence": "属于课程开场提示，不含产品能力或效果承诺。"
+                  },
+                  {
+                    "location": "shot:1/visual",
+                    "text": "静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。",
+                    "verdict": "plain_expression",
+                    "references": [],
+                    "evidence": "全文仅说明卡片画面、旁白安排和开场方式，没有新增产品声明、虚构界面或操作步骤。"
+                  }
+                ],
+                "pacing": {
+                  "verdict": "met",
+                  "evidence": "镜头1用一句功能旁白配合“开讲”静态卡片，hold_seconds=0，没有额外停留、重复事实或空镜凑时长，也没有需要长时间观察的复杂画面任务。"
+                },
+                "expression_review_passed": true
+              }
+            }
+          ],
+          "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+        },
+        "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b4-1f1f-7c93-934a-ce9e7f45b2a5",
+        "usage": {
+          "input_tokens": 32098,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 770,
+          "reasoning_output_tokens": 598
+        }
+      },
+      "elapsed_ms": 31032
+    },
+    {
+      "step": 7,
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "开讲",
+          "shots": [
+            {
+              "visual": "全片计划时段为0—4秒：静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。此时段为拍摄安排，并非成片实测时长。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            }
+          ]
+        },
+        "target_seconds": 6,
+        "duration_mode": "max"
+      },
+      "decision_basis": "画面说明修订后检查已清空，需重新确认当前稿符合六秒上限。",
+      "observation": {
+        "ok": true,
+        "script_hash": "d5cd6e1a234ee1b534026748602ca4e18d5742d2bbebfac4e377d440df39ad9d",
+        "shots": [
+          {
+            "shot": 1,
+            "speech_units": 14,
+            "estimated_seconds": 4
+          }
+        ],
+        "total_seconds": 4,
+        "target_seconds": 6,
+        "passed": true,
+        "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+        "is_estimate": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b4-98a4-7d60-a6d2-3618b3d846fb",
+        "usage": {
+          "input_tokens": 31985,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 139,
+          "reasoning_output_tokens": 82
+        }
+      },
+      "elapsed_ms": 13765
+    },
+    {
+      "step": 8,
+      "action": "check_rules",
+      "arguments": {
+        "script": {
+          "title": "开讲",
+          "shots": [
+            {
+              "visual": "全片计划时段为0—4秒：静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。此时段为拍摄安排，并非成片实测时长。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            }
+          ]
+        },
+        "retrieved_ids": [
+          "P01",
+          "P02",
+          "P03"
+        ],
+        "expression_mode": "creative"
+      },
+      "decision_basis": "当前稿估时4秒，符合六秒上限；修订后的事实引用与规则尚需重新检查。",
+      "observation": {
+        "ok": true,
+        "script_hash": "d5cd6e1a234ee1b534026748602ca4e18d5742d2bbebfac4e377d440df39ad9d",
+        "passed": true,
+        "issues": [],
+        "citations": [
+          {
+            "location": "shot:1/block:1",
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          }
+        ],
+        "rules_version": "2026-11-03-v1",
+        "requires_expression_review": true,
+        "expression_slots": [
+          {
+            "location": "title",
+            "text": "开讲"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "全片计划时段为0—4秒：静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。此时段为拍摄安排，并非成片实测时长。"
+          }
+        ],
+        "available_facts": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1",
+            "quote": "剪影练习版支持裁剪视频片段。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P03",
+            "fact_id": "P03.F1",
+            "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "version": "2026-11-01"
+          }
+        ],
+        "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b4-ce09-7962-9bbc-82c4f7b69d4e",
+        "usage": {
+          "input_tokens": 32451,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 101,
+          "reasoning_output_tokens": 41
+        }
+      },
+      "elapsed_ms": 13235
+    },
+    {
+      "step": 9,
+      "action": "check_requirements",
+      "arguments": {
+        "script": {
+          "title": "开讲",
+          "shots": [
+            {
+              "visual": "全片计划时段为0—4秒：静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。此时段为拍摄安排，并非成片实测时长。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            }
+          ]
+        },
+        "request": {
+          "topic": "六秒以内只介绍剪影练习版支持为视频添加字幕。不要开场寒暄，不加第二个功能；画面是一张写着“开讲”的卡片。",
+          "audience": "刚进入课程页的访客",
+          "platform": "抖音",
+          "style": "极简，信息优先",
+          "product_id": "demo-editor",
+          "duration_mode": "max",
+          "expression_mode": "creative",
+          "target_seconds": 6
+        },
+        "rules_check": {
+          "ok": true,
+          "script_hash": "d5cd6e1a234ee1b534026748602ca4e18d5742d2bbebfac4e377d440df39ad9d",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:1/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "开讲"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "全片计划时段为0—4秒：静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。此时段为拍摄安排，并非成片实测时长。"
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+        }
+      },
+      "decision_basis": "当前稿估时4秒且规则检查通过，需重新核对需求覆盖与公开表达。",
+      "observation": {
+        "ok": true,
+        "script_hash": "d5cd6e1a234ee1b534026748602ca4e18d5742d2bbebfac4e377d440df39ad9d",
+        "request_hash": "0d282f89aa8e9846961d0637ec6061a9078d699019bca1b92d101b914577a3e9",
+        "passed": true,
+        "items": [
+          {
+            "field": "topic",
+            "requirement": "六秒以内",
+            "verdict": "met",
+            "evidence": "镜头1写明“全片计划时段为0—4秒”，在脚本安排层面覆盖六秒上限；成片实际时长由确定性工具另行核验。"
+          },
+          {
+            "field": "topic",
+            "requirement": "剪影练习版支持为视频添加字幕",
+            "verdict": "met",
+            "evidence": "镜头1/block:1原文为“剪影练习版支持为视频添加字幕。”，rules_check已核对其对应P01.F1。"
+          },
+          {
+            "field": "topic",
+            "requirement": "只介绍剪影练习版支持为视频添加字幕",
+            "verdict": "met",
+            "evidence": "全文唯一产品功能是添加字幕；未介绍手动编辑字幕、裁剪视频或画面比例选项。"
+          },
+          {
+            "field": "topic",
+            "requirement": "不要开场寒暄",
+            "verdict": "met",
+            "evidence": "镜头1直接朗读“剪影练习版支持为视频添加字幕。”，标题及旁白均无寒暄。"
+          },
+          {
+            "field": "topic",
+            "requirement": "不加第二个功能",
+            "verdict": "met",
+            "evidence": "仅有一个事实块，介绍添加字幕；标题“开讲”和画面安排均未增加其他功能。"
+          },
+          {
+            "field": "topic",
+            "requirement": "画面是一张写着“开讲”的卡片",
+            "verdict": "met",
+            "evidence": "镜头1明确要求“静态展示一张仅写着‘开讲’的卡片”，与指定画面一致。"
+          },
+          {
+            "field": "audience",
+            "requirement": "刚进入课程页的访客",
+            "verdict": "met",
+            "evidence": "“开讲”卡片贴合课程开始的情境，一句直接介绍功能的旁白无需访客具备先验知识。"
+          },
+          {
+            "field": "platform",
+            "requirement": "抖音",
+            "verdict": "met",
+            "evidence": "单镜头、短旁白及两字卡片便于快速理解，符合简短视频的信息呈现方式。"
+          },
+          {
+            "field": "style",
+            "requirement": "极简，信息优先",
+            "verdict": "met",
+            "evidence": "成片安排仅包含“开讲”卡片和一句功能旁白，没有铺垫、装饰性文案或额外信息。"
+          }
+        ],
+        "summary": "稿件覆盖全部明确需求：仅介绍添加字幕，无寒暄或第二功能，画面为“开讲”卡片。计划时长为4秒，实际时长由确定性工具另验。",
+        "method": "model_assessment_not_deterministic_proof",
+        "expressions": [
+          {
+            "location": "title",
+            "text": "开讲",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "属于开场提示，不含产品能力或效果承诺。"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "全片计划时段为0—4秒：静态展示一张仅写着“开讲”的卡片；事实块作为旁白直接朗读，无开场寒暄。此时段为拍摄安排，并非成片实测时长。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "全文描述计划时段、卡片画面和旁白安排；未增加产品声明，也未虚构产品界面、按钮或操作流程。"
+          }
+        ],
+        "pacing": {
+          "verdict": "met",
+          "evidence": "镜头1安排约4秒呈现一句简短旁白和两字卡片，hold_seconds为0，未增加额外停留；没有重复事实、复杂操作或空镜凑时长。"
+        },
+        "expression_review_passed": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b5-018f-7681-966d-2d678f2f642d",
+        "usage": {
+          "input_tokens": 33523,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 102,
+          "reasoning_output_tokens": 45
+        }
+      },
+      "review_model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b5-3106-7a72-af7c-fa3ab47d12a0",
+        "usage": {
+          "input_tokens": 27152,
+          "cached_input_tokens": 24576,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2630,
+          "reasoning_output_tokens": 1666
+        }
+      },
+      "elapsed_ms": 94625
+    },
+    {
+      "step": 10,
+      "action": "finish",
+      "arguments": {
+        "status": "completed",
+        "message": "脚本已完成：画面仅为“开讲”卡片，旁白只介绍添加字幕，无寒暄或第二功能。修订仅补充0—4秒拍摄安排，保留标题和旁白。估时4秒，符合6秒上限；成片时长尚未实测。"
+      },
+      "decision_basis": "当前同一稿的时长、规则和需求检查均已通过。",
+      "observation": {
+        "ok": true,
+        "status": "completed",
+        "script_hash": "d5cd6e1a234ee1b534026748602ca4e18d5742d2bbebfac4e377d440df39ad9d"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b6-748e-7200-b4ab-d999f387ae2f",
+        "usage": {
+          "input_tokens": 36173,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 260,
+          "reasoning_output_tokens": 141
+        }
+      },
+      "elapsed_ms": 16031
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T18:35:25.864305+00:00",
+    "finished_at": "2026-11-03T18:40:44.001632+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 10,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v3",
+    "requirements_review_context": "current_rules_check_v1",
+    "model_responses": 12
+  }
+}

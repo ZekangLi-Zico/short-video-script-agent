@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-2pf2vfxt",
+  "started_at": "2026-11-04T21:29:47.301403+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T21:30:15.733197+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a877-d506-7e30-9d69-ef4502315051",
+    "usage": {
+      "input_tokens": 27879,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 65,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-2pf2vfxt",
+    "warnings": []
+  }
+}

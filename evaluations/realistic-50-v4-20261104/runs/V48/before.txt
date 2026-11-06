@@ -1,0 +1,229 @@
+- banner:
+  - link "脚本试验台首页":
+    - /url: /
+    - generic: 脚本试验台
+  - generic: 本地人工测试
+- main:
+  - heading "从一个需求，到一份可核验的脚本。" [level=1]
+  - paragraph: 填入创作需求，观察 Agent 如何查资料、写分镜，再根据检查结果修订。
+  - generic: 第 4 题 · 短视频脚本 Agent
+  - complementary "创作需求与测试设置":
+    - heading "创作需求" [level=2]
+    - button "重置"
+    - generic: 载入测试场景
+    - combobox "载入测试场景":
+      - option "自定义需求" [selected]
+      - option "正常生成"
+      - option "缺少关键信息"
+      - option "没有产品素材"
+      - option "工具持续失败"
+      - option "一次故障后恢复"
+      - option "38 秒旧稿修订"
+      - option "无依据宣传纠错"
+      - option "无法满足的时长"
+    - paragraph: 需求已修改，将按当前内容运行。
+    - generic: 主题
+    - textbox "主题":
+      - /placeholder: 例如：面向新手，介绍为口播视频添加字幕
+      - text: 把所附旧稿改成只介绍添加字幕，删除片段裁剪和手动编辑的介绍。仍保留三个分镜和“门口—招牌—室内”的顺序。
+    - generic: 给谁看
+    - textbox "给谁看":
+      - /placeholder: 描述你的目标受众
+      - text: 民宿运营协作伙伴
+    - generic: 发布平台
+    - combobox "发布平台":
+      - option "抖音"
+      - option "小红书" [selected]
+      - option "视频号"
+      - option "B站"
+    - generic: 目标时长 秒
+    - spinbutton "目标时长 秒": "20"
+    - generic: 时长要求
+    - combobox "时长要求":
+      - option "不超过目标秒数" [selected]
+      - option "接近目标（90%–100%）"
+    - generic: 创作方式
+    - combobox "创作方式":
+      - option "场景创作 · 保留事实来源与表达审核" [selected]
+      - option "严格引用 · 仅用原版批准表达"
+    - generic: 表达风格
+    - textbox "表达风格": 简洁，不营销
+    - generic: 使用的产品资料
+    - combobox "使用的产品资料":
+      - option "剪影练习版 · 示例素材" [selected]
+      - option "无素材产品 · 测试资料不足"
+    - generic "查看可用素材"
+    - generic: 运行方式
+    - combobox "运行方式":
+      - option "真实模型 · Codex" [selected]
+      - option "离线演练 · Mock"
+      - option "模型 API" [disabled]
+    - paragraph: 调用本机已登录的 Codex，通常需要一到数分钟。
+    - generic "测试设置与旧稿"
+    - generic: 工具故障模拟
+    - combobox "工具故障模拟":
+      - option "不注入故障" [selected]
+      - option "素材检索失败一次"
+      - option "素材检索持续失败"
+      - option "时长工具持续失败"
+      - option "规则工具持续失败"
+    - generic: 待修订旧稿 JSON，可选
+    - textbox "待修订旧稿 JSON，可选" [active]:
+      - /placeholder: 载入超时或纠错场景后，可在这里编辑旧稿。
+      - text: "{ \"title\": \"从门口到房间\", \"shots\": [ { \"visual\": \"民宿门口\", \"hold_seconds\": 8, \"blocks\": [ { \"text\": \"剪影练习版支持为视频添加字幕。\", \"source_id\": \"P01\", \"fact_id\": \"P01.F1\" } ] }, { \"visual\": \"民宿招牌\", \"hold_seconds\": 8, \"blocks\": [ { \"text\": \"字幕文字可以手动编辑。\", \"source_id\": \"P01\", \"fact_id\": \"P01.F2\" } ] }, { \"visual\": \"室内空桌椅\", \"hold_seconds\": 8, \"blocks\": [ { \"text\": \"剪影练习版支持裁剪视频片段。\", \"source_id\": \"P02\", \"fact_id\": \"P02.F1\" } ] } ] }"
+    - paragraph: 留空则生成新稿。停止任务会等待当前模型调用返回，不会开始下一步。
+    - button "生成并检查":
+      - generic: 生成并检查
+    - paragraph: 真实模型运行会使用当前账号的额度。
+  - region "运行结果":
+    - generic: 检查通过
+    - generic: 真实模型 · 12 个执行步骤
+    - tablist "结果视图":
+      - tab "脚本预览"
+      - tab "执行过程 12" [selected]:
+        - text: 执行过程
+        - generic: "12"
+      - tab "原始结果"
+    - text: 最近运行
+    - combobox "查看最近运行":
+      - option "选择一条记录"
+      - option "11/04 06:12:46 · 模型 · 检查通过 · 审核并修改所附字幕介绍旧稿；客" [selected]
+      - option "11/04 06:11:28 · 模型 · 需要补充 · 为虚构摄影课“周末街拍入门”写"
+      - option "11/04 06:10:06 · 模型 · 需要补充 · 给虚构产品“山径露营灯”做新品"
+      - option "11/04 06:08:54 · 模型 · 需要补充 · 写本周新版剪影练习版更新介绍，"
+      - option "11/04 06:05:20 · 模型 · 检查通过 · 客户口头说加字幕后播放量提高了"
+      - option "11/04 06:04:07 · 模型 · 需要补充 · 写字幕功能收费说明：免费版能用"
+      - option "11/04 06:02:51 · 模型 · 需要补充 · 为剪影练习版写一条介绍口播自动"
+      - option "11/04 06:00:29 · 模型 · 需要补充 · 介绍裁剪片段，只用大字屏幕卡片"
+      - option "11/04 05:56:28 · 模型 · 检查通过 · 用一分钟左右讲如何围绕现有录像"
+      - option "11/04 05:52:30 · 模型 · 检查通过 · 十秒内交付两个分镜：第一镜剪刀"
+      - option "11/04 05:48:48 · 模型 · 检查通过 · 六秒以内只介绍剪影练习版支持为"
+      - option "11/04 05:38:55 · 模型 · 检查通过 · Write an Englis"
+      - option "11/04 05:34:59 · 模型 · 检查通过 · 介绍横屏、竖屏画面比例选项，说"
+      - option "11/04 05:29:57 · 模型 · 检查通过 · 介绍手动编辑字幕文字，全部画面"
+      - option "11/04 05:24:04 · 模型 · 检查通过 · 介绍添加字幕与手动编辑文字，以"
+      - option "11/04 05:20:21 · 模型 · 检查通过 · 介绍添加字幕和横竖屏比例选项。"
+      - option "11/04 05:16:38 · 模型 · 检查通过 · 以修剪花枝、摆花桶、整理台面的"
+      - option "11/04 05:12:49 · 模型 · 检查通过 · 介绍添加字幕和手动编辑字幕文字"
+      - option "11/04 05:09:02 · 模型 · 检查通过 · 只介绍给视频添加字幕，场景是空"
+      - option "11/04 05:05:09 · 模型 · 检查通过 · 做一条工具介绍，说明可为领养日"
+      - option "11/04 05:01:37 · 模型 · 检查通过 · 用陶艺作品展素材介绍横屏与竖屏"
+      - option "11/04 04:56:55 · 模型 · 检查通过 · 以古镇步行素材为背景介绍裁剪视"
+      - option "11/04 04:23:04 · 模型 · 检查通过 · 做一条剪影练习版字幕功能介绍，"
+      - option "11/04 03:20:13 · 模型 · 检查通过 · 做一条剪影练习版字幕功能介绍，"
+      - option "11/04 03:18:46 · 模型 · 检查通过 · 把所附旧稿压缩到15秒以内，保"
+      - option "11/04 03:16:28 · 模型 · 检查通过 · 把所附旧稿改成只介绍添加字幕，"
+      - option "11/04 03:09:26 · 模型 · 未完成 · 审核并修改所附字幕介绍旧稿；客"
+      - option "11/04 03:11:56 · 模型 · 检查通过 · 所附旧稿四个镜头顺序与数量不能"
+      - option "11/04 03:07:43 · 模型 · 检查通过 · 把所附旧稿压缩到25秒以内，保"
+      - option "11/04 03:07:40 · 模型 · 需要补充 · 为虚构摄影课“周末街拍入门”写"
+      - option "11/04 03:06:20 · 模型 · 需要补充 · 为虚构游戏活动“星港周末赛”写"
+      - option "11/04 03:05:22 · 模型 · 需要补充 · 给虚构产品“山径露营灯”做新品"
+    - status: 已完成旧稿审核与修改：保留原标题及添加字幕、手动编辑两项功能；删除无法确认的自动识别演示和99%准确率承诺，补充缺少数据及删除原因说明；首镜停留由8秒缩至4秒。当前稿估时21秒，符合28秒上限，三项检查均通过。 当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。
+    - text: 预计时长
+    - strong: 21 秒 / ≤28 秒
+    - text: 事实与规则
+    - strong: 引用已核对
+    - text: 需求核对
+    - strong: 未发现遗漏
+    - text: 引用素材
+    - strong: "1"
+    - tabpanel "执行过程 12":
+      - heading "每一步，都有记录。" [level=2]
+      - paragraph: 这里展示实际工具调用、观察结果与简短动作依据。
+      - list:
+        - generic: "1"
+        - strong: 估算时长
+        - generic: 已执行
+        - generic: 12.4 s
+        - paragraph: 已有旧稿，先核对当前稿是否超过28秒上限。
+        - paragraph: 预计 24 秒 / 上限 28 秒，符合要求
+        - generic "查看参数与返回结果"
+        - generic: "2"
+        - strong: 检查事实与规则
+        - generic: 需要处理
+        - generic: 15.9 s
+        - paragraph: 旧稿估时24秒，已通过时长检查；尚需核对事实依据与表达规则。
+        - paragraph: 发现 4 项风险，需要修订或补充
+        - generic "查看参数与返回结果"
+        - generic: "3"
+        - strong: 检索素材
+        - generic: 已执行
+        - generic: 16.4 s
+        - paragraph: 旧稿估时已通过，但字幕功能来源尚未检索，且第二镜头包含未经确认的声明。
+        - paragraph: 检索“demo-editor 剪影练习版 P01 字幕功能 添加字幕 手动编辑字幕文字 原始事实依据”：找到 3 条素材
+        - generic "查看参数与返回结果"
+        - generic: "4"
+        - strong: 生成 / 修订脚本
+        - generic: 已执行
+        - generic: 18.8 s
+        - paragraph: 素材确认了添加字幕和手动编辑功能；删除第二镜头中无法确认的自动识别、99%准确率声明及对应演示，保留原标题和其余镜头。
+        - paragraph: 实际修改 shot:2/visual、shot:2/block:1、shot:3:removed；保留 1 个原镜头、1 个原文案块。修订前失败检查：检查事实与规则
+        - generic "查看参数与返回结果"
+        - generic: "5"
+        - strong: 估算时长
+        - generic: 已执行
+        - generic: 13.5 s
+        - paragraph: 旧稿已删除未经确认的声明及对应镜头，需要重新检查当前稿是否符合28秒上限。
+        - paragraph: 预计 16 秒 / 上限 28 秒，符合要求
+        - generic "查看参数与返回结果"
+        - generic: "6"
+        - strong: 检查事实与规则
+        - generic: 已执行
+        - generic: 13.7 s
+        - paragraph: 当前稿估时16秒，符合28秒上限；需重新核对删改后的事实引用和表达规则。
+        - paragraph: 检查通过，核对 2 处事实引用
+        - generic "查看参数与返回结果"
+        - generic: "7"
+        - strong: 核对需求覆盖
+        - generic: 需要处理
+        - generic: 73.6 s
+        - paragraph: 当前稿估时16秒，时长与规则检查均已通过；尚需核对需求覆盖及公开表达。
+        - paragraph: 模型核对 7 项需求：存在未满足或待确认项。已保留两项有依据的字幕功能，并删除未证实说法；但缺少删除原因及资料缺口说明，第1镜的画面内容也不足以支撑较长停留。
+        - generic "查看参数与返回结果"
+        - generic: "8"
+        - strong: 生成 / 修订脚本
+        - generic: 已执行
+        - generic: 37.1 s
+        - paragraph: 需求审核指出缺少删除原因说明且首镜停留过长；补充说明，并将首镜停留缩短为4秒。
+        - paragraph: 实际修改 shot:1/hold_seconds、shot:3:added；保留 1 个原镜头、2 个原文案块。修订前失败检查：核对需求覆盖
+        - generic "查看参数与返回结果"
+        - generic: "9"
+        - strong: 估算时长
+        - generic: 已执行
+        - generic: 15.5 s
+        - paragraph: 当前稿新增了修改说明并缩短首镜停留，需要重新核对是否符合28秒上限。
+        - paragraph: 预计 21 秒 / 上限 28 秒，符合要求
+        - generic "查看参数与返回结果"
+        - generic: "10"
+        - strong: 检查事实与规则
+        - generic: 已执行
+        - generic: 11.8 s
+        - paragraph: 当前稿估时21秒，符合28秒上限；新增修改说明后，需重新核对事实引用与表达规则。
+        - paragraph: 检查通过，核对 2 处事实引用
+        - generic "查看参数与返回结果"
+        - generic: "11"
+        - strong: 核对需求覆盖
+        - generic: 已执行
+        - generic: 72.8 s
+        - paragraph: 当前稿估时21秒，时长与规则检查均通过；需复核新增修改说明、首镜节奏及需求覆盖。
+        - paragraph: 模型核对 8 项需求：未发现遗漏。已落实需求：保留两项已确认字幕功能，并明确说明自动识别及99%准确率说法因缺少数据已删除。表达审核与镜头节奏通过。
+        - generic "查看参数与返回结果"
+        - generic: "12"
+        - strong: 结束任务
+        - generic: 已执行
+        - generic: 16.6 s
+        - paragraph: 当前同一稿的时长、规则和需求检查均已通过。
+        - paragraph: 检查通过
+        - generic "查看参数与返回结果"
+    - generic: 记录已保存 · aff0b44d
+    - link "下载脚本":
+      - /url: /api/runs/aff0b44de25c457c875270b5ee53d3d5/download/script.md
+    - link "下载 Trace":
+      - /url: /api/runs/aff0b44de25c457c875270b5ee53d3d5/download/trace.jsonl
+    - link "下载 JSON":
+      - /url: /api/runs/aff0b44de25c457c875270b5ee53d3d5/download/output.json
+    - link "下载检查点":
+      - /url: /api/runs/aff0b44de25c457c875270b5ee53d3d5/download/checkpoint.json
+  - generic: 本地运行 · 合成素材 · 只生成脚本
+  - generic: 先核对事实，再判断表达。

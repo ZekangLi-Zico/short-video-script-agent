@@ -1,0 +1,279 @@
+# 短视频脚本运行结果
+
+- 状态：`completed`
+- 证据类型：`real_model`
+- 说明：已完成压缩：仅将四镜停留由各10秒改为4、6、5、4秒，估算总长19秒，符合22秒上限。原标题、文案、四镜数量与顺序及场景均保留，添加字幕和手动编辑字幕两项功能完整保留。三项检查均通过。
+
+当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。
+
+## 采访后的整理
+
+> 未完成或检查失败时，下列内容仅为未通过验收的草稿。
+
+### 分镜 1
+
+画面：社区入口标牌
+
+旁白/字幕：采访结束，整理开始。
+
+来源：
+
+预计镜头时长：4.0 秒
+
+### 分镜 2
+
+画面：采访笔记和录音笔
+
+旁白/字幕：剪影练习版支持为视频添加字幕。
+
+来源：P01/P01.F1
+
+预计镜头时长：6.0 秒
+
+### 分镜 3
+
+画面：手改纸上的错字
+
+旁白/字幕：字幕文字可以手动编辑。
+
+来源：P01/P01.F2
+
+预计镜头时长：5.0 秒
+
+### 分镜 4
+
+画面：合上的笔记本
+
+旁白/字幕：把这一段记录留下。
+
+来源：
+
+预计镜头时长：4.0 秒
+
+## 实际修订
+
+位置按镜头索引比较；日志关联的是实际反馈，不证明模型因果推理。
+
+- 修改：shot:1/hold_seconds, shot:2/hold_seconds, shot:3/hold_seconds, shot:4/hold_seconds；保留原镜头 0 个、原文案块 4 个。
+- 修订前失败检查：duration, rules_check
+
+预计总时长：19.0 秒（基于语速与镜头停留估算，非成片实测）。
+
+## 检查结果与来源
+
+```json
+{
+  "ok": true,
+  "script_hash": "d4522a8a3dc227652b993719da6e096f59019f71444d0a510630e98fff92a78d",
+  "passed": true,
+  "issues": [],
+  "citations": [
+    {
+      "location": "shot:2/block:1",
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01"
+    },
+    {
+      "location": "shot:3/block:1",
+      "source_id": "P01",
+      "fact_id": "P01.F2",
+      "quote": "字幕文字可以手动编辑。",
+      "version": "2026-11-01"
+    }
+  ],
+  "rules_version": "2026-11-03-v1",
+  "requires_expression_review": true,
+  "expression_slots": [
+    {
+      "location": "title",
+      "text": "采访后的整理"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "社区入口标牌"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "采访结束，整理开始。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "采访笔记和录音笔"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "手改纸上的错字"
+    },
+    {
+      "location": "shot:4/visual",
+      "text": "合上的笔记本"
+    },
+    {
+      "location": "shot:4/block:1",
+      "text": "把这一段记录留下。"
+    }
+  ],
+  "available_facts": [
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F2",
+      "quote": "字幕文字可以手动编辑。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P02",
+      "fact_id": "P02.F1",
+      "quote": "剪影练习版支持裁剪视频片段。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P03",
+      "fact_id": "P03.F1",
+      "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+      "version": "2026-11-01"
+    }
+  ],
+  "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+}
+```
+
+## 需求覆盖核对
+
+以下为模型评估，可能漏判或误判，仍需人工确认。
+
+```json
+{
+  "ok": true,
+  "script_hash": "d4522a8a3dc227652b993719da6e096f59019f71444d0a510630e98fff92a78d",
+  "request_hash": "026bee1ada5099c7ef110386e08099a04e81e3cc29aae8712cd1a7d99e939ef8",
+  "passed": true,
+  "items": [
+    {
+      "field": "topic",
+      "requirement": "所附旧稿四个镜头顺序与数量不能改",
+      "verdict": "met",
+      "evidence": "数量核对：旧稿与当前稿均为4个镜头，没有增删。"
+    },
+    {
+      "field": "topic",
+      "requirement": "所附旧稿四个镜头顺序与数量不能改",
+      "verdict": "met",
+      "evidence": "顺序核对：均依次为“社区入口标牌”“采访笔记和录音笔”“手改纸上的错字”“合上的笔记本”。"
+    },
+    {
+      "field": "topic",
+      "requirement": "保留两项字幕功能",
+      "verdict": "met",
+      "evidence": "第2镜保留“剪影练习版支持为视频添加字幕。”，第3镜保留“字幕文字可以手动编辑。”；分别获P01.F1、P01.F2支持。"
+    },
+    {
+      "field": "topic",
+      "requirement": "把总长压缩到22秒以内",
+      "verdict": "met",
+      "evidence": "绑定当前稿的duration_check给出总预计时长19.0秒，passed=true，符合22秒上限。"
+    },
+    {
+      "field": "topic",
+      "requirement": "可以修改文案和每镜停留",
+      "verdict": "met",
+      "evidence": "修改处于允许范围：文案保留，每镜hold_seconds由原来的10秒分别改为4、6、5、4秒。"
+    },
+    {
+      "field": "topic",
+      "requirement": "不要引入新场景",
+      "verdict": "met",
+      "evidence": "当前四镜visual与旧稿逐一相同，没有新增场景。"
+    },
+    {
+      "field": "audience",
+      "requirement": "社区采访视频编辑",
+      "verdict": "met",
+      "evidence": "第1镜“社区入口标牌”和“采访结束，整理开始。”明确社区采访背景；第2、3镜介绍添加字幕与手动编辑字幕，符合采访视频整理需求。"
+    },
+    {
+      "field": "platform",
+      "requirement": "视频号",
+      "verdict": "met",
+      "evidence": "四镜结构紧凑，预计19秒，旁白简短且内容集中，适合视频号短视频呈现。"
+    },
+    {
+      "field": "style",
+      "requirement": "直接，清楚",
+      "verdict": "met",
+      "evidence": "第2、3镜分别直接说明“为视频添加字幕”“字幕文字可以手动编辑”，每镜只表达一个重点，开场与收尾均为简短句。"
+    }
+  ],
+  "summary": "已满足原始需求：四镜数量、顺序和场景保持不变，两项字幕功能完整保留，预计19秒，符合22秒上限；表达与节奏均通过。",
+  "method": "model_assessment_not_deterministic_proof",
+  "expressions": [
+    {
+      "location": "title",
+      "text": "采访后的整理",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "标题描述采访后的整理主题，不含产品能力或效果承诺。"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "社区入口标牌",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "社区背景画面，不含产品声明。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "采访结束，整理开始。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "交代采访结束后的工作阶段，不承诺产品自动整理等能力。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "采访笔记和录音笔",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "展示采访相关物品，没有宣称产品支持录音笔导入、转写或其他功能。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "手改纸上的错字",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "纸上手动修改的示意动作，没有虚构产品界面、按钮或自动纠错能力。"
+    },
+    {
+      "location": "shot:4/visual",
+      "text": "合上的笔记本",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "收尾物品画面，不含产品性能或工作流声明。"
+    },
+    {
+      "location": "shot:4/block:1",
+      "text": "把这一段记录留下。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "保留记录的行动邀请，没有具体存储能力或效果承诺。"
+    }
+  ],
+  "pacing": {
+    "verdict": "met",
+    "evidence": "duration_check给出四镜预计时长4、6、5、4秒，分别对应8、14、10、8个旁白单位，并满足各镜最低停留。第1镜交代社区采访背景，第2镜展示笔记和录音笔并介绍添加字幕，第3镜展示手改错字动作并介绍字幕编辑，第4镜配合简短收尾；均有朗读和观察内容支撑，没有重复功能或明显空镜凑时长。"
+  },
+  "expression_review_passed": true
+}
+```
+
+## 执行路径
+
+estimate_duration → check_rules → search_materials → write_script → estimate_duration → check_rules → check_requirements → finish
+
+逐步参数、观察和简短决策依据见 trace.jsonl。未记录模型内部思维过程。

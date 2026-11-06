@@ -566,6 +566,27 @@ select:disabled {
   margin-bottom: 11px;
   overflow-wrap: anywhere;
 }
+.shot-body .shot-overview { color: var(--ink); font-size: 14px; line-height: 1.75; }
+.staging-table { width: 100%; border-collapse: collapse; table-layout: fixed; margin: 16px 0; font-size: 14px; line-height: 1.75; }
+.staging-table th { text-align: left; font-weight: 600; background: var(--soft); padding: 10px; }
+.staging-table th:first-child { width: 17%; }
+.staging-table th:nth-child(2) { width: 43%; }
+.staging-table td { vertical-align: top; border-bottom: 1px solid var(--line); padding: 13px 10px; overflow-wrap: anywhere; }
+.staging-table p { margin: 0 0 7px; }
+.staging-table p:last-child { margin-bottom: 0; }
+.stage-time { color: var(--accent); font-variant-numeric: tabular-nums; font-size: 12px; }
+.speaker { display: block; color: var(--accent); font-size: 12px; margin-bottom: 3px; }
+.stage-camera, .stage-sound { color: #526459; font-size: 12px; }
+.stage-silence, .subtitle-label, .legacy-staging-note { color: var(--muted); font-size: 12px; }
+.subtitle-label { display: block; }
+@media (max-width: 720px) {
+  .staging-table thead { display: none; }
+  .staging-table tr { display: grid; grid-template-columns: 70px minmax(0, 1fr); border-bottom: 1px solid var(--line); }
+  .staging-table td { display: block; border: 0; padding: 9px 6px; }
+  .staging-table .stage-time { grid-row: 1 / span 2; }
+  .staging-table .stage-dialogue { grid-column: 2; }
+  .staging-table td[data-label]::before { content: attr(data-label); display: block; color: var(--muted); font-size: 11px; margin-bottom: 4px; }
+}
 .citations {
   display: flex;
   flex-wrap: wrap;
@@ -595,6 +616,20 @@ select:disabled {
 }
 .risks ul {
   padding-left: 18px;
+}
+.editor-notes {
+  margin: 18px 0;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--soft);
+}
+.editor-notes p {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.editor-notes small {
+  color: var(--muted);
 }
 .trace-intro {
   margin-bottom: 25px;
@@ -906,3 +941,9 @@ select:disabled {
     transition: none !important;
   }
 }
+#listening-text { white-space: pre-wrap; font-size: 1.1rem; line-height: 1.9; margin-top: 12px; }
+.material-list { max-height: 480px; overflow-y: auto; overscroll-behavior: contain; }
+.material-card summary { cursor: pointer; font-weight: 600; line-height: 1.6; }
+.material-card p { line-height: 1.75; }
+#dossier-download { display: inline-block; margin: 12px 0 4px; font-size: 13px; }
+#dossier-download[hidden] { display: none; }

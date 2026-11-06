@@ -1,0 +1,8 @@
+{
+  "case": "V30",
+  "assessment": "改进",
+  "note": "旧版三条长原文估时12.8秒并请求用户提供短事实；新版准确缩写为“添加字幕”“裁剪片段”“横竖屏比例可选”，三镜分别呈现且各有来源，无人物，6.3秒完成。未合并成含糊功能、未删功能、未并行挤卡，实际打通8秒需求。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

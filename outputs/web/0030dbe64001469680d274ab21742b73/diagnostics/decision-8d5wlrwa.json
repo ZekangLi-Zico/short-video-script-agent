@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-8d5wlrwa",
+  "started_at": "2026-11-04T00:59:18.760470+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T00:59:57.955392+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a411-4bc1-7952-adf3-2eb7079ec22f",
+    "usage": {
+      "input_tokens": 27936,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1281,
+      "reasoning_output_tokens": 914
+    },
+    "call_id": "decision-8d5wlrwa",
+    "warnings": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-lcld5fek",
+  "started_at": "2026-11-04T17:39:34.624906+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:39:54.111959+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a7a5-1123-7170-8346-e16e59e57c29",
+    "usage": {
+      "input_tokens": 27255,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 103,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-lcld5fek",
+    "warnings": []
+  }
+}

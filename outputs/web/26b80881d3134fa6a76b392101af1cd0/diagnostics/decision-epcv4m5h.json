@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-epcv4m5h",
+  "started_at": "2026-11-04T17:15:54.053505+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:16:39.432089+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a78f-6396-7401-ba2e-02ad8f3a2162",
+    "usage": {
+      "input_tokens": 27655,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 825,
+      "reasoning_output_tokens": 208
+    },
+    "call_id": "decision-epcv4m5h",
+    "warnings": []
+  }
+}

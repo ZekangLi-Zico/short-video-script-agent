@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-7p96ghar",
+  "started_at": "2026-11-03T21:17:01.142080+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:17:49.655254+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a345-c7b0-7b00-a449-7e904b0649a6",
+    "usage": {
+      "input_tokens": 27360,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1010,
+      "reasoning_output_tokens": 743
+    },
+    "call_id": "decision-7p96ghar",
+    "warnings": []
+  }
+}

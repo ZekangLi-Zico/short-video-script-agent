@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-vwq99rr2",
+  "started_at": "2026-11-04T00:56:52.599626+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T00:57:08.044776+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a40f-116a-71a3-9200-36915fa1a072",
+    "usage": {
+      "input_tokens": 31846,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 110,
+      "reasoning_output_tokens": 48
+    },
+    "call_id": "decision-vwq99rr2",
+    "warnings": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "case": "V43",
+  "run_id": "dd46b227039c46e2ae0d28c23d35e6bb",
+  "status": "needs_input",
+  "steps": 2,
+  "responses": 2,
+  "provider": "codex",
+  "seconds": null,
+  "message": "尚未生成预告。请将“星港周末赛”的报名起止时间、奖品设置和参赛规则交给项目维护者补充。目前只有名称，无法完成这三项介绍，也不会借用其他活动资料补齐。"
+}

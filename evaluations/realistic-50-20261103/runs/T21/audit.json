@@ -1,0 +1,68 @@
+{
+  "case": "T21",
+  "name": "自动字幕咨询",
+  "run_id": "408506a128c24ef984614b3cab5c8b5d",
+  "status": "needs_input",
+  "message": "现有素材仅支持“添加字幕”和“字幕文字可以手动编辑”，不足以介绍口播识别及识别后纠错。请补充这两项能力的可引用产品事实，表述须符合品牌规则；如需使用“自动识别”，还需调整对应禁用规则。",
+  "steps": 3,
+  "model_calls": 3,
+  "seconds": null,
+  "target_seconds": 25,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "search_materials",
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 口播语音转字幕 识别后编辑字幕 修改错别字 功能说明",
+    "demo-editor 语音转文字 口播转字幕 语音识别生成字幕 识别结果修改错字 功能说明"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前缺少介绍口播转字幕和识别后修改错字的可引用产品事实",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "basis": "现有素材仅支持添加字幕和手动编辑，缺少口播转字幕的产品事实。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "basis": "两次检索均缺少口播转字幕的产品事实，且品牌规则禁用“自动识别”。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 63.6,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "a643d4840264d30fbb40c06768492c04c30cb40ff9170cedbf809ad6b3f46015",
+    "output.json": "e362f1bd90b22aa3a23b5568eb1a8d43b2040e27252e12fd506a926c5172be13",
+    "trace.jsonl": "5f0807d99bfbcef675a4e70d03414e44c4fb36682950c366344daa01d1851243",
+    "manifest.json": "78dea22d9a5a7b55dfd26f51b6a055fea107200111c9a6cfe08fbac41deb9b9e",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "d1845e4afaddf1db411b5ab98536470ff2d29eb87c595e91dbfaab3996b2cf94"
+  }
+}

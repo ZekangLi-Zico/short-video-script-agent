@@ -1,0 +1,24 @@
+{
+  "call_id": "decision-xbi7pkho",
+  "started_at": "2026-11-04T14:53:26.075813+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "cleanup_error_type": "PermissionError",
+  "finished_at": "2026-11-04T14:53:48.204841+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a70c-f6cf-74b2-84a0-bf035fc9f1d7",
+    "usage": {
+      "input_tokens": 29534,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 186,
+      "reasoning_output_tokens": 120
+    },
+    "call_id": "decision-xbi7pkho",
+    "warnings": [
+      "cleanup_deferred"
+    ]
+  }
+}

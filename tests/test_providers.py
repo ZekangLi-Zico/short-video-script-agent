@@ -11,6 +11,7 @@ from src.agent import ModelError
 from src.mock import action
 from src.providers import APIModel, CodexModel, parse_action, run_cli
 from src.tools import ToolBox
+from src.requirements import REVIEW_SCHEMA
 
 
 STATE = {"request": {"topic": "字幕"}, "script": None, "retrieved": {}, "duration": None,
@@ -28,6 +29,20 @@ class FakeOpener:
 
 
 class ProviderTests(unittest.TestCase):
+    def test_review_uses_separate_schema_and_original_request_without_writer_history(self):
+        report = {'items': [], 'summary': 'contract fixture'}
+        opener = FakeOpener({'output': [{'type': 'message', 'content': [{'type': 'output_text', 'text': json.dumps(report)}]}]})
+        with patch.dict(os.environ, {'MODEL_API_KEY': 'test-only', 'MODEL_NAME': 'test-model', 'MODEL_API_STYLE': 'responses'}, clear=True):
+            with patch('urllib.request.build_opener', return_value=opener):
+                actual, _ = APIModel().review({'topic': '校园采访'}, {'title': '当前稿', 'shots': []}, {'ok': True, 'citations': []})
+        self.assertEqual(actual, report)
+        body = json.loads(opener.requests[0].data)
+        self.assertEqual(body['text']['format']['schema'], REVIEW_SCHEMA)
+        payload = json.loads(body['input'][1]['content'])
+        self.assertEqual(set(payload), {'request', 'script', 'listening_copy', 'rules_check', 'duration_check'})
+        self.assertEqual(payload['request']['topic'], '校园采访')
+        self.assertEqual(payload['rules_check'], {'ok': True, 'citations': []})
+
     def test_responses_adapter_sends_observation_and_schema(self):
         response = {"id": "test-response", "model": "test-model", "output": [
             {"type": "reasoning", "summary": []},

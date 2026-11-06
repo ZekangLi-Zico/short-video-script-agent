@@ -1,0 +1,130 @@
+Browser tab: 1, Title: "脚本试验台 · 短视频 Agent", URL: "http://127.0.0.1:8765/".
+1 AXWebArea 脚本试验台 · 短视频 Agent, URL: 127.0.0.1:8765/
+	2 container
+		3 link Description: 脚本试验台首页, Value: 127.0.0.1:8765/
+		4 text 本地人工测试
+	5 container
+		6 heading 从一个需求，到一份可核验的脚本。, Value: 1
+			7 text 从一个需求，到一份可核验的脚本。
+		8 text 填入创作需求，观察 Agent 如何查资料、写分镜，再根据检查结果修订。
+		9 container 创作需求与测试设置
+			10 container form-fields
+				11 heading 创作需求, Value: 2
+					12 text 创作需求
+				13 button 重置, ID: reset-button
+				14 text 载入测试场景
+				15 pop up button (collapsed, settable) 载入测试场景, Value: 自定义需求, ID: preset, Secondary Actions: Expand
+					16 menu
+						17 (selected) 自定义需求
+						18 正常生成
+						19 缺少关键信息
+						20 没有产品素材
+						21 工具持续失败
+						22 一次故障后恢复
+						23 38 秒旧稿修订
+						24 无依据宣传纠错
+						25 无法满足的时长
+				139 text 需求已修改，将按当前内容运行。
+				27 text 主题
+				28 text entry area (settable) 主题, Value: 社团准备发布校园采访花絮，写一条介绍添加字幕和编辑字幕文字的短视频脚本，画面以采访花絮为背景。, ID: topic
+				29 text 给谁看
+				30 text field (settable) 给谁看, Value: 大学社团宣传成员, ID: audience
+				31 text 发布平台
+				32 pop up button (collapsed, settable) 发布平台, Value: B站, ID: platform, Secondary Actions: Expand
+					33 menu
+						34 抖音
+						35 小红书
+						36 视频号
+						37 (selected) B站
+				38 container
+					39 text 目标时长  秒
+				40 stepper (settable, integer) 目标时长 秒, Value: 25, ID: target-seconds
+				41 text 表达风格
+				42 text field (settable) 表达风格, Value: 轻松、有条理, ID: style
+				43 text 使用的产品资料
+				44 pop up button (collapsed, settable) 使用的产品资料, Value: 剪影练习版 · 示例素材, ID: product, Secondary Actions: Expand
+					45 menu
+						46 (selected) 剪影练习版 · 示例素材
+						47 无素材产品 · 测试资料不足
+				48 button (collapsed) 查看可用素材, Secondary Actions: Expand
+					49 text 查看可用素材
+				50 text 运行方式
+				51 pop up button (collapsed, settable) 运行方式, Value: 真实模型 · Codex, ID: provider, Secondary Actions: Expand
+					52 menu
+						53 (selected) 真实模型 · Codex
+						54 离线演练 · Mock
+						55 (disabled) 模型 API
+				140 text 调用本机已登录的 Codex，通常需要一到数分钟。
+				57 button (collapsed) 测试设置与旧稿, Secondary Actions: Expand
+					58 text 测试设置与旧稿
+				59 button 生成并检查, ID: run-button
+				141 text 真实模型运行会使用当前账号的额度。
+		61 container 运行结果
+			182 text 需要补充
+			183 text 真实模型 · 2 个执行步骤
+			64 tab group 结果视图
+				65 tab (selectable, settable, boolean) 脚本预览, Value: 0, ID: tab-script
+				66 tab (selected, settable, boolean) 执行过程 2, ID: tab-trace, Value: 1
+执行过程
+2
+				67 tab (selectable, settable, boolean) 原始结果, Value: 0, ID: tab-raw
+			68 container
+				69 text 最近运行
+				70 pop up button (collapsed, settable) Description: 查看最近运行, Value: 11/03 23:52:08 · 模型 · 需要补充 · 社团准备发布校园采访花絮，写一, ID: history, Secondary Actions: Expand
+					71 menu
+						184 选择一条记录
+						185 (selected) 11/03 23:52:08 · 模型 · 需要补充 · 社团准备发布校园采访花絮，写一
+						186 11/03 23:16:12 · 模型 · 检查通过 · 介绍剪影练习版的三个方面：为视
+						187 11/03 23:14:03 · 模型 · 检查通过 · 给第一次拍口播的人介绍剪影练习
+						188 11/03 23:11:59 · 模型 · 检查通过 · 我想发个做视频的小工具介绍，别
+						189 11/03 23:10:39 · 模型 · 需要补充 · 写一条介绍虚构手游“星港漫游”
+						190 11/03 23:08:35 · 模型 · 需要补充 · 为虚构的“晴天烘焙”写周末新品
+						191 11/03 23:06:10 · 模型 · 检查通过 · 这份旧稿从别的产品项目复制过来
+						192 11/03 23:03:51 · 模型 · 检查通过 · 保留旧稿四个镜头的顺序和数量，
+						193 11/03 23:01:39 · 模型 · 检查通过 · 审核并修改外包提供的旧稿，介绍
+						194 11/03 22:59:09 · 模型 · 检查通过 · 把旧稿改成10秒以内，保留裁剪
+						195 11/03 22:56:57 · 模型 · 检查通过 · 保留旧稿的字幕添加和手动编辑两
+						196 11/03 22:55:40 · 模型 · 需要补充 · 介绍裁剪片段功能，用大字卡片呈
+						197 11/03 22:54:14 · 模型 · 需要补充 · 介绍字幕添加与手动编辑字幕文字
+						198 11/03 22:52:18 · 模型 · 检查通过 · 介绍字幕添加功能。开头必须是陈
+						199 11/03 22:50:13 · 模型 · 检查通过 · 只能使用两个分镜：第一镜头介绍
+						200 11/03 22:48:05 · 模型 · 检查通过 · 介绍添加字幕和手动编辑字幕文字
+						201 11/03 22:45:57 · 模型 · 检查通过 · 为静音展位屏幕写脚本，介绍片段
+						202 11/03 22:43:54 · 模型 · 检查通过 · 介绍字幕添加功能，全片不能出现
+						203 11/03 22:43:42 · 模型 · 需要补充 · 介绍横屏和竖屏画面比例选项，品
+						204 11/03 22:43:27 · 模型 · 需要补充 · 介绍视频片段裁剪功能，目标受众
+						205 11/03 22:43:16 · 模型 · 需要补充 · 客户想介绍字幕添加和手动编辑两
+						206 11/03 22:41:52 · 模型 · 需要补充 · 帮我写本周新版剪影练习版的更新
+						207 11/03 22:40:32 · 模型 · 需要补充 · 写给老年初学者的字幕功能介绍，
+						208 11/03 22:38:14 · 模型 · 检查通过 · 客户口头说用了字幕功能后播放量
+						209 11/03 22:36:54 · 模型 · 需要补充 · 做一条剪影练习版与剪映的对比视
+						210 11/03 22:35:35 · 模型 · 需要补充 · 介绍导出视频能否达到4K，以及
+						211 11/03 22:33:41 · 模型 · 需要补充 · 介绍剪影练习版是否能离线编辑字
+						212 11/03 22:32:12 · 模型 · 需要补充 · 写一条说明字幕功能是否免费、免
+						213 11/03 22:30:04 · 模型 · 需要补充 · 介绍剪影练习版导出SRT字幕文
+						214 11/03 22:27:31 · 模型 · 需要补充 · 给跨境创作者介绍剪影练习版能否
+						215 11/03 22:25:59 · 模型 · 需要补充 · 我们想宣传口播自动识别成字幕，
+						216 11/03 22:24:42 · 模型 · 需要补充 · 写一条一步一步教新手添加字幕并
+			217 text 已找到添加字幕和手动编辑字幕文字的功能依据。当前模板无法指定“校园采访花絮”作为背景，需要项目维护者补充允许使用的对应画面描述，才能完整满足要求。脚本尚未生成，时长、规则和需求检查均未完成。
+			178 container Description: 执行过程 2, ID: panel-trace
+				179 heading 每一步，都有记录。, Value: 2
+					180 text 每一步，都有记录。
+				181 text 这里展示实际工具调用、观察结果与简短动作依据。
+				218 content list timeline
+					219 container
+						220 text 1 检索素材 已执行 19.4 s 当前没有素材，需要检索添加字幕和编辑字幕文字的产品事实及采访花絮画面素材。 检索“demo-editor 添加字幕 编辑字幕文字 校园采访花絮背景素材”：找到 2 条素材
+						221 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
+							222 text 查看参数与返回结果
+					223 container
+						224 text 2 结束任务 已执行 40.9 s 已找到两项字幕功能事实，但允许使用的画面中没有校园采访花絮背景。 需要补充
+						225 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
+							226 text 查看参数与返回结果
+			227 container
+				228 text 记录已保存 · a54d8edd
+				229 container downloads
+					230 link Description: 下载脚本, Value: 127.0.0.1:8765/api/runs/a54d8eddefe9409f9ee8f430f1a4d8a5/download/script.md, ID: download-script
+					231 link Description: 下载 Trace, Value: 127.0.0.1:8765/api/runs/a54d8eddefe9409f9ee8f430f1a4d8a5/download/trace.jsonl, ID: download-trace
+					232 link Description: 下载 JSON, Value: 127.0.0.1:8765/api/runs/a54d8eddefe9409f9ee8f430f1a4d8a5/download/output.json, ID: download-result
+		138 text 本地运行 · 合成素材 · 只生成脚本 先核对事实，再判断表达。
+
+The focused UI element is 1 AXWebArea 脚本试验台 · 短视频 Agent, URL: 127.0.0.1:8765/

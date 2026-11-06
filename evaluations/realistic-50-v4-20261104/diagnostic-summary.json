@@ -1,0 +1,18 @@
+{
+  "calls_with_warnings": [
+    {
+      "file": "runs/V17/diagnostics/decision-k0zv5_l1.json",
+      "warnings": [
+        "cleanup_deferred"
+      ]
+    },
+    {
+      "file": "runs/V18/diagnostics/decision-f3o17uxs.json",
+      "warnings": [
+        "cleanup_deferred"
+      ]
+    }
+  ],
+  "calls_without_responses": [],
+  "diagnostics_count": 315
+}

@@ -1,0 +1,435 @@
+{
+  "status": "completed",
+  "message": "已完成《把读书会的话留下》三个分镜，围绕签到桌、书页和分享者背影，介绍添加字幕与手动编辑字幕文字。预计22秒，符合24秒目标区间，全部检查通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "format_version": 2,
+    "title": "把读书会的话留下",
+    "shots": [
+      {
+        "purpose": "交代志愿者整理读书会活动视频的需要。",
+        "visual": "签到桌近景，志愿者合上签到本，整理桌上的书和笔；镜头缓慢移向留下的一本书。",
+        "hold_seconds": 7,
+        "blocks": [
+          {
+            "text": "读书会结束后，我想把大家分享的话，留在活动视频里。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "结合书页画面介绍给视频添加字幕。",
+        "visual": "手指轻轻翻开书页，画面下方出现示例字幕“这段话，让我想起一次重逢”，书页保持清晰可见。",
+        "hold_seconds": 7,
+        "blocks": [
+          {
+            "text": "用剪影练习版给视频添加字幕，把书页旁的分享配上文字。",
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "这段话，让我想起一次重逢",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "screen",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "说明手动编辑字幕文字，并收束这次活动记录。",
+        "visual": "固定机位拍分享者背影和听众，随后切近同一段视频的预览；示例字幕由“重逢”改为“相遇”，以修改后的画面结束。",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "我会核对并修改，把这次分享清楚地留下来。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      }
+    ],
+    "editor_notes": ""
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "4dcfa74f9b1662a62d4d3f948b3e29e1248c9256ec92d6d87ccbcdd6f4a06bb1",
+    "shots": [
+      {
+        "shot": 1,
+        "estimated_seconds": 7.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 6.0,
+            "voice_seconds": 6.0,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 6.0
+          }
+        ],
+        "tail_hold_seconds": 1.0
+      },
+      {
+        "shot": 2,
+        "estimated_seconds": 7.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 6.5,
+            "voice_seconds": 6.5,
+            "screen_read_seconds": 3.25,
+            "display_seconds": 0,
+            "estimated_seconds": 6.5
+          }
+        ],
+        "tail_hold_seconds": 0.5
+      },
+      {
+        "shot": 3,
+        "estimated_seconds": 8.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 7.5,
+            "voice_seconds": 7.5,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 7.5
+          }
+        ],
+        "tail_hold_seconds": 0.5
+      }
+    ],
+    "total_seconds": 22.0,
+    "target_seconds": 24,
+    "passed": true,
+    "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+    "is_estimate": true,
+    "duration_mode": "target",
+    "min_seconds": 21.6,
+    "max_seconds": 24,
+    "issue": null
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "4dcfa74f9b1662a62d4d3f948b3e29e1248c9256ec92d6d87ccbcdd6f4a06bb1",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01",
+        "text": "用剪影练习版给视频添加字幕，把书页旁的分享配上文字。",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:3/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01",
+        "text": "字幕文字可以手动编辑。",
+        "requires_semantic_review": true
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "把读书会的话留下"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "签到桌近景，志愿者合上签到本，整理桌上的书和笔；镜头缓慢移向留下的一本书。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "读书会结束后，我想把大家分享的话，留在活动视频里。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "手指轻轻翻开书页，画面下方出现示例字幕“这段话，让我想起一次重逢”，书页保持清晰可见。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "用剪影练习版给视频添加字幕，把书页旁的分享配上文字。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "这段话，让我想起一次重逢"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "固定机位拍分享者背影和听众，随后切近同一段视频的预览；示例字幕由“重逢”改为“相遇”，以修改后的画面结束。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "字幕文字可以手动编辑。"
+      },
+      {
+        "location": "shot:3/block:2",
+        "text": "我会核对并修改，把这次分享清楚地留下来。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "4dcfa74f9b1662a62d4d3f948b3e29e1248c9256ec92d6d87ccbcdd6f4a06bb1",
+    "request_hash": "19501a3419a2e7a54b42e8fa42d7c37ee31f2ee574c4a5de11438014ffcdbf26",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "字幕添加",
+        "verdict": "met",
+        "evidence": "第2镜旁白明确介绍“给视频添加字幕”，画面同步展示示例字幕。"
+      },
+      {
+        "field": "topic",
+        "requirement": "手动编辑字幕文字",
+        "verdict": "met",
+        "evidence": "第3镜说明“字幕文字可以手动编辑”，并展示“重逢”改为“相遇”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "画面围绕签到桌、书页、分享者背影",
+        "verdict": "met",
+        "evidence": "第1至3镜分别以签到桌、翻开的书页、分享者背影为主要画面。"
+      },
+      {
+        "field": "topic",
+        "requirement": "恰好三个分镜",
+        "verdict": "met",
+        "evidence": "当前稿共3个分镜。"
+      },
+      {
+        "field": "topic",
+        "requirement": "标题用“把读书会的话留下”",
+        "verdict": "met",
+        "evidence": "标题为“把读书会的话留下”，与要求一致。"
+      },
+      {
+        "field": "audience",
+        "requirement": "图书馆活动志愿者",
+        "verdict": "met",
+        "evidence": "签到整理、读书会视频记录和核对分享字幕构成具体志愿者工作场景，旁白易于理解。"
+      },
+      {
+        "field": "platform",
+        "requirement": "视频号",
+        "verdict": "met",
+        "evidence": "三个简短分镜围绕活动记录展开，字幕示例清楚，适合视频号短视频呈现。"
+      },
+      {
+        "field": "style",
+        "requirement": "温和，清楚",
+        "verdict": "met",
+        "evidence": "连续旁白从记录分享的意愿接到添加字幕、手动核对修改，语义完整，配合轻翻书页和缓慢移镜体现温和风格。"
+      }
+    ],
+    "summary": "当前稿落实了两项字幕功能、指定画面、三个分镜和准确标题，受众与风格适配。公开表达有资料支持，预计22秒且节奏合理，符合宿主给出的目标时长区间。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "把读书会的话留下",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "表达活动记录主题，没有具体产品能力或效果承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "签到桌近景，志愿者合上签到本，整理桌上的书和笔；镜头缓慢移向留下的一本书。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于活动场景及拍摄安排，不涉及产品声明。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "读书会结束后，我想把大家分享的话，留在活动视频里。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "描述个人记录意愿，没有声称产品自动完成记录。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "手指轻轻翻开书页，画面下方出现示例字幕“这段话，让我想起一次重逢”，书页保持清晰可见。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "示例字幕体现资料支持的视频字幕添加能力，未虚构产品界面或操作步骤。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "用剪影练习版给视频添加字幕，把书页旁的分享配上文字。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "整句仅将添加字幕能力用于读书会画面，未新增自动识别等能力。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "这段话，让我想起一次重逢",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于示例分享内容，不含产品承诺或真实客户背书。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "固定机位拍分享者背影和听众，随后切近同一段视频的预览；示例字幕由“重逢”改为“相遇”，以修改后的画面结束。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          },
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ],
+        "evidence": "视频中的字幕及文字替换分别由添加字幕、手动编辑能力支持，未指定未经证实的按钮或自动流程。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "字幕文字可以手动编辑。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ],
+        "evidence": "与对应事实原文一致。"
+      },
+      {
+        "location": "shot:3/block:2",
+        "text": "我会核对并修改，把这次分享清楚地留下来。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "说明志愿者个人核对修改的行动和目的，没有承诺产品自动核对或保证效果。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "三镜预计7、7、8秒，旁白分别占6、6.5、7.5秒；整理签到桌、翻页观察字幕、查看文字修改均有具体画面任务，余留0.5至1秒合理，同拍声画无需重复计时。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "app_version": "v7-natural-voice",
+    "started_at": "2026-11-04T21:10:07.890236+00:00",
+    "finished_at": "2026-11-04T21:13:29.063435+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 4,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v6",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+    "model_responses": 5,
+    "run_id": "d581747d507f4e9cb072696f36a5289d",
+    "persistence": "checkpoint_v1"
+  }
+}

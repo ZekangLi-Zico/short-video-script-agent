@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-vta7e296",
+  "started_at": "2026-11-04T17:28:31.126396+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:29:16.379785+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a79a-f384-7e71-a474-6d2851e72741",
+    "usage": {
+      "input_tokens": 29420,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1546,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-vta7e296",
+    "warnings": []
+  }
+}

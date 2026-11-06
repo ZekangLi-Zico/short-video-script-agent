@@ -1,0 +1,6 @@
+{
+  "time": "2026-11-04T17:42:30.466Z",
+  "case": "V40",
+  "phase": "preparing",
+  "issue": "Browser control timed out selecting custom scenario before any generation click. Fresh AX state still showed prior V35 record. Continue filling same first attempt; no model resubmission."
+}

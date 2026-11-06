@@ -1,0 +1,92 @@
+test_action_and_speech_overlap_instead_of_adding_description_length (tests.test_staging.StagingTests.test_action_and_speech_overlap_instead_of_adding_description_length) ... FAIL
+test_actions_camera_and_sound_are_reviewed_and_revision_is_recorded (tests.test_staging.StagingTests.test_actions_camera_and_sound_are_reviewed_and_revision_is_recorded) ... ERROR
+test_creative_model_requests_staged_schema_but_strict_keeps_existing_format (tests.test_staging.StagingTests.test_creative_model_requests_staged_schema_but_strict_keeps_existing_format) ... FAIL
+test_new_action_fields_cannot_bypass_existing_brand_checks (tests.test_staging.StagingTests.test_new_action_fields_cannot_bypass_existing_brand_checks) ... FAIL
+test_report_pairs_action_with_speaker_without_false_subtitle_note (tests.test_staging.StagingTests.test_report_pairs_action_with_speaker_without_false_subtitle_note) ... ERROR
+test_row_projection_keeps_exact_actions_and_does_not_invent_legacy_staging (tests.test_staging.StagingTests.test_row_projection_keeps_exact_actions_and_does_not_invent_legacy_staging) ... ERROR
+test_silent_action_has_its_own_time_and_never_enters_voice_export (tests.test_staging.StagingTests.test_silent_action_has_its_own_time_and_never_enters_voice_export) ... FAIL
+test_staging_links_and_speakers_are_validated (tests.test_staging.StagingTests.test_staging_links_and_speakers_are_validated) ... ERROR
+
+======================================================================
+ERROR: test_actions_camera_and_sound_are_reviewed_and_revision_is_recorded (tests.test_staging.StagingTests.test_actions_camera_and_sound_are_reviewed_and_revision_is_recorded)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_staging.py", line 71, in test_actions_camera_and_sound_are_reviewed_and_revision_is_recorded
+    stage=next(x for x in slots if x['location']=='shot:1/staging:1')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+======================================================================
+ERROR: test_report_pairs_action_with_speaker_without_false_subtitle_note (tests.test_staging.StagingTests.test_report_pairs_action_with_speaker_without_false_subtitle_note)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_staging.py", line 81, in test_report_pairs_action_with_speaker_without_false_subtitle_note
+    duration=self.tools.estimate_duration(s,30),trace=[])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\src\tools.py", line 108, in estimate_duration
+    validate_script(script)
+  File "D:\小影科技笔试\src\schema.py", line 48, in validate_script
+    raise ValueError("script 必须包含 title、shots；可选 editor_notes")
+ValueError: script 必须包含 title、shots；可选 editor_notes
+
+======================================================================
+ERROR: test_row_projection_keeps_exact_actions_and_does_not_invent_legacy_staging (tests.test_staging.StagingTests.test_row_projection_keeps_exact_actions_and_does_not_invent_legacy_staging)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_staging.py", line 59, in test_row_projection_keeps_exact_actions_and_does_not_invent_legacy_staging
+    from src.staging import shot_rows
+ModuleNotFoundError: No module named 'src.staging'
+
+======================================================================
+ERROR: test_staging_links_and_speakers_are_validated (tests.test_staging.StagingTests.test_staging_links_and_speakers_are_validated)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_staging.py", line 46, in test_staging_links_and_speakers_are_validated
+    validate_script(staged_script())
+  File "D:\小影科技笔试\src\schema.py", line 48, in validate_script
+    raise ValueError("script 必须包含 title、shots；可选 editor_notes")
+ValueError: script 必须包含 title、shots；可选 editor_notes
+
+======================================================================
+FAIL: test_action_and_speech_overlap_instead_of_adding_description_length (tests.test_staging.StagingTests.test_action_and_speech_overlap_instead_of_adding_description_length)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_staging.py", line 28, in test_action_and_speech_overlap_instead_of_adding_description_length
+    self.assertTrue(result['ok'])
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_creative_model_requests_staged_schema_but_strict_keeps_existing_format (tests.test_staging.StagingTests.test_creative_model_requests_staged_schema_but_strict_keeps_existing_format)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_staging.py", line 97, in test_creative_model_requests_staged_schema_but_strict_keeps_existing_format
+    self.assertEqual(schema['properties']['script']['anyOf'][0]['properties']['format_version']['enum'],[3])
+AssertionError: Lists differ: [2] != [3]
+
+First differing element 0:
+2
+3
+
+- [2]
++ [3]
+
+======================================================================
+FAIL: test_new_action_fields_cannot_bypass_existing_brand_checks (tests.test_staging.StagingTests.test_new_action_fields_cannot_bypass_existing_brand_checks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_staging.py", line 107, in test_new_action_fields_cannot_bypass_existing_brand_checks
+    self.assertTrue(check['ok'])
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_silent_action_has_its_own_time_and_never_enters_voice_export (tests.test_staging.StagingTests.test_silent_action_has_its_own_time_and_never_enters_voice_export)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_staging.py", line 37, in test_silent_action_has_its_own_time_and_never_enters_voice_export
+    self.assertTrue(r['ok'])
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.181s
+
+FAILED (failures=4, errors=4)

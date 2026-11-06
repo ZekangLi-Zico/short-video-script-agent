@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-2b_lvk71",
+  "started_at": "2026-11-03T21:06:07.909379+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:07:37.146810+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a33b-d00e-79e0-aacd-f79f159bcb32",
+    "usage": {
+      "input_tokens": 28552,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3917,
+      "reasoning_output_tokens": 1531
+    },
+    "call_id": "decision-2b_lvk71",
+    "warnings": []
+  }
+}

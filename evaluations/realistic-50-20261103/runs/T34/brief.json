@@ -1,0 +1,16 @@
+{
+  "id": "T34",
+  "name": "不出镜拍摄",
+  "context": "创作者不愿露脸，素材只有物品和街景。",
+  "request": {
+    "topic": "介绍字幕添加功能，全片不能出现人物正脸或人物面对镜头，只能用物品、街景和文字画面。",
+    "audience": "不愿出镜的日常记录作者",
+    "platform": "抖音",
+    "style": "安静、简单",
+    "product_id": "demo-editor",
+    "target_seconds": 20
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

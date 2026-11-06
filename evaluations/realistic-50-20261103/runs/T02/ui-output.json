@@ -1,0 +1,534 @@
+{
+  "status": "completed",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "字幕，让表达被看见",
+    "shots": [
+      {
+        "visual": "人物面对镜头提出问题",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "想让画面里的表达更清楚？",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "将旁白作为字幕叠加在日常画面上",
+        "hold_seconds": 7,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "将旁白作为字幕叠加在日常画面上",
+        "hold_seconds": 7,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      },
+      {
+        "visual": "日常生活素材蒙太奇",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "把想说的话，放进画面里。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "90ec0c040b789626388a757a77068e8a702a68601664416f3a3998a4f4d97170",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 11,
+        "estimated_seconds": 4
+      },
+      {
+        "shot": 2,
+        "speech_units": 14,
+        "estimated_seconds": 7
+      },
+      {
+        "shot": 3,
+        "speech_units": 10,
+        "estimated_seconds": 7
+      },
+      {
+        "shot": 4,
+        "speech_units": 10,
+        "estimated_seconds": 4
+      }
+    ],
+    "total_seconds": 22,
+    "target_seconds": 25,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "90ec0c040b789626388a757a77068e8a702a68601664416f3a3998a4f4d97170",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:3/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1"
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "arguments": {
+        "query": "demo-editor 添加字幕 编辑字幕文字 校园采访花絮",
+        "product_id": "demo-editor"
+      },
+      "decision_basis": "当前没有素材，需要检索添加字幕和编辑字幕文字的产品事实。",
+      "observation": {
+        "ok": true,
+        "query": "demo-editor 添加字幕 编辑字幕文字 校园采访花絮",
+        "product_id": "demo-editor",
+        "materials": [
+          {
+            "id": "P01",
+            "product_id": "demo-editor",
+            "title": "字幕功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "字幕",
+              "口播",
+              "文字",
+              "caption",
+              "subtitle"
+            ],
+            "facts": [
+              {
+                "id": "P01.F1",
+                "text": "剪影练习版支持为视频添加字幕。"
+              },
+              {
+                "id": "P01.F2",
+                "text": "字幕文字可以手动编辑。"
+              }
+            ]
+          },
+          {
+            "id": "P02",
+            "product_id": "demo-editor",
+            "title": "剪辑功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "剪辑",
+              "裁剪",
+              "片段",
+              "trim",
+              "edit"
+            ],
+            "facts": [
+              {
+                "id": "P02.F1",
+                "text": "剪影练习版支持裁剪视频片段。"
+              }
+            ]
+          }
+        ],
+        "count": 2
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1a8-2037-7cb3-a7fa-d254e89c3f23",
+        "usage": {
+          "input_tokens": 26525,
+          "cached_input_tokens": 24576,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 150,
+          "reasoning_output_tokens": 84
+        }
+      },
+      "elapsed_ms": 16360
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "arguments": {
+        "script": {
+          "title": "字幕，让表达被看见",
+          "shots": [
+            {
+              "visual": "人物面对镜头提出问题",
+              "hold_seconds": 4,
+              "blocks": [
+                {
+                  "text": "想让画面里的表达更清楚？",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "将旁白作为字幕叠加在日常画面上",
+              "hold_seconds": 7,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "将旁白作为字幕叠加在日常画面上",
+              "hold_seconds": 7,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "日常生活素材蒙太奇",
+              "hold_seconds": 4,
+              "blocks": [
+                {
+                  "text": "把想说的话，放进画面里。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision_basis": "已检索到添加字幕和手动编辑字幕文字的产品事实，可据此编排分镜。",
+      "observation": {
+        "ok": true,
+        "script_hash": "90ec0c040b789626388a757a77068e8a702a68601664416f3a3998a4f4d97170",
+        "message": "已更新草稿，必须对本稿重新运行时长与规则检查"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1a8-6014-7c71-9f97-b38534b1ee77",
+        "usage": {
+          "input_tokens": 27013,
+          "cached_input_tokens": 24576,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 815,
+          "reasoning_output_tokens": 559
+        }
+      },
+      "elapsed_ms": 33390
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "字幕，让表达被看见",
+          "shots": [
+            {
+              "visual": "人物面对镜头提出问题",
+              "hold_seconds": 4,
+              "blocks": [
+                {
+                  "text": "想让画面里的表达更清楚？",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "将旁白作为字幕叠加在日常画面上",
+              "hold_seconds": 7,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "将旁白作为字幕叠加在日常画面上",
+              "hold_seconds": 7,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "日常生活素材蒙太奇",
+              "hold_seconds": 4,
+              "blocks": [
+                {
+                  "text": "把想说的话，放进画面里。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "target_seconds": 25
+      },
+      "decision_basis": "当前稿尚未检查时长，需确认是否符合25秒上限。",
+      "observation": {
+        "ok": true,
+        "script_hash": "90ec0c040b789626388a757a77068e8a702a68601664416f3a3998a4f4d97170",
+        "shots": [
+          {
+            "shot": 1,
+            "speech_units": 11,
+            "estimated_seconds": 4
+          },
+          {
+            "shot": 2,
+            "speech_units": 14,
+            "estimated_seconds": 7
+          },
+          {
+            "shot": 3,
+            "speech_units": 10,
+            "estimated_seconds": 7
+          },
+          {
+            "shot": 4,
+            "speech_units": 10,
+            "estimated_seconds": 4
+          }
+        ],
+        "total_seconds": 22,
+        "target_seconds": 25,
+        "passed": true,
+        "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+        "is_estimate": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1a8-e1d6-78f3-a5c9-f0490f05dff8",
+        "usage": {
+          "input_tokens": 27607,
+          "cached_input_tokens": 24576,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 117,
+          "reasoning_output_tokens": 65
+        }
+      },
+      "elapsed_ms": 18454
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "arguments": {
+        "script": {
+          "title": "字幕，让表达被看见",
+          "shots": [
+            {
+              "visual": "人物面对镜头提出问题",
+              "hold_seconds": 4,
+              "blocks": [
+                {
+                  "text": "想让画面里的表达更清楚？",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "将旁白作为字幕叠加在日常画面上",
+              "hold_seconds": 7,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "将旁白作为字幕叠加在日常画面上",
+              "hold_seconds": 7,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "日常生活素材蒙太奇",
+              "hold_seconds": 4,
+              "blocks": [
+                {
+                  "text": "把想说的话，放进画面里。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "retrieved_ids": [
+          "P01",
+          "P02"
+        ]
+      },
+      "decision_basis": "当前稿预估22秒，符合25秒上限，尚需完成规则检查。",
+      "observation": {
+        "ok": true,
+        "script_hash": "90ec0c040b789626388a757a77068e8a702a68601664416f3a3998a4f4d97170",
+        "passed": true,
+        "issues": [],
+        "citations": [
+          {
+            "location": "shot:2/block:1",
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "location": "shot:3/block:1",
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          }
+        ],
+        "rules_version": "2026-11-03-v1"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1a9-2ad5-7cd2-bd05-6d08021241bc",
+        "usage": {
+          "input_tokens": 28310,
+          "cached_input_tokens": 24576,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 117,
+          "reasoning_output_tokens": 63
+        }
+      },
+      "elapsed_ms": 18125
+    },
+    {
+      "step": 5,
+      "action": "finish",
+      "arguments": {
+        "status": "completed",
+        "message": "已完成4镜头脚本，包含添加字幕和手动编辑字幕文字两项有来源的产品事实，预估时长22秒。"
+      },
+      "decision_basis": "当前同一稿的时长检查和规则检查均通过，预估22秒，符合25秒上限。",
+      "observation": {
+        "ok": true,
+        "status": "completed",
+        "script_hash": "90ec0c040b789626388a757a77068e8a702a68601664416f3a3998a4f4d97170"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1a9-8c1c-7811-8587-6033f30ae3a1",
+        "usage": {
+          "input_tokens": 28975,
+          "cached_input_tokens": 24576,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 604,
+          "reasoning_output_tokens": 514
+        }
+      },
+      "elapsed_ms": 49203
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T13:45:11.873180+00:00",
+    "finished_at": "2026-11-03T13:47:27.413696+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 5,
+    "synthetic_data": true,
+    "model_responses": 5
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "case": "V26",
+  "status": "completed",
+  "model_responses": 7,
+  "provider": "codex",
+  "steps": 6,
+  "seconds": 4.0,
+  "review_calls": 1,
+  "review_has_current_duration": true,
+  "replay_errors": [],
+  "message": "脚本已完成，无需修改。画面仅展示“开讲”卡片，旁白为“剪影练习版支持为视频添加字幕。”无开场寒暄或第二个功能。预计4秒，符合6秒上限；时长为估算值，三项检查均已通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

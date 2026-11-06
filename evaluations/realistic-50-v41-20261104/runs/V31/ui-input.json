@@ -1,0 +1,19 @@
+{
+  "port": 8811,
+  "submitted_at": "2026-11-04T01:32:13.863Z",
+  "fields": {
+    "audience": "门店远距离观看者",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "acfda8378e2d4465bf4fbb76c172ab75",
+    "initial-script": "",
+    "platform": "视频号",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "短字卡，清晰",
+    "target-seconds": "20",
+    "topic": "介绍裁剪片段，只用大字屏幕卡片，不使用旁白。每张卡最多8个汉字，观众应能读清楚；画面只用实物剪刀和纸片意象。"
+  }
+}

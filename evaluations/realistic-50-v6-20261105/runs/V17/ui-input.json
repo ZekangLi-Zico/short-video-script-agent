@@ -1,0 +1,19 @@
+{
+  "port": 8834,
+  "submitted_at": "2026-11-04T17:24:23.861Z",
+  "fields": {
+    "audience": "路过展位的普通观众",
+    "duration-mode": "target",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "0e5b7321b8da490ca1699d9616ee94fa",
+    "initial-script": "",
+    "platform": "视频号",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "静音可读，简洁",
+    "target-seconds": "25",
+    "topic": "给展位静音屏写工具介绍：添加字幕与裁剪片段。所有关键信息用屏幕文字表达，不能依赖旁白，分镜不超过四个。"
+  }
+}

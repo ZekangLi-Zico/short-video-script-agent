@@ -1,0 +1,37 @@
+{
+  "topic": "把所附旧稿压缩到15秒以内，保留裁剪片段和横竖屏比例两项介绍，标题不变；不增加自动适配、智能追踪等说法。",
+  "audience": "短片剪辑助理",
+  "platform": "抖音",
+  "style": "紧凑，信息优先",
+  "product_id": "demo-editor",
+  "duration_mode": "max",
+  "expression_mode": "creative",
+  "target_seconds": 15,
+  "initial_script": {
+    "title": "两步整理片段",
+    "shots": [
+      {
+        "visual": "桌面上的片段卡片",
+        "hold_seconds": 14,
+        "blocks": [
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ]
+      },
+      {
+        "visual": "横竖两种相框",
+        "hold_seconds": 14,
+        "blocks": [
+          {
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          }
+        ]
+      }
+    ]
+  }
+}

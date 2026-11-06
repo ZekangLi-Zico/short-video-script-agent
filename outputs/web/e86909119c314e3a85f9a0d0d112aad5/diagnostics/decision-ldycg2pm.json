@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ldycg2pm",
+  "started_at": "2026-11-04T15:04:40.018435+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:06:18.138303+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a717-3f28-7120-8ad1-6a6159336906",
+    "usage": {
+      "input_tokens": 27862,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1945,
+      "reasoning_output_tokens": 1227
+    },
+    "call_id": "decision-ldycg2pm",
+    "warnings": []
+  }
+}

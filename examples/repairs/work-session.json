@@ -1,0 +1,8 @@
+{
+  "earliest_repair_file_creation_at": "2026-11-03T15:40:22.598839+00:00",
+  "verified_at": "2026-11-03T16:11:11.148065+00:00",
+  "observed_elapsed_minutes": 30.8,
+  "basis": "Windows creation time of first repair regression file through final evidence audit; lower-bound observed work window, excludes earlier discussion and final ZIP packaging.",
+  "human_manual_work_hours": null,
+  "human_time_note": "个人投入未量化，不将 AI 执行时间写成候选人人工耗时。"
+}

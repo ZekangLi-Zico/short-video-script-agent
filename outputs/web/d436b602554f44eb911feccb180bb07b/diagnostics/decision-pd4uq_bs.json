@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-pd4uq_bs",
+  "started_at": "2026-11-03T22:19:36.747827+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:20:10.907420+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a37f-15c0-7d40-88ab-f63bdd7ca8a7",
+    "usage": {
+      "input_tokens": 29489,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 943,
+      "reasoning_output_tokens": 742
+    },
+    "call_id": "decision-pd4uq_bs",
+    "warnings": []
+  }
+}

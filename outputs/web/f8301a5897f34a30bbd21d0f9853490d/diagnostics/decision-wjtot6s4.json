@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-wjtot6s4",
+  "started_at": "2026-11-04T15:20:07.815962+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:20:31.277138+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a725-668f-7340-a70a-89b53d098f5e",
+    "usage": {
+      "input_tokens": 27356,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 197,
+      "reasoning_output_tokens": 100
+    },
+    "call_id": "decision-wjtot6s4",
+    "warnings": []
+  }
+}

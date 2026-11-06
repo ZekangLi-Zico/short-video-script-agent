@@ -1,0 +1,13 @@
+{
+  "case": "V49",
+  "index": 48,
+  "attempt": 1,
+  "run_id": "d4ee804aa1f0417fa7ac87424e94a6d6",
+  "folder": "V49",
+  "status": "completed",
+  "steps": 7,
+  "responses": 8,
+  "provider": "codex",
+  "seconds": 9,
+  "message": "已将《两步整理片段》压缩至预计9秒，保留原标题、裁剪片段和横竖屏比例两项介绍，补充可拍摄动作，未新增自动适配、智能追踪等说法。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-tjn_ebn6",
+  "started_at": "2026-11-03T20:10:20.162200+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:10:36.539293+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a308-bbf9-77f1-bce0-9fbdb43d699c",
+    "usage": {
+      "input_tokens": 42330,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 311,
+      "reasoning_output_tokens": 177
+    },
+    "call_id": "decision-tjn_ebn6",
+    "warnings": []
+  }
+}

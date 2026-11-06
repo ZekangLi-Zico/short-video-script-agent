@@ -1,0 +1,185 @@
+- banner:
+  - link "脚本试验台首页":
+    - /url: /
+    - generic: 脚本试验台
+  - generic: 本地人工测试
+- main:
+  - heading "从一个需求，到一份可核验的脚本。" [level=1]
+  - paragraph: 填入创作需求，观察 Agent 如何查资料、写分镜，再根据检查结果修订。
+  - generic: 第 4 题 · 短视频脚本 Agent
+  - complementary "创作需求与测试设置":
+    - heading "创作需求" [level=2]
+    - button "重置"
+    - generic: 载入测试场景
+    - combobox "载入测试场景":
+      - option "自定义需求" [selected]
+      - option "正常生成"
+      - option "缺少关键信息"
+      - option "没有产品素材"
+      - option "工具持续失败"
+      - option "一次故障后恢复"
+      - option "38 秒旧稿修订"
+      - option "无依据宣传纠错"
+      - option "无法满足的时长"
+    - paragraph: 已载入这条记录的原始需求，可修改后重新运行。
+    - generic: 主题
+    - textbox "主题":
+      - /placeholder: 例如：面向新手，介绍为口播视频添加字幕
+      - text: 介绍横竖屏比例选项，用中文旁白与对应英文屏幕翻译，明确区分两种语言的用途。不要宣称产品自带翻译功能。背景是展厅入口和画册。
+    - generic: 给谁看
+    - textbox "给谁看":
+      - /placeholder: 描述你的目标受众
+      - text: 中英双语展览观众
+    - generic: 发布平台
+    - combobox "发布平台":
+      - option "抖音"
+      - option "小红书"
+      - option "视频号" [selected]
+      - option "B站"
+    - generic: 目标时长 秒
+    - spinbutton "目标时长 秒": "30"
+    - generic: 时长要求
+    - combobox "时长要求":
+      - option "不超过目标秒数"
+      - option "接近目标（90%–100%）" [selected]
+    - generic: 创作方式
+    - combobox "创作方式":
+      - option "场景创作 · 保留事实来源与表达审核" [selected]
+      - option "严格引用 · 仅用原版批准表达"
+    - generic: 表达风格
+    - textbox "表达风格": 清楚，克制
+    - generic: 使用的产品资料
+    - combobox "使用的产品资料":
+      - option "剪影练习版 · 示例素材" [selected]
+      - option "无素材产品 · 测试资料不足"
+    - generic "查看可用素材"
+    - generic: 运行方式
+    - combobox "运行方式":
+      - option "真实模型 · Codex" [selected]
+      - option "离线演练 · Mock"
+      - option "模型 API" [disabled]
+    - paragraph: 调用本机已登录的 Codex，通常需要一到数分钟。
+    - generic "测试设置与旧稿"
+    - option "不注入故障" [selected]
+    - option "素材检索失败一次"
+    - option "素材检索持续失败"
+    - option "时长工具持续失败"
+    - option "规则工具持续失败"
+    - button "生成并检查":
+      - generic: 生成并检查
+    - paragraph: 真实模型运行会使用当前账号的额度。
+  - region "运行结果":
+    - generic: 检查通过
+    - generic: 真实模型 · 5 个执行步骤
+    - tablist "结果视图":
+      - tab "脚本预览" [selected]
+      - tab "执行过程 5":
+        - text: 执行过程
+        - generic: "5"
+      - tab "原始结果"
+    - text: 最近运行
+    - combobox "查看最近运行":
+      - option "选择一条记录"
+      - option "11/05 01:05:06 · 模型 · 检查通过 · 介绍横竖屏比例选项，用中文旁白" [selected]
+      - option "11/05 01:01:02 · 模型 · 检查通过 · 介绍裁剪视频片段与添加字幕。用"
+      - option "11/05 00:11:51 · 模型 · 检查通过 · 做一条剪影练习版字幕功能介绍，"
+      - option "11/05 00:09:49 · 模型 · 检查通过 · 把所附旧稿压缩到15秒以内，保"
+      - option "11/05 00:07:45 · 模型 · 检查通过 · 把所附旧稿改成只介绍添加字幕，"
+      - option "11/05 00:04:22 · 模型 · 检查通过 · 审核并修改所附字幕介绍旧稿；客"
+      - option "11/05 00:05:48 · 模型 · 检查通过 · 所附旧稿四个镜头顺序与数量不能"
+      - option "11/05 00:04:19 · 模型 · 检查通过 · 把所附旧稿压缩到25秒以内，保"
+      - option "11/05 00:04:17 · 模型 · 需要补充 · 为虚构摄影课“周末街拍入门”写"
+      - option "11/05 00:04:15 · 模型 · 需要补充 · 为虚构游戏活动“星港周末赛”写"
+      - option "11/04 23:56:53 · 模型 · 检查通过 · 客户口头说加字幕后播放量提高了"
+      - option "11/05 00:02:22 · 模型 · 需要补充 · 给虚构门店“晨光面包房”写新品"
+      - option "11/05 00:02:23 · 模型 · 需要补充 · 给虚构产品“山径露营灯”做新品"
+      - option "11/05 00:02:21 · 模型 · 需要补充 · 写本周新版剪影练习版更新介绍，"
+      - option "11/05 00:00:13 · 模型 · 需要补充 · 介绍视频能否导出4K、是否有水"
+      - option "11/05 00:00:09 · 模型 · 需要补充 · 写剪影练习版导出SRT字幕文件"
+      - option "11/05 00:00:03 · 模型 · 需要补充 · 比较剪影练习版与剪映的字幕、片"
+      - option "11/04 23:56:42 · 模型 · 需要补充 · 介绍剪影练习版能否完全离线修改"
+      - option "11/04 23:50:53 · 模型 · 检查通过 · 用三个分镜介绍字幕添加和手动改"
+      - option "11/04 23:56:38 · 模型 · 需要补充 · 写字幕功能收费说明：免费版能用"
+      - option "11/04 23:52:54 · 模型 · 需要补充 · 为剪影练习版写一条介绍口播自动"
+      - option "11/04 23:48:36 · 模型 · 检查通过 · 介绍裁剪片段，只用大字屏幕卡片"
+      - option "11/04 23:46:51 · 模型 · 检查通过 · 八秒内必须讲完字幕添加、片段裁"
+      - option "11/04 23:41:32 · 模型 · 检查通过 · 用一分钟左右讲如何围绕现有录像"
+      - option "11/04 23:35:29 · 模型 · 检查通过 · 介绍字幕添加，背景是擦净的黑板"
+      - option "11/04 23:36:20 · 模型 · 检查通过 · 十秒内交付两个分镜：第一镜剪刀"
+      - option "11/04 23:35:30 · 模型 · 检查通过 · 六秒以内只介绍剪影练习版支持为"
+      - option "11/04 23:36:27 · 模型 · 未完成 · 接近45秒介绍字幕添加、手动改"
+      - option "11/04 23:28:55 · 模型 · 检查通过 · 介绍横竖屏比例选项，用中文旁白"
+      - option "11/04 23:28:56 · 模型 · 检查通过 · 标题必须是“Small Cli"
+      - option "11/04 23:27:05 · 模型 · 检查通过 · Write an Englis"
+      - option "11/04 23:30:50 · 模型 · 需要补充 · 帮我做字幕添加和手动改字的介绍"
+    - status: 已完成3镜脚本，预计28秒。以展厅入口和画册展示横竖屏比例选项，中文用于旁白，英文用于对应屏幕翻译；未宣称产品自带翻译功能。全部检查通过。 当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。
+    - text: 预计时长
+    - strong: 28 秒 / 27–30 秒
+    - text: 事实与规则
+    - strong: 引用已核对
+    - text: 需求核对
+    - strong: 未发现遗漏
+    - text: 引用素材
+    - strong: "1"
+    - tabpanel "脚本预览":
+      - heading "从展厅入口到画册：横屏与竖屏怎么呈现" [level=2]
+      - generic: 当前稿 · 检查通过
+      - article:
+        - generic: 分镜 1
+        - text: 0.0–8.0s
+        - heading "正对展厅入口拍摄，观众走近后停下。镜头保持门头与两侧布置完整入画，留出观察时间。只显示英文字幕。" [level=3]
+        - text: 镜头目的：从展厅入口建立观察场景，引导观众注意画面横向范围。
+        - paragraph: 第 1 拍 · 镜内 0–6.5s · 同拍声画同步
+        - paragraph: 旁白：来到展厅入口，先看看门头与两侧的布置。
+        - paragraph: 屏幕文字：At the exhibition entrance, look at the sign above and the displays on either side.
+        - text: 镜头末尾保持画面：6.5–8s（保留最后一拍屏幕文字）
+        - generic: 表达已核对（模型评估）
+      - article:
+        - generic: 分镜 2
+        - text: 8.0–18.0s
+        - heading "用后期示意框先展示入口的横向构图，再展示以入口中央为主体的竖向构图；不模拟产品按钮或操作路径。英文字幕置于框外下方。" [level=3]
+        - text: 镜头目的：明确产品提供横屏和竖屏比例选项，通过同一入口画面的两种构图展示区别。
+        - paragraph: 第 1 拍 · 镜内 0–5s · 同拍声画同步
+        - paragraph: 旁白：剪影练习版提供横屏和竖屏画面比例选项。
+        - paragraph: 屏幕文字：剪影练习版 offers landscape and portrait aspect ratio options.
+        - text: 镜头末尾保持画面：5–10s（保留最后一拍屏幕文字）
+        - generic "原文：剪影练习版提供横屏和竖屏画面比例选项。": P03 · P03.F1
+        - generic "原文：剪影练习版提供横屏和竖屏画面比例选项。": P03 · P03.F1
+      - article:
+        - generic: 分镜 3
+        - text: 18.0–28.0s
+        - heading "手将画册摊开，横向构图展示完整跨页；随后切到竖向构图，靠近其中一页。分别停留供观众观察。两段英文字幕随画面依次切换。" [level=3]
+        - text: 镜头目的：把两种构图用于画册展示，让观众看到横向跨页与竖向单页的区别。
+        - paragraph: 第 1 拍 · 镜内 0–4.5s · 同拍声画同步
+        - paragraph: 旁白：翻开画册，试着用横向构图展示跨页。
+        - paragraph: 屏幕文字：Open the catalogue. Try a landscape composition for the spread.
+        - paragraph: 第 2 拍 · 镜内 4.5–9.4s · 同拍声画同步
+        - paragraph: 旁白：再用竖向构图展示单页，看看区别。
+        - paragraph: 屏幕文字：Then try a portrait composition for one page. Notice the difference.
+        - text: 镜头末尾保持画面：9.4–10s（保留最后一拍屏幕文字）
+        - generic: 表达已核对（模型评估）
+      - strong: 需求覆盖核对（模型评估，仍需人工确认）
+      - paragraph: 当前稿覆盖全部明确要求，中文旁白与英文屏幕翻译分工清楚，产品能力表述有资料支持。预计28秒，构图切换和画册观察能够支撑镜头停留。
+      - list:
+        - listitem: 已满足 · 介绍横竖屏比例选项：第2镜明确介绍横屏和竖屏画面比例选项，并用两种构图示意。
+        - listitem: 已满足 · 用中文旁白与对应英文屏幕翻译：三镜均以voice承载中文、screen承载对应英文，同beat同步；第2镜英文保留产品专名不影响翻译含义。
+        - listitem: 已满足 · 明确区分两种语言的用途：全部中文块仅用于voice，英文翻译块仅用于screen，画面说明亦指定英文字幕。
+        - listitem: 已满足 · 不要宣称产品自带翻译功能：公开文案仅介绍比例选项，未将双语字幕归因于产品翻译能力。
+        - listitem: 已满足 · 背景是展厅入口和画册。：第1、2镜使用展厅入口，第3镜明确拍摄画册跨页与单页。
+        - listitem: 已满足 · 中英双语展览观众：展览场景配中文旁白及同步英文翻译，便于两种语言的观众理解。
+        - listitem: 已满足 · 视频号：三镜构成简短、连贯的功能介绍，28秒估算时长及字幕形式适合短视频观看。
+        - listitem: 已满足 · 清楚，克制：文案围绕比例选项与构图观察展开，无夸张效果承诺或冗余营销话术。
+      - generic "逐项表达审核 · 12 处"
+      - paragraph: 节奏核对：第1镜8秒包含6.5秒声画节拍及入口观察；第2镜10秒支持两种示意构图切换；第3镜两拍合计9.4秒、镜头10秒，足以依次阅读字幕并观察跨页与单页，没有明显空镜凑时长。
+      - paragraph: 时长按旁白和镜头停留估算，未经实际配音或成片测量。
+    - generic: 记录已保存 · 3064f848
+    - link "下载脚本":
+      - /url: /api/runs/3064f848208847c7a0e7c7e84441a433/download/script.md
+    - link "下载 Trace":
+      - /url: /api/runs/3064f848208847c7a0e7c7e84441a433/download/trace.jsonl
+    - link "下载 JSON":
+      - /url: /api/runs/3064f848208847c7a0e7c7e84441a433/download/output.json
+    - link "下载检查点":
+      - /url: /api/runs/3064f848208847c7a0e7c7e84441a433/download/checkpoint.json
+  - generic: 本地运行 · 合成素材 · 只生成脚本
+  - generic: 先核对事实，再判断表达。

@@ -1,0 +1,13 @@
+{
+  "case": "V39",
+  "index": 38,
+  "attempt": 1,
+  "run_id": "e85fac16b1754758a7b68d23228cc740",
+  "folder": "V39",
+  "status": "needs_input",
+  "steps": 3,
+  "responses": 3,
+  "provider": "codex",
+  "seconds": null,
+  "message": "目前无法完成脚本：现有资料仅涉及画面比例、裁剪和字幕，不能据此判断导出规格。请向项目维护者提供产品导出说明，明确是否支持4K及条件、是否带水印及移除条件、竖屏导出的分辨率、帧率和其他限制，并注明适用版本。脚本尚未生成或通过审核。"
+}

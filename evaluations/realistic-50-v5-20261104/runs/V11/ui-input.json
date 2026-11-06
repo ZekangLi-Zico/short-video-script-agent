@@ -1,0 +1,19 @@
+{
+  "port": 8823,
+  "submitted_at": "2026-11-04T15:11:24.107Z",
+  "fields": {
+    "audience": "社区手机课堂学员",
+    "duration-mode": "target",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "fef4ed0d3d974868aa0d929b886ddc1a",
+    "initial-script": "",
+    "platform": "视频号",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "耐心，短句，无术语",
+    "target-seconds": "40",
+    "topic": "介绍字幕添加与手动改字，给第一次剪视频的长者看。用手写练习本和手机背面作画面，不假设能一键自动完成，避免年轻人网络用语。"
+  }
+}

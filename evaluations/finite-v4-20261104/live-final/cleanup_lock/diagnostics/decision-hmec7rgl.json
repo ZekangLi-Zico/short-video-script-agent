@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-hmec7rgl",
+  "started_at": "2026-11-03T20:41:06.745813+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:41:25.586712+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a324-e73f-7290-b01c-2b5654728504",
+    "usage": {
+      "input_tokens": 36210,
+      "cached_input_tokens": 9600,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 458,
+      "reasoning_output_tokens": 320
+    },
+    "call_id": "decision-hmec7rgl",
+    "warnings": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "V22",
+  "name": "双语展览说明",
+  "context": "策展团队希望中英观众都能看懂。",
+  "request": {
+    "topic": "介绍横竖屏比例选项，用中文旁白与对应英文屏幕翻译，明确区分两种语言的用途。不要宣称产品自带翻译功能。背景是展厅入口和画册。",
+    "audience": "中英双语展览观众",
+    "platform": "视频号",
+    "target_seconds": 30,
+    "style": "清楚，克制",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "target"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

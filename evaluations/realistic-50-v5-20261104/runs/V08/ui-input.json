@@ -1,0 +1,19 @@
+{
+  "port": 8823,
+  "submitted_at": "2026-11-04T15:04:56.198Z",
+  "fields": {
+    "audience": "高校乐队宣传成员",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "9fa9778c7870432cac2fd44e6cbe68e8",
+    "initial-script": "",
+    "platform": "B站",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "克制，有生活感",
+    "target-seconds": "20",
+    "topic": "只介绍给视频添加字幕，场景是空排练室、鼓棒和谱架；不要涉及歌词版权、自动识别或音质增强。标题必须是“排练室的这一晚”。"
+  }
+}

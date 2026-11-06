@@ -1,0 +1,16 @@
+{
+  "id": "T08",
+  "name": "手工过程",
+  "context": "手工作者要展示制作过程中的几个片段。",
+  "request": {
+    "topic": "介绍裁剪视频片段和为视频添加字幕两项功能，场景是一位手工作者整理制作过程录像。",
+    "audience": "手工内容创作者",
+    "platform": "B站",
+    "style": "温和、有条理",
+    "product_id": "demo-editor",
+    "target_seconds": 25
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

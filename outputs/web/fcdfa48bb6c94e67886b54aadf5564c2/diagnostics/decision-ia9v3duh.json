@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ia9v3duh",
+  "started_at": "2026-11-04T01:43:37.285790+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:43:59.640818+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a439-dc57-7a61-99af-97cd1d31cd63",
+    "usage": {
+      "input_tokens": 29004,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 155,
+      "reasoning_output_tokens": 70
+    },
+    "call_id": "decision-ia9v3duh",
+    "warnings": []
+  }
+}

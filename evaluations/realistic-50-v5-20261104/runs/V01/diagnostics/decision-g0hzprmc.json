@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-g0hzprmc",
+  "started_at": "2026-11-04T14:58:46.955495+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:00:33.528288+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a711-ddc0-7e33-b9ba-6c5b60d65f6e",
+    "usage": {
+      "input_tokens": 27916,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2109,
+      "reasoning_output_tokens": 1493
+    },
+    "call_id": "decision-g0hzprmc",
+    "warnings": []
+  }
+}

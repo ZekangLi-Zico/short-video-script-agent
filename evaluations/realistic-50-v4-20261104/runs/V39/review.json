@@ -1,0 +1,5 @@
+{
+  "assessment": "资料不足时合理停止",
+  "note": "明确比例选择不能证明4K、水印和竖屏导出规格；要求对应版本及条件，不编造肯定或否定结论。本次3步以needs_input说明缺口，未交付脚本。v3的blocked来自第3步真实模型调用失败，不能把本轮状态变化归因于时长审核修复或声称旧版语义判断错误。",
+  "reviewer": "AI developer reading original brief and actual artifacts; not independent blind evaluation"
+}

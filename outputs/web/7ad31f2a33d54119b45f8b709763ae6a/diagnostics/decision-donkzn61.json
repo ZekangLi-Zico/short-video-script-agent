@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-donkzn61",
+  "started_at": "2026-11-03T21:41:14.467916+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:42:16.036986+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a35b-f49a-7963-9aaa-0d21808989df",
+    "usage": {
+      "input_tokens": 27527,
+      "cached_input_tokens": 23808,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1869,
+      "reasoning_output_tokens": 1441
+    },
+    "call_id": "decision-donkzn61",
+    "warnings": []
+  }
+}

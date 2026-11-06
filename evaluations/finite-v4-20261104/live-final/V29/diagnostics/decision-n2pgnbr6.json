@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-n2pgnbr6",
+  "started_at": "2026-11-03T20:16:02.247969+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:16:16.902277+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a30d-f355-7890-81fa-35e38e2a7bed",
+    "usage": {
+      "input_tokens": 34738,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 116,
+      "reasoning_output_tokens": 56
+    },
+    "call_id": "decision-n2pgnbr6",
+    "warnings": []
+  }
+}

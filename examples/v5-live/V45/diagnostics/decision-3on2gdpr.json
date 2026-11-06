@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-3on2gdpr",
+  "started_at": "2026-11-04T16:07:35.196854+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:09:11.385424+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a750-da6c-7792-932d-98210adb746f",
+    "usage": {
+      "input_tokens": 28900,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2443,
+      "reasoning_output_tokens": 843
+    },
+    "call_id": "decision-3on2gdpr",
+    "warnings": []
+  }
+}

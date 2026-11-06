@@ -1,0 +1,61 @@
+{
+  "status": "needs_input",
+  "message": "已找到横竖屏比例选项的中文事实，但缺少可逐字引用的对应英文资料。请将“剪影练习版提供横屏和竖屏画面比例选项。”的经确认英文译文交给项目维护者补充。英文将仅用于屏幕翻译，不宣称产品自带翻译功能。展厅入口与画册背景的双语分镜尚未完成，30秒目标及规则、需求检查也尚未完成。",
+  "script": null,
+  "duration": null,
+  "rules_check": null,
+  "requirements_check": null,
+  "sources": [
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T18:27:30.704964+00:00",
+    "finished_at": "2026-11-03T18:29:03.201459+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 3,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v3",
+    "requirements_review_context": "current_rules_check_v1",
+    "model_responses": 3
+  }
+}

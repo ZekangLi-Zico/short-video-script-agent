@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-bei7hyrw",
+  "started_at": "2026-11-03T22:18:17.290851+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:19:09.168857+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a37d-df6f-79c1-9215-319cdfb55ecb",
+    "usage": {
+      "input_tokens": 27952,
+      "cached_input_tokens": 9600,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2112,
+      "reasoning_output_tokens": 817
+    },
+    "call_id": "decision-bei7hyrw",
+    "warnings": []
+  }
+}

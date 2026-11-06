@@ -1,0 +1,89 @@
+test_complete_review_binds_every_exposed_surface (tests.test_quality.CreativeQualityTests.test_complete_review_binds_every_exposed_surface) ... ERROR
+test_free_scene_is_reviewable_but_strict_mode_still_rejects (tests.test_quality.CreativeQualityTests.test_free_scene_is_reviewable_but_strict_mode_still_rejects) ... FAIL
+test_hidden_claim_or_uncertainty_cannot_pass (tests.test_quality.CreativeQualityTests.test_hidden_claim_or_uncertainty_cannot_pass) ... ERROR
+test_invalid_mode_is_invalid_input (tests.test_quality.CreativeQualityTests.test_invalid_mode_is_invalid_input) ... FAIL
+test_missing_duplicate_or_changed_surface_is_invalid (tests.test_quality.CreativeQualityTests.test_missing_duplicate_or_changed_surface_is_invalid) ... ERROR
+test_no_current_rules_evidence_cannot_pass_creative_review (tests.test_quality.CreativeQualityTests.test_no_current_rules_evidence_cannot_pass_creative_review) ... ERROR
+test_review_failure_cannot_be_finished_as_completed (tests.test_quality.CreativeQualityTests.test_review_failure_cannot_be_finished_as_completed) ... FAIL
+test_semantic_claim_needs_real_retrieved_reference (tests.test_quality.CreativeQualityTests.test_semantic_claim_needs_real_retrieved_reference) ... ERROR
+test_supported_fact_still_requires_exact_retrieved_quote (tests.test_quality.CreativeQualityTests.test_supported_fact_still_requires_exact_retrieved_quote) ... FAIL
+
+======================================================================
+ERROR: test_complete_review_binds_every_exposed_surface (tests.test_quality.CreativeQualityTests.test_complete_review_binds_every_exposed_surface)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_quality.py", line 66, in test_complete_review_binds_every_exposed_surface
+    result = review_observation(review_fixture(self.request, self.script), self.request, self.script, checked)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: review_observation() takes 3 positional arguments but 4 were given
+
+======================================================================
+ERROR: test_hidden_claim_or_uncertainty_cannot_pass (tests.test_quality.CreativeQualityTests.test_hidden_claim_or_uncertainty_cannot_pass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_quality.py", line 75, in test_hidden_claim_or_uncertainty_cannot_pass
+    result = review_observation(review, self.request, self.script, self.checked())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: review_observation() takes 3 positional arguments but 4 were given
+
+======================================================================
+ERROR: test_missing_duplicate_or_changed_surface_is_invalid (tests.test_quality.CreativeQualityTests.test_missing_duplicate_or_changed_surface_is_invalid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_quality.py", line 84, in test_missing_duplicate_or_changed_surface_is_invalid
+    review_observation({**base, 'expressions': expressions}, self.request, self.script, self.checked())
+TypeError: review_observation() takes 3 positional arguments but 4 were given
+
+======================================================================
+ERROR: test_no_current_rules_evidence_cannot_pass_creative_review (tests.test_quality.CreativeQualityTests.test_no_current_rules_evidence_cannot_pass_creative_review)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_quality.py", line 97, in test_no_current_rules_evidence_cannot_pass_creative_review
+    review_observation(review_fixture(self.request,self.script), self.request,self.script,None)
+TypeError: review_observation() takes 3 positional arguments but 4 were given
+
+======================================================================
+ERROR: test_semantic_claim_needs_real_retrieved_reference (tests.test_quality.CreativeQualityTests.test_semantic_claim_needs_real_retrieved_reference)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_quality.py", line 91, in test_semantic_claim_needs_real_retrieved_reference
+    review_observation(review, self.request, self.script, self.checked())
+TypeError: review_observation() takes 3 positional arguments but 4 were given
+
+======================================================================
+FAIL: test_free_scene_is_reviewable_but_strict_mode_still_rejects (tests.test_quality.CreativeQualityTests.test_free_scene_is_reviewable_but_strict_mode_still_rejects)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_quality.py", line 51, in test_free_scene_is_reviewable_but_strict_mode_still_rejects
+    self.assertTrue(creative['ok'])
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_invalid_mode_is_invalid_input (tests.test_quality.CreativeQualityTests.test_invalid_mode_is_invalid_input)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_quality.py", line 100, in test_invalid_mode_is_invalid_input
+    with self.assertRaises(ValueError): validate_request(brief(expression_mode='anything'))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_review_failure_cannot_be_finished_as_completed (tests.test_quality.CreativeQualityTests.test_review_failure_cannot_be_finished_as_completed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_quality.py", line 108, in test_review_failure_cannot_be_finished_as_completed
+    self.assertNotEqual(result['status'],'completed')
+AssertionError: 'completed' == 'completed'
+
+======================================================================
+FAIL: test_supported_fact_still_requires_exact_retrieved_quote (tests.test_quality.CreativeQualityTests.test_supported_fact_still_requires_exact_retrieved_quote)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_quality.py", line 60, in test_supported_fact_still_requires_exact_retrieved_quote
+    self.assertTrue(checked['ok'])
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.014s
+
+FAILED (failures=4, errors=5)

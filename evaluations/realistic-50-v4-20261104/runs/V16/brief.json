@@ -1,0 +1,18 @@
+{
+  "id": "V16",
+  "name": "二手市集回顾",
+  "context": "摊主想给协作伙伴做简单工具说明。",
+  "request": {
+    "topic": "介绍裁剪片段与添加字幕，画面顺序为折叠桌、旧书、收摊纸箱。标题用“收摊以后”，结尾不说关注点赞。",
+    "audience": "周末市集摊主",
+    "platform": "抖音",
+    "target_seconds": 22,
+    "style": "朴素，轻叙事",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

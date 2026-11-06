@@ -1,0 +1,13 @@
+{
+  "checkpoint_link_seen_while_running_at_step": 2,
+  "download_clicked_while_running": true,
+  "download_returned_after_completion": true,
+  "downloaded_checkpoint_last_event": {
+    "kind": "step",
+    "step": 6
+  },
+  "downloaded_status": "in_progress",
+  "downloaded_recorded_at": "2026-11-03T20:26:53.284813+00:00",
+  "matches_final_checkpoint": true,
+  "note": "Browser download operation returned late; file is the final step checkpoint, not evidence that the first two steps were downloaded before completion. Running endpoint behavior separately covered by automated HTTP test."
+}

@@ -1,0 +1,25 @@
+{
+  "call_id": "decision-659_eiqr",
+  "started_at": "2026-11-04T17:01:15.497634+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "cleanup_error_type": "PermissionError",
+  "finished_at": "2026-11-04T17:02:03.681005+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a781-fbba-7e40-9932-bf2b3911fd55",
+    "usage": {
+      "input_tokens": 27536,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 855,
+      "reasoning_output_tokens": 96
+    },
+    "call_id": "decision-659_eiqr",
+    "warnings": [
+      "cleanup_deferred"
+    ]
+  }
+}

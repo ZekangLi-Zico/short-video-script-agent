@@ -1,0 +1,50 @@
+{
+  "paired": 50,
+  "old_statuses": {
+    "completed": 36,
+    "blocked": 2,
+    "needs_input": 12
+  },
+  "new_statuses": {
+    "completed": 38,
+    "needs_input": 12
+  },
+  "old_responses": 292,
+  "new_responses": 231,
+  "status_changes": [
+    {
+      "case": "V05",
+      "old": "blocked",
+      "new": "completed"
+    },
+    {
+      "case": "V28",
+      "old": "blocked",
+      "new": "completed"
+    }
+  ],
+  "rewritten_citations": 36,
+  "english_fact_cases": [
+    "V21",
+    "V22"
+  ],
+  "stale_note_cases": [],
+  "quality_assessments": {
+    "改进": 26,
+    "相当": 12,
+    "仍需补充": 12
+  },
+  "manual_stale_note_cases": [],
+  "observed_hard_requirement_violations": [],
+  "old_median_wall_seconds": 314.1,
+  "new_median_wall_seconds": 126.1,
+  "diagnostics": 231,
+  "failed_response_diagnostics": 0,
+  "both_completed_pairs": 36,
+  "both_completed_old_responses": 264,
+  "both_completed_new_responses": 188,
+  "both_completed_old_median_wall_seconds": 358.7,
+  "both_completed_new_median_wall_seconds": 131.9,
+  "old_generic_title_count": 22,
+  "new_generic_title_count": 0
+}

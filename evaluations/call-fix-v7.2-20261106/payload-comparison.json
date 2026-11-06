@@ -1,0 +1,10 @@
+{
+  "before_payload_bytes": 41809,
+  "after_payload_bytes": 25873,
+  "reduction_percent": 38.1,
+  "configured_model_mode_tier": [
+    "gpt-6-astra",
+    "isolated",
+    "default"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "V06",
+  "name": "宠物领养日",
+  "context": "公益团队整理活动花絮。",
+  "request": {
+    "topic": "做一条工具介绍，说明可为领养日花絮添加字幕并手动修改文字。画面只拍笼牌、牵引绳和志愿者手部，不使用真实姓名和联系方式。",
+    "audience": "动物救助志愿者",
+    "platform": "视频号",
+    "target_seconds": 28,
+    "style": "温暖但不煽情",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

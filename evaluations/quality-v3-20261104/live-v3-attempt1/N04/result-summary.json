@@ -1,0 +1,17 @@
+{
+  "id": "N04",
+  "status": "completed",
+  "steps": 7,
+  "model_responses": 8,
+  "duration": 27.4,
+  "path": [
+    "search_materials",
+    "invalid_model_action",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "check_requirements",
+    "finish"
+  ],
+  "message": "已完成《Caption Your Club Event》五镜头脚本，涵盖学生社团场景、英文旁白、中文原文静默事实卡，以及字幕添加和手动纠错。本轮保留当前稿，无进一步删改；未虚构翻译或识别能力。工具估时27.4秒，符合27–30秒要求；该估算将事实卡文字串行计入，实际成片时长仍需核对。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

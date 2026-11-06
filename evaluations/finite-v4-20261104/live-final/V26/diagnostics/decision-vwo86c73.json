@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-vwo86c73",
+  "started_at": "2026-11-03T20:21:35.406276+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:22:16.015738+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a313-0b15-7b01-b02d-0a7806cc22f7",
+    "usage": {
+      "input_tokens": 27326,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1416,
+      "reasoning_output_tokens": 440
+    },
+    "call_id": "decision-vwo86c73",
+    "warnings": []
+  }
+}

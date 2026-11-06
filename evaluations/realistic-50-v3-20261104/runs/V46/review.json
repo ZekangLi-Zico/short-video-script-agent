@@ -1,0 +1,6 @@
+{
+  "case": "V46",
+  "assessment": "流程阻塞",
+  "note": "已删除未证实的人声识别和99%准确率，保留两项字幕功能并缩短不必要停留。最终19.8秒、规则通过；需求审核把说明镜头的hold_seconds=0误当成实际0秒，尽管估时工具给该镜7.8秒，导致12步耗尽而blocked。是审核对字段语义/时长上下文理解不一致，不能算交付成功；删改说明进入成片旁白也需人工评估是否合适。",
+  "reviewer": "AI developer reading original brief and actual artifacts; not independent blind evaluation"
+}

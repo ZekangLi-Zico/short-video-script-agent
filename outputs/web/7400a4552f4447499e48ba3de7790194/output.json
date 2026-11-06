@@ -1,0 +1,541 @@
+{
+  "status": "completed",
+  "message": "已完成六镜脚本，以社区分享会素材串联字幕添加、手动改字、片段裁剪和横竖屏比例，未重复产品句子凑时长。估时43.6秒，符合40.5—45秒目标区间。保留当前稿，无需删改；三项检查均通过，实际成片时长仍需制作后确认。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "一场社区分享会，整理成一条短片",
+    "shots": [
+      {
+        "visual": "桌前整理社区分享会的拍摄素材，依次展示开场、嘉宾发言、现场互动三个画面。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "社区分享会结束，留下开场、发言和互动三段素材。一起整理成一条短片。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "分享会发言画面配上与讲述内容一致的示例字幕，展示添加字幕后的画面；不展示软件操作界面。本镜头所有文字块均为旁白。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          },
+          {
+            "text": "先看发言，把讲述的内容配上字幕。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "人物对照纸质议程核对字幕中的人名和分享主题，以字幕文字修改前后的示意画面展示手动改字；不呈现未经核实的软件按钮。本镜头所有文字块均为旁白。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          },
+          {
+            "text": "对照分享会的议程，仔细核对人名和主题。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "先展示开场前等待的素材，再展示从正式开场开始的片段，示意裁剪前后的内容变化。本镜头所有文字块均为旁白。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          },
+          {
+            "text": "开场前的等待，只留需要的部分。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "用分享会素材依次展示横屏和竖屏构图示意，分别观察全场与发言者的位置；示意画面不表现自动构图或软件操作流程。本镜头所有文字块均为旁白。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          },
+          {
+            "text": "看看全场，再看看发言者，比较两种构图。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "人物观看整理后的开场、发言和互动片段，低头对照议程，再抬头检查画面，以一次完整回看收尾。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "从头看一遍：字幕、人名、片段和构图，逐项检查。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "99ad960b4c495f33d4cfd98e3d81e0ad0a759d67b4f1ce82115ca20f0a8dcc24",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 29,
+        "estimated_seconds": 7.8
+      },
+      {
+        "shot": 2,
+        "speech_units": 28,
+        "estimated_seconds": 7.5
+      },
+      {
+        "shot": 3,
+        "speech_units": 27,
+        "estimated_seconds": 7.3
+      },
+      {
+        "shot": 4,
+        "speech_units": 26,
+        "estimated_seconds": 7.0
+      },
+      {
+        "shot": 5,
+        "speech_units": 34,
+        "estimated_seconds": 9.0
+      },
+      {
+        "shot": 6,
+        "speech_units": 18,
+        "estimated_seconds": 5.0
+      }
+    ],
+    "total_seconds": 43.6,
+    "target_seconds": 45,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true,
+    "duration_mode": "target",
+    "min_seconds": 40.5,
+    "max_seconds": 45,
+    "issue": null
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "99ad960b4c495f33d4cfd98e3d81e0ad0a759d67b4f1ce82115ca20f0a8dcc24",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:3/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:4/block:1",
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:5/block:1",
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "一场社区分享会，整理成一条短片"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "桌前整理社区分享会的拍摄素材，依次展示开场、嘉宾发言、现场互动三个画面。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "社区分享会结束，留下开场、发言和互动三段素材。一起整理成一条短片。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "分享会发言画面配上与讲述内容一致的示例字幕，展示添加字幕后的画面；不展示软件操作界面。本镜头所有文字块均为旁白。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "先看发言，把讲述的内容配上字幕。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "人物对照纸质议程核对字幕中的人名和分享主题，以字幕文字修改前后的示意画面展示手动改字；不呈现未经核实的软件按钮。本镜头所有文字块均为旁白。"
+      },
+      {
+        "location": "shot:3/block:2",
+        "text": "对照分享会的议程，仔细核对人名和主题。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "先展示开场前等待的素材，再展示从正式开场开始的片段，示意裁剪前后的内容变化。本镜头所有文字块均为旁白。"
+      },
+      {
+        "location": "shot:4/block:2",
+        "text": "开场前的等待，只留需要的部分。"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "用分享会素材依次展示横屏和竖屏构图示意，分别观察全场与发言者的位置；示意画面不表现自动构图或软件操作流程。本镜头所有文字块均为旁白。"
+      },
+      {
+        "location": "shot:5/block:2",
+        "text": "看看全场，再看看发言者，比较两种构图。"
+      },
+      {
+        "location": "shot:6/visual",
+        "text": "人物观看整理后的开场、发言和互动片段，低头对照议程，再抬头检查画面，以一次完整回看收尾。"
+      },
+      {
+        "location": "shot:6/block:1",
+        "text": "从头看一遍：字幕、人名、片段和构图，逐项检查。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "99ad960b4c495f33d4cfd98e3d81e0ad0a759d67b4f1ce82115ca20f0a8dcc24",
+    "request_hash": "70d5602bff2600f2b07b038e9e00fce28d2b512a37d54ffc1f3b1c03859acf37",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "接近45秒",
+        "verdict": "met",
+        "evidence": "duration_check估算总长43.6秒，处于40.5—45秒目标区间，passed=true。"
+      },
+      {
+        "field": "topic",
+        "requirement": "字幕添加",
+        "verdict": "met",
+        "evidence": "第2镜旁白“剪影练习版支持为视频添加字幕。”，画面展示分享会发言配上示例字幕。"
+      },
+      {
+        "field": "topic",
+        "requirement": "手动改字",
+        "verdict": "met",
+        "evidence": "第3镜旁白“字幕文字可以手动编辑。”，画面展示核对人名、主题及字幕修改前后对比。"
+      },
+      {
+        "field": "topic",
+        "requirement": "片段裁剪",
+        "verdict": "met",
+        "evidence": "第4镜旁白“剪影练习版支持裁剪视频片段。”，以开场前等待和正式开场片段展示裁剪前后变化。"
+      },
+      {
+        "field": "topic",
+        "requirement": "横竖屏比例",
+        "verdict": "met",
+        "evidence": "第5镜旁白“剪影练习版提供横屏和竖屏画面比例选项。”，画面依次展示横屏、竖屏构图。"
+      },
+      {
+        "field": "topic",
+        "requirement": "以整理一场社区分享会素材串联",
+        "verdict": "met",
+        "evidence": "第1镜引入分享会开场、发言、互动素材；第2—5镜围绕发言字幕、议程核对、开场裁剪及现场构图展开；第6镜回看这些素材。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不重复相同产品句子填时间",
+        "verdict": "met",
+        "evidence": "第2—5镜分别介绍四项不同功能，各产品事实句仅出现一次；第6镜“字幕、人名、片段和构图，逐项检查”为检查清单，未复述产品句子。"
+      },
+      {
+        "field": "audience",
+        "requirement": "第一次接触视频编辑的展位访客",
+        "verdict": "met",
+        "evidence": "第2—5镜每镜介绍一项基础功能，并用添加字幕、核对人名、去除等待及比较构图的具体示意解释，无需既有编辑知识。"
+      },
+      {
+        "field": "platform",
+        "requirement": "视频号",
+        "verdict": "met",
+        "evidence": "六镜构成完整的短视频讲解，采用生活场景、旁白和直观对比，预计43.6秒，适合视频号观看。"
+      },
+      {
+        "field": "style",
+        "requirement": "耐心",
+        "verdict": "met",
+        "evidence": "第2镜“先看发言”、第3镜“仔细核对人名和主题”、第5镜“比较两种构图”，以温和引导逐步说明。"
+      },
+      {
+        "field": "style",
+        "requirement": "条理清楚",
+        "verdict": "met",
+        "evidence": "按素材引入、添加字幕、手动改字、裁剪片段、比较比例、回看检查推进，每镜任务明确。"
+      }
+    ],
+    "summary": "已覆盖四项功能，并以社区分享会素材贯穿。预计43.6秒符合目标；未发现无依据的产品声明或重复凑时长，受众、平台和风格要求均满足。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "一场社区分享会，整理成一条短片",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "标题交代素材整理的场景与目标，未承诺自动成片或其他产品能力。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "桌前整理社区分享会的拍摄素材，依次展示开场、嘉宾发言、现场互动三个画面。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "仅安排人物整理素材及三个场景的展示，没有产品操作或性能声明。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "社区分享会结束，留下开场、发言和互动三段素材。一起整理成一条短片。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于情境介绍与行动邀请，未宣称产品自动整理或自动生成短片。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "分享会发言画面配上与讲述内容一致的示例字幕，展示添加字幕后的画面；不展示软件操作界面。本镜头所有文字块均为旁白。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "P01.F1支持为视频添加字幕；画面仅示意添加后的效果，未声称自动识别，也未虚构软件界面。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "先看发言，把讲述的内容配上字幕。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "在功能介绍语境中说明添加字幕的用途，由P01.F1支持，未增加自动转写承诺。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "人物对照纸质议程核对字幕中的人名和分享主题，以字幕文字修改前后的示意画面展示手动改字；不呈现未经核实的软件按钮。本镜头所有文字块均为旁白。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ],
+        "evidence": "P01.F2支持手动编辑字幕文字；议程核对由人物完成，未增加自动校对能力或具体操作步骤。"
+      },
+      {
+        "location": "shot:3/block:2",
+        "text": "对照分享会的议程，仔细核对人名和主题。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "要求使用者对照议程进行人工核对，没有宣称产品识别人名或纠错。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "先展示开场前等待的素材，再展示从正式开场开始的片段，示意裁剪前后的内容变化。本镜头所有文字块均为旁白。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ],
+        "evidence": "P02.F1支持裁剪视频片段，去除开场前等待属于该能力的示意，未宣称自动选择内容。"
+      },
+      {
+        "location": "shot:4/block:2",
+        "text": "开场前的等待，只留需要的部分。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ],
+        "evidence": "结合本镜裁剪前后画面，表达通过裁剪保留所需内容，由P02.F1支持。"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "用分享会素材依次展示横屏和竖屏构图示意，分别观察全场与发言者的位置；示意画面不表现自动构图或软件操作流程。本镜头所有文字块均为旁白。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          }
+        ],
+        "evidence": "P03.F1支持横屏和竖屏比例选项；画面仅比较两种比例下的构图，没有额外的自动构图或人物追踪声明。"
+      },
+      {
+        "location": "shot:5/block:2",
+        "text": "看看全场，再看看发言者，比较两种构图。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于观察画面和比较构图的引导，没有新增产品能力或效果承诺。"
+      },
+      {
+        "location": "shot:6/visual",
+        "text": "人物观看整理后的开场、发言和互动片段，低头对照议程，再抬头检查画面，以一次完整回看收尾。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "安排人物回看与核对的动作，没有宣称产品自动检查，也没有展示未经证实的软件流程。"
+      },
+      {
+        "location": "shot:6/block:1",
+        "text": "从头看一遍：字幕、人名、片段和构图，逐项检查。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于人工检查清单与行动邀请，不包含新的产品声明。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "第1镜7.8秒、29旁白单位，配合三类素材展示；第2镜7.5秒、28单位，观察发言与字幕；第3镜7.3秒、27单位，核对议程并展示改字前后；第4镜7.0秒、26单位，比较等待素材与正式开场；第5镜9.0秒、34单位，依次观察横竖屏构图；第6镜5.0秒、18单位，以回看和核对动作收尾。各镜均有明确讲述及画面任务，未见重复事实或空镜凑时长；hold_seconds均为0，不要求额外延长停留。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T21:54:08.069767+00:00",
+    "finished_at": "2026-11-03T21:57:49.691932+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "model_responses": 7,
+    "run_id": "1906c710075a4bea97d33290a08c3bd3",
+    "persistence": "checkpoint_v1"
+  }
+}

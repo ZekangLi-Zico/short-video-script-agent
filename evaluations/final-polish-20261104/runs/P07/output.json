@@ -1,0 +1,25 @@
+{
+  "status": "blocked",
+  "message": "检索连续三次失败，暂时无法制作有依据的字幕功能介绍。尚未生成脚本，也未完成时长、规则和需求检查。请项目维护者修复检索服务，恢复后再获取字幕功能资料并完成30秒以内的脚本及检查。",
+  "script": null,
+  "duration": null,
+  "rules_check": null,
+  "requirements_check": null,
+  "sources": [],
+  "metadata": {
+    "started_at": "2026-11-03T23:14:56.001675+00:00",
+    "finished_at": "2026-11-03T23:16:17.997076+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 4,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "optional_editor_notes_v1",
+    "model_responses": 4,
+    "run_id": "651b924a16b14bcf866ea2e767d4c908",
+    "persistence": "checkpoint_v1"
+  }
+}

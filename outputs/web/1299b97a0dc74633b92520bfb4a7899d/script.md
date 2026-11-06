@@ -1,0 +1,381 @@
+# 短视频脚本运行结果
+
+- 状态：`completed`
+- 证据类型：`real_model`
+- 说明：已完成《这一帧，留给今天》四镜脚本，预计26秒。以雨后街角与伞架串联片段裁剪、字幕添加，保留指定标题，全部检查通过。
+
+当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。
+
+## 这一帧，留给今天
+
+> 未完成或检查失败时，下列内容仅为未通过验收的草稿。
+
+### 分镜 1
+
+镜头目的：交代雨后街角与伞架，让片名对应这次社区活动记录。
+
+画面：固定机位拍雨后街角，前景是伞架。一位参加活动的人收起雨伞，放入架中，再走进活动场地。片名叠在画面上。
+
+同拍同步，不同拍依次播放。
+
+**第 1 拍 · 镜内 0–6.0 秒**
+
+屏幕文字：这一帧，留给今天
+
+旁白：雨停了，街角的伞架又多了一把伞。
+
+预计镜头时长：6.0 秒
+
+### 分镜 2
+
+镜头目的：用收伞片段展示裁剪，让观众看见保留哪段动作。
+
+画面：拍摄者查看刚拍的素材；先播放收伞前等待的部分，再切到裁剪后的成片，完整保留收伞、放入伞架的动作。
+
+同拍同步，不同拍依次播放。
+
+**第 1 拍 · 镜内 0–3.8 秒**
+
+旁白＋同步字幕：剪影练习版支持裁剪视频片段。
+
+依据：P02/P02.F1
+
+**第 2 拍 · 镜内 3.8–6.8 秒**
+
+旁白：这一段，留下收伞的动作。
+
+镜头末尾保持画面：6.8–7.0 秒（保留最后一拍屏幕文字）
+
+预计镜头时长：7.0 秒
+
+### 分镜 3
+
+镜头目的：在同一活动画面上展示添加字幕后的变化。
+
+画面：收伞画面先不带文字播放，随后展示已添加字幕的版本，字幕为“雨停了，来坐坐”。镜头继续跟随人物从伞架走向活动场地。
+
+同拍同步，不同拍依次播放。
+
+**第 1 拍 · 镜内 0–3.0 秒**
+
+旁白：还可以为视频添加字幕。
+
+依据：P01/P01.F1
+
+**第 2 拍 · 镜内 3.0–7.0 秒**
+
+屏幕文字：雨停了，来坐坐。
+
+预计镜头时长：7.0 秒
+
+### 分镜 4
+
+镜头目的：回到社区活动现场，呈现这段记录要留下的人与动作。
+
+画面：从街角伞架缓慢移向活动场地入口，有人向刚到的邻居挥手。最后切回架上仍在滴水的雨伞，水滴落下后结束。
+
+同拍同步，不同拍依次播放。
+
+**第 1 拍 · 镜内 0–4.3 秒**
+
+旁白：伞留在门边，今天的相聚留在视频里。
+
+镜头末尾保持画面：4.3–6.0 秒（保留最后一拍屏幕文字）
+
+预计镜头时长：6.0 秒
+
+时长要求：25.2–28 秒（接近目标）。
+
+预计总时长：26.0 秒（基于语速与镜头停留估算，非成片实测）。
+
+## 检查结果与来源
+
+```json
+{
+  "ok": true,
+  "script_hash": "a60860282069727aac18e0f14bfb74ed9af6b689a58b4090f040da955f2d301a",
+  "passed": true,
+  "issues": [],
+  "citations": [
+    {
+      "location": "shot:2/block:1",
+      "source_id": "P02",
+      "fact_id": "P02.F1",
+      "quote": "剪影练习版支持裁剪视频片段。",
+      "version": "2026-11-01",
+      "text": "剪影练习版支持裁剪视频片段。",
+      "requires_semantic_review": true
+    },
+    {
+      "location": "shot:3/block:1",
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01",
+      "text": "还可以为视频添加字幕。",
+      "requires_semantic_review": true
+    }
+  ],
+  "rules_version": "2026-11-03-v1",
+  "requires_expression_review": true,
+  "expression_slots": [
+    {
+      "location": "title",
+      "text": "这一帧，留给今天"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "固定机位拍雨后街角，前景是伞架。一位参加活动的人收起雨伞，放入架中，再走进活动场地。片名叠在画面上。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "这一帧，留给今天"
+    },
+    {
+      "location": "shot:1/block:2",
+      "text": "雨停了，街角的伞架又多了一把伞。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "拍摄者查看刚拍的素材；先播放收伞前等待的部分，再切到裁剪后的成片，完整保留收伞、放入伞架的动作。"
+    },
+    {
+      "location": "shot:2/block:1",
+      "text": "剪影练习版支持裁剪视频片段。"
+    },
+    {
+      "location": "shot:2/block:2",
+      "text": "这一段，留下收伞的动作。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "收伞画面先不带文字播放，随后展示已添加字幕的版本，字幕为“雨停了，来坐坐”。镜头继续跟随人物从伞架走向活动场地。"
+    },
+    {
+      "location": "shot:3/block:1",
+      "text": "还可以为视频添加字幕。"
+    },
+    {
+      "location": "shot:3/block:2",
+      "text": "雨停了，来坐坐。"
+    },
+    {
+      "location": "shot:4/visual",
+      "text": "从街角伞架缓慢移向活动场地入口，有人向刚到的邻居挥手。最后切回架上仍在滴水的雨伞，水滴落下后结束。"
+    },
+    {
+      "location": "shot:4/block:1",
+      "text": "伞留在门边，今天的相聚留在视频里。"
+    }
+  ],
+  "available_facts": [
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F2",
+      "quote": "字幕文字可以手动编辑。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P02",
+      "fact_id": "P02.F1",
+      "quote": "剪影练习版支持裁剪视频片段。",
+      "version": "2026-11-01"
+    }
+  ],
+  "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+}
+```
+
+## 需求覆盖核对
+
+以下为模型评估，可能漏判或误判，仍需人工确认。
+
+```json
+{
+  "ok": true,
+  "script_hash": "a60860282069727aac18e0f14bfb74ed9af6b689a58b4090f040da955f2d301a",
+  "request_hash": "3492c1a6edb694e8cd4c54e1e1121b943e501daf6cb4e631a15c840fdf8bba89",
+  "passed": true,
+  "items": [
+    {
+      "field": "topic",
+      "requirement": "标题必须逐字为“这一帧，留给今天”",
+      "verdict": "met",
+      "evidence": "标题及第1镜屏幕文字均为“这一帧，留给今天”，逐字一致。"
+    },
+    {
+      "field": "topic",
+      "requirement": "字幕添加",
+      "verdict": "met",
+      "evidence": "第3镜旁白介绍添加字幕，画面展示添加“雨停了，来坐坐”前后的变化。"
+    },
+    {
+      "field": "topic",
+      "requirement": "片段裁剪",
+      "verdict": "met",
+      "evidence": "第2镜明确介绍裁剪视频片段，并展示去掉等待部分、保留收伞动作的成片。"
+    },
+    {
+      "field": "topic",
+      "requirement": "背景是雨后街角与伞架",
+      "verdict": "met",
+      "evidence": "第1镜明确拍摄雨后街角与前景伞架，后续镜头延续收伞及社区活动场景。"
+    },
+    {
+      "field": "topic",
+      "requirement": "不能把活动片名说成产品功能",
+      "verdict": "met",
+      "evidence": "片名仅作为标题及第1镜叠字，产品功能陈述仅涉及裁剪与添加字幕。"
+    },
+    {
+      "field": "audience",
+      "requirement": "社区活动账号",
+      "verdict": "met",
+      "evidence": "参加活动的人收伞入场、邻居挥手及相聚旁白均贴合社区活动记录。"
+    },
+    {
+      "field": "platform",
+      "requirement": "抖音",
+      "verdict": "met",
+      "evidence": "四镜以生活场景串联两项直观功能演示，26秒估算时长适合短视频观看。"
+    },
+    {
+      "field": "style",
+      "requirement": "温柔",
+      "verdict": "met",
+      "evidence": "“雨停了，来坐坐”及邻居挥手、水滴收尾营造温和的相聚氛围。"
+    },
+    {
+      "field": "style",
+      "requirement": "少形容词",
+      "verdict": "met",
+      "evidence": "文案主要描述收伞、裁剪、加字幕与相聚，未堆叠修饰性形容词。"
+    }
+  ],
+  "summary": "当前稿落实了标题、两项功能、雨后街角与伞架背景等要求，未将活动片名包装成产品功能。公开功能表述有资料支持，预计26秒，节奏合理。",
+  "method": "model_assessment_not_deterministic_proof",
+  "expressions": [
+    {
+      "location": "title",
+      "text": "这一帧，留给今天",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "活动片名，不包含产品能力承诺。"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "固定机位拍雨后街角，前景是伞架。一位参加活动的人收起雨伞，放入架中，再走进活动场地。片名叠在画面上。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "描述生活场景与拍摄安排，未宣称产品工作流。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "这一帧，留给今天",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "屏幕展示活动片名，没有功能声明。"
+    },
+    {
+      "location": "shot:1/block:2",
+      "text": "雨停了，街角的伞架又多了一把伞。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "旁白描述画面中的天气与收伞情境。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "拍摄者查看刚拍的素材；先播放收伞前等待的部分，再切到裁剪后的成片，完整保留收伞、放入伞架的动作。",
+      "verdict": "supported_claim",
+      "references": [
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1"
+        }
+      ],
+      "evidence": "前后对比仅示意裁剪片段的已知能力，没有新增自动识别或操作界面承诺。"
+    },
+    {
+      "location": "shot:2/block:1",
+      "text": "剪影练习版支持裁剪视频片段。",
+      "verdict": "supported_claim",
+      "references": [
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1"
+        }
+      ],
+      "evidence": "与P02.F1原文一致。"
+    },
+    {
+      "location": "shot:2/block:2",
+      "text": "这一段，留下收伞的动作。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "表达本段素材的剪辑取舍，未增加产品能力承诺。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "收伞画面先不带文字播放，随后展示已添加字幕的版本，字幕为“雨停了，来坐坐”。镜头继续跟随人物从伞架走向活动场地。",
+      "verdict": "supported_claim",
+      "references": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1"
+        }
+      ],
+      "evidence": "仅示意为视频添加字幕的效果，字幕内容与人物动作属于场景创作。"
+    },
+    {
+      "location": "shot:3/block:1",
+      "text": "还可以为视频添加字幕。",
+      "verdict": "supported_claim",
+      "references": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1"
+        }
+      ],
+      "evidence": "省去重复产品名后仍准确表达P01.F1的字幕添加能力。"
+    },
+    {
+      "location": "shot:3/block:2",
+      "text": "雨停了，来坐坐。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "社区活动场景中的温和邀请，不含产品声明。"
+    },
+    {
+      "location": "shot:4/visual",
+      "text": "从街角伞架缓慢移向活动场地入口，有人向刚到的邻居挥手。最后切回架上仍在滴水的雨伞，水滴落下后结束。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "描述运镜、人物动作及收尾画面，没有产品性能承诺。"
+    },
+    {
+      "location": "shot:4/block:1",
+      "text": "伞留在门边，今天的相聚留在视频里。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "表达记录相聚的情感主题，未声称额外保存或自动化功能。"
+    }
+  ],
+  "pacing": {
+    "verdict": "met",
+    "evidence": "四镜预计6、7、7、6秒：收伞入场支撑开场停留，裁剪镜两拍旁白共6.8秒，字幕镜留4秒阅读并观察人物行走，结尾余下1.7秒用于挥手与水滴收尾；总长26秒已通过目标区间检查。"
+  },
+  "expression_review_passed": true
+}
+```
+
+## 执行路径
+
+search_materials → write_script → check_requirements → finish
+
+逐步参数、观察和简短决策依据见 trace.jsonl。未记录模型内部思维过程。

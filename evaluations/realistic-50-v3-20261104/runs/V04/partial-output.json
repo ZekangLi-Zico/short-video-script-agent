@@ -1,0 +1,111 @@
+{
+  "status": "error",
+  "script": {
+    "title": "陶艺作品展：横屏与竖屏怎么选",
+    "shots": [
+      {
+        "visual": "先展示陶艺作品展的横向展台：横屏构图，多件陶艺沿展台排列，镜头稳定展示整体。文案均为旁白。",
+        "hold_seconds": 7,
+        "blocks": [
+          {
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          },
+          {
+            "text": "横向展台，选横屏。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "再展示陶艺作品展中的单件花瓶：竖屏构图，花瓶直立居中，从瓶口到瓶底完整入画，镜头稳定停留。文案为旁白。",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "竖向单件花瓶，选竖屏。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "4a3b95d61ab9fa8f1f5d9d54a9e38a04dec90ebd89beb03035c6735a55d25c7c",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 25,
+        "estimated_seconds": 7
+      },
+      {
+        "shot": 2,
+        "speech_units": 9,
+        "estimated_seconds": 4
+      }
+    ],
+    "total_seconds": 11,
+    "target_seconds": 20,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "4a3b95d61ab9fa8f1f5d9d54a9e38a04dec90ebd89beb03035c6735a55d25c7c",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:1/block:1",
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "陶艺作品展：横屏与竖屏怎么选"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "先展示陶艺作品展的横向展台：横屏构图，多件陶艺沿展台排列，镜头稳定展示整体。文案均为旁白。"
+      },
+      {
+        "location": "shot:1/block:2",
+        "text": "横向展台，选横屏。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "再展示陶艺作品展中的单件花瓶：竖屏构图，花瓶直立居中，从瓶口到瓶底完整入画，镜头稳定停留。文案为旁白。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "竖向单件花瓶，选竖屏。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": null
+}

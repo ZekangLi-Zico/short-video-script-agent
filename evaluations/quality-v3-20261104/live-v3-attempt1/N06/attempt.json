@@ -1,0 +1,29 @@
+{
+  "case_id": "N06",
+  "started_at": "2026-11-03T17:04:16.555604+00:00",
+  "frozen_cases_sha256": "2c8475d41b6a335dadac3bea53fbe9e879ab981439116c4eb3b0338926ae13e1",
+  "code_root": "D:\\小影科技笔试",
+  "source_hashes": {
+    "src/agent.py": "c453f62ed57592a4fc858c81d1c00fd8c4c4ea64af1819c1bb80d6dc5788944e",
+    "src/cli.py": "42ded4d3bdbef521d4ae23c1ec8e077ff12d774c82d2a6fcd5a27127c97a7ac4",
+    "src/expression.py": "cb14ce9a628e882ef239f07913d669aaaffa04a16f28a6bf27783e8ba5a045f5",
+    "src/mock.py": "e008d5c984ae512fde87dcd5b72c5a82c59f157837e47f20abbf7b18f4910483",
+    "src/providers.py": "cdb48985a56de25b9835f4223ec2198a0922bac966dffb28c6d75963fceba22d",
+    "src/reporting.py": "3687e790429b15fefd681aad77774c6536b4d5872d342aeb00a8def68cfb8a4b",
+    "src/requirements.py": "95ec4644c07f48b6f7fc753648a5a690b96231f243dc35325cd5b4f8ee1c1c4e",
+    "src/revisions.py": "ba96a4e3451b3b19917be15592195830c842defb432ec44622de599ff27ece66",
+    "src/schema.py": "184459469c1985e36ed641606ffc5944d37a3b0df7a82335a695f5e0e27928ce",
+    "src/tools.py": "28f37d1ddf5b76101bf597662408b85a5270922d88d4b06bb6ee2c8ccdac2789",
+    "src/web.py": "09f96912b083d94d1eaa8c67aae673ffcd4b148dde37958149230facef6a0067",
+    "src/__init__.py": "69886b4a16dec45cc89cf493080228ed54e3827fd3a7a12b33e18e6d1247eff1",
+    "data/brand_rules.json": "bb28c202e3e710e0a6eb6e1e90667aba97b951cf0e63c9e2f40ee50864f08f2f",
+    "data/materials.json": "1fc255b84e8776cc73f7c3dbe59c3b9beb92fe5d1ef594fb850ce26a8a289667",
+    "web/app.js": "9b71af047d39138ec3d3252de17f50c132832a3dfccaf96f82a5d23c1d0d694e",
+    "web/favicon.svg": "6cf80e7ec2bdb690dea50d5b527489f8d434387d3d1ac4e7cff4c794934af610",
+    "web/index.html": "0aa525ed8813d73c1c522573f3fa4c4e4ff58d7b4a45aaac914d0ba0190a55eb",
+    "web/style.css": "3855e4392bc31e90ed04fe7d480fba272aa26fc1dc3b1f0c9a0ce3986a182ede"
+  },
+  "legacy": false,
+  "entry": "CLI through Agent.run; not a browser test",
+  "workers": 2
+}

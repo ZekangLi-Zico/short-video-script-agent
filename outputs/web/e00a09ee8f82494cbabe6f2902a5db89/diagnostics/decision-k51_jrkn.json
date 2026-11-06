@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-k51_jrkn",
+  "started_at": "2026-11-03T22:22:50.524012+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:23:39.941224+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a382-0aa8-7450-aef6-8f9d5b543263",
+    "usage": {
+      "input_tokens": 27048,
+      "cached_input_tokens": 23808,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1530,
+      "reasoning_output_tokens": 1020
+    },
+    "call_id": "decision-k51_jrkn",
+    "warnings": []
+  }
+}

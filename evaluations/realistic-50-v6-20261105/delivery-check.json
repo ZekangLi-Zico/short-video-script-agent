@@ -1,0 +1,15 @@
+{
+  "cases": 50,
+  "tests": 129,
+  "source_files": 44,
+  "preserved_historical_files": 9944,
+  "quality_assessments": {
+    "改进": 26,
+    "相当": 12,
+    "仍需补充": 12
+  },
+  "example_files_checked": 164,
+  "documents_checked": 14,
+  "git_remote_names": [],
+  "errors": []
+}

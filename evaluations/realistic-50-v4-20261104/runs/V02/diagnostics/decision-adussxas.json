@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-adussxas",
+  "started_at": "2026-11-03T21:01:03.202153+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:01:18.126346+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a337-2a2d-7a83-9fcd-a83a104ae875",
+    "usage": {
+      "input_tokens": 38709,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 237,
+      "reasoning_output_tokens": 99
+    },
+    "call_id": "decision-adussxas",
+    "warnings": []
+  }
+}

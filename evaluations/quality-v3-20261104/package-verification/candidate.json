@@ -1,0 +1,13 @@
+{
+  "archive": "internal .runtime/quality-v3-candidate.zip",
+  "sha256": "905a6e99335d0b299f92c12c7b4459a7a9727bb55355c7834e0aaf313f6d5f55",
+  "manifest_files_checked": 1958,
+  "all_hashes_match": true,
+  "unit_tests": "81/81",
+  "mock_acceptance": "8/8",
+  "evidence_replay": "134/134",
+  "preserved_files": "1597 unchanged",
+  "javascript_syntax": "node --check web/app.js exited 0",
+  "runtime": "Python 3.12.14, Windows",
+  "scope": "Clean candidate extraction; final archive must preserve identical runtime/test/data/scripts/web files. Remaining edits are documentation and appended verification evidence."
+}

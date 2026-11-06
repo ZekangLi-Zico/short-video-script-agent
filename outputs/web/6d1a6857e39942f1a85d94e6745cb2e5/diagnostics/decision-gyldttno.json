@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-gyldttno",
+  "started_at": "2026-11-04T01:34:35.590694+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:35:04.187935+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a431-9c91-73c2-ba2c-99bf894d850c",
+    "usage": {
+      "input_tokens": 27193,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 144,
+      "reasoning_output_tokens": 81
+    },
+    "call_id": "decision-gyldttno",
+    "warnings": []
+  }
+}

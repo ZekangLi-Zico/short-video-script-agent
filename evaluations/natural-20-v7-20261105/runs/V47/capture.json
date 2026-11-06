@@ -1,0 +1,13 @@
+{
+  "case": "V47",
+  "index": 19,
+  "attempt": 1,
+  "run_id": "df789bbdf964419683a62ab7d60a9c5c",
+  "folder": "V47",
+  "status": "completed",
+  "steps": 5,
+  "responses": 6,
+  "provider": "codex",
+  "seconds": 16,
+  "message": "《采访后的整理》已完成：保留原四镜顺序、场景及两项字幕功能，每镜4秒，预计共16秒，符合22秒上限。全部检查已通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

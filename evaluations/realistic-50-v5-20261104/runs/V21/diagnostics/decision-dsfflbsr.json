@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-dsfflbsr",
+  "started_at": "2026-11-04T15:27:05.168193+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:27:35.592504+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a72b-c860-7781-a08b-9de696ad0701",
+    "usage": {
+      "input_tokens": 27349,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 186,
+      "reasoning_output_tokens": 96
+    },
+    "call_id": "decision-dsfflbsr",
+    "warnings": []
+  }
+}

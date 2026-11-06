@@ -1,0 +1,8 @@
+{
+  "case": "V31",
+  "assessment": "改进",
+  "note": "新版将实际screen文字分成5字和8字的两镜，各停留5秒，静音阅读与剪纸动作明确；旧版仍在单一完整长block之外靠visual说明拆卡。最终均10秒，新版结构直接对应卡片限制，响应8降至7。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

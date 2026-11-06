@@ -1,0 +1,39 @@
+{
+  "status": "needs_input",
+  "message": "现有事实无法同时满足完整逐字引用和每镜最多8个汉字。请补充每条不超过8个汉字的可引用产品事实，或允许事实卡片展示13个汉字。",
+  "script": null,
+  "duration": null,
+  "rules_check": null,
+  "sources": [
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T14:55:40.493681+00:00",
+    "finished_at": "2026-11-03T14:56:54.919775+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 3,
+    "synthetic_data": true,
+    "model_responses": 3
+  }
+}

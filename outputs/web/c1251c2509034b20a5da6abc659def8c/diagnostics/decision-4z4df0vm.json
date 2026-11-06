@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-4z4df0vm",
+  "started_at": "2026-11-04T01:49:43.383298+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:50:25.393114+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a43f-7b93-7e93-a10e-f7eb472e74a7",
+    "usage": {
+      "input_tokens": 32373,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 120,
+      "reasoning_output_tokens": 51
+    },
+    "call_id": "decision-4z4df0vm",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-vveurgcr",
+  "started_at": "2026-11-04T01:43:15.546340+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:43:37.011670+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a439-8994-7d63-a0bd-7434d8d7bb91",
+    "usage": {
+      "input_tokens": 27356,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 209,
+      "reasoning_output_tokens": 129
+    },
+    "call_id": "decision-vveurgcr",
+    "warnings": []
+  }
+}

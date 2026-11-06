@@ -1,0 +1,13 @@
+{
+  "case": "V35",
+  "index": 34,
+  "attempt": 1,
+  "run_id": "ceb67dd6e5ef42929829e53686d9d02b",
+  "folder": "V35",
+  "status": "needs_input",
+  "steps": 2,
+  "responses": 2,
+  "provider": "codex",
+  "seconds": null,
+  "message": "现有《字幕功能说明》只确认字幕文字可手动编辑，不能证明完全离线或视频不会上传，尚未成稿。请补充该版本的离线编辑说明、视频上传规则及触发条件；如依据测试，请提供断网操作结果和网络请求记录。本地能打开不能作为不上传的证据。"
+}

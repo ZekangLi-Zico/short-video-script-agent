@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-xjdap80f",
+  "started_at": "2026-11-04T17:39:54.153426+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:40:12.080112+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a7a5-5cf2-7102-bd00-68b7af67a64a",
+    "usage": {
+      "input_tokens": 27560,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 166,
+      "reasoning_output_tokens": 46
+    },
+    "call_id": "decision-xjdap80f",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-pu81fvfo",
+  "started_at": "2026-11-03T22:10:39.380420+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:11:06.192442+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a376-e3d3-7a40-abee-d6a795af3727",
+    "usage": {
+      "input_tokens": 27272,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 656,
+      "reasoning_output_tokens": 516
+    },
+    "call_id": "decision-pu81fvfo",
+    "warnings": []
+  }
+}

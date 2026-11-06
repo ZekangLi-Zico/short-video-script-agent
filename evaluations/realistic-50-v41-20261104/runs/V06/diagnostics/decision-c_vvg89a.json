@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-c_vvg89a",
+  "started_at": "2026-11-04T01:06:25.700227+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:06:43.010562+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a417-cf8c-7101-9279-a4dbb5d9c3dc",
+    "usage": {
+      "input_tokens": 36914,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 407,
+      "reasoning_output_tokens": 260
+    },
+    "call_id": "decision-c_vvg89a",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-em686yzh",
+  "started_at": "2026-11-04T01:36:54.458925+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:37:21.112346+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a433-b776-7011-8999-3a06ff9d95bc",
+    "usage": {
+      "input_tokens": 27184,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 181,
+      "reasoning_output_tokens": 61
+    },
+    "call_id": "decision-em686yzh",
+    "warnings": []
+  }
+}

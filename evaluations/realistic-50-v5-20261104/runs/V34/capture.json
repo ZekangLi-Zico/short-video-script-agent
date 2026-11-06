@@ -1,0 +1,13 @@
+{
+  "case": "V34",
+  "index": 33,
+  "attempt": 1,
+  "run_id": "718ff326551941e1900ad5e2783fd85f",
+  "folder": "V34",
+  "status": "needs_input",
+  "steps": 2,
+  "responses": 2,
+  "provider": "codex",
+  "seconds": null,
+  "message": "请补充字幕功能的三项收费规则：免费版可用次数及重置周期、是否必须开通会员、付费后的次数或权益变化。现有资料不足以完成这份30秒内的收费说明脚本。"
+}

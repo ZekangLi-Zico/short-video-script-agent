@@ -1,0 +1,1551 @@
+{
+  "format": "checkpoint_v1",
+  "recorded_at": "2026-11-04T17:29:32.082545+00:00",
+  "last_event": {
+    "kind": "step",
+    "step": 4
+  },
+  "result": {
+    "status": "in_progress",
+    "message": "任务执行中，尚未完成。",
+    "script": {
+      "format_version": 2,
+      "title": "展厅入口与画册：横竖屏怎么呈现",
+      "shots": [
+        {
+          "purpose": "交代展览场景，并明确中文旁白与英文屏幕翻译的用途。",
+          "visual": "展厅入口中景，观众走近、停步，接过画册。镜头从入口标识缓慢移到手中的画册，英文字幕置于底部。",
+          "hold_seconds": 9,
+          "blocks": [
+            {
+              "text": "从展厅入口到手中的画册，我们用中文讲解，英文字幕对应翻译。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "From the exhibition entrance to the brochure in hand: Chinese narration with corresponding English subtitles.",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "screen",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "介绍产品提供横屏和竖屏比例选项，以两种构图示意帮助理解。",
+          "visual": "并列展示两个构图示意框：横框装入展厅入口全景，竖框装入观众手持画册的画面。两个框依次显现后保留供观察，不模拟产品按钮或操作。",
+          "hold_seconds": 10,
+          "blocks": [
+            {
+              "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "The practice edition of Jianying offers landscape and portrait aspect ratio options.",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "channel": "screen",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "用入口全景和画册近景演示两种构图各自关注的主体。",
+          "visual": "先展示横向入口全景，观众从门边进入；再切到竖向构图，观众翻开画册，镜头停在手与画册上。两段英文字幕随对应画面依次更换。",
+          "hold_seconds": 9,
+          "blocks": [
+            {
+              "text": "横向构图，看看入口全景。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "Landscape framing: a wide view of the entrance.",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "screen",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "竖向构图，把视线放到手中的画册。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "voice",
+              "beat": 2,
+              "display_seconds": 0
+            },
+            {
+              "text": "Portrait framing: focus on the brochure in hand.",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "screen",
+              "beat": 2,
+              "display_seconds": 0
+            }
+          ]
+        }
+      ],
+      "editor_notes": ""
+    },
+    "duration": {
+      "ok": true,
+      "script_hash": "4d182adc0e6aff40fee7d3c3f7dc9abc5495cb98d38a3865805e685cdb5afb80",
+      "shots": [
+        {
+          "shot": 1,
+          "estimated_seconds": 9.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 7.0,
+              "voice_seconds": 7.0,
+              "screen_read_seconds": 6.5,
+              "display_seconds": 0,
+              "estimated_seconds": 7.0
+            }
+          ],
+          "tail_hold_seconds": 2.0
+        },
+        {
+          "shot": 2,
+          "estimated_seconds": 10.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 5.3,
+              "voice_seconds": 5.0,
+              "screen_read_seconds": 5.3,
+              "display_seconds": 0,
+              "estimated_seconds": 5.3
+            }
+          ],
+          "tail_hold_seconds": 4.7
+        },
+        {
+          "shot": 3,
+          "estimated_seconds": 9.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 3.7,
+              "voice_seconds": 3.0,
+              "screen_read_seconds": 3.7,
+              "display_seconds": 0,
+              "estimated_seconds": 3.7
+            },
+            {
+              "beat": 2,
+              "start_seconds": 3.7,
+              "end_seconds": 7.7,
+              "voice_seconds": 4.0,
+              "screen_read_seconds": 3.7,
+              "display_seconds": 0,
+              "estimated_seconds": 4.0
+            }
+          ],
+          "tail_hold_seconds": 1.3
+        }
+      ],
+      "total_seconds": 28.0,
+      "target_seconds": 30,
+      "passed": true,
+      "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+      "is_estimate": true,
+      "duration_mode": "target",
+      "min_seconds": 27.0,
+      "max_seconds": 30,
+      "issue": null
+    },
+    "rules_check": {
+      "ok": true,
+      "script_hash": "4d182adc0e6aff40fee7d3c3f7dc9abc5495cb98d38a3865805e685cdb5afb80",
+      "passed": true,
+      "issues": [],
+      "citations": [
+        {
+          "location": "shot:2/block:1",
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:2/block:2",
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01",
+          "text": "The practice edition of Jianying offers landscape and portrait aspect ratio options.",
+          "requires_semantic_review": true
+        }
+      ],
+      "rules_version": "2026-11-03-v1",
+      "requires_expression_review": true,
+      "expression_slots": [
+        {
+          "location": "title",
+          "text": "展厅入口与画册：横竖屏怎么呈现"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "展厅入口中景，观众走近、停步，接过画册。镜头从入口标识缓慢移到手中的画册，英文字幕置于底部。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "从展厅入口到手中的画册，我们用中文讲解，英文字幕对应翻译。"
+        },
+        {
+          "location": "shot:1/block:2",
+          "text": "From the exhibition entrance to the brochure in hand: Chinese narration with corresponding English subtitles."
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "并列展示两个构图示意框：横框装入展厅入口全景，竖框装入观众手持画册的画面。两个框依次显现后保留供观察，不模拟产品按钮或操作。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "The practice edition of Jianying offers landscape and portrait aspect ratio options."
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "先展示横向入口全景，观众从门边进入；再切到竖向构图，观众翻开画册，镜头停在手与画册上。两段英文字幕随对应画面依次更换。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "横向构图，看看入口全景。"
+        },
+        {
+          "location": "shot:3/block:2",
+          "text": "Landscape framing: a wide view of the entrance."
+        },
+        {
+          "location": "shot:3/block:3",
+          "text": "竖向构图，把视线放到手中的画册。"
+        },
+        {
+          "location": "shot:3/block:4",
+          "text": "Portrait framing: focus on the brochure in hand."
+        }
+      ],
+      "available_facts": [
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01"
+        }
+      ],
+      "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+    },
+    "requirements_check": {
+      "ok": true,
+      "script_hash": "4d182adc0e6aff40fee7d3c3f7dc9abc5495cb98d38a3865805e685cdb5afb80",
+      "request_hash": "3a7c9b5d428931bff018b608879d47e38987c37d31431430811402be8aad8a5d",
+      "passed": true,
+      "items": [
+        {
+          "field": "topic",
+          "requirement": "介绍横竖屏比例选项",
+          "verdict": "met",
+          "evidence": "第2镜介绍横屏和竖屏比例选项，并以两个构图框展示。"
+        },
+        {
+          "field": "topic",
+          "requirement": "用中文旁白与对应英文屏幕翻译",
+          "verdict": "met",
+          "evidence": "各镜voice块均为中文，screen块为对应英文，同beat同步呈现。"
+        },
+        {
+          "field": "topic",
+          "requirement": "明确区分两种语言的用途",
+          "verdict": "met",
+          "evidence": "第1镜明确说明“用中文讲解，英文字幕对应翻译”，实际声画分工一致。"
+        },
+        {
+          "field": "topic",
+          "requirement": "不要宣称产品自带翻译功能。",
+          "verdict": "met",
+          "evidence": "翻译表述指向本视频的旁白与字幕安排，未宣称产品具备翻译能力。"
+        },
+        {
+          "field": "topic",
+          "requirement": "背景是展厅入口和画册。",
+          "verdict": "met",
+          "evidence": "第1镜展示展厅入口与接过画册，第3镜展示入口全景与翻开画册。"
+        },
+        {
+          "field": "audience",
+          "requirement": "中英双语展览观众",
+          "verdict": "met",
+          "evidence": "中文讲解配对应英文字幕，并使用展览入口和画册场景，适合双语展览观众。"
+        },
+        {
+          "field": "platform",
+          "requirement": "视频号",
+          "verdict": "met",
+          "evidence": "三镜短视频以具体场景和简短讲解介绍比例选项，适合视频号观看。"
+        },
+        {
+          "field": "style",
+          "requirement": "清楚，克制",
+          "verdict": "met",
+          "evidence": "第2镜直接陈述比例选项，第3镜以构图示例说明，无夸张效果承诺。"
+        }
+      ],
+      "summary": "当前稿落实了横竖屏介绍、中文旁白与英文字幕分工，以及展厅入口和画册场景，未暗示产品自带翻译功能。产品声明有资料支持，预计28秒，节奏合理。",
+      "method": "model_assessment_not_deterministic_proof",
+      "expressions": [
+        {
+          "location": "title",
+          "text": "展厅入口与画册：横竖屏怎么呈现",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "标题交代场景与展示主题，不含产品能力承诺。"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "展厅入口中景，观众走近、停步，接过画册。镜头从入口标识缓慢移到手中的画册，英文字幕置于底部。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于展览场景、人物动作及字幕拍摄安排。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "从展厅入口到手中的画册，我们用中文讲解，英文字幕对应翻译。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "说明本视频的语言安排，未将翻译归为产品功能。"
+        },
+        {
+          "location": "shot:1/block:2",
+          "text": "From the exhibition entrance to the brochure in hand: Chinese narration with corresponding English subtitles.",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "对应中文旁白，说明本视频采用中文讲解与英文字幕。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "并列展示两个构图示意框：横框装入展厅入口全景，竖框装入观众手持画册的画面。两个框依次显现后保留供观察，不模拟产品按钮或操作。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "仅安排横竖构图示意，不声称产品自动构图或提供具体操作界面。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "与P03.F1原文一致。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "The practice edition of Jianying offers landscape and portrait aspect ratio options.",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "准确翻译P03.F1的横竖屏比例选项，未新增能力。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "先展示横向入口全景，观众从门边进入；再切到竖向构图，观众翻开画册，镜头停在手与画册上。两段英文字幕随对应画面依次更换。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于构图、动作与字幕切换安排，不含产品自动化声明。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "横向构图，看看入口全景。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "引导观众观察当前横向示意画面。"
+        },
+        {
+          "location": "shot:3/block:2",
+          "text": "Landscape framing: a wide view of the entrance.",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "对应入口全景的构图说明，不承诺产品效果。"
+        },
+        {
+          "location": "shot:3/block:3",
+          "text": "竖向构图，把视线放到手中的画册。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "引导观众观察画册主体，未宣称产品自动聚焦。"
+        },
+        {
+          "location": "shot:3/block:4",
+          "text": "Portrait framing: focus on the brochure in hand.",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "对应中文的观看引导，语境中不表示自动对焦功能。"
+        }
+      ],
+      "pacing": {
+        "verdict": "met",
+        "evidence": "第1镜9秒支撑走近、接画册与移镜；第2镜10秒包含5.3秒同步声画及两个构图框的观察时间；第3镜9秒按两拍展示入口与翻画册，停留有具体动作支撑。"
+      },
+      "expression_review_passed": true
+    },
+    "sources": [
+      {
+        "id": "P03",
+        "product_id": "demo-editor",
+        "title": "画面比例说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "比例",
+          "竖屏",
+          "横屏",
+          "画面",
+          "aspect"
+        ],
+        "facts": [
+          {
+            "id": "P03.F1",
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "product_id": "demo-editor",
+        "title": "剪辑功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "剪辑",
+          "裁剪",
+          "片段",
+          "trim",
+          "edit"
+        ],
+        "facts": [
+          {
+            "id": "P02.F1",
+            "text": "剪影练习版支持裁剪视频片段。"
+          }
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "action": "search_materials",
+        "arguments": {
+          "query": "demo-editor 横竖屏比例选项 支持的画面比例",
+          "product_id": "demo-editor"
+        },
+        "decision_basis": "检索横竖屏比例选项的产品依据，用于展厅入口与画册场景的中文旁白和对应英文屏幕文案。",
+        "observation": {
+          "ok": true,
+          "query": "demo-editor 横竖屏比例选项 支持的画面比例",
+          "product_id": "demo-editor",
+          "materials": [
+            {
+              "id": "P03",
+              "product_id": "demo-editor",
+              "title": "画面比例说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "比例",
+                "竖屏",
+                "横屏",
+                "画面",
+                "aspect"
+              ],
+              "facts": [
+                {
+                  "id": "P03.F1",
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+                }
+              ]
+            },
+            {
+              "id": "P02",
+              "product_id": "demo-editor",
+              "title": "剪辑功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "剪辑",
+                "裁剪",
+                "片段",
+                "trim",
+                "edit"
+              ],
+              "facts": [
+                {
+                  "id": "P02.F1",
+                  "text": "剪影练习版支持裁剪视频片段。"
+                }
+              ]
+            }
+          ],
+          "count": 2
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a799-ea57-7fd3-8995-10f7661b04e6",
+          "usage": {
+            "input_tokens": 27261,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 84,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-g67fvsyr",
+          "warnings": []
+        },
+        "elapsed_ms": 15031
+      },
+      {
+        "step": 2,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "展厅入口与画册：横竖屏怎么呈现",
+            "shots": [
+              {
+                "purpose": "交代展览场景，并明确中文旁白与英文屏幕翻译的用途。",
+                "visual": "展厅入口中景，观众走近、停步，接过画册。镜头从入口标识缓慢移到手中的画册，英文字幕置于底部。",
+                "hold_seconds": 9,
+                "blocks": [
+                  {
+                    "text": "从展厅入口到手中的画册，我们用中文讲解，英文字幕对应翻译。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "From the exhibition entrance to the brochure in hand: Chinese narration with corresponding English subtitles.",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "介绍产品提供横屏和竖屏比例选项，以两种构图示意帮助理解。",
+                "visual": "并列展示两个构图示意框：横框装入展厅入口全景，竖框装入观众手持画册的画面。两个框依次显现后保留供观察，不模拟产品按钮或操作。",
+                "hold_seconds": 10,
+                "blocks": [
+                  {
+                    "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "The practice edition of Jianying offers landscape and portrait aspect ratio options.",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "用入口全景和画册近景演示两种构图各自关注的主体。",
+                "visual": "先展示横向入口全景，观众从门边进入；再切到竖向构图，观众翻开画册，镜头停在手与画册上。两段英文字幕随对应画面依次更换。",
+                "hold_seconds": 9,
+                "blocks": [
+                  {
+                    "text": "横向构图，看看入口全景。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "Landscape framing: a wide view of the entrance.",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "竖向构图，把视线放到手中的画册。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 2,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "Portrait framing: focus on the brochure in hand.",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 2,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          }
+        },
+        "decision_basis": "资料已覆盖横竖屏比例选项，编排展厅入口与画册的双语分镜，中文只作旁白、对应英文只作屏幕文字。",
+        "observation": {
+          "ok": true,
+          "script_hash": "4d182adc0e6aff40fee7d3c3f7dc9abc5495cb98d38a3865805e685cdb5afb80",
+          "revision": {
+            "before_hash": null,
+            "after_hash": "4d182adc0e6aff40fee7d3c3f7dc9abc5495cb98d38a3865805e685cdb5afb80",
+            "changed_fields": [
+              "script:new"
+            ],
+            "unchanged_shots": 0,
+            "unchanged_blocks": 0,
+            "feedback": [],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a79a-231a-7b50-86d8-c338dfd05f56",
+          "usage": {
+            "input_tokens": 27539,
+            "cached_input_tokens": 8704,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 934,
+            "reasoning_output_tokens": 272
+          },
+          "call_id": "decision-q0svzuml",
+          "warnings": []
+        },
+        "elapsed_ms": 43406
+      },
+      {
+        "step": 3,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "展厅入口与画册：横竖屏怎么呈现",
+            "shots": [
+              {
+                "purpose": "交代展览场景，并明确中文旁白与英文屏幕翻译的用途。",
+                "visual": "展厅入口中景，观众走近、停步，接过画册。镜头从入口标识缓慢移到手中的画册，英文字幕置于底部。",
+                "hold_seconds": 9,
+                "blocks": [
+                  {
+                    "text": "从展厅入口到手中的画册，我们用中文讲解，英文字幕对应翻译。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "From the exhibition entrance to the brochure in hand: Chinese narration with corresponding English subtitles.",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "介绍产品提供横屏和竖屏比例选项，以两种构图示意帮助理解。",
+                "visual": "并列展示两个构图示意框：横框装入展厅入口全景，竖框装入观众手持画册的画面。两个框依次显现后保留供观察，不模拟产品按钮或操作。",
+                "hold_seconds": 10,
+                "blocks": [
+                  {
+                    "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "The practice edition of Jianying offers landscape and portrait aspect ratio options.",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "用入口全景和画册近景演示两种构图各自关注的主体。",
+                "visual": "先展示横向入口全景，观众从门边进入；再切到竖向构图，观众翻开画册，镜头停在手与画册上。两段英文字幕随对应画面依次更换。",
+                "hold_seconds": 9,
+                "blocks": [
+                  {
+                    "text": "横向构图，看看入口全景。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "Landscape framing: a wide view of the entrance.",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "竖向构图，把视线放到手中的画册。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 2,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "Portrait framing: focus on the brochure in hand.",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 2,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "request": {
+            "topic": "介绍横竖屏比例选项，用中文旁白与对应英文屏幕翻译，明确区分两种语言的用途。不要宣称产品自带翻译功能。背景是展厅入口和画册。",
+            "audience": "中英双语展览观众",
+            "platform": "视频号",
+            "style": "清楚，克制",
+            "product_id": "demo-editor",
+            "duration_mode": "target",
+            "expression_mode": "creative",
+            "target_seconds": 30
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "4d182adc0e6aff40fee7d3c3f7dc9abc5495cb98d38a3865805e685cdb5afb80",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:2/block:1",
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01",
+                "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:2/block:2",
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01",
+                "text": "The practice edition of Jianying offers landscape and portrait aspect ratio options.",
+                "requires_semantic_review": true
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "展厅入口与画册：横竖屏怎么呈现"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "展厅入口中景，观众走近、停步，接过画册。镜头从入口标识缓慢移到手中的画册，英文字幕置于底部。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "从展厅入口到手中的画册，我们用中文讲解，英文字幕对应翻译。"
+              },
+              {
+                "location": "shot:1/block:2",
+                "text": "From the exhibition entrance to the brochure in hand: Chinese narration with corresponding English subtitles."
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "并列展示两个构图示意框：横框装入展厅入口全景，竖框装入观众手持画册的画面。两个框依次显现后保留供观察，不模拟产品按钮或操作。"
+              },
+              {
+                "location": "shot:2/block:1",
+                "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+              },
+              {
+                "location": "shot:2/block:2",
+                "text": "The practice edition of Jianying offers landscape and portrait aspect ratio options."
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "先展示横向入口全景，观众从门边进入；再切到竖向构图，观众翻开画册，镜头停在手与画册上。两段英文字幕随对应画面依次更换。"
+              },
+              {
+                "location": "shot:3/block:1",
+                "text": "横向构图，看看入口全景。"
+              },
+              {
+                "location": "shot:3/block:2",
+                "text": "Landscape framing: a wide view of the entrance."
+              },
+              {
+                "location": "shot:3/block:3",
+                "text": "竖向构图，把视线放到手中的画册。"
+              },
+              {
+                "location": "shot:3/block:4",
+                "text": "Portrait framing: focus on the brochure in hand."
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "4d182adc0e6aff40fee7d3c3f7dc9abc5495cb98d38a3865805e685cdb5afb80",
+            "shots": [
+              {
+                "shot": 1,
+                "estimated_seconds": 9.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 7.0,
+                    "voice_seconds": 7.0,
+                    "screen_read_seconds": 6.5,
+                    "display_seconds": 0,
+                    "estimated_seconds": 7.0
+                  }
+                ],
+                "tail_hold_seconds": 2.0
+              },
+              {
+                "shot": 2,
+                "estimated_seconds": 10.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 5.3,
+                    "voice_seconds": 5.0,
+                    "screen_read_seconds": 5.3,
+                    "display_seconds": 0,
+                    "estimated_seconds": 5.3
+                  }
+                ],
+                "tail_hold_seconds": 4.7
+              },
+              {
+                "shot": 3,
+                "estimated_seconds": 9.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 3.7,
+                    "voice_seconds": 3.0,
+                    "screen_read_seconds": 3.7,
+                    "display_seconds": 0,
+                    "estimated_seconds": 3.7
+                  },
+                  {
+                    "beat": 2,
+                    "start_seconds": 3.7,
+                    "end_seconds": 7.7,
+                    "voice_seconds": 4.0,
+                    "screen_read_seconds": 3.7,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.0
+                  }
+                ],
+                "tail_hold_seconds": 1.3
+              }
+            ],
+            "total_seconds": 28.0,
+            "target_seconds": 30,
+            "passed": true,
+            "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+            "is_estimate": true,
+            "duration_mode": "target",
+            "min_seconds": 27.0,
+            "max_seconds": 30,
+            "issue": null
+          }
+        },
+        "decision_basis": "当前稿已覆盖比例选项、展厅入口与画册场景，并区分中文旁白和英文屏幕翻译；检查本稿时长、规则及需求是否全部满足。",
+        "observation": {
+          "ok": true,
+          "script_hash": "4d182adc0e6aff40fee7d3c3f7dc9abc5495cb98d38a3865805e685cdb5afb80",
+          "request_hash": "3a7c9b5d428931bff018b608879d47e38987c37d31431430811402be8aad8a5d",
+          "passed": true,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "介绍横竖屏比例选项",
+              "verdict": "met",
+              "evidence": "第2镜介绍横屏和竖屏比例选项，并以两个构图框展示。"
+            },
+            {
+              "field": "topic",
+              "requirement": "用中文旁白与对应英文屏幕翻译",
+              "verdict": "met",
+              "evidence": "各镜voice块均为中文，screen块为对应英文，同beat同步呈现。"
+            },
+            {
+              "field": "topic",
+              "requirement": "明确区分两种语言的用途",
+              "verdict": "met",
+              "evidence": "第1镜明确说明“用中文讲解，英文字幕对应翻译”，实际声画分工一致。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不要宣称产品自带翻译功能。",
+              "verdict": "met",
+              "evidence": "翻译表述指向本视频的旁白与字幕安排，未宣称产品具备翻译能力。"
+            },
+            {
+              "field": "topic",
+              "requirement": "背景是展厅入口和画册。",
+              "verdict": "met",
+              "evidence": "第1镜展示展厅入口与接过画册，第3镜展示入口全景与翻开画册。"
+            },
+            {
+              "field": "audience",
+              "requirement": "中英双语展览观众",
+              "verdict": "met",
+              "evidence": "中文讲解配对应英文字幕，并使用展览入口和画册场景，适合双语展览观众。"
+            },
+            {
+              "field": "platform",
+              "requirement": "视频号",
+              "verdict": "met",
+              "evidence": "三镜短视频以具体场景和简短讲解介绍比例选项，适合视频号观看。"
+            },
+            {
+              "field": "style",
+              "requirement": "清楚，克制",
+              "verdict": "met",
+              "evidence": "第2镜直接陈述比例选项，第3镜以构图示例说明，无夸张效果承诺。"
+            }
+          ],
+          "summary": "当前稿落实了横竖屏介绍、中文旁白与英文字幕分工，以及展厅入口和画册场景，未暗示产品自带翻译功能。产品声明有资料支持，预计28秒，节奏合理。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "展厅入口与画册：横竖屏怎么呈现",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "标题交代场景与展示主题，不含产品能力承诺。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "展厅入口中景，观众走近、停步，接过画册。镜头从入口标识缓慢移到手中的画册，英文字幕置于底部。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于展览场景、人物动作及字幕拍摄安排。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "从展厅入口到手中的画册，我们用中文讲解，英文字幕对应翻译。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "说明本视频的语言安排，未将翻译归为产品功能。"
+            },
+            {
+              "location": "shot:1/block:2",
+              "text": "From the exhibition entrance to the brochure in hand: Chinese narration with corresponding English subtitles.",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "对应中文旁白，说明本视频采用中文讲解与英文字幕。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "并列展示两个构图示意框：横框装入展厅入口全景，竖框装入观众手持画册的画面。两个框依次显现后保留供观察，不模拟产品按钮或操作。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "仅安排横竖构图示意，不声称产品自动构图或提供具体操作界面。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "与P03.F1原文一致。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "The practice edition of Jianying offers landscape and portrait aspect ratio options.",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "准确翻译P03.F1的横竖屏比例选项，未新增能力。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "先展示横向入口全景，观众从门边进入；再切到竖向构图，观众翻开画册，镜头停在手与画册上。两段英文字幕随对应画面依次更换。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于构图、动作与字幕切换安排，不含产品自动化声明。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "横向构图，看看入口全景。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "引导观众观察当前横向示意画面。"
+            },
+            {
+              "location": "shot:3/block:2",
+              "text": "Landscape framing: a wide view of the entrance.",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "对应入口全景的构图说明，不承诺产品效果。"
+            },
+            {
+              "location": "shot:3/block:3",
+              "text": "竖向构图，把视线放到手中的画册。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "引导观众观察画册主体，未宣称产品自动聚焦。"
+            },
+            {
+              "location": "shot:3/block:4",
+              "text": "Portrait framing: focus on the brochure in hand.",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "对应中文的观看引导，语境中不表示自动对焦功能。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "第1镜9秒支撑走近、接画册与移镜；第2镜10秒包含5.3秒同步声画及两个构图框的观察时间；第3镜9秒按两拍展示入口与翻画册，停留有具体动作支撑。"
+          },
+          "expression_review_passed": true
+        },
+        "preflight_checks": [
+          {
+            "action": "estimate_duration",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "展厅入口与画册：横竖屏怎么呈现",
+                "shots": [
+                  {
+                    "purpose": "交代展览场景，并明确中文旁白与英文屏幕翻译的用途。",
+                    "visual": "展厅入口中景，观众走近、停步，接过画册。镜头从入口标识缓慢移到手中的画册，英文字幕置于底部。",
+                    "hold_seconds": 9,
+                    "blocks": [
+                      {
+                        "text": "从展厅入口到手中的画册，我们用中文讲解，英文字幕对应翻译。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "From the exhibition entrance to the brochure in hand: Chinese narration with corresponding English subtitles.",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "介绍产品提供横屏和竖屏比例选项，以两种构图示意帮助理解。",
+                    "visual": "并列展示两个构图示意框：横框装入展厅入口全景，竖框装入观众手持画册的画面。两个框依次显现后保留供观察，不模拟产品按钮或操作。",
+                    "hold_seconds": 10,
+                    "blocks": [
+                      {
+                        "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "The practice edition of Jianying offers landscape and portrait aspect ratio options.",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "用入口全景和画册近景演示两种构图各自关注的主体。",
+                    "visual": "先展示横向入口全景，观众从门边进入；再切到竖向构图，观众翻开画册，镜头停在手与画册上。两段英文字幕随对应画面依次更换。",
+                    "hold_seconds": 9,
+                    "blocks": [
+                      {
+                        "text": "横向构图，看看入口全景。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "Landscape framing: a wide view of the entrance.",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "竖向构图，把视线放到手中的画册。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 2,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "Portrait framing: focus on the brochure in hand.",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 2,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "target_seconds": 30,
+              "duration_mode": "target"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "4d182adc0e6aff40fee7d3c3f7dc9abc5495cb98d38a3865805e685cdb5afb80",
+              "shots": [
+                {
+                  "shot": 1,
+                  "estimated_seconds": 9.0,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 7.0,
+                      "voice_seconds": 7.0,
+                      "screen_read_seconds": 6.5,
+                      "display_seconds": 0,
+                      "estimated_seconds": 7.0
+                    }
+                  ],
+                  "tail_hold_seconds": 2.0
+                },
+                {
+                  "shot": 2,
+                  "estimated_seconds": 10.0,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 5.3,
+                      "voice_seconds": 5.0,
+                      "screen_read_seconds": 5.3,
+                      "display_seconds": 0,
+                      "estimated_seconds": 5.3
+                    }
+                  ],
+                  "tail_hold_seconds": 4.7
+                },
+                {
+                  "shot": 3,
+                  "estimated_seconds": 9.0,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 3.7,
+                      "voice_seconds": 3.0,
+                      "screen_read_seconds": 3.7,
+                      "display_seconds": 0,
+                      "estimated_seconds": 3.7
+                    },
+                    {
+                      "beat": 2,
+                      "start_seconds": 3.7,
+                      "end_seconds": 7.7,
+                      "voice_seconds": 4.0,
+                      "screen_read_seconds": 3.7,
+                      "display_seconds": 0,
+                      "estimated_seconds": 4.0
+                    }
+                  ],
+                  "tail_hold_seconds": 1.3
+                }
+              ],
+              "total_seconds": 28.0,
+              "target_seconds": 30,
+              "passed": true,
+              "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+              "is_estimate": true,
+              "duration_mode": "target",
+              "min_seconds": 27.0,
+              "max_seconds": 30,
+              "issue": null
+            }
+          },
+          {
+            "action": "check_rules",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "展厅入口与画册：横竖屏怎么呈现",
+                "shots": [
+                  {
+                    "purpose": "交代展览场景，并明确中文旁白与英文屏幕翻译的用途。",
+                    "visual": "展厅入口中景，观众走近、停步，接过画册。镜头从入口标识缓慢移到手中的画册，英文字幕置于底部。",
+                    "hold_seconds": 9,
+                    "blocks": [
+                      {
+                        "text": "从展厅入口到手中的画册，我们用中文讲解，英文字幕对应翻译。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "From the exhibition entrance to the brochure in hand: Chinese narration with corresponding English subtitles.",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "介绍产品提供横屏和竖屏比例选项，以两种构图示意帮助理解。",
+                    "visual": "并列展示两个构图示意框：横框装入展厅入口全景，竖框装入观众手持画册的画面。两个框依次显现后保留供观察，不模拟产品按钮或操作。",
+                    "hold_seconds": 10,
+                    "blocks": [
+                      {
+                        "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "The practice edition of Jianying offers landscape and portrait aspect ratio options.",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "用入口全景和画册近景演示两种构图各自关注的主体。",
+                    "visual": "先展示横向入口全景，观众从门边进入；再切到竖向构图，观众翻开画册，镜头停在手与画册上。两段英文字幕随对应画面依次更换。",
+                    "hold_seconds": 9,
+                    "blocks": [
+                      {
+                        "text": "横向构图，看看入口全景。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "Landscape framing: a wide view of the entrance.",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "竖向构图，把视线放到手中的画册。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 2,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "Portrait framing: focus on the brochure in hand.",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 2,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "retrieved_ids": [
+                "P02",
+                "P03"
+              ],
+              "expression_mode": "creative"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "4d182adc0e6aff40fee7d3c3f7dc9abc5495cb98d38a3865805e685cdb5afb80",
+              "passed": true,
+              "issues": [],
+              "citations": [
+                {
+                  "location": "shot:2/block:1",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1",
+                  "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "version": "2026-11-01",
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:2/block:2",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1",
+                  "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "version": "2026-11-01",
+                  "text": "The practice edition of Jianying offers landscape and portrait aspect ratio options.",
+                  "requires_semantic_review": true
+                }
+              ],
+              "rules_version": "2026-11-03-v1",
+              "requires_expression_review": true,
+              "expression_slots": [
+                {
+                  "location": "title",
+                  "text": "展厅入口与画册：横竖屏怎么呈现"
+                },
+                {
+                  "location": "shot:1/visual",
+                  "text": "展厅入口中景，观众走近、停步，接过画册。镜头从入口标识缓慢移到手中的画册，英文字幕置于底部。"
+                },
+                {
+                  "location": "shot:1/block:1",
+                  "text": "从展厅入口到手中的画册，我们用中文讲解，英文字幕对应翻译。"
+                },
+                {
+                  "location": "shot:1/block:2",
+                  "text": "From the exhibition entrance to the brochure in hand: Chinese narration with corresponding English subtitles."
+                },
+                {
+                  "location": "shot:2/visual",
+                  "text": "并列展示两个构图示意框：横框装入展厅入口全景，竖框装入观众手持画册的画面。两个框依次显现后保留供观察，不模拟产品按钮或操作。"
+                },
+                {
+                  "location": "shot:2/block:1",
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+                },
+                {
+                  "location": "shot:2/block:2",
+                  "text": "The practice edition of Jianying offers landscape and portrait aspect ratio options."
+                },
+                {
+                  "location": "shot:3/visual",
+                  "text": "先展示横向入口全景，观众从门边进入；再切到竖向构图，观众翻开画册，镜头停在手与画册上。两段英文字幕随对应画面依次更换。"
+                },
+                {
+                  "location": "shot:3/block:1",
+                  "text": "横向构图，看看入口全景。"
+                },
+                {
+                  "location": "shot:3/block:2",
+                  "text": "Landscape framing: a wide view of the entrance."
+                },
+                {
+                  "location": "shot:3/block:3",
+                  "text": "竖向构图，把视线放到手中的画册。"
+                },
+                {
+                  "location": "shot:3/block:4",
+                  "text": "Portrait framing: focus on the brochure in hand."
+                }
+              ],
+              "available_facts": [
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1",
+                  "quote": "剪影练习版支持裁剪视频片段。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1",
+                  "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "version": "2026-11-01"
+                }
+              ],
+              "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+            }
+          }
+        ],
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a79a-ce18-7ec1-85e0-ed3c7d99ecd9",
+          "usage": {
+            "input_tokens": 28387,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 76,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-mu2r4qjs",
+          "warnings": []
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a79a-fe19-7a12-b6fb-7b24ee74aa5e",
+          "usage": {
+            "input_tokens": 29324,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1374,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-3o_qacod",
+          "warnings": []
+        },
+        "elapsed_ms": 52843
+      },
+      {
+        "step": 4,
+        "action": "finish",
+        "arguments": {
+          "status": "completed",
+          "message": "已完成3镜脚本，预计28秒：以展厅入口和画册展示横竖屏比例选项，采用中文旁白与对应英文屏幕字幕，未宣称产品自带翻译功能。全部检查通过。"
+        },
+        "decision_basis": "当前同一稿的时长、规则和需求检查均已通过，可完成交付。",
+        "observation": {
+          "ok": true,
+          "status": "completed",
+          "script_hash": "4d182adc0e6aff40fee7d3c3f7dc9abc5495cb98d38a3865805e685cdb5afb80"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a79b-9a69-7eb2-bf2f-82d8f9f8b824",
+          "usage": {
+            "input_tokens": 31518,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 103,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-m6736g8q",
+          "warnings": []
+        },
+        "elapsed_ms": 17562
+      }
+    ],
+    "metadata": {
+      "started_at": "2026-11-04T17:27:23.180953+00:00",
+      "finished_at": "2026-11-04T17:29:32.081539+00:00",
+      "provider": "codex",
+      "evidence_kind": "real_model",
+      "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+      "max_steps": 12,
+      "steps": 4,
+      "synthetic_data": true,
+      "completion_policy": "facts_duration_requirements_v6",
+      "requirements_review_context": "current_rules_and_duration_v2",
+      "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+      "model_responses": 5,
+      "run_id": "3f5a179e288d4a669055e1e8c82be291",
+      "persistence": "checkpoint_v1",
+      "fault_injection": {}
+    }
+  }
+}

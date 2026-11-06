@@ -1,0 +1,25 @@
+{
+  "status": "needs_input",
+  "message": "目前可确定25秒内的分镜方向：通勤路过门店→新品展示→周末到店邀请。完成脚本还需至少一款新品的名称，以及已确认的口味、主要原料或其他特点；价格仅在需要展示时补充。",
+  "script": null,
+  "duration": null,
+  "rules_check": null,
+  "requirements_check": null,
+  "sources": [],
+  "metadata": {
+    "started_at": "2026-11-04T16:02:22.959977+00:00",
+    "finished_at": "2026-11-04T16:03:38.125762+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 2,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v5",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+    "model_responses": 2,
+    "run_id": "f9243f6f1c5e442cb5e36a729fe07812",
+    "persistence": "checkpoint_v1"
+  }
+}

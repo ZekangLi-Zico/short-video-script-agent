@@ -1,0 +1,13 @@
+{
+  "case": "V38",
+  "index": 37,
+  "attempt": 1,
+  "run_id": "2dc9991c2653493f9c49ca6ba8de5280",
+  "folder": "V38",
+  "status": "needs_input",
+  "steps": 3,
+  "responses": 3,
+  "provider": "codex",
+  "seconds": null,
+  "message": "现有资料仅确认可添加字幕和手动编辑字幕文字，无法判断是否支持导出独立SRT文件，不能据此编写操作说明。请将对应版本的SRT导出支持说明、具体操作步骤及跨软件交接限制交给项目维护者补充。脚本尚未生成；缺少资料不代表产品不支持。"
+}

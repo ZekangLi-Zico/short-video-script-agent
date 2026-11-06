@@ -1,0 +1,786 @@
+{
+  "status": "completed",
+  "message": "已完成5镜悬疑短片脚本，预计26秒。从同乡闲聊转为来电暴露身份，结尾停在掏枪与陈峥察觉危险的一刻。标题歧义已修正，全部检查通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "format_version": 2,
+    "title": "楼道遇同乡，一通电话变了脸",
+    "shots": [
+      {
+        "purpose": "贺振坤先搭话，陈峥听见乡音松弛下来；对白依次为贺、陈。",
+        "visual": "楼道中两人相遇停步。贺振坤笑着搭话，陈峥原本紧绷的肩膀慢慢放下，抬眼露出笑意。保留轻微楼道生活杂音。",
+        "hold_seconds": 6,
+        "blocks": [
+          {
+            "text": "听你这口音，河北的？",
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F2",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "是啊，你也是？",
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F2",
+            "channel": "voice",
+            "beat": 2,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "同乡闲聊让陈峥难得放松；对白依次为贺、陈。",
+        "visual": "贺振坤点头，随意靠着墙。陈峥侧身与他闲聊，笑容舒展开，语速放缓；两人之间没有戒备动作。",
+        "hold_seconds": 7,
+        "blocks": [
+          {
+            "text": "那可不，听着亲吧？",
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F2",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "亲！好久没听着这口音了。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "voice",
+            "beat": 2,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "铃声打断闲聊，陈峥正常接听赤锋来电；对白为陈峥。",
+        "visual": "手机铃声突然响起。陈峥仍带笑，向贺振坤示意后接起，将手机贴在耳边。镜头保持两人同处楼道，不展示开启免提的动作。",
+        "hold_seconds": 3,
+        "blocks": [
+          {
+            "text": "喂，赤锋？",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "赤锋在电话中过大的声音泄露贺振坤身份，被本人听见。",
+        "visual": "电话里的赤锋声音突然拔高，清楚漏进安静楼道。陈峥笑容僵住；焦点转向身后的贺振坤，他也收起笑容，目光钉住手机。",
+        "hold_seconds": 6,
+        "blocks": [
+          {
+            "text": "陈峥！贺振坤是劫匪，离他远点！",
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F3",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "贺振坤掏枪，陈峥意识到危险；对白为贺振坤，片段到此结束。",
+        "visual": "贺振坤盯着陈峥，手探入衣内，伴随衣料摩擦声掏出枪。陈峥手机仍贴耳，视线落向枪，笑意彻底消失，呼吸一滞。枪刚抬起即切黑，不展示脱身或后续挟持。",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "听见了？",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      }
+    ],
+    "editor_notes": "已将标题改为“楼道遇同乡，一通电话变了脸”，消除将电话中的赤锋误指为劫匪的歧义；正文保持不变。"
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "20a338a36830e195a249e9eb7e7352be2d0eceb20d9ebbc3d78be36fbc73d4ac",
+    "shots": [
+      {
+        "shot": 1,
+        "estimated_seconds": 6.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 2.5,
+            "voice_seconds": 2.5,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 2.5
+          },
+          {
+            "beat": 2,
+            "start_seconds": 2.5,
+            "end_seconds": 4.3,
+            "voice_seconds": 1.75,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 1.8
+          }
+        ],
+        "tail_hold_seconds": 1.7
+      },
+      {
+        "shot": 2,
+        "estimated_seconds": 7.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 2.3,
+            "voice_seconds": 2.25,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 2.3
+          },
+          {
+            "beat": 2,
+            "start_seconds": 2.3,
+            "end_seconds": 5.3,
+            "voice_seconds": 3.0,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 3.0
+          }
+        ],
+        "tail_hold_seconds": 1.7
+      },
+      {
+        "shot": 3,
+        "estimated_seconds": 3.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 1.3,
+            "voice_seconds": 1.25,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 1.3
+          }
+        ],
+        "tail_hold_seconds": 1.7
+      },
+      {
+        "shot": 4,
+        "estimated_seconds": 6.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 3.5,
+            "voice_seconds": 3.5,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 3.5
+          }
+        ],
+        "tail_hold_seconds": 2.5
+      },
+      {
+        "shot": 5,
+        "estimated_seconds": 4.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 1.3,
+            "voice_seconds": 1.25,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 1.3
+          }
+        ],
+        "tail_hold_seconds": 2.7
+      }
+    ],
+    "total_seconds": 26.0,
+    "target_seconds": 30,
+    "passed": true,
+    "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "20a338a36830e195a249e9eb7e7352be2d0eceb20d9ebbc3d78be36fbc73d4ac",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:1/block:1",
+        "source_id": "CZ-E04",
+        "fact_id": "CZ-E04.F2",
+        "quote": "陈峥在楼道遇见河北同乡贺振坤，因熟悉的乡音放松警惕，两人原本自然交谈。",
+        "version": "2026-11-06-v1",
+        "text": "听你这口音，河北的？",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:1/block:2",
+        "source_id": "CZ-E04",
+        "fact_id": "CZ-E04.F2",
+        "quote": "陈峥在楼道遇见河北同乡贺振坤，因熟悉的乡音放松警惕，两人原本自然交谈。",
+        "version": "2026-11-06-v1",
+        "text": "是啊，你也是？",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:2/block:1",
+        "source_id": "CZ-E04",
+        "fact_id": "CZ-E04.F2",
+        "quote": "陈峥在楼道遇见河北同乡贺振坤，因熟悉的乡音放松警惕，两人原本自然交谈。",
+        "version": "2026-11-06-v1",
+        "text": "那可不，听着亲吧？",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:4/block:1",
+        "source_id": "CZ-E04",
+        "fact_id": "CZ-E04.F3",
+        "quote": "赤锋打来电话，声音过大，揭出贺振坤是劫匪的身份，被贺振坤听见；不是陈峥故意开免提暴露他。",
+        "version": "2026-11-06-v1",
+        "text": "陈峥！贺振坤是劫匪，离他远点！",
+        "requires_semantic_review": true
+      }
+    ],
+    "rules_version": "city-drama-2026-11-06-v1",
+    "material_kind": "narrative",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "楼道遇同乡，一通电话变了脸"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "楼道中两人相遇停步。贺振坤笑着搭话，陈峥原本紧绷的肩膀慢慢放下，抬眼露出笑意。保留轻微楼道生活杂音。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "听你这口音，河北的？"
+      },
+      {
+        "location": "shot:1/block:2",
+        "text": "是啊，你也是？"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "贺振坤点头，随意靠着墙。陈峥侧身与他闲聊，笑容舒展开，语速放缓；两人之间没有戒备动作。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "那可不，听着亲吧？"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "亲！好久没听着这口音了。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "手机铃声突然响起。陈峥仍带笑，向贺振坤示意后接起，将手机贴在耳边。镜头保持两人同处楼道，不展示开启免提的动作。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "喂，赤锋？"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "电话里的赤锋声音突然拔高，清楚漏进安静楼道。陈峥笑容僵住；焦点转向身后的贺振坤，他也收起笑容，目光钉住手机。"
+      },
+      {
+        "location": "shot:4/block:1",
+        "text": "陈峥！贺振坤是劫匪，离他远点！"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "贺振坤盯着陈峥，手探入衣内，伴随衣料摩擦声掏出枪。陈峥手机仍贴耳，视线落向枪，笑意彻底消失，呼吸一滞。枪刚抬起即切黑，不展示脱身或后续挟持。"
+      },
+      {
+        "location": "shot:5/block:1",
+        "text": "听见了？"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "CZ-E04",
+        "fact_id": "CZ-E04.F1",
+        "quote": "火锅摊上，阿晴因泼汤受到鼻环男刁难；陈峥及时替她解围，赤锋压住其余人的挑衅，陈峥事后仍受病弱影响。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E04",
+        "fact_id": "CZ-E04.F2",
+        "quote": "陈峥在楼道遇见河北同乡贺振坤，因熟悉的乡音放松警惕，两人原本自然交谈。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E04",
+        "fact_id": "CZ-E04.F3",
+        "quote": "赤锋打来电话，声音过大，揭出贺振坤是劫匪的身份，被贺振坤听见；不是陈峥故意开免提暴露他。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E04",
+        "fact_id": "CZ-E04.F4",
+        "quote": "贺振坤以枪挟持陈峥。阿晴路过时，陈峥借口让她去街口买糖，将她支离危险区域，然后独自面对困局。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-C-SUPPORT",
+        "fact_id": "CZ-C-SUPPORT.F1",
+        "quote": "梁宁是国术协会理事，梁振山的孙女；杜叔随她来访。貘是另一神秘引路者，借杜叔外形试探陈峥，不能把真正杜叔当作怪物。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-C-SUPPORT",
+        "fact_id": "CZ-C-SUPPORT.F2",
+        "quote": "花衫七是小韩所在势力的前辈，保护自己的拳手；方绍钧是总探长，赵仲衡是城寨治安委员，两者身份不同。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-C-SUPPORT",
+        "fact_id": "CZ-C-SUPPORT.F3",
+        "quote": "贺振坤又称阿坤、坤哥，是河北同乡和劫匪头目；郭劲、小伍、未具名同伙组成另外三人。潘叔是医馆医生。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-C-SUPPORT",
+        "fact_id": "CZ-C-SUPPORT.F4",
+        "quote": "太子乐本名杜承乐，其父杜伯衡；王水本名邓振武。邵世荣是新街一方的豪强，阿康是其女婿；许敬堂又称许叔。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-S-HOME",
+        "fact_id": "CZ-S-HOME.F1",
+        "quote": "陈峥城寨住处有床、桌、门、窗，夜间台灯照明，次日下午以窗外日光为主；同一房间布局随时间连续。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-S-HOME",
+        "fact_id": "CZ-S-HOME.F2",
+        "quote": "陈峥与阿晴住在同一楼道。第八集送饭发生在陈峥门口，阿晴家门缝透出烛光；插入镜头只看门外，不揭开屋内秘密。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-S-HOME",
+        "fact_id": "CZ-S-HOME.F3",
+        "quote": "送饭段的可拍动作是递饭、接稳、看门缝、问话、拒绝与道别；餐盒持续在陈峥手中，不需要额外惊悚事件。",
+        "version": "2026-11-06-v1"
+      }
+    ],
+    "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "20a338a36830e195a249e9eb7e7352be2d0eceb20d9ebbc3d78be36fbc73d4ac",
+    "request_hash": "f646c61c69eb027446d6b506969fab597fc290fee6912d10a78f6e508c10bb21",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "把第四集陈峥在楼道遇见贺振坤这一段，改成一条30秒的悬疑剧情短片。",
+        "verdict": "met",
+        "evidence": "五镜呈现楼道相遇、来电泄露身份及掏枪，宿主估算26秒，通过30秒上限检查。"
+      },
+      {
+        "field": "topic",
+        "requirement": "开头是两个河北同乡随口聊天",
+        "verdict": "met",
+        "evidence": "第1—2镜以“河北的？”“是啊，你也是？”和乡音闲聊建立同乡关系。"
+      },
+      {
+        "field": "topic",
+        "requirement": "让人感觉陈峥难得放松下来",
+        "verdict": "met",
+        "evidence": "第1—2镜陈峥肩膀放下、笑容舒展，并说“亲！好久没听着这口音了。”"
+      },
+      {
+        "field": "topic",
+        "requirement": "赤锋的电话打来后，气氛突然变了。",
+        "verdict": "met",
+        "evidence": "第3镜铃声打断闲聊，第4镜赤锋揭露劫匪身份，两人随即收起笑容。"
+      },
+      {
+        "field": "topic",
+        "requirement": "结尾停在贺振坤掏枪、陈峥意识到危险的那一刻。",
+        "verdict": "met",
+        "evidence": "第5镜掏枪后陈峥视线落向枪、呼吸一滞，枪刚抬起即切黑。"
+      },
+      {
+        "field": "topic",
+        "requirement": "用人物对白、表情和声音推动这次转折",
+        "verdict": "met",
+        "evidence": "同乡对白与笑容铺垫松弛，铃声、电话警告、僵住的表情和衣料摩擦声推动转折。"
+      },
+      {
+        "field": "topic",
+        "requirement": "让观众想接着看他怎么脱身。",
+        "verdict": "met",
+        "evidence": "第5镜在枪口威胁出现时切黑，保留陈峥如何脱身的悬念。"
+      },
+      {
+        "field": "audience",
+        "requirement": "第一次刷到这部漫剧、喜欢悬疑剧情的观众",
+        "verdict": "met",
+        "evidence": "对白先交代同乡关系，再明确“贺振坤是劫匪”，新观众可结合掏枪画面理解危险来源。"
+      },
+      {
+        "field": "platform",
+        "requirement": "抖音",
+        "verdict": "met",
+        "evidence": "26秒内完成相遇、身份揭露和危险悬停，情节集中，适合短视频观看。"
+      },
+      {
+        "field": "style",
+        "requirement": "前半段松弛自然，后半段骤然紧张",
+        "verdict": "met",
+        "evidence": "前两镜靠墙闲聊、舒展笑容，第3—5镜由突响铃声转入身份暴露与掏枪。"
+      },
+      {
+        "field": "style",
+        "requirement": "台词简短、有生活感。",
+        "verdict": "met",
+        "evidence": "“是啊，你也是？”“喂，赤锋？”等短句自然衔接，电话警告明确交代紧张转折的原因。"
+      }
+    ],
+    "summary": "当前稿落实了同乡闲聊到电话暴露身份的转折，并停在掏枪危险出现的一刻。剧情依据、受众适配和节奏均通过，预计26秒，符合30秒上限。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "楼道遇同乡，一通电话变了脸",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F2"
+          },
+          {
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F3"
+          }
+        ],
+        "evidence": "概括楼道同乡相遇和来电暴露身份引发的情绪转折，未改变人物身份。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "楼道中两人相遇停步。贺振坤笑着搭话，陈峥原本紧绷的肩膀慢慢放下，抬眼露出笑意。保留轻微楼道生活杂音。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F2"
+          }
+        ],
+        "evidence": "楼道相遇及陈峥放松警惕有依据，肩膀和笑意是对应情绪的表演安排。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "听你这口音，河北的？",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F2"
+          }
+        ],
+        "evidence": "对白符合河北同乡因乡音自然交谈的既定情境。"
+      },
+      {
+        "location": "shot:1/block:2",
+        "text": "是啊，你也是？",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F2"
+          }
+        ],
+        "evidence": "确认同乡身份，与所标来源中的人物关系一致。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "贺振坤点头，随意靠着墙。陈峥侧身与他闲聊，笑容舒展开，语速放缓；两人之间没有戒备动作。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F2"
+          }
+        ],
+        "evidence": "自然闲聊和放松警惕有依据，靠墙、侧身等动作未新增剧情关系或结果。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "那可不，听着亲吧？",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F2"
+          }
+        ],
+        "evidence": "承接河北同乡问答，乡音亲切感符合原文支持的放松情境。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "亲！好久没听着这口音了。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于既定乡音情境中的生活化感慨，不新增关键经历、关系或剧情结果。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "手机铃声突然响起。陈峥仍带笑，向贺振坤示意后接起，将手机贴在耳边。镜头保持两人同处楼道，不展示开启免提的动作。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F2"
+          },
+          {
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F3"
+          }
+        ],
+        "evidence": "承接楼道闲聊和赤锋来电，正常贴耳接听保留了非故意开免提的原始因果。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "喂，赤锋？",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F3"
+          }
+        ],
+        "evidence": "接听时称呼赤锋，与资料中的来电者身份一致。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "电话里的赤锋声音突然拔高，清楚漏进安静楼道。陈峥笑容僵住；焦点转向身后的贺振坤，他也收起笑容，目光钉住手机。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F3"
+          }
+        ],
+        "evidence": "声音过大并被贺振坤听见有明确依据，表情及转焦用于呈现身份暴露后的反应。"
+      },
+      {
+        "location": "shot:4/block:1",
+        "text": "陈峥！贺振坤是劫匪，离他远点！",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F3"
+          }
+        ],
+        "evidence": "赤锋揭露贺振坤劫匪身份由原文支持，警告语符合该情境。"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "贺振坤盯着陈峥，手探入衣内，伴随衣料摩擦声掏出枪。陈峥手机仍贴耳，视线落向枪，笑意彻底消失，呼吸一滞。枪刚抬起即切黑，不展示脱身或后续挟持。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F3"
+          },
+          {
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F4"
+          }
+        ],
+        "evidence": "来电暴露身份后出现枪支威胁符合原文，掏枪动作与惊惧表演未改写结果或提前展开后续。"
+      },
+      {
+        "location": "shot:5/block:1",
+        "text": "听见了？",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于身份暴露后符合情境的原创问句，未增加新的剧情事实。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "第1—2镜各6、7秒容纳双人问答与放松表情；第3镜3秒支撑铃声接听，第4镜6秒支撑警告和双方变脸，第5镜4秒支撑掏枪、察觉危险及切黑，停留均有动作或情绪内容。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "CZ-E04",
+      "product_id": "city-drama",
+      "title": "第4集·危险的同乡",
+      "version": "2026-11-06-v1",
+      "category": "分集剧情",
+      "keywords": [
+        "CZ-E04",
+        "第4集·危险的同乡",
+        "第4集",
+        "危险的同乡",
+        "阿晴",
+        "贺振坤",
+        "同乡",
+        "电话",
+        "枪口",
+        "火锅"
+      ],
+      "facts": [
+        {
+          "id": "CZ-E04.F1",
+          "text": "火锅摊上，阿晴因泼汤受到鼻环男刁难；陈峥及时替她解围，赤锋压住其余人的挑衅，陈峥事后仍受病弱影响。"
+        },
+        {
+          "id": "CZ-E04.F2",
+          "text": "陈峥在楼道遇见河北同乡贺振坤，因熟悉的乡音放松警惕，两人原本自然交谈。"
+        },
+        {
+          "id": "CZ-E04.F3",
+          "text": "赤锋打来电话，声音过大，揭出贺振坤是劫匪的身份，被贺振坤听见；不是陈峥故意开免提暴露他。"
+        },
+        {
+          "id": "CZ-E04.F4",
+          "text": "贺振坤以枪挟持陈峥。阿晴路过时，陈峥借口让她去街口买糖，将她支离危险区域，然后独自面对困局。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S01",
+          "start_line": 163,
+          "end_line": 212
+        },
+        {
+          "source": "S03",
+          "start_line": 51,
+          "end_line": 59
+        }
+      ]
+    },
+    {
+      "id": "CZ-C-SUPPORT",
+      "product_id": "city-drama",
+      "title": "其他主要人物与关系",
+      "version": "2026-11-06-v1",
+      "category": "人物关系",
+      "keywords": [
+        "CZ-C-SUPPORT",
+        "其他主要人物与关系",
+        "梁宁",
+        "杜叔",
+        "貘",
+        "花衫七",
+        "方绍钧",
+        "赵仲衡",
+        "贺振坤",
+        "潘叔",
+        "太子乐",
+        "邵世荣",
+        "王水",
+        "许敬堂"
+      ],
+      "facts": [
+        {
+          "id": "CZ-C-SUPPORT.F1",
+          "text": "梁宁是国术协会理事，梁振山的孙女；杜叔随她来访。貘是另一神秘引路者，借杜叔外形试探陈峥，不能把真正杜叔当作怪物。"
+        },
+        {
+          "id": "CZ-C-SUPPORT.F2",
+          "text": "花衫七是小韩所在势力的前辈，保护自己的拳手；方绍钧是总探长，赵仲衡是城寨治安委员，两者身份不同。"
+        },
+        {
+          "id": "CZ-C-SUPPORT.F3",
+          "text": "贺振坤又称阿坤、坤哥，是河北同乡和劫匪头目；郭劲、小伍、未具名同伙组成另外三人。潘叔是医馆医生。"
+        },
+        {
+          "id": "CZ-C-SUPPORT.F4",
+          "text": "太子乐本名杜承乐，其父杜伯衡；王水本名邓振武。邵世荣是新街一方的豪强，阿康是其女婿；许敬堂又称许叔。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S02",
+          "start_line": 1,
+          "end_line": 90
+        },
+        {
+          "source": "S03",
+          "start_line": 21,
+          "end_line": 39
+        }
+      ]
+    },
+    {
+      "id": "CZ-S-HOME",
+      "product_id": "city-drama",
+      "title": "城寨住处与阿晴楼道",
+      "version": "2026-11-06-v1",
+      "category": "场景",
+      "keywords": [
+        "CZ-S-HOME",
+        "城寨住处与阿晴楼道",
+        "住处",
+        "楼道",
+        "烛光",
+        "门缝",
+        "送饭",
+        "台灯"
+      ],
+      "facts": [
+        {
+          "id": "CZ-S-HOME.F1",
+          "text": "陈峥城寨住处有床、桌、门、窗，夜间台灯照明，次日下午以窗外日光为主；同一房间布局随时间连续。"
+        },
+        {
+          "id": "CZ-S-HOME.F2",
+          "text": "陈峥与阿晴住在同一楼道。第八集送饭发生在陈峥门口，阿晴家门缝透出烛光；插入镜头只看门外，不揭开屋内秘密。"
+        },
+        {
+          "id": "CZ-S-HOME.F3",
+          "text": "送饭段的可拍动作是递饭、接稳、看门缝、问话、拒绝与道别；餐盒持续在陈峥手中，不需要额外惊悚事件。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S06",
+          "start_line": 23,
+          "end_line": 63
+        },
+        {
+          "source": "S08",
+          "start_line": 48,
+          "end_line": 68
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "app_version": "v7.2-call-reliability",
+    "started_at": "2026-11-05T19:26:52.889930+00:00",
+    "finished_at": "2026-11-05T19:34:29.919896+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "5d865600d50d103f98dc820f7ba7505232f2991b7eda6b008e02601df670bf25",
+    "max_steps": 12,
+    "steps": 7,
+    "synthetic_data": false,
+    "completion_policy": "facts_duration_requirements_v6",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+    "model_responses": 9,
+    "run_id": "0c92429f06544bcc9f798bbb3944c97d",
+    "persistence": "checkpoint_v1"
+  }
+}

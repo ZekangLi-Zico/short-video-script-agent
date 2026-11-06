@@ -1,0 +1,116 @@
+{
+  "status": "completed",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "从一段记录开始",
+    "shots": [
+      {
+        "visual": "日常生活素材蒙太奇",
+        "hold_seconds": 3.5,
+        "blocks": [
+          {
+            "text": "从一段日常记录开始。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "产品功能文字卡片，不展示未经提供的界面",
+        "hold_seconds": 6,
+        "blocks": [
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ]
+      },
+      {
+        "visual": "简洁背景展示结尾文字",
+        "hold_seconds": 3.5,
+        "blocks": [
+          {
+            "text": "试试你的下一条短片吧。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "6025cc3c180005cd9b0293c4cb886ea93ea543de907e4e55ede0ba3fa5cfccc3",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 9,
+        "estimated_seconds": 3.5
+      },
+      {
+        "shot": 2,
+        "speech_units": 13,
+        "estimated_seconds": 6.0
+      },
+      {
+        "shot": 3,
+        "speech_units": 10,
+        "estimated_seconds": 3.5
+      }
+    ],
+    "total_seconds": 13.0,
+    "target_seconds": 15,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "6025cc3c180005cd9b0293c4cb886ea93ea543de907e4e55ede0ba3fa5cfccc3",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1"
+  },
+  "sources": [
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T13:58:11.073692+00:00",
+    "finished_at": "2026-11-03T13:59:35.024219+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 5,
+    "synthetic_data": true,
+    "model_responses": 5
+  }
+}

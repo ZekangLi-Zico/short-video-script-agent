@@ -1,0 +1,13 @@
+{
+  "case": "V26",
+  "index": 25,
+  "attempt": 1,
+  "run_id": "85c5751822694859be6844699dbee105",
+  "folder": "V26",
+  "status": "completed",
+  "steps": 4,
+  "responses": 5,
+  "provider": "codex",
+  "seconds": 4,
+  "message": "已完成约4秒单镜脚本：画面为“开讲”卡片，旁白仅介绍剪影练习版支持为视频添加字幕。全部检查通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

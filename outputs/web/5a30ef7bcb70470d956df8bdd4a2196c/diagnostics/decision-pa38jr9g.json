@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-pa38jr9g",
+  "started_at": "2026-11-03T22:00:26.692948+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:00:39.211255+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a36d-8a38-7281-adea-727b97a791eb",
+    "usage": {
+      "input_tokens": 28947,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 172,
+      "reasoning_output_tokens": 118
+    },
+    "call_id": "decision-pa38jr9g",
+    "warnings": []
+  }
+}

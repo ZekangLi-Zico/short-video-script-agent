@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-nq70b2oh",
+  "started_at": "2026-11-04T01:00:34.800566+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:00:50.486460+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a412-74dc-7a92-bead-c3b49b6808d8",
+    "usage": {
+      "input_tokens": 31183,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 119,
+      "reasoning_output_tokens": 54
+    },
+    "call_id": "decision-nq70b2oh",
+    "warnings": []
+  }
+}

@@ -1,0 +1,1457 @@
+{
+  "format": "checkpoint_v1",
+  "recorded_at": "2026-11-04T15:36:16.547817+00:00",
+  "last_event": {
+    "kind": "step",
+    "step": 6
+  },
+  "result": {
+    "status": "in_progress",
+    "message": "任务执行中，尚未完成。",
+    "script": {
+      "format_version": 2,
+      "title": "把想法放进画面",
+      "shots": [
+        {
+          "purpose": "介绍产品提供的横屏与竖屏比例选项，并建立展厅场景。",
+          "visual": "观众走到展厅入口，停下并拿起画册。叠加横向、竖向两个简洁画框示意，不展示产品界面。中文仅作旁白，英文译文由制作者后期叠加在屏幕下方。",
+          "hold_seconds": 8,
+          "blocks": [
+            {
+              "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "The editor offers landscape and portrait aspect ratio options.",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "channel": "screen",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "用展厅入口展示横向构图的具体拍摄安排。",
+          "visual": "展示横向构图的拍摄示意：镜头从入口中央缓慢拉远，将门口与两侧展墙纳入画面；观众拿着画册走到入口旁停下。中文旁白配对应英文屏幕译文。",
+          "hold_seconds": 9.5,
+          "blocks": [
+            {
+              "text": "这一镜，用横向构图，把展厅入口和两侧展墙一起放进画面。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "For this shot, use a landscape composition to frame the exhibition entrance and the walls on both sides.",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "screen",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "将注意力转向画册，用竖向构图展示封面与翻页动作。",
+          "visual": "切到竖向构图的画册近景：双手先展示封面，再打开画册、翻过一页，手指停在页内图片旁。保留完整动作供观众观察。中文旁白配对应英文屏幕译文。",
+          "hold_seconds": 10.5,
+          "blocks": [
+            {
+              "text": "再用竖向构图，拍下手中的画册，从展示封面，到打开、翻页。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "Then use a portrait composition to film the brochure in hand: show its cover, open it, and turn a page.",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "screen",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        }
+      ],
+      "editor_notes": ""
+    },
+    "duration": {
+      "ok": true,
+      "script_hash": "d16ab15552bfdfed77af9c66b4fdb7aee3b414aae6083088818f22bb85267c7d",
+      "shots": [
+        {
+          "shot": 1,
+          "estimated_seconds": 8.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 5.0,
+              "voice_seconds": 5.0,
+              "screen_read_seconds": 4.1,
+              "display_seconds": 0,
+              "estimated_seconds": 5.0
+            }
+          ],
+          "tail_hold_seconds": 3.0
+        },
+        {
+          "shot": 2,
+          "estimated_seconds": 9.5,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 7.7,
+              "voice_seconds": 6.5,
+              "screen_read_seconds": 7.7,
+              "display_seconds": 0,
+              "estimated_seconds": 7.7
+            }
+          ],
+          "tail_hold_seconds": 1.8
+        },
+        {
+          "shot": 3,
+          "estimated_seconds": 10.5,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 8.5,
+              "voice_seconds": 6.25,
+              "screen_read_seconds": 8.5,
+              "display_seconds": 0,
+              "estimated_seconds": 8.5
+            }
+          ],
+          "tail_hold_seconds": 2.0
+        }
+      ],
+      "total_seconds": 28.0,
+      "target_seconds": 30,
+      "passed": true,
+      "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+      "is_estimate": true,
+      "duration_mode": "target",
+      "min_seconds": 27.0,
+      "max_seconds": 30,
+      "issue": null
+    },
+    "rules_check": {
+      "ok": true,
+      "script_hash": "d16ab15552bfdfed77af9c66b4fdb7aee3b414aae6083088818f22bb85267c7d",
+      "passed": true,
+      "issues": [],
+      "citations": [
+        {
+          "location": "shot:1/block:1",
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:1/block:2",
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01",
+          "text": "The editor offers landscape and portrait aspect ratio options.",
+          "requires_semantic_review": true
+        }
+      ],
+      "rules_version": "2026-11-03-v1",
+      "requires_expression_review": true,
+      "expression_slots": [
+        {
+          "location": "title",
+          "text": "把想法放进画面"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "观众走到展厅入口，停下并拿起画册。叠加横向、竖向两个简洁画框示意，不展示产品界面。中文仅作旁白，英文译文由制作者后期叠加在屏幕下方。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        },
+        {
+          "location": "shot:1/block:2",
+          "text": "The editor offers landscape and portrait aspect ratio options."
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "展示横向构图的拍摄示意：镜头从入口中央缓慢拉远，将门口与两侧展墙纳入画面；观众拿着画册走到入口旁停下。中文旁白配对应英文屏幕译文。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "这一镜，用横向构图，把展厅入口和两侧展墙一起放进画面。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "For this shot, use a landscape composition to frame the exhibition entrance and the walls on both sides."
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "切到竖向构图的画册近景：双手先展示封面，再打开画册、翻过一页，手指停在页内图片旁。保留完整动作供观众观察。中文旁白配对应英文屏幕译文。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "再用竖向构图，拍下手中的画册，从展示封面，到打开、翻页。"
+        },
+        {
+          "location": "shot:3/block:2",
+          "text": "Then use a portrait composition to film the brochure in hand: show its cover, open it, and turn a page."
+        }
+      ],
+      "available_facts": [
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01"
+        }
+      ],
+      "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+    },
+    "requirements_check": {
+      "ok": true,
+      "script_hash": "d16ab15552bfdfed77af9c66b4fdb7aee3b414aae6083088818f22bb85267c7d",
+      "request_hash": "3a7c9b5d428931bff018b608879d47e38987c37d31431430811402be8aad8a5d",
+      "passed": true,
+      "items": [
+        {
+          "field": "topic",
+          "requirement": "介绍横竖屏比例选项",
+          "verdict": "met",
+          "evidence": "第1镜旁白明确介绍“横屏和竖屏画面比例选项”，配横向、竖向画框示意；第2、3镜分别展示横向和竖向构图。"
+        },
+        {
+          "field": "topic",
+          "requirement": "用中文旁白",
+          "verdict": "met",
+          "evidence": "三镜的block:1均为中文，channel均为voice；没有英文旁白。"
+        },
+        {
+          "field": "topic",
+          "requirement": "对应英文屏幕翻译",
+          "verdict": "met",
+          "evidence": "三镜的block:2均为英文、channel为screen，与对应中文旁白同属beat:1。译文分别准确对应比例选项、入口横向构图和画册竖向拍摄。"
+        },
+        {
+          "field": "topic",
+          "requirement": "明确区分两种语言的用途",
+          "verdict": "met",
+          "evidence": "第1镜visual明确“中文仅作旁白，英文译文由制作者后期叠加在屏幕下方”；全部文案块实际按中文voice、英文screen分配。"
+        },
+        {
+          "field": "topic",
+          "requirement": "不要宣称产品自带翻译功能",
+          "verdict": "met",
+          "evidence": "全部公开文案均未宣称产品具有翻译功能；第1镜visual明确英文译文由制作者后期叠加。"
+        },
+        {
+          "field": "topic",
+          "requirement": "展厅入口",
+          "verdict": "met",
+          "evidence": "第1镜安排观众走到展厅入口；第2镜从入口中央缓慢拉远，展示门口与两侧展墙，旁白也明确提及展厅入口。"
+        },
+        {
+          "field": "topic",
+          "requirement": "画册",
+          "verdict": "met",
+          "evidence": "第1镜观众拿起画册，第2镜持画册停在入口旁，第3镜近景展示画册封面、打开和翻页动作。"
+        },
+        {
+          "field": "audience",
+          "requirement": "中英双语展览观众",
+          "verdict": "met",
+          "evidence": "中文旁白与对应英文屏幕译文同步呈现，展厅入口、展墙和画册构成明确的展览语境，两种语言均能传达主要内容。"
+        },
+        {
+          "field": "platform",
+          "requirement": "视频号",
+          "verdict": "met",
+          "evidence": "三镜围绕一个功能主题展开，声画对应且场景具体；宿主估算总长28秒，适合作为视频号短视频呈现。"
+        },
+        {
+          "field": "style",
+          "requirement": "清楚",
+          "verdict": "met",
+          "evidence": "第1镜说明两种比例选项，第2镜展示入口横向构图，第3镜展示画册竖向构图；语言用途、场景和镜头任务均明确。"
+        },
+        {
+          "field": "style",
+          "requirement": "克制",
+          "verdict": "met",
+          "evidence": "文案仅介绍比例选项与具体拍摄安排，没有夸张效果、用户背书、价格诱导或未经证实的自动化承诺。"
+        }
+      ],
+      "summary": "当前稿满足原始需求。中文旁白与英文屏幕译文逐镜对应，展厅入口和画册均有具体呈现，未宣称产品自带翻译功能。功能表述有来源支持，预计28秒，时长检查通过，镜头停留有动作支撑。",
+      "method": "model_assessment_not_deterministic_proof",
+      "expressions": [
+        {
+          "location": "title",
+          "text": "把想法放进画面",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于创意标题，没有声明具体产品能力或效果。"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "观众走到展厅入口，停下并拿起画册。叠加横向、竖向两个简洁画框示意，不展示产品界面。中文仅作旁白，英文译文由制作者后期叠加在屏幕下方。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "描述人物动作、画框示意及后期声画安排，没有虚构产品界面、操作步骤或翻译能力。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "与P03.F1原文完全一致，仅声明横屏和竖屏画面比例选项，没有增加能力或效果。"
+        },
+        {
+          "location": "shot:1/block:2",
+          "text": "The editor offers landscape and portrait aspect ratio options.",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "准确翻译P03.F1的横屏和竖屏画面比例选项；“The editor”承接同拍中文产品名，没有扩大功能范围。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "展示横向构图的拍摄示意：镜头从入口中央缓慢拉远，将门口与两侧展墙纳入画面；观众拿着画册走到入口旁停下。中文旁白配对应英文屏幕译文。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于摄影构图、镜头运动、演员动作和字幕安排，没有将拉远或构图描述为产品自动完成的功能。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "这一镜，用横向构图，把展厅入口和两侧展墙一起放进画面。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "描述当前展厅镜头的拍摄构图，不包含产品性能或额外能力承诺。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "For this shot, use a landscape composition to frame the exhibition entrance and the walls on both sides.",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "准确对应本镜中文拍摄安排，没有增加产品功能或效果声明。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "切到竖向构图的画册近景：双手先展示封面，再打开画册、翻过一页，手指停在页内图片旁。保留完整动作供观众观察。中文旁白配对应英文屏幕译文。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "描述画册近景、手部动作及观察停留，属于拍摄安排，没有产品界面或自动工作流声明。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "再用竖向构图，拍下手中的画册，从展示封面，到打开、翻页。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "描述竖向构图中的实际拍摄对象与动作顺序，没有声称产品自动识别或处理画册。"
+        },
+        {
+          "location": "shot:3/block:2",
+          "text": "Then use a portrait composition to film the brochure in hand: show its cover, open it, and turn a page.",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "准确翻译本镜中文构图和动作安排，没有新增产品能力。"
+        }
+      ],
+      "pacing": {
+        "verdict": "met",
+        "evidence": "第1镜预计8秒，同拍声画占5秒，剩余3秒可承载入口停步、拿画册及观察两个画框；第2镜预计9.5秒，同拍声画占7.7秒，剩余1.8秒有缓慢拉远与人物停步支撑；第3镜预计10.5秒，同拍声画占8.5秒，剩余2秒用于完整翻页和观察图片。声画按同拍并行计算，三个镜头分别承担功能介绍、入口横向构图和画册竖向构图，没有重复空镜凑时长。总长28秒，宿主判定通过27—30秒目标区间。"
+      },
+      "expression_review_passed": true
+    },
+    "sources": [
+      {
+        "id": "P03",
+        "product_id": "demo-editor",
+        "title": "画面比例说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "比例",
+          "竖屏",
+          "横屏",
+          "画面",
+          "aspect"
+        ],
+        "facts": [
+          {
+            "id": "P03.F1",
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "product_id": "demo-editor",
+        "title": "剪辑功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "剪辑",
+          "裁剪",
+          "片段",
+          "trim",
+          "edit"
+        ],
+        "facts": [
+          {
+            "id": "P02.F1",
+            "text": "剪影练习版支持裁剪视频片段。"
+          }
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "action": "search_materials",
+        "arguments": {
+          "query": "demo-editor 横竖屏比例选项 支持的具体画面比例及适用范围",
+          "product_id": "demo-editor"
+        },
+        "decision_basis": "先确认产品支持的横竖屏比例及适用范围，再编排展厅入口和画册场景；中文用于旁白，英文仅作对应屏幕翻译。",
+        "observation": {
+          "ok": true,
+          "query": "demo-editor 横竖屏比例选项 支持的具体画面比例及适用范围",
+          "product_id": "demo-editor",
+          "materials": [
+            {
+              "id": "P03",
+              "product_id": "demo-editor",
+              "title": "画面比例说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "比例",
+                "竖屏",
+                "横屏",
+                "画面",
+                "aspect"
+              ],
+              "facts": [
+                {
+                  "id": "P03.F1",
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+                }
+              ]
+            },
+            {
+              "id": "P02",
+              "product_id": "demo-editor",
+              "title": "剪辑功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "剪辑",
+                "裁剪",
+                "片段",
+                "trim",
+                "edit"
+              ],
+              "facts": [
+                {
+                  "id": "P02.F1",
+                  "text": "剪影练习版支持裁剪视频片段。"
+                }
+              ]
+            }
+          ],
+          "count": 2
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a72d-78be-7c21-a5bf-a849e530cc87",
+          "usage": {
+            "input_tokens": 27356,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 155,
+            "reasoning_output_tokens": 58
+          },
+          "call_id": "decision-p6vc44bk",
+          "warnings": []
+        },
+        "elapsed_ms": 34437
+      },
+      {
+        "step": 2,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "把想法放进画面",
+            "shots": [
+              {
+                "purpose": "介绍产品提供的横屏与竖屏比例选项，并建立展厅场景。",
+                "visual": "观众走到展厅入口，停下并拿起画册。叠加横向、竖向两个简洁画框示意，不展示产品界面。中文仅作旁白，英文译文由制作者后期叠加在屏幕下方。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "The editor offers landscape and portrait aspect ratio options.",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "用展厅入口展示横向构图的具体拍摄安排。",
+                "visual": "展示横向构图的拍摄示意：镜头从入口中央缓慢拉远，将门口与两侧展墙纳入画面；观众拿着画册走到入口旁停下。中文旁白配对应英文屏幕译文。",
+                "hold_seconds": 9.5,
+                "blocks": [
+                  {
+                    "text": "这一镜，用横向构图，把展厅入口和两侧展墙一起放进画面。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "For this shot, use a landscape composition to frame the exhibition entrance and the walls on both sides.",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "将注意力转向画册，用竖向构图展示封面与翻页动作。",
+                "visual": "切到竖向构图的画册近景：双手先展示封面，再打开画册、翻过一页，手指停在页内图片旁。保留完整动作供观众观察。中文旁白配对应英文屏幕译文。",
+                "hold_seconds": 10.5,
+                "blocks": [
+                  {
+                    "text": "再用竖向构图，拍下手中的画册，从展示封面，到打开、翻页。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "Then use a portrait composition to film the brochure in hand: show its cover, open it, and turn a page.",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          }
+        },
+        "decision_basis": "资料已覆盖横竖屏比例选项。用展厅入口与画册串起三镜，中文只作旁白，英文只作对应屏幕译文，不增加翻译功能或具体比例数值的声明。",
+        "observation": {
+          "ok": true,
+          "script_hash": "d16ab15552bfdfed77af9c66b4fdb7aee3b414aae6083088818f22bb85267c7d",
+          "revision": {
+            "before_hash": null,
+            "after_hash": "d16ab15552bfdfed77af9c66b4fdb7aee3b414aae6083088818f22bb85267c7d",
+            "changed_fields": [
+              "script:new"
+            ],
+            "unchanged_shots": 0,
+            "unchanged_blocks": 0,
+            "feedback": [],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a72d-ffd6-7533-8810-81a9ffa6cdc1",
+          "usage": {
+            "input_tokens": 27862,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2091,
+            "reasoning_output_tokens": 1440
+          },
+          "call_id": "decision-rlfehmft",
+          "warnings": []
+        },
+        "elapsed_ms": 110422
+      },
+      {
+        "step": 3,
+        "action": "estimate_duration",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "把想法放进画面",
+            "shots": [
+              {
+                "purpose": "介绍产品提供的横屏与竖屏比例选项，并建立展厅场景。",
+                "visual": "观众走到展厅入口，停下并拿起画册。叠加横向、竖向两个简洁画框示意，不展示产品界面。中文仅作旁白，英文译文由制作者后期叠加在屏幕下方。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "The editor offers landscape and portrait aspect ratio options.",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "用展厅入口展示横向构图的具体拍摄安排。",
+                "visual": "展示横向构图的拍摄示意：镜头从入口中央缓慢拉远，将门口与两侧展墙纳入画面；观众拿着画册走到入口旁停下。中文旁白配对应英文屏幕译文。",
+                "hold_seconds": 9.5,
+                "blocks": [
+                  {
+                    "text": "这一镜，用横向构图，把展厅入口和两侧展墙一起放进画面。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "For this shot, use a landscape composition to frame the exhibition entrance and the walls on both sides.",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "将注意力转向画册，用竖向构图展示封面与翻页动作。",
+                "visual": "切到竖向构图的画册近景：双手先展示封面，再打开画册、翻过一页，手指停在页内图片旁。保留完整动作供观众观察。中文旁白配对应英文屏幕译文。",
+                "hold_seconds": 10.5,
+                "blocks": [
+                  {
+                    "text": "再用竖向构图，拍下手中的画册，从展示封面，到打开、翻页。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "Then use a portrait composition to film the brochure in hand: show its cover, open it, and turn a page.",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "target_seconds": 30,
+          "duration_mode": "target"
+        },
+        "decision_basis": "先核算当前三镜的中文旁白、英文屏幕阅读与动作停留时间，确认总时长符合30秒目标的27–30秒范围。",
+        "observation": {
+          "ok": true,
+          "script_hash": "d16ab15552bfdfed77af9c66b4fdb7aee3b414aae6083088818f22bb85267c7d",
+          "shots": [
+            {
+              "shot": 1,
+              "estimated_seconds": 8.0,
+              "beats": [
+                {
+                  "beat": 1,
+                  "start_seconds": 0,
+                  "end_seconds": 5.0,
+                  "voice_seconds": 5.0,
+                  "screen_read_seconds": 4.1,
+                  "display_seconds": 0,
+                  "estimated_seconds": 5.0
+                }
+              ],
+              "tail_hold_seconds": 3.0
+            },
+            {
+              "shot": 2,
+              "estimated_seconds": 9.5,
+              "beats": [
+                {
+                  "beat": 1,
+                  "start_seconds": 0,
+                  "end_seconds": 7.7,
+                  "voice_seconds": 6.5,
+                  "screen_read_seconds": 7.7,
+                  "display_seconds": 0,
+                  "estimated_seconds": 7.7
+                }
+              ],
+              "tail_hold_seconds": 1.8
+            },
+            {
+              "shot": 3,
+              "estimated_seconds": 10.5,
+              "beats": [
+                {
+                  "beat": 1,
+                  "start_seconds": 0,
+                  "end_seconds": 8.5,
+                  "voice_seconds": 6.25,
+                  "screen_read_seconds": 8.5,
+                  "display_seconds": 0,
+                  "estimated_seconds": 8.5
+                }
+              ],
+              "tail_hold_seconds": 2.0
+            }
+          ],
+          "total_seconds": 28.0,
+          "target_seconds": 30,
+          "passed": true,
+          "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+          "is_estimate": true,
+          "duration_mode": "target",
+          "min_seconds": 27.0,
+          "max_seconds": 30,
+          "issue": null
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a72f-b550-7830-a8a1-20ad1c72a165",
+          "usage": {
+            "input_tokens": 29435,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 147,
+            "reasoning_output_tokens": 76
+          },
+          "call_id": "decision-kfeqlut9",
+          "warnings": []
+        },
+        "elapsed_ms": 26094
+      },
+      {
+        "step": 4,
+        "action": "check_rules",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "把想法放进画面",
+            "shots": [
+              {
+                "purpose": "介绍产品提供的横屏与竖屏比例选项，并建立展厅场景。",
+                "visual": "观众走到展厅入口，停下并拿起画册。叠加横向、竖向两个简洁画框示意，不展示产品界面。中文仅作旁白，英文译文由制作者后期叠加在屏幕下方。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "The editor offers landscape and portrait aspect ratio options.",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "用展厅入口展示横向构图的具体拍摄安排。",
+                "visual": "展示横向构图的拍摄示意：镜头从入口中央缓慢拉远，将门口与两侧展墙纳入画面；观众拿着画册走到入口旁停下。中文旁白配对应英文屏幕译文。",
+                "hold_seconds": 9.5,
+                "blocks": [
+                  {
+                    "text": "这一镜，用横向构图，把展厅入口和两侧展墙一起放进画面。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "For this shot, use a landscape composition to frame the exhibition entrance and the walls on both sides.",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "将注意力转向画册，用竖向构图展示封面与翻页动作。",
+                "visual": "切到竖向构图的画册近景：双手先展示封面，再打开画册、翻过一页，手指停在页内图片旁。保留完整动作供观众观察。中文旁白配对应英文屏幕译文。",
+                "hold_seconds": 10.5,
+                "blocks": [
+                  {
+                    "text": "再用竖向构图，拍下手中的画册，从展示封面，到打开、翻页。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "Then use a portrait composition to film the brochure in hand: show its cover, open it, and turn a page.",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "retrieved_ids": [
+            "P02",
+            "P03"
+          ],
+          "expression_mode": "creative"
+        },
+        "decision_basis": "当前稿估时28秒，已通过时长检查；继续核查事实依据、英文翻译准确性及品牌规则，确认没有新增产品翻译功能或具体比例数值的宣称。",
+        "observation": {
+          "ok": true,
+          "script_hash": "d16ab15552bfdfed77af9c66b4fdb7aee3b414aae6083088818f22bb85267c7d",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:1/block:1",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01",
+              "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "requires_semantic_review": true
+            },
+            {
+              "location": "shot:1/block:2",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01",
+              "text": "The editor offers landscape and portrait aspect ratio options.",
+              "requires_semantic_review": true
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "把想法放进画面"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "观众走到展厅入口，停下并拿起画册。叠加横向、竖向两个简洁画框示意，不展示产品界面。中文仅作旁白，英文译文由制作者后期叠加在屏幕下方。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+            },
+            {
+              "location": "shot:1/block:2",
+              "text": "The editor offers landscape and portrait aspect ratio options."
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "展示横向构图的拍摄示意：镜头从入口中央缓慢拉远，将门口与两侧展墙纳入画面；观众拿着画册走到入口旁停下。中文旁白配对应英文屏幕译文。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "这一镜，用横向构图，把展厅入口和两侧展墙一起放进画面。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "For this shot, use a landscape composition to frame the exhibition entrance and the walls on both sides."
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "切到竖向构图的画册近景：双手先展示封面，再打开画册、翻过一页，手指停在页内图片旁。保留完整动作供观众观察。中文旁白配对应英文屏幕译文。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "再用竖向构图，拍下手中的画册，从展示封面，到打开、翻页。"
+            },
+            {
+              "location": "shot:3/block:2",
+              "text": "Then use a portrait composition to film the brochure in hand: show its cover, open it, and turn a page."
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a730-1c56-7f13-a07d-e08b060f436a",
+          "usage": {
+            "input_tokens": 31024,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 143,
+            "reasoning_output_tokens": 64
+          },
+          "call_id": "decision-bxawjpj2",
+          "warnings": [
+            "cleanup_deferred"
+          ]
+        },
+        "elapsed_ms": 41547
+      },
+      {
+        "step": 5,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "把想法放进画面",
+            "shots": [
+              {
+                "purpose": "介绍产品提供的横屏与竖屏比例选项，并建立展厅场景。",
+                "visual": "观众走到展厅入口，停下并拿起画册。叠加横向、竖向两个简洁画框示意，不展示产品界面。中文仅作旁白，英文译文由制作者后期叠加在屏幕下方。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "The editor offers landscape and portrait aspect ratio options.",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "用展厅入口展示横向构图的具体拍摄安排。",
+                "visual": "展示横向构图的拍摄示意：镜头从入口中央缓慢拉远，将门口与两侧展墙纳入画面；观众拿着画册走到入口旁停下。中文旁白配对应英文屏幕译文。",
+                "hold_seconds": 9.5,
+                "blocks": [
+                  {
+                    "text": "这一镜，用横向构图，把展厅入口和两侧展墙一起放进画面。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "For this shot, use a landscape composition to frame the exhibition entrance and the walls on both sides.",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "将注意力转向画册，用竖向构图展示封面与翻页动作。",
+                "visual": "切到竖向构图的画册近景：双手先展示封面，再打开画册、翻过一页，手指停在页内图片旁。保留完整动作供观众观察。中文旁白配对应英文屏幕译文。",
+                "hold_seconds": 10.5,
+                "blocks": [
+                  {
+                    "text": "再用竖向构图，拍下手中的画册，从展示封面，到打开、翻页。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "Then use a portrait composition to film the brochure in hand: show its cover, open it, and turn a page.",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "request": {
+            "topic": "介绍横竖屏比例选项，用中文旁白与对应英文屏幕翻译，明确区分两种语言的用途。不要宣称产品自带翻译功能。背景是展厅入口和画册。",
+            "audience": "中英双语展览观众",
+            "platform": "视频号",
+            "style": "清楚，克制",
+            "product_id": "demo-editor",
+            "duration_mode": "target",
+            "expression_mode": "creative",
+            "target_seconds": 30
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "d16ab15552bfdfed77af9c66b4fdb7aee3b414aae6083088818f22bb85267c7d",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:1/block:1",
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01",
+                "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:1/block:2",
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01",
+                "text": "The editor offers landscape and portrait aspect ratio options.",
+                "requires_semantic_review": true
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "把想法放进画面"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "观众走到展厅入口，停下并拿起画册。叠加横向、竖向两个简洁画框示意，不展示产品界面。中文仅作旁白，英文译文由制作者后期叠加在屏幕下方。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+              },
+              {
+                "location": "shot:1/block:2",
+                "text": "The editor offers landscape and portrait aspect ratio options."
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "展示横向构图的拍摄示意：镜头从入口中央缓慢拉远，将门口与两侧展墙纳入画面；观众拿着画册走到入口旁停下。中文旁白配对应英文屏幕译文。"
+              },
+              {
+                "location": "shot:2/block:1",
+                "text": "这一镜，用横向构图，把展厅入口和两侧展墙一起放进画面。"
+              },
+              {
+                "location": "shot:2/block:2",
+                "text": "For this shot, use a landscape composition to frame the exhibition entrance and the walls on both sides."
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "切到竖向构图的画册近景：双手先展示封面，再打开画册、翻过一页，手指停在页内图片旁。保留完整动作供观众观察。中文旁白配对应英文屏幕译文。"
+              },
+              {
+                "location": "shot:3/block:1",
+                "text": "再用竖向构图，拍下手中的画册，从展示封面，到打开、翻页。"
+              },
+              {
+                "location": "shot:3/block:2",
+                "text": "Then use a portrait composition to film the brochure in hand: show its cover, open it, and turn a page."
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "d16ab15552bfdfed77af9c66b4fdb7aee3b414aae6083088818f22bb85267c7d",
+            "shots": [
+              {
+                "shot": 1,
+                "estimated_seconds": 8.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 5.0,
+                    "voice_seconds": 5.0,
+                    "screen_read_seconds": 4.1,
+                    "display_seconds": 0,
+                    "estimated_seconds": 5.0
+                  }
+                ],
+                "tail_hold_seconds": 3.0
+              },
+              {
+                "shot": 2,
+                "estimated_seconds": 9.5,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 7.7,
+                    "voice_seconds": 6.5,
+                    "screen_read_seconds": 7.7,
+                    "display_seconds": 0,
+                    "estimated_seconds": 7.7
+                  }
+                ],
+                "tail_hold_seconds": 1.8
+              },
+              {
+                "shot": 3,
+                "estimated_seconds": 10.5,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 8.5,
+                    "voice_seconds": 6.25,
+                    "screen_read_seconds": 8.5,
+                    "display_seconds": 0,
+                    "estimated_seconds": 8.5
+                  }
+                ],
+                "tail_hold_seconds": 2.0
+              }
+            ],
+            "total_seconds": 28.0,
+            "target_seconds": 30,
+            "passed": true,
+            "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+            "is_estimate": true,
+            "duration_mode": "target",
+            "min_seconds": 27.0,
+            "max_seconds": 30,
+            "issue": null
+          }
+        },
+        "decision_basis": "当前稿估时28秒，时长与规则检查均已通过；继续核对横竖屏选项、展厅入口与画册场景、中文旁白与对应英文屏幕译文，并确认未宣称产品自带翻译功能。",
+        "observation": {
+          "ok": true,
+          "script_hash": "d16ab15552bfdfed77af9c66b4fdb7aee3b414aae6083088818f22bb85267c7d",
+          "request_hash": "3a7c9b5d428931bff018b608879d47e38987c37d31431430811402be8aad8a5d",
+          "passed": true,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "介绍横竖屏比例选项",
+              "verdict": "met",
+              "evidence": "第1镜旁白明确介绍“横屏和竖屏画面比例选项”，配横向、竖向画框示意；第2、3镜分别展示横向和竖向构图。"
+            },
+            {
+              "field": "topic",
+              "requirement": "用中文旁白",
+              "verdict": "met",
+              "evidence": "三镜的block:1均为中文，channel均为voice；没有英文旁白。"
+            },
+            {
+              "field": "topic",
+              "requirement": "对应英文屏幕翻译",
+              "verdict": "met",
+              "evidence": "三镜的block:2均为英文、channel为screen，与对应中文旁白同属beat:1。译文分别准确对应比例选项、入口横向构图和画册竖向拍摄。"
+            },
+            {
+              "field": "topic",
+              "requirement": "明确区分两种语言的用途",
+              "verdict": "met",
+              "evidence": "第1镜visual明确“中文仅作旁白，英文译文由制作者后期叠加在屏幕下方”；全部文案块实际按中文voice、英文screen分配。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不要宣称产品自带翻译功能",
+              "verdict": "met",
+              "evidence": "全部公开文案均未宣称产品具有翻译功能；第1镜visual明确英文译文由制作者后期叠加。"
+            },
+            {
+              "field": "topic",
+              "requirement": "展厅入口",
+              "verdict": "met",
+              "evidence": "第1镜安排观众走到展厅入口；第2镜从入口中央缓慢拉远，展示门口与两侧展墙，旁白也明确提及展厅入口。"
+            },
+            {
+              "field": "topic",
+              "requirement": "画册",
+              "verdict": "met",
+              "evidence": "第1镜观众拿起画册，第2镜持画册停在入口旁，第3镜近景展示画册封面、打开和翻页动作。"
+            },
+            {
+              "field": "audience",
+              "requirement": "中英双语展览观众",
+              "verdict": "met",
+              "evidence": "中文旁白与对应英文屏幕译文同步呈现，展厅入口、展墙和画册构成明确的展览语境，两种语言均能传达主要内容。"
+            },
+            {
+              "field": "platform",
+              "requirement": "视频号",
+              "verdict": "met",
+              "evidence": "三镜围绕一个功能主题展开，声画对应且场景具体；宿主估算总长28秒，适合作为视频号短视频呈现。"
+            },
+            {
+              "field": "style",
+              "requirement": "清楚",
+              "verdict": "met",
+              "evidence": "第1镜说明两种比例选项，第2镜展示入口横向构图，第3镜展示画册竖向构图；语言用途、场景和镜头任务均明确。"
+            },
+            {
+              "field": "style",
+              "requirement": "克制",
+              "verdict": "met",
+              "evidence": "文案仅介绍比例选项与具体拍摄安排，没有夸张效果、用户背书、价格诱导或未经证实的自动化承诺。"
+            }
+          ],
+          "summary": "当前稿满足原始需求。中文旁白与英文屏幕译文逐镜对应，展厅入口和画册均有具体呈现，未宣称产品自带翻译功能。功能表述有来源支持，预计28秒，时长检查通过，镜头停留有动作支撑。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "把想法放进画面",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于创意标题，没有声明具体产品能力或效果。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "观众走到展厅入口，停下并拿起画册。叠加横向、竖向两个简洁画框示意，不展示产品界面。中文仅作旁白，英文译文由制作者后期叠加在屏幕下方。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "描述人物动作、画框示意及后期声画安排，没有虚构产品界面、操作步骤或翻译能力。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "与P03.F1原文完全一致，仅声明横屏和竖屏画面比例选项，没有增加能力或效果。"
+            },
+            {
+              "location": "shot:1/block:2",
+              "text": "The editor offers landscape and portrait aspect ratio options.",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "准确翻译P03.F1的横屏和竖屏画面比例选项；“The editor”承接同拍中文产品名，没有扩大功能范围。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "展示横向构图的拍摄示意：镜头从入口中央缓慢拉远，将门口与两侧展墙纳入画面；观众拿着画册走到入口旁停下。中文旁白配对应英文屏幕译文。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于摄影构图、镜头运动、演员动作和字幕安排，没有将拉远或构图描述为产品自动完成的功能。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "这一镜，用横向构图，把展厅入口和两侧展墙一起放进画面。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "描述当前展厅镜头的拍摄构图，不包含产品性能或额外能力承诺。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "For this shot, use a landscape composition to frame the exhibition entrance and the walls on both sides.",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "准确对应本镜中文拍摄安排，没有增加产品功能或效果声明。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "切到竖向构图的画册近景：双手先展示封面，再打开画册、翻过一页，手指停在页内图片旁。保留完整动作供观众观察。中文旁白配对应英文屏幕译文。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "描述画册近景、手部动作及观察停留，属于拍摄安排，没有产品界面或自动工作流声明。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "再用竖向构图，拍下手中的画册，从展示封面，到打开、翻页。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "描述竖向构图中的实际拍摄对象与动作顺序，没有声称产品自动识别或处理画册。"
+            },
+            {
+              "location": "shot:3/block:2",
+              "text": "Then use a portrait composition to film the brochure in hand: show its cover, open it, and turn a page.",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "准确翻译本镜中文构图和动作安排，没有新增产品能力。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "第1镜预计8秒，同拍声画占5秒，剩余3秒可承载入口停步、拿画册及观察两个画框；第2镜预计9.5秒，同拍声画占7.7秒，剩余1.8秒有缓慢拉远与人物停步支撑；第3镜预计10.5秒，同拍声画占8.5秒，剩余2秒用于完整翻页和观察图片。声画按同拍并行计算，三个镜头分别承担功能介绍、入口横向构图和画册竖向构图，没有重复空镜凑时长。总长28秒，宿主判定通过27—30秒目标区间。"
+          },
+          "expression_review_passed": true
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a730-be2b-7c70-87b1-aa253da6cc80",
+          "usage": {
+            "input_tokens": 33458,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 195,
+            "reasoning_output_tokens": 102
+          },
+          "call_id": "decision-h8son6j5",
+          "warnings": []
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a731-520c-70b3-980d-a82bbdc0d37e",
+          "usage": {
+            "input_tokens": 29163,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 3044,
+            "reasoning_output_tokens": 916
+          },
+          "call_id": "decision-sqfhu_xt",
+          "warnings": []
+        },
+        "elapsed_ms": 156109
+      },
+      {
+        "step": 6,
+        "action": "finish",
+        "arguments": {
+          "status": "completed",
+          "message": "已完成《把想法放进画面》三镜脚本，预计28秒。以展厅入口和画册展示横竖屏比例选项，中文用于旁白，英文用于对应屏幕译文，未宣称产品自带翻译功能。"
+        },
+        "decision_basis": "当前同一稿的时长、规则、需求及表达语义检查均已通过。",
+        "observation": {
+          "ok": true,
+          "status": "completed",
+          "script_hash": "d16ab15552bfdfed77af9c66b4fdb7aee3b414aae6083088818f22bb85267c7d"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a733-26b5-7f03-9e32-ab518a90d73c",
+          "usage": {
+            "input_tokens": 39654,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 285,
+            "reasoning_output_tokens": 173
+          },
+          "call_id": "decision-n1in1inw",
+          "warnings": []
+        },
+        "elapsed_ms": 72422
+      }
+    ],
+    "metadata": {
+      "started_at": "2026-11-04T15:28:55.384460+00:00",
+      "finished_at": "2026-11-04T15:36:16.545816+00:00",
+      "provider": "codex",
+      "evidence_kind": "real_model",
+      "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+      "max_steps": 12,
+      "steps": 6,
+      "synthetic_data": true,
+      "completion_policy": "facts_duration_requirements_v5",
+      "requirements_review_context": "current_rules_and_duration_v2",
+      "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+      "model_responses": 7,
+      "run_id": "83675e8237784ddcb775b4659f03b286",
+      "persistence": "checkpoint_v1",
+      "fault_injection": {}
+    }
+  }
+}

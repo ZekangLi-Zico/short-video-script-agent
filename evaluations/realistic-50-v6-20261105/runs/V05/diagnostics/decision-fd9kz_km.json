@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-fd9kz_km",
+  "started_at": "2026-11-04T17:15:17.522832+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:15:44.283157+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a78e-e2bc-7e41-b9e0-ffd592a24911",
+    "usage": {
+      "input_tokens": 27256,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 83,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-fd9kz_km",
+    "warnings": []
+  }
+}

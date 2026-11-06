@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-fdea_25e",
+  "started_at": "2026-11-04T01:16:21.495149+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:16:54.959378+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a420-e895-7de2-a749-a471d8c7351f",
+    "usage": {
+      "input_tokens": 27196,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 130,
+      "reasoning_output_tokens": 60
+    },
+    "call_id": "decision-fdea_25e",
+    "warnings": []
+  }
+}

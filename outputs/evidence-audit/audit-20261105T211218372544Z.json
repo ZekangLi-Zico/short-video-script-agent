@@ -1,0 +1,40 @@
+{
+  "scope": "Replay of local tools and saved state only; does not rerun or authenticate the remote model.",
+  "runs_checked": 4,
+  "passed": true,
+  "runs": [
+    {
+      "run": "examples/current/no_material",
+      "app_version": "v7.3.1-submission",
+      "search_contract": "id_first_v2",
+      "contract_source": "manifest",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/current/over_duration",
+      "app_version": "v7.3.1-submission",
+      "search_contract": "id_first_v2",
+      "contract_source": "manifest",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/current/product_normal",
+      "app_version": "v7.3.1-submission",
+      "search_contract": "id_first_v2",
+      "contract_source": "manifest",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/current/tool_failure",
+      "app_version": "v7.3.1-submission",
+      "search_contract": "id_first_v2",
+      "contract_source": "manifest",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "report_path": "D:\\小影科技笔试\\outputs\\evidence-audit\\audit-20261105T211218372544Z.json"
+}

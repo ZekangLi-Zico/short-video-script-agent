@@ -1,0 +1,16 @@
+{
+  "id": "T16",
+  "name": "中年初学者",
+  "context": "社区课堂面向不熟悉剪辑术语的人。",
+  "request": {
+    "topic": "介绍为视频添加字幕与手动编辑字幕文字，受众不熟悉剪辑术语，句子要容易理解，不要催促下载。",
+    "audience": "第一次学做视频的中年学员",
+    "platform": "视频号",
+    "style": "平和、清楚、尊重受众",
+    "product_id": "demo-editor",
+    "target_seconds": 30
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

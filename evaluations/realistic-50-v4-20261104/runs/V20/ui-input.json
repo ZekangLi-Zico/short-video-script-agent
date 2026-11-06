@@ -1,0 +1,19 @@
+{
+  "port": 8792,
+  "submitted_at": "2026-11-03T21:34:59.039Z",
+  "fields": {
+    "audience": "活动视频外包剪辑师",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "c05ca8a42a7f42dca1e0d1f00757c946",
+    "initial-script": "",
+    "platform": "B站",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "客观，直截了当",
+    "target-seconds": "25",
+    "topic": "介绍横屏、竖屏画面比例选项，说明这是两种可选画面比例；场景先大厅屏再手机。不要声称自动同步裁剪或自动追踪人物。"
+  }
+}

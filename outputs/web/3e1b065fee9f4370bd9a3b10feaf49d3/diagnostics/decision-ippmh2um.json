@@ -1,0 +1,43 @@
+{
+  "call_id": "decision-ippmh2um",
+  "started_at": "2026-11-05T19:34:19.387942+00:00",
+  "response_received": true,
+  "phase": "decision",
+  "timeout_seconds": 180,
+  "request_bytes": 23758,
+  "exit_code": 0,
+  "runtime": {
+    "event_counts": {
+      "thread.started": 1,
+      "turn.started": 1,
+      "item.completed": 1,
+      "turn.completed": 1
+    },
+    "last_event": "turn.completed",
+    "turn_started": true,
+    "turn_completed": true,
+    "external_tool_used": false,
+    "signals": [],
+    "stdout_bytes": 720,
+    "stderr_bytes": 158
+  },
+  "finished_at": "2026-11-05T19:34:29.834602+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1ad34-7b9a-7760-834e-8897877e29f6",
+    "usage": {
+      "input_tokens": 27963,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 108,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-ippmh2um",
+    "warnings": [],
+    "configuration_mode": "isolated",
+    "phase": "decision"
+  },
+  "elapsed_seconds": 10.437
+}

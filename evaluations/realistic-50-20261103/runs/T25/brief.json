@@ -1,0 +1,16 @@
+{
+  "id": "T25",
+  "name": "离线与隐私",
+  "context": "企业培训素材不能随便上传。",
+  "request": {
+    "topic": "介绍剪影练习版是否能离线编辑字幕，视频素材会不会上传服务器，面向处理公司培训录像的同事。",
+    "audience": "企业内训视频编辑人员",
+    "platform": "视频号",
+    "style": "谨慎、明确",
+    "product_id": "demo-editor",
+    "target_seconds": 30
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

@@ -1,0 +1,12 @@
+{
+  "case": "V29",
+  "status": "completed",
+  "model_responses": 7,
+  "provider": "codex",
+  "steps": 6,
+  "seconds": 56.2,
+  "review_calls": 1,
+  "review_has_current_duration": true,
+  "replay_errors": [],
+  "message": "已完成7镜教学脚本，覆盖工作交接录像的片段裁剪、字幕安排与校对、横竖比例选择。当前稿无需删改，未虚构按钮操作或安排无意义长停留。估算56.2秒，符合54—60秒目标，三项检查均通过；实际成片时长仍以录制剪辑结果为准。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

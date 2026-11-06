@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-3930qqda",
+  "started_at": "2026-11-04T15:17:10.693651+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:17:34.463640+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a722-b421-7432-befa-5518830e82c7",
+    "usage": {
+      "input_tokens": 43767,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 236,
+      "reasoning_output_tokens": 124
+    },
+    "call_id": "decision-3930qqda",
+    "warnings": []
+  }
+}

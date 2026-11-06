@@ -1,0 +1,16 @@
+{
+  "id": "T14",
+  "name": "十秒双功能",
+  "context": "运营的短广告位只能容纳十秒。",
+  "request": {
+    "topic": "用十秒以内介绍两个功能：裁剪视频片段、选择横竖屏画面比例。不要开场铺垫。",
+    "audience": "已有视频素材、想简单整理的人",
+    "platform": "抖音",
+    "style": "干脆、信息优先",
+    "product_id": "demo-editor",
+    "target_seconds": 10
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

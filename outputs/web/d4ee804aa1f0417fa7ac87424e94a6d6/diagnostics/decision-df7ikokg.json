@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-df7ikokg",
+  "started_at": "2026-11-04T16:09:49.805357+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:10:08.683304+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a752-e621-7fb0-a5b6-c37f29dc6905",
+    "usage": {
+      "input_tokens": 27631,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 144,
+      "reasoning_output_tokens": 74
+    },
+    "call_id": "decision-df7ikokg",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ei75fst8",
+  "started_at": "2026-11-04T15:22:50.430046+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:24:30.703753+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a727-e236-7442-b012-fc91513907b8",
+    "usage": {
+      "input_tokens": 27857,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2015,
+      "reasoning_output_tokens": 1551
+    },
+    "call_id": "decision-ei75fst8",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-72sty3dw",
+  "started_at": "2026-11-04T01:23:30.546358+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:23:50.254637+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a427-72b9-7da1-9cb3-4e162f753e0e",
+    "usage": {
+      "input_tokens": 37854,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 353,
+      "reasoning_output_tokens": 217
+    },
+    "call_id": "decision-72sty3dw",
+    "warnings": []
+  }
+}

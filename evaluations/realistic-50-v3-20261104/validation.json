@@ -1,0 +1,56 @@
+{
+  "verified_at": "2026-11-03T19:24:35.793390+00:00",
+  "archived_experiments": 50,
+  "distinct_requests": 49,
+  "unique_run_ids": 50,
+  "additional_zero_response_attempts": 1,
+  "additional_attempts": [
+    {
+      "folder": "attempts/V43-no-response-01",
+      "case": "V43",
+      "run_id": "65a5ba0abbb549bfa023ada35c19580f",
+      "status": "blocked",
+      "steps": 1,
+      "responses": 0,
+      "provider": "codex",
+      "seconds": null,
+      "message": "模型调用失败，未完成；见执行记录。"
+    }
+  ],
+  "all_ui_inputs_match_frozen": true,
+  "all_ui_provider_codex": true,
+  "fault_injection": false,
+  "per_case_screenshots_and_reviews": 50,
+  "canonical_files_equal_backend": 282,
+  "canonical_records": 47,
+  "partial_records": 3,
+  "exact_response_count_available_subset": 313,
+  "total_model_responses_lower_bound": 330,
+  "cases_sha256": "d173710d0f93a63744584cd839b4070c70f8f748022721b200b51d50fb9fe1a3",
+  "source_and_data_unchanged": true,
+  "source_files_matching_v3_release": 18,
+  "v3_release_zip_sha256": "ef759a557b77a5a3eec5cfec9884f22c1e549c8b6999772848dbc8ea66fa1b87",
+  "old_files_unchanged": 1959,
+  "statuses": {
+    "completed": 30,
+    "infrastructure_error": 3,
+    "needs_input": 14,
+    "blocked": 3
+  },
+  "review_assessments": {
+    "脚本可用": 29,
+    "运行故障": 3,
+    "需人工复核": 1,
+    "可用性限制": 3,
+    "合理补充请求": 11,
+    "流程阻塞": 2,
+    "模型调用故障": 1
+  },
+  "limits": [
+    "Developer AI review, not independent blind review",
+    "Real model calls with synthetic briefs and product data",
+    "Saved-record replay checks consistency, not semantic truth",
+    "Three partial records do not have canonical backend artifacts",
+    "V50 intentionally repeats V01; no independent repeatability estimate"
+  ]
+}

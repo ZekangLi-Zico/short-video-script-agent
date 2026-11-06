@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-m12ds6a2",
+  "started_at": "2026-11-04T21:12:57.065792+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T21:14:31.894134+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a868-969f-76e0-9a64-d1fe911cf42f",
+    "usage": {
+      "input_tokens": 29613,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1821,
+      "reasoning_output_tokens": 48
+    },
+    "call_id": "decision-m12ds6a2",
+    "warnings": []
+  }
+}

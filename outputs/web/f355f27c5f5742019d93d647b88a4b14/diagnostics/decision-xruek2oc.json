@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-xruek2oc",
+  "started_at": "2026-11-04T17:38:23.342269+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:38:44.602358+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a7a3-fc50-75d2-bdcf-76779c59dad2",
+    "usage": {
+      "input_tokens": 30569,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 101,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-xruek2oc",
+    "warnings": []
+  }
+}

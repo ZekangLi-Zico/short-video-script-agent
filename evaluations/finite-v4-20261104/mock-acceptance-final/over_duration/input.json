@@ -1,0 +1,35 @@
+{
+  "topic": "介绍字幕功能",
+  "audience": "第一次制作口播短视频的创作者",
+  "platform": "抖音",
+  "target_seconds": 30,
+  "style": "清楚、友好、克制",
+  "product_id": "demo-editor",
+  "initial_script": {
+    "title": "字幕，让表达被看见",
+    "shots": [
+      {
+        "visual": "人物面对镜头提出问题",
+        "hold_seconds": 19,
+        "blocks": [
+          {
+            "text": "想让画面里的表达更清楚？",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "产品功能文字卡片，不展示未经提供的界面",
+        "hold_seconds": 19,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      }
+    ]
+  }
+}

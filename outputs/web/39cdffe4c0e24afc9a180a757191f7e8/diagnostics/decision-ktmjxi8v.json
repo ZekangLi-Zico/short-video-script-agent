@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ktmjxi8v",
+  "started_at": "2026-11-04T15:00:13.853611+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:00:32.310283+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a713-2ea0-7251-a76d-ac62f5572d67",
+    "usage": {
+      "input_tokens": 29405,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 153,
+      "reasoning_output_tokens": 81
+    },
+    "call_id": "decision-ktmjxi8v",
+    "warnings": []
+  }
+}

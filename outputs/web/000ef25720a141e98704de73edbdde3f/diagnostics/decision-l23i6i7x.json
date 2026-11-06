@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-l23i6i7x",
+  "started_at": "2026-11-03T20:58:02.756178+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:58:18.330493+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a334-68b6-78b3-a415-252c577d180d",
+    "usage": {
+      "input_tokens": 28443,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 126,
+      "reasoning_output_tokens": 71
+    },
+    "call_id": "decision-l23i6i7x",
+    "warnings": []
+  }
+}

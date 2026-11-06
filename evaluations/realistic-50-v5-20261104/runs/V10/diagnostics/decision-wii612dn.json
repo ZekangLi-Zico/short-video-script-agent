@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-wii612dn",
+  "started_at": "2026-11-04T15:12:13.874255+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:12:30.716748+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a71e-2a82-7a70-b0f3-76a6093a88a5",
+    "usage": {
+      "input_tokens": 29165,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 158,
+      "reasoning_output_tokens": 95
+    },
+    "call_id": "decision-wii612dn",
+    "warnings": []
+  }
+}

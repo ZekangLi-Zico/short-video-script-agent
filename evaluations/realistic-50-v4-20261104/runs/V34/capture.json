@@ -1,0 +1,13 @@
+{
+  "case": "V34",
+  "index": 33,
+  "attempt": 1,
+  "run_id": "5a44104695774327bf6da423da263f1b",
+  "folder": "V34",
+  "status": "needs_input",
+  "steps": 3,
+  "responses": 3,
+  "provider": "codex",
+  "seconds": null,
+  "message": "暂未生成脚本：现有资料只说明可以添加和编辑字幕，无法回答收费问题。请将当前版本的收费及会员权益说明交给项目维护者，明确免费版可用次数及重置周期、是否必须开通会员、付费后的额度和功能变化。补齐后才能完成收费说明脚本及检查。"
+}

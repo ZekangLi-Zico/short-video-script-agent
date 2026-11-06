@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-rbm9qguf",
+  "started_at": "2026-11-03T21:58:02.877883+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:58:18.032799+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a36b-58f1-7a03-8b7f-5dba7f663edb",
+    "usage": {
+      "input_tokens": 31152,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 112,
+      "reasoning_output_tokens": 51
+    },
+    "call_id": "decision-rbm9qguf",
+    "warnings": []
+  }
+}

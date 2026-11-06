@@ -1,0 +1,137 @@
+{
+  "status": "blocked",
+  "message": "上次运行或保存被中断；已恢复最后写入的检查点，任务未完成，未自动重跑模型。",
+  "script": {
+    "title": "早餐摊备料，先加一句字幕",
+    "shots": [
+      {
+        "visual": "蒸笼近景，只拍店主双手将包子摆入蒸笼。下方文字为店主画外音，同步作为字幕叠加在画面上。全程不出现顾客正脸。",
+        "hold_seconds": 5,
+        "blocks": [
+          {
+            "text": "今天备料，先把包子摆好。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "切到手写菜单特写，只拍纸面和店主写字的手。先播放第一块店主画外音并叠加对应字幕，再展示第二块产品事实卡；事实卡不配音。不展示软件界面，不出现顾客正脸。",
+        "hold_seconds": 7,
+        "blocks": [
+          {
+            "text": "今天卖什么，菜单先写好。",
+            "source_id": "",
+            "fact_id": ""
+          },
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "切到打包台近景，店主双手将打包盒整齐摆好。下方文字为店主画外音，同步作为字幕叠加在画面上，动作结束后收尾。不出现顾客正脸。",
+        "hold_seconds": 5,
+        "blocks": [
+          {
+            "text": "打包盒也备齐，准备开摊。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": null,
+  "rules_check": null,
+  "requirements_check": null,
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T20:42:32.323303+00:00",
+    "finished_at": "2026-11-03T20:44:14.876006+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 2,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "model_responses": 2,
+    "run_id": "3cd114d8f50742aab7b13555f952bbd9",
+    "persistence": "checkpoint_v1",
+    "fault_injection": {}
+  },
+  "interruption": {
+    "error_type": "process_interrupted",
+    "in_flight_step_may_be_missing": true
+  },
+  "recovered_from_checkpoint": {
+    "kind": "step",
+    "step": 2
+  }
+}

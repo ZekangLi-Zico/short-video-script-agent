@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-qc89v05p",
+  "started_at": "2026-11-03T21:02:00.587839+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:03:05.167533+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a338-09be-7630-931c-64430e1e749b",
+    "usage": {
+      "input_tokens": 27986,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2659,
+      "reasoning_output_tokens": 994
+    },
+    "call_id": "decision-qc89v05p",
+    "warnings": []
+  }
+}

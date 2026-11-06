@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-jtnzov5l",
+  "started_at": "2026-11-03T21:27:09.788712+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:28:28.275758+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a34f-11ea-7ef0-9911-0432ee800485",
+    "usage": {
+      "input_tokens": 27663,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3354,
+      "reasoning_output_tokens": 1296
+    },
+    "call_id": "decision-jtnzov5l",
+    "warnings": []
+  }
+}

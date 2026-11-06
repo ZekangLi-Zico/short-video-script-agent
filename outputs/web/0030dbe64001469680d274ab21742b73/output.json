@@ -1,0 +1,337 @@
+{
+  "status": "completed",
+  "message": "三镜脚本已完成：先展示横向展台，再展示竖向单件花瓶，最后对照横竖屏。仅介绍比例选择，未加入字幕或剪辑功能。预计13秒，符合20秒上限；三项检查均通过，无需进一步删改。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "陶艺作品展：横屏与竖屏怎么选",
+    "shots": [
+      {
+        "visual": "横屏构图展示陶艺作品展的横向长展台，多件陶艺作品沿展台排列，镜头稳定呈现展台全貌。",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "先看横向展台，选择横屏构图。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "切换为竖屏构图，展示一件直立的陶艺花瓶，从瓶口到瓶底完整入画，背景保持简洁。",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "再看竖向单件花瓶，选择竖屏构图。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "并排展示前两镜的构图示例：横屏展台与竖屏单件花瓶，保持各自画面比例。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          }
+        ]
+      }
+    ],
+    "editor_notes": "所有文字块均为旁白。前两镜为陶艺展素材的构图建议，第三镜逐字引用产品事实；未加入具体比例数值、字幕功能、剪辑功能或未经核实的操作界面。"
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "e30a0f711d32243dbacee6c446047b98f9c293baf493ee86046c3e2aaf0ea648",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 12,
+        "estimated_seconds": 4.0
+      },
+      {
+        "shot": 2,
+        "speech_units": 14,
+        "estimated_seconds": 4.0
+      },
+      {
+        "shot": 3,
+        "speech_units": 18,
+        "estimated_seconds": 5.0
+      }
+    ],
+    "total_seconds": 13.0,
+    "target_seconds": 20,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "e30a0f711d32243dbacee6c446047b98f9c293baf493ee86046c3e2aaf0ea648",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:3/block:1",
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "陶艺作品展：横屏与竖屏怎么选"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "横屏构图展示陶艺作品展的横向长展台，多件陶艺作品沿展台排列，镜头稳定呈现展台全貌。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "先看横向展台，选择横屏构图。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "切换为竖屏构图，展示一件直立的陶艺花瓶，从瓶口到瓶底完整入画，背景保持简洁。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "再看竖向单件花瓶，选择竖屏构图。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "并排展示前两镜的构图示例：横屏展台与竖屏单件花瓶，保持各自画面比例。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "e30a0f711d32243dbacee6c446047b98f9c293baf493ee86046c3e2aaf0ea648",
+    "request_hash": "dbd89b15980719fec3b97ed1da55a71bcfa58903e862f67e176ec5802e926d62",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "用陶艺作品展素材",
+        "verdict": "met",
+        "evidence": "第1镜展示“陶艺作品展的横向长展台，多件陶艺作品沿展台排列”，第2镜展示单件陶艺花瓶，场景明确。"
+      },
+      {
+        "field": "topic",
+        "requirement": "介绍横屏与竖屏画面比例选项",
+        "verdict": "met",
+        "evidence": "第1、2镜分别展示横屏与竖屏构图；第3镜旁白明确介绍“剪影练习版提供横屏和竖屏画面比例选项。”该事实已由rules_check核对通过。"
+      },
+      {
+        "field": "topic",
+        "requirement": "先展示横向展台",
+        "verdict": "met",
+        "evidence": "第1镜即以横屏构图展示横向长展台，旁白为“先看横向展台，选择横屏构图。”"
+      },
+      {
+        "field": "topic",
+        "requirement": "再展示竖向单件花瓶",
+        "verdict": "met",
+        "evidence": "第2镜紧接展台镜头，展示“一件直立的陶艺花瓶，从瓶口到瓶底完整入画”，顺序符合要求。"
+      },
+      {
+        "field": "topic",
+        "requirement": "只讲比例选择",
+        "verdict": "met",
+        "evidence": "第1、2镜仅给出横屏、竖屏构图建议，第3镜仅介绍两种画面比例选项；标题及画面均未引入其他产品功能。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不介绍字幕和剪辑",
+        "verdict": "met",
+        "evidence": "全部三镜旁白与画面均未介绍字幕或剪辑功能；第3镜“并排展示”属于拍摄呈现安排，没有宣称产品提供拼接或剪辑能力。"
+      },
+      {
+        "field": "audience",
+        "requirement": "手作工作室运营",
+        "verdict": "met",
+        "evidence": "以陶艺展台和单件花瓶为例，说明多件作品与单件作品的构图选择，贴合手作工作室展示作品的内容需求。"
+      },
+      {
+        "field": "platform",
+        "requirement": "小红书",
+        "verdict": "met",
+        "evidence": "标题“陶艺作品展：横屏与竖屏怎么选”明确主题，三镜用具体作品示例完成说明，适合小红书的短视频经验分享形式。"
+      },
+      {
+        "field": "style",
+        "requirement": "有条理",
+        "verdict": "met",
+        "evidence": "结构依次为横向展台、竖向单件花瓶、两种构图并排回顾；旁白以“先看”“再看”明确推进顺序。"
+      },
+      {
+        "field": "style",
+        "requirement": "不夸张",
+        "verdict": "met",
+        "evidence": "旁白仅提供构图建议及已核对的比例选项事实，没有效果保证、夸大性能或收益承诺。"
+      }
+    ],
+    "summary": "稿件落实了陶艺展场景、横屏与竖屏介绍及指定展示顺序，内容限定在比例选择，未介绍字幕或剪辑功能。受众、平台和风格适配，表达与镜头节奏均通过审核。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "陶艺作品展：横屏与竖屏怎么选",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "标题提出构图选择主题，不包含产品能力或效果承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "横屏构图展示陶艺作品展的横向长展台，多件陶艺作品沿展台排列，镜头稳定呈现展台全貌。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于展台布置和摄影构图安排；“镜头稳定”描述拍摄要求，未宣称产品具有防抖或自动构图功能。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "先看横向展台，选择横屏构图。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于针对横向展台的构图建议，没有宣称产品自动选择比例或保证展示效果。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "切换为竖屏构图，展示一件直立的陶艺花瓶，从瓶口到瓶底完整入画，背景保持简洁。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于第二镜的构图与布景要求；完整入画是拍摄安排，未描述自动适配、产品按钮或操作流程。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "再看竖向单件花瓶，选择竖屏构图。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于针对直立花瓶的构图建议，不含额外产品能力或效果声明。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "并排展示前两镜的构图示例：横屏展台与竖屏单件花瓶，保持各自画面比例。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于成片中的示例对照安排，没有将并排展示或保持比例表述为产品自动完成的功能。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "duration_check给出第1、2、3镜预计时长分别为4、4、5秒。前两镜各有12、14个旁白单位，并安排观察展台全貌与完整花瓶，符合各自4秒最低停留要求；第3镜有18个旁白单位及两种构图对照，5秒有明确阅读和观察内容。回顾承担对比与产品事实说明作用，未见空镜或重复凑时长；总长估算13秒，宿主已判定通过20秒上限。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-04T00:59:03.060451+00:00",
+    "finished_at": "2026-11-04T01:02:05.536211+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "optional_editor_notes_v1",
+    "model_responses": 7,
+    "run_id": "2269bd974ba946989a10d77bdba384d2",
+    "persistence": "checkpoint_v1"
+  }
+}

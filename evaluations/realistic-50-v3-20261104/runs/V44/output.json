@@ -1,0 +1,22 @@
+{
+  "status": "needs_input",
+  "message": "尚未生成或完成脚本审核。请将老师确认的课程简介、手机摄影教学内容交给项目维护者补充。课表、价格和退费规则未确认前暂不写入，也不添加学员效果或学习结果承诺。",
+  "script": null,
+  "duration": null,
+  "rules_check": null,
+  "requirements_check": null,
+  "sources": [],
+  "metadata": {
+    "started_at": "2026-11-03T19:07:40.235128+00:00",
+    "finished_at": "2026-11-03T19:08:58.720200+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 3,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v3",
+    "requirements_review_context": "current_rules_check_v1",
+    "model_responses": 3
+  }
+}

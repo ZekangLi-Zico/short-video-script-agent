@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-h1spmooz",
+  "started_at": "2026-11-03T20:40:14.695829+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:41:39.365188+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a324-1c8a-75c2-815c-97eaa6e018f5",
+    "usage": {
+      "input_tokens": 28932,
+      "cached_input_tokens": 9600,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3605,
+      "reasoning_output_tokens": 1010
+    },
+    "call_id": "decision-h1spmooz",
+    "warnings": []
+  }
+}

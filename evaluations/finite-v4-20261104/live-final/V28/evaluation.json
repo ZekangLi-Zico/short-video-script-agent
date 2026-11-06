@@ -1,0 +1,12 @@
+{
+  "case": "V28",
+  "status": "completed",
+  "model_responses": 7,
+  "provider": "codex",
+  "steps": 6,
+  "seconds": 41.6,
+  "review_calls": 1,
+  "review_has_current_duration": true,
+  "replay_errors": [],
+  "message": "已完成六镜脚本，以社区分享会素材串联字幕添加、手动改字、片段裁剪和横竖屏比例，未重复产品句子凑时长。预计41.6秒，符合40.5—45秒目标区间；三项检查均通过，当前稿无需删改。实际成片时长仍需以配音和剪辑为准。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

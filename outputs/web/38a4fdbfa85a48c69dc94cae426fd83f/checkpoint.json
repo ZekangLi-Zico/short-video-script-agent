@@ -1,0 +1,1055 @@
+{
+  "format": "checkpoint_v1",
+  "recorded_at": "2026-11-03T21:16:10.831682+00:00",
+  "last_event": {
+    "kind": "step",
+    "step": 6
+  },
+  "result": {
+    "status": "in_progress",
+    "message": "任务执行中，尚未完成。",
+    "script": {
+      "title": "展馆记录：添加与编辑字幕",
+      "shots": [
+        {
+          "visual": "空展厅固定远景，展示安静的空间。以下文字作为轻声旁白，不出现文物年代或展品故事。",
+          "hold_seconds": 0,
+          "blocks": [
+            {
+              "text": "志愿者的展馆记录，从空展厅开始。",
+              "source_id": "",
+              "fact_id": ""
+            }
+          ]
+        },
+        {
+          "visual": "导览卡近景，卡面仅写“导览卡”。画面下方叠加“导览卡”作为添加字幕的示意，不展示软件界面。以下产品事实作为轻声旁白。",
+          "hold_seconds": 0,
+          "blocks": [
+            {
+              "text": "剪影练习版支持为视频添加字幕。",
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ]
+        },
+        {
+          "visual": "休息区固定中景，画面下方以字幕排版示意将“休区”改为“休息区”，不展示按钮或操作步骤。以下产品事实作为轻声旁白；旁白与修改示意结束后直接切黑，无号召语、无尾卡。",
+          "hold_seconds": 4,
+          "blocks": [
+            {
+              "text": "字幕文字可以手动编辑。",
+              "source_id": "P01",
+              "fact_id": "P01.F2"
+            }
+          ]
+        }
+      ]
+    },
+    "duration": {
+      "ok": true,
+      "script_hash": "7a1a0e0bb05bd87c107ddc830cffb796a14f92c81c3043c5d648602f66e44753",
+      "shots": [
+        {
+          "shot": 1,
+          "speech_units": 14,
+          "estimated_seconds": 4.0
+        },
+        {
+          "shot": 2,
+          "speech_units": 14,
+          "estimated_seconds": 4.0
+        },
+        {
+          "shot": 3,
+          "speech_units": 10,
+          "estimated_seconds": 4.0
+        }
+      ],
+      "total_seconds": 12.0,
+      "target_seconds": 26,
+      "passed": true,
+      "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+      "is_estimate": true
+    },
+    "rules_check": {
+      "ok": true,
+      "script_hash": "7a1a0e0bb05bd87c107ddc830cffb796a14f92c81c3043c5d648602f66e44753",
+      "passed": true,
+      "issues": [],
+      "citations": [
+        {
+          "location": "shot:2/block:1",
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01"
+        },
+        {
+          "location": "shot:3/block:1",
+          "source_id": "P01",
+          "fact_id": "P01.F2",
+          "quote": "字幕文字可以手动编辑。",
+          "version": "2026-11-01"
+        }
+      ],
+      "rules_version": "2026-11-03-v1",
+      "requires_expression_review": true,
+      "expression_slots": [
+        {
+          "location": "title",
+          "text": "展馆记录：添加与编辑字幕"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "空展厅固定远景，展示安静的空间。以下文字作为轻声旁白，不出现文物年代或展品故事。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "志愿者的展馆记录，从空展厅开始。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "导览卡近景，卡面仅写“导览卡”。画面下方叠加“导览卡”作为添加字幕的示意，不展示软件界面。以下产品事实作为轻声旁白。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "休息区固定中景，画面下方以字幕排版示意将“休区”改为“休息区”，不展示按钮或操作步骤。以下产品事实作为轻声旁白；旁白与修改示意结束后直接切黑，无号召语、无尾卡。"
+        }
+      ],
+      "available_facts": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F2",
+          "quote": "字幕文字可以手动编辑。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01"
+        }
+      ],
+      "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+    },
+    "requirements_check": {
+      "ok": true,
+      "script_hash": "7a1a0e0bb05bd87c107ddc830cffb796a14f92c81c3043c5d648602f66e44753",
+      "request_hash": "7939e15fdb046b0dd28287a964cd0fc6469e821c86b3f1bc72d2ae0c7d16d93a",
+      "passed": true,
+      "items": [
+        {
+          "field": "topic",
+          "requirement": "介绍添加字幕",
+          "verdict": "met",
+          "evidence": "第2镜旁白“剪影练习版支持为视频添加字幕。”，画面叠加“导览卡”作为添加字幕示意。"
+        },
+        {
+          "field": "topic",
+          "requirement": "手动编辑字幕文字",
+          "verdict": "met",
+          "evidence": "第3镜旁白“字幕文字可以手动编辑。”，并示意将“休区”改为“休息区”。"
+        },
+        {
+          "field": "topic",
+          "requirement": "空展厅",
+          "verdict": "met",
+          "evidence": "第1镜明确安排“空展厅固定远景”。"
+        },
+        {
+          "field": "topic",
+          "requirement": "导览卡",
+          "verdict": "met",
+          "evidence": "第2镜明确安排“导览卡近景”，卡面仅写“导览卡”。"
+        },
+        {
+          "field": "topic",
+          "requirement": "休息区",
+          "verdict": "met",
+          "evidence": "第3镜明确安排“休息区固定中景”。"
+        },
+        {
+          "field": "topic",
+          "requirement": "不要编造文物年代或展品故事",
+          "verdict": "met",
+          "evidence": "全部镜头和旁白均未提供文物年代或展品故事；导览卡仅展示名称。"
+        },
+        {
+          "field": "topic",
+          "requirement": "结尾直接结束",
+          "verdict": "met",
+          "evidence": "第3镜明确要求“旁白与修改示意结束后直接切黑，无号召语、无尾卡”。"
+        },
+        {
+          "field": "audience",
+          "requirement": "展馆志愿者",
+          "verdict": "met",
+          "evidence": "第1镜以“志愿者的展馆记录”引入，后续使用导览卡和休息区文字演示字幕功能，贴合展馆记录场景。"
+        },
+        {
+          "field": "platform",
+          "requirement": "视频号",
+          "verdict": "met",
+          "evidence": "三镜以简短中文旁白配合直观字幕示意，内容完整、易理解，适合视频号短视频呈现。"
+        },
+        {
+          "field": "style",
+          "requirement": "安静",
+          "verdict": "met",
+          "evidence": "第1、3镜使用固定景别，三镜均安排轻声旁白，第1镜明确展示安静空间。"
+        },
+        {
+          "field": "style",
+          "requirement": "说明式",
+          "verdict": "met",
+          "evidence": "第2、3镜直接说明添加字幕和手动编辑文字两项功能，并配合对应示意，无夸张宣传。"
+        }
+      ],
+      "summary": "明确需求均已落实：两项字幕功能、三个展馆背景及直接结束的结尾均有体现。表达有资料支持，逐镜节奏合理。",
+      "method": "model_assessment_not_deterministic_proof",
+      "expressions": [
+        {
+          "location": "title",
+          "text": "展馆记录：添加与编辑字幕",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2"
+            }
+          ],
+          "evidence": "标题中的添加字幕和编辑字幕分别由P01.F1、P01.F2支持，未承诺自动编辑或其他能力。"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "空展厅固定远景，展示安静的空间。以下文字作为轻声旁白，不出现文物年代或展品故事。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "仅规定展厅背景、景别、旁白方式和内容边界，不含产品能力或效果承诺。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "志愿者的展馆记录，从空展厅开始。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于场景引入，未声称真实客户背书或产品效果。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "导览卡近景，卡面仅写“导览卡”。画面下方叠加“导览卡”作为添加字幕的示意，不展示软件界面。以下产品事实作为轻声旁白。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "字幕叠加示意对应P01.F1支持的添加字幕能力；画面下方是成片字幕安排，未虚构产品界面、按钮或操作流程。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "休息区固定中景，画面下方以字幕排版示意将“休区”改为“休息区”，不展示按钮或操作步骤。以下产品事实作为轻声旁白；旁白与修改示意结束后直接切黑，无号召语、无尾卡。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2"
+            }
+          ],
+          "evidence": "修改字幕文字的示意由P01.F2支持，配套旁白明确为手动编辑，未暗示自动纠错；其余内容为拍摄和收尾安排。"
+        }
+      ],
+      "pacing": {
+        "verdict": "met",
+        "evidence": "duration_check中三镜预计均为4秒：第1镜配14单位旁白和展厅观察，第2镜配14单位旁白及导览卡字幕示意，第3镜配10单位旁白及“休区”改为“休息区”的简短演示。各镜均有明确内容支撑，第3镜满足4秒最低停留，无重复事实或空镜凑时长。总计12秒，宿主已判定符合26秒上限。"
+      },
+      "expression_review_passed": true
+    },
+    "sources": [
+      {
+        "id": "P01",
+        "product_id": "demo-editor",
+        "title": "字幕功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "字幕",
+          "口播",
+          "文字",
+          "caption",
+          "subtitle"
+        ],
+        "facts": [
+          {
+            "id": "P01.F1",
+            "text": "剪影练习版支持为视频添加字幕。"
+          },
+          {
+            "id": "P01.F2",
+            "text": "字幕文字可以手动编辑。"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "product_id": "demo-editor",
+        "title": "剪辑功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "剪辑",
+          "裁剪",
+          "片段",
+          "trim",
+          "edit"
+        ],
+        "facts": [
+          {
+            "id": "P02.F1",
+            "text": "剪影练习版支持裁剪视频片段。"
+          }
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "action": "search_materials",
+        "arguments": {
+          "query": "demo-editor 添加字幕 手动编辑字幕文字",
+          "product_id": "demo-editor"
+        },
+        "decision_basis": "当前没有产品素材，需核实添加字幕和手动编辑字幕文字两项功能。",
+        "observation": {
+          "ok": true,
+          "query": "demo-editor 添加字幕 手动编辑字幕文字",
+          "product_id": "demo-editor",
+          "materials": [
+            {
+              "id": "P01",
+              "product_id": "demo-editor",
+              "title": "字幕功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "字幕",
+                "口播",
+                "文字",
+                "caption",
+                "subtitle"
+              ],
+              "facts": [
+                {
+                  "id": "P01.F1",
+                  "text": "剪影练习版支持为视频添加字幕。"
+                },
+                {
+                  "id": "P01.F2",
+                  "text": "字幕文字可以手动编辑。"
+                }
+              ]
+            },
+            {
+              "id": "P02",
+              "product_id": "demo-editor",
+              "title": "剪辑功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "剪辑",
+                "裁剪",
+                "片段",
+                "trim",
+                "edit"
+              ],
+              "facts": [
+                {
+                  "id": "P02.F1",
+                  "text": "剪影练习版支持裁剪视频片段。"
+                }
+              ]
+            }
+          ],
+          "count": 2
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a341-f2ce-7471-8c65-e2bfa9969c3d",
+          "usage": {
+            "input_tokens": 27035,
+            "cached_input_tokens": 24448,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 132,
+            "reasoning_output_tokens": 66
+          },
+          "call_id": "decision-k186hifi",
+          "warnings": []
+        },
+        "elapsed_ms": 31344
+      },
+      {
+        "step": 2,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "title": "展馆记录：添加与编辑字幕",
+            "shots": [
+              {
+                "visual": "空展厅固定远景，展示安静的空间。以下文字作为轻声旁白，不出现文物年代或展品故事。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "志愿者的展馆记录，从空展厅开始。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "导览卡近景，卡面仅写“导览卡”。画面下方叠加“导览卡”作为添加字幕的示意，不展示软件界面。以下产品事实作为轻声旁白。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1"
+                  }
+                ]
+              },
+              {
+                "visual": "休息区固定中景，画面下方以字幕排版示意将“休区”改为“休息区”，不展示按钮或操作步骤。以下产品事实作为轻声旁白；旁白与修改示意结束后直接切黑，无号召语、无尾卡。",
+                "hold_seconds": 4,
+                "blocks": [
+                  {
+                    "text": "字幕文字可以手动编辑。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "decision_basis": "已核实两项字幕功能，按空展厅、导览卡和休息区组织分镜。",
+        "observation": {
+          "ok": true,
+          "script_hash": "7a1a0e0bb05bd87c107ddc830cffb796a14f92c81c3043c5d648602f66e44753",
+          "revision": {
+            "before_hash": null,
+            "after_hash": "7a1a0e0bb05bd87c107ddc830cffb796a14f92c81c3043c5d648602f66e44753",
+            "changed_fields": [
+              "script:new"
+            ],
+            "unchanged_shots": 0,
+            "unchanged_blocks": 0,
+            "feedback": [],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a342-6f16-76f0-8b4e-d76eb951dd5e",
+          "usage": {
+            "input_tokens": 27521,
+            "cached_input_tokens": 24448,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 937,
+            "reasoning_output_tokens": 516
+          },
+          "call_id": "decision-is6sjbxo",
+          "warnings": []
+        },
+        "elapsed_ms": 41593
+      },
+      {
+        "step": 3,
+        "action": "estimate_duration",
+        "arguments": {
+          "script": {
+            "title": "展馆记录：添加与编辑字幕",
+            "shots": [
+              {
+                "visual": "空展厅固定远景，展示安静的空间。以下文字作为轻声旁白，不出现文物年代或展品故事。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "志愿者的展馆记录，从空展厅开始。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "导览卡近景，卡面仅写“导览卡”。画面下方叠加“导览卡”作为添加字幕的示意，不展示软件界面。以下产品事实作为轻声旁白。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1"
+                  }
+                ]
+              },
+              {
+                "visual": "休息区固定中景，画面下方以字幕排版示意将“休区”改为“休息区”，不展示按钮或操作步骤。以下产品事实作为轻声旁白；旁白与修改示意结束后直接切黑，无号召语、无尾卡。",
+                "hold_seconds": 4,
+                "blocks": [
+                  {
+                    "text": "字幕文字可以手动编辑。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2"
+                  }
+                ]
+              }
+            ]
+          },
+          "target_seconds": 26,
+          "duration_mode": "max"
+        },
+        "decision_basis": "当前稿尚未估时，先检查是否在26秒上限内。",
+        "observation": {
+          "ok": true,
+          "script_hash": "7a1a0e0bb05bd87c107ddc830cffb796a14f92c81c3043c5d648602f66e44753",
+          "shots": [
+            {
+              "shot": 1,
+              "speech_units": 14,
+              "estimated_seconds": 4.0
+            },
+            {
+              "shot": 2,
+              "speech_units": 14,
+              "estimated_seconds": 4.0
+            },
+            {
+              "shot": 3,
+              "speech_units": 10,
+              "estimated_seconds": 4.0
+            }
+          ],
+          "total_seconds": 12.0,
+          "target_seconds": 26,
+          "passed": true,
+          "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+          "is_estimate": true
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a343-10cc-7f71-859b-34135bd72c02",
+          "usage": {
+            "input_tokens": 28351,
+            "cached_input_tokens": 24448,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 116,
+            "reasoning_output_tokens": 64
+          },
+          "call_id": "decision-kf8a869q",
+          "warnings": []
+        },
+        "elapsed_ms": 17969
+      },
+      {
+        "step": 4,
+        "action": "check_rules",
+        "arguments": {
+          "script": {
+            "title": "展馆记录：添加与编辑字幕",
+            "shots": [
+              {
+                "visual": "空展厅固定远景，展示安静的空间。以下文字作为轻声旁白，不出现文物年代或展品故事。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "志愿者的展馆记录，从空展厅开始。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "导览卡近景，卡面仅写“导览卡”。画面下方叠加“导览卡”作为添加字幕的示意，不展示软件界面。以下产品事实作为轻声旁白。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1"
+                  }
+                ]
+              },
+              {
+                "visual": "休息区固定中景，画面下方以字幕排版示意将“休区”改为“休息区”，不展示按钮或操作步骤。以下产品事实作为轻声旁白；旁白与修改示意结束后直接切黑，无号召语、无尾卡。",
+                "hold_seconds": 4,
+                "blocks": [
+                  {
+                    "text": "字幕文字可以手动编辑。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2"
+                  }
+                ]
+              }
+            ]
+          },
+          "retrieved_ids": [
+            "P01",
+            "P02"
+          ],
+          "expression_mode": "creative"
+        },
+        "decision_basis": "当前稿估时12秒，已通过26秒上限检查，尚未检查规则与事实引用。",
+        "observation": {
+          "ok": true,
+          "script_hash": "7a1a0e0bb05bd87c107ddc830cffb796a14f92c81c3043c5d648602f66e44753",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:2/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:3/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "展馆记录：添加与编辑字幕"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "空展厅固定远景，展示安静的空间。以下文字作为轻声旁白，不出现文物年代或展品故事。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "志愿者的展馆记录，从空展厅开始。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "导览卡近景，卡面仅写“导览卡”。画面下方叠加“导览卡”作为添加字幕的示意，不展示软件界面。以下产品事实作为轻声旁白。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "休息区固定中景，画面下方以字幕排版示意将“休区”改为“休息区”，不展示按钮或操作步骤。以下产品事实作为轻声旁白；旁白与修改示意结束后直接切黑，无号召语、无尾卡。"
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a343-5666-7d30-891f-59be0e5f5f85",
+          "usage": {
+            "input_tokens": 29085,
+            "cached_input_tokens": 24448,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 150,
+            "reasoning_output_tokens": 92
+          },
+          "call_id": "decision-unttxqmb",
+          "warnings": []
+        },
+        "elapsed_ms": 16235
+      },
+      {
+        "step": 5,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "title": "展馆记录：添加与编辑字幕",
+            "shots": [
+              {
+                "visual": "空展厅固定远景，展示安静的空间。以下文字作为轻声旁白，不出现文物年代或展品故事。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "志愿者的展馆记录，从空展厅开始。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "导览卡近景，卡面仅写“导览卡”。画面下方叠加“导览卡”作为添加字幕的示意，不展示软件界面。以下产品事实作为轻声旁白。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1"
+                  }
+                ]
+              },
+              {
+                "visual": "休息区固定中景，画面下方以字幕排版示意将“休区”改为“休息区”，不展示按钮或操作步骤。以下产品事实作为轻声旁白；旁白与修改示意结束后直接切黑，无号召语、无尾卡。",
+                "hold_seconds": 4,
+                "blocks": [
+                  {
+                    "text": "字幕文字可以手动编辑。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2"
+                  }
+                ]
+              }
+            ]
+          },
+          "request": {
+            "topic": "介绍添加字幕和手动编辑字幕文字，背景是空展厅、导览卡和休息区。不要编造文物年代或展品故事，结尾直接结束。",
+            "audience": "展馆志愿者",
+            "platform": "视频号",
+            "style": "安静，说明式",
+            "product_id": "demo-editor",
+            "duration_mode": "max",
+            "expression_mode": "creative",
+            "target_seconds": 26
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "7a1a0e0bb05bd87c107ddc830cffb796a14f92c81c3043c5d648602f66e44753",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:2/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "location": "shot:3/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "展馆记录：添加与编辑字幕"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "空展厅固定远景，展示安静的空间。以下文字作为轻声旁白，不出现文物年代或展品故事。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "志愿者的展馆记录，从空展厅开始。"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "导览卡近景，卡面仅写“导览卡”。画面下方叠加“导览卡”作为添加字幕的示意，不展示软件界面。以下产品事实作为轻声旁白。"
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "休息区固定中景，画面下方以字幕排版示意将“休区”改为“休息区”，不展示按钮或操作步骤。以下产品事实作为轻声旁白；旁白与修改示意结束后直接切黑，无号召语、无尾卡。"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "7a1a0e0bb05bd87c107ddc830cffb796a14f92c81c3043c5d648602f66e44753",
+            "shots": [
+              {
+                "shot": 1,
+                "speech_units": 14,
+                "estimated_seconds": 4.0
+              },
+              {
+                "shot": 2,
+                "speech_units": 14,
+                "estimated_seconds": 4.0
+              },
+              {
+                "shot": 3,
+                "speech_units": 10,
+                "estimated_seconds": 4.0
+              }
+            ],
+            "total_seconds": 12.0,
+            "target_seconds": 26,
+            "passed": true,
+            "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+            "is_estimate": true
+          }
+        },
+        "decision_basis": "当前稿估时12秒且规则检查通过，尚需核对需求覆盖与原创表达。",
+        "observation": {
+          "ok": true,
+          "script_hash": "7a1a0e0bb05bd87c107ddc830cffb796a14f92c81c3043c5d648602f66e44753",
+          "request_hash": "7939e15fdb046b0dd28287a964cd0fc6469e821c86b3f1bc72d2ae0c7d16d93a",
+          "passed": true,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "介绍添加字幕",
+              "verdict": "met",
+              "evidence": "第2镜旁白“剪影练习版支持为视频添加字幕。”，画面叠加“导览卡”作为添加字幕示意。"
+            },
+            {
+              "field": "topic",
+              "requirement": "手动编辑字幕文字",
+              "verdict": "met",
+              "evidence": "第3镜旁白“字幕文字可以手动编辑。”，并示意将“休区”改为“休息区”。"
+            },
+            {
+              "field": "topic",
+              "requirement": "空展厅",
+              "verdict": "met",
+              "evidence": "第1镜明确安排“空展厅固定远景”。"
+            },
+            {
+              "field": "topic",
+              "requirement": "导览卡",
+              "verdict": "met",
+              "evidence": "第2镜明确安排“导览卡近景”，卡面仅写“导览卡”。"
+            },
+            {
+              "field": "topic",
+              "requirement": "休息区",
+              "verdict": "met",
+              "evidence": "第3镜明确安排“休息区固定中景”。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不要编造文物年代或展品故事",
+              "verdict": "met",
+              "evidence": "全部镜头和旁白均未提供文物年代或展品故事；导览卡仅展示名称。"
+            },
+            {
+              "field": "topic",
+              "requirement": "结尾直接结束",
+              "verdict": "met",
+              "evidence": "第3镜明确要求“旁白与修改示意结束后直接切黑，无号召语、无尾卡”。"
+            },
+            {
+              "field": "audience",
+              "requirement": "展馆志愿者",
+              "verdict": "met",
+              "evidence": "第1镜以“志愿者的展馆记录”引入，后续使用导览卡和休息区文字演示字幕功能，贴合展馆记录场景。"
+            },
+            {
+              "field": "platform",
+              "requirement": "视频号",
+              "verdict": "met",
+              "evidence": "三镜以简短中文旁白配合直观字幕示意，内容完整、易理解，适合视频号短视频呈现。"
+            },
+            {
+              "field": "style",
+              "requirement": "安静",
+              "verdict": "met",
+              "evidence": "第1、3镜使用固定景别，三镜均安排轻声旁白，第1镜明确展示安静空间。"
+            },
+            {
+              "field": "style",
+              "requirement": "说明式",
+              "verdict": "met",
+              "evidence": "第2、3镜直接说明添加字幕和手动编辑文字两项功能，并配合对应示意，无夸张宣传。"
+            }
+          ],
+          "summary": "明确需求均已落实：两项字幕功能、三个展馆背景及直接结束的结尾均有体现。表达有资料支持，逐镜节奏合理。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "展馆记录：添加与编辑字幕",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                },
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ],
+              "evidence": "标题中的添加字幕和编辑字幕分别由P01.F1、P01.F2支持，未承诺自动编辑或其他能力。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "空展厅固定远景，展示安静的空间。以下文字作为轻声旁白，不出现文物年代或展品故事。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "仅规定展厅背景、景别、旁白方式和内容边界，不含产品能力或效果承诺。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "志愿者的展馆记录，从空展厅开始。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于场景引入，未声称真实客户背书或产品效果。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "导览卡近景，卡面仅写“导览卡”。画面下方叠加“导览卡”作为添加字幕的示意，不展示软件界面。以下产品事实作为轻声旁白。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "字幕叠加示意对应P01.F1支持的添加字幕能力；画面下方是成片字幕安排，未虚构产品界面、按钮或操作流程。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "休息区固定中景，画面下方以字幕排版示意将“休区”改为“休息区”，不展示按钮或操作步骤。以下产品事实作为轻声旁白；旁白与修改示意结束后直接切黑，无号召语、无尾卡。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ],
+              "evidence": "修改字幕文字的示意由P01.F2支持，配套旁白明确为手动编辑，未暗示自动纠错；其余内容为拍摄和收尾安排。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "duration_check中三镜预计均为4秒：第1镜配14单位旁白和展厅观察，第2镜配14单位旁白及导览卡字幕示意，第3镜配10单位旁白及“休区”改为“休息区”的简短演示。各镜均有明确内容支撑，第3镜满足4秒最低停留，无重复事实或空镜凑时长。总计12秒，宿主已判定符合26秒上限。"
+          },
+          "expression_review_passed": true
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a343-9568-71d1-bb46-1bf80c84fe5d",
+          "usage": {
+            "input_tokens": 30636,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 92,
+            "reasoning_output_tokens": 35
+          },
+          "call_id": "decision-wkw6zs6p",
+          "warnings": []
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a343-c821-7742-9717-11137f2d1660",
+          "usage": {
+            "input_tokens": 27858,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2387,
+            "reasoning_output_tokens": 874
+          },
+          "call_id": "decision-vpac21n3",
+          "warnings": []
+        },
+        "elapsed_ms": 72422
+      },
+      {
+        "step": 6,
+        "action": "finish",
+        "arguments": {
+          "status": "completed",
+          "message": "已完成安静、说明式的三镜脚本，覆盖添加字幕、手动编辑字幕文字，以及空展厅、导览卡和休息区三个背景。未编造文物年代或展品故事，结尾直接切黑。当前稿无需修改，估算12秒，符合26秒上限，无待补事项。"
+        },
+        "decision_basis": "当前同一稿的时长、规则和需求检查均已通过。",
+        "observation": {
+          "ok": true,
+          "status": "completed",
+          "script_hash": "7a1a0e0bb05bd87c107ddc830cffb796a14f92c81c3043c5d648602f66e44753"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a344-b027-77f1-af47-dc6b7dcee955",
+          "usage": {
+            "input_tokens": 34777,
+            "cached_input_tokens": 24448,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 347,
+            "reasoning_output_tokens": 224
+          },
+          "call_id": "decision-0d90ntzc",
+          "warnings": []
+        },
+        "elapsed_ms": 21281
+      }
+    ],
+    "metadata": {
+      "started_at": "2026-11-03T21:12:49.900019+00:00",
+      "finished_at": "2026-11-03T21:16:10.829626+00:00",
+      "provider": "codex",
+      "evidence_kind": "real_model",
+      "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+      "max_steps": 12,
+      "steps": 6,
+      "synthetic_data": true,
+      "completion_policy": "facts_duration_requirements_v4",
+      "requirements_review_context": "current_rules_and_duration_v2",
+      "model_responses": 7,
+      "run_id": "4e81977bd1544ee799b97f7b8cdb342c",
+      "persistence": "checkpoint_v1",
+      "fault_injection": {}
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-11-03T20:05:04.016102+00:00",
+  "finished_at": "2026-11-03T20:05:12.337327+00:00",
+  "python": "3.12.14",
+  "platform": "Windows",
+  "tests_run": 94,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "scope": "Offline unit, integration and adapter-contract tests; not a real API benchmark."
+}

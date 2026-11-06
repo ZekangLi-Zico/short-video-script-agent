@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-j1nmccpe",
+  "started_at": "2026-11-03T23:09:04.187710+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:09:26.647708+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3ac-5d4a-7683-90d5-53a30da7b828",
+    "usage": {
+      "input_tokens": 35341,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 648,
+      "reasoning_output_tokens": 309
+    },
+    "call_id": "decision-j1nmccpe",
+    "warnings": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "case": "T13",
+  "name": "六秒入口",
+  "run_id": "9bb9032b483b4150a510a028fc1d069c",
+  "status": "completed",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "steps": 5,
+  "model_calls": 5,
+  "seconds": 5.5,
+  "target_seconds": 6,
+  "rules_passed": true,
+  "shots": 1,
+  "title": "字幕，让表达被看见",
+  "citations": [
+    "P01.F1"
+  ],
+  "script_lines": [
+    "剪影练习版支持为视频添加字幕。"
+  ],
+  "actions": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 剪影练习版 支持为视频添加字幕"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前没有已检索事实，需要获取添加字幕功能的来源。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "basis": "已检索到字幕功能原文，采用单镜头仅呈现这一事实。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "basis": "当前稿尚未检查时长，需要确认是否符合6秒上限。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": 5.5,
+      "issues": null
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "basis": "当前稿估算时长5.5秒，符合6秒上限，尚需完成规则检查。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": null,
+      "issues": []
+    },
+    {
+      "step": 5,
+      "action": "finish",
+      "basis": "当前同一稿的时长与规则检查均已通过，预估5.5秒，符合6秒上限。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 83.5,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "7c24da69185e72a636edc225fa54ab6df53c0c7b8b18aafe9ab3cb903a6e24c0",
+    "output.json": "126cf69e75c7ea86a5003e7ecfd4a8138b9f1d230112e7742707e4746f5a6996",
+    "trace.jsonl": "594d25558780584494ccaf3db8109d4791f244d2df073c51a540129be28acd3b",
+    "manifest.json": "b640698bce3264a847495edf0d7aa64520da070f6dc6ddd5670b0a26ece39f7c",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "52816fd2c7d890405911c670d709f57a161ae7bbbd41b6548d4e31cf5a033603"
+  }
+}

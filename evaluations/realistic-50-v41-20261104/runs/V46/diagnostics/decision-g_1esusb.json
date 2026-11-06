@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-g_1esusb",
+  "started_at": "2026-11-04T01:43:59.675511+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:44:35.001078+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a43a-36a4-7b03-95cd-94b1ff7594f1",
+    "usage": {
+      "input_tokens": 29703,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 637,
+      "reasoning_output_tokens": 360
+    },
+    "call_id": "decision-g_1esusb",
+    "warnings": []
+  }
+}

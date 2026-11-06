@@ -1,0 +1,12 @@
+{
+  "case": "cleanup_lock",
+  "status": "completed",
+  "model_responses": 7,
+  "provider": "codex",
+  "steps": 6,
+  "seconds": 16.5,
+  "review_calls": 1,
+  "review_has_current_duration": true,
+  "replay_errors": [],
+  "message": "已完成三镜脚本，仅介绍添加字幕，以早餐摊主备料口播串联蒸笼、手写菜单、打包台，采用同事分享式短句，并明确避开顾客正脸。检查后无需删改。工具估算16.5秒，符合25秒上限；估算包含不朗读的事实卡文字，并非成片实测时长。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

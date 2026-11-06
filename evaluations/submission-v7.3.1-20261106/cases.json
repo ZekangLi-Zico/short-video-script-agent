@@ -1,0 +1,87 @@
+[
+  {
+    "id": "product_normal",
+    "request": {
+      "topic": "咖啡店准备给店员做一条剪辑小教学。已有手冲注水和端杯出餐的录像，用剪影练习版给视频添加字幕，再把字幕里写错的咖啡名字手动改好。写一条可以配音的短视频脚本，让没用过这款工具的同事看懂这两个用途。",
+      "audience": "负责门店短视频、刚接触剪辑的店员",
+      "platform": "视频号",
+      "target_seconds": 30,
+      "style": "像同事示范，直接、自然、步骤好理解",
+      "product_id": "demo-editor",
+      "expression_mode": "creative",
+      "duration_mode": "max"
+    },
+    "failures": {}
+  },
+  {
+    "id": "over_duration",
+    "request": {
+      "topic": "介绍字幕功能",
+      "audience": "第一次制作口播短视频的创作者",
+      "platform": "抖音",
+      "target_seconds": 30,
+      "style": "清楚、友好、克制",
+      "product_id": "demo-editor",
+      "initial_script": {
+        "title": "字幕，让表达被看见",
+        "shots": [
+          {
+            "visual": "人物面对镜头提出问题",
+            "hold_seconds": 19,
+            "blocks": [
+              {
+                "text": "想让画面里的表达更清楚？",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          },
+          {
+            "visual": "产品功能文字卡片，不展示未经提供的界面",
+            "hold_seconds": 19,
+            "blocks": [
+              {
+                "text": "剪影练习版支持为视频添加字幕。",
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ]
+          }
+        ]
+      },
+      "expression_mode": "creative",
+      "duration_mode": "max"
+    },
+    "failures": {}
+  },
+  {
+    "id": "no_material",
+    "request": {
+      "topic": "摄影工作室想给新同事介绍晨光剪辑，重点讲它能怎样处理采访视频中的人声字幕。写一条简洁的入门介绍，方便同事决定是否用它处理下一次客户采访。",
+      "audience": "需要整理客户采访的摄影工作室新人",
+      "platform": "视频号",
+      "target_seconds": 30,
+      "style": "像同事示范，直接、自然、步骤好理解",
+      "product_id": "product-without-materials",
+      "expression_mode": "creative",
+      "duration_mode": "max"
+    },
+    "failures": {}
+  },
+  {
+    "id": "tool_failure",
+    "request": {
+      "topic": "咖啡店准备给店员做一条剪辑小教学。已有手冲注水和端杯出餐的录像，用剪影练习版给视频添加字幕，再把字幕里写错的咖啡名字手动改好。写一条可以配音的短视频脚本，让没用过这款工具的同事看懂这两个用途。",
+      "audience": "负责门店短视频、刚接触剪辑的店员",
+      "platform": "视频号",
+      "target_seconds": 30,
+      "style": "像同事示范，直接、自然、步骤好理解",
+      "product_id": "demo-editor",
+      "expression_mode": "creative",
+      "duration_mode": "max"
+    },
+    "failures": {
+      "search_materials": -1
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-gzrpnl1f",
+  "started_at": "2026-11-03T21:10:37.655606+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:11:41.681317+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a33f-ed26-79a1-86b6-1e3325afcbe1",
+    "usage": {
+      "input_tokens": 27789,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2550,
+      "reasoning_output_tokens": 971
+    },
+    "call_id": "decision-gzrpnl1f",
+    "warnings": []
+  }
+}

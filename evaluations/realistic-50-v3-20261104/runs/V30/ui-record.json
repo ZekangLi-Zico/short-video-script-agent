@@ -1,0 +1,10 @@
+{
+  "busy": false,
+  "detail": "真实模型 · 5 个执行步骤",
+  "history": "4ce95c40de0a452ea3551d2fdfb6ce27",
+  "href": "/api/runs/4ce95c40de0a452ea3551d2fdfb6ce27/download/output.json",
+  "message": "草稿保留了三项功能各一次、无人物，但估算12.8秒，未满足8秒上限。现有事实原文不能擅自缩写，也不能删去任何一项功能。需项目维护者补充三项功能更短的可引用文案，再继续修订；规则和需求检查尚未完成。",
+  "status": "需要补充",
+  "case": "V30",
+  "captured_at": "2026-11-03T18:54:40.818Z"
+}

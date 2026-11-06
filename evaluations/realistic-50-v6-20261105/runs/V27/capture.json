@@ -1,0 +1,13 @@
+{
+  "case": "V27",
+  "index": 26,
+  "attempt": 1,
+  "run_id": "1efd4271168a4c98932fc5662e6e2e18",
+  "folder": "V27",
+  "status": "completed",
+  "steps": 4,
+  "responses": 5,
+  "provider": "codex",
+  "seconds": 6,
+  "message": "已完成两个分镜：剪刀与胶片介绍裁剪片段，横竖相框介绍比例选项。预计6秒，无额外开场或结尾，全部检查通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

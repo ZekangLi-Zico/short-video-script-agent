@@ -1,0 +1,22 @@
+[
+  {
+    "case_id": "product_normal",
+    "run_id": "f63e19933d5d43b0a96302e7f19a25e5",
+    "status": "检查通过"
+  },
+  {
+    "case_id": "over_duration",
+    "run_id": "d1e03fc08d4947fb86ba1c03613ad869",
+    "status": "检查通过"
+  },
+  {
+    "case_id": "no_material",
+    "run_id": "55fe7327f7dc47f78a539fadfbc3a3ee",
+    "status": "需要补充"
+  },
+  {
+    "case_id": "tool_failure",
+    "run_id": "8b03cdca0d5d41e7ac94a489ebf39f57",
+    "status": "未完成"
+  }
+]

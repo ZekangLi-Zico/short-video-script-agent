@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-_kgrsdu1",
+  "started_at": "2026-11-03T21:46:02.630458+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:46:22.284807+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a360-5aa7-7673-a79e-7a600c6806a2",
+    "usage": {
+      "input_tokens": 27053,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 295,
+      "reasoning_output_tokens": 183
+    },
+    "call_id": "decision-_kgrsdu1",
+    "warnings": []
+  }
+}

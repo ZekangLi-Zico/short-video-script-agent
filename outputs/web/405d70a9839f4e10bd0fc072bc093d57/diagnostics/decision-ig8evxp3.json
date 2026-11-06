@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ig8evxp3",
+  "started_at": "2026-11-03T21:36:21.764245+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:36:39.228938+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a357-83a2-79a3-9239-f36768a96cd8",
+    "usage": {
+      "input_tokens": 28885,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 123,
+      "reasoning_output_tokens": 65
+    },
+    "call_id": "decision-ig8evxp3",
+    "warnings": []
+  }
+}

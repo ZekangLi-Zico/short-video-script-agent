@@ -1,0 +1,18 @@
+{
+  "id": "V05",
+  "name": "自行车修理教学",
+  "context": "修理铺要把长录像整理成教学片。",
+  "request": {
+    "topic": "介绍裁剪视频片段与添加字幕。用检查车链、擦拭工具、收工台面三段素材，不说明具体维修安全操作，也不要虚构产品按钮。",
+    "audience": "社区修理铺店主",
+    "platform": "B站",
+    "target_seconds": 35,
+    "style": "朴实，教学感",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "target"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

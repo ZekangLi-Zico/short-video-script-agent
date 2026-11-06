@@ -1,0 +1,43 @@
+{
+  "call_id": "decision-klmg3aei",
+  "started_at": "2026-11-05T20:41:12.219295+00:00",
+  "response_received": true,
+  "phase": "review",
+  "timeout_seconds": 180,
+  "request_bytes": 26538,
+  "exit_code": 0,
+  "runtime": {
+    "event_counts": {
+      "thread.started": 1,
+      "turn.started": 1,
+      "item.completed": 1,
+      "turn.completed": 1
+    },
+    "last_event": "turn.completed",
+    "turn_started": true,
+    "turn_completed": true,
+    "external_tool_used": false,
+    "signals": [],
+    "stdout_bytes": 13987,
+    "stderr_bytes": 158
+  },
+  "finished_at": "2026-11-05T20:42:34.598844+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1ad71-b4ff-7511-9f45-c40c34f67c4b",
+    "usage": {
+      "input_tokens": 28713,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3840,
+      "reasoning_output_tokens": 44
+    },
+    "call_id": "decision-klmg3aei",
+    "warnings": [],
+    "configuration_mode": "isolated",
+    "phase": "review"
+  },
+  "elapsed_seconds": 82.391
+}

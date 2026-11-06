@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ib42x3q0",
+  "started_at": "2026-11-03T20:25:21.542587+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:26:27.245878+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a316-7e1e-7fb1-ae3c-97e4a08d4192",
+    "usage": {
+      "input_tokens": 28031,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2722,
+      "reasoning_output_tokens": 1001
+    },
+    "call_id": "decision-ib42x3q0",
+    "warnings": []
+  }
+}

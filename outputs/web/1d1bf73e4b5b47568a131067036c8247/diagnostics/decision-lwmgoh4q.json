@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-lwmgoh4q",
+  "started_at": "2026-11-04T01:04:53.614164+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:05:07.687867+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a416-672b-7083-b58b-e7d0e4684361",
+    "usage": {
+      "input_tokens": 31777,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 106,
+      "reasoning_output_tokens": 42
+    },
+    "call_id": "decision-lwmgoh4q",
+    "warnings": []
+  }
+}

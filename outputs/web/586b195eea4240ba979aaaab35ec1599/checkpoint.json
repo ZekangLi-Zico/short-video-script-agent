@@ -1,0 +1,1368 @@
+{
+  "format": "checkpoint_v1",
+  "recorded_at": "2026-11-03T21:25:26.298125+00:00",
+  "last_event": {
+    "kind": "step",
+    "step": 6
+  },
+  "result": {
+    "status": "in_progress",
+    "message": "任务执行中，尚未完成。",
+    "script": {
+      "title": "球场日记的三个画面",
+      "shots": [
+        {
+          "visual": "空球场全景，缓慢横移，依次带出场地边线和远处的记分牌。所有文字块均为旁白，不另设功能文字卡。",
+          "hold_seconds": 8,
+          "blocks": [
+            {
+              "text": "训练结束，球场安静下来。给社团留一段记录，从这三个画面开始。",
+              "source_id": "",
+              "fact_id": ""
+            }
+          ]
+        },
+        {
+          "visual": "仍为空球场，切到边线近景，沿线缓慢移动，再切回场地中景，以景别变化呈现片段衔接；不展示产品界面。文字块依次作为旁白。",
+          "hold_seconds": 8,
+          "blocks": [
+            {
+              "text": "剪影练习版支持裁剪视频片段。",
+              "source_id": "P02",
+              "fact_id": "P02.F1"
+            },
+            {
+              "text": "镜头沿着边线移动，把目光带进今天的球场。",
+              "source_id": "",
+              "fact_id": ""
+            }
+          ]
+        },
+        {
+          "visual": "从空球场远景切到记分牌近景，待镜头稳定后看清现场已有数字，不修改分数，不展示产品界面。文字块依次作为旁白。",
+          "hold_seconds": 8,
+          "blocks": [
+            {
+              "text": "剪影练习版支持为视频添加字幕。",
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            },
+            {
+              "text": "从远景走近记分牌，记录这一天留下的数字。",
+              "source_id": "",
+              "fact_id": ""
+            }
+          ]
+        },
+        {
+          "visual": "队员背向镜头走向场边。先拍包含场地环境的背影远景，再切背影中景，最后固定机位让队员逐渐走远；不出现正脸或运动表现对比，不展示产品界面。文字块依次作为旁白。",
+          "hold_seconds": 12,
+          "blocks": [
+            {
+              "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            },
+            {
+              "text": "队员朝场边走去，镜头留在背影上。把这一幕，放进社团日记的结尾。",
+              "source_id": "",
+              "fact_id": ""
+            }
+          ]
+        }
+      ]
+    },
+    "duration": {
+      "ok": true,
+      "script_hash": "3a1b2635fb4ce4d12276f7dbaad620d217aaa5d2947977a11942bf233d483565",
+      "shots": [
+        {
+          "shot": 1,
+          "speech_units": 26,
+          "estimated_seconds": 8.0
+        },
+        {
+          "shot": 2,
+          "speech_units": 31,
+          "estimated_seconds": 8.3
+        },
+        {
+          "shot": 3,
+          "speech_units": 32,
+          "estimated_seconds": 8.5
+        },
+        {
+          "shot": 4,
+          "speech_units": 45,
+          "estimated_seconds": 12.0
+        }
+      ],
+      "total_seconds": 36.8,
+      "target_seconds": 40,
+      "passed": true,
+      "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+      "is_estimate": true,
+      "duration_mode": "target",
+      "min_seconds": 36.0,
+      "max_seconds": 40,
+      "issue": null
+    },
+    "rules_check": {
+      "ok": true,
+      "script_hash": "3a1b2635fb4ce4d12276f7dbaad620d217aaa5d2947977a11942bf233d483565",
+      "passed": true,
+      "issues": [],
+      "citations": [
+        {
+          "location": "shot:2/block:1",
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01"
+        },
+        {
+          "location": "shot:3/block:1",
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01"
+        },
+        {
+          "location": "shot:4/block:1",
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01"
+        }
+      ],
+      "rules_version": "2026-11-03-v1",
+      "requires_expression_review": true,
+      "expression_slots": [
+        {
+          "location": "title",
+          "text": "球场日记的三个画面"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "空球场全景，缓慢横移，依次带出场地边线和远处的记分牌。所有文字块均为旁白，不另设功能文字卡。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "训练结束，球场安静下来。给社团留一段记录，从这三个画面开始。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "仍为空球场，切到边线近景，沿线缓慢移动，再切回场地中景，以景别变化呈现片段衔接；不展示产品界面。文字块依次作为旁白。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "镜头沿着边线移动，把目光带进今天的球场。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "从空球场远景切到记分牌近景，待镜头稳定后看清现场已有数字，不修改分数，不展示产品界面。文字块依次作为旁白。"
+        },
+        {
+          "location": "shot:3/block:2",
+          "text": "从远景走近记分牌，记录这一天留下的数字。"
+        },
+        {
+          "location": "shot:4/visual",
+          "text": "队员背向镜头走向场边。先拍包含场地环境的背影远景，再切背影中景，最后固定机位让队员逐渐走远；不出现正脸或运动表现对比，不展示产品界面。文字块依次作为旁白。"
+        },
+        {
+          "location": "shot:4/block:2",
+          "text": "队员朝场边走去，镜头留在背影上。把这一幕，放进社团日记的结尾。"
+        }
+      ],
+      "available_facts": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F2",
+          "quote": "字幕文字可以手动编辑。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01"
+        }
+      ],
+      "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+    },
+    "requirements_check": {
+      "ok": true,
+      "script_hash": "3a1b2635fb4ce4d12276f7dbaad620d217aaa5d2947977a11942bf233d483565",
+      "request_hash": "591d795f27d54679859589d02cd03bd9856ac588441f3611f9148a747fde8e3d",
+      "passed": true,
+      "items": [
+        {
+          "field": "topic",
+          "requirement": "介绍裁剪片段",
+          "verdict": "met",
+          "evidence": "第2镜第1段明确介绍：“剪影练习版支持裁剪视频片段。”"
+        },
+        {
+          "field": "topic",
+          "requirement": "字幕添加",
+          "verdict": "met",
+          "evidence": "第3镜第1段明确介绍：“剪影练习版支持为视频添加字幕。”"
+        },
+        {
+          "field": "topic",
+          "requirement": "横竖屏比例",
+          "verdict": "met",
+          "evidence": "第4镜第1段明确介绍：“剪影练习版提供横屏和竖屏画面比例选项。”"
+        },
+        {
+          "field": "topic",
+          "requirement": "空球场",
+          "verdict": "met",
+          "evidence": "第1镜为“空球场全景”；第2镜继续展示空球场的边线近景和场地中景。"
+        },
+        {
+          "field": "topic",
+          "requirement": "记分牌",
+          "verdict": "met",
+          "evidence": "第1镜带出远处记分牌，第3镜明确安排“记分牌近景”并看清现场已有数字。"
+        },
+        {
+          "field": "topic",
+          "requirement": "队员背影",
+          "verdict": "met",
+          "evidence": "第4镜安排队员背向镜头走向场边，依次呈现背影远景、中景及逐渐走远的画面。"
+        },
+        {
+          "field": "topic",
+          "requirement": "三项功能各提一次",
+          "verdict": "met",
+          "evidence": "裁剪、添加字幕、横竖屏比例分别仅在第2、3、4镜第1段提及一次；标题及其他旁白未重复功能，画面明确不另设功能文字卡。"
+        },
+        {
+          "field": "topic",
+          "requirement": "不宣传提高运动成绩",
+          "verdict": "met",
+          "evidence": "全文仅介绍编辑功能和社团记录场景；第3镜要求“不修改分数”，第4镜要求“不出现正脸或运动表现对比”，没有提高运动成绩的承诺。"
+        },
+        {
+          "field": "audience",
+          "requirement": "校体育社团运营",
+          "verdict": "met",
+          "evidence": "第1镜提出“给社团留一段记录”，第4镜落在“社团日记的结尾”；球场、记分牌和队员背影贴合体育社团记录内容的用途。"
+        },
+        {
+          "field": "platform",
+          "requirement": "B站",
+          "verdict": "met",
+          "evidence": "稿件具备标题、连续旁白和明确分镜，以球场日记串联功能介绍，适合作为B站短视频呈现。"
+        },
+        {
+          "field": "style",
+          "requirement": "清晰",
+          "verdict": "met",
+          "evidence": "第2至4镜各用一句直接说明一项功能，画面与旁白安排明确，没有混杂多项功能解释。"
+        },
+        {
+          "field": "style",
+          "requirement": "有节奏",
+          "verdict": "met",
+          "evidence": "画面从空球场横移、边线景别切换推进到记分牌近景，最后以队员走远收束；对应预计时长为8.0、8.3、8.5、12.0秒，末镜有持续动作支撑较长停留。"
+        }
+      ],
+      "summary": "当前稿满足全部明确要求：三项功能各介绍一次，指定画面齐全，没有宣传提高运动成绩。表达审核未发现额外产品承诺，镜头节奏合理。",
+      "method": "model_assessment_not_deterministic_proof",
+      "expressions": [
+        {
+          "location": "title",
+          "text": "球场日记的三个画面",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "标题概括球场记录主题，不包含产品能力或效果承诺。"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "空球场全景，缓慢横移，依次带出场地边线和远处的记分牌。所有文字块均为旁白，不另设功能文字卡。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "全文描述场景、运镜及旁白呈现方式，没有产品声明。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "训练结束，球场安静下来。给社团留一段记录，从这三个画面开始。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于场景铺垫和记录邀请，没有声称产品效果或真实用户背书。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "仍为空球场，切到边线近景，沿线缓慢移动，再切回场地中景，以景别变化呈现片段衔接；不展示产品界面。文字块依次作为旁白。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "描述成片的景别变化和镜头衔接，没有将其归为产品自动能力，也未虚构操作或界面。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "镜头沿着边线移动，把目光带进今天的球场。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "描述镜头运动及观看感受，不含可验证的产品承诺。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "从空球场远景切到记分牌近景，待镜头稳定后看清现场已有数字，不修改分数，不展示产品界面。文字块依次作为旁白。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于拍摄和剪辑安排；“看清现场已有数字”描述观察任务，未声称产品识别、增强或修改数字。"
+        },
+        {
+          "location": "shot:3/block:2",
+          "text": "从远景走近记分牌，记录这一天留下的数字。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "描述拍摄对象和记录内容，没有宣称运动成绩改善或产品数据处理能力。"
+        },
+        {
+          "location": "shot:4/visual",
+          "text": "队员背向镜头走向场边。先拍包含场地环境的背影远景，再切背影中景，最后固定机位让队员逐渐走远；不出现正脸或运动表现对比，不展示产品界面。文字块依次作为旁白。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "全文为人物动作、景别、机位及画面限制，没有产品功能或效果声明。"
+        },
+        {
+          "location": "shot:4/block:2",
+          "text": "队员朝场边走去，镜头留在背影上。把这一幕，放进社团日记的结尾。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于动作描述和创作邀请，未承诺自动生成、自动剪辑等能力。"
+        }
+      ],
+      "pacing": {
+        "verdict": "met",
+        "evidence": "第1镜预计8.0秒，26个旁白单位配合横移观察；第2镜8.3秒，31个单位配合边线近景、移动和中景切换；第3镜8.5秒，32个单位配合远近景转换及记分牌数字观察；第4镜12.0秒，45个单位配合背影景别变化和走远动作。各镜均达到hold_seconds最低停留要求，旁白与画面任务足以支撑时长，没有重复功能或明显空镜凑时长；宿主总长36.8秒已通过目标区间检查。"
+      },
+      "expression_review_passed": true
+    },
+    "sources": [
+      {
+        "id": "P02",
+        "product_id": "demo-editor",
+        "title": "剪辑功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "剪辑",
+          "裁剪",
+          "片段",
+          "trim",
+          "edit"
+        ],
+        "facts": [
+          {
+            "id": "P02.F1",
+            "text": "剪影练习版支持裁剪视频片段。"
+          }
+        ]
+      },
+      {
+        "id": "P03",
+        "product_id": "demo-editor",
+        "title": "画面比例说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "比例",
+          "竖屏",
+          "横屏",
+          "画面",
+          "aspect"
+        ],
+        "facts": [
+          {
+            "id": "P03.F1",
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+          }
+        ]
+      },
+      {
+        "id": "P01",
+        "product_id": "demo-editor",
+        "title": "字幕功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "字幕",
+          "口播",
+          "文字",
+          "caption",
+          "subtitle"
+        ],
+        "facts": [
+          {
+            "id": "P01.F1",
+            "text": "剪影练习版支持为视频添加字幕。"
+          },
+          {
+            "id": "P01.F2",
+            "text": "字幕文字可以手动编辑。"
+          }
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "action": "search_materials",
+        "arguments": {
+          "query": "demo-editor 裁剪片段、字幕添加、横竖屏比例的产品功能事实，覆盖全部三项功能",
+          "product_id": "demo-editor"
+        },
+        "decision_basis": "尚无产品素材，需要核实三项指定功能的可引用事实。",
+        "observation": {
+          "ok": true,
+          "query": "demo-editor 裁剪片段、字幕添加、横竖屏比例的产品功能事实，覆盖全部三项功能",
+          "product_id": "demo-editor",
+          "materials": [
+            {
+              "id": "P02",
+              "product_id": "demo-editor",
+              "title": "剪辑功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "剪辑",
+                "裁剪",
+                "片段",
+                "trim",
+                "edit"
+              ],
+              "facts": [
+                {
+                  "id": "P02.F1",
+                  "text": "剪影练习版支持裁剪视频片段。"
+                }
+              ]
+            },
+            {
+              "id": "P03",
+              "product_id": "demo-editor",
+              "title": "画面比例说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "比例",
+                "竖屏",
+                "横屏",
+                "画面",
+                "aspect"
+              ],
+              "facts": [
+                {
+                  "id": "P03.F1",
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+                }
+              ]
+            },
+            {
+              "id": "P01",
+              "product_id": "demo-editor",
+              "title": "字幕功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "字幕",
+                "口播",
+                "文字",
+                "caption",
+                "subtitle"
+              ],
+              "facts": [
+                {
+                  "id": "P01.F1",
+                  "text": "剪影练习版支持为视频添加字幕。"
+                },
+                {
+                  "id": "P01.F2",
+                  "text": "字幕文字可以手动编辑。"
+                }
+              ]
+            }
+          ],
+          "count": 3
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a349-ea9f-7c53-9797-0225d247028e",
+          "usage": {
+            "input_tokens": 27042,
+            "cached_input_tokens": 24448,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 197,
+            "reasoning_output_tokens": 118
+          },
+          "call_id": "decision-0j248jc9",
+          "warnings": []
+        },
+        "elapsed_ms": 18375
+      },
+      {
+        "step": 2,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "title": "球场日记的三个画面",
+            "shots": [
+              {
+                "visual": "空球场全景，缓慢横移，依次带出场地边线和远处的记分牌。所有文字块均为旁白，不另设功能文字卡。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "训练结束，球场安静下来。给社团留一段记录，从这三个画面开始。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "仍为空球场，切到边线近景，沿线缓慢移动，再切回场地中景，以景别变化呈现片段衔接；不展示产品界面。文字块依次作为旁白。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持裁剪视频片段。",
+                    "source_id": "P02",
+                    "fact_id": "P02.F1"
+                  },
+                  {
+                    "text": "镜头沿着边线移动，把目光带进今天的球场。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "从空球场远景切到记分牌近景，待镜头稳定后看清现场已有数字，不修改分数，不展示产品界面。文字块依次作为旁白。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1"
+                  },
+                  {
+                    "text": "从远景走近记分牌，记录这一天留下的数字。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "队员背向镜头走向场边。先拍包含场地环境的背影远景，再切背影中景，最后固定机位让队员逐渐走远；不出现正脸或运动表现对比，不展示产品界面。文字块依次作为旁白。",
+                "hold_seconds": 12,
+                "blocks": [
+                  {
+                    "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1"
+                  },
+                  {
+                    "text": "队员朝场边走去，镜头留在背影上。把这一幕，放进社团日记的结尾。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "decision_basis": "已检索到三项功能的直接事实，可结合指定球场画面各引用一次。",
+        "observation": {
+          "ok": true,
+          "script_hash": "3a1b2635fb4ce4d12276f7dbaad620d217aaa5d2947977a11942bf233d483565",
+          "revision": {
+            "before_hash": null,
+            "after_hash": "3a1b2635fb4ce4d12276f7dbaad620d217aaa5d2947977a11942bf233d483565",
+            "changed_fields": [
+              "script:new"
+            ],
+            "unchanged_shots": 0,
+            "unchanged_blocks": 0,
+            "feedback": [],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a34a-312f-7422-a0db-79ddb85806bf",
+          "usage": {
+            "input_tokens": 27742,
+            "cached_input_tokens": 24448,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2288,
+            "reasoning_output_tokens": 1751
+          },
+          "call_id": "decision-s22r6pv4",
+          "warnings": []
+        },
+        "elapsed_ms": 75016
+      },
+      {
+        "step": 3,
+        "action": "estimate_duration",
+        "arguments": {
+          "script": {
+            "title": "球场日记的三个画面",
+            "shots": [
+              {
+                "visual": "空球场全景，缓慢横移，依次带出场地边线和远处的记分牌。所有文字块均为旁白，不另设功能文字卡。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "训练结束，球场安静下来。给社团留一段记录，从这三个画面开始。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "仍为空球场，切到边线近景，沿线缓慢移动，再切回场地中景，以景别变化呈现片段衔接；不展示产品界面。文字块依次作为旁白。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持裁剪视频片段。",
+                    "source_id": "P02",
+                    "fact_id": "P02.F1"
+                  },
+                  {
+                    "text": "镜头沿着边线移动，把目光带进今天的球场。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "从空球场远景切到记分牌近景，待镜头稳定后看清现场已有数字，不修改分数，不展示产品界面。文字块依次作为旁白。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1"
+                  },
+                  {
+                    "text": "从远景走近记分牌，记录这一天留下的数字。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "队员背向镜头走向场边。先拍包含场地环境的背影远景，再切背影中景，最后固定机位让队员逐渐走远；不出现正脸或运动表现对比，不展示产品界面。文字块依次作为旁白。",
+                "hold_seconds": 12,
+                "blocks": [
+                  {
+                    "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1"
+                  },
+                  {
+                    "text": "队员朝场边走去，镜头留在背影上。把这一幕，放进社团日记的结尾。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "target_seconds": 40,
+          "duration_mode": "target"
+        },
+        "decision_basis": "当前稿尚未估时，需要确认是否达到目标要求的36至40秒。",
+        "observation": {
+          "ok": true,
+          "script_hash": "3a1b2635fb4ce4d12276f7dbaad620d217aaa5d2947977a11942bf233d483565",
+          "shots": [
+            {
+              "shot": 1,
+              "speech_units": 26,
+              "estimated_seconds": 8.0
+            },
+            {
+              "shot": 2,
+              "speech_units": 31,
+              "estimated_seconds": 8.3
+            },
+            {
+              "shot": 3,
+              "speech_units": 32,
+              "estimated_seconds": 8.5
+            },
+            {
+              "shot": 4,
+              "speech_units": 45,
+              "estimated_seconds": 12.0
+            }
+          ],
+          "total_seconds": 36.8,
+          "target_seconds": 40,
+          "passed": true,
+          "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+          "is_estimate": true,
+          "duration_mode": "target",
+          "min_seconds": 36.0,
+          "max_seconds": 40,
+          "issue": null
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a34b-5647-7bd3-bebf-847526a0f111",
+          "usage": {
+            "input_tokens": 29039,
+            "cached_input_tokens": 24448,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 128,
+            "reasoning_output_tokens": 75
+          },
+          "call_id": "decision-6n_3xqbw",
+          "warnings": []
+        },
+        "elapsed_ms": 14735
+      },
+      {
+        "step": 4,
+        "action": "check_rules",
+        "arguments": {
+          "script": {
+            "title": "球场日记的三个画面",
+            "shots": [
+              {
+                "visual": "空球场全景，缓慢横移，依次带出场地边线和远处的记分牌。所有文字块均为旁白，不另设功能文字卡。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "训练结束，球场安静下来。给社团留一段记录，从这三个画面开始。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "仍为空球场，切到边线近景，沿线缓慢移动，再切回场地中景，以景别变化呈现片段衔接；不展示产品界面。文字块依次作为旁白。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持裁剪视频片段。",
+                    "source_id": "P02",
+                    "fact_id": "P02.F1"
+                  },
+                  {
+                    "text": "镜头沿着边线移动，把目光带进今天的球场。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "从空球场远景切到记分牌近景，待镜头稳定后看清现场已有数字，不修改分数，不展示产品界面。文字块依次作为旁白。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1"
+                  },
+                  {
+                    "text": "从远景走近记分牌，记录这一天留下的数字。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "队员背向镜头走向场边。先拍包含场地环境的背影远景，再切背影中景，最后固定机位让队员逐渐走远；不出现正脸或运动表现对比，不展示产品界面。文字块依次作为旁白。",
+                "hold_seconds": 12,
+                "blocks": [
+                  {
+                    "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1"
+                  },
+                  {
+                    "text": "队员朝场边走去，镜头留在背影上。把这一幕，放进社团日记的结尾。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "retrieved_ids": [
+            "P01",
+            "P02",
+            "P03"
+          ],
+          "expression_mode": "creative"
+        },
+        "decision_basis": "当前稿估时36.8秒，已通过时长检查，尚需核查事实引用与表达规则。",
+        "observation": {
+          "ok": true,
+          "script_hash": "3a1b2635fb4ce4d12276f7dbaad620d217aaa5d2947977a11942bf233d483565",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:2/block:1",
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:3/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:4/block:1",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "球场日记的三个画面"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "空球场全景，缓慢横移，依次带出场地边线和远处的记分牌。所有文字块均为旁白，不另设功能文字卡。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "训练结束，球场安静下来。给社团留一段记录，从这三个画面开始。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "仍为空球场，切到边线近景，沿线缓慢移动，再切回场地中景，以景别变化呈现片段衔接；不展示产品界面。文字块依次作为旁白。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "镜头沿着边线移动，把目光带进今天的球场。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "从空球场远景切到记分牌近景，待镜头稳定后看清现场已有数字，不修改分数，不展示产品界面。文字块依次作为旁白。"
+            },
+            {
+              "location": "shot:3/block:2",
+              "text": "从远景走近记分牌，记录这一天留下的数字。"
+            },
+            {
+              "location": "shot:4/visual",
+              "text": "队员背向镜头走向场边。先拍包含场地环境的背影远景，再切背影中景，最后固定机位让队员逐渐走远；不出现正脸或运动表现对比，不展示产品界面。文字块依次作为旁白。"
+            },
+            {
+              "location": "shot:4/block:2",
+              "text": "队员朝场边走去，镜头留在背影上。把这一幕，放进社团日记的结尾。"
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a34b-90bb-77e2-997e-6301201e5627",
+          "usage": {
+            "input_tokens": 30099,
+            "cached_input_tokens": 24448,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 110,
+            "reasoning_output_tokens": 50
+          },
+          "call_id": "decision-ieb790fq",
+          "warnings": []
+        },
+        "elapsed_ms": 17172
+      },
+      {
+        "step": 5,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "title": "球场日记的三个画面",
+            "shots": [
+              {
+                "visual": "空球场全景，缓慢横移，依次带出场地边线和远处的记分牌。所有文字块均为旁白，不另设功能文字卡。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "训练结束，球场安静下来。给社团留一段记录，从这三个画面开始。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "仍为空球场，切到边线近景，沿线缓慢移动，再切回场地中景，以景别变化呈现片段衔接；不展示产品界面。文字块依次作为旁白。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持裁剪视频片段。",
+                    "source_id": "P02",
+                    "fact_id": "P02.F1"
+                  },
+                  {
+                    "text": "镜头沿着边线移动，把目光带进今天的球场。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "从空球场远景切到记分牌近景，待镜头稳定后看清现场已有数字，不修改分数，不展示产品界面。文字块依次作为旁白。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1"
+                  },
+                  {
+                    "text": "从远景走近记分牌，记录这一天留下的数字。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "队员背向镜头走向场边。先拍包含场地环境的背影远景，再切背影中景，最后固定机位让队员逐渐走远；不出现正脸或运动表现对比，不展示产品界面。文字块依次作为旁白。",
+                "hold_seconds": 12,
+                "blocks": [
+                  {
+                    "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1"
+                  },
+                  {
+                    "text": "队员朝场边走去，镜头留在背影上。把这一幕，放进社团日记的结尾。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "request": {
+            "topic": "介绍裁剪片段、字幕添加和横竖屏比例。画面是空球场、记分牌和队员背影，三项功能各提一次，不宣传提高运动成绩。",
+            "audience": "校体育社团运营",
+            "platform": "B站",
+            "style": "清晰，有节奏",
+            "product_id": "demo-editor",
+            "duration_mode": "target",
+            "expression_mode": "creative",
+            "target_seconds": 40
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "3a1b2635fb4ce4d12276f7dbaad620d217aaa5d2947977a11942bf233d483565",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:2/block:1",
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              },
+              {
+                "location": "shot:3/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "location": "shot:4/block:1",
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01"
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "球场日记的三个画面"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "空球场全景，缓慢横移，依次带出场地边线和远处的记分牌。所有文字块均为旁白，不另设功能文字卡。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "训练结束，球场安静下来。给社团留一段记录，从这三个画面开始。"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "仍为空球场，切到边线近景，沿线缓慢移动，再切回场地中景，以景别变化呈现片段衔接；不展示产品界面。文字块依次作为旁白。"
+              },
+              {
+                "location": "shot:2/block:2",
+                "text": "镜头沿着边线移动，把目光带进今天的球场。"
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "从空球场远景切到记分牌近景，待镜头稳定后看清现场已有数字，不修改分数，不展示产品界面。文字块依次作为旁白。"
+              },
+              {
+                "location": "shot:3/block:2",
+                "text": "从远景走近记分牌，记录这一天留下的数字。"
+              },
+              {
+                "location": "shot:4/visual",
+                "text": "队员背向镜头走向场边。先拍包含场地环境的背影远景，再切背影中景，最后固定机位让队员逐渐走远；不出现正脸或运动表现对比，不展示产品界面。文字块依次作为旁白。"
+              },
+              {
+                "location": "shot:4/block:2",
+                "text": "队员朝场边走去，镜头留在背影上。把这一幕，放进社团日记的结尾。"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "3a1b2635fb4ce4d12276f7dbaad620d217aaa5d2947977a11942bf233d483565",
+            "shots": [
+              {
+                "shot": 1,
+                "speech_units": 26,
+                "estimated_seconds": 8.0
+              },
+              {
+                "shot": 2,
+                "speech_units": 31,
+                "estimated_seconds": 8.3
+              },
+              {
+                "shot": 3,
+                "speech_units": 32,
+                "estimated_seconds": 8.5
+              },
+              {
+                "shot": 4,
+                "speech_units": 45,
+                "estimated_seconds": 12.0
+              }
+            ],
+            "total_seconds": 36.8,
+            "target_seconds": 40,
+            "passed": true,
+            "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+            "is_estimate": true,
+            "duration_mode": "target",
+            "min_seconds": 36.0,
+            "max_seconds": 40,
+            "issue": null
+          }
+        },
+        "decision_basis": "当前稿时长和规则检查均已通过，尚需核对三项功能各提一次、指定画面及不宣传提高运动成绩等要求。",
+        "observation": {
+          "ok": true,
+          "script_hash": "3a1b2635fb4ce4d12276f7dbaad620d217aaa5d2947977a11942bf233d483565",
+          "request_hash": "591d795f27d54679859589d02cd03bd9856ac588441f3611f9148a747fde8e3d",
+          "passed": true,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "介绍裁剪片段",
+              "verdict": "met",
+              "evidence": "第2镜第1段明确介绍：“剪影练习版支持裁剪视频片段。”"
+            },
+            {
+              "field": "topic",
+              "requirement": "字幕添加",
+              "verdict": "met",
+              "evidence": "第3镜第1段明确介绍：“剪影练习版支持为视频添加字幕。”"
+            },
+            {
+              "field": "topic",
+              "requirement": "横竖屏比例",
+              "verdict": "met",
+              "evidence": "第4镜第1段明确介绍：“剪影练习版提供横屏和竖屏画面比例选项。”"
+            },
+            {
+              "field": "topic",
+              "requirement": "空球场",
+              "verdict": "met",
+              "evidence": "第1镜为“空球场全景”；第2镜继续展示空球场的边线近景和场地中景。"
+            },
+            {
+              "field": "topic",
+              "requirement": "记分牌",
+              "verdict": "met",
+              "evidence": "第1镜带出远处记分牌，第3镜明确安排“记分牌近景”并看清现场已有数字。"
+            },
+            {
+              "field": "topic",
+              "requirement": "队员背影",
+              "verdict": "met",
+              "evidence": "第4镜安排队员背向镜头走向场边，依次呈现背影远景、中景及逐渐走远的画面。"
+            },
+            {
+              "field": "topic",
+              "requirement": "三项功能各提一次",
+              "verdict": "met",
+              "evidence": "裁剪、添加字幕、横竖屏比例分别仅在第2、3、4镜第1段提及一次；标题及其他旁白未重复功能，画面明确不另设功能文字卡。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不宣传提高运动成绩",
+              "verdict": "met",
+              "evidence": "全文仅介绍编辑功能和社团记录场景；第3镜要求“不修改分数”，第4镜要求“不出现正脸或运动表现对比”，没有提高运动成绩的承诺。"
+            },
+            {
+              "field": "audience",
+              "requirement": "校体育社团运营",
+              "verdict": "met",
+              "evidence": "第1镜提出“给社团留一段记录”，第4镜落在“社团日记的结尾”；球场、记分牌和队员背影贴合体育社团记录内容的用途。"
+            },
+            {
+              "field": "platform",
+              "requirement": "B站",
+              "verdict": "met",
+              "evidence": "稿件具备标题、连续旁白和明确分镜，以球场日记串联功能介绍，适合作为B站短视频呈现。"
+            },
+            {
+              "field": "style",
+              "requirement": "清晰",
+              "verdict": "met",
+              "evidence": "第2至4镜各用一句直接说明一项功能，画面与旁白安排明确，没有混杂多项功能解释。"
+            },
+            {
+              "field": "style",
+              "requirement": "有节奏",
+              "verdict": "met",
+              "evidence": "画面从空球场横移、边线景别切换推进到记分牌近景，最后以队员走远收束；对应预计时长为8.0、8.3、8.5、12.0秒，末镜有持续动作支撑较长停留。"
+            }
+          ],
+          "summary": "当前稿满足全部明确要求：三项功能各介绍一次，指定画面齐全，没有宣传提高运动成绩。表达审核未发现额外产品承诺，镜头节奏合理。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "球场日记的三个画面",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "标题概括球场记录主题，不包含产品能力或效果承诺。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "空球场全景，缓慢横移，依次带出场地边线和远处的记分牌。所有文字块均为旁白，不另设功能文字卡。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "全文描述场景、运镜及旁白呈现方式，没有产品声明。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "训练结束，球场安静下来。给社团留一段记录，从这三个画面开始。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于场景铺垫和记录邀请，没有声称产品效果或真实用户背书。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "仍为空球场，切到边线近景，沿线缓慢移动，再切回场地中景，以景别变化呈现片段衔接；不展示产品界面。文字块依次作为旁白。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "描述成片的景别变化和镜头衔接，没有将其归为产品自动能力，也未虚构操作或界面。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "镜头沿着边线移动，把目光带进今天的球场。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "描述镜头运动及观看感受，不含可验证的产品承诺。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "从空球场远景切到记分牌近景，待镜头稳定后看清现场已有数字，不修改分数，不展示产品界面。文字块依次作为旁白。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于拍摄和剪辑安排；“看清现场已有数字”描述观察任务，未声称产品识别、增强或修改数字。"
+            },
+            {
+              "location": "shot:3/block:2",
+              "text": "从远景走近记分牌，记录这一天留下的数字。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "描述拍摄对象和记录内容，没有宣称运动成绩改善或产品数据处理能力。"
+            },
+            {
+              "location": "shot:4/visual",
+              "text": "队员背向镜头走向场边。先拍包含场地环境的背影远景，再切背影中景，最后固定机位让队员逐渐走远；不出现正脸或运动表现对比，不展示产品界面。文字块依次作为旁白。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "全文为人物动作、景别、机位及画面限制，没有产品功能或效果声明。"
+            },
+            {
+              "location": "shot:4/block:2",
+              "text": "队员朝场边走去，镜头留在背影上。把这一幕，放进社团日记的结尾。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于动作描述和创作邀请，未承诺自动生成、自动剪辑等能力。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "第1镜预计8.0秒，26个旁白单位配合横移观察；第2镜8.3秒，31个单位配合边线近景、移动和中景切换；第3镜8.5秒，32个单位配合远近景转换及记分牌数字观察；第4镜12.0秒，45个单位配合背影景别变化和走远动作。各镜均达到hold_seconds最低停留要求，旁白与画面任务足以支撑时长，没有重复功能或明显空镜凑时长；宿主总长36.8秒已通过目标区间检查。"
+          },
+          "expression_review_passed": true
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a34b-d4c6-7230-bb09-0ab7fa1ccaf4",
+          "usage": {
+            "input_tokens": 32509,
+            "cached_input_tokens": 24448,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 146,
+            "reasoning_output_tokens": 76
+          },
+          "call_id": "decision-irr71x_4",
+          "warnings": []
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a34c-1fb6-7152-8e65-87efedf7b49a",
+          "usage": {
+            "input_tokens": 28454,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2619,
+            "reasoning_output_tokens": 658
+          },
+          "call_id": "decision-9c57m493",
+          "warnings": []
+        },
+        "elapsed_ms": 84234
+      },
+      {
+        "step": 6,
+        "action": "finish",
+        "arguments": {
+          "status": "completed",
+          "message": "《球场日记的三个画面》已完成，保留当前四镜稿，无需删改。裁剪片段、字幕添加、横竖屏比例各介绍一次，包含空球场、记分牌和队员背影，不宣传提高运动成绩。估时36.8秒，符合36至40秒要求；三项检查均通过，实际成片时长以配音和剪辑为准。"
+        },
+        "decision_basis": "当前同一稿的时长、规则和需求检查均已通过。",
+        "observation": {
+          "ok": true,
+          "status": "completed",
+          "script_hash": "3a1b2635fb4ce4d12276f7dbaad620d217aaa5d2947977a11942bf233d483565"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a34d-1c88-7b11-92b6-b0518304ae65",
+          "usage": {
+            "input_tokens": 37438,
+            "cached_input_tokens": 13696,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 306,
+            "reasoning_output_tokens": 163
+          },
+          "call_id": "decision-h0vnqoj5",
+          "warnings": []
+        },
+        "elapsed_ms": 24844
+      }
+    ],
+    "metadata": {
+      "started_at": "2026-11-03T21:21:31.827598+00:00",
+      "finished_at": "2026-11-03T21:25:26.297115+00:00",
+      "provider": "codex",
+      "evidence_kind": "real_model",
+      "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+      "max_steps": 12,
+      "steps": 6,
+      "synthetic_data": true,
+      "completion_policy": "facts_duration_requirements_v4",
+      "requirements_review_context": "current_rules_and_duration_v2",
+      "model_responses": 7,
+      "run_id": "657ae4965d24442b9a691a80c158b972",
+      "persistence": "checkpoint_v1",
+      "fault_injection": {}
+    }
+  }
+}

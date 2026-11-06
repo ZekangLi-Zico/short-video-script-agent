@@ -1,0 +1,333 @@
+{
+  "status": "completed",
+  "message": "已将三镜停留从各15秒缩至3、4、3秒，当前估时10秒，满足25秒上限。保留标题“记录里的每句话”、原画面、镜头顺序和全部文案，保留添加字幕与手动改字两项功能，未新增功能。三项检查均通过；字幕卡实际阅读节奏需在剪辑时复核。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "记录里的每句话",
+    "shots": [
+      {
+        "visual": "店主背影和备料台",
+        "hold_seconds": 3,
+        "blocks": [
+          {
+            "text": "一天的准备，从这里开始。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "字幕示意卡",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "纸上修改一个错字",
+        "hold_seconds": 3,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      }
+    ],
+    "editor_notes": "仅将三镜最短停留从各15秒分别缩至3、4、3秒；保留原标题、镜头顺序、画面和全部文案，未增加功能。第1、3镜文字作旁白，第2镜文字作事实卡。工具将全部文字串行估时，事实卡实际阅读时间需在剪辑时复核。修订稿待重新完成时长、规则及需求检查。"
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "9a2b430863d43eaf60cecf0ddd5398db67122d2e27107183043580e84a0a800e",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 10,
+        "estimated_seconds": 3.0
+      },
+      {
+        "shot": 2,
+        "speech_units": 14,
+        "estimated_seconds": 4.0
+      },
+      {
+        "shot": 3,
+        "speech_units": 10,
+        "estimated_seconds": 3.0
+      }
+    ],
+    "total_seconds": 10.0,
+    "target_seconds": 25,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "9a2b430863d43eaf60cecf0ddd5398db67122d2e27107183043580e84a0a800e",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:3/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "记录里的每句话"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "店主背影和备料台"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "一天的准备，从这里开始。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "字幕示意卡"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "纸上修改一个错字"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "9a2b430863d43eaf60cecf0ddd5398db67122d2e27107183043580e84a0a800e",
+    "request_hash": "e65b14b1e8059398f2345dd2e1671d2b818db82a54d1ef482bc3f6497e0b06dd",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "把所附旧稿压缩到25秒以内",
+        "verdict": "met",
+        "evidence": "duration_check估算当前稿总长10.0秒，passed=true，满足25秒上限。"
+      },
+      {
+        "field": "topic",
+        "requirement": "添加字幕",
+        "verdict": "met",
+        "evidence": "第2镜保留“剪影练习版支持为视频添加字幕。”，rules_check已核对P01.F1。"
+      },
+      {
+        "field": "topic",
+        "requirement": "手动改字",
+        "verdict": "met",
+        "evidence": "第3镜保留“字幕文字可以手动编辑。”，配合“纸上修改一个错字”的画面；文案已由P01.F2支持。"
+      },
+      {
+        "field": "topic",
+        "requirement": "标题保持“记录里的每句话”",
+        "verdict": "met",
+        "evidence": "当前标题为“记录里的每句话”，与原标题完全一致。"
+      },
+      {
+        "field": "topic",
+        "requirement": "优先改冗长停留",
+        "verdict": "met",
+        "evidence": "三镜hold_seconds从旧稿各15秒分别缩至3、4、3秒；标题、镜头顺序、画面和全部文案均保留。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不要额外添功能",
+        "verdict": "met",
+        "evidence": "逐镜检查：第1镜仅呈现店主准备场景，第2镜介绍添加字幕，第3镜介绍手动编辑字幕；未加入裁剪、画面比例或其他功能。"
+      },
+      {
+        "field": "audience",
+        "requirement": "第一次拍口播的店主",
+        "verdict": "met",
+        "evidence": "第1镜“店主背影和备料台”贴合店主场景；后两镜用简短直白的文字介绍两项基础字幕功能，无专业术语负担。"
+      },
+      {
+        "field": "platform",
+        "requirement": "抖音",
+        "verdict": "met",
+        "evidence": "当前稿预计10秒、共三镜，以店主场景、字幕卡和改字动作传递信息，适合短视频观看。"
+      },
+      {
+        "field": "style",
+        "requirement": "自然",
+        "verdict": "met",
+        "evidence": "第1镜“一天的准备，从这里开始。”配合备料台画面，语气平实；后续功能介绍无夸张承诺。"
+      },
+      {
+        "field": "style",
+        "requirement": "紧凑",
+        "verdict": "met",
+        "evidence": "三镜预计分别3、4、3秒，每镜承担一个信息或动作任务，没有重复介绍功能或冗长空镜。"
+      }
+    ],
+    "summary": "需求均已落实：当前稿预计10秒，保留原标题和两项功能，仅缩短镜头停留，未新增功能。表达审核与节奏检查通过。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "记录里的每句话",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "主题性标题，未承诺字幕识别完整率、准确率或其他产品能力。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "店主背影和备料台",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "生活场景及拍摄安排，不包含产品声明或真实客户背书。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "一天的准备，从这里开始。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "呼应备料场景的开场语，没有可验证的产品承诺。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "字幕示意卡",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "指定字幕卡的呈现形式，未虚构产品按钮、界面布局或自动操作流程。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "纸上修改一个错字",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "纸上改字的示意动作，不构成具体产品操作步骤或额外能力承诺。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "采用duration_check的每镜估时：第1镜3秒承载10个口播单位和备料场景；第2镜4秒阅读14个单位的单句事实卡；第3镜3秒承载10个口播单位及修改一个错字的简单动作。均有明确内容支撑停留，无重复事实或空镜凑时长；editor_notes不计入视频时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-04T01:42:48.378388+00:00",
+    "finished_at": "2026-11-04T01:47:25.825837+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 8,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "optional_editor_notes_v1",
+    "model_responses": 9,
+    "run_id": "6ab19d0bd8c6475eaa5b95476cb89d23",
+    "persistence": "checkpoint_v1"
+  }
+}

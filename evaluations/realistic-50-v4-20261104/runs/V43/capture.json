@@ -1,0 +1,13 @@
+{
+  "case": "V43",
+  "index": 42,
+  "attempt": 1,
+  "run_id": "38b1bae8a58d4e8eb7574db54f6acfab",
+  "folder": "V43",
+  "status": "needs_input",
+  "steps": 2,
+  "responses": 2,
+  "provider": "codex",
+  "seconds": null,
+  "message": "尚未生成预告。请将“星港周末赛”的报名起止时间（含时区）、奖品设置和参赛规则交给项目维护者补充，才能据此制作30秒以内的预告。不会借用其他活动资料或编造内容。"
+}

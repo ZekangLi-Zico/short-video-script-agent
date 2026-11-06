@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-igdvinmm",
+  "started_at": "2026-11-04T01:41:59.084438+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:42:19.543027+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a438-5e05-7c22-84b3-a1c6c9c5ed14",
+    "usage": {
+      "input_tokens": 27321,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 151,
+      "reasoning_output_tokens": 91
+    },
+    "call_id": "decision-igdvinmm",
+    "warnings": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "port": 8782,
+  "submitted_at": "2026-11-03T18:08:58.012Z",
+  "fields": {
+    "audience": "公司行政视频编辑",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "1426d786eafa45289bff1701e2509d3b",
+    "initial-script": "",
+    "platform": "视频号",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "简洁，专业",
+    "target-seconds": "20",
+    "topic": "介绍添加字幕和横竖屏比例选项。固定两个分镜：第一镜会议室空椅子，第二镜会议资料封面。不出现发言内容和员工姓名。"
+  }
+}

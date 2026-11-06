@@ -1,0 +1,18 @@
+{
+  "id": "V17",
+  "name": "小型展览静音屏",
+  "context": "现场屏幕没有声音。",
+  "request": {
+    "topic": "给展位静音屏写工具介绍：添加字幕与裁剪片段。所有关键信息用屏幕文字表达，不能依赖旁白，分镜不超过四个。",
+    "audience": "路过展位的普通观众",
+    "platform": "视频号",
+    "target_seconds": 25,
+    "style": "静音可读，简洁",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "target"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

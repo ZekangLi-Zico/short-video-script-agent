@@ -1,0 +1,13 @@
+{
+  "audience": "第一次制作口播短视频的创作者",
+  "duration-mode": "max",
+  "expression-mode": "creative",
+  "fault": "none",
+  "initial-script": "{\n  \"title\": \"字幕，让表达被看见\",\n  \"shots\": [\n    {\n      \"visual\": \"人物面对镜头提出问题\",\n      \"hold_seconds\": 19,\n      \"blocks\": [\n        {\n          \"text\": \"想让画面里的表达更清楚？\",\n          \"source_id\": \"\",\n          \"fact_id\": \"\"\n        }\n      ]\n    },\n    {\n      \"visual\": \"产品功能文字卡片，不展示未经提供的界面\",\n      \"hold_seconds\": 19,\n      \"blocks\": [\n        {\n          \"text\": \"剪影练习版支持为视频添加字幕。\",\n          \"source_id\": \"P01\",\n          \"fact_id\": \"P01.F1\"\n        }\n      ]\n    }\n  ]\n}",
+  "platform": "抖音",
+  "product": "demo-editor",
+  "provider": "codex",
+  "style": "清楚、友好、克制",
+  "target-seconds": "30",
+  "topic": "介绍字幕功能"
+}

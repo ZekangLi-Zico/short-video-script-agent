@@ -1,0 +1,12 @@
+{
+  "case_id": "T03",
+  "finished_capture_at": "2026-11-03T13:51:23.854Z",
+  "busy": false,
+  "detail": "真实模型 · 6 个执行步骤",
+  "download": "/api/runs/765b5f1594e5413289ef4dfedbd76303/download/output.json",
+  "error": "",
+  "history": "765b5f1594e5413289ef4dfedbd76303",
+  "message": "现稿估算17秒，时长和规则检查均通过，但未体现餐饮门店拍菜单介绍视频的场景。请在 brand_rules.creative_copy 和 visuals 中补充获准使用的菜单场景文案与画面，以便保留现有结构并针对性修订。",
+  "save": "记录已保存 · 765b5f15",
+  "status": "需要补充"
+}

@@ -1,0 +1,15 @@
+{
+  "cases": 20,
+  "tests": 133,
+  "source_files": 47,
+  "preserved_historical_files": 12006,
+  "readiness": {
+    "可直接试配音": 13,
+    "需局部改写": 6,
+    "静音稿不适用": 1
+  },
+  "example_files_checked": 184,
+  "documents_checked": 13,
+  "git_remote_names": [],
+  "errors": []
+}

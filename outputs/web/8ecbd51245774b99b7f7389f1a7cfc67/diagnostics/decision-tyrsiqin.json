@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-tyrsiqin",
+  "started_at": "2026-11-04T01:13:54.890473+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:15:11.568808+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a41e-aa30-77e2-834d-2f56418bf39f",
+    "usage": {
+      "input_tokens": 27886,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2930,
+      "reasoning_output_tokens": 1392
+    },
+    "call_id": "decision-tyrsiqin",
+    "warnings": []
+  }
+}

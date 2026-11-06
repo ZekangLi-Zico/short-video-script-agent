@@ -1,0 +1,13 @@
+{
+  "case": "V01",
+  "index": 0,
+  "attempt": 1,
+  "run_id": "1e4cee5f196d4f0693599a839ff5599b",
+  "folder": "V01",
+  "status": "completed",
+  "steps": 6,
+  "responses": 7,
+  "provider": "codex",
+  "seconds": 16,
+  "message": "已完成三镜脚本《字幕，让表达被看见》，预计16秒。按蒸笼→手写菜单→打包台展开，只介绍添加字幕，不出现顾客正脸。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

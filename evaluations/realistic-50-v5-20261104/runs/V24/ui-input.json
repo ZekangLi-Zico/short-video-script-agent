@@ -1,0 +1,19 @@
+{
+  "port": 8823,
+  "submitted_at": "2026-11-04T15:30:50.619Z",
+  "fields": {
+    "audience": "杭州社区生活账号观众",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "099d28154b1843c7b6543ae77ede0a1b",
+    "initial-script": "",
+    "platform": "视频号",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "亲切，保留地方感",
+    "target-seconds": "30",
+    "topic": "帮我做字幕添加和手动改字的介绍，旁白希望是自然杭州话表达，不要把普通话加几个语气词就称作地道方言。画面是社区长椅和报刊架。"
+  }
+}

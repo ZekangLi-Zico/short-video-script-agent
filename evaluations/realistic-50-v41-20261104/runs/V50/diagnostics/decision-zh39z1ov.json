@@ -1,0 +1,24 @@
+{
+  "call_id": "decision-zh39z1ov",
+  "started_at": "2026-11-04T01:52:14.587523+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "cleanup_error_type": "PermissionError",
+  "finished_at": "2026-11-04T01:52:44.088177+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a441-c499-7cf0-a643-68232a78f00c",
+    "usage": {
+      "input_tokens": 29978,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 109,
+      "reasoning_output_tokens": 49
+    },
+    "call_id": "decision-zh39z1ov",
+    "warnings": [
+      "cleanup_deferred"
+    ]
+  }
+}

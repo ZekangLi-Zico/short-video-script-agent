@@ -1,0 +1,19 @@
+{
+  "port": 8791,
+  "submitted_at": "2026-11-03T22:07:40.659Z",
+  "fields": {
+    "audience": "跨软件协作的视频工作室",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "a77c9a006c94411682261704f948d38d",
+    "initial-script": "",
+    "platform": "B站",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "专业，直接",
+    "target-seconds": "30",
+    "topic": "写剪影练习版导出SRT字幕文件的介绍和操作说明，客户要把文件交给别的剪辑师；请说明具体支持情况。"
+  }
+}

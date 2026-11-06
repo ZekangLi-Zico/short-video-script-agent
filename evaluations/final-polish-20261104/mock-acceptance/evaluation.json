@@ -1,0 +1,110 @@
+[
+  {
+    "case": "normal",
+    "expected_status": [
+      "completed"
+    ],
+    "actual_status": "completed",
+    "passed": true,
+    "errors": [],
+    "steps": 6,
+    "evidence_kind": "offline_mock_not_model_evidence",
+    "path": "search_materials -> write_script -> estimate_duration -> check_rules -> check_requirements -> finish",
+    "artifacts": "evaluations\\final-polish-20261104\\mock-acceptance\\normal"
+  },
+  {
+    "case": "missing_information",
+    "expected_status": [
+      "needs_input"
+    ],
+    "actual_status": "needs_input",
+    "passed": true,
+    "errors": [],
+    "steps": 0,
+    "evidence_kind": "offline_mock_not_model_evidence",
+    "path": "",
+    "artifacts": "evaluations\\final-polish-20261104\\mock-acceptance\\missing_information"
+  },
+  {
+    "case": "no_material",
+    "expected_status": [
+      "blocked",
+      "needs_input"
+    ],
+    "actual_status": "needs_input",
+    "passed": true,
+    "errors": [],
+    "steps": 3,
+    "evidence_kind": "offline_mock_not_model_evidence",
+    "path": "search_materials -> search_materials -> finish",
+    "artifacts": "evaluations\\final-polish-20261104\\mock-acceptance\\no_material"
+  },
+  {
+    "case": "tool_failure",
+    "expected_status": [
+      "blocked",
+      "step_limit"
+    ],
+    "actual_status": "blocked",
+    "passed": true,
+    "errors": [],
+    "steps": 3,
+    "evidence_kind": "offline_mock_not_model_evidence",
+    "path": "search_materials -> search_materials -> finish",
+    "artifacts": "evaluations\\final-polish-20261104\\mock-acceptance\\tool_failure"
+  },
+  {
+    "case": "recoverable_failure",
+    "expected_status": [
+      "completed"
+    ],
+    "actual_status": "completed",
+    "passed": true,
+    "errors": [],
+    "steps": 7,
+    "evidence_kind": "offline_mock_not_model_evidence",
+    "path": "search_materials -> search_materials -> write_script -> estimate_duration -> check_rules -> check_requirements -> finish",
+    "artifacts": "evaluations\\final-polish-20261104\\mock-acceptance\\recoverable_failure"
+  },
+  {
+    "case": "over_duration",
+    "expected_status": [
+      "completed"
+    ],
+    "actual_status": "completed",
+    "passed": true,
+    "errors": [],
+    "steps": 7,
+    "evidence_kind": "offline_mock_not_model_evidence",
+    "path": "search_materials -> estimate_duration -> write_script -> estimate_duration -> check_rules -> check_requirements -> finish",
+    "artifacts": "evaluations\\final-polish-20261104\\mock-acceptance\\over_duration"
+  },
+  {
+    "case": "rule_revision",
+    "expected_status": [
+      "completed"
+    ],
+    "actual_status": "completed",
+    "passed": true,
+    "errors": [],
+    "steps": 8,
+    "evidence_kind": "offline_mock_not_model_evidence",
+    "path": "search_materials -> estimate_duration -> check_rules -> write_script -> estimate_duration -> check_rules -> check_requirements -> finish",
+    "artifacts": "evaluations\\final-polish-20261104\\mock-acceptance\\rule_revision"
+  },
+  {
+    "case": "impossible_duration",
+    "expected_status": [
+      "blocked",
+      "needs_input",
+      "step_limit"
+    ],
+    "actual_status": "blocked",
+    "passed": true,
+    "errors": [],
+    "steps": 4,
+    "evidence_kind": "offline_mock_not_model_evidence",
+    "path": "search_materials -> write_script -> estimate_duration -> finish",
+    "artifacts": "evaluations\\final-polish-20261104\\mock-acceptance\\impossible_duration"
+  }
+]

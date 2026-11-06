@@ -1,0 +1,150 @@
+- banner:
+  - link "脚本试验台首页":
+    - /url: /
+    - generic: 脚本试验台
+  - generic: 本地人工测试
+- main:
+  - heading "从一个需求，到一份可核验的脚本。" [level=1]
+  - paragraph: 填入创作需求，观察 Agent 如何查资料、写分镜，再根据检查结果修订。
+  - generic: 第 4 题 · 短视频脚本 Agent
+  - complementary "创作需求与测试设置":
+    - heading "创作需求" [level=2]
+    - button "重置"
+    - generic: 载入测试场景
+    - combobox "载入测试场景":
+      - option "自定义需求" [selected]
+      - option "正常生成"
+      - option "缺少关键信息"
+      - option "没有产品素材"
+      - option "工具持续失败"
+      - option "一次故障后恢复"
+      - option "38 秒旧稿修订"
+      - option "无依据宣传纠错"
+      - option "无法满足的时长"
+    - paragraph: 需求已修改，将按当前内容运行。
+    - generic: 主题
+    - textbox "主题":
+      - /placeholder: 例如：面向新手，介绍为口播视频添加字幕
+      - text: 介绍视频能否导出4K、是否有水印、竖屏导出有哪些限制。不要用有横竖屏比例选项来代替导出规格。
+    - generic: 给谁看
+    - textbox "给谁看":
+      - /placeholder: 描述你的目标受众
+      - text: 摄影社团编辑
+    - generic: 发布平台
+    - combobox "发布平台":
+      - option "抖音"
+      - option "小红书"
+      - option "视频号"
+      - option "B站" [selected]
+    - generic: 目标时长 秒
+    - spinbutton "目标时长 秒": "30"
+    - generic: 时长要求
+    - combobox "时长要求":
+      - option "不超过目标秒数" [selected]
+      - option "接近目标（90%–100%）"
+    - generic: 创作方式
+    - combobox "创作方式":
+      - option "场景创作 · 保留事实来源与表达审核" [selected]
+      - option "严格引用 · 仅用原版批准表达"
+    - generic: 表达风格
+    - textbox "表达风格": 技术信息清楚，不夸大
+    - generic: 使用的产品资料
+    - combobox "使用的产品资料":
+      - option "剪影练习版 · 示例素材" [selected]
+      - option "无素材产品 · 测试资料不足"
+    - generic "查看可用素材"
+    - generic: 运行方式
+    - combobox "运行方式":
+      - option "真实模型 · Codex" [selected]
+      - option "离线演练 · Mock"
+      - option "模型 API" [disabled]
+    - paragraph: 调用本机已登录的 Codex，通常需要一到数分钟。
+    - generic "测试设置与旧稿"
+    - generic: 工具故障模拟
+    - combobox "工具故障模拟":
+      - option "不注入故障" [selected]
+      - option "素材检索失败一次"
+      - option "素材检索持续失败"
+      - option "时长工具持续失败"
+      - option "规则工具持续失败"
+    - generic: 待修订旧稿 JSON，可选
+    - textbox "待修订旧稿 JSON，可选" [active]:
+      - /placeholder: 载入超时或纠错场景后，可在这里编辑旧稿。
+    - paragraph: 留空则生成新稿。停止任务会等待当前模型调用返回，不会开始下一步。
+    - button "生成并检查":
+      - generic: 生成并检查
+    - paragraph: 真实模型运行会使用当前账号的额度。
+  - region "运行结果":
+    - generic: 需要补充
+    - generic: 真实模型 · 2 个执行步骤
+    - tablist "结果视图":
+      - tab "脚本预览"
+      - tab "执行过程 2" [selected]:
+        - text: 执行过程
+        - generic: "2"
+      - tab "原始结果"
+    - text: 最近运行
+    - combobox "查看最近运行":
+      - option "选择一条记录"
+      - option "11/04 23:56:42 · 模型 · 需要补充 · 介绍剪影练习版能否完全离线修改" [selected]
+      - option "11/04 23:52:53 · 模型 · 需要补充 · 为剪影练习版写一条介绍口播自动"
+      - option "11/04 23:41:32 · 模型 · 检查通过 · 用一分钟左右讲如何围绕现有录像"
+      - option "11/04 23:36:26 · 模型 · 未完成 · 接近45秒介绍字幕添加、手动改"
+      - option "11/04 23:28:56 · 模型 · 检查通过 · 标题必须是“Small Cli"
+      - option "11/04 23:22:28 · 模型 · 检查通过 · 介绍手动编辑字幕文字，全部画面"
+      - option "11/04 23:16:03 · 模型 · 检查通过 · 介绍添加字幕与手动编辑文字，以"
+      - option "11/04 23:11:25 · 模型 · 检查通过 · 以修剪花枝、摆花桶、整理台面的"
+      - option "11/04 23:04:16 · 模型 · 检查通过 · 介绍裁剪片段和横竖屏比例选择，"
+      - option "11/04 22:58:03 · 模型 · 检查通过 · 介绍字幕添加和手动编辑字幕文字"
+      - option "11/04 09:49:43 · 模型 · 检查通过 · 做一条剪影练习版字幕功能介绍，"
+      - option "11/04 09:48:02 · 模型 · 检查通过 · 把所附旧稿压缩到15秒以内，保"
+      - option "11/04 09:45:29 · 模型 · 检查通过 · 把所附旧稿改成只介绍添加字幕，"
+      - option "11/04 09:42:49 · 模型 · 检查通过 · 审核并修改所附字幕介绍旧稿；客"
+      - option "11/04 09:44:06 · 模型 · 检查通过 · 所附旧稿四个镜头顺序与数量不能"
+      - option "11/04 09:42:48 · 模型 · 检查通过 · 把所附旧稿压缩到25秒以内，保"
+      - option "11/04 09:42:47 · 模型 · 需要补充 · 为虚构摄影课“周末街拍入门”写"
+      - option "11/04 09:41:37 · 模型 · 需要补充 · 给虚构门店“晨光面包房”写新品"
+      - option "11/04 09:41:38 · 模型 · 需要补充 · 给虚构产品“山径露营灯”做新品"
+      - option "11/04 09:41:39 · 模型 · 需要补充 · 为虚构游戏活动“星港周末赛”写"
+      - option "11/04 09:38:12 · 模型 · 检查通过 · 客户口头说加字幕后播放量提高了"
+      - option "11/04 09:40:24 · 模型 · 需要补充 · 写本周新版剪影练习版更新介绍，"
+      - option "11/04 09:39:17 · 模型 · 需要补充 · 介绍视频能否导出4K、是否有水"
+      - option "11/04 09:39:16 · 模型 · 需要补充 · 写剪影练习版导出SRT字幕文件"
+      - option "11/04 09:39:15 · 模型 · 需要补充 · 比较剪影练习版与剪映的字幕、片"
+      - option "11/04 09:34:35 · 模型 · 检查通过 · 用三个分镜介绍字幕添加和手动改"
+      - option "11/04 09:36:53 · 模型 · 需要补充 · 写字幕功能收费说明：免费版能用"
+      - option "11/04 09:36:54 · 模型 · 需要补充 · 介绍剪影练习版能否完全离线修改"
+      - option "11/04 09:35:50 · 模型 · 需要补充 · 为剪影练习版写一条介绍口播自动"
+      - option "11/04 09:32:14 · 模型 · 检查通过 · 介绍裁剪片段，只用大字屏幕卡片"
+      - option "11/04 09:30:34 · 模型 · 检查通过 · 用一分钟左右讲如何围绕现有录像"
+      - option "11/04 09:30:33 · 模型 · 检查通过 · 接近45秒介绍字幕添加、手动改"
+    - status: 现有《字幕功能说明》只确认字幕文字可手动编辑，不能证明完全离线或视频不会上传，尚未成稿。请补充该版本的离线编辑说明、视频上传规则及触发条件；如依据测试，请提供断网操作结果和网络请求记录。本地能打开不能作为不上传的证据。
+    - tabpanel "执行过程 2":
+      - heading "每一步，都有记录。" [level=2]
+      - paragraph: 这里展示实际工具调用、观察结果与简短动作依据。
+      - list:
+        - generic: "1"
+        - strong: 检索素材
+        - generic: 已执行
+        - generic: 91.7 s
+        - paragraph: 先查证字幕修改的离线条件和视频上传机制，区分已知依据与尚未确认的信息，避免把本地可打开当作不上传的证据。
+        - paragraph: 检索“剪影练习版 demo-editor：能否完全离线修改字幕；字幕编辑是否依赖联网；视频是否上传服务器、上传触发条件；官方说明、隐私政策或断网及网络请求测试依据。”：找到 3 条素材
+        - generic "查看参数与返回结果"
+        - generic: "2"
+        - strong: 结束任务
+        - generic: 已执行
+        - generic: 80.1 s
+        - paragraph: 已检索资料仅支持手动编辑字幕，缺少必讲的离线条件和视频上传机制，无法据此给出确定结论。
+        - paragraph: 需要补充
+        - generic "查看参数与返回结果"
+    - generic: 记录已保存 · ceb67dd6
+    - link "下载脚本":
+      - /url: /api/runs/ceb67dd6e5ef42929829e53686d9d02b/download/script.md
+    - link "下载 Trace":
+      - /url: /api/runs/ceb67dd6e5ef42929829e53686d9d02b/download/trace.jsonl
+    - link "下载 JSON":
+      - /url: /api/runs/ceb67dd6e5ef42929829e53686d9d02b/download/output.json
+    - link "下载检查点":
+      - /url: /api/runs/ceb67dd6e5ef42929829e53686d9d02b/download/checkpoint.json
+  - generic: 本地运行 · 合成素材 · 只生成脚本
+  - generic: 先核对事实，再判断表达。

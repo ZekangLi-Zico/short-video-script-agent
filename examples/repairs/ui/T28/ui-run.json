@@ -1,0 +1,13 @@
+{
+  "source_case": "T28",
+  "run_id": "b3d0cb4a4f614d959058078b2fd11777",
+  "finished_observed_at": "2026-11-03T15:57:17.275Z",
+  "actual_page": {
+    "busy": false,
+    "detail": "真实模型 · 3 个执行步骤",
+    "download": "/api/runs/b3d0cb4a4f614d959058078b2fd11777/download/output.json",
+    "message": "已找到添加字幕、手动编辑字幕的功能资料，但“播放量涨了30%”缺少可引用依据，完整脚本尚未完成。请将客户原始反馈、引用授权及前后播放量统计交给项目维护者补充；或确认删去增长说法，仅介绍字幕编辑功能。",
+    "status": "需要补充"
+  },
+  "method": "Original frozen request entered through visible web form; saved actual UI and backend artifacts."
+}

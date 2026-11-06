@@ -1,0 +1,1394 @@
+{
+  "format": "checkpoint_v1",
+  "recorded_at": "2026-11-04T15:25:01.118007+00:00",
+  "last_event": {
+    "kind": "step",
+    "step": 6
+  },
+  "result": {
+    "status": "in_progress",
+    "message": "任务执行中，尚未完成。",
+    "script": {
+      "format_version": 2,
+      "title": "从一段记录开始",
+      "shots": [
+        {
+          "purpose": "呈现待加工的日常视频，让后续两项功能有共同的展示对象。",
+          "visual": "固定机位拍桌面：空桌开场，一只手将杯子放下，再退出画面。画面中央显示引导文字。全片静音。",
+          "hold_seconds": 3,
+          "blocks": [
+            {
+              "text": "从一段日常记录开始。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "screen",
+              "beat": 1,
+              "display_seconds": 3
+            }
+          ]
+        },
+        {
+          "purpose": "让观众看到添加字幕后，文字如何出现在视频画面中。",
+          "visual": "沿用放杯子的素材，上方大字展示产品事实。下方示例视频先播放无字幕画面，再叠加第二拍文字作为字幕，继续播放供观众阅读。仅作功能示意，不展示产品界面。",
+          "hold_seconds": 10,
+          "blocks": [
+            {
+              "text": "剪影练习版支持为视频添加字幕。",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "channel": "screen",
+              "beat": 1,
+              "display_seconds": 4
+            },
+            {
+              "text": "把想说的话，放进画面里。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "screen",
+              "beat": 2,
+              "display_seconds": 6
+            }
+          ]
+        },
+        {
+          "purpose": "展示裁剪片段的含义：保留放杯子的动作，去掉前后的空桌画面。",
+          "visual": "产品事实大字保持显示。下方用三段连续画面示意“空桌、放杯、空桌”；前后空桌段逐渐变灰并移出，只留下中间动作，再播放保留片段。用素材条示意，不模拟按钮或操作界面。",
+          "hold_seconds": 10,
+          "blocks": [
+            {
+              "text": "剪影练习版支持裁剪视频片段。",
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "channel": "screen",
+              "beat": 1,
+              "display_seconds": 10
+            }
+          ]
+        }
+      ],
+      "editor_notes": ""
+    },
+    "duration": {
+      "ok": true,
+      "script_hash": "fcce4c45da2d208182930c505dd4c5f30a92009f0e2dc1e8c775be81636411cb",
+      "shots": [
+        {
+          "shot": 1,
+          "estimated_seconds": 3.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 3.0,
+              "voice_seconds": 0,
+              "screen_read_seconds": 2.75,
+              "display_seconds": 3,
+              "estimated_seconds": 3.0
+            }
+          ],
+          "tail_hold_seconds": 0.0
+        },
+        {
+          "shot": 2,
+          "estimated_seconds": 10.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 4.0,
+              "voice_seconds": 0,
+              "screen_read_seconds": 4.0,
+              "display_seconds": 4,
+              "estimated_seconds": 4.0
+            },
+            {
+              "beat": 2,
+              "start_seconds": 4.0,
+              "end_seconds": 10.0,
+              "voice_seconds": 0,
+              "screen_read_seconds": 3.0,
+              "display_seconds": 6,
+              "estimated_seconds": 6.0
+            }
+          ],
+          "tail_hold_seconds": 0.0
+        },
+        {
+          "shot": 3,
+          "estimated_seconds": 10.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 10.0,
+              "voice_seconds": 0,
+              "screen_read_seconds": 3.75,
+              "display_seconds": 10,
+              "estimated_seconds": 10.0
+            }
+          ],
+          "tail_hold_seconds": 0.0
+        }
+      ],
+      "total_seconds": 23.0,
+      "target_seconds": 25,
+      "passed": true,
+      "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+      "is_estimate": true,
+      "duration_mode": "target",
+      "min_seconds": 22.5,
+      "max_seconds": 25,
+      "issue": null
+    },
+    "rules_check": {
+      "ok": true,
+      "script_hash": "fcce4c45da2d208182930c505dd4c5f30a92009f0e2dc1e8c775be81636411cb",
+      "passed": true,
+      "issues": [],
+      "citations": [
+        {
+          "location": "shot:2/block:1",
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01",
+          "text": "剪影练习版支持为视频添加字幕。",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:3/block:1",
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01",
+          "text": "剪影练习版支持裁剪视频片段。",
+          "requires_semantic_review": true
+        }
+      ],
+      "rules_version": "2026-11-03-v1",
+      "requires_expression_review": true,
+      "expression_slots": [
+        {
+          "location": "title",
+          "text": "从一段记录开始"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "固定机位拍桌面：空桌开场，一只手将杯子放下，再退出画面。画面中央显示引导文字。全片静音。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "从一段日常记录开始。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "沿用放杯子的素材，上方大字展示产品事实。下方示例视频先播放无字幕画面，再叠加第二拍文字作为字幕，继续播放供观众阅读。仅作功能示意，不展示产品界面。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "把想说的话，放进画面里。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "产品事实大字保持显示。下方用三段连续画面示意“空桌、放杯、空桌”；前后空桌段逐渐变灰并移出，只留下中间动作，再播放保留片段。用素材条示意，不模拟按钮或操作界面。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ],
+      "available_facts": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F2",
+          "quote": "字幕文字可以手动编辑。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01"
+        }
+      ],
+      "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+    },
+    "requirements_check": {
+      "ok": true,
+      "script_hash": "fcce4c45da2d208182930c505dd4c5f30a92009f0e2dc1e8c775be81636411cb",
+      "request_hash": "203dffcdfd4eed16b275a021c2db9cd98912b8eefbfae29e431c56613964e2c2",
+      "passed": true,
+      "items": [
+        {
+          "field": "topic",
+          "requirement": "给展位静音屏写工具介绍",
+          "verdict": "met",
+          "evidence": "第1镜明确“全片静音”，第2、3镜通过屏幕文字及功能示意介绍工具，符合展位静音展示场景。"
+        },
+        {
+          "field": "topic",
+          "requirement": "添加字幕",
+          "verdict": "met",
+          "evidence": "第2镜屏幕显示“剪影练习版支持为视频添加字幕。”，并安排无字幕画面到叠加字幕的示意。"
+        },
+        {
+          "field": "topic",
+          "requirement": "裁剪片段",
+          "verdict": "met",
+          "evidence": "第3镜屏幕显示“剪影练习版支持裁剪视频片段。”，画面演示去掉前后空桌片段、保留放杯动作。"
+        },
+        {
+          "field": "topic",
+          "requirement": "所有关键信息用屏幕文字表达",
+          "verdict": "met",
+          "evidence": "产品名称及添加字幕、裁剪片段两项能力均写在screen文案块中，无仅靠声音传达的关键信息。"
+        },
+        {
+          "field": "topic",
+          "requirement": "不能依赖旁白",
+          "verdict": "met",
+          "evidence": "全部文案块的channel均为screen，没有voice或both；画面明确要求全片静音。"
+        },
+        {
+          "field": "topic",
+          "requirement": "分镜不超过四个",
+          "verdict": "met",
+          "evidence": "当前稿共3个分镜。"
+        },
+        {
+          "field": "audience",
+          "requirement": "路过展位的普通观众",
+          "verdict": "met",
+          "evidence": "使用放杯子的日常素材，通过加字幕、去掉空桌片段直观解释功能；文案无专业术语，便于普通观众理解。"
+        },
+        {
+          "field": "platform",
+          "requirement": "视频号",
+          "verdict": "met",
+          "evidence": "稿件为3镜短视频，功能文字与演示结合，估算总长23秒，适合作为视频号工具介绍内容。"
+        },
+        {
+          "field": "style",
+          "requirement": "静音可读",
+          "verdict": "met",
+          "evidence": "所有信息均以屏幕文字呈现；各拍展示时间为3、4、6、10秒，均达到duration_check对应的文字阅读估算。"
+        },
+        {
+          "field": "style",
+          "requirement": "简洁",
+          "verdict": "met",
+          "evidence": "全稿3镜、4个短文案块，围绕同一素材展示两项功能，没有冗长解释或无关信息。"
+        }
+      ],
+      "summary": "需求均已落实：两项功能完整，静音可读，共3镜。产品声明均有资料支持；总长估算23秒通过目标区间检查，各镜停留有阅读或演示内容支撑。",
+      "method": "model_assessment_not_deterministic_proof",
+      "expressions": [
+        {
+          "location": "title",
+          "text": "从一段记录开始",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于引入场景的标题，不含产品能力或效果承诺。"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "固定机位拍桌面：空桌开场，一只手将杯子放下，再退出画面。画面中央显示引导文字。全片静音。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "仅描述拍摄动作、文字位置和静音安排，不含产品事实声明。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "从一段日常记录开始。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于场景引导语，不承诺产品性能或能力。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "沿用放杯子的素材，上方大字展示产品事实。下方示例视频先播放无字幕画面，再叠加第二拍文字作为字幕，继续播放供观众阅读。仅作功能示意，不展示产品界面。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "示意视频添加字幕的效果，由“剪影练习版支持为视频添加字幕。”支持；未虚构产品界面、按钮或自动操作流程。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "剪影练习版支持为视频添加字幕。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "与P01.F1原文一致，引用保留了原块标注的source_id和fact_id。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "把想说的话，放进画面里。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "结合本镜字幕示意，该句表达将文字作为字幕加入视频，属于添加字幕能力的通俗表述，未新增自动识别等能力。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "产品事实大字保持显示。下方用三段连续画面示意“空桌、放杯、空桌”；前后空桌段逐渐变灰并移出，只留下中间动作，再播放保留片段。用素材条示意，不模拟按钮或操作界面。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1"
+            }
+          ],
+          "evidence": "移除前后片段、保留中间片段是裁剪能力的示意，由P02.F1支持；变灰移出属于示意动画，没有宣称产品会自动识别或裁剪。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "剪影练习版支持裁剪视频片段。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1"
+            }
+          ],
+          "evidence": "与P02.F1原文一致，引用保留了原块标注的source_id和fact_id。"
+        }
+      ],
+      "pacing": {
+        "verdict": "met",
+        "evidence": "第1镜预计3秒，短引导文字阅读估算2.75秒，可与放杯动作同步。第2镜预计10秒，第一拍4秒展示功能事实，第二拍6秒展示字幕叠加并供阅读。第3镜预计10秒，除阅读功能文字外，还安排三段素材展示、移除前后片段及保留片段回放，停留有具体动作支撑。各镜符合最低停留要求，没有明显重复事实或空镜凑时长；宿主估算总长23秒，已通过22.5至25秒目标区间。"
+      },
+      "expression_review_passed": true
+    },
+    "sources": [
+      {
+        "id": "P02",
+        "product_id": "demo-editor",
+        "title": "剪辑功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "剪辑",
+          "裁剪",
+          "片段",
+          "trim",
+          "edit"
+        ],
+        "facts": [
+          {
+            "id": "P02.F1",
+            "text": "剪影练习版支持裁剪视频片段。"
+          }
+        ]
+      },
+      {
+        "id": "P01",
+        "product_id": "demo-editor",
+        "title": "字幕功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "字幕",
+          "口播",
+          "文字",
+          "caption",
+          "subtitle"
+        ],
+        "facts": [
+          {
+            "id": "P01.F1",
+            "text": "剪影练习版支持为视频添加字幕。"
+          },
+          {
+            "id": "P01.F2",
+            "text": "字幕文字可以手动编辑。"
+          }
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "action": "search_materials",
+        "arguments": {
+          "query": "demo-editor 添加字幕 裁剪片段 功能说明 支持范围",
+          "product_id": "demo-editor"
+        },
+        "decision_basis": "先查找“添加字幕”和“裁剪片段”的产品事实，用于不超过四镜、全屏幕文字表达的25秒静音展位介绍。",
+        "observation": {
+          "ok": true,
+          "query": "demo-editor 添加字幕 裁剪片段 功能说明 支持范围",
+          "product_id": "demo-editor",
+          "materials": [
+            {
+              "id": "P02",
+              "product_id": "demo-editor",
+              "title": "剪辑功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "剪辑",
+                "裁剪",
+                "片段",
+                "trim",
+                "edit"
+              ],
+              "facts": [
+                {
+                  "id": "P02.F1",
+                  "text": "剪影练习版支持裁剪视频片段。"
+                }
+              ]
+            },
+            {
+              "id": "P01",
+              "product_id": "demo-editor",
+              "title": "字幕功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "字幕",
+                "口播",
+                "文字",
+                "caption",
+                "subtitle"
+              ],
+              "facts": [
+                {
+                  "id": "P01.F1",
+                  "text": "剪影练习版支持为视频添加字幕。"
+                },
+                {
+                  "id": "P01.F2",
+                  "text": "字幕文字可以手动编辑。"
+                }
+              ]
+            }
+          ],
+          "count": 2
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a725-6dd4-7943-919b-3257d309d923",
+          "usage": {
+            "input_tokens": 27356,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 169,
+            "reasoning_output_tokens": 81
+          },
+          "call_id": "decision-2x5hwh48",
+          "warnings": []
+        },
+        "elapsed_ms": 23812
+      },
+      {
+        "step": 2,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "从一段记录开始",
+            "shots": [
+              {
+                "purpose": "呈现待加工的日常视频，让后续两项功能有共同的展示对象。",
+                "visual": "固定机位拍桌面：空桌开场，一只手将杯子放下，再退出画面。画面中央显示引导文字。全片静音。",
+                "hold_seconds": 3,
+                "blocks": [
+                  {
+                    "text": "从一段日常记录开始。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 3
+                  }
+                ]
+              },
+              {
+                "purpose": "让观众看到添加字幕后，文字如何出现在视频画面中。",
+                "visual": "沿用放杯子的素材，上方大字展示产品事实。下方示例视频先播放无字幕画面，再叠加第二拍文字作为字幕，继续播放供观众阅读。仅作功能示意，不展示产品界面。",
+                "hold_seconds": 10,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 4
+                  },
+                  {
+                    "text": "把想说的话，放进画面里。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 2,
+                    "display_seconds": 6
+                  }
+                ]
+              },
+              {
+                "purpose": "展示裁剪片段的含义：保留放杯子的动作，去掉前后的空桌画面。",
+                "visual": "产品事实大字保持显示。下方用三段连续画面示意“空桌、放杯、空桌”；前后空桌段逐渐变灰并移出，只留下中间动作，再播放保留片段。用素材条示意，不模拟按钮或操作界面。",
+                "hold_seconds": 10,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持裁剪视频片段。",
+                    "source_id": "P02",
+                    "fact_id": "P02.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 10
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          }
+        },
+        "decision_basis": "素材已覆盖添加字幕与裁剪片段，编排为三镜静音介绍，用同一段日常素材展示变化，并留出阅读与观察时间。",
+        "observation": {
+          "ok": true,
+          "script_hash": "fcce4c45da2d208182930c505dd4c5f30a92009f0e2dc1e8c775be81636411cb",
+          "revision": {
+            "before_hash": null,
+            "after_hash": "fcce4c45da2d208182930c505dd4c5f30a92009f0e2dc1e8c775be81636411cb",
+            "changed_fields": [
+              "script:new"
+            ],
+            "unchanged_shots": 0,
+            "unchanged_blocks": 0,
+            "feedback": [],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a725-c8ee-7b11-87f4-262b24579408",
+          "usage": {
+            "input_tokens": 27862,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1532,
+            "reasoning_output_tokens": 1034
+          },
+          "call_id": "decision-irtqi139",
+          "warnings": []
+        },
+        "elapsed_ms": 84531
+      },
+      {
+        "step": 3,
+        "action": "estimate_duration",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "从一段记录开始",
+            "shots": [
+              {
+                "purpose": "呈现待加工的日常视频，让后续两项功能有共同的展示对象。",
+                "visual": "固定机位拍桌面：空桌开场，一只手将杯子放下，再退出画面。画面中央显示引导文字。全片静音。",
+                "hold_seconds": 3,
+                "blocks": [
+                  {
+                    "text": "从一段日常记录开始。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 3
+                  }
+                ]
+              },
+              {
+                "purpose": "让观众看到添加字幕后，文字如何出现在视频画面中。",
+                "visual": "沿用放杯子的素材，上方大字展示产品事实。下方示例视频先播放无字幕画面，再叠加第二拍文字作为字幕，继续播放供观众阅读。仅作功能示意，不展示产品界面。",
+                "hold_seconds": 10,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 4
+                  },
+                  {
+                    "text": "把想说的话，放进画面里。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 2,
+                    "display_seconds": 6
+                  }
+                ]
+              },
+              {
+                "purpose": "展示裁剪片段的含义：保留放杯子的动作，去掉前后的空桌画面。",
+                "visual": "产品事实大字保持显示。下方用三段连续画面示意“空桌、放杯、空桌”；前后空桌段逐渐变灰并移出，只留下中间动作，再播放保留片段。用素材条示意，不模拟按钮或操作界面。",
+                "hold_seconds": 10,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持裁剪视频片段。",
+                    "source_id": "P02",
+                    "fact_id": "P02.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 10
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "target_seconds": 25,
+          "duration_mode": "target"
+        },
+        "decision_basis": "先核算当前三镜静音稿的屏幕阅读、分拍展示和动作停留时间，确认总时长在25秒目标的22.5–25秒范围内。",
+        "observation": {
+          "ok": true,
+          "script_hash": "fcce4c45da2d208182930c505dd4c5f30a92009f0e2dc1e8c775be81636411cb",
+          "shots": [
+            {
+              "shot": 1,
+              "estimated_seconds": 3.0,
+              "beats": [
+                {
+                  "beat": 1,
+                  "start_seconds": 0,
+                  "end_seconds": 3.0,
+                  "voice_seconds": 0,
+                  "screen_read_seconds": 2.75,
+                  "display_seconds": 3,
+                  "estimated_seconds": 3.0
+                }
+              ],
+              "tail_hold_seconds": 0.0
+            },
+            {
+              "shot": 2,
+              "estimated_seconds": 10.0,
+              "beats": [
+                {
+                  "beat": 1,
+                  "start_seconds": 0,
+                  "end_seconds": 4.0,
+                  "voice_seconds": 0,
+                  "screen_read_seconds": 4.0,
+                  "display_seconds": 4,
+                  "estimated_seconds": 4.0
+                },
+                {
+                  "beat": 2,
+                  "start_seconds": 4.0,
+                  "end_seconds": 10.0,
+                  "voice_seconds": 0,
+                  "screen_read_seconds": 3.0,
+                  "display_seconds": 6,
+                  "estimated_seconds": 6.0
+                }
+              ],
+              "tail_hold_seconds": 0.0
+            },
+            {
+              "shot": 3,
+              "estimated_seconds": 10.0,
+              "beats": [
+                {
+                  "beat": 1,
+                  "start_seconds": 0,
+                  "end_seconds": 10.0,
+                  "voice_seconds": 0,
+                  "screen_read_seconds": 3.75,
+                  "display_seconds": 10,
+                  "estimated_seconds": 10.0
+                }
+              ],
+              "tail_hold_seconds": 0.0
+            }
+          ],
+          "total_seconds": 23.0,
+          "target_seconds": 25,
+          "passed": true,
+          "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+          "is_estimate": true,
+          "duration_mode": "target",
+          "min_seconds": 22.5,
+          "max_seconds": 25,
+          "issue": null
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a727-1241-7360-9d87-ab9c461a2154",
+          "usage": {
+            "input_tokens": 29103,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 169,
+            "reasoning_output_tokens": 93
+          },
+          "call_id": "decision-lyc3cf0q",
+          "warnings": []
+        },
+        "elapsed_ms": 20812
+      },
+      {
+        "step": 4,
+        "action": "check_rules",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "从一段记录开始",
+            "shots": [
+              {
+                "purpose": "呈现待加工的日常视频，让后续两项功能有共同的展示对象。",
+                "visual": "固定机位拍桌面：空桌开场，一只手将杯子放下，再退出画面。画面中央显示引导文字。全片静音。",
+                "hold_seconds": 3,
+                "blocks": [
+                  {
+                    "text": "从一段日常记录开始。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 3
+                  }
+                ]
+              },
+              {
+                "purpose": "让观众看到添加字幕后，文字如何出现在视频画面中。",
+                "visual": "沿用放杯子的素材，上方大字展示产品事实。下方示例视频先播放无字幕画面，再叠加第二拍文字作为字幕，继续播放供观众阅读。仅作功能示意，不展示产品界面。",
+                "hold_seconds": 10,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 4
+                  },
+                  {
+                    "text": "把想说的话，放进画面里。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 2,
+                    "display_seconds": 6
+                  }
+                ]
+              },
+              {
+                "purpose": "展示裁剪片段的含义：保留放杯子的动作，去掉前后的空桌画面。",
+                "visual": "产品事实大字保持显示。下方用三段连续画面示意“空桌、放杯、空桌”；前后空桌段逐渐变灰并移出，只留下中间动作，再播放保留片段。用素材条示意，不模拟按钮或操作界面。",
+                "hold_seconds": 10,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持裁剪视频片段。",
+                    "source_id": "P02",
+                    "fact_id": "P02.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 10
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "retrieved_ids": [
+            "P01",
+            "P02"
+          ],
+          "expression_mode": "creative"
+        },
+        "decision_basis": "当前稿估时23秒已通过；检查事实引用、品牌禁用词及画面描述，确认仅介绍添加字幕与裁剪片段，无未经支持的产品声明。",
+        "observation": {
+          "ok": true,
+          "script_hash": "fcce4c45da2d208182930c505dd4c5f30a92009f0e2dc1e8c775be81636411cb",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:2/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01",
+              "text": "剪影练习版支持为视频添加字幕。",
+              "requires_semantic_review": true
+            },
+            {
+              "location": "shot:3/block:1",
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01",
+              "text": "剪影练习版支持裁剪视频片段。",
+              "requires_semantic_review": true
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "从一段记录开始"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "固定机位拍桌面：空桌开场，一只手将杯子放下，再退出画面。画面中央显示引导文字。全片静音。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "从一段日常记录开始。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "沿用放杯子的素材，上方大字展示产品事实。下方示例视频先播放无字幕画面，再叠加第二拍文字作为字幕，继续播放供观众阅读。仅作功能示意，不展示产品界面。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "剪影练习版支持为视频添加字幕。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "把想说的话，放进画面里。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "产品事实大字保持显示。下方用三段连续画面示意“空桌、放杯、空桌”；前后空桌段逐渐变灰并移出，只留下中间动作，再播放保留片段。用素材条示意，不模拟按钮或操作界面。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "剪影练习版支持裁剪视频片段。"
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a727-64dd-7e90-80bb-5b6e2e7b9eac",
+          "usage": {
+            "input_tokens": 30636,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 177,
+            "reasoning_output_tokens": 103
+          },
+          "call_id": "decision-kv7v0ytq",
+          "warnings": []
+        },
+        "elapsed_ms": 21906
+      },
+      {
+        "step": 5,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "从一段记录开始",
+            "shots": [
+              {
+                "purpose": "呈现待加工的日常视频，让后续两项功能有共同的展示对象。",
+                "visual": "固定机位拍桌面：空桌开场，一只手将杯子放下，再退出画面。画面中央显示引导文字。全片静音。",
+                "hold_seconds": 3,
+                "blocks": [
+                  {
+                    "text": "从一段日常记录开始。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 3
+                  }
+                ]
+              },
+              {
+                "purpose": "让观众看到添加字幕后，文字如何出现在视频画面中。",
+                "visual": "沿用放杯子的素材，上方大字展示产品事实。下方示例视频先播放无字幕画面，再叠加第二拍文字作为字幕，继续播放供观众阅读。仅作功能示意，不展示产品界面。",
+                "hold_seconds": 10,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 4
+                  },
+                  {
+                    "text": "把想说的话，放进画面里。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 2,
+                    "display_seconds": 6
+                  }
+                ]
+              },
+              {
+                "purpose": "展示裁剪片段的含义：保留放杯子的动作，去掉前后的空桌画面。",
+                "visual": "产品事实大字保持显示。下方用三段连续画面示意“空桌、放杯、空桌”；前后空桌段逐渐变灰并移出，只留下中间动作，再播放保留片段。用素材条示意，不模拟按钮或操作界面。",
+                "hold_seconds": 10,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持裁剪视频片段。",
+                    "source_id": "P02",
+                    "fact_id": "P02.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 10
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "request": {
+            "topic": "给展位静音屏写工具介绍：添加字幕与裁剪片段。所有关键信息用屏幕文字表达，不能依赖旁白，分镜不超过四个。",
+            "audience": "路过展位的普通观众",
+            "platform": "视频号",
+            "style": "静音可读，简洁",
+            "product_id": "demo-editor",
+            "duration_mode": "target",
+            "expression_mode": "creative",
+            "target_seconds": 25
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "fcce4c45da2d208182930c505dd4c5f30a92009f0e2dc1e8c775be81636411cb",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:2/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01",
+                "text": "剪影练习版支持为视频添加字幕。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:3/block:1",
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01",
+                "text": "剪影练习版支持裁剪视频片段。",
+                "requires_semantic_review": true
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "从一段记录开始"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "固定机位拍桌面：空桌开场，一只手将杯子放下，再退出画面。画面中央显示引导文字。全片静音。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "从一段日常记录开始。"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "沿用放杯子的素材，上方大字展示产品事实。下方示例视频先播放无字幕画面，再叠加第二拍文字作为字幕，继续播放供观众阅读。仅作功能示意，不展示产品界面。"
+              },
+              {
+                "location": "shot:2/block:1",
+                "text": "剪影练习版支持为视频添加字幕。"
+              },
+              {
+                "location": "shot:2/block:2",
+                "text": "把想说的话，放进画面里。"
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "产品事实大字保持显示。下方用三段连续画面示意“空桌、放杯、空桌”；前后空桌段逐渐变灰并移出，只留下中间动作，再播放保留片段。用素材条示意，不模拟按钮或操作界面。"
+              },
+              {
+                "location": "shot:3/block:1",
+                "text": "剪影练习版支持裁剪视频片段。"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "fcce4c45da2d208182930c505dd4c5f30a92009f0e2dc1e8c775be81636411cb",
+            "shots": [
+              {
+                "shot": 1,
+                "estimated_seconds": 3.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 3.0,
+                    "voice_seconds": 0,
+                    "screen_read_seconds": 2.75,
+                    "display_seconds": 3,
+                    "estimated_seconds": 3.0
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              },
+              {
+                "shot": 2,
+                "estimated_seconds": 10.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 4.0,
+                    "voice_seconds": 0,
+                    "screen_read_seconds": 4.0,
+                    "display_seconds": 4,
+                    "estimated_seconds": 4.0
+                  },
+                  {
+                    "beat": 2,
+                    "start_seconds": 4.0,
+                    "end_seconds": 10.0,
+                    "voice_seconds": 0,
+                    "screen_read_seconds": 3.0,
+                    "display_seconds": 6,
+                    "estimated_seconds": 6.0
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              },
+              {
+                "shot": 3,
+                "estimated_seconds": 10.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 10.0,
+                    "voice_seconds": 0,
+                    "screen_read_seconds": 3.75,
+                    "display_seconds": 10,
+                    "estimated_seconds": 10.0
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              }
+            ],
+            "total_seconds": 23.0,
+            "target_seconds": 25,
+            "passed": true,
+            "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+            "is_estimate": true,
+            "duration_mode": "target",
+            "min_seconds": 22.5,
+            "max_seconds": 25,
+            "issue": null
+          }
+        },
+        "decision_basis": "当前稿估时23秒，时长与规则检查均已通过。核对三镜是否完整介绍添加字幕与裁剪片段、所有关键信息均以屏幕文字表达，并确认画面示意和文案符合素材事实及静音展位场景。",
+        "observation": {
+          "ok": true,
+          "script_hash": "fcce4c45da2d208182930c505dd4c5f30a92009f0e2dc1e8c775be81636411cb",
+          "request_hash": "203dffcdfd4eed16b275a021c2db9cd98912b8eefbfae29e431c56613964e2c2",
+          "passed": true,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "给展位静音屏写工具介绍",
+              "verdict": "met",
+              "evidence": "第1镜明确“全片静音”，第2、3镜通过屏幕文字及功能示意介绍工具，符合展位静音展示场景。"
+            },
+            {
+              "field": "topic",
+              "requirement": "添加字幕",
+              "verdict": "met",
+              "evidence": "第2镜屏幕显示“剪影练习版支持为视频添加字幕。”，并安排无字幕画面到叠加字幕的示意。"
+            },
+            {
+              "field": "topic",
+              "requirement": "裁剪片段",
+              "verdict": "met",
+              "evidence": "第3镜屏幕显示“剪影练习版支持裁剪视频片段。”，画面演示去掉前后空桌片段、保留放杯动作。"
+            },
+            {
+              "field": "topic",
+              "requirement": "所有关键信息用屏幕文字表达",
+              "verdict": "met",
+              "evidence": "产品名称及添加字幕、裁剪片段两项能力均写在screen文案块中，无仅靠声音传达的关键信息。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不能依赖旁白",
+              "verdict": "met",
+              "evidence": "全部文案块的channel均为screen，没有voice或both；画面明确要求全片静音。"
+            },
+            {
+              "field": "topic",
+              "requirement": "分镜不超过四个",
+              "verdict": "met",
+              "evidence": "当前稿共3个分镜。"
+            },
+            {
+              "field": "audience",
+              "requirement": "路过展位的普通观众",
+              "verdict": "met",
+              "evidence": "使用放杯子的日常素材，通过加字幕、去掉空桌片段直观解释功能；文案无专业术语，便于普通观众理解。"
+            },
+            {
+              "field": "platform",
+              "requirement": "视频号",
+              "verdict": "met",
+              "evidence": "稿件为3镜短视频，功能文字与演示结合，估算总长23秒，适合作为视频号工具介绍内容。"
+            },
+            {
+              "field": "style",
+              "requirement": "静音可读",
+              "verdict": "met",
+              "evidence": "所有信息均以屏幕文字呈现；各拍展示时间为3、4、6、10秒，均达到duration_check对应的文字阅读估算。"
+            },
+            {
+              "field": "style",
+              "requirement": "简洁",
+              "verdict": "met",
+              "evidence": "全稿3镜、4个短文案块，围绕同一素材展示两项功能，没有冗长解释或无关信息。"
+            }
+          ],
+          "summary": "需求均已落实：两项功能完整，静音可读，共3镜。产品声明均有资料支持；总长估算23秒通过目标区间检查，各镜停留有阅读或演示内容支撑。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "从一段记录开始",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于引入场景的标题，不含产品能力或效果承诺。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "固定机位拍桌面：空桌开场，一只手将杯子放下，再退出画面。画面中央显示引导文字。全片静音。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "仅描述拍摄动作、文字位置和静音安排，不含产品事实声明。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "从一段日常记录开始。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于场景引导语，不承诺产品性能或能力。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "沿用放杯子的素材，上方大字展示产品事实。下方示例视频先播放无字幕画面，再叠加第二拍文字作为字幕，继续播放供观众阅读。仅作功能示意，不展示产品界面。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "示意视频添加字幕的效果，由“剪影练习版支持为视频添加字幕。”支持；未虚构产品界面、按钮或自动操作流程。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "剪影练习版支持为视频添加字幕。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "与P01.F1原文一致，引用保留了原块标注的source_id和fact_id。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "把想说的话，放进画面里。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "结合本镜字幕示意，该句表达将文字作为字幕加入视频，属于添加字幕能力的通俗表述，未新增自动识别等能力。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "产品事实大字保持显示。下方用三段连续画面示意“空桌、放杯、空桌”；前后空桌段逐渐变灰并移出，只留下中间动作，再播放保留片段。用素材条示意，不模拟按钮或操作界面。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ],
+              "evidence": "移除前后片段、保留中间片段是裁剪能力的示意，由P02.F1支持；变灰移出属于示意动画，没有宣称产品会自动识别或裁剪。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "剪影练习版支持裁剪视频片段。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ],
+              "evidence": "与P02.F1原文一致，引用保留了原块标注的source_id和fact_id。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "第1镜预计3秒，短引导文字阅读估算2.75秒，可与放杯动作同步。第2镜预计10秒，第一拍4秒展示功能事实，第二拍6秒展示字幕叠加并供阅读。第3镜预计10秒，除阅读功能文字外，还安排三段素材展示、移除前后片段及保留片段回放，停留有具体动作支撑。各镜符合最低停留要求，没有明显重复事实或空镜凑时长；宿主估算总长23秒，已通过22.5至25秒目标区间。"
+          },
+          "expression_review_passed": true
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a727-bba5-7241-b1d6-9d619ff36997",
+          "usage": {
+            "input_tokens": 32674,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 177,
+            "reasoning_output_tokens": 79
+          },
+          "call_id": "decision-q4nt0wj1",
+          "warnings": []
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a728-05cb-7461-b320-61fb938a729b",
+          "usage": {
+            "input_tokens": 28935,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2834,
+            "reasoning_output_tokens": 1034
+          },
+          "call_id": "decision-k32qyeix",
+          "warnings": []
+        },
+        "elapsed_ms": 121500
+      },
+      {
+        "step": 6,
+        "action": "finish",
+        "arguments": {
+          "status": "completed",
+          "message": "已完成《从一段记录开始》：共3镜，预计23秒，以屏幕文字和画面示意介绍添加字幕、裁剪片段，全片静音，不依赖旁白。"
+        },
+        "decision_basis": "当前稿的时长、规则和需求检查均已通过，且对应同一版本。",
+        "observation": {
+          "ok": true,
+          "status": "completed",
+          "script_hash": "fcce4c45da2d208182930c505dd4c5f30a92009f0e2dc1e8c775be81636411cb"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a729-9504-7963-9f2a-f4b2aa25e6aa",
+          "usage": {
+            "input_tokens": 37997,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 193,
+            "reasoning_output_tokens": 96
+          },
+          "call_id": "decision-_vsgveif",
+          "warnings": []
+        },
+        "elapsed_ms": 19453
+      }
+    ],
+    "metadata": {
+      "started_at": "2026-11-04T15:20:08.979810+00:00",
+      "finished_at": "2026-11-04T15:25:01.114007+00:00",
+      "provider": "codex",
+      "evidence_kind": "real_model",
+      "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+      "max_steps": 12,
+      "steps": 6,
+      "synthetic_data": true,
+      "completion_policy": "facts_duration_requirements_v5",
+      "requirements_review_context": "current_rules_and_duration_v2",
+      "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+      "model_responses": 7,
+      "run_id": "53d63ecb40e248e39baba3b081cffc59",
+      "persistence": "checkpoint_v1",
+      "fault_injection": {}
+    }
+  }
+}

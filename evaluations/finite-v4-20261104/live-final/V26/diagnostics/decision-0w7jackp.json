@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-0w7jackp",
+  "started_at": "2026-11-03T20:20:49.085796+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:21:01.464522+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a312-585e-7a13-b23b-d1954be0999c",
+    "usage": {
+      "input_tokens": 27751,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 105,
+      "reasoning_output_tokens": 55
+    },
+    "call_id": "decision-0w7jackp",
+    "warnings": []
+  }
+}

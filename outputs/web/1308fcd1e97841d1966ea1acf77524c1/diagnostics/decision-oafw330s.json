@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-oafw330s",
+  "started_at": "2026-11-04T21:25:23.812493+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T21:25:49.615172+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a873-d3c3-7c63-97fc-715453338123",
+    "usage": {
+      "input_tokens": 32026,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 95,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-oafw330s",
+    "warnings": []
+  }
+}

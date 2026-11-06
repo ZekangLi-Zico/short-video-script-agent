@@ -1,0 +1,6 @@
+{
+  "case": "V22",
+  "assessment": "可用性限制",
+  "note": "中文比例事实已经存在，程序因缺可逐字引用的英文资料而不生成双语脚本。未虚构自动翻译能力且如实标记未完成；但已知事实的翻译也要求维护者补数据，反映引用策略限制，不能等同产品事实本身缺失。",
+  "reviewer": "AI developer reading original brief and actual artifacts; not independent blind evaluation"
+}

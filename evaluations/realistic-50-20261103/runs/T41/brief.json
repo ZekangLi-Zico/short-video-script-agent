@@ -1,0 +1,76 @@
+{
+  "id": "T41",
+  "name": "压缩客户旧稿",
+  "context": "客户给了节奏拖沓的五镜头旧稿，临时缩短广告位。",
+  "request": {
+    "topic": "保留旧稿的字幕添加和手动编辑两个功能，把这份旧稿压缩到30秒以内，优先删减多余铺垫。",
+    "audience": "第一次拍口播的人",
+    "platform": "抖音",
+    "style": "自然、紧凑",
+    "product_id": "demo-editor",
+    "target_seconds": 30,
+    "initial_script": {
+      "title": "字幕，让表达被看见",
+      "shots": [
+        {
+          "visual": "人物面对镜头提出问题",
+          "hold_seconds": 8,
+          "blocks": [
+            {
+              "text": "想让画面里的表达更清楚？",
+              "source_id": "",
+              "fact_id": ""
+            }
+          ]
+        },
+        {
+          "visual": "日常生活素材蒙太奇",
+          "hold_seconds": 10,
+          "blocks": [
+            {
+              "text": "从一段日常记录开始。",
+              "source_id": "",
+              "fact_id": ""
+            }
+          ]
+        },
+        {
+          "visual": "将旁白作为字幕叠加在日常画面上",
+          "hold_seconds": 12,
+          "blocks": [
+            {
+              "text": "剪影练习版支持为视频添加字幕。",
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ]
+        },
+        {
+          "visual": "产品功能文字卡片，不展示未经提供的界面",
+          "hold_seconds": 12,
+          "blocks": [
+            {
+              "text": "字幕文字可以手动编辑。",
+              "source_id": "P01",
+              "fact_id": "P01.F2"
+            }
+          ]
+        },
+        {
+          "visual": "简洁背景展示结尾文字",
+          "hold_seconds": 8,
+          "blocks": [
+            {
+              "text": "试试你的下一条短片吧。",
+              "source_id": "",
+              "fact_id": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

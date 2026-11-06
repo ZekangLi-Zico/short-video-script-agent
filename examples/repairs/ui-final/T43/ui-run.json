@@ -1,0 +1,13 @@
+{
+  "source_case": "T43",
+  "run_id": "9f0309762e454043b862e46ab555b259",
+  "finished_observed_at": "2026-11-03T16:09:02.785Z",
+  "actual_page": {
+    "busy": false,
+    "detail": "真实模型 · 8 个执行步骤",
+    "download": "/api/runs/9f0309762e454043b862e46ab555b259/download/output.json",
+    "message": "已完成旧稿审核与修改，保留原标题和三镜头结构。将未经确认的“自动识别语音并生成字幕”替换为已核实的添加字幕功能，保留手动编辑字幕功能。镜头停留由8/8/12秒缩短为4/5/4秒，当前估算13秒，符合25秒上限；规则与需求检查均通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+    "status": "检查通过"
+  },
+  "method": "Original frozen request entered through visible web form; saved actual UI and backend artifacts."
+}

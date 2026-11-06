@@ -1,0 +1,13 @@
+{
+  "case": "V39",
+  "index": 38,
+  "attempt": 1,
+  "run_id": "91a0e659391d4bfebd426edb5ab3d7eb",
+  "folder": "V39",
+  "status": "needs_input",
+  "steps": 3,
+  "responses": 3,
+  "provider": "codex",
+  "seconds": null,
+  "message": "脚本尚未完成。请粘贴该版本的导出说明，包含：是否支持4K及适用条件、导出水印规则、竖屏导出的分辨率/帧率/格式及其他限制。现有资料无法确认这些事实。"
+}

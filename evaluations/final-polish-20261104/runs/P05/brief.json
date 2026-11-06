@@ -1,0 +1,22 @@
+{
+  "id": "P05",
+  "source": "missing_information",
+  "name": "missing_information",
+  "request": {
+    "topic": "介绍字幕功能",
+    "audience": "第一次制作口播短视频的创作者",
+    "platform": "抖音",
+    "style": "清楚、友好、克制",
+    "product_id": "demo-editor",
+    "expression_mode": "strict",
+    "duration_mode": "max"
+  },
+  "failures": {},
+  "original_request": {
+    "topic": "介绍字幕功能",
+    "audience": "第一次制作口播短视频的创作者",
+    "platform": "抖音",
+    "style": "清楚、友好、克制",
+    "product_id": "demo-editor"
+  }
+}

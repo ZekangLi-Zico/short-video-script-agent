@@ -1,0 +1,16 @@
+{
+  "id": "T06",
+  "name": "旅行片段",
+  "context": "旅行返程后想整理多段素材。",
+  "request": {
+    "topic": "写一条介绍裁剪视频片段功能的脚本，用旅行回来整理录像作为开场语境。不要承诺自动剪辑。",
+    "audience": "喜欢记录旅行的人",
+    "platform": "小红书",
+    "style": "轻松、实用",
+    "product_id": "demo-editor",
+    "target_seconds": 20
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

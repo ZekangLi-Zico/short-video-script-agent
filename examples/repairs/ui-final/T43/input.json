@@ -1,0 +1,46 @@
+{
+  "topic": "审核并修改外包提供的旧稿，介绍字幕功能，无法确认的产品能力不要直接保留。",
+  "audience": "新手口播作者",
+  "platform": "小红书",
+  "style": "客观、不要夸大",
+  "product_id": "demo-editor",
+  "target_seconds": 25,
+  "initial_script": {
+    "title": "字幕，让表达被看见",
+    "shots": [
+      {
+        "visual": "人物面对镜头提出问题",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "想让画面里的表达更清楚？",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "产品功能文字卡片，不展示未经提供的界面",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "剪影练习版支持自动识别语音并生成字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "产品功能文字卡片，不展示未经提供的界面",
+        "hold_seconds": 12,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      }
+    ]
+  }
+}

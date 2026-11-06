@@ -1,50 +1,51 @@
-# 提交清单与答题框模板
+# 当前提交清单 · v7.3.1
 
-## 当前交付
+当前工作区为 **v7.3.1-submission**。当前代码、文档、161项自动测试和四类网页真实模型证据分别从[README](../README.md)、[验收索引](../examples/current/evaluation.md)、[本轮报告](../evaluations/submission-v7.3.1-20261106/README.md)进入。历次版本和测试仍保留，根目录旧ZIP是历史快照。
 
-本仓库包含第 4 题代码、可执行测试、输入与实际输出、运行 Trace、合成数据、说明文档和环境配置示例。GitHub 远程仓库尚未创建/上传，当前环境的 `gh` 未登录；不要把本地路径当作 GitHub URL。
+公开目标仓库为 https://github.com/ZekangLi-Zico/short-video-script-agent 。当前提交以实际Git commit SHA为准，可运行`git rev-parse HEAD`获取。公开交付范围及日志脱敏见[发布说明](../PUBLICATION.md)。GitHub发布不等于笔试平台交卷。
+
+## 评审可复现入口
+
+```bash
+python -m scripts.run_tests
+python -m scripts.verify_evidence --group current
+python -m scripts.verify_evidence --group historical
+python -m src.web --open
+```
+
+前三项不调用模型。网页选择真实Codex需评审本机登录，或按README配置自己的模型API；提供Mock离线入口并明确其局限。无需向仓库提交或向别人发送凭证。
 
 ## 答题框模板
 
 ```text
-选择题目：第 4 题——短视频脚本 Agent
-GitHub URL：填写实际上传后的仓库地址
-最终 commit SHA：填写 git rev-parse HEAD 输出的完整值
+选择题目：第4题——短视频脚本Agent
+GitHub URL：https://github.com/ZekangLi-Zico/short-video-script-agent
+最终commit SHA：填写本次推送核实的完整SHA（git rev-parse HEAD）
 
-运行与评审入口：README.md
-代码：src/
-可执行测试：tests/；运行 python -m scripts.run_tests
-真实模型运行记录：examples/live/
-离线 Mock 示例：examples/mock/（仅验证流程）
-测试及验收结果：examples/test-results/、examples/live/evaluation.md
-需求、方案、评估、AI 使用与复盘：docs/01–05
+当前版本：v7.3.1-submission
+运行与安装：README.md
+当前四类真实模型验收：examples/current/evaluation.md
+修复、实际结果与遗留事项：evaluations/submission-v7.3.1-20261106/README.md
+需求、方案、评估、AI辅助、复盘：docs/01–05
+本轮161项自动测试：evaluations/submission-v7.3.1-20261106/automated/
 
-人工测试网页：双击 启动网页.cmd，或运行 python -m src.web --open；操作说明 docs/07-web-manual-test.md。
-实现说明：Python 标准库 CLI 与本地网页共用 Agent；真实模型根据检索、估时和规则检查结果选择后续动作。
-支持资料不足、工具失败、超时修订和无依据宣传纠错，设置执行步数上限。
-公开文案采用带来源的事实块和批准连接语；时长为文本估算。
-
-AI 辅助内容、个人贡献及已知限制：见 docs/04-ai-usage.md、docs/03-evaluation.md。
-实际执行时间：见 examples/work-session.json；个人额外投入请按实际情况填写。
+模型根据实际素材、估时和检查结果选择补查、改稿或结束；保留执行记录和来源。
+页面按时间展示动作、说话者与对白，支持脚本下载。无资料或工具持续失败会说明未完成。
+受控工具故障、离线Mock与真实模型响应分别标注。时长为脚本估算，未生成实际视频。
+AI辅助与本人贡献如实披露；本人实际投入及复验情况见docs/04-ai-usage.md和docs/13-reviewer-and-practice-guide.md。
 ```
 
-## 上传步骤
+## 候选人交卷前仍需补充
 
-以下为待用户执行或另行授权的上传步骤，本项目准备过程没有向 GitHub 推送，也没有提交考试页面。
+题目要求记录实际投入。候选人的累计个人耗时尚未提供，不能用AI运行窗口代填；亲自阅读、测试、修改过的内容只按实际情况填写。可用[复验记录表](13-reviewer-and-practice-guide.md)补充后更新提交SHA。
 
-```bash
-gh auth login
-gh repo create short-video-script-agent --private --source=. --remote=origin --push
-git rev-parse HEAD
-```
+仓库选择公开，无需单独邀请评审账号。提交署名使用已登录GitHub账号ZekangLi-Zico及GitHub的noreply邮箱。无需提供密码、API Key或登录令牌。
 
-如果已经建立远程仓库，使用该仓库自己的地址配置 origin，再 push；不要重复创建同名仓库。私有仓库必须给题目指定评审账号读取权限，截图未给出具体评审账号。
+## 最后执行步骤
 
-## 最终核对
+1. 根据本人真实记录补齐投入和贡献说明。
+2. 代码、文档、data、examples、历史证据与archives统一在本仓库；排除.runtime、登录文件、.env、缓存及根目录重复旧ZIP。原文件仍保留本地。
+3. 核对将提交的文件和大小、密钥扫描及链接；在干净检出中执行上述离线命令。
+4. 推送并核对远程文件后，在笔试平台填写题号、实际URL与完整SHA。
 
-- 将全部材料放在同一个 GitHub 仓库中，确认 README 能打开。
-- 确保提交的 commit SHA 与 GitHub 已推送的版本完全相同。
-- 确认没有 `.env`、密钥、登录文件或隐私资料。
-- 候选人实际阅读并复验后，如实补充个人改动与验证记录，不将 AI 编码记作个人手写。
-- 题目提交按钮点击后不能修改；仓库、SHA 与评审权限确认后再交卷。
-- ZIP 可作为页面附件补充，不能替代题目要求的 GitHub URL 和 commit SHA。
+历次报告保留发生时的提交状态，当前发布状态以仓库及实际commit为准。笔试平台交卷由候选人完成。

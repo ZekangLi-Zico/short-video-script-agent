@@ -1,0 +1,8 @@
+{
+  "case": "V43",
+  "assessment": "未完成；活动规则资料缺失",
+  "note": "只有活动名称，检索后要求报名起止时间及时区、奖品和参赛规则；未挪用其他活动资料，未生成虚构预告。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

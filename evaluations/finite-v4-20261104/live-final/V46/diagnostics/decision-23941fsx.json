@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-23941fsx",
+  "started_at": "2026-11-03T20:18:36.364674+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:19:36.104713+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a310-4d80-77c1-9ea1-a404c32c8ba6",
+    "usage": {
+      "input_tokens": 27911,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2196,
+      "reasoning_output_tokens": 937
+    },
+    "call_id": "decision-23941fsx",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-q21vi57t",
+  "started_at": "2026-11-03T21:10:17.553791+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:10:33.222966+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a33f-9e65-7362-b53b-35e5524aaf66",
+    "usage": {
+      "input_tokens": 29007,
+      "cached_input_tokens": 23808,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 150,
+      "reasoning_output_tokens": 93
+    },
+    "call_id": "decision-q21vi57t",
+    "warnings": []
+  }
+}

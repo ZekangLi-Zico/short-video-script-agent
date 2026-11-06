@@ -1,0 +1,6877 @@
+{
+  "old": {
+    "tasks": {
+      "n": 50,
+      "median": 314.1,
+      "p90": 514.13,
+      "max": 881.57
+    },
+    "responses": 292,
+    "attempts": 294,
+    "failed_attempts": 2,
+    "recovered_calls": 0,
+    "invalid_actions": 2,
+    "call_seconds_by_action": {
+      "search_materials": {
+        "n": 52,
+        "median": 31.62,
+        "p90": 87.36,
+        "max": 155.82
+      },
+      "write_script": {
+        "n": 37,
+        "median": 90.54,
+        "p90": 145.2,
+        "max": 174.74
+      },
+      "estimate_duration": {
+        "n": 41,
+        "median": 22.74,
+        "p90": 43.95,
+        "max": 94.29
+      },
+      "check_rules": {
+        "n": 38,
+        "median": 28.27,
+        "p90": 56.66,
+        "max": 67.36
+      },
+      "check_requirements": {
+        "n": 37,
+        "median": 23.52,
+        "p90": 66.79,
+        "max": 170.03
+      },
+      "review": {
+        "n": 37,
+        "median": 106.49,
+        "p90": 150.99,
+        "max": 173.54
+      },
+      "finish": {
+        "n": 48,
+        "median": 30.31,
+        "p90": 75.79,
+        "max": 116.27
+      },
+      "invalid_model_action": {
+        "n": 2,
+        "median": 87.16,
+        "p90": 98.12,
+        "max": 98.12
+      }
+    },
+    "input_tokens": 8933789,
+    "output_tokens": 224505,
+    "titles": [
+      {
+        "case": "V01",
+        "title": "字幕，让表达被看见"
+      },
+      {
+        "case": "V02",
+        "title": "从一段记录开始"
+      },
+      {
+        "case": "V03",
+        "title": "把读书会的话留下"
+      },
+      {
+        "case": "V04",
+        "title": "陶艺作品展的横屏与竖屏选择"
+      },
+      {
+        "case": "V06",
+        "title": "字幕，让表达被看见"
+      },
+      {
+        "case": "V07",
+        "title": "从一段记录开始"
+      },
+      {
+        "case": "V08",
+        "title": "排练室的这一晚"
+      },
+      {
+        "case": "V09",
+        "title": "从一段记录开始"
+      },
+      {
+        "case": "V10",
+        "title": "字幕，让表达被看见"
+      },
+      {
+        "case": "V11",
+        "title": "字幕，让表达被看见"
+      },
+      {
+        "case": "V12",
+        "title": "从一段记录开始"
+      },
+      {
+        "case": "V13",
+        "title": "从一段记录开始"
+      },
+      {
+        "case": "V14",
+        "title": "从一段记录开始"
+      },
+      {
+        "case": "V15",
+        "title": "从一段记录开始"
+      },
+      {
+        "case": "V16",
+        "title": "收摊以后"
+      },
+      {
+        "case": "V17",
+        "title": "从一段记录开始"
+      },
+      {
+        "case": "V18",
+        "title": "字幕，让表达被看见"
+      },
+      {
+        "case": "V19",
+        "title": "这一帧，留给今天"
+      },
+      {
+        "case": "V20",
+        "title": "横屏与竖屏：两种画面比例选项"
+      },
+      {
+        "case": "V21",
+        "title": "剪影练习版: Add and Edit Captions"
+      },
+      {
+        "case": "V22",
+        "title": "把想法放进画面"
+      },
+      {
+        "case": "V23",
+        "title": "Small Clips, Shared Moments"
+      },
+      {
+        "case": "V25",
+        "title": "字幕，让表达被看见"
+      },
+      {
+        "case": "V26",
+        "title": "字幕，让表达被看见"
+      },
+      {
+        "case": "V27",
+        "title": "把想法放进画面"
+      },
+      {
+        "case": "V29",
+        "title": "从一段记录开始"
+      },
+      {
+        "case": "V30",
+        "title": "把想法放进画面"
+      },
+      {
+        "case": "V31",
+        "title": "裁剪视频片段"
+      },
+      {
+        "case": "V32",
+        "title": "字幕，让表达被看见"
+      },
+      {
+        "case": "V36",
+        "title": "字幕，让表达被看见"
+      },
+      {
+        "case": "V45",
+        "title": "记录里的每句话"
+      },
+      {
+        "case": "V46",
+        "title": "口播字幕小帮手"
+      },
+      {
+        "case": "V47",
+        "title": "采访后的整理"
+      },
+      {
+        "case": "V48",
+        "title": "从门口到房间"
+      },
+      {
+        "case": "V49",
+        "title": "两步整理片段"
+      },
+      {
+        "case": "V50",
+        "title": "字幕，让表达被看见"
+      }
+    ],
+    "rows": [
+      {
+        "case": "V01",
+        "status": "completed",
+        "seconds": 368.42,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "字幕，让表达被看见",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V02",
+        "status": "completed",
+        "seconds": 382.51,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "从一段记录开始",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V03",
+        "status": "completed",
+        "seconds": 349.08,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "把读书会的话留下",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V04",
+        "status": "completed",
+        "seconds": 286.36,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "陶艺作品展的横屏与竖屏选择",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V05",
+        "status": "blocked",
+        "seconds": 217.72,
+        "responses": 1,
+        "attempts": 2,
+        "failed_attempts": [
+          {
+            "call_id": "decision-b129_qcf",
+            "error_code": "codex_timeout",
+            "seconds": 186.27
+          }
+        ],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V06",
+        "status": "completed",
+        "seconds": 293.24,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "字幕，让表达被看见",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V07",
+        "status": "completed",
+        "seconds": 412.92,
+        "responses": 8,
+        "attempts": 8,
+        "failed_attempts": [],
+        "title": "从一段记录开始",
+        "bundled_local_checks": 0,
+        "invalid_actions": 1,
+        "review_responses": 1
+      },
+      {
+        "case": "V08",
+        "status": "completed",
+        "seconds": 315.7,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "排练室的这一晚",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V09",
+        "status": "completed",
+        "seconds": 300.79,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "从一段记录开始",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V10",
+        "status": "completed",
+        "seconds": 319.81,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "字幕，让表达被看见",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V11",
+        "status": "completed",
+        "seconds": 370.13,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "字幕，让表达被看见",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V12",
+        "status": "completed",
+        "seconds": 262.09,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "从一段记录开始",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V13",
+        "status": "completed",
+        "seconds": 259.26,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "从一段记录开始",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V14",
+        "status": "completed",
+        "seconds": 384.1,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "从一段记录开始",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V15",
+        "status": "completed",
+        "seconds": 323.45,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "从一段记录开始",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V16",
+        "status": "completed",
+        "seconds": 276.0,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "收摊以后",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V17",
+        "status": "completed",
+        "seconds": 292.38,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "从一段记录开始",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V18",
+        "status": "completed",
+        "seconds": 357.07,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "字幕，让表达被看见",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V19",
+        "status": "completed",
+        "seconds": 338.04,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "这一帧，留给今天",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V20",
+        "status": "completed",
+        "seconds": 300.16,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "横屏与竖屏：两种画面比例选项",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V21",
+        "status": "completed",
+        "seconds": 451.01,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "剪影练习版: Add and Edit Captions",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V22",
+        "status": "completed",
+        "seconds": 441.17,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "把想法放进画面",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V23",
+        "status": "completed",
+        "seconds": 413.99,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "Small Clips, Shared Moments",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V24",
+        "status": "needs_input",
+        "seconds": 222.87,
+        "responses": 3,
+        "attempts": 3,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V25",
+        "status": "completed",
+        "seconds": 881.57,
+        "responses": 12,
+        "attempts": 12,
+        "failed_attempts": [],
+        "title": "字幕，让表达被看见",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 2
+      },
+      {
+        "case": "V26",
+        "status": "completed",
+        "seconds": 594.3,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "字幕，让表达被看见",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V27",
+        "status": "completed",
+        "seconds": 664.93,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "把想法放进画面",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V28",
+        "status": "blocked",
+        "seconds": 287.85,
+        "responses": 1,
+        "attempts": 2,
+        "failed_attempts": [
+          {
+            "call_id": "decision-6fyll2uc",
+            "error_code": "codex_timeout",
+            "seconds": 188.41
+          }
+        ],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V29",
+        "status": "completed",
+        "seconds": 667.33,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "从一段记录开始",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V30",
+        "status": "completed",
+        "seconds": 518.7,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "把想法放进画面",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V31",
+        "status": "completed",
+        "seconds": 453.34,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "裁剪视频片段",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V32",
+        "status": "completed",
+        "seconds": 514.13,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "字幕，让表达被看见",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V33",
+        "status": "needs_input",
+        "seconds": 196.26,
+        "responses": 2,
+        "attempts": 2,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V34",
+        "status": "needs_input",
+        "seconds": 169.28,
+        "responses": 2,
+        "attempts": 2,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V35",
+        "status": "needs_input",
+        "seconds": 171.8,
+        "responses": 2,
+        "attempts": 2,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V36",
+        "status": "completed",
+        "seconds": 414.69,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "字幕，让表达被看见",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V37",
+        "status": "needs_input",
+        "seconds": 84.25,
+        "responses": 2,
+        "attempts": 2,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V38",
+        "status": "needs_input",
+        "seconds": 89.68,
+        "responses": 2,
+        "attempts": 2,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V39",
+        "status": "needs_input",
+        "seconds": 101.37,
+        "responses": 3,
+        "attempts": 3,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V40",
+        "status": "needs_input",
+        "seconds": 61.98,
+        "responses": 2,
+        "attempts": 2,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V41",
+        "status": "needs_input",
+        "seconds": 75.17,
+        "responses": 2,
+        "attempts": 2,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V42",
+        "status": "needs_input",
+        "seconds": 59.62,
+        "responses": 2,
+        "attempts": 2,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V43",
+        "status": "needs_input",
+        "seconds": 51.95,
+        "responses": 1,
+        "attempts": 1,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V44",
+        "status": "needs_input",
+        "seconds": 103.19,
+        "responses": 3,
+        "attempts": 3,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V45",
+        "status": "completed",
+        "seconds": 312.5,
+        "responses": 8,
+        "attempts": 8,
+        "failed_attempts": [],
+        "title": "记录里的每句话",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V46",
+        "status": "completed",
+        "seconds": 434.7,
+        "responses": 9,
+        "attempts": 9,
+        "failed_attempts": [],
+        "title": "口播字幕小帮手",
+        "bundled_local_checks": 0,
+        "invalid_actions": 1,
+        "review_responses": 1
+      },
+      {
+        "case": "V47",
+        "status": "completed",
+        "seconds": 326.89,
+        "responses": 8,
+        "attempts": 8,
+        "failed_attempts": [],
+        "title": "采访后的整理",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V48",
+        "status": "completed",
+        "seconds": 360.34,
+        "responses": 8,
+        "attempts": 8,
+        "failed_attempts": [],
+        "title": "从门口到房间",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V49",
+        "status": "completed",
+        "seconds": 261.31,
+        "responses": 8,
+        "attempts": 8,
+        "failed_attempts": [],
+        "title": "两步整理片段",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V50",
+        "status": "completed",
+        "seconds": 277.95,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "字幕，让表达被看见",
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 1
+      }
+    ],
+    "calls": [
+      {
+        "case": "V01",
+        "call_id": "decision-rffztv0v",
+        "action": "search_materials",
+        "seconds": 45.87,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27365,
+        "output_tokens": 248,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-g0hzprmc",
+        "action": "write_script",
+        "seconds": 106.57,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27916,
+        "output_tokens": 2109,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-if0yymnr",
+        "action": "estimate_duration",
+        "seconds": 36.9,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29104,
+        "output_tokens": 126,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-hs1vrba9",
+        "action": "check_rules",
+        "seconds": 30.96,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30446,
+        "output_tokens": 150,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-9d0o0tot",
+        "action": "check_requirements",
+        "seconds": 22.85,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 32293,
+        "output_tokens": 187,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-czgvyon8",
+        "action": "review",
+        "seconds": 92.3,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28762,
+        "output_tokens": 2692,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-zg2a6hwz",
+        "action": "finish",
+        "seconds": 32.67,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 37267,
+        "output_tokens": 241,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-ra4nkdof",
+        "action": "search_materials",
+        "seconds": 30.25,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27353,
+        "output_tokens": 206,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-l8hx5lvc",
+        "action": "write_script",
+        "seconds": 119.86,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27936,
+        "output_tokens": 2219,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-u586dn92",
+        "action": "estimate_duration",
+        "seconds": 41.64,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29355,
+        "output_tokens": 181,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-rhod8qqa",
+        "action": "check_rules",
+        "seconds": 44.18,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31095,
+        "output_tokens": 176,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-ct9nhsgh",
+        "action": "check_requirements",
+        "seconds": 21.17,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 33212,
+        "output_tokens": 240,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-i3pf_pa8",
+        "action": "review",
+        "seconds": 102.69,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29080,
+        "output_tokens": 2987,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-lta5rsex",
+        "action": "finish",
+        "seconds": 22.43,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 39174,
+        "output_tokens": 262,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-ytfuh7x5",
+        "action": "search_materials",
+        "seconds": 23.73,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27353,
+        "output_tokens": 149,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-9mcas21m",
+        "action": "write_script",
+        "seconds": 106.41,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27856,
+        "output_tokens": 2210,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-ktmjxi8v",
+        "action": "estimate_duration",
+        "seconds": 18.46,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29405,
+        "output_tokens": 153,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-_pn9o3rb",
+        "action": "check_rules",
+        "seconds": 38.14,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31225,
+        "output_tokens": 146,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-kugzs9x4",
+        "action": "check_requirements",
+        "seconds": 35.56,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 33596,
+        "output_tokens": 176,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-sfo6665f",
+        "action": "review",
+        "seconds": 102.84,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29247,
+        "output_tokens": 3147,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-p8f6hs7j",
+        "action": "finish",
+        "seconds": 23.58,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 39810,
+        "output_tokens": 219,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V04",
+        "call_id": "decision-vqedqu32",
+        "action": "search_materials",
+        "seconds": 35.53,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27353,
+        "output_tokens": 217,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V04",
+        "call_id": "decision-xyph7ysl",
+        "action": "write_script",
+        "seconds": 73.99,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27860,
+        "output_tokens": 1420,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V04",
+        "call_id": "decision-x4but0nc",
+        "action": "estimate_duration",
+        "seconds": 16.29,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28816,
+        "output_tokens": 121,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V04",
+        "call_id": "decision-gnx5vtzu",
+        "action": "check_rules",
+        "seconds": 16.84,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29966,
+        "output_tokens": 151,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V04",
+        "call_id": "decision-nnjvz8qv",
+        "action": "check_requirements",
+        "seconds": 38.76,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31499,
+        "output_tokens": 153,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V04",
+        "call_id": "decision-ua4zzf25",
+        "action": "review",
+        "seconds": 85.91,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28497,
+        "output_tokens": 2574,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V04",
+        "call_id": "decision-u0mi0ch4",
+        "action": "finish",
+        "seconds": 18.79,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 35943,
+        "output_tokens": 163,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-4821qbkq",
+        "action": "search_materials",
+        "seconds": 31.39,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27349,
+        "output_tokens": 201,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-cst97x_d",
+        "action": "search_materials",
+        "seconds": 24.28,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27357,
+        "output_tokens": 190,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-56aeudtf",
+        "action": "write_script",
+        "seconds": 69.26,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27875,
+        "output_tokens": 1410,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-skioogeh",
+        "action": "estimate_duration",
+        "seconds": 17.4,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29287,
+        "output_tokens": 143,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-zutk98ul",
+        "action": "check_rules",
+        "seconds": 18.12,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30846,
+        "output_tokens": 141,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-pmybb4p4",
+        "action": "check_requirements",
+        "seconds": 17.65,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 33036,
+        "output_tokens": 160,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-_ri1q4t9",
+        "action": "review",
+        "seconds": 116.81,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29038,
+        "output_tokens": 3416,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-_ctdjmne",
+        "action": "finish",
+        "seconds": 29.47,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 38898,
+        "output_tokens": 186,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V07",
+        "call_id": "decision-dhwzqr7b",
+        "action": "search_materials",
+        "seconds": 23.36,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27359,
+        "output_tokens": 172,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V07",
+        "call_id": "decision-ldycg2pm",
+        "action": "invalid_model_action",
+        "seconds": 98.12,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27862,
+        "output_tokens": 1945,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V07",
+        "call_id": "decision-0_gdbc5v",
+        "action": "write_script",
+        "seconds": 83.94,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27922,
+        "output_tokens": 1639,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V07",
+        "call_id": "decision-t51853kq",
+        "action": "estimate_duration",
+        "seconds": 22.11,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29367,
+        "output_tokens": 175,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V07",
+        "call_id": "decision-sbouebv8",
+        "action": "check_rules",
+        "seconds": 19.17,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31065,
+        "output_tokens": 176,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V07",
+        "call_id": "decision-q2i2qunm",
+        "action": "check_requirements",
+        "seconds": 20.18,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 33269,
+        "output_tokens": 197,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V07",
+        "call_id": "decision-41r8de_w",
+        "action": "review",
+        "seconds": 125.16,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29112,
+        "output_tokens": 3460,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V07",
+        "call_id": "decision-wmyhcu4u",
+        "action": "finish",
+        "seconds": 20.67,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 39193,
+        "output_tokens": 220,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V08",
+        "call_id": "decision-do_abhyt",
+        "action": "search_materials",
+        "seconds": 22.82,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27348,
+        "output_tokens": 166,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V08",
+        "call_id": "decision-bq299dpz",
+        "action": "write_script",
+        "seconds": 78.93,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27840,
+        "output_tokens": 1406,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V08",
+        "call_id": "decision-ss2oqdjy",
+        "action": "estimate_duration",
+        "seconds": 19.36,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28842,
+        "output_tokens": 134,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V08",
+        "call_id": "decision-lcc9hopt",
+        "action": "check_rules",
+        "seconds": 27.35,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30073,
+        "output_tokens": 150,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V08",
+        "call_id": "decision-yzp07itd",
+        "action": "check_requirements",
+        "seconds": 20.52,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31685,
+        "output_tokens": 158,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V08",
+        "call_id": "decision-ikqw95hi",
+        "action": "review",
+        "seconds": 101.01,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28576,
+        "output_tokens": 2995,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V08",
+        "call_id": "decision-4inf4drm",
+        "action": "finish",
+        "seconds": 45.46,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 36591,
+        "output_tokens": 256,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-mz_idjx0",
+        "action": "search_materials",
+        "seconds": 31.19,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27351,
+        "output_tokens": 191,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-br8j_std",
+        "action": "write_script",
+        "seconds": 90.54,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27688,
+        "output_tokens": 1544,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-4h5ey1sb",
+        "action": "estimate_duration",
+        "seconds": 22.74,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28956,
+        "output_tokens": 170,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-9oyb9f77",
+        "action": "check_rules",
+        "seconds": 26.27,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30510,
+        "output_tokens": 137,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-tpaqc6fi",
+        "action": "check_requirements",
+        "seconds": 27.02,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 32276,
+        "output_tokens": 213,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-lourmwby",
+        "action": "review",
+        "seconds": 85.91,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28816,
+        "output_tokens": 2506,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-mr4_ohe3",
+        "action": "finish",
+        "seconds": 16.82,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 37265,
+        "output_tokens": 210,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V10",
+        "call_id": "decision-ntmiu5y9",
+        "action": "search_materials",
+        "seconds": 32.46,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27349,
+        "output_tokens": 200,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V10",
+        "call_id": "decision-wawtf5cn",
+        "action": "write_script",
+        "seconds": 108.9,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27850,
+        "output_tokens": 2269,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V10",
+        "call_id": "decision-wii612dn",
+        "action": "estimate_duration",
+        "seconds": 16.84,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29165,
+        "output_tokens": 158,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V10",
+        "call_id": "decision-1trtt8hs",
+        "action": "check_rules",
+        "seconds": 14.99,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30680,
+        "output_tokens": 142,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V10",
+        "call_id": "decision-r7qpi06w",
+        "action": "check_requirements",
+        "seconds": 18.62,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 32779,
+        "output_tokens": 237,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V10",
+        "call_id": "decision-78tt4zy9",
+        "action": "review",
+        "seconds": 106.49,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28955,
+        "output_tokens": 2890,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V10",
+        "call_id": "decision-808r8lw0",
+        "action": "finish",
+        "seconds": 21.28,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 38491,
+        "output_tokens": 196,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-7ja_x5mh",
+        "action": "search_materials",
+        "seconds": 18.64,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27357,
+        "output_tokens": 193,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-buk5xytu",
+        "action": "write_script",
+        "seconds": 140.54,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27851,
+        "output_tokens": 3313,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-rk1o1dgv",
+        "action": "estimate_duration",
+        "seconds": 22.74,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30084,
+        "output_tokens": 201,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-5ub2xo17",
+        "action": "check_rules",
+        "seconds": 17.66,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 32582,
+        "output_tokens": 163,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-sp3dtkr1",
+        "action": "check_requirements",
+        "seconds": 21.01,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 35738,
+        "output_tokens": 157,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-piamp0ip",
+        "action": "review",
+        "seconds": 125.54,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29986,
+        "output_tokens": 4050,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-3930qqda",
+        "action": "finish",
+        "seconds": 23.77,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 43767,
+        "output_tokens": 236,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V12",
+        "call_id": "decision-u6sicknf",
+        "action": "search_materials",
+        "seconds": 17.46,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27346,
+        "output_tokens": 207,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V12",
+        "call_id": "decision-cuja9qpy",
+        "action": "write_script",
+        "seconds": 62.71,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27680,
+        "output_tokens": 1379,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V12",
+        "call_id": "decision-nee0btxs",
+        "action": "estimate_duration",
+        "seconds": 17.8,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28823,
+        "output_tokens": 169,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V12",
+        "call_id": "decision-rul3qhpv",
+        "action": "check_rules",
+        "seconds": 22.58,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30261,
+        "output_tokens": 132,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V12",
+        "call_id": "decision-kzrjgenl",
+        "action": "check_requirements",
+        "seconds": 21.92,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31872,
+        "output_tokens": 172,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V12",
+        "call_id": "decision-ga3p_uh8",
+        "action": "review",
+        "seconds": 99.11,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28005,
+        "output_tokens": 2801,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V12",
+        "call_id": "decision-lhz3ceud",
+        "action": "finish",
+        "seconds": 20.22,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 36909,
+        "output_tokens": 174,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V13",
+        "call_id": "decision-dvn8z_he",
+        "action": "search_materials",
+        "seconds": 25.0,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27344,
+        "output_tokens": 209,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V13",
+        "call_id": "decision-yi53_2zs",
+        "action": "write_script",
+        "seconds": 65.54,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28050,
+        "output_tokens": 1219,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V13",
+        "call_id": "decision-xtt36i96",
+        "action": "estimate_duration",
+        "seconds": 15.51,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28961,
+        "output_tokens": 175,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V13",
+        "call_id": "decision-exg5ntfi",
+        "action": "check_rules",
+        "seconds": 18.84,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29992,
+        "output_tokens": 131,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V13",
+        "call_id": "decision-0czjkyr_",
+        "action": "check_requirements",
+        "seconds": 23.52,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31793,
+        "output_tokens": 149,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V13",
+        "call_id": "decision-uxa1euh5",
+        "action": "review",
+        "seconds": 83.57,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28567,
+        "output_tokens": 2333,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V13",
+        "call_id": "decision-zmsjwtck",
+        "action": "finish",
+        "seconds": 27.08,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 36133,
+        "output_tokens": 245,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-skn2kifi",
+        "action": "search_materials",
+        "seconds": 25.85,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27348,
+        "output_tokens": 194,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-wiwmi9zw",
+        "action": "write_script",
+        "seconds": 145.2,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28067,
+        "output_tokens": 2677,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-8esfpi06",
+        "action": "estimate_duration",
+        "seconds": 24.62,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29560,
+        "output_tokens": 152,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-ocazmfu3",
+        "action": "check_rules",
+        "seconds": 21.86,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31456,
+        "output_tokens": 163,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-x1ekkn24",
+        "action": "check_requirements",
+        "seconds": 25.03,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 34060,
+        "output_tokens": 243,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-f_966pzk",
+        "action": "review",
+        "seconds": 121.31,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29396,
+        "output_tokens": 3522,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-yy8gmvyf",
+        "action": "finish",
+        "seconds": 19.74,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 40668,
+        "output_tokens": 175,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-upvyaqit",
+        "action": "search_materials",
+        "seconds": 30.41,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27344,
+        "output_tokens": 194,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-hq7imfx4",
+        "action": "write_script",
+        "seconds": 99.85,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27863,
+        "output_tokens": 2153,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-5itt0u8z",
+        "action": "estimate_duration",
+        "seconds": 16.1,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29362,
+        "output_tokens": 133,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-yhz7ner9",
+        "action": "check_rules",
+        "seconds": 13.81,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30459,
+        "output_tokens": 134,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-efz_4itv",
+        "action": "check_requirements",
+        "seconds": 19.68,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 32804,
+        "output_tokens": 248,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-gw6tj_5_",
+        "action": "review",
+        "seconds": 112.9,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29211,
+        "output_tokens": 3323,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-rdprjn72",
+        "action": "finish",
+        "seconds": 30.37,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 39638,
+        "output_tokens": 197,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-wjtot6s4",
+        "action": "search_materials",
+        "seconds": 23.46,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27356,
+        "output_tokens": 197,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-fpygn26x",
+        "action": "write_script",
+        "seconds": 83.14,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27876,
+        "output_tokens": 1766,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-tjs0r7em",
+        "action": "estimate_duration",
+        "seconds": 15.67,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29223,
+        "output_tokens": 123,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-gmz5ou4h",
+        "action": "check_rules",
+        "seconds": 20.62,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30748,
+        "output_tokens": 132,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-cdbcy5so",
+        "action": "check_requirements",
+        "seconds": 21.25,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 32875,
+        "output_tokens": 186,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-61v4fsm9",
+        "action": "review",
+        "seconds": 88.96,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28990,
+        "output_tokens": 2744,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-og2918wh",
+        "action": "finish",
+        "seconds": 22.55,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 38369,
+        "output_tokens": 195,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-2x5hwh48",
+        "action": "search_materials",
+        "seconds": 23.75,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27356,
+        "output_tokens": 169,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-irtqi139",
+        "action": "write_script",
+        "seconds": 84.51,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27862,
+        "output_tokens": 1532,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-lyc3cf0q",
+        "action": "estimate_duration",
+        "seconds": 20.8,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29103,
+        "output_tokens": 169,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-kv7v0ytq",
+        "action": "check_rules",
+        "seconds": 21.88,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30636,
+        "output_tokens": 177,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-q4nt0wj1",
+        "action": "check_requirements",
+        "seconds": 19.23,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 32674,
+        "output_tokens": 177,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-k32qyeix",
+        "action": "review",
+        "seconds": 102.22,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28935,
+        "output_tokens": 2834,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-_vsgveif",
+        "action": "finish",
+        "seconds": 19.42,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 37997,
+        "output_tokens": 193,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V18",
+        "call_id": "decision-9z66rgnk",
+        "action": "search_materials",
+        "seconds": 21.72,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27354,
+        "output_tokens": 194,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V18",
+        "call_id": "decision-ei75fst8",
+        "action": "write_script",
+        "seconds": 100.27,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27857,
+        "output_tokens": 2015,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V18",
+        "call_id": "decision-etzb3zbr",
+        "action": "estimate_duration",
+        "seconds": 18.77,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29056,
+        "output_tokens": 149,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V18",
+        "call_id": "decision-g508ok9c",
+        "action": "check_rules",
+        "seconds": 26.58,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30226,
+        "output_tokens": 152,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V18",
+        "call_id": "decision-hvbp5ktn",
+        "action": "check_requirements",
+        "seconds": 32.54,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 32058,
+        "output_tokens": 162,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V18",
+        "call_id": "decision-f73wusx2",
+        "action": "review",
+        "seconds": 128.12,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28657,
+        "output_tokens": 3283,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V18",
+        "call_id": "decision-_mm1zxt9",
+        "action": "finish",
+        "seconds": 28.56,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 37090,
+        "output_tokens": 261,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-ugcf0zfu",
+        "action": "search_materials",
+        "seconds": 28.22,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27352,
+        "output_tokens": 219,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-zapqx0_2",
+        "action": "write_script",
+        "seconds": 97.3,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27874,
+        "output_tokens": 2033,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-9ck2hgiv",
+        "action": "estimate_duration",
+        "seconds": 26.62,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29412,
+        "output_tokens": 203,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-t9f1ylk6",
+        "action": "check_rules",
+        "seconds": 29.2,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31367,
+        "output_tokens": 171,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-iey2e6p8",
+        "action": "check_requirements",
+        "seconds": 19.57,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 33743,
+        "output_tokens": 182,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-8avu8pd4",
+        "action": "review",
+        "seconds": 111.59,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29315,
+        "output_tokens": 3200,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-05m79yi0",
+        "action": "finish",
+        "seconds": 25.11,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 40150,
+        "output_tokens": 293,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V20",
+        "call_id": "decision-l44_d0iy",
+        "action": "search_materials",
+        "seconds": 26.95,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27353,
+        "output_tokens": 205,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V20",
+        "call_id": "decision-4tqxw8fp",
+        "action": "write_script",
+        "seconds": 64.49,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27844,
+        "output_tokens": 1190,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V20",
+        "call_id": "decision-yj0yx39c",
+        "action": "estimate_duration",
+        "seconds": 17.05,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28729,
+        "output_tokens": 150,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V20",
+        "call_id": "decision-9md9qear",
+        "action": "check_rules",
+        "seconds": 30.68,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29740,
+        "output_tokens": 163,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V20",
+        "call_id": "decision-fdmj42rv",
+        "action": "check_requirements",
+        "seconds": 25.61,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31370,
+        "output_tokens": 175,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V20",
+        "call_id": "decision-ibwrzsz5",
+        "action": "review",
+        "seconds": 102.51,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28482,
+        "output_tokens": 2365,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V20",
+        "call_id": "decision-00cpaoz9",
+        "action": "finish",
+        "seconds": 32.42,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 35570,
+        "output_tokens": 171,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-dsfflbsr",
+        "action": "search_materials",
+        "seconds": 30.42,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27349,
+        "output_tokens": 186,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-k7fq3_ha",
+        "action": "write_script",
+        "seconds": 174.74,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28052,
+        "output_tokens": 3271,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-b4gro_w9",
+        "action": "estimate_duration",
+        "seconds": 19.26,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29840,
+        "output_tokens": 161,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-ykv_7cb9",
+        "action": "check_rules",
+        "seconds": 25.88,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31956,
+        "output_tokens": 165,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-o1ocadlt",
+        "action": "check_requirements",
+        "seconds": 30.1,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 34854,
+        "output_tokens": 189,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-no8yg7_b",
+        "action": "review",
+        "seconds": 125.83,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29648,
+        "output_tokens": 3604,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-fy7uwwd5",
+        "action": "finish",
+        "seconds": 44.31,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 42220,
+        "output_tokens": 241,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-p6vc44bk",
+        "action": "search_materials",
+        "seconds": 34.4,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27356,
+        "output_tokens": 155,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-rlfehmft",
+        "action": "write_script",
+        "seconds": 110.32,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27862,
+        "output_tokens": 2091,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-kfeqlut9",
+        "action": "estimate_duration",
+        "seconds": 26.04,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29435,
+        "output_tokens": 147,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-bxawjpj2",
+        "action": "check_rules",
+        "seconds": 41.49,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31024,
+        "output_tokens": 143,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-h8son6j5",
+        "action": "check_requirements",
+        "seconds": 38.26,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 33458,
+        "output_tokens": 195,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-sqfhu_xt",
+        "action": "review",
+        "seconds": 117.77,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29163,
+        "output_tokens": 3044,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-n1in1inw",
+        "action": "finish",
+        "seconds": 72.38,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 39654,
+        "output_tokens": 285,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V23",
+        "call_id": "decision-dvrfexfw",
+        "action": "search_materials",
+        "seconds": 34.75,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27345,
+        "output_tokens": 199,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V23",
+        "call_id": "decision-bqqene7m",
+        "action": "write_script",
+        "seconds": 89.8,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27673,
+        "output_tokens": 1507,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V23",
+        "call_id": "decision-g0g3mpal",
+        "action": "estimate_duration",
+        "seconds": 36.94,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28837,
+        "output_tokens": 127,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V23",
+        "call_id": "decision-ng1wexfh",
+        "action": "check_rules",
+        "seconds": 26.99,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30262,
+        "output_tokens": 171,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V23",
+        "call_id": "decision-r9rg38vn",
+        "action": "check_requirements",
+        "seconds": 38.1,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31873,
+        "output_tokens": 185,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V23",
+        "call_id": "decision-yvxw3xd8",
+        "action": "review",
+        "seconds": 111.01,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28669,
+        "output_tokens": 2282,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V23",
+        "call_id": "decision-imt46esj",
+        "action": "finish",
+        "seconds": 75.79,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 36512,
+        "output_tokens": 237,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V24",
+        "call_id": "decision-w8zxsvis",
+        "action": "search_materials",
+        "seconds": 46.87,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27359,
+        "output_tokens": 289,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V24",
+        "call_id": "decision-8ykg3ydd",
+        "action": "search_materials",
+        "seconds": 69.94,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27902,
+        "output_tokens": 455,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V24",
+        "call_id": "decision-jr_3hl0q",
+        "action": "finish",
+        "seconds": 105.91,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28215,
+        "output_tokens": 979,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-bduqlwh3",
+        "action": "search_materials",
+        "seconds": 47.49,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27353,
+        "output_tokens": 152,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-93i_z2hi",
+        "action": "write_script",
+        "seconds": 164.14,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27869,
+        "output_tokens": 2648,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-ka56h8i9",
+        "action": "estimate_duration",
+        "seconds": 43.95,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28150,
+        "output_tokens": 233,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-8r86q9qb",
+        "action": "check_rules",
+        "seconds": 61.25,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30533,
+        "output_tokens": 162,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-f042o58y",
+        "action": "check_requirements",
+        "seconds": 47.43,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 32557,
+        "output_tokens": 181,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-8gtz1ck4",
+        "action": "review",
+        "seconds": 173.54,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28880,
+        "output_tokens": 3822,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-bo24ac4g",
+        "action": "write_script",
+        "seconds": 58.08,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 38032,
+        "output_tokens": 975,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-b4kbz5fm",
+        "action": "estimate_duration",
+        "seconds": 25.56,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 37767,
+        "output_tokens": 188,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-gw5e5wh0",
+        "action": "check_rules",
+        "seconds": 35.4,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 39223,
+        "output_tokens": 122,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-q2br7qxd",
+        "action": "check_requirements",
+        "seconds": 66.88,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 41109,
+        "output_tokens": 163,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-x70duqua",
+        "action": "review",
+        "seconds": 120.58,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28821,
+        "output_tokens": 2891,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-09bqjknk",
+        "action": "finish",
+        "seconds": 36.5,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 46441,
+        "output_tokens": 228,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V26",
+        "call_id": "decision-cr9sg203",
+        "action": "search_materials",
+        "seconds": 46.23,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27348,
+        "output_tokens": 193,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V26",
+        "call_id": "decision-uk5z22fh",
+        "action": "write_script",
+        "seconds": 109.48,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28033,
+        "output_tokens": 605,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V26",
+        "call_id": "decision-idee82t9",
+        "action": "estimate_duration",
+        "seconds": 94.29,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28629,
+        "output_tokens": 177,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V26",
+        "call_id": "decision-5hzsud18",
+        "action": "check_rules",
+        "seconds": 65.66,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29342,
+        "output_tokens": 133,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V26",
+        "call_id": "decision-h0lao3ys",
+        "action": "check_requirements",
+        "seconds": 50.48,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30584,
+        "output_tokens": 181,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V26",
+        "call_id": "decision-4ibw4pxy",
+        "action": "review",
+        "seconds": 170.06,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27179,
+        "output_tokens": 1782,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V26",
+        "call_id": "decision-ycdc_hqb",
+        "action": "finish",
+        "seconds": 57.66,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 33905,
+        "output_tokens": 213,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V27",
+        "call_id": "decision-vfnrbu6q",
+        "action": "search_materials",
+        "seconds": 87.36,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27357,
+        "output_tokens": 153,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V27",
+        "call_id": "decision-s1ibapqd",
+        "action": "write_script",
+        "seconds": 131.46,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27845,
+        "output_tokens": 836,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V27",
+        "call_id": "decision-vfvvxnta",
+        "action": "estimate_duration",
+        "seconds": 39.66,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28678,
+        "output_tokens": 151,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V27",
+        "call_id": "decision-q0qdf28v",
+        "action": "check_rules",
+        "seconds": 56.66,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28715,
+        "output_tokens": 139,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V27",
+        "call_id": "decision-_ycehrn1",
+        "action": "check_requirements",
+        "seconds": 170.03,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31207,
+        "output_tokens": 232,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V27",
+        "call_id": "decision-2uhjnxm_",
+        "action": "review",
+        "seconds": 105.42,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28431,
+        "output_tokens": 2330,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V27",
+        "call_id": "decision-as4upuy2",
+        "action": "finish",
+        "seconds": 73.56,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 35311,
+        "output_tokens": 229,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-37tknyhe",
+        "action": "search_materials",
+        "seconds": 99.0,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27356,
+        "output_tokens": 231,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-l65t5xq6",
+        "action": "search_materials",
+        "seconds": 155.82,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27358,
+        "output_tokens": 157,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-dl_prhdh",
+        "action": "write_script",
+        "seconds": 160.03,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28068,
+        "output_tokens": 3579,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-u0hq69nq",
+        "action": "estimate_duration",
+        "seconds": 44.86,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30988,
+        "output_tokens": 131,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-bnd5c4xd",
+        "action": "check_rules",
+        "seconds": 46.01,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 34571,
+        "output_tokens": 186,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-tlb7at9n",
+        "action": "check_requirements",
+        "seconds": 25.92,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 39034,
+        "output_tokens": 170,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-jwqgsrx2",
+        "action": "review",
+        "seconds": 164.21,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31180,
+        "output_tokens": 5383,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-wnd33ynw",
+        "action": "finish",
+        "seconds": 70.0,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 49476,
+        "output_tokens": 278,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V30",
+        "call_id": "decision-phtnykku",
+        "action": "search_materials",
+        "seconds": 64.01,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27355,
+        "output_tokens": 214,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V30",
+        "call_id": "decision-emuaiyfr",
+        "action": "write_script",
+        "seconds": 65.95,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28050,
+        "output_tokens": 1225,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V30",
+        "call_id": "decision-q2kk6je9",
+        "action": "estimate_duration",
+        "seconds": 32.83,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29017,
+        "output_tokens": 127,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V30",
+        "call_id": "decision-mmqk_jla",
+        "action": "check_rules",
+        "seconds": 38.12,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30247,
+        "output_tokens": 165,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V30",
+        "call_id": "decision-yqwtuogt",
+        "action": "check_requirements",
+        "seconds": 71.32,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 32192,
+        "output_tokens": 176,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V30",
+        "call_id": "decision-20ilpykp",
+        "action": "review",
+        "seconds": 130.61,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28742,
+        "output_tokens": 2661,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V30",
+        "call_id": "decision-mmrgx7wn",
+        "action": "finish",
+        "seconds": 115.42,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 37105,
+        "output_tokens": 165,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V31",
+        "call_id": "decision-rh97zpcu",
+        "action": "search_materials",
+        "seconds": 25.62,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27358,
+        "output_tokens": 192,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V31",
+        "call_id": "decision-ady5gf_i",
+        "action": "write_script",
+        "seconds": 86.28,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27881,
+        "output_tokens": 1248,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V31",
+        "call_id": "decision-h_02q7zs",
+        "action": "estimate_duration",
+        "seconds": 42.79,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28798,
+        "output_tokens": 173,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V31",
+        "call_id": "decision-7k48sxlo",
+        "action": "check_rules",
+        "seconds": 52.25,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29826,
+        "output_tokens": 164,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V31",
+        "call_id": "decision-sxrguu4g",
+        "action": "check_requirements",
+        "seconds": 66.79,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31485,
+        "output_tokens": 218,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V31",
+        "call_id": "decision-d33sdqxw",
+        "action": "review",
+        "seconds": 117.75,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28503,
+        "output_tokens": 2364,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V31",
+        "call_id": "decision-25e72ss_",
+        "action": "finish",
+        "seconds": 61.26,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 35906,
+        "output_tokens": 183,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V32",
+        "call_id": "decision-eygwfzsh",
+        "action": "search_materials",
+        "seconds": 39.13,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27349,
+        "output_tokens": 173,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V32",
+        "call_id": "decision-axms3_2f",
+        "action": "write_script",
+        "seconds": 121.66,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27857,
+        "output_tokens": 1526,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V32",
+        "call_id": "decision-3ib_kkht",
+        "action": "estimate_duration",
+        "seconds": 55.5,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29036,
+        "output_tokens": 144,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V32",
+        "call_id": "decision-ff7gnwug",
+        "action": "check_rules",
+        "seconds": 67.36,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30427,
+        "output_tokens": 154,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V32",
+        "call_id": "decision-d10iv8vu",
+        "action": "check_requirements",
+        "seconds": 35.43,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 32388,
+        "output_tokens": 190,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V32",
+        "call_id": "decision-aq0w4yhm",
+        "action": "review",
+        "seconds": 150.99,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28835,
+        "output_tokens": 2758,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V32",
+        "call_id": "decision-r3yj9964",
+        "action": "finish",
+        "seconds": 43.59,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 37847,
+        "output_tokens": 192,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V33",
+        "call_id": "decision-erhn0f__",
+        "action": "search_materials",
+        "seconds": 79.89,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27356,
+        "output_tokens": 209,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V33",
+        "call_id": "decision-zjr7zeh1",
+        "action": "finish",
+        "seconds": 116.27,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28094,
+        "output_tokens": 903,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V34",
+        "call_id": "decision-7rzb_qmy",
+        "action": "search_materials",
+        "seconds": 95.7,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27350,
+        "output_tokens": 186,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V34",
+        "call_id": "decision-um5eihzd",
+        "action": "finish",
+        "seconds": 73.49,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27884,
+        "output_tokens": 679,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V35",
+        "call_id": "decision-4q85mwpn",
+        "action": "search_materials",
+        "seconds": 91.66,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27348,
+        "output_tokens": 214,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V35",
+        "call_id": "decision-6f8ch4ce",
+        "action": "finish",
+        "seconds": 80.07,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28115,
+        "output_tokens": 658,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-w9qvvh9i",
+        "action": "search_materials",
+        "seconds": 129.88,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27357,
+        "output_tokens": 242,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-d_v_2z8o",
+        "action": "write_script",
+        "seconds": 102.93,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27868,
+        "output_tokens": 1892,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-mmbu6amq",
+        "action": "estimate_duration",
+        "seconds": 33.11,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29030,
+        "output_tokens": 159,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-u0b5sqpq",
+        "action": "check_rules",
+        "seconds": 19.95,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30358,
+        "output_tokens": 141,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-gu1zvn3w",
+        "action": "check_requirements",
+        "seconds": 18.94,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 32266,
+        "output_tokens": 162,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-wsu_rpj9",
+        "action": "review",
+        "seconds": 88.92,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28772,
+        "output_tokens": 2430,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-kkn4shga",
+        "action": "finish",
+        "seconds": 20.62,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 36947,
+        "output_tokens": 233,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V37",
+        "call_id": "decision-e3_gq57f",
+        "action": "search_materials",
+        "seconds": 42.13,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27358,
+        "output_tokens": 365,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V37",
+        "call_id": "decision-enfxm_cy",
+        "action": "finish",
+        "seconds": 42.04,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28093,
+        "output_tokens": 503,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V38",
+        "call_id": "decision-v93odk15",
+        "action": "search_materials",
+        "seconds": 35.24,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27341,
+        "output_tokens": 196,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V38",
+        "call_id": "decision-n09zqak7",
+        "action": "finish",
+        "seconds": 54.34,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28080,
+        "output_tokens": 777,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V39",
+        "call_id": "decision-dqcbm69l",
+        "action": "search_materials",
+        "seconds": 29.5,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27348,
+        "output_tokens": 197,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V39",
+        "call_id": "decision-7sbhgj9_",
+        "action": "search_materials",
+        "seconds": 46.33,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27930,
+        "output_tokens": 516,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V39",
+        "call_id": "decision-egjtkm0i",
+        "action": "finish",
+        "seconds": 25.41,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28494,
+        "output_tokens": 378,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V40",
+        "call_id": "decision-tp956ypn",
+        "action": "search_materials",
+        "seconds": 31.84,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27339,
+        "output_tokens": 260,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V40",
+        "call_id": "decision-qejo5o2v",
+        "action": "finish",
+        "seconds": 30.08,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28075,
+        "output_tokens": 547,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V41",
+        "call_id": "decision-jvzcw_q9",
+        "action": "search_materials",
+        "seconds": 32.69,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27357,
+        "output_tokens": 405,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V41",
+        "call_id": "decision-ymrl69j1",
+        "action": "finish",
+        "seconds": 42.36,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27496,
+        "output_tokens": 639,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V42",
+        "call_id": "decision-hlpxrgm8",
+        "action": "search_materials",
+        "seconds": 24.89,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27343,
+        "output_tokens": 269,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V42",
+        "call_id": "decision-0kgfm9t7",
+        "action": "finish",
+        "seconds": 34.66,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27520,
+        "output_tokens": 530,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V43",
+        "call_id": "decision-4vwd6yaj",
+        "action": "finish",
+        "seconds": 51.91,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27350,
+        "output_tokens": 965,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V44",
+        "call_id": "decision-9rmnnc6m",
+        "action": "search_materials",
+        "seconds": 32.18,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27350,
+        "output_tokens": 349,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V44",
+        "call_id": "decision-lkuoqwri",
+        "action": "search_materials",
+        "seconds": 33.89,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27520,
+        "output_tokens": 359,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V44",
+        "call_id": "decision-evbqacig",
+        "action": "finish",
+        "seconds": 36.98,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27665,
+        "output_tokens": 541,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-610iiaqy",
+        "action": "estimate_duration",
+        "seconds": 30.13,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27690,
+        "output_tokens": 242,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-02an8faa",
+        "action": "search_materials",
+        "seconds": 20.61,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28303,
+        "output_tokens": 244,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-up7vew38",
+        "action": "write_script",
+        "seconds": 73.43,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29035,
+        "output_tokens": 1227,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-mdpoulu1",
+        "action": "estimate_duration",
+        "seconds": 19.5,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30104,
+        "output_tokens": 175,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-pt6wpjy2",
+        "action": "check_rules",
+        "seconds": 29.65,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31409,
+        "output_tokens": 155,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-cb9ikhfm",
+        "action": "check_requirements",
+        "seconds": 22.23,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 33264,
+        "output_tokens": 220,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-3on2gdpr",
+        "action": "review",
+        "seconds": 96.19,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28900,
+        "output_tokens": 2443,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-vn_a173o",
+        "action": "finish",
+        "seconds": 20.27,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 37519,
+        "output_tokens": 269,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V46",
+        "call_id": "decision-aco27u2a",
+        "action": "check_rules",
+        "seconds": 39.89,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27694,
+        "output_tokens": 251,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V46",
+        "call_id": "decision-vsehe9y1",
+        "action": "search_materials",
+        "seconds": 26.19,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28573,
+        "output_tokens": 267,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V46",
+        "call_id": "decision-8s22h8tx",
+        "action": "invalid_model_action",
+        "seconds": 76.21,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29325,
+        "output_tokens": 1491,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V46",
+        "call_id": "decision-am6c8vw3",
+        "action": "write_script",
+        "seconds": 82.14,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29383,
+        "output_tokens": 1455,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V46",
+        "call_id": "decision-3fsad45o",
+        "action": "estimate_duration",
+        "seconds": 28.67,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30575,
+        "output_tokens": 158,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V46",
+        "call_id": "decision-psc_3dk2",
+        "action": "check_rules",
+        "seconds": 37.63,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31931,
+        "output_tokens": 144,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V46",
+        "call_id": "decision-0faogfwo",
+        "action": "check_requirements",
+        "seconds": 20.41,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 33292,
+        "output_tokens": 178,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V46",
+        "call_id": "decision-7obzvick",
+        "action": "review",
+        "seconds": 92.52,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29018,
+        "output_tokens": 2505,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V46",
+        "call_id": "decision-h46oy1kr",
+        "action": "finish",
+        "seconds": 30.25,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 38952,
+        "output_tokens": 313,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-3rjdchxt",
+        "action": "estimate_duration",
+        "seconds": 24.84,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27768,
+        "output_tokens": 186,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-8oflbdnf",
+        "action": "search_materials",
+        "seconds": 29.3,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28470,
+        "output_tokens": 293,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-zfwfuz2k",
+        "action": "write_script",
+        "seconds": 71.05,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29191,
+        "output_tokens": 1237,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-tokqybxr",
+        "action": "estimate_duration",
+        "seconds": 36.14,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30438,
+        "output_tokens": 126,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-fcnpiogj",
+        "action": "check_rules",
+        "seconds": 27.25,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31982,
+        "output_tokens": 162,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-fr0l0g4g",
+        "action": "check_requirements",
+        "seconds": 17.35,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 34069,
+        "output_tokens": 156,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-c47ljwtc",
+        "action": "review",
+        "seconds": 89.61,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29178,
+        "output_tokens": 2815,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-ffrsf685",
+        "action": "finish",
+        "seconds": 30.0,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 39864,
+        "output_tokens": 188,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V48",
+        "call_id": "decision-n4o8k01f",
+        "action": "estimate_duration",
+        "seconds": 45.3,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27709,
+        "output_tokens": 199,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V48",
+        "call_id": "decision-vrd2iz4p",
+        "action": "search_materials",
+        "seconds": 39.43,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28329,
+        "output_tokens": 503,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V48",
+        "call_id": "decision-et41zpjy",
+        "action": "write_script",
+        "seconds": 64.14,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29040,
+        "output_tokens": 1267,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V48",
+        "call_id": "decision-ylcj_a75",
+        "action": "estimate_duration",
+        "seconds": 14.64,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30097,
+        "output_tokens": 130,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V48",
+        "call_id": "decision-11k473t4",
+        "action": "check_rules",
+        "seconds": 31.39,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 31378,
+        "output_tokens": 148,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V48",
+        "call_id": "decision-rjsi_d53",
+        "action": "check_requirements",
+        "seconds": 26.03,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 33107,
+        "output_tokens": 172,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V48",
+        "call_id": "decision-n77dhpwf",
+        "action": "review",
+        "seconds": 123.14,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28837,
+        "output_tokens": 3019,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V48",
+        "call_id": "decision-aoo7nvm9",
+        "action": "finish",
+        "seconds": 15.56,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 37839,
+        "output_tokens": 173,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V49",
+        "call_id": "decision-df7ikokg",
+        "action": "estimate_duration",
+        "seconds": 18.88,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27631,
+        "output_tokens": 144,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V49",
+        "call_id": "decision-sc3u0js3",
+        "action": "search_materials",
+        "seconds": 22.92,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28171,
+        "output_tokens": 337,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V49",
+        "call_id": "decision-fxaw9843",
+        "action": "write_script",
+        "seconds": 40.13,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28923,
+        "output_tokens": 1127,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V49",
+        "call_id": "decision-whqtzubc",
+        "action": "estimate_duration",
+        "seconds": 18.92,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29814,
+        "output_tokens": 131,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V49",
+        "call_id": "decision-zs4x8i4l",
+        "action": "check_rules",
+        "seconds": 31.33,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30841,
+        "output_tokens": 139,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V49",
+        "call_id": "decision-zolnk4an",
+        "action": "check_requirements",
+        "seconds": 20.52,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 32576,
+        "output_tokens": 157,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V49",
+        "call_id": "decision-t__m87r7",
+        "action": "review",
+        "seconds": 88.87,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28681,
+        "output_tokens": 2295,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V49",
+        "call_id": "decision-gym6eqoz",
+        "action": "finish",
+        "seconds": 18.2,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 36887,
+        "output_tokens": 191,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V50",
+        "call_id": "decision-t7vnnyvb",
+        "action": "search_materials",
+        "seconds": 29.25,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 27363,
+        "output_tokens": 173,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V50",
+        "call_id": "decision-4j_ra8qx",
+        "action": "write_script",
+        "seconds": 100.13,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28071,
+        "output_tokens": 2077,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V50",
+        "call_id": "decision-dgnrrkqy",
+        "action": "estimate_duration",
+        "seconds": 15.72,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 29350,
+        "output_tokens": 166,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V50",
+        "call_id": "decision-9l4rkpau",
+        "action": "check_rules",
+        "seconds": 15.07,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 30848,
+        "output_tokens": 162,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V50",
+        "call_id": "decision-mw9g3wlr",
+        "action": "check_requirements",
+        "seconds": 16.67,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 32930,
+        "output_tokens": 174,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V50",
+        "call_id": "decision-zzzz7792",
+        "action": "review",
+        "seconds": 84.02,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 28951,
+        "output_tokens": 2589,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V50",
+        "call_id": "decision-pjw6qj0t",
+        "action": "finish",
+        "seconds": 16.81,
+        "reasoning_effort": "inherited (not recorded)",
+        "input_tokens": 38392,
+        "output_tokens": 246,
+        "recovered_attempts": []
+      }
+    ]
+  },
+  "new": {
+    "tasks": {
+      "n": 50,
+      "median": 126.11,
+      "p90": 174.73,
+      "max": 238.41
+    },
+    "responses": 231,
+    "attempts": 231,
+    "failed_attempts": 0,
+    "recovered_calls": 0,
+    "invalid_actions": 0,
+    "call_seconds_by_action": {
+      "search_materials": {
+        "n": 55,
+        "median": 18.21,
+        "p90": 23.89,
+        "max": 40.58
+      },
+      "write_script": {
+        "n": 41,
+        "median": 31.22,
+        "p90": 47.7,
+        "max": 51.67
+      },
+      "check_requirements": {
+        "n": 42,
+        "median": 15.35,
+        "p90": 25.73,
+        "max": 36.13
+      },
+      "review": {
+        "n": 39,
+        "median": 41.78,
+        "p90": 61.03,
+        "max": 75.24
+      },
+      "finish": {
+        "n": 50,
+        "median": 17.68,
+        "p90": 24.69,
+        "max": 35.31
+      },
+      "estimate_duration": {
+        "n": 3,
+        "median": 15.05,
+        "p90": 28.68,
+        "max": 28.68
+      },
+      "check_rules": {
+        "n": 1,
+        "median": 13.25,
+        "p90": 13.25,
+        "max": 13.25
+      }
+    },
+    "input_tokens": 6575845,
+    "output_tokens": 92668,
+    "titles": [
+      {
+        "case": "V01",
+        "title": "早餐摊今日备料，给口播加上字幕"
+      },
+      {
+        "case": "V02",
+        "title": "把古镇散步剪成三个停留"
+      },
+      {
+        "case": "V03",
+        "title": "把读书会的话留下"
+      },
+      {
+        "case": "V04",
+        "title": "陶艺作品展：展台与花瓶怎么选画面比例"
+      },
+      {
+        "case": "V05",
+        "title": "修理铺日常：三段素材剪清楚，再加字幕"
+      },
+      {
+        "case": "V06",
+        "title": "领养日花絮：加上字幕，再改好文字"
+      },
+      {
+        "case": "V07",
+        "title": "服装店拍款式：裁剪片段与横竖屏选择"
+      },
+      {
+        "case": "V08",
+        "title": "排练室的这一晚"
+      },
+      {
+        "case": "V09",
+        "title": "露营出发前，这三段视频怎么裁剪"
+      },
+      {
+        "case": "V10",
+        "title": "展馆导览视频：添加字幕与修改文字"
+      },
+      {
+        "case": "V11",
+        "title": "跟着练习本认识字幕：添加文字，再手动改字"
+      },
+      {
+        "case": "V12",
+        "title": "修花枝、摆花桶、收台面：裁剪一段工作记录"
+      },
+      {
+        "case": "V13",
+        "title": "会议素材编辑：添加字幕与横竖屏比例"
+      },
+      {
+        "case": "V14",
+        "title": "把球场日常剪成一条社团视频"
+      },
+      {
+        "case": "V15",
+        "title": "把做饭前的小准备，写进视频字幕"
+      },
+      {
+        "case": "V16",
+        "title": "收摊以后"
+      },
+      {
+        "case": "V17",
+        "title": "剪影练习版：添加字幕与裁剪片段"
+      },
+      {
+        "case": "V18",
+        "title": "不露脸的知识分享：手动改好字幕文字"
+      },
+      {
+        "case": "V19",
+        "title": "这一帧，留给今天"
+      },
+      {
+        "case": "V20",
+        "title": "活动视频：大厅横屏与手机竖屏两种比例"
+      },
+      {
+        "case": "V21",
+        "title": "Caption a Club Notice Video in 剪影练习版"
+      },
+      {
+        "case": "V22",
+        "title": "展厅入口与画册：横竖屏怎么呈现"
+      },
+      {
+        "case": "V23",
+        "title": "Small Clips, Shared Moments"
+      },
+      {
+        "case": "V25",
+        "title": "课程画面里的字幕添加"
+      },
+      {
+        "case": "V26",
+        "title": "剪影练习版：为视频添加字幕"
+      },
+      {
+        "case": "V27",
+        "title": "裁剪片段与横竖比例"
+      },
+      {
+        "case": "V28",
+        "title": "把社区分享会素材整理成一条视频"
+      },
+      {
+        "case": "V29",
+        "title": "接手一段交接录像：字幕、裁剪和比例怎么安排"
+      },
+      {
+        "case": "V30",
+        "title": "字幕、裁剪、横竖屏：三项剪辑功能"
+      },
+      {
+        "case": "V31",
+        "title": "用剪刀纸片看懂片段裁剪"
+      },
+      {
+        "case": "V32",
+        "title": "课程视频字幕：添加字幕，再手动改字"
+      },
+      {
+        "case": "V36",
+        "title": "店铺口播：添加字幕，再核对文字"
+      },
+      {
+        "case": "V45",
+        "title": "记录里的每句话"
+      },
+      {
+        "case": "V46",
+        "title": "口播字幕小帮手"
+      },
+      {
+        "case": "V47",
+        "title": "采访后的整理"
+      },
+      {
+        "case": "V48",
+        "title": "从门口到房间"
+      },
+      {
+        "case": "V49",
+        "title": "两步整理片段"
+      },
+      {
+        "case": "V50",
+        "title": "早餐摊今日备料：给口播加上字幕"
+      }
+    ],
+    "rows": [
+      {
+        "case": "V01",
+        "status": "completed",
+        "seconds": 161.26,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "早餐摊今日备料，给口播加上字幕",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V02",
+        "status": "completed",
+        "seconds": 180.87,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "把古镇散步剪成三个停留",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V03",
+        "status": "completed",
+        "seconds": 156.95,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "把读书会的话留下",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V04",
+        "status": "completed",
+        "seconds": 152.47,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "陶艺作品展：展台与花瓶怎么选画面比例",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V05",
+        "status": "completed",
+        "seconds": 238.41,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "修理铺日常：三段素材剪清楚，再加字幕",
+        "bundled_local_checks": 4,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V06",
+        "status": "completed",
+        "seconds": 144.72,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "领养日花絮：加上字幕，再改好文字",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V07",
+        "status": "completed",
+        "seconds": 165.12,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "服装店拍款式：裁剪片段与横竖屏选择",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V08",
+        "status": "completed",
+        "seconds": 174.73,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "排练室的这一晚",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V09",
+        "status": "completed",
+        "seconds": 170.43,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "露营出发前，这三段视频怎么裁剪",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V10",
+        "status": "completed",
+        "seconds": 134.52,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "展馆导览视频：添加字幕与修改文字",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V11",
+        "status": "completed",
+        "seconds": 137.82,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "跟着练习本认识字幕：添加文字，再手动改字",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V12",
+        "status": "completed",
+        "seconds": 120.91,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "修花枝、摆花桶、收台面：裁剪一段工作记录",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V13",
+        "status": "completed",
+        "seconds": 105.88,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "会议素材编辑：添加字幕与横竖屏比例",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V14",
+        "status": "completed",
+        "seconds": 139.56,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "把球场日常剪成一条社团视频",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V15",
+        "status": "completed",
+        "seconds": 123.87,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "把做饭前的小准备，写进视频字幕",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V16",
+        "status": "completed",
+        "seconds": 129.54,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "收摊以后",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V17",
+        "status": "completed",
+        "seconds": 129.94,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "剪影练习版：添加字幕与裁剪片段",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V18",
+        "status": "completed",
+        "seconds": 133.97,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "不露脸的知识分享：手动改好字幕文字",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V19",
+        "status": "completed",
+        "seconds": 148.6,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "这一帧，留给今天",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V20",
+        "status": "completed",
+        "seconds": 119.56,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "活动视频：大厅横屏与手机竖屏两种比例",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V21",
+        "status": "completed",
+        "seconds": 128.2,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "Caption a Club Notice Video in 剪影练习版",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V22",
+        "status": "completed",
+        "seconds": 128.91,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "展厅入口与画册：横竖屏怎么呈现",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V23",
+        "status": "completed",
+        "seconds": 102.32,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "Small Clips, Shared Moments",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V24",
+        "status": "needs_input",
+        "seconds": 55.17,
+        "responses": 3,
+        "attempts": 3,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V25",
+        "status": "completed",
+        "seconds": 106.64,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "课程画面里的字幕添加",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V26",
+        "status": "completed",
+        "seconds": 85.88,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "剪影练习版：为视频添加字幕",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V27",
+        "status": "completed",
+        "seconds": 93.88,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "裁剪片段与横竖比例",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V28",
+        "status": "completed",
+        "seconds": 195.64,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "把社区分享会素材整理成一条视频",
+        "bundled_local_checks": 4,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V29",
+        "status": "completed",
+        "seconds": 176.18,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "接手一段交接录像：字幕、裁剪和比例怎么安排",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V30",
+        "status": "completed",
+        "seconds": 223.25,
+        "responses": 8,
+        "attempts": 8,
+        "failed_attempts": [],
+        "title": "字幕、裁剪、横竖屏：三项剪辑功能",
+        "bundled_local_checks": 4,
+        "invalid_actions": 0,
+        "review_responses": 2
+      },
+      {
+        "case": "V31",
+        "status": "completed",
+        "seconds": 125.12,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "用剪刀纸片看懂片段裁剪",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V32",
+        "status": "completed",
+        "seconds": 115.31,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "课程视频字幕：添加字幕，再手动改字",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V33",
+        "status": "needs_input",
+        "seconds": 53.43,
+        "responses": 3,
+        "attempts": 3,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V34",
+        "status": "needs_input",
+        "seconds": 37.48,
+        "responses": 2,
+        "attempts": 2,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V35",
+        "status": "needs_input",
+        "seconds": 55.09,
+        "responses": 3,
+        "attempts": 3,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V36",
+        "status": "completed",
+        "seconds": 113.7,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "店铺口播：添加字幕，再核对文字",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V37",
+        "status": "needs_input",
+        "seconds": 38.01,
+        "responses": 2,
+        "attempts": 2,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V38",
+        "status": "needs_input",
+        "seconds": 53.03,
+        "responses": 3,
+        "attempts": 3,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V39",
+        "status": "needs_input",
+        "seconds": 51.6,
+        "responses": 3,
+        "attempts": 3,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V40",
+        "status": "needs_input",
+        "seconds": 30.27,
+        "responses": 2,
+        "attempts": 2,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V41",
+        "status": "needs_input",
+        "seconds": 37.77,
+        "responses": 2,
+        "attempts": 2,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V42",
+        "status": "needs_input",
+        "seconds": 35.54,
+        "responses": 2,
+        "attempts": 2,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V43",
+        "status": "needs_input",
+        "seconds": 20.39,
+        "responses": 1,
+        "attempts": 1,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V44",
+        "status": "needs_input",
+        "seconds": 52.01,
+        "responses": 3,
+        "attempts": 3,
+        "failed_attempts": [],
+        "title": null,
+        "bundled_local_checks": 0,
+        "invalid_actions": 0,
+        "review_responses": 0
+      },
+      {
+        "case": "V45",
+        "status": "completed",
+        "seconds": 127.1,
+        "responses": 6,
+        "attempts": 6,
+        "failed_attempts": [],
+        "title": "记录里的每句话",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V46",
+        "status": "completed",
+        "seconds": 123.41,
+        "responses": 6,
+        "attempts": 6,
+        "failed_attempts": [],
+        "title": "口播字幕小帮手",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V47",
+        "status": "completed",
+        "seconds": 143.16,
+        "responses": 6,
+        "attempts": 6,
+        "failed_attempts": [],
+        "title": "采访后的整理",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V48",
+        "status": "completed",
+        "seconds": 137.33,
+        "responses": 6,
+        "attempts": 6,
+        "failed_attempts": [],
+        "title": "从门口到房间",
+        "bundled_local_checks": 4,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V49",
+        "status": "completed",
+        "seconds": 135.03,
+        "responses": 6,
+        "attempts": 6,
+        "failed_attempts": [],
+        "title": "两步整理片段",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V50",
+        "status": "completed",
+        "seconds": 119.23,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "早餐摊今日备料：给口播加上字幕",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      }
+    ],
+    "calls": [
+      {
+        "case": "V01",
+        "call_id": "decision-ihmkpixm",
+        "action": "search_materials",
+        "seconds": 20.02,
+        "reasoning_effort": "medium",
+        "input_tokens": 27268,
+        "output_tokens": 81,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-6_gskivn",
+        "action": "write_script",
+        "seconds": 29.27,
+        "reasoning_effort": "medium",
+        "input_tokens": 26977,
+        "output_tokens": 488,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-8b_ictf4",
+        "action": "check_requirements",
+        "seconds": 36.13,
+        "reasoning_effort": "medium",
+        "input_tokens": 28274,
+        "output_tokens": 76,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-yl3t9k3k",
+        "action": "review",
+        "seconds": 55.58,
+        "reasoning_effort": "medium",
+        "input_tokens": 28946,
+        "output_tokens": 1679,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-y14vqe97",
+        "action": "finish",
+        "seconds": 20.06,
+        "reasoning_effort": "medium",
+        "input_tokens": 31145,
+        "output_tokens": 95,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-b4jwnf90",
+        "action": "search_materials",
+        "seconds": 23.52,
+        "reasoning_effort": "medium",
+        "input_tokens": 27260,
+        "output_tokens": 89,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-4r611xfx",
+        "action": "write_script",
+        "seconds": 37.16,
+        "reasoning_effort": "medium",
+        "input_tokens": 27446,
+        "output_tokens": 548,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-k7hen16z",
+        "action": "check_requirements",
+        "seconds": 27.65,
+        "reasoning_effort": "medium",
+        "input_tokens": 28139,
+        "output_tokens": 86,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-sdzef0ie",
+        "action": "review",
+        "seconds": 69.07,
+        "reasoning_effort": "medium",
+        "input_tokens": 29002,
+        "output_tokens": 1765,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-5coa0ifa",
+        "action": "finish",
+        "seconds": 23.26,
+        "reasoning_effort": "medium",
+        "input_tokens": 31118,
+        "output_tokens": 108,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-zlq5pgbl",
+        "action": "search_materials",
+        "seconds": 23.49,
+        "reasoning_effort": "medium",
+        "input_tokens": 27256,
+        "output_tokens": 73,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-nyuj76fp",
+        "action": "write_script",
+        "seconds": 35.01,
+        "reasoning_effort": "medium",
+        "input_tokens": 27531,
+        "output_tokens": 468,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-9f_lx5s0",
+        "action": "check_requirements",
+        "seconds": 26.52,
+        "reasoning_effort": "medium",
+        "input_tokens": 28142,
+        "output_tokens": 70,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-gwnb15z3",
+        "action": "review",
+        "seconds": 51.6,
+        "reasoning_effort": "medium",
+        "input_tokens": 28919,
+        "output_tokens": 1528,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-0q_fkuli",
+        "action": "finish",
+        "seconds": 20.1,
+        "reasoning_effort": "medium",
+        "input_tokens": 30948,
+        "output_tokens": 93,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V04",
+        "call_id": "decision-v8nmoo2s",
+        "action": "search_materials",
+        "seconds": 21.99,
+        "reasoning_effort": "medium",
+        "input_tokens": 27260,
+        "output_tokens": 84,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V04",
+        "call_id": "decision-ym3rfvfk",
+        "action": "write_script",
+        "seconds": 35.83,
+        "reasoning_effort": "medium",
+        "input_tokens": 27538,
+        "output_tokens": 368,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V04",
+        "call_id": "decision-udq2h5kz",
+        "action": "check_requirements",
+        "seconds": 26.23,
+        "reasoning_effort": "medium",
+        "input_tokens": 28028,
+        "output_tokens": 71,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V04",
+        "call_id": "decision-ninb7wqu",
+        "action": "review",
+        "seconds": 40.82,
+        "reasoning_effort": "medium",
+        "input_tokens": 28541,
+        "output_tokens": 960,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V04",
+        "call_id": "decision-1__dsj6m",
+        "action": "finish",
+        "seconds": 27.36,
+        "reasoning_effort": "medium",
+        "input_tokens": 30300,
+        "output_tokens": 104,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-fd9kz_km",
+        "action": "search_materials",
+        "seconds": 26.76,
+        "reasoning_effort": "medium",
+        "input_tokens": 27256,
+        "output_tokens": 83,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-ls4of06i",
+        "action": "write_script",
+        "seconds": 37.16,
+        "reasoning_effort": "medium",
+        "input_tokens": 27541,
+        "output_tokens": 703,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-lz2_rl0q",
+        "action": "check_requirements",
+        "seconds": 18.98,
+        "reasoning_effort": "medium",
+        "input_tokens": 28452,
+        "output_tokens": 69,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-x7oxbpa8",
+        "action": "write_script",
+        "seconds": 30.1,
+        "reasoning_effort": "medium",
+        "input_tokens": 30198,
+        "output_tokens": 728,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-m3jwwkyc",
+        "action": "check_requirements",
+        "seconds": 25.28,
+        "reasoning_effort": "medium",
+        "input_tokens": 28720,
+        "output_tokens": 72,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-t_xw6wd9",
+        "action": "review",
+        "seconds": 64.27,
+        "reasoning_effort": "medium",
+        "input_tokens": 29679,
+        "output_tokens": 2074,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-wsezs5qq",
+        "action": "finish",
+        "seconds": 35.31,
+        "reasoning_effort": "medium",
+        "input_tokens": 32363,
+        "output_tokens": 102,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-cff__coo",
+        "action": "search_materials",
+        "seconds": 21.7,
+        "reasoning_effort": "medium",
+        "input_tokens": 27262,
+        "output_tokens": 85,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-5_vbfnoq",
+        "action": "write_script",
+        "seconds": 31.53,
+        "reasoning_effort": "medium",
+        "input_tokens": 27553,
+        "output_tokens": 541,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-v7gmits5",
+        "action": "check_requirements",
+        "seconds": 18.79,
+        "reasoning_effort": "medium",
+        "input_tokens": 28251,
+        "output_tokens": 67,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-s4ywvi65",
+        "action": "review",
+        "seconds": 54.15,
+        "reasoning_effort": "medium",
+        "input_tokens": 29127,
+        "output_tokens": 1630,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-r_h9xfcq",
+        "action": "finish",
+        "seconds": 18.35,
+        "reasoning_effort": "medium",
+        "input_tokens": 31271,
+        "output_tokens": 99,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V07",
+        "call_id": "decision-2qeumflg",
+        "action": "search_materials",
+        "seconds": 29.64,
+        "reasoning_effort": "medium",
+        "input_tokens": 27264,
+        "output_tokens": 88,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V07",
+        "call_id": "decision-epcv4m5h",
+        "action": "write_script",
+        "seconds": 45.38,
+        "reasoning_effort": "medium",
+        "input_tokens": 27655,
+        "output_tokens": 825,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V07",
+        "call_id": "decision-4mzxf96x",
+        "action": "check_requirements",
+        "seconds": 18.62,
+        "reasoning_effort": "medium",
+        "input_tokens": 28410,
+        "output_tokens": 81,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V07",
+        "call_id": "decision-sbq9a9k1",
+        "action": "review",
+        "seconds": 50.64,
+        "reasoning_effort": "medium",
+        "input_tokens": 29284,
+        "output_tokens": 1259,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V07",
+        "call_id": "decision-fw8rmvdi",
+        "action": "finish",
+        "seconds": 19.52,
+        "reasoning_effort": "medium",
+        "input_tokens": 30552,
+        "output_tokens": 106,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V08",
+        "call_id": "decision-vu8dk20i",
+        "action": "search_materials",
+        "seconds": 40.58,
+        "reasoning_effort": "medium",
+        "input_tokens": 27257,
+        "output_tokens": 71,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V08",
+        "call_id": "decision-cwxqd9zq",
+        "action": "write_script",
+        "seconds": 32.34,
+        "reasoning_effort": "medium",
+        "input_tokens": 27532,
+        "output_tokens": 421,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V08",
+        "call_id": "decision-7ilvvxwl",
+        "action": "check_requirements",
+        "seconds": 25.73,
+        "reasoning_effort": "medium",
+        "input_tokens": 28073,
+        "output_tokens": 65,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V08",
+        "call_id": "decision-vaghu2r4",
+        "action": "review",
+        "seconds": 49.38,
+        "reasoning_effort": "medium",
+        "input_tokens": 28677,
+        "output_tokens": 1279,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V08",
+        "call_id": "decision-k_iydq7g",
+        "action": "finish",
+        "seconds": 26.47,
+        "reasoning_effort": "medium",
+        "input_tokens": 30448,
+        "output_tokens": 89,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-do5icund",
+        "action": "search_materials",
+        "seconds": 25.76,
+        "reasoning_effort": "medium",
+        "input_tokens": 27254,
+        "output_tokens": 82,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-70fn_q4l",
+        "action": "write_script",
+        "seconds": 48.24,
+        "reasoning_effort": "medium",
+        "input_tokens": 27544,
+        "output_tokens": 615,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-zh4_zprj",
+        "action": "check_requirements",
+        "seconds": 18.51,
+        "reasoning_effort": "medium",
+        "input_tokens": 27520,
+        "output_tokens": 67,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-bkyv37k2",
+        "action": "review",
+        "seconds": 47.45,
+        "reasoning_effort": "medium",
+        "input_tokens": 28936,
+        "output_tokens": 1440,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-ebsyadeb",
+        "action": "finish",
+        "seconds": 30.24,
+        "reasoning_effort": "medium",
+        "input_tokens": 30883,
+        "output_tokens": 118,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V10",
+        "call_id": "decision-6mut1h1q",
+        "action": "search_materials",
+        "seconds": 20.02,
+        "reasoning_effort": "medium",
+        "input_tokens": 27254,
+        "output_tokens": 74,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V10",
+        "call_id": "decision-va4tt12q",
+        "action": "write_script",
+        "seconds": 32.25,
+        "reasoning_effort": "medium",
+        "input_tokens": 27528,
+        "output_tokens": 478,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V10",
+        "call_id": "decision-q9xagavw",
+        "action": "check_requirements",
+        "seconds": 20.36,
+        "reasoning_effort": "medium",
+        "input_tokens": 28167,
+        "output_tokens": 73,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V10",
+        "call_id": "decision-xx1i4w9y",
+        "action": "review",
+        "seconds": 43.91,
+        "reasoning_effort": "medium",
+        "input_tokens": 29055,
+        "output_tokens": 1295,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V10",
+        "call_id": "decision-19mjgaf3",
+        "action": "finish",
+        "seconds": 16.49,
+        "reasoning_effort": "medium",
+        "input_tokens": 30494,
+        "output_tokens": 103,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-g8t3atgp",
+        "action": "search_materials",
+        "seconds": 16.76,
+        "reasoning_effort": "medium",
+        "input_tokens": 27262,
+        "output_tokens": 79,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-l0w3runv",
+        "action": "write_script",
+        "seconds": 51.67,
+        "reasoning_effort": "medium",
+        "input_tokens": 27545,
+        "output_tokens": 798,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-an56t0yh",
+        "action": "check_requirements",
+        "seconds": 15.93,
+        "reasoning_effort": "medium",
+        "input_tokens": 28401,
+        "output_tokens": 74,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-cledp8pm",
+        "action": "review",
+        "seconds": 40.39,
+        "reasoning_effort": "medium",
+        "input_tokens": 29492,
+        "output_tokens": 1538,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-94xgqg37",
+        "action": "finish",
+        "seconds": 12.42,
+        "reasoning_effort": "medium",
+        "input_tokens": 31873,
+        "output_tokens": 95,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V12",
+        "call_id": "decision-gku0djxw",
+        "action": "search_materials",
+        "seconds": 15.89,
+        "reasoning_effort": "medium",
+        "input_tokens": 27253,
+        "output_tokens": 90,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V12",
+        "call_id": "decision-4jbvmnt2",
+        "action": "write_script",
+        "seconds": 36.05,
+        "reasoning_effort": "medium",
+        "input_tokens": 27440,
+        "output_tokens": 447,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V12",
+        "call_id": "decision-1aprscus",
+        "action": "check_requirements",
+        "seconds": 12.82,
+        "reasoning_effort": "medium",
+        "input_tokens": 28022,
+        "output_tokens": 86,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V12",
+        "call_id": "decision-x18pm991",
+        "action": "review",
+        "seconds": 41.6,
+        "reasoning_effort": "medium",
+        "input_tokens": 28720,
+        "output_tokens": 1134,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V12",
+        "call_id": "decision-t_8m2_26",
+        "action": "finish",
+        "seconds": 13.71,
+        "reasoning_effort": "medium",
+        "input_tokens": 30559,
+        "output_tokens": 102,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V13",
+        "call_id": "decision-g_krlaga",
+        "action": "search_materials",
+        "seconds": 19.49,
+        "reasoning_effort": "medium",
+        "input_tokens": 27247,
+        "output_tokens": 71,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V13",
+        "call_id": "decision-zkqb6un3",
+        "action": "write_script",
+        "seconds": 19.07,
+        "reasoning_effort": "medium",
+        "input_tokens": 27623,
+        "output_tokens": 424,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V13",
+        "call_id": "decision-jkl9r438",
+        "action": "check_requirements",
+        "seconds": 13.09,
+        "reasoning_effort": "medium",
+        "input_tokens": 27511,
+        "output_tokens": 68,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V13",
+        "call_id": "decision-z02mj3hf",
+        "action": "review",
+        "seconds": 35.83,
+        "reasoning_effort": "medium",
+        "input_tokens": 28954,
+        "output_tokens": 1179,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V13",
+        "call_id": "decision-uq9k72m4",
+        "action": "finish",
+        "seconds": 18.18,
+        "reasoning_effort": "medium",
+        "input_tokens": 31028,
+        "output_tokens": 92,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-oqgxiu2f",
+        "action": "search_materials",
+        "seconds": 20.89,
+        "reasoning_effort": "medium",
+        "input_tokens": 26580,
+        "output_tokens": 90,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-yi_wihjw",
+        "action": "write_script",
+        "seconds": 37.24,
+        "reasoning_effort": "medium",
+        "input_tokens": 27644,
+        "output_tokens": 725,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-ug9nk900",
+        "action": "check_requirements",
+        "seconds": 13.56,
+        "reasoning_effort": "medium",
+        "input_tokens": 28462,
+        "output_tokens": 61,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-gf2e0eph",
+        "action": "review",
+        "seconds": 52.1,
+        "reasoning_effort": "medium",
+        "input_tokens": 29591,
+        "output_tokens": 1509,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-55nc131_",
+        "action": "finish",
+        "seconds": 15.57,
+        "reasoning_effort": "medium",
+        "input_tokens": 32019,
+        "output_tokens": 92,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-md_34i6y",
+        "action": "search_materials",
+        "seconds": 23.89,
+        "reasoning_effort": "medium",
+        "input_tokens": 27251,
+        "output_tokens": 73,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-hwtm7a2w",
+        "action": "write_script",
+        "seconds": 28.66,
+        "reasoning_effort": "medium",
+        "input_tokens": 27530,
+        "output_tokens": 780,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-o0vhei_z",
+        "action": "check_requirements",
+        "seconds": 12.59,
+        "reasoning_effort": "medium",
+        "input_tokens": 28368,
+        "output_tokens": 68,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-lscuesot",
+        "action": "review",
+        "seconds": 43.09,
+        "reasoning_effort": "medium",
+        "input_tokens": 29364,
+        "output_tokens": 1482,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-7chaj3ak",
+        "action": "finish",
+        "seconds": 15.48,
+        "reasoning_effort": "medium",
+        "input_tokens": 31674,
+        "output_tokens": 97,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-j1iiz949",
+        "action": "search_materials",
+        "seconds": 22.25,
+        "reasoning_effort": "medium",
+        "input_tokens": 27259,
+        "output_tokens": 90,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-nndiizcv",
+        "action": "write_script",
+        "seconds": 30.95,
+        "reasoning_effort": "medium",
+        "input_tokens": 27551,
+        "output_tokens": 491,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-wi4zuser",
+        "action": "check_requirements",
+        "seconds": 12.43,
+        "reasoning_effort": "medium",
+        "input_tokens": 27521,
+        "output_tokens": 73,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-e6tirbk3",
+        "action": "review",
+        "seconds": 47.16,
+        "reasoning_effort": "medium",
+        "input_tokens": 28945,
+        "output_tokens": 1546,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-54y9prtr",
+        "action": "finish",
+        "seconds": 16.5,
+        "reasoning_effort": "medium",
+        "input_tokens": 31020,
+        "output_tokens": 104,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-2xp1fc7d",
+        "action": "search_materials",
+        "seconds": 17.57,
+        "reasoning_effort": "medium",
+        "input_tokens": 27261,
+        "output_tokens": 86,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-6oq5m0nd",
+        "action": "write_script",
+        "seconds": 30.12,
+        "reasoning_effort": "medium",
+        "input_tokens": 27551,
+        "output_tokens": 578,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-vekxvewz",
+        "action": "check_requirements",
+        "seconds": 15.46,
+        "reasoning_effort": "medium",
+        "input_tokens": 28298,
+        "output_tokens": 86,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-g5u4h82z",
+        "action": "review",
+        "seconds": 38.99,
+        "reasoning_effort": "medium",
+        "input_tokens": 28772,
+        "output_tokens": 1423,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-7llgnfdw",
+        "action": "finish",
+        "seconds": 27.54,
+        "reasoning_effort": "medium",
+        "input_tokens": 31736,
+        "output_tokens": 104,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V18",
+        "call_id": "decision-q0rxwebh",
+        "action": "search_materials",
+        "seconds": 15.88,
+        "reasoning_effort": "medium",
+        "input_tokens": 27255,
+        "output_tokens": 78,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V18",
+        "call_id": "decision-3h_jk7lj",
+        "action": "write_script",
+        "seconds": 38.53,
+        "reasoning_effort": "medium",
+        "input_tokens": 27541,
+        "output_tokens": 686,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V18",
+        "call_id": "decision-_if4s24k",
+        "action": "check_requirements",
+        "seconds": 15.24,
+        "reasoning_effort": "medium",
+        "input_tokens": 28109,
+        "output_tokens": 80,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V18",
+        "call_id": "decision-i5ctntcm",
+        "action": "review",
+        "seconds": 39.33,
+        "reasoning_effort": "medium",
+        "input_tokens": 28029,
+        "output_tokens": 1363,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V18",
+        "call_id": "decision-7epmum11",
+        "action": "finish",
+        "seconds": 24.69,
+        "reasoning_effort": "medium",
+        "input_tokens": 30617,
+        "output_tokens": 108,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-lt73ulcv",
+        "action": "search_materials",
+        "seconds": 18.44,
+        "reasoning_effort": "medium",
+        "input_tokens": 27255,
+        "output_tokens": 78,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-gww_i9_5",
+        "action": "write_script",
+        "seconds": 47.7,
+        "reasoning_effort": "medium",
+        "input_tokens": 27539,
+        "output_tokens": 741,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-79kmzs5t",
+        "action": "check_requirements",
+        "seconds": 15.05,
+        "reasoning_effort": "medium",
+        "input_tokens": 28369,
+        "output_tokens": 76,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-p6vvhyt7",
+        "action": "review",
+        "seconds": 53.13,
+        "reasoning_effort": "medium",
+        "input_tokens": 29431,
+        "output_tokens": 1830,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-ssdyy0qp",
+        "action": "finish",
+        "seconds": 14.06,
+        "reasoning_effort": "medium",
+        "input_tokens": 31730,
+        "output_tokens": 98,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V20",
+        "call_id": "decision-55eahre9",
+        "action": "search_materials",
+        "seconds": 17.98,
+        "reasoning_effort": "medium",
+        "input_tokens": 27258,
+        "output_tokens": 80,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V20",
+        "call_id": "decision-q5d3mwa2",
+        "action": "write_script",
+        "seconds": 31.5,
+        "reasoning_effort": "medium",
+        "input_tokens": 27536,
+        "output_tokens": 428,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V20",
+        "call_id": "decision-0t01d5a0",
+        "action": "check_requirements",
+        "seconds": 19.5,
+        "reasoning_effort": "medium",
+        "input_tokens": 28108,
+        "output_tokens": 78,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V20",
+        "call_id": "decision-y9xzwx25",
+        "action": "review",
+        "seconds": 34.38,
+        "reasoning_effort": "medium",
+        "input_tokens": 28964,
+        "output_tokens": 1118,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V20",
+        "call_id": "decision-7fqhj5uh",
+        "action": "finish",
+        "seconds": 15.89,
+        "reasoning_effort": "medium",
+        "input_tokens": 30847,
+        "output_tokens": 108,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-xm0gj1im",
+        "action": "search_materials",
+        "seconds": 16.06,
+        "reasoning_effort": "medium",
+        "input_tokens": 27256,
+        "output_tokens": 88,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-gcl74mjc",
+        "action": "write_script",
+        "seconds": 38.97,
+        "reasoning_effort": "medium",
+        "input_tokens": 27643,
+        "output_tokens": 822,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-c2hog8kx",
+        "action": "check_requirements",
+        "seconds": 13.86,
+        "reasoning_effort": "medium",
+        "input_tokens": 28424,
+        "output_tokens": 74,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-vta7e296",
+        "action": "review",
+        "seconds": 45.25,
+        "reasoning_effort": "medium",
+        "input_tokens": 29420,
+        "output_tokens": 1546,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-k11saj21",
+        "action": "finish",
+        "seconds": 13.89,
+        "reasoning_effort": "medium",
+        "input_tokens": 31932,
+        "output_tokens": 99,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-g67fvsyr",
+        "action": "search_materials",
+        "seconds": 15.02,
+        "reasoning_effort": "medium",
+        "input_tokens": 27261,
+        "output_tokens": 84,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-q0svzuml",
+        "action": "write_script",
+        "seconds": 43.4,
+        "reasoning_effort": "medium",
+        "input_tokens": 27539,
+        "output_tokens": 934,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-mu2r4qjs",
+        "action": "check_requirements",
+        "seconds": 12.71,
+        "reasoning_effort": "medium",
+        "input_tokens": 28387,
+        "output_tokens": 76,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-3o_qacod",
+        "action": "review",
+        "seconds": 40.09,
+        "reasoning_effort": "medium",
+        "input_tokens": 29324,
+        "output_tokens": 1374,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-m6736g8q",
+        "action": "finish",
+        "seconds": 17.55,
+        "reasoning_effort": "medium",
+        "input_tokens": 31518,
+        "output_tokens": 103,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V23",
+        "call_id": "decision-ngq72tcd",
+        "action": "search_materials",
+        "seconds": 16.29,
+        "reasoning_effort": "medium",
+        "input_tokens": 27250,
+        "output_tokens": 75,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V23",
+        "call_id": "decision-2vkfw0k1",
+        "action": "write_script",
+        "seconds": 27.86,
+        "reasoning_effort": "medium",
+        "input_tokens": 27426,
+        "output_tokens": 470,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V23",
+        "call_id": "decision-jcddrwnd",
+        "action": "check_requirements",
+        "seconds": 14.23,
+        "reasoning_effort": "medium",
+        "input_tokens": 28028,
+        "output_tokens": 75,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V23",
+        "call_id": "decision-i3kbxsim",
+        "action": "review",
+        "seconds": 31.64,
+        "reasoning_effort": "medium",
+        "input_tokens": 28058,
+        "output_tokens": 1061,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V23",
+        "call_id": "decision-9j5gbvkt",
+        "action": "finish",
+        "seconds": 11.99,
+        "reasoning_effort": "medium",
+        "input_tokens": 29838,
+        "output_tokens": 103,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V24",
+        "call_id": "decision-mpoqgw8x",
+        "action": "search_materials",
+        "seconds": 14.57,
+        "reasoning_effort": "medium",
+        "input_tokens": 26589,
+        "output_tokens": 83,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V24",
+        "call_id": "decision-0bg4i8ai",
+        "action": "search_materials",
+        "seconds": 19.07,
+        "reasoning_effort": "medium",
+        "input_tokens": 27555,
+        "output_tokens": 153,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V24",
+        "call_id": "decision-_bf1buk2",
+        "action": "finish",
+        "seconds": 21.43,
+        "reasoning_effort": "medium",
+        "input_tokens": 27680,
+        "output_tokens": 270,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-eb0_6mg1",
+        "action": "search_materials",
+        "seconds": 12.9,
+        "reasoning_effort": "medium",
+        "input_tokens": 26585,
+        "output_tokens": 76,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-qsunjerm",
+        "action": "write_script",
+        "seconds": 27.89,
+        "reasoning_effort": "medium",
+        "input_tokens": 27536,
+        "output_tokens": 454,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-mc_72o79",
+        "action": "check_requirements",
+        "seconds": 15.74,
+        "reasoning_effort": "medium",
+        "input_tokens": 28128,
+        "output_tokens": 73,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-dmf3y95o",
+        "action": "review",
+        "seconds": 35.29,
+        "reasoning_effort": "medium",
+        "input_tokens": 28834,
+        "output_tokens": 1212,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-hsw1zqz8",
+        "action": "finish",
+        "seconds": 14.37,
+        "reasoning_effort": "medium",
+        "input_tokens": 30849,
+        "output_tokens": 99,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V26",
+        "call_id": "decision-byute0u9",
+        "action": "search_materials",
+        "seconds": 13.93,
+        "reasoning_effort": "medium",
+        "input_tokens": 27255,
+        "output_tokens": 69,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V26",
+        "call_id": "decision-ptultp1c",
+        "action": "write_script",
+        "seconds": 16.67,
+        "reasoning_effort": "medium",
+        "input_tokens": 27627,
+        "output_tokens": 210,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V26",
+        "call_id": "decision-rivss15k",
+        "action": "check_requirements",
+        "seconds": 16.39,
+        "reasoning_effort": "medium",
+        "input_tokens": 27930,
+        "output_tokens": 74,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V26",
+        "call_id": "decision-vgi4pkaj",
+        "action": "review",
+        "seconds": 24.23,
+        "reasoning_effort": "medium",
+        "input_tokens": 27485,
+        "output_tokens": 729,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V26",
+        "call_id": "decision-dqob8tm7",
+        "action": "finish",
+        "seconds": 14.38,
+        "reasoning_effort": "medium",
+        "input_tokens": 29738,
+        "output_tokens": 91,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V27",
+        "call_id": "decision-49tccpe6",
+        "action": "search_materials",
+        "seconds": 14.11,
+        "reasoning_effort": "medium",
+        "input_tokens": 27262,
+        "output_tokens": 78,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V27",
+        "call_id": "decision-f7wqras3",
+        "action": "write_script",
+        "seconds": 15.56,
+        "reasoning_effort": "medium",
+        "input_tokens": 27534,
+        "output_tokens": 289,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V27",
+        "call_id": "decision-07ebsb93",
+        "action": "check_requirements",
+        "seconds": 14.63,
+        "reasoning_effort": "medium",
+        "input_tokens": 27249,
+        "output_tokens": 79,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V27",
+        "call_id": "decision-i0h7c7dj",
+        "action": "review",
+        "seconds": 29.0,
+        "reasoning_effort": "medium",
+        "input_tokens": 28388,
+        "output_tokens": 872,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V27",
+        "call_id": "decision-dmpyclf_",
+        "action": "finish",
+        "seconds": 19.66,
+        "reasoning_effort": "medium",
+        "input_tokens": 30046,
+        "output_tokens": 90,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-q2mnm14c",
+        "action": "search_materials",
+        "seconds": 14.65,
+        "reasoning_effort": "medium",
+        "input_tokens": 26588,
+        "output_tokens": 95,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-p3alh8t7",
+        "action": "write_script",
+        "seconds": 49.85,
+        "reasoning_effort": "medium",
+        "input_tokens": 27661,
+        "output_tokens": 949,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-g0kzq183",
+        "action": "check_requirements",
+        "seconds": 12.58,
+        "reasoning_effort": "medium",
+        "input_tokens": 28012,
+        "output_tokens": 77,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-l6vx8_qu",
+        "action": "write_script",
+        "seconds": 25.74,
+        "reasoning_effort": "medium",
+        "input_tokens": 30192,
+        "output_tokens": 848,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-_eqs6h6q",
+        "action": "check_requirements",
+        "seconds": 11.96,
+        "reasoning_effort": "medium",
+        "input_tokens": 28963,
+        "output_tokens": 70,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-bsy48s3b",
+        "action": "review",
+        "seconds": 61.03,
+        "reasoning_effort": "medium",
+        "input_tokens": 30230,
+        "output_tokens": 2511,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-moblkt02",
+        "action": "finish",
+        "seconds": 19.49,
+        "reasoning_effort": "medium",
+        "input_tokens": 33419,
+        "output_tokens": 107,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-3khuo5g9",
+        "action": "search_materials",
+        "seconds": 17.82,
+        "reasoning_effort": "medium",
+        "input_tokens": 27265,
+        "output_tokens": 93,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-0iu7xfns",
+        "action": "write_script",
+        "seconds": 51.06,
+        "reasoning_effort": "medium",
+        "input_tokens": 27655,
+        "output_tokens": 1128,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-ybgtylo9",
+        "action": "check_requirements",
+        "seconds": 14.34,
+        "reasoning_effort": "medium",
+        "input_tokens": 28918,
+        "output_tokens": 74,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-06it05fb",
+        "action": "review",
+        "seconds": 75.24,
+        "reasoning_effort": "medium",
+        "input_tokens": 30762,
+        "output_tokens": 2810,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-qfskav0z",
+        "action": "finish",
+        "seconds": 17.49,
+        "reasoning_effort": "medium",
+        "input_tokens": 33944,
+        "output_tokens": 103,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V30",
+        "call_id": "decision-ose9q7h4",
+        "action": "search_materials",
+        "seconds": 14.44,
+        "reasoning_effort": "medium",
+        "input_tokens": 26589,
+        "output_tokens": 92,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V30",
+        "call_id": "decision-a2ygte4a",
+        "action": "write_script",
+        "seconds": 22.2,
+        "reasoning_effort": "medium",
+        "input_tokens": 27655,
+        "output_tokens": 353,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V30",
+        "call_id": "decision-gv23b2vb",
+        "action": "check_requirements",
+        "seconds": 14.98,
+        "reasoning_effort": "medium",
+        "input_tokens": 28137,
+        "output_tokens": 76,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V30",
+        "call_id": "decision-g6qc8e95",
+        "action": "review",
+        "seconds": 43.64,
+        "reasoning_effort": "medium",
+        "input_tokens": 28790,
+        "output_tokens": 1626,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V30",
+        "call_id": "decision-wo18itgx",
+        "action": "write_script",
+        "seconds": 26.18,
+        "reasoning_effort": "medium",
+        "input_tokens": 30287,
+        "output_tokens": 409,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V30",
+        "call_id": "decision-l6pzzo6j",
+        "action": "check_requirements",
+        "seconds": 21.24,
+        "reasoning_effort": "medium",
+        "input_tokens": 28502,
+        "output_tokens": 80,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V30",
+        "call_id": "decision-k_qim4pl",
+        "action": "review",
+        "seconds": 59.31,
+        "reasoning_effort": "medium",
+        "input_tokens": 28833,
+        "output_tokens": 1589,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V30",
+        "call_id": "decision-w2gz2v5g",
+        "action": "finish",
+        "seconds": 18.18,
+        "reasoning_effort": "medium",
+        "input_tokens": 31299,
+        "output_tokens": 95,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V31",
+        "call_id": "decision-ij7gt3_i",
+        "action": "search_materials",
+        "seconds": 15.12,
+        "reasoning_effort": "medium",
+        "input_tokens": 27263,
+        "output_tokens": 73,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V31",
+        "call_id": "decision-rk4xrqar",
+        "action": "write_script",
+        "seconds": 32.16,
+        "reasoning_effort": "medium",
+        "input_tokens": 26863,
+        "output_tokens": 408,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V31",
+        "call_id": "decision-yac9ldna",
+        "action": "check_requirements",
+        "seconds": 15.74,
+        "reasoning_effort": "medium",
+        "input_tokens": 28067,
+        "output_tokens": 85,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V31",
+        "call_id": "decision-o4c2_bu3",
+        "action": "review",
+        "seconds": 40.45,
+        "reasoning_effort": "medium",
+        "input_tokens": 28648,
+        "output_tokens": 1102,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V31",
+        "call_id": "decision-xruek2oc",
+        "action": "finish",
+        "seconds": 21.26,
+        "reasoning_effort": "medium",
+        "input_tokens": 30569,
+        "output_tokens": 101,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V32",
+        "call_id": "decision-pp5xh516",
+        "action": "search_materials",
+        "seconds": 15.97,
+        "reasoning_effort": "medium",
+        "input_tokens": 27256,
+        "output_tokens": 73,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V32",
+        "call_id": "decision-14wzw1j0",
+        "action": "write_script",
+        "seconds": 25.02,
+        "reasoning_effort": "medium",
+        "input_tokens": 26862,
+        "output_tokens": 466,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V32",
+        "call_id": "decision-qeppowvd",
+        "action": "check_requirements",
+        "seconds": 18.27,
+        "reasoning_effort": "medium",
+        "input_tokens": 28139,
+        "output_tokens": 76,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V32",
+        "call_id": "decision-kdcddemx",
+        "action": "review",
+        "seconds": 36.69,
+        "reasoning_effort": "medium",
+        "input_tokens": 28948,
+        "output_tokens": 1193,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V32",
+        "call_id": "decision-20h3iouj",
+        "action": "finish",
+        "seconds": 18.83,
+        "reasoning_effort": "medium",
+        "input_tokens": 30950,
+        "output_tokens": 99,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V33",
+        "call_id": "decision-0d78p6ft",
+        "action": "search_materials",
+        "seconds": 18.77,
+        "reasoning_effort": "medium",
+        "input_tokens": 27265,
+        "output_tokens": 118,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V33",
+        "call_id": "decision-w2u_wkq3",
+        "action": "search_materials",
+        "seconds": 18.07,
+        "reasoning_effort": "medium",
+        "input_tokens": 27670,
+        "output_tokens": 126,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V33",
+        "call_id": "decision-52kibm82",
+        "action": "finish",
+        "seconds": 16.46,
+        "reasoning_effort": "medium",
+        "input_tokens": 27795,
+        "output_tokens": 145,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V34",
+        "call_id": "decision-lcld5fek",
+        "action": "search_materials",
+        "seconds": 19.49,
+        "reasoning_effort": "medium",
+        "input_tokens": 27255,
+        "output_tokens": 103,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V34",
+        "call_id": "decision-xjdap80f",
+        "action": "finish",
+        "seconds": 17.93,
+        "reasoning_effort": "medium",
+        "input_tokens": 27560,
+        "output_tokens": 166,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V35",
+        "call_id": "decision-z3mcxjpw",
+        "action": "search_materials",
+        "seconds": 18.35,
+        "reasoning_effort": "medium",
+        "input_tokens": 27251,
+        "output_tokens": 94,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V35",
+        "call_id": "decision-a_jsq0nm",
+        "action": "search_materials",
+        "seconds": 16.6,
+        "reasoning_effort": "medium",
+        "input_tokens": 27644,
+        "output_tokens": 141,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V35",
+        "call_id": "decision-mkfm7d8k",
+        "action": "finish",
+        "seconds": 20.02,
+        "reasoning_effort": "medium",
+        "input_tokens": 27103,
+        "output_tokens": 227,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-gg4e2ivz",
+        "action": "search_materials",
+        "seconds": 22.84,
+        "reasoning_effort": "medium",
+        "input_tokens": 27262,
+        "output_tokens": 72,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-iiljscfy",
+        "action": "write_script",
+        "seconds": 22.34,
+        "reasoning_effort": "medium",
+        "input_tokens": 26859,
+        "output_tokens": 439,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-cbniqulo",
+        "action": "check_requirements",
+        "seconds": 12.54,
+        "reasoning_effort": "medium",
+        "input_tokens": 28108,
+        "output_tokens": 83,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-sdr1qfcc",
+        "action": "review",
+        "seconds": 41.78,
+        "reasoning_effort": "medium",
+        "input_tokens": 28823,
+        "output_tokens": 1403,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-yhr1ow9n",
+        "action": "finish",
+        "seconds": 14.03,
+        "reasoning_effort": "medium",
+        "input_tokens": 30727,
+        "output_tokens": 106,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V37",
+        "call_id": "decision-a9r3n6at",
+        "action": "search_materials",
+        "seconds": 21.12,
+        "reasoning_effort": "medium",
+        "input_tokens": 27265,
+        "output_tokens": 121,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V37",
+        "call_id": "decision-cvlj29yc",
+        "action": "finish",
+        "seconds": 16.81,
+        "reasoning_effort": "medium",
+        "input_tokens": 27683,
+        "output_tokens": 169,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V38",
+        "call_id": "decision-7rz7w9ux",
+        "action": "search_materials",
+        "seconds": 18.94,
+        "reasoning_effort": "medium",
+        "input_tokens": 27250,
+        "output_tokens": 94,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V38",
+        "call_id": "decision-yrsllmfw",
+        "action": "search_materials",
+        "seconds": 16.51,
+        "reasoning_effort": "medium",
+        "input_tokens": 26966,
+        "output_tokens": 96,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V38",
+        "call_id": "decision-7o3hgigp",
+        "action": "finish",
+        "seconds": 17.48,
+        "reasoning_effort": "medium",
+        "input_tokens": 27760,
+        "output_tokens": 135,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V39",
+        "call_id": "decision-8nof7hfj",
+        "action": "search_materials",
+        "seconds": 20.1,
+        "reasoning_effort": "medium",
+        "input_tokens": 27253,
+        "output_tokens": 90,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V39",
+        "call_id": "decision-ai7ucrn0",
+        "action": "search_materials",
+        "seconds": 16.15,
+        "reasoning_effort": "medium",
+        "input_tokens": 27535,
+        "output_tokens": 107,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V39",
+        "call_id": "decision-nrkmq3cn",
+        "action": "finish",
+        "seconds": 15.24,
+        "reasoning_effort": "medium",
+        "input_tokens": 27766,
+        "output_tokens": 139,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V40",
+        "call_id": "decision-zznnkjd0",
+        "action": "search_materials",
+        "seconds": 13.72,
+        "reasoning_effort": "medium",
+        "input_tokens": 27246,
+        "output_tokens": 103,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V40",
+        "call_id": "decision-b63fwk34",
+        "action": "finish",
+        "seconds": 16.37,
+        "reasoning_effort": "medium",
+        "input_tokens": 26973,
+        "output_tokens": 140,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V41",
+        "call_id": "decision-keh98d2n",
+        "action": "search_materials",
+        "seconds": 19.39,
+        "reasoning_effort": "medium",
+        "input_tokens": 27262,
+        "output_tokens": 88,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V41",
+        "call_id": "decision-zol2ri86",
+        "action": "finish",
+        "seconds": 18.33,
+        "reasoning_effort": "medium",
+        "input_tokens": 27356,
+        "output_tokens": 161,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V42",
+        "call_id": "decision-0smv31qq",
+        "action": "search_materials",
+        "seconds": 17.93,
+        "reasoning_effort": "medium",
+        "input_tokens": 27248,
+        "output_tokens": 106,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V42",
+        "call_id": "decision-14ticatu",
+        "action": "finish",
+        "seconds": 17.56,
+        "reasoning_effort": "medium",
+        "input_tokens": 27358,
+        "output_tokens": 149,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V43",
+        "call_id": "decision-y4z09okw",
+        "action": "finish",
+        "seconds": 20.31,
+        "reasoning_effort": "medium",
+        "input_tokens": 27251,
+        "output_tokens": 173,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V44",
+        "call_id": "decision-0muoc0cd",
+        "action": "search_materials",
+        "seconds": 16.66,
+        "reasoning_effort": "medium",
+        "input_tokens": 27253,
+        "output_tokens": 108,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V44",
+        "call_id": "decision-lmu_fmrn",
+        "action": "search_materials",
+        "seconds": 16.87,
+        "reasoning_effort": "medium",
+        "input_tokens": 27367,
+        "output_tokens": 95,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V44",
+        "call_id": "decision-w_9q9cmz",
+        "action": "finish",
+        "seconds": 18.4,
+        "reasoning_effort": "medium",
+        "input_tokens": 26784,
+        "output_tokens": 157,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-kriak2md",
+        "action": "estimate_duration",
+        "seconds": 15.05,
+        "reasoning_effort": "medium",
+        "input_tokens": 27593,
+        "output_tokens": 72,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-rgrhq5_a",
+        "action": "search_materials",
+        "seconds": 17.01,
+        "reasoning_effort": "medium",
+        "input_tokens": 27906,
+        "output_tokens": 100,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-gavb6kur",
+        "action": "write_script",
+        "seconds": 20.7,
+        "reasoning_effort": "medium",
+        "input_tokens": 27535,
+        "output_tokens": 468,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-t7k4ps40",
+        "action": "check_requirements",
+        "seconds": 13.66,
+        "reasoning_effort": "medium",
+        "input_tokens": 28459,
+        "output_tokens": 85,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-q8kqpqcy",
+        "action": "review",
+        "seconds": 40.58,
+        "reasoning_effort": "medium",
+        "input_tokens": 28960,
+        "output_tokens": 1115,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-9d9mgdl6",
+        "action": "finish",
+        "seconds": 19.54,
+        "reasoning_effort": "medium",
+        "input_tokens": 31043,
+        "output_tokens": 103,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V46",
+        "call_id": "decision-q7i90_gt",
+        "action": "check_rules",
+        "seconds": 13.25,
+        "reasoning_effort": "medium",
+        "input_tokens": 27597,
+        "output_tokens": 66,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V46",
+        "call_id": "decision-nod55u3s",
+        "action": "search_materials",
+        "seconds": 15.04,
+        "reasoning_effort": "medium",
+        "input_tokens": 28115,
+        "output_tokens": 85,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V46",
+        "call_id": "decision-vs4qdfy2",
+        "action": "write_script",
+        "seconds": 31.22,
+        "reasoning_effort": "medium",
+        "input_tokens": 28503,
+        "output_tokens": 351,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V46",
+        "call_id": "decision-c9_ev_xs",
+        "action": "check_requirements",
+        "seconds": 15.24,
+        "reasoning_effort": "medium",
+        "input_tokens": 28481,
+        "output_tokens": 78,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V46",
+        "call_id": "decision-v7o8dtsm",
+        "action": "review",
+        "seconds": 34.58,
+        "reasoning_effort": "medium",
+        "input_tokens": 28012,
+        "output_tokens": 1143,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V46",
+        "call_id": "decision-vlcmjwr6",
+        "action": "finish",
+        "seconds": 13.73,
+        "reasoning_effort": "medium",
+        "input_tokens": 30698,
+        "output_tokens": 102,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-fc5plkwk",
+        "action": "estimate_duration",
+        "seconds": 14.05,
+        "reasoning_effort": "medium",
+        "input_tokens": 27673,
+        "output_tokens": 66,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-x2vtfchk",
+        "action": "search_materials",
+        "seconds": 18.5,
+        "reasoning_effort": "medium",
+        "input_tokens": 28004,
+        "output_tokens": 106,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-_d8r932d",
+        "action": "write_script",
+        "seconds": 29.97,
+        "reasoning_effort": "medium",
+        "input_tokens": 28413,
+        "output_tokens": 501,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-asd444be",
+        "action": "check_requirements",
+        "seconds": 13.13,
+        "reasoning_effort": "medium",
+        "input_tokens": 28643,
+        "output_tokens": 77,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-sqz806zp",
+        "action": "review",
+        "seconds": 52.2,
+        "reasoning_effort": "medium",
+        "input_tokens": 29177,
+        "output_tokens": 1382,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-q07_dyk4",
+        "action": "finish",
+        "seconds": 14.74,
+        "reasoning_effort": "medium",
+        "input_tokens": 31349,
+        "output_tokens": 101,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V48",
+        "call_id": "decision-asog8g3w",
+        "action": "check_requirements",
+        "seconds": 24.42,
+        "reasoning_effort": "medium",
+        "input_tokens": 27612,
+        "output_tokens": 70,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V48",
+        "call_id": "decision-fr5tdolb",
+        "action": "search_materials",
+        "seconds": 19.51,
+        "reasoning_effort": "medium",
+        "input_tokens": 28213,
+        "output_tokens": 102,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V48",
+        "call_id": "decision-ws6hn5ms",
+        "action": "write_script",
+        "seconds": 22.3,
+        "reasoning_effort": "medium",
+        "input_tokens": 28619,
+        "output_tokens": 425,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V48",
+        "call_id": "decision-es9116re",
+        "action": "check_requirements",
+        "seconds": 16.53,
+        "reasoning_effort": "medium",
+        "input_tokens": 28489,
+        "output_tokens": 79,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V48",
+        "call_id": "decision-ji07bu_e",
+        "action": "review",
+        "seconds": 36.11,
+        "reasoning_effort": "medium",
+        "input_tokens": 28839,
+        "output_tokens": 1201,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V48",
+        "call_id": "decision-q7_e28l6",
+        "action": "finish",
+        "seconds": 17.81,
+        "reasoning_effort": "medium",
+        "input_tokens": 30825,
+        "output_tokens": 100,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V49",
+        "call_id": "decision-uop9vt50",
+        "action": "estimate_duration",
+        "seconds": 28.68,
+        "reasoning_effort": "medium",
+        "input_tokens": 27534,
+        "output_tokens": 59,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V49",
+        "call_id": "decision-l7o462co",
+        "action": "search_materials",
+        "seconds": 18.21,
+        "reasoning_effort": "medium",
+        "input_tokens": 27810,
+        "output_tokens": 114,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V49",
+        "call_id": "decision-_v2n96gd",
+        "action": "write_script",
+        "seconds": 18.3,
+        "reasoning_effort": "medium",
+        "input_tokens": 28120,
+        "output_tokens": 352,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V49",
+        "call_id": "decision-dq8r_4pu",
+        "action": "check_requirements",
+        "seconds": 15.03,
+        "reasoning_effort": "medium",
+        "input_tokens": 28285,
+        "output_tokens": 77,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V49",
+        "call_id": "decision-f416zpq9",
+        "action": "review",
+        "seconds": 41.22,
+        "reasoning_effort": "medium",
+        "input_tokens": 28603,
+        "output_tokens": 1227,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V49",
+        "call_id": "decision-q59vtuof",
+        "action": "finish",
+        "seconds": 13.25,
+        "reasoning_effort": "medium",
+        "input_tokens": 30454,
+        "output_tokens": 112,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V50",
+        "call_id": "decision-9kyakooa",
+        "action": "search_materials",
+        "seconds": 26.43,
+        "reasoning_effort": "medium",
+        "input_tokens": 27270,
+        "output_tokens": 81,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V50",
+        "call_id": "decision-wau9u1bt",
+        "action": "write_script",
+        "seconds": 28.05,
+        "reasoning_effort": "medium",
+        "input_tokens": 27652,
+        "output_tokens": 477,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V50",
+        "call_id": "decision-qplat85w",
+        "action": "check_requirements",
+        "seconds": 14.07,
+        "reasoning_effort": "medium",
+        "input_tokens": 28254,
+        "output_tokens": 78,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V50",
+        "call_id": "decision-lwn7jlcr",
+        "action": "review",
+        "seconds": 36.56,
+        "reasoning_effort": "medium",
+        "input_tokens": 28905,
+        "output_tokens": 1217,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V50",
+        "call_id": "decision-_qozpuoi",
+        "action": "finish",
+        "seconds": 13.92,
+        "reasoning_effort": "medium",
+        "input_tokens": 31049,
+        "output_tokens": 95,
+        "recovered_attempts": []
+      }
+    ]
+  },
+  "note": "Same frozen briefs, both four-page concurrency; different time windows and model service conditions. Counts are not billing amounts; title specificity requires reading."
+}

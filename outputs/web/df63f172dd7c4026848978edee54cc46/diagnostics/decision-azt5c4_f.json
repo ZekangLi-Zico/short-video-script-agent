@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-azt5c4_f",
+  "started_at": "2026-11-04T01:20:12.673280+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:20:31.883991+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a424-6e55-7aa2-b880-1224e6f8882d",
+    "usage": {
+      "input_tokens": 27199,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 177,
+      "reasoning_output_tokens": 103
+    },
+    "call_id": "decision-azt5c4_f",
+    "warnings": []
+  }
+}

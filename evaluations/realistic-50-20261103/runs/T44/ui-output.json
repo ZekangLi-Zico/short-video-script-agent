@@ -1,0 +1,767 @@
+{
+  "status": "completed",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "字幕，让表达被看见",
+    "shots": [
+      {
+        "visual": "人物面对镜头提出问题",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "想让画面里的表达更清楚？",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "将旁白作为字幕叠加在日常画面上",
+        "hold_seconds": 6,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "产品功能文字卡片，不展示未经提供的界面",
+        "hold_seconds": 5,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      },
+      {
+        "visual": "简洁背景展示结尾文字",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "试试你的下一条短片吧。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "1ab45c7a24f006b0e7fb2915701ca8137ecb234c73cbc58b7a48a43a9f937018",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 11,
+        "estimated_seconds": 4
+      },
+      {
+        "shot": 2,
+        "speech_units": 14,
+        "estimated_seconds": 6
+      },
+      {
+        "shot": 3,
+        "speech_units": 10,
+        "estimated_seconds": 5
+      },
+      {
+        "shot": 4,
+        "speech_units": 10,
+        "estimated_seconds": 4
+      }
+    ],
+    "total_seconds": 19,
+    "target_seconds": 20,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "1ab45c7a24f006b0e7fb2915701ca8137ecb234c73cbc58b7a48a43a9f937018",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:3/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1"
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "字幕，让表达被看见",
+          "shots": [
+            {
+              "visual": "人物面对镜头提出问题",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "想让画面里的表达更清楚？",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "将旁白作为字幕叠加在日常画面上",
+              "hold_seconds": 12,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "产品功能文字卡片，不展示未经提供的界面",
+              "hold_seconds": 12,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "简洁背景展示结尾文字",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "试试你的下一条短片吧。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "target_seconds": 20
+      },
+      "decision_basis": "已有旧稿，先检查当前稿时长。",
+      "observation": {
+        "ok": true,
+        "script_hash": "89bad5314e81fb2b2b62bf6308d4a70e002e03a09a12f5069f8038eca40c56cc",
+        "shots": [
+          {
+            "shot": 1,
+            "speech_units": 11,
+            "estimated_seconds": 8
+          },
+          {
+            "shot": 2,
+            "speech_units": 14,
+            "estimated_seconds": 12
+          },
+          {
+            "shot": 3,
+            "speech_units": 10,
+            "estimated_seconds": 12
+          },
+          {
+            "shot": 4,
+            "speech_units": 10,
+            "estimated_seconds": 8
+          }
+        ],
+        "total_seconds": 40,
+        "target_seconds": 20,
+        "passed": false,
+        "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+        "is_estimate": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1f0-253d-76a2-a332-f8b306bae34d",
+        "usage": {
+          "input_tokens": 26276,
+          "cached_input_tokens": 23808,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 124,
+          "reasoning_output_tokens": 78
+        }
+      },
+      "elapsed_ms": 12406
+    },
+    {
+      "step": 2,
+      "action": "check_rules",
+      "arguments": {
+        "script": {
+          "title": "字幕，让表达被看见",
+          "shots": [
+            {
+              "visual": "人物面对镜头提出问题",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "想让画面里的表达更清楚？",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "将旁白作为字幕叠加在日常画面上",
+              "hold_seconds": 12,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "产品功能文字卡片，不展示未经提供的界面",
+              "hold_seconds": 12,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "简洁背景展示结尾文字",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "试试你的下一条短片吧。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "retrieved_ids": []
+      },
+      "decision_basis": "旧稿估算为40秒，超过20秒上限；先补查规则反馈，再针对性压缩。",
+      "observation": {
+        "ok": true,
+        "script_hash": "89bad5314e81fb2b2b62bf6308d4a70e002e03a09a12f5069f8038eca40c56cc",
+        "passed": false,
+        "issues": [
+          {
+            "code": "source_not_retrieved",
+            "location": "shot:2/block:1",
+            "source_id": "P01"
+          },
+          {
+            "code": "source_not_retrieved",
+            "location": "shot:3/block:1",
+            "source_id": "P01"
+          },
+          {
+            "code": "no_supported_product_fact",
+            "location": "script"
+          }
+        ],
+        "citations": [],
+        "rules_version": "2026-11-03-v1"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1f0-5673-7013-aab6-f2efdba5f905",
+        "usage": {
+          "input_tokens": 27647,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 169,
+          "reasoning_output_tokens": 109
+        }
+      },
+      "elapsed_ms": 18032
+    },
+    {
+      "step": 3,
+      "action": "search_materials",
+      "arguments": {
+        "query": "demo-editor 剪影练习版 P01 为视频添加字幕 字幕文字手动编辑",
+        "product_id": "demo-editor"
+      },
+      "decision_basis": "规则检查指出两个字幕功能的来源尚未检索，需先补齐事实依据。",
+      "observation": {
+        "ok": true,
+        "query": "demo-editor 剪影练习版 P01 为视频添加字幕 字幕文字手动编辑",
+        "product_id": "demo-editor",
+        "materials": [
+          {
+            "id": "P01",
+            "product_id": "demo-editor",
+            "title": "字幕功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "字幕",
+              "口播",
+              "文字",
+              "caption",
+              "subtitle"
+            ],
+            "facts": [
+              {
+                "id": "P01.F1",
+                "text": "剪影练习版支持为视频添加字幕。"
+              },
+              {
+                "id": "P01.F2",
+                "text": "字幕文字可以手动编辑。"
+              }
+            ]
+          },
+          {
+            "id": "P02",
+            "product_id": "demo-editor",
+            "title": "剪辑功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "剪辑",
+              "裁剪",
+              "片段",
+              "trim",
+              "edit"
+            ],
+            "facts": [
+              {
+                "id": "P02.F1",
+                "text": "剪影练习版支持裁剪视频片段。"
+              }
+            ]
+          },
+          {
+            "id": "P03",
+            "product_id": "demo-editor",
+            "title": "画面比例说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "比例",
+              "竖屏",
+              "横屏",
+              "画面",
+              "aspect"
+            ],
+            "facts": [
+              {
+                "id": "P03.F1",
+                "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+              }
+            ]
+          }
+        ],
+        "count": 3
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1f0-9e13-7e23-8fdb-af3f50ebd55a",
+        "usage": {
+          "input_tokens": 28247,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 157,
+          "reasoning_output_tokens": 80
+        }
+      },
+      "elapsed_ms": 16890
+    },
+    {
+      "step": 4,
+      "action": "write_script",
+      "arguments": {
+        "script": {
+          "title": "字幕，让表达被看见",
+          "shots": [
+            {
+              "visual": "人物面对镜头提出问题",
+              "hold_seconds": 4,
+              "blocks": [
+                {
+                  "text": "想让画面里的表达更清楚？",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "将旁白作为字幕叠加在日常画面上",
+              "hold_seconds": 6,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "产品功能文字卡片，不展示未经提供的界面",
+              "hold_seconds": 5,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "简洁背景展示结尾文字",
+              "hold_seconds": 4,
+              "blocks": [
+                {
+                  "text": "试试你的下一条短片吧。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision_basis": "旧稿估算40秒，超过20秒上限；字幕来源已补齐，保留四镜头顺序和全部文案，将停留时间合计缩至19秒。",
+      "observation": {
+        "ok": true,
+        "script_hash": "1ab45c7a24f006b0e7fb2915701ca8137ecb234c73cbc58b7a48a43a9f937018",
+        "message": "已更新草稿，必须对本稿重新运行时长与规则检查"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1f0-dfeb-7f61-82fb-be6925649f78",
+        "usage": {
+          "input_tokens": 28936,
+          "cached_input_tokens": 13696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 472,
+          "reasoning_output_tokens": 202
+        }
+      },
+      "elapsed_ms": 27156
+    },
+    {
+      "step": 5,
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "字幕，让表达被看见",
+          "shots": [
+            {
+              "visual": "人物面对镜头提出问题",
+              "hold_seconds": 4,
+              "blocks": [
+                {
+                  "text": "想让画面里的表达更清楚？",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "将旁白作为字幕叠加在日常画面上",
+              "hold_seconds": 6,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "产品功能文字卡片，不展示未经提供的界面",
+              "hold_seconds": 5,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "简洁背景展示结尾文字",
+              "hold_seconds": 4,
+              "blocks": [
+                {
+                  "text": "试试你的下一条短片吧。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "target_seconds": 20
+      },
+      "decision_basis": "当前稿已缩短四个镜头的停留时间，需重新检查是否满足20秒上限。",
+      "observation": {
+        "ok": true,
+        "script_hash": "1ab45c7a24f006b0e7fb2915701ca8137ecb234c73cbc58b7a48a43a9f937018",
+        "shots": [
+          {
+            "shot": 1,
+            "speech_units": 11,
+            "estimated_seconds": 4
+          },
+          {
+            "shot": 2,
+            "speech_units": 14,
+            "estimated_seconds": 6
+          },
+          {
+            "shot": 3,
+            "speech_units": 10,
+            "estimated_seconds": 5
+          },
+          {
+            "shot": 4,
+            "speech_units": 10,
+            "estimated_seconds": 4
+          }
+        ],
+        "total_seconds": 19,
+        "target_seconds": 20,
+        "passed": true,
+        "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+        "is_estimate": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1f1-4a61-7730-b04d-b354028b4de5",
+        "usage": {
+          "input_tokens": 28952,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 141,
+          "reasoning_output_tokens": 82
+        }
+      },
+      "elapsed_ms": 14079
+    },
+    {
+      "step": 6,
+      "action": "check_rules",
+      "arguments": {
+        "script": {
+          "title": "字幕，让表达被看见",
+          "shots": [
+            {
+              "visual": "人物面对镜头提出问题",
+              "hold_seconds": 4,
+              "blocks": [
+                {
+                  "text": "想让画面里的表达更清楚？",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "将旁白作为字幕叠加在日常画面上",
+              "hold_seconds": 6,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "产品功能文字卡片，不展示未经提供的界面",
+              "hold_seconds": 5,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "简洁背景展示结尾文字",
+              "hold_seconds": 4,
+              "blocks": [
+                {
+                  "text": "试试你的下一条短片吧。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "retrieved_ids": [
+          "P01",
+          "P02",
+          "P03"
+        ]
+      },
+      "decision_basis": "当前稿估算19秒，已满足20秒上限；需补查本稿规则。",
+      "observation": {
+        "ok": true,
+        "script_hash": "1ab45c7a24f006b0e7fb2915701ca8137ecb234c73cbc58b7a48a43a9f937018",
+        "passed": true,
+        "issues": [],
+        "citations": [
+          {
+            "location": "shot:2/block:1",
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "location": "shot:3/block:1",
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          }
+        ],
+        "rules_version": "2026-11-03-v1"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1f1-7f77-7293-9c5d-4a3b9d4cca74",
+        "usage": {
+          "input_tokens": 29664,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 95,
+          "reasoning_output_tokens": 39
+        }
+      },
+      "elapsed_ms": 13500
+    },
+    {
+      "step": 7,
+      "action": "finish",
+      "arguments": {
+        "status": "completed",
+        "message": "已保留原稿四个镜头的数量、顺序和两个字幕功能，仅将停留时间调整为4、6、5、4秒。估算总时长19秒，符合20秒上限，规则检查通过。"
+      },
+      "decision_basis": "当前同一稿的时长检查和规则检查均已通过，估算19秒。",
+      "observation": {
+        "ok": true,
+        "status": "completed",
+        "script_hash": "1ab45c7a24f006b0e7fb2915701ca8137ecb234c73cbc58b7a48a43a9f937018"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1f1-b5df-7b50-9494-b0dbb636523b",
+        "usage": {
+          "input_tokens": 30333,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 147,
+          "reasoning_output_tokens": 42
+        }
+      },
+      "elapsed_ms": 14219
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T15:03:51.914994+00:00",
+    "finished_at": "2026-11-03T15:05:48.211421+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 7,
+    "synthetic_data": true,
+    "model_responses": 7
+  }
+}

@@ -1,0 +1,3031 @@
+{
+  "old": {
+    "tasks": {
+      "n": 20,
+      "median": 141.36,
+      "p90": 180.87,
+      "max": 238.41
+    },
+    "responses": 106,
+    "attempts": 106,
+    "failed_attempts": 0,
+    "recovered_calls": 0,
+    "invalid_actions": 0,
+    "call_seconds_by_action": {
+      "search_materials": {
+        "n": 20,
+        "median": 19.26,
+        "p90": 23.89,
+        "max": 26.76
+      },
+      "write_script": {
+        "n": 22,
+        "median": 33.27,
+        "p90": 49.85,
+        "max": 51.67
+      },
+      "check_requirements": {
+        "n": 22,
+        "median": 14.7,
+        "p90": 26.52,
+        "max": 36.13
+      },
+      "review": {
+        "n": 20,
+        "median": 49.53,
+        "p90": 64.27,
+        "max": 75.24
+      },
+      "finish": {
+        "n": 20,
+        "median": 17.52,
+        "p90": 27.54,
+        "max": 35.31
+      },
+      "estimate_duration": {
+        "n": 2,
+        "median": 14.55,
+        "p90": 15.05,
+        "max": 15.05
+      }
+    },
+    "input_tokens": 3052254,
+    "output_tokens": 53045,
+    "titles": [
+      {
+        "case": "V01",
+        "title": "早餐摊今日备料，给口播加上字幕"
+      },
+      {
+        "case": "V02",
+        "title": "把古镇散步剪成三个停留"
+      },
+      {
+        "case": "V03",
+        "title": "把读书会的话留下"
+      },
+      {
+        "case": "V05",
+        "title": "修理铺日常：三段素材剪清楚，再加字幕"
+      },
+      {
+        "case": "V06",
+        "title": "领养日花絮：加上字幕，再改好文字"
+      },
+      {
+        "case": "V09",
+        "title": "露营出发前，这三段视频怎么裁剪"
+      },
+      {
+        "case": "V11",
+        "title": "跟着练习本认识字幕：添加文字，再手动改字"
+      },
+      {
+        "case": "V14",
+        "title": "把球场日常剪成一条社团视频"
+      },
+      {
+        "case": "V15",
+        "title": "把做饭前的小准备，写进视频字幕"
+      },
+      {
+        "case": "V16",
+        "title": "收摊以后"
+      },
+      {
+        "case": "V17",
+        "title": "剪影练习版：添加字幕与裁剪片段"
+      },
+      {
+        "case": "V19",
+        "title": "这一帧，留给今天"
+      },
+      {
+        "case": "V21",
+        "title": "Caption a Club Notice Video in 剪影练习版"
+      },
+      {
+        "case": "V22",
+        "title": "展厅入口与画册：横竖屏怎么呈现"
+      },
+      {
+        "case": "V25",
+        "title": "课程画面里的字幕添加"
+      },
+      {
+        "case": "V28",
+        "title": "把社区分享会素材整理成一条视频"
+      },
+      {
+        "case": "V29",
+        "title": "接手一段交接录像：字幕、裁剪和比例怎么安排"
+      },
+      {
+        "case": "V36",
+        "title": "店铺口播：添加字幕，再核对文字"
+      },
+      {
+        "case": "V45",
+        "title": "记录里的每句话"
+      },
+      {
+        "case": "V47",
+        "title": "采访后的整理"
+      }
+    ],
+    "rows": [
+      {
+        "case": "V01",
+        "status": "completed",
+        "seconds": 161.26,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "早餐摊今日备料，给口播加上字幕",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V02",
+        "status": "completed",
+        "seconds": 180.87,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "把古镇散步剪成三个停留",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V03",
+        "status": "completed",
+        "seconds": 156.95,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "把读书会的话留下",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V05",
+        "status": "completed",
+        "seconds": 238.41,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "修理铺日常：三段素材剪清楚，再加字幕",
+        "bundled_local_checks": 4,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V06",
+        "status": "completed",
+        "seconds": 144.72,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "领养日花絮：加上字幕，再改好文字",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V09",
+        "status": "completed",
+        "seconds": 170.43,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "露营出发前，这三段视频怎么裁剪",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V11",
+        "status": "completed",
+        "seconds": 137.82,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "跟着练习本认识字幕：添加文字，再手动改字",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V14",
+        "status": "completed",
+        "seconds": 139.56,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "把球场日常剪成一条社团视频",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V15",
+        "status": "completed",
+        "seconds": 123.87,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "把做饭前的小准备，写进视频字幕",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V16",
+        "status": "completed",
+        "seconds": 129.54,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "收摊以后",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V17",
+        "status": "completed",
+        "seconds": 129.94,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "剪影练习版：添加字幕与裁剪片段",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V19",
+        "status": "completed",
+        "seconds": 148.6,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "这一帧，留给今天",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V21",
+        "status": "completed",
+        "seconds": 128.2,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "Caption a Club Notice Video in 剪影练习版",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V22",
+        "status": "completed",
+        "seconds": 128.91,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "展厅入口与画册：横竖屏怎么呈现",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V25",
+        "status": "completed",
+        "seconds": 106.64,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "课程画面里的字幕添加",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V28",
+        "status": "completed",
+        "seconds": 195.64,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "把社区分享会素材整理成一条视频",
+        "bundled_local_checks": 4,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V29",
+        "status": "completed",
+        "seconds": 176.18,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "接手一段交接录像：字幕、裁剪和比例怎么安排",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V36",
+        "status": "completed",
+        "seconds": 113.7,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "店铺口播：添加字幕，再核对文字",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V45",
+        "status": "completed",
+        "seconds": 127.1,
+        "responses": 6,
+        "attempts": 6,
+        "failed_attempts": [],
+        "title": "记录里的每句话",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V47",
+        "status": "completed",
+        "seconds": 143.16,
+        "responses": 6,
+        "attempts": 6,
+        "failed_attempts": [],
+        "title": "采访后的整理",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      }
+    ],
+    "calls": [
+      {
+        "case": "V01",
+        "call_id": "decision-ihmkpixm",
+        "action": "search_materials",
+        "seconds": 20.02,
+        "reasoning_effort": "medium",
+        "input_tokens": 27268,
+        "output_tokens": 81,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-6_gskivn",
+        "action": "write_script",
+        "seconds": 29.27,
+        "reasoning_effort": "medium",
+        "input_tokens": 26977,
+        "output_tokens": 488,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-8b_ictf4",
+        "action": "check_requirements",
+        "seconds": 36.13,
+        "reasoning_effort": "medium",
+        "input_tokens": 28274,
+        "output_tokens": 76,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-yl3t9k3k",
+        "action": "review",
+        "seconds": 55.58,
+        "reasoning_effort": "medium",
+        "input_tokens": 28946,
+        "output_tokens": 1679,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-y14vqe97",
+        "action": "finish",
+        "seconds": 20.06,
+        "reasoning_effort": "medium",
+        "input_tokens": 31145,
+        "output_tokens": 95,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-b4jwnf90",
+        "action": "search_materials",
+        "seconds": 23.52,
+        "reasoning_effort": "medium",
+        "input_tokens": 27260,
+        "output_tokens": 89,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-4r611xfx",
+        "action": "write_script",
+        "seconds": 37.16,
+        "reasoning_effort": "medium",
+        "input_tokens": 27446,
+        "output_tokens": 548,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-k7hen16z",
+        "action": "check_requirements",
+        "seconds": 27.65,
+        "reasoning_effort": "medium",
+        "input_tokens": 28139,
+        "output_tokens": 86,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-sdzef0ie",
+        "action": "review",
+        "seconds": 69.07,
+        "reasoning_effort": "medium",
+        "input_tokens": 29002,
+        "output_tokens": 1765,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-5coa0ifa",
+        "action": "finish",
+        "seconds": 23.26,
+        "reasoning_effort": "medium",
+        "input_tokens": 31118,
+        "output_tokens": 108,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-zlq5pgbl",
+        "action": "search_materials",
+        "seconds": 23.49,
+        "reasoning_effort": "medium",
+        "input_tokens": 27256,
+        "output_tokens": 73,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-nyuj76fp",
+        "action": "write_script",
+        "seconds": 35.01,
+        "reasoning_effort": "medium",
+        "input_tokens": 27531,
+        "output_tokens": 468,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-9f_lx5s0",
+        "action": "check_requirements",
+        "seconds": 26.52,
+        "reasoning_effort": "medium",
+        "input_tokens": 28142,
+        "output_tokens": 70,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-gwnb15z3",
+        "action": "review",
+        "seconds": 51.6,
+        "reasoning_effort": "medium",
+        "input_tokens": 28919,
+        "output_tokens": 1528,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-0q_fkuli",
+        "action": "finish",
+        "seconds": 20.1,
+        "reasoning_effort": "medium",
+        "input_tokens": 30948,
+        "output_tokens": 93,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-fd9kz_km",
+        "action": "search_materials",
+        "seconds": 26.76,
+        "reasoning_effort": "medium",
+        "input_tokens": 27256,
+        "output_tokens": 83,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-ls4of06i",
+        "action": "write_script",
+        "seconds": 37.16,
+        "reasoning_effort": "medium",
+        "input_tokens": 27541,
+        "output_tokens": 703,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-lz2_rl0q",
+        "action": "check_requirements",
+        "seconds": 18.98,
+        "reasoning_effort": "medium",
+        "input_tokens": 28452,
+        "output_tokens": 69,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-x7oxbpa8",
+        "action": "write_script",
+        "seconds": 30.1,
+        "reasoning_effort": "medium",
+        "input_tokens": 30198,
+        "output_tokens": 728,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-m3jwwkyc",
+        "action": "check_requirements",
+        "seconds": 25.28,
+        "reasoning_effort": "medium",
+        "input_tokens": 28720,
+        "output_tokens": 72,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-t_xw6wd9",
+        "action": "review",
+        "seconds": 64.27,
+        "reasoning_effort": "medium",
+        "input_tokens": 29679,
+        "output_tokens": 2074,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-wsezs5qq",
+        "action": "finish",
+        "seconds": 35.31,
+        "reasoning_effort": "medium",
+        "input_tokens": 32363,
+        "output_tokens": 102,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-cff__coo",
+        "action": "search_materials",
+        "seconds": 21.7,
+        "reasoning_effort": "medium",
+        "input_tokens": 27262,
+        "output_tokens": 85,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-5_vbfnoq",
+        "action": "write_script",
+        "seconds": 31.53,
+        "reasoning_effort": "medium",
+        "input_tokens": 27553,
+        "output_tokens": 541,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-v7gmits5",
+        "action": "check_requirements",
+        "seconds": 18.79,
+        "reasoning_effort": "medium",
+        "input_tokens": 28251,
+        "output_tokens": 67,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-s4ywvi65",
+        "action": "review",
+        "seconds": 54.15,
+        "reasoning_effort": "medium",
+        "input_tokens": 29127,
+        "output_tokens": 1630,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-r_h9xfcq",
+        "action": "finish",
+        "seconds": 18.35,
+        "reasoning_effort": "medium",
+        "input_tokens": 31271,
+        "output_tokens": 99,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-do5icund",
+        "action": "search_materials",
+        "seconds": 25.76,
+        "reasoning_effort": "medium",
+        "input_tokens": 27254,
+        "output_tokens": 82,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-70fn_q4l",
+        "action": "write_script",
+        "seconds": 48.24,
+        "reasoning_effort": "medium",
+        "input_tokens": 27544,
+        "output_tokens": 615,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-zh4_zprj",
+        "action": "check_requirements",
+        "seconds": 18.51,
+        "reasoning_effort": "medium",
+        "input_tokens": 27520,
+        "output_tokens": 67,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-bkyv37k2",
+        "action": "review",
+        "seconds": 47.45,
+        "reasoning_effort": "medium",
+        "input_tokens": 28936,
+        "output_tokens": 1440,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-ebsyadeb",
+        "action": "finish",
+        "seconds": 30.24,
+        "reasoning_effort": "medium",
+        "input_tokens": 30883,
+        "output_tokens": 118,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-g8t3atgp",
+        "action": "search_materials",
+        "seconds": 16.76,
+        "reasoning_effort": "medium",
+        "input_tokens": 27262,
+        "output_tokens": 79,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-l0w3runv",
+        "action": "write_script",
+        "seconds": 51.67,
+        "reasoning_effort": "medium",
+        "input_tokens": 27545,
+        "output_tokens": 798,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-an56t0yh",
+        "action": "check_requirements",
+        "seconds": 15.93,
+        "reasoning_effort": "medium",
+        "input_tokens": 28401,
+        "output_tokens": 74,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-cledp8pm",
+        "action": "review",
+        "seconds": 40.39,
+        "reasoning_effort": "medium",
+        "input_tokens": 29492,
+        "output_tokens": 1538,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-94xgqg37",
+        "action": "finish",
+        "seconds": 12.42,
+        "reasoning_effort": "medium",
+        "input_tokens": 31873,
+        "output_tokens": 95,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-oqgxiu2f",
+        "action": "search_materials",
+        "seconds": 20.89,
+        "reasoning_effort": "medium",
+        "input_tokens": 26580,
+        "output_tokens": 90,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-yi_wihjw",
+        "action": "write_script",
+        "seconds": 37.24,
+        "reasoning_effort": "medium",
+        "input_tokens": 27644,
+        "output_tokens": 725,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-ug9nk900",
+        "action": "check_requirements",
+        "seconds": 13.56,
+        "reasoning_effort": "medium",
+        "input_tokens": 28462,
+        "output_tokens": 61,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-gf2e0eph",
+        "action": "review",
+        "seconds": 52.1,
+        "reasoning_effort": "medium",
+        "input_tokens": 29591,
+        "output_tokens": 1509,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-55nc131_",
+        "action": "finish",
+        "seconds": 15.57,
+        "reasoning_effort": "medium",
+        "input_tokens": 32019,
+        "output_tokens": 92,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-md_34i6y",
+        "action": "search_materials",
+        "seconds": 23.89,
+        "reasoning_effort": "medium",
+        "input_tokens": 27251,
+        "output_tokens": 73,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-hwtm7a2w",
+        "action": "write_script",
+        "seconds": 28.66,
+        "reasoning_effort": "medium",
+        "input_tokens": 27530,
+        "output_tokens": 780,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-o0vhei_z",
+        "action": "check_requirements",
+        "seconds": 12.59,
+        "reasoning_effort": "medium",
+        "input_tokens": 28368,
+        "output_tokens": 68,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-lscuesot",
+        "action": "review",
+        "seconds": 43.09,
+        "reasoning_effort": "medium",
+        "input_tokens": 29364,
+        "output_tokens": 1482,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-7chaj3ak",
+        "action": "finish",
+        "seconds": 15.48,
+        "reasoning_effort": "medium",
+        "input_tokens": 31674,
+        "output_tokens": 97,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-j1iiz949",
+        "action": "search_materials",
+        "seconds": 22.25,
+        "reasoning_effort": "medium",
+        "input_tokens": 27259,
+        "output_tokens": 90,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-nndiizcv",
+        "action": "write_script",
+        "seconds": 30.95,
+        "reasoning_effort": "medium",
+        "input_tokens": 27551,
+        "output_tokens": 491,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-wi4zuser",
+        "action": "check_requirements",
+        "seconds": 12.43,
+        "reasoning_effort": "medium",
+        "input_tokens": 27521,
+        "output_tokens": 73,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-e6tirbk3",
+        "action": "review",
+        "seconds": 47.16,
+        "reasoning_effort": "medium",
+        "input_tokens": 28945,
+        "output_tokens": 1546,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-54y9prtr",
+        "action": "finish",
+        "seconds": 16.5,
+        "reasoning_effort": "medium",
+        "input_tokens": 31020,
+        "output_tokens": 104,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-2xp1fc7d",
+        "action": "search_materials",
+        "seconds": 17.57,
+        "reasoning_effort": "medium",
+        "input_tokens": 27261,
+        "output_tokens": 86,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-6oq5m0nd",
+        "action": "write_script",
+        "seconds": 30.12,
+        "reasoning_effort": "medium",
+        "input_tokens": 27551,
+        "output_tokens": 578,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-vekxvewz",
+        "action": "check_requirements",
+        "seconds": 15.46,
+        "reasoning_effort": "medium",
+        "input_tokens": 28298,
+        "output_tokens": 86,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-g5u4h82z",
+        "action": "review",
+        "seconds": 38.99,
+        "reasoning_effort": "medium",
+        "input_tokens": 28772,
+        "output_tokens": 1423,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-7llgnfdw",
+        "action": "finish",
+        "seconds": 27.54,
+        "reasoning_effort": "medium",
+        "input_tokens": 31736,
+        "output_tokens": 104,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-lt73ulcv",
+        "action": "search_materials",
+        "seconds": 18.44,
+        "reasoning_effort": "medium",
+        "input_tokens": 27255,
+        "output_tokens": 78,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-gww_i9_5",
+        "action": "write_script",
+        "seconds": 47.7,
+        "reasoning_effort": "medium",
+        "input_tokens": 27539,
+        "output_tokens": 741,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-79kmzs5t",
+        "action": "check_requirements",
+        "seconds": 15.05,
+        "reasoning_effort": "medium",
+        "input_tokens": 28369,
+        "output_tokens": 76,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-p6vvhyt7",
+        "action": "review",
+        "seconds": 53.13,
+        "reasoning_effort": "medium",
+        "input_tokens": 29431,
+        "output_tokens": 1830,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-ssdyy0qp",
+        "action": "finish",
+        "seconds": 14.06,
+        "reasoning_effort": "medium",
+        "input_tokens": 31730,
+        "output_tokens": 98,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-xm0gj1im",
+        "action": "search_materials",
+        "seconds": 16.06,
+        "reasoning_effort": "medium",
+        "input_tokens": 27256,
+        "output_tokens": 88,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-gcl74mjc",
+        "action": "write_script",
+        "seconds": 38.97,
+        "reasoning_effort": "medium",
+        "input_tokens": 27643,
+        "output_tokens": 822,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-c2hog8kx",
+        "action": "check_requirements",
+        "seconds": 13.86,
+        "reasoning_effort": "medium",
+        "input_tokens": 28424,
+        "output_tokens": 74,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-vta7e296",
+        "action": "review",
+        "seconds": 45.25,
+        "reasoning_effort": "medium",
+        "input_tokens": 29420,
+        "output_tokens": 1546,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-k11saj21",
+        "action": "finish",
+        "seconds": 13.89,
+        "reasoning_effort": "medium",
+        "input_tokens": 31932,
+        "output_tokens": 99,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-g67fvsyr",
+        "action": "search_materials",
+        "seconds": 15.02,
+        "reasoning_effort": "medium",
+        "input_tokens": 27261,
+        "output_tokens": 84,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-q0svzuml",
+        "action": "write_script",
+        "seconds": 43.4,
+        "reasoning_effort": "medium",
+        "input_tokens": 27539,
+        "output_tokens": 934,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-mu2r4qjs",
+        "action": "check_requirements",
+        "seconds": 12.71,
+        "reasoning_effort": "medium",
+        "input_tokens": 28387,
+        "output_tokens": 76,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-3o_qacod",
+        "action": "review",
+        "seconds": 40.09,
+        "reasoning_effort": "medium",
+        "input_tokens": 29324,
+        "output_tokens": 1374,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-m6736g8q",
+        "action": "finish",
+        "seconds": 17.55,
+        "reasoning_effort": "medium",
+        "input_tokens": 31518,
+        "output_tokens": 103,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-eb0_6mg1",
+        "action": "search_materials",
+        "seconds": 12.9,
+        "reasoning_effort": "medium",
+        "input_tokens": 26585,
+        "output_tokens": 76,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-qsunjerm",
+        "action": "write_script",
+        "seconds": 27.89,
+        "reasoning_effort": "medium",
+        "input_tokens": 27536,
+        "output_tokens": 454,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-mc_72o79",
+        "action": "check_requirements",
+        "seconds": 15.74,
+        "reasoning_effort": "medium",
+        "input_tokens": 28128,
+        "output_tokens": 73,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-dmf3y95o",
+        "action": "review",
+        "seconds": 35.29,
+        "reasoning_effort": "medium",
+        "input_tokens": 28834,
+        "output_tokens": 1212,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-hsw1zqz8",
+        "action": "finish",
+        "seconds": 14.37,
+        "reasoning_effort": "medium",
+        "input_tokens": 30849,
+        "output_tokens": 99,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-q2mnm14c",
+        "action": "search_materials",
+        "seconds": 14.65,
+        "reasoning_effort": "medium",
+        "input_tokens": 26588,
+        "output_tokens": 95,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-p3alh8t7",
+        "action": "write_script",
+        "seconds": 49.85,
+        "reasoning_effort": "medium",
+        "input_tokens": 27661,
+        "output_tokens": 949,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-g0kzq183",
+        "action": "check_requirements",
+        "seconds": 12.58,
+        "reasoning_effort": "medium",
+        "input_tokens": 28012,
+        "output_tokens": 77,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-l6vx8_qu",
+        "action": "write_script",
+        "seconds": 25.74,
+        "reasoning_effort": "medium",
+        "input_tokens": 30192,
+        "output_tokens": 848,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-_eqs6h6q",
+        "action": "check_requirements",
+        "seconds": 11.96,
+        "reasoning_effort": "medium",
+        "input_tokens": 28963,
+        "output_tokens": 70,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-bsy48s3b",
+        "action": "review",
+        "seconds": 61.03,
+        "reasoning_effort": "medium",
+        "input_tokens": 30230,
+        "output_tokens": 2511,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-moblkt02",
+        "action": "finish",
+        "seconds": 19.49,
+        "reasoning_effort": "medium",
+        "input_tokens": 33419,
+        "output_tokens": 107,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-3khuo5g9",
+        "action": "search_materials",
+        "seconds": 17.82,
+        "reasoning_effort": "medium",
+        "input_tokens": 27265,
+        "output_tokens": 93,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-0iu7xfns",
+        "action": "write_script",
+        "seconds": 51.06,
+        "reasoning_effort": "medium",
+        "input_tokens": 27655,
+        "output_tokens": 1128,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-ybgtylo9",
+        "action": "check_requirements",
+        "seconds": 14.34,
+        "reasoning_effort": "medium",
+        "input_tokens": 28918,
+        "output_tokens": 74,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-06it05fb",
+        "action": "review",
+        "seconds": 75.24,
+        "reasoning_effort": "medium",
+        "input_tokens": 30762,
+        "output_tokens": 2810,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-qfskav0z",
+        "action": "finish",
+        "seconds": 17.49,
+        "reasoning_effort": "medium",
+        "input_tokens": 33944,
+        "output_tokens": 103,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-gg4e2ivz",
+        "action": "search_materials",
+        "seconds": 22.84,
+        "reasoning_effort": "medium",
+        "input_tokens": 27262,
+        "output_tokens": 72,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-iiljscfy",
+        "action": "write_script",
+        "seconds": 22.34,
+        "reasoning_effort": "medium",
+        "input_tokens": 26859,
+        "output_tokens": 439,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-cbniqulo",
+        "action": "check_requirements",
+        "seconds": 12.54,
+        "reasoning_effort": "medium",
+        "input_tokens": 28108,
+        "output_tokens": 83,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-sdr1qfcc",
+        "action": "review",
+        "seconds": 41.78,
+        "reasoning_effort": "medium",
+        "input_tokens": 28823,
+        "output_tokens": 1403,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-yhr1ow9n",
+        "action": "finish",
+        "seconds": 14.03,
+        "reasoning_effort": "medium",
+        "input_tokens": 30727,
+        "output_tokens": 106,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-kriak2md",
+        "action": "estimate_duration",
+        "seconds": 15.05,
+        "reasoning_effort": "medium",
+        "input_tokens": 27593,
+        "output_tokens": 72,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-rgrhq5_a",
+        "action": "search_materials",
+        "seconds": 17.01,
+        "reasoning_effort": "medium",
+        "input_tokens": 27906,
+        "output_tokens": 100,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-gavb6kur",
+        "action": "write_script",
+        "seconds": 20.7,
+        "reasoning_effort": "medium",
+        "input_tokens": 27535,
+        "output_tokens": 468,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-t7k4ps40",
+        "action": "check_requirements",
+        "seconds": 13.66,
+        "reasoning_effort": "medium",
+        "input_tokens": 28459,
+        "output_tokens": 85,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-q8kqpqcy",
+        "action": "review",
+        "seconds": 40.58,
+        "reasoning_effort": "medium",
+        "input_tokens": 28960,
+        "output_tokens": 1115,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-9d9mgdl6",
+        "action": "finish",
+        "seconds": 19.54,
+        "reasoning_effort": "medium",
+        "input_tokens": 31043,
+        "output_tokens": 103,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-fc5plkwk",
+        "action": "estimate_duration",
+        "seconds": 14.05,
+        "reasoning_effort": "medium",
+        "input_tokens": 27673,
+        "output_tokens": 66,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-x2vtfchk",
+        "action": "search_materials",
+        "seconds": 18.5,
+        "reasoning_effort": "medium",
+        "input_tokens": 28004,
+        "output_tokens": 106,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-_d8r932d",
+        "action": "write_script",
+        "seconds": 29.97,
+        "reasoning_effort": "medium",
+        "input_tokens": 28413,
+        "output_tokens": 501,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-asd444be",
+        "action": "check_requirements",
+        "seconds": 13.13,
+        "reasoning_effort": "medium",
+        "input_tokens": 28643,
+        "output_tokens": 77,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-sqz806zp",
+        "action": "review",
+        "seconds": 52.2,
+        "reasoning_effort": "medium",
+        "input_tokens": 29177,
+        "output_tokens": 1382,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-q07_dyk4",
+        "action": "finish",
+        "seconds": 14.74,
+        "reasoning_effort": "medium",
+        "input_tokens": 31349,
+        "output_tokens": 101,
+        "recovered_attempts": []
+      }
+    ]
+  },
+  "new": {
+    "tasks": {
+      "n": 20,
+      "median": 184.98,
+      "p90": 251.07,
+      "max": 386.14
+    },
+    "responses": 121,
+    "attempts": 121,
+    "failed_attempts": 0,
+    "recovered_calls": 0,
+    "invalid_actions": 0,
+    "call_seconds_by_action": {
+      "search_materials": {
+        "n": 20,
+        "median": 22.4,
+        "p90": 29.99,
+        "max": 42.15
+      },
+      "write_script": {
+        "n": 28,
+        "median": 35.42,
+        "p90": 47.98,
+        "max": 80.08
+      },
+      "check_requirements": {
+        "n": 28,
+        "median": 19.34,
+        "p90": 35.93,
+        "max": 41.03
+      },
+      "review": {
+        "n": 23,
+        "median": 54.05,
+        "p90": 74.94,
+        "max": 94.83
+      },
+      "finish": {
+        "n": 20,
+        "median": 24.02,
+        "p90": 38.97,
+        "max": 48.91
+      },
+      "estimate_duration": {
+        "n": 2,
+        "median": 28.96,
+        "p90": 29.5,
+        "max": 29.5
+      }
+    },
+    "input_tokens": 3516916,
+    "output_tokens": 62579,
+    "titles": [
+      {
+        "case": "V01",
+        "title": "早餐摊备料口播，用剪影练习版加字幕"
+      },
+      {
+        "case": "V02",
+        "title": "把古镇的三次停留，留在旅行短片里"
+      },
+      {
+        "case": "V03",
+        "title": "把读书会的话留下"
+      },
+      {
+        "case": "V05",
+        "title": "修理铺日常：三段素材怎样裁剪、加字幕"
+      },
+      {
+        "case": "V06",
+        "title": "给领养日花絮加字幕、改文字"
+      },
+      {
+        "case": "V09",
+        "title": "把收拾露营装备的录像剪成一段记录"
+      },
+      {
+        "case": "V11",
+        "title": "手机课堂：给视频加字幕，写错的字手动改"
+      },
+      {
+        "case": "V14",
+        "title": "空球场、记分牌、队员背影：社团视频这样剪"
+      },
+      {
+        "case": "V15",
+        "title": "给家庭料理视频添上两行说明"
+      },
+      {
+        "case": "V16",
+        "title": "收摊以后"
+      },
+      {
+        "case": "V17",
+        "title": "剪影练习版：添加字幕与裁剪片段"
+      },
+      {
+        "case": "V19",
+        "title": "这一帧，留给今天"
+      },
+      {
+        "case": "V21",
+        "title": "Captioning a Club Welcome Video in 剪影练习版"
+      },
+      {
+        "case": "V22",
+        "title": "展厅入口与画册：横竖屏比例怎么选"
+      },
+      {
+        "case": "V25",
+        "title": "给课程录像添加字幕"
+      },
+      {
+        "case": "V28",
+        "title": "把社区分享会素材整理成一条短视频"
+      },
+      {
+        "case": "V29",
+        "title": "接手工作室录像：字幕、裁剪和比例怎么安排"
+      },
+      {
+        "case": "V36",
+        "title": "店铺口播视频，字幕怎么配"
+      },
+      {
+        "case": "V45",
+        "title": "记录里的每句话"
+      },
+      {
+        "case": "V47",
+        "title": "采访后的整理"
+      }
+    ],
+    "rows": [
+      {
+        "case": "V01",
+        "status": "completed",
+        "seconds": 203.53,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "早餐摊备料口播，用剪影练习版加字幕",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V02",
+        "status": "completed",
+        "seconds": 170.01,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "把古镇的三次停留，留在旅行短片里",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V03",
+        "status": "completed",
+        "seconds": 201.17,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "把读书会的话留下",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V05",
+        "status": "completed",
+        "seconds": 386.14,
+        "responses": 10,
+        "attempts": 10,
+        "failed_attempts": [],
+        "title": "修理铺日常：三段素材怎样裁剪、加字幕",
+        "bundled_local_checks": 6,
+        "invalid_actions": 0,
+        "review_responses": 2
+      },
+      {
+        "case": "V06",
+        "status": "completed",
+        "seconds": 228.98,
+        "responses": 8,
+        "attempts": 8,
+        "failed_attempts": [],
+        "title": "给领养日花絮加字幕、改文字",
+        "bundled_local_checks": 4,
+        "invalid_actions": 0,
+        "review_responses": 2
+      },
+      {
+        "case": "V09",
+        "status": "completed",
+        "seconds": 137.89,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "把收拾露营装备的录像剪成一段记录",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V11",
+        "status": "completed",
+        "seconds": 132.94,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "手机课堂：给视频加字幕，写错的字手动改",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V14",
+        "status": "completed",
+        "seconds": 245.72,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "空球场、记分牌、队员背影：社团视频这样剪",
+        "bundled_local_checks": 4,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V15",
+        "status": "completed",
+        "seconds": 142.14,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "给家庭料理视频添上两行说明",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V16",
+        "status": "completed",
+        "seconds": 163.7,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "收摊以后",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V17",
+        "status": "completed",
+        "seconds": 169.87,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "剪影练习版：添加字幕与裁剪片段",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V19",
+        "status": "completed",
+        "seconds": 175.67,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "这一帧，留给今天",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V21",
+        "status": "completed",
+        "seconds": 244.12,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "Captioning a Club Welcome Video in 剪影练习版",
+        "bundled_local_checks": 4,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V22",
+        "status": "completed",
+        "seconds": 188.02,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "展厅入口与画册：横竖屏比例怎么选",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V25",
+        "status": "completed",
+        "seconds": 372.97,
+        "responses": 10,
+        "attempts": 10,
+        "failed_attempts": [],
+        "title": "给课程录像添加字幕",
+        "bundled_local_checks": 6,
+        "invalid_actions": 0,
+        "review_responses": 2
+      },
+      {
+        "case": "V28",
+        "status": "completed",
+        "seconds": 251.07,
+        "responses": 7,
+        "attempts": 7,
+        "failed_attempts": [],
+        "title": "把社区分享会素材整理成一条短视频",
+        "bundled_local_checks": 4,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V29",
+        "status": "completed",
+        "seconds": 214.97,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "接手工作室录像：字幕、裁剪和比例怎么安排",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V36",
+        "status": "completed",
+        "seconds": 181.94,
+        "responses": 5,
+        "attempts": 5,
+        "failed_attempts": [],
+        "title": "店铺口播视频，字幕怎么配",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V45",
+        "status": "completed",
+        "seconds": 141.95,
+        "responses": 6,
+        "attempts": 6,
+        "failed_attempts": [],
+        "title": "记录里的每句话",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      },
+      {
+        "case": "V47",
+        "status": "completed",
+        "seconds": 132.99,
+        "responses": 6,
+        "attempts": 6,
+        "failed_attempts": [],
+        "title": "采访后的整理",
+        "bundled_local_checks": 2,
+        "invalid_actions": 0,
+        "review_responses": 1
+      }
+    ],
+    "calls": [
+      {
+        "case": "V01",
+        "call_id": "decision-_mscf9b5",
+        "action": "search_materials",
+        "seconds": 24.62,
+        "reasoning_effort": "medium",
+        "input_tokens": 27476,
+        "output_tokens": 75,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-8zago94x",
+        "action": "write_script",
+        "seconds": 44.05,
+        "reasoning_effort": "medium",
+        "input_tokens": 27852,
+        "output_tokens": 734,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-0ofrsgl8",
+        "action": "check_requirements",
+        "seconds": 30.98,
+        "reasoning_effort": "medium",
+        "input_tokens": 28402,
+        "output_tokens": 75,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-8wy39p90",
+        "action": "review",
+        "seconds": 54.05,
+        "reasoning_effort": "medium",
+        "input_tokens": 29107,
+        "output_tokens": 1544,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V01",
+        "call_id": "decision-awl3kmmt",
+        "action": "finish",
+        "seconds": 48.91,
+        "reasoning_effort": "medium",
+        "input_tokens": 31038,
+        "output_tokens": 90,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-71zfkddk",
+        "action": "search_materials",
+        "seconds": 24.19,
+        "reasoning_effort": "medium",
+        "input_tokens": 27466,
+        "output_tokens": 89,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-cuzivpw1",
+        "action": "write_script",
+        "seconds": 43.59,
+        "reasoning_effort": "medium",
+        "input_tokens": 27650,
+        "output_tokens": 697,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-svxbvktl",
+        "action": "check_requirements",
+        "seconds": 30.96,
+        "reasoning_effort": "medium",
+        "input_tokens": 28286,
+        "output_tokens": 60,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-st1tlliy",
+        "action": "review",
+        "seconds": 45.6,
+        "reasoning_effort": "medium",
+        "input_tokens": 29221,
+        "output_tokens": 1170,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V02",
+        "call_id": "decision-tsd1l9r8",
+        "action": "finish",
+        "seconds": 25.38,
+        "reasoning_effort": "medium",
+        "input_tokens": 30841,
+        "output_tokens": 97,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-e2jqn904",
+        "action": "search_materials",
+        "seconds": 22.62,
+        "reasoning_effort": "medium",
+        "input_tokens": 27460,
+        "output_tokens": 68,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-qeuag98l",
+        "action": "write_script",
+        "seconds": 43.95,
+        "reasoning_effort": "medium",
+        "input_tokens": 27732,
+        "output_tokens": 689,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-sjcwe_7s",
+        "action": "check_requirements",
+        "seconds": 31.06,
+        "reasoning_effort": "medium",
+        "input_tokens": 28371,
+        "output_tokens": 66,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-hkhw3gix",
+        "action": "review",
+        "seconds": 55.86,
+        "reasoning_effort": "medium",
+        "input_tokens": 29273,
+        "output_tokens": 1523,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V03",
+        "call_id": "decision-xxhk2gbx",
+        "action": "finish",
+        "seconds": 47.03,
+        "reasoning_effort": "medium",
+        "input_tokens": 31164,
+        "output_tokens": 103,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-0_rpbxt7",
+        "action": "search_materials",
+        "seconds": 22.56,
+        "reasoning_effort": "medium",
+        "input_tokens": 26502,
+        "output_tokens": 74,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-1hry9svn",
+        "action": "write_script",
+        "seconds": 42.96,
+        "reasoning_effort": "medium",
+        "input_tokens": 27738,
+        "output_tokens": 728,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-_te3yk3s",
+        "action": "check_requirements",
+        "seconds": 31.01,
+        "reasoning_effort": "medium",
+        "input_tokens": 28456,
+        "output_tokens": 62,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-t_e4u7g7",
+        "action": "write_script",
+        "seconds": 43.25,
+        "reasoning_effort": "medium",
+        "input_tokens": 29904,
+        "output_tokens": 831,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-a6_mdedt",
+        "action": "check_requirements",
+        "seconds": 27.92,
+        "reasoning_effort": "medium",
+        "input_tokens": 28703,
+        "output_tokens": 71,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-m12ds6a2",
+        "action": "review",
+        "seconds": 94.83,
+        "reasoning_effort": "medium",
+        "input_tokens": 29613,
+        "output_tokens": 1821,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-o93n6ts1",
+        "action": "write_script",
+        "seconds": 33.58,
+        "reasoning_effort": "medium",
+        "input_tokens": 31814,
+        "output_tokens": 872,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-62z3fmr5",
+        "action": "check_requirements",
+        "seconds": 14.6,
+        "reasoning_effort": "medium",
+        "input_tokens": 29176,
+        "output_tokens": 68,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-y6pkcnvo",
+        "action": "review",
+        "seconds": 56.97,
+        "reasoning_effort": "medium",
+        "input_tokens": 30043,
+        "output_tokens": 2002,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V05",
+        "call_id": "decision-7pz79jdp",
+        "action": "finish",
+        "seconds": 17.78,
+        "reasoning_effort": "medium",
+        "input_tokens": 32797,
+        "output_tokens": 95,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-3pi39lkt",
+        "action": "search_materials",
+        "seconds": 32.68,
+        "reasoning_effort": "medium",
+        "input_tokens": 27470,
+        "output_tokens": 68,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-qv9alztf",
+        "action": "write_script",
+        "seconds": 22.29,
+        "reasoning_effort": "medium",
+        "input_tokens": 27067,
+        "output_tokens": 527,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-uvrj4_v5",
+        "action": "check_requirements",
+        "seconds": 18.38,
+        "reasoning_effort": "medium",
+        "input_tokens": 28427,
+        "output_tokens": 75,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-ko5s3bc0",
+        "action": "review",
+        "seconds": 52.87,
+        "reasoning_effort": "medium",
+        "input_tokens": 29416,
+        "output_tokens": 1798,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-eg57hnkd",
+        "action": "write_script",
+        "seconds": 23.11,
+        "reasoning_effort": "medium",
+        "input_tokens": 30868,
+        "output_tokens": 552,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-njs2t97z",
+        "action": "check_requirements",
+        "seconds": 12.68,
+        "reasoning_effort": "medium",
+        "input_tokens": 28858,
+        "output_tokens": 75,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-hq0bsm0j",
+        "action": "review",
+        "seconds": 47.74,
+        "reasoning_effort": "medium",
+        "input_tokens": 29431,
+        "output_tokens": 1658,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V06",
+        "call_id": "decision-dq8za5oa",
+        "action": "finish",
+        "seconds": 18.81,
+        "reasoning_effort": "medium",
+        "input_tokens": 31831,
+        "output_tokens": 105,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-qtns2nwi",
+        "action": "search_materials",
+        "seconds": 25.06,
+        "reasoning_effort": "medium",
+        "input_tokens": 27464,
+        "output_tokens": 81,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-9h_fyj08",
+        "action": "write_script",
+        "seconds": 35.66,
+        "reasoning_effort": "medium",
+        "input_tokens": 27642,
+        "output_tokens": 570,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-1zew1blz",
+        "action": "check_requirements",
+        "seconds": 17.48,
+        "reasoning_effort": "medium",
+        "input_tokens": 28262,
+        "output_tokens": 66,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-jyz26c8a",
+        "action": "review",
+        "seconds": 41.06,
+        "reasoning_effort": "medium",
+        "input_tokens": 29183,
+        "output_tokens": 1366,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V09",
+        "call_id": "decision-0etoxq6a",
+        "action": "finish",
+        "seconds": 18.36,
+        "reasoning_effort": "medium",
+        "input_tokens": 30752,
+        "output_tokens": 102,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-1we50uqh",
+        "action": "search_materials",
+        "seconds": 17.69,
+        "reasoning_effort": "medium",
+        "input_tokens": 27468,
+        "output_tokens": 68,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-lt09z5td",
+        "action": "write_script",
+        "seconds": 36.23,
+        "reasoning_effort": "medium",
+        "input_tokens": 27740,
+        "output_tokens": 868,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-gflr4t5k",
+        "action": "check_requirements",
+        "seconds": 14.65,
+        "reasoning_effort": "medium",
+        "input_tokens": 28524,
+        "output_tokens": 76,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-s4kh93y4",
+        "action": "review",
+        "seconds": 50.51,
+        "reasoning_effort": "medium",
+        "input_tokens": 29145,
+        "output_tokens": 1985,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V11",
+        "call_id": "decision-qdp9kf9i",
+        "action": "finish",
+        "seconds": 13.63,
+        "reasoning_effort": "medium",
+        "input_tokens": 31273,
+        "output_tokens": 97,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-jgbimbdu",
+        "action": "search_materials",
+        "seconds": 15.64,
+        "reasoning_effort": "medium",
+        "input_tokens": 27457,
+        "output_tokens": 86,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-jc690786",
+        "action": "write_script",
+        "seconds": 35.18,
+        "reasoning_effort": "medium",
+        "input_tokens": 27844,
+        "output_tokens": 785,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-o945ovhb",
+        "action": "check_requirements",
+        "seconds": 15.76,
+        "reasoning_effort": "medium",
+        "input_tokens": 28675,
+        "output_tokens": 67,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-yay6_e2r",
+        "action": "write_script",
+        "seconds": 34.76,
+        "reasoning_effort": "medium",
+        "input_tokens": 30492,
+        "output_tokens": 795,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-ik9ua_o3",
+        "action": "check_requirements",
+        "seconds": 38.74,
+        "reasoning_effort": "medium",
+        "input_tokens": 28926,
+        "output_tokens": 76,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-d9iwty49",
+        "action": "review",
+        "seconds": 72.16,
+        "reasoning_effort": "medium",
+        "input_tokens": 30138,
+        "output_tokens": 2048,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V14",
+        "call_id": "decision-z41i8tc6",
+        "action": "finish",
+        "seconds": 32.99,
+        "reasoning_effort": "medium",
+        "input_tokens": 32603,
+        "output_tokens": 93,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-xhzwy55h",
+        "action": "search_materials",
+        "seconds": 14.29,
+        "reasoning_effort": "medium",
+        "input_tokens": 26780,
+        "output_tokens": 68,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-vpt0js1n",
+        "action": "write_script",
+        "seconds": 33.64,
+        "reasoning_effort": "medium",
+        "input_tokens": 27729,
+        "output_tokens": 681,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-1unkezg6",
+        "action": "check_requirements",
+        "seconds": 13.91,
+        "reasoning_effort": "medium",
+        "input_tokens": 28434,
+        "output_tokens": 61,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-scvc7bx1",
+        "action": "review",
+        "seconds": 53.79,
+        "reasoning_effort": "medium",
+        "input_tokens": 29571,
+        "output_tokens": 1783,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V15",
+        "call_id": "decision-3i9p_8nj",
+        "action": "finish",
+        "seconds": 26.19,
+        "reasoning_effort": "medium",
+        "input_tokens": 31545,
+        "output_tokens": 91,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-6l9gffz0",
+        "action": "search_materials",
+        "seconds": 17.59,
+        "reasoning_effort": "medium",
+        "input_tokens": 27471,
+        "output_tokens": 90,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-u5nsh6w7",
+        "action": "write_script",
+        "seconds": 33.65,
+        "reasoning_effort": "medium",
+        "input_tokens": 27763,
+        "output_tokens": 697,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-9rar2a32",
+        "action": "check_requirements",
+        "seconds": 23.23,
+        "reasoning_effort": "medium",
+        "input_tokens": 28432,
+        "output_tokens": 75,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-z9bzm8e3",
+        "action": "review",
+        "seconds": 55.48,
+        "reasoning_effort": "medium",
+        "input_tokens": 29403,
+        "output_tokens": 1560,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V16",
+        "call_id": "decision-sgwzi3t9",
+        "action": "finish",
+        "seconds": 33.27,
+        "reasoning_effort": "medium",
+        "input_tokens": 31347,
+        "output_tokens": 107,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-2gsip_z0",
+        "action": "search_materials",
+        "seconds": 22.24,
+        "reasoning_effort": "medium",
+        "input_tokens": 27465,
+        "output_tokens": 82,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-fl6zzqyc",
+        "action": "write_script",
+        "seconds": 40.89,
+        "reasoning_effort": "medium",
+        "input_tokens": 27749,
+        "output_tokens": 609,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-1va0yu6y",
+        "action": "check_requirements",
+        "seconds": 20.0,
+        "reasoning_effort": "medium",
+        "input_tokens": 28325,
+        "output_tokens": 74,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-xtxbnqt9",
+        "action": "review",
+        "seconds": 67.25,
+        "reasoning_effort": "medium",
+        "input_tokens": 29041,
+        "output_tokens": 1255,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V17",
+        "call_id": "decision-t63fo_88",
+        "action": "finish",
+        "seconds": 18.93,
+        "reasoning_effort": "medium",
+        "input_tokens": 31122,
+        "output_tokens": 100,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-_b1atrx0",
+        "action": "search_materials",
+        "seconds": 17.81,
+        "reasoning_effort": "medium",
+        "input_tokens": 27463,
+        "output_tokens": 86,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-a_85c89t",
+        "action": "write_script",
+        "seconds": 80.08,
+        "reasoning_effort": "medium",
+        "input_tokens": 27753,
+        "output_tokens": 882,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-lismdqf4",
+        "action": "check_requirements",
+        "seconds": 16.66,
+        "reasoning_effort": "medium",
+        "input_tokens": 28518,
+        "output_tokens": 83,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-cz7rx2ow",
+        "action": "review",
+        "seconds": 48.18,
+        "reasoning_effort": "medium",
+        "input_tokens": 29651,
+        "output_tokens": 1814,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V19",
+        "call_id": "decision-kd8ybr3v",
+        "action": "finish",
+        "seconds": 12.68,
+        "reasoning_effort": "medium",
+        "input_tokens": 31770,
+        "output_tokens": 100,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-hkoocedu",
+        "action": "search_materials",
+        "seconds": 16.98,
+        "reasoning_effort": "medium",
+        "input_tokens": 27458,
+        "output_tokens": 79,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-qrrl48yp",
+        "action": "write_script",
+        "seconds": 47.98,
+        "reasoning_effort": "medium",
+        "input_tokens": 27840,
+        "output_tokens": 941,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-wr_o_pes",
+        "action": "check_requirements",
+        "seconds": 12.45,
+        "reasoning_effort": "medium",
+        "input_tokens": 28657,
+        "output_tokens": 73,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-dwnmf1pu",
+        "action": "write_script",
+        "seconds": 33.01,
+        "reasoning_effort": "medium",
+        "input_tokens": 30330,
+        "output_tokens": 660,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-ptla3enr",
+        "action": "check_requirements",
+        "seconds": 41.03,
+        "reasoning_effort": "medium",
+        "input_tokens": 28924,
+        "output_tokens": 83,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-u0iberyp",
+        "action": "review",
+        "seconds": 57.11,
+        "reasoning_effort": "medium",
+        "input_tokens": 29219,
+        "output_tokens": 2021,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V21",
+        "call_id": "decision-8pwl_ztq",
+        "action": "finish",
+        "seconds": 35.25,
+        "reasoning_effort": "medium",
+        "input_tokens": 32442,
+        "output_tokens": 96,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-rfnot0qg",
+        "action": "search_materials",
+        "seconds": 28.6,
+        "reasoning_effort": "medium",
+        "input_tokens": 27469,
+        "output_tokens": 75,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-6koq6oes",
+        "action": "write_script",
+        "seconds": 41.05,
+        "reasoning_effort": "medium",
+        "input_tokens": 27738,
+        "output_tokens": 859,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-h46qqexr",
+        "action": "check_requirements",
+        "seconds": 17.34,
+        "reasoning_effort": "medium",
+        "input_tokens": 27962,
+        "output_tokens": 76,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-xkm9yyh_",
+        "action": "review",
+        "seconds": 74.94,
+        "reasoning_effort": "medium",
+        "input_tokens": 29893,
+        "output_tokens": 1511,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V22",
+        "call_id": "decision-oafw330s",
+        "action": "finish",
+        "seconds": 25.8,
+        "reasoning_effort": "medium",
+        "input_tokens": 32026,
+        "output_tokens": 95,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-s8_4yyw8",
+        "action": "search_materials",
+        "seconds": 29.99,
+        "reasoning_effort": "medium",
+        "input_tokens": 27468,
+        "output_tokens": 68,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-ltprizl0",
+        "action": "write_script",
+        "seconds": 63.66,
+        "reasoning_effort": "medium",
+        "input_tokens": 27738,
+        "output_tokens": 713,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-4ac9hqis",
+        "action": "check_requirements",
+        "seconds": 31.97,
+        "reasoning_effort": "medium",
+        "input_tokens": 28275,
+        "output_tokens": 67,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-ydd1sg1a",
+        "action": "review",
+        "seconds": 49.43,
+        "reasoning_effort": "medium",
+        "input_tokens": 29134,
+        "output_tokens": 1328,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-gfy5e6mb",
+        "action": "write_script",
+        "seconds": 33.24,
+        "reasoning_effort": "medium",
+        "input_tokens": 30430,
+        "output_tokens": 453,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-dt8aa048",
+        "action": "check_requirements",
+        "seconds": 18.68,
+        "reasoning_effort": "medium",
+        "input_tokens": 28681,
+        "output_tokens": 72,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-vm371ktu",
+        "action": "write_script",
+        "seconds": 29.53,
+        "reasoning_effort": "medium",
+        "input_tokens": 29854,
+        "output_tokens": 457,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-gmeeo2jn",
+        "action": "check_requirements",
+        "seconds": 35.49,
+        "reasoning_effort": "medium",
+        "input_tokens": 28925,
+        "output_tokens": 75,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-jx3l8911",
+        "action": "review",
+        "seconds": 57.72,
+        "reasoning_effort": "medium",
+        "input_tokens": 29089,
+        "output_tokens": 1214,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V25",
+        "call_id": "decision-exjtc851",
+        "action": "finish",
+        "seconds": 22.66,
+        "reasoning_effort": "medium",
+        "input_tokens": 31567,
+        "output_tokens": 90,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-_usnzj9d",
+        "action": "search_materials",
+        "seconds": 18.2,
+        "reasoning_effort": "medium",
+        "input_tokens": 27469,
+        "output_tokens": 99,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-qr466a8o",
+        "action": "write_script",
+        "seconds": 45.4,
+        "reasoning_effort": "medium",
+        "input_tokens": 27869,
+        "output_tokens": 866,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-se0zkxvz",
+        "action": "check_requirements",
+        "seconds": 31.46,
+        "reasoning_effort": "medium",
+        "input_tokens": 28741,
+        "output_tokens": 80,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-7s278nhr",
+        "action": "write_script",
+        "seconds": 33.43,
+        "reasoning_effort": "medium",
+        "input_tokens": 30044,
+        "output_tokens": 879,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-6rhd28qm",
+        "action": "check_requirements",
+        "seconds": 18.68,
+        "reasoning_effort": "medium",
+        "input_tokens": 29008,
+        "output_tokens": 81,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-t6uyz8lv",
+        "action": "review",
+        "seconds": 64.26,
+        "reasoning_effort": "medium",
+        "input_tokens": 30360,
+        "output_tokens": 1837,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V28",
+        "call_id": "decision-bofaunfn",
+        "action": "finish",
+        "seconds": 38.97,
+        "reasoning_effort": "medium",
+        "input_tokens": 32979,
+        "output_tokens": 107,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-f3gvny3q",
+        "action": "search_materials",
+        "seconds": 24.04,
+        "reasoning_effort": "medium",
+        "input_tokens": 27467,
+        "output_tokens": 95,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-l9j1gjz5",
+        "action": "write_script",
+        "seconds": 47.96,
+        "reasoning_effort": "medium",
+        "input_tokens": 27865,
+        "output_tokens": 1140,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-br0imp8r",
+        "action": "check_requirements",
+        "seconds": 35.93,
+        "reasoning_effort": "medium",
+        "input_tokens": 29030,
+        "output_tokens": 72,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-_wlsxfp7",
+        "action": "review",
+        "seconds": 79.31,
+        "reasoning_effort": "medium",
+        "input_tokens": 30964,
+        "output_tokens": 2044,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V29",
+        "call_id": "decision-flxfgw6r",
+        "action": "finish",
+        "seconds": 27.51,
+        "reasoning_effort": "medium",
+        "input_tokens": 33572,
+        "output_tokens": 111,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-2stf2_mw",
+        "action": "search_materials",
+        "seconds": 42.15,
+        "reasoning_effort": "medium",
+        "input_tokens": 27468,
+        "output_tokens": 85,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-kcaknuh8",
+        "action": "write_script",
+        "seconds": 34.89,
+        "reasoning_effort": "medium",
+        "input_tokens": 27753,
+        "output_tokens": 432,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-a8tsmgvq",
+        "action": "check_requirements",
+        "seconds": 32.2,
+        "reasoning_effort": "medium",
+        "input_tokens": 28321,
+        "output_tokens": 87,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-m3_d1gm0",
+        "action": "review",
+        "seconds": 53.62,
+        "reasoning_effort": "medium",
+        "input_tokens": 29132,
+        "output_tokens": 1300,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V36",
+        "call_id": "decision-wxbf8jl3",
+        "action": "finish",
+        "seconds": 17.25,
+        "reasoning_effort": "medium",
+        "input_tokens": 30864,
+        "output_tokens": 108,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-bpbyllsp",
+        "action": "estimate_duration",
+        "seconds": 29.5,
+        "reasoning_effort": "medium",
+        "input_tokens": 27801,
+        "output_tokens": 74,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-ta_mqwdb",
+        "action": "search_materials",
+        "seconds": 17.21,
+        "reasoning_effort": "medium",
+        "input_tokens": 28112,
+        "output_tokens": 99,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-z50hjqy3",
+        "action": "write_script",
+        "seconds": 32.33,
+        "reasoning_effort": "medium",
+        "input_tokens": 28516,
+        "output_tokens": 400,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-x34mbbf_",
+        "action": "check_requirements",
+        "seconds": 14.35,
+        "reasoning_effort": "medium",
+        "input_tokens": 28697,
+        "output_tokens": 74,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-uhnqmg7b",
+        "action": "review",
+        "seconds": 30.62,
+        "reasoning_effort": "medium",
+        "input_tokens": 28493,
+        "output_tokens": 1043,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V45",
+        "call_id": "decision-9a9y_svs",
+        "action": "finish",
+        "seconds": 17.47,
+        "reasoning_effort": "medium",
+        "input_tokens": 31221,
+        "output_tokens": 103,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-2pf2vfxt",
+        "action": "estimate_duration",
+        "seconds": 28.43,
+        "reasoning_effort": "medium",
+        "input_tokens": 27879,
+        "output_tokens": 65,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-oce51ue4",
+        "action": "search_materials",
+        "seconds": 16.12,
+        "reasoning_effort": "medium",
+        "input_tokens": 28209,
+        "output_tokens": 102,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-7m8ev3nd",
+        "action": "write_script",
+        "seconds": 19.89,
+        "reasoning_effort": "medium",
+        "input_tokens": 27941,
+        "output_tokens": 448,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-305gajrf",
+        "action": "check_requirements",
+        "seconds": 13.29,
+        "reasoning_effort": "medium",
+        "input_tokens": 28792,
+        "output_tokens": 80,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-jy81n450",
+        "action": "review",
+        "seconds": 41.42,
+        "reasoning_effort": "medium",
+        "input_tokens": 29383,
+        "output_tokens": 1382,
+        "recovered_attempts": []
+      },
+      {
+        "case": "V47",
+        "call_id": "decision-icrptx4i",
+        "action": "finish",
+        "seconds": 13.47,
+        "reasoning_effort": "medium",
+        "input_tokens": 31474,
+        "output_tokens": 91,
+        "recovered_attempts": []
+      }
+    ]
+  },
+  "note": "Same frozen briefs, both four-page concurrency; different time windows and model service conditions. Counts are not billing amounts; title specificity requires reading."
+}

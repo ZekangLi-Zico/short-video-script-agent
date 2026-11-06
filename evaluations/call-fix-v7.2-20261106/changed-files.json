@@ -1,0 +1,22 @@
+{
+  "modified_since_archive": [
+    "src/agent.py",
+    "src/providers.py",
+    "src/version.py",
+    "web/app.js",
+    "tests/test_effective_v6.py",
+    "docs/02-solution.md",
+    "docs/03-evaluation.md",
+    "docs/04-ai-usage.md",
+    "docs/05-retrospective.md",
+    "docs/06-submission.md",
+    "docs/07-web-manual-test.md",
+    "README.md",
+    ".env.example"
+  ],
+  "new_source_files": [
+    "tests/test_call_reliability.py",
+    "docs/19-call-reliability.md"
+  ],
+  "new_evidence_directory": "evaluations\\call-fix-v7.2-20261106"
+}

@@ -1,0 +1,136 @@
+{
+  "scope": "Replay of local tools and saved state only; does not rerun or authenticate the remote model.",
+  "runs_checked": 16,
+  "passed": true,
+  "runs": [
+    {
+      "run": "examples/mock/impossible_duration",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/mock/missing_information",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/mock/no_material",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/mock/normal",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/mock/over_duration",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/mock/recoverable_failure",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/mock/rule_revision",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/mock/tool_failure",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/impossible_duration",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/missing_information",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/no_material",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/normal",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/over_duration",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/recoverable_failure",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/rule_revision",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/tool_failure",
+      "app_version": "legacy_unversioned",
+      "search_contract": "keyword_v1",
+      "contract_source": "legacy_unversioned",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "report_path": "evaluations\\submission-v7.3.1-20261106\\historical-replay.json"
+}

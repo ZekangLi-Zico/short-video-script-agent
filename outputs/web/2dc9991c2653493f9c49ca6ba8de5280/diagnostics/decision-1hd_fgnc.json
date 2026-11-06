@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-1hd_fgnc",
+  "started_at": "2026-11-03T22:08:08.827268+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:08:26.922242+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a374-9723-7e31-b929-71a9d74390bb",
+    "usage": {
+      "input_tokens": 28028,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 404,
+      "reasoning_output_tokens": 268
+    },
+    "call_id": "decision-1hd_fgnc",
+    "warnings": []
+  }
+}

@@ -1,0 +1,14 @@
+Browser tab: 1, Title: "脚本试验台 · 短视频 Agent", URL: "http://127.0.0.1:8765/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 1718-1720
++				1771 text 需求已修改，将按当前内容运行。
+~				27 text entry area (settable) 主题, Value: 做一条剪影练习版与剪映的对比视频，比较字幕编辑、片段裁剪和价格，帮助新手选择。, ID: topic
+~				29 text field (settable) 给谁看, Value: 第一次选剪辑工具的用户, ID: audience
+~				31 pop up button (collapsed, settable) 发布平台, Value: 小红书, ID: platform, Secondary Actions: Expand
+~						34 (selected) 小红书
+~						36 B站
+~				39 stepper (settable, integer) 目标时长 秒, Value: 45, ID: target-seconds
+~				41 text field (settable) 表达风格, Value: 客观，不贬低竞品, ID: style
++				1772 text 调用本机已登录的 Codex，通常需要一到数分钟。
++				1773 text 真实模型运行会使用当前账号的额度。
+The focused UI element is 41 text field (settable) 表达风格, Value: 客观，不贬低竞品, ID: style

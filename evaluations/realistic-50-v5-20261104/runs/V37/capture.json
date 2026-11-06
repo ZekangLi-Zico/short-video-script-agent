@@ -1,0 +1,13 @@
+{
+  "case": "V37",
+  "index": 36,
+  "attempt": 1,
+  "run_id": "9fb6fd324fb84a65a0910675f969c619",
+  "folder": "V37",
+  "status": "needs_input",
+  "steps": 2,
+  "responses": 2,
+  "provider": "codex",
+  "seconds": null,
+  "message": "请补充两部分可核验资料：①剪映的字幕、片段裁剪、价格和水印说明；②剪影练习版的价格和水印说明。请注明适用平台、版本及付费、导出条件。资料补齐后才能完成45秒内的客观对比脚本。"
+}

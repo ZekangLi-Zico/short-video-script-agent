@@ -1,0 +1,334 @@
+[
+  {
+    "id": "T02",
+    "name": "校园采访",
+    "context": "社团要给采访花絮做一条工具介绍。",
+    "request": {
+      "topic": "社团准备发布校园采访花絮，写一条介绍添加字幕和编辑字幕文字的短视频脚本，画面以采访花絮为背景。",
+      "audience": "大学社团宣传成员",
+      "platform": "B站",
+      "style": "轻松、有条理",
+      "product_id": "demo-editor",
+      "target_seconds": 25,
+      "expression_mode": "creative"
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output",
+    "cohort": "seen_regression",
+    "legacy_request": {
+      "topic": "社团准备发布校园采访花絮，写一条介绍添加字幕和编辑字幕文字的短视频脚本，画面以采访花絮为背景。",
+      "audience": "大学社团宣传成员",
+      "platform": "B站",
+      "style": "轻松、有条理",
+      "product_id": "demo-editor",
+      "target_seconds": 25
+    }
+  },
+  {
+    "id": "T39",
+    "name": "客户指定标题",
+    "context": "活动物料已经定了标题，不方便改。",
+    "request": {
+      "topic": "介绍字幕添加与手动编辑字幕文字。标题必须是“让每一句话都看得见”，这是客户已确认的活动标题。",
+      "audience": "活动页新访客",
+      "platform": "抖音",
+      "style": "温和、简洁",
+      "product_id": "demo-editor",
+      "target_seconds": 25,
+      "expression_mode": "creative"
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output",
+    "cohort": "seen_regression",
+    "legacy_request": {
+      "topic": "介绍字幕添加与手动编辑字幕文字。标题必须是“让每一句话都看得见”，这是客户已确认的活动标题。",
+      "audience": "活动页新访客",
+      "platform": "抖音",
+      "style": "温和、简洁",
+      "product_id": "demo-editor",
+      "target_seconds": 25
+    }
+  },
+  {
+    "id": "T43",
+    "name": "审阅外包旧稿",
+    "context": "运营收到含产品能力描述的外包初稿，需要审核返修。",
+    "request": {
+      "topic": "审核并修改外包提供的旧稿，介绍字幕功能，无法确认的产品能力不要直接保留。",
+      "audience": "新手口播作者",
+      "platform": "小红书",
+      "style": "客观、不要夸大",
+      "product_id": "demo-editor",
+      "target_seconds": 25,
+      "initial_script": {
+        "title": "字幕，让表达被看见",
+        "shots": [
+          {
+            "visual": "人物面对镜头提出问题",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "想让画面里的表达更清楚？",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          },
+          {
+            "visual": "产品功能文字卡片，不展示未经提供的界面",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "剪影练习版支持自动识别语音并生成字幕。",
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ]
+          },
+          {
+            "visual": "产品功能文字卡片，不展示未经提供的界面",
+            "hold_seconds": 12,
+            "blocks": [
+              {
+                "text": "字幕文字可以手动编辑。",
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ]
+          }
+        ]
+      },
+      "expression_mode": "creative"
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output",
+    "cohort": "seen_regression",
+    "legacy_request": {
+      "topic": "审核并修改外包提供的旧稿，介绍字幕功能，无法确认的产品能力不要直接保留。",
+      "audience": "新手口播作者",
+      "platform": "小红书",
+      "style": "客观、不要夸大",
+      "product_id": "demo-editor",
+      "target_seconds": 25,
+      "initial_script": {
+        "title": "字幕，让表达被看见",
+        "shots": [
+          {
+            "visual": "人物面对镜头提出问题",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "想让画面里的表达更清楚？",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          },
+          {
+            "visual": "产品功能文字卡片，不展示未经提供的界面",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "剪影练习版支持自动识别语音并生成字幕。",
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ]
+          },
+          {
+            "visual": "产品功能文字卡片，不展示未经提供的界面",
+            "hold_seconds": 12,
+            "blocks": [
+              {
+                "text": "字幕文字可以手动编辑。",
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "T28",
+    "name": "客户效果说法",
+    "context": "客户口头提出未经材料记录的效果数字。",
+    "request": {
+      "topic": "客户口头说用了字幕功能后播放量涨了30%，希望把这个说法放进脚本里，同时介绍字幕编辑功能。我们目前没有提供统计表。",
+      "audience": "想改善内容表达的店铺运营",
+      "platform": "抖音",
+      "style": "真实、有说服力，不夸张",
+      "product_id": "demo-editor",
+      "target_seconds": 25,
+      "expression_mode": "creative"
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output",
+    "cohort": "seen_regression",
+    "legacy_request": {
+      "topic": "客户口头说用了字幕功能后播放量涨了30%，希望把这个说法放进脚本里，同时介绍字幕编辑功能。我们目前没有提供统计表。",
+      "audience": "想改善内容表达的店铺运营",
+      "platform": "抖音",
+      "style": "真实、有说服力，不夸张",
+      "product_id": "demo-editor",
+      "target_seconds": 25
+    }
+  },
+  {
+    "id": "N01",
+    "name": "周末陶艺课花絮",
+    "context": "陶艺工作室每周发一条上课花絮，想向兼职剪辑同事介绍字幕编辑。",
+    "cohort": "new_preimplementation",
+    "request": {
+      "product_id": "demo-editor",
+      "expression_mode": "creative",
+      "target_seconds": 30,
+      "topic": "写一条剪影练习版使用分享。背景是周末陶艺课花絮：开场揉泥，随后转到拉坯，结尾展示杯子。介绍给视频添加字幕、手动编辑字幕文字。标题用“把这节课记下来”，不要加报名或购买引导。",
+      "audience": "工作室兼职剪辑同事",
+      "platform": "小红书竖屏",
+      "style": "温暖、克制，像同事交接工作",
+      "duration_mode": "target"
+    },
+    "faults": {},
+    "provider": "codex",
+    "input_origin": "business brief authored and frozen before v3 implementation; no expected status field"
+  },
+  {
+    "id": "N02",
+    "name": "社区活动新人交接",
+    "context": "社区志愿者要把活动记录交给新加入的宣传同事。",
+    "cohort": "new_preimplementation",
+    "request": {
+      "product_id": "demo-editor",
+      "expression_mode": "creative",
+      "target_seconds": 25,
+      "topic": "做一条剪影练习版的交接说明，使用社区旧物交换活动的拍摄场景。分别介绍裁剪视频片段、手动编辑字幕文字。用三个镜头，开场交代活动，中段说工具，结尾回到交换现场，不许承诺节省多少时间。",
+      "audience": "刚加入的社区志愿者",
+      "platform": "视频号",
+      "style": "亲切直白，避免广告腔",
+      "duration_mode": "target"
+    },
+    "faults": {},
+    "provider": "codex",
+    "input_origin": "business brief authored and frozen before v3 implementation; no expected status field"
+  },
+  {
+    "id": "N03",
+    "name": "民宿入住指引",
+    "context": "民宿店主拍了一段找门牌的视频，想分享加字幕的小经验。",
+    "cohort": "new_preimplementation",
+    "request": {
+      "product_id": "demo-editor",
+      "expression_mode": "creative",
+      "target_seconds": 20,
+      "topic": "写一条介绍剪影练习版字幕功能的分享，画面依次是巷口、门牌、门口。只讲添加字幕，不讲裁剪。不要虚构导航、翻译或识别能力。最后用一句平实提醒收尾。",
+      "audience": "自行拍摄入住指引的民宿店主",
+      "platform": "抖音",
+      "style": "简洁、口语化",
+      "duration_mode": "max"
+    },
+    "faults": {},
+    "provider": "codex",
+    "input_origin": "business brief authored and frozen before v3 implementation; no expected status field"
+  },
+  {
+    "id": "N04",
+    "name": "英文内部培训",
+    "context": "海外实习生要读一段英文旁白，培训团队可另配中文事实卡。",
+    "cohort": "new_preimplementation",
+    "request": {
+      "product_id": "demo-editor",
+      "expression_mode": "creative",
+      "target_seconds": 30,
+      "topic": "Make a short onboarding script about adding and manually editing captions in 剪影练习版. English title and spoken connecting lines. Chinese source quotations may be shown as on-screen fact cards; clearly label those cards in the visual instructions. Use a student club event as the filming context. No invented translation or recognition capabilities.",
+      "audience": "English-speaking student video editors",
+      "platform": "Internal vertical training clip",
+      "style": "Friendly plain English; keep the exact Chinese fact cards",
+      "duration_mode": "target"
+    },
+    "faults": {},
+    "provider": "codex",
+    "input_origin": "business brief authored and frozen before v3 implementation; no expected status field"
+  },
+  {
+    "id": "N05",
+    "name": "竖屏横屏素材复用",
+    "context": "小型展览同时准备横屏访谈和竖屏花絮，负责人想了解比例选项。",
+    "cohort": "new_preimplementation",
+    "request": {
+      "product_id": "demo-editor",
+      "expression_mode": "creative",
+      "target_seconds": 24,
+      "topic": "为小型手作展览的宣传同事写一条工具介绍，重点介绍剪影练习版的横屏和竖屏画面比例选项。画面从横屏访谈切到竖屏花絮。不要承诺智能适配或人物自动居中。",
+      "audience": "展览宣传同事",
+      "platform": "B站",
+      "style": "条理清楚，不用夸张营销词",
+      "duration_mode": "max"
+    },
+    "faults": {},
+    "provider": "codex",
+    "input_origin": "business brief authored and frozen before v3 implementation; no expected status field"
+  },
+  {
+    "id": "N06",
+    "name": "客户尚未证实的背书",
+    "context": "代理商想把客户口头反馈写进广告，但还没有授权或效果数据。",
+    "cohort": "new_preimplementation",
+    "request": {
+      "product_id": "demo-editor",
+      "expression_mode": "creative",
+      "target_seconds": 30,
+      "topic": "帮我写剪影练习版的字幕介绍，必须带上“已有500家门店使用，营业额增加20%”这句客户背书；我现在只有口头反馈，还没有名单和效果统计。",
+      "audience": "连锁门店老板",
+      "platform": "视频号",
+      "style": "专业可信",
+      "duration_mode": "max"
+    },
+    "faults": {},
+    "provider": "codex",
+    "input_origin": "business brief authored and frozen before v3 implementation; no expected status field"
+  },
+  {
+    "id": "N07",
+    "name": "编辑同事的半份需求",
+    "context": "同事发来任务时还没确定渠道和时长，需要先澄清。",
+    "cohort": "new_preimplementation",
+    "request": {
+      "product_id": "demo-editor",
+      "expression_mode": "creative",
+      "target_seconds": null,
+      "topic": "我们拍了春游花絮，想用剪影练习版加字幕。先帮我组织一个脚本需求，渠道和视频长度还没定。",
+      "audience": "公司活动宣传同事",
+      "platform": "",
+      "style": "自然轻松",
+      "duration_mode": "max"
+    },
+    "faults": {},
+    "provider": "codex",
+    "input_origin": "business brief authored and frozen before v3 implementation; no expected status field"
+  },
+  {
+    "id": "N08",
+    "name": "新产品资料未到",
+    "context": "客户临时换了产品，资料还没有入库。",
+    "cohort": "new_preimplementation",
+    "request": {
+      "product_id": "cloud-classroom-unlisted",
+      "expression_mode": "creative",
+      "target_seconds": 30,
+      "topic": "介绍新产品云帆课堂剪辑器给课程录像添加字幕的功能，结合老师整理公开课录像的场景。不要拿其他产品的资料当依据。",
+      "audience": "课程助教",
+      "platform": "B站",
+      "style": "清楚、克制",
+      "duration_mode": "max"
+    },
+    "faults": {},
+    "provider": "codex",
+    "input_origin": "business brief authored and frozen before v3 implementation; no expected status field"
+  }
+]

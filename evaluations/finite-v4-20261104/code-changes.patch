@@ -1,0 +1,1051 @@
+--- v3/scripts/audit_finite.py
++++ v4/scripts/audit_finite.py
+@@ -0,0 +1,63 @@
++"""Audit v4 evidence and preserved history without invoking any model."""
++import argparse
++import hashlib
++import json
++from datetime import datetime,timezone
++from pathlib import Path
++from scripts.verify_evidence import verify_run
++from src.tools import ROOT,read_json
++
++
++def main():
++    parser=argparse.ArgumentParser()
++    parser.add_argument('--require-complete',action='store_true')
++    args=parser.parse_args()
++    base=ROOT/'evaluations/finite-v4-20261104'
++    baseline=read_json(base/'baseline.json')
++    final_source=read_json(base/'tested-source-final.json')
++    sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
++    changed=[name for name,digest in baseline['preserved_sha256'].items() if not (ROOT/name).is_file() or sha(ROOT/name)!=digest]
++    source_changed=[name for name,digest in final_source.items() if sha(ROOT/name)!=digest]
++    rows=[]
++    original={c['id']:c for c in read_json(ROOT/'evaluations/realistic-50-v3-20261104/cases.json')}
++    for group in ('live','live-final','web'):
++        for file in sorted((base/group).glob('*/output.json')):
++            folder=file.parent; output=read_json(file); manifest=read_json(folder/'manifest.json')
++            experiment=read_json(folder/'experiment.json')
++            expected=original[experiment['source_case']]['request']
++            errors=verify_run(folder)
++            if read_json(folder/'input.json')!=expected:errors.append('input changed')
++            if manifest['provider']!='codex' or manifest['evidence_kind']!='real_model' or manifest['model_responses']<=0:
++                errors.append('not evidence of an actual Codex response')
++            if group in {'live-final','web'} and experiment.get('source_sha256')!=final_source:
++                errors.append('source mismatch')
++            if read_json(folder/'run.json')['state']!='finished':errors.append('final save marker missing')
++            trace=[json.loads(line) for line in (folder/'trace.jsonl').read_text(encoding='utf-8').splitlines()]
++            for step in trace:
++                for key in ('model','review_model'):
++                    if key in step:
++                        call_id=step[key]['call_id']
++                        diagnostic=read_json(folder/'diagnostics'/(call_id+'.json'))
++                        if not diagnostic['response_received'] or diagnostic['metadata']!=step[key]:
++                            errors.append('diagnostic does not match recorded model response')
++            rows.append({'group':group,'case':folder.name,'source_case':experiment['source_case'],
++                         'injection':experiment['injection'],'status':output['status'],
++                         'steps':manifest['steps'],'model_responses':manifest['model_responses'],
++                         'seconds':(output.get('duration') or {}).get('total_seconds'),
++                         'review_calls':sum(t['action']=='check_requirements' for t in trace),
++                         'errors':errors,'path':folder.relative_to(ROOT).as_posix()})
++    required={'V26','V27','V28','V29','V46','cleanup_lock','runtime_exception','process_exit'}
++    missing=sorted(required-{r['case'] for r in rows if r['group']=='live-final'})
++    if not any(r['group']=='web' for r in rows):missing.append('web/V01')
++    report={'verified_at':datetime.now(timezone.utc).isoformat(),'old_files_checked':len(baseline['preserved_sha256']),
++            'old_files_changed':changed,'final_source_changed':source_changed,
++            'backup_source_zip_verified':sha(ROOT/baseline['source_archive'])==baseline['source_zip_sha256'],
++            'runs':rows,'missing_final_runs':missing,
++            'note':'Saved-record and hash audit only; no model calls, no semantic correctness guarantee.'}
++    (base/'audit.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
++    print(json.dumps({k:v for k,v in report.items() if k!='runs'},ensure_ascii=False))
++    print(json.dumps(rows,ensure_ascii=False))
++    return int(bool(changed or source_changed or any(r['errors'] for r in rows) or not report['backup_source_zip_verified'] or (args.require_complete and missing)))
++
++
++if __name__=='__main__':raise SystemExit(main())
+--- v3/scripts/evaluate_finite.py
++++ v4/scripts/evaluate_finite.py
+@@ -0,0 +1,81 @@
++"""Explicit real-Codex regression runs; controlled faults are never hidden."""
++import argparse
++import contextlib
++import hashlib
++import json
++import os
++import tempfile
++from datetime import datetime, timezone
++from pathlib import Path
++from unittest.mock import patch
++
++from src.providers import CodexModel
++from src.recording import run_recorded, recover_run
++from src.tools import ROOT, ToolBox, read_json
++from scripts.verify_evidence import verify_run
++
++SOURCE_CASES = ROOT/'evaluations/realistic-50-v3-20261104/cases.json'
++CASES = {'V26':'none','V27':'none','V28':'none','V29':'none','V46':'none',
++         'cleanup_lock':'cleanup_lock_once','runtime_exception':'exception_after_draft',
++         'process_exit':'process_exit_after_draft'}
++
++
++def main():
++    parser=argparse.ArgumentParser(description=__doc__)
++    parser.add_argument('--case',required=True,choices=CASES)
++    parser.add_argument('--output',required=True)
++    parser.add_argument('--recover',action='store_true')
++    args=parser.parse_args()
++    directory=Path(args.output)
++    if args.recover:
++        assert args.case=='process_exit'
++        recover_run(directory)
++    else:
++        if directory.exists():parser.error('Refuse replacing an existing experiment')
++        original=next(c for c in read_json(SOURCE_CASES) if c['id']==(args.case if args.case.startswith('V') else 'V01'))
++        request=original['request']
++        directory.mkdir(parents=True)
++        annotation={'case':args.case,'source_case':original['id'],'request_unchanged':True,
++                    'injection':CASES[args.case], 'provider':'codex',
++                    'started_at':datetime.now(timezone.utc).isoformat(),
++                    'note':'Actual model responses; faults, if any, are controlled host experiments, not naturally observed failures.'}
++        annotation['source_sha256']={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()
++            for name in ('src','web','data') for p in (ROOT/name).rglob('*') if p.is_file() and '__pycache__' not in p.parts}
++        (directory/'experiment.json').write_text(json.dumps(annotation,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
++        injection_log=[]
++        def progress(event):
++            if CASES[args.case] in {'exception_after_draft','process_exit_after_draft'} and event['kind']=='step' and event['script']:
++                # run_recorded has flushed the checkpoint before this callback.
++                (directory/'injection-observed.json').write_text(json.dumps({'injection':CASES[args.case],
++                    'after_step':event['step'],'checkpoint_sha256':hashlib.sha256((directory/'checkpoint.json').read_bytes()).hexdigest()})+'\n',encoding='utf-8')
++                if CASES[args.case]=='process_exit_after_draft':os._exit(86)
++                raise RuntimeError('controlled runtime interruption after a real-model draft')
++        cleanup=tempfile.TemporaryDirectory.cleanup
++        def locked_once(workspace):
++            if not injection_log:
++                injection_log.append({'injection':'cleanup_lock_once','directory_name':Path(workspace.name).name})
++                # Detach then fail inside the real cleanup path, like Windows rmtree.
++                with patch.object(tempfile.TemporaryDirectory,'_rmtree',side_effect=PermissionError(32,'controlled cleanup lock')):
++                    return cleanup(workspace)
++            return cleanup(workspace)
++        context=patch.object(tempfile.TemporaryDirectory,'cleanup',locked_once) if CASES[args.case]=='cleanup_lock_once' else contextlib.nullcontext()
++        with context:
++            result=run_recorded(directory,request,CodexModel(),ToolBox(),on_event=progress)
++        if injection_log:
++            (directory/'injection-observed.json').write_text(json.dumps(injection_log,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
++    output=read_json(directory/'output.json')
++    errors=verify_run(directory)
++    metadata=output['metadata']
++    review_calls=[json.loads(line) for line in (directory/'trace.jsonl').read_text(encoding='utf-8').splitlines() if json.loads(line)['action']=='check_requirements']
++    summary={'case':args.case,'status':output['status'],'model_responses':metadata['model_responses'],
++             'provider':metadata['provider'],'steps':metadata['steps'],
++             'seconds':(output.get('duration') or {}).get('total_seconds'),
++             'review_calls':len(review_calls),
++             'review_has_current_duration':all(t['arguments'].get('duration_check') is not None for t in review_calls) if review_calls else None,
++             'replay_errors':errors,'message':output['message']}
++    (directory/'evaluation.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
++    print(json.dumps(summary,ensure_ascii=False))
++    return 0 if metadata['provider']=='codex' and metadata['model_responses']>0 and not errors else 2
++
++
++if __name__=='__main__':raise SystemExit(main())
+--- v3/scripts/package_quality.py
++++ v4/scripts/package_quality.py
+@@ -13,6 +13,8 @@
+ def main():
+     parser=argparse.ArgumentParser()
+     parser.add_argument('--output',required=True)
++    parser.add_argument('--version',default='quality-v3-workspace')
++    parser.add_argument('--include-root-archives',action='store_true',help='Include preserved ZIPs referenced by the v4 baseline')
+     args=parser.parse_args()
+     output=Path(args.output).resolve()
+     if output.exists(): parser.error('Refuse replacing archive')
+@@ -21,9 +23,12 @@
+         files += [p for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts
+                   and p.suffix not in {'.pyc','.pyo'} and p.name != '.env']
+     files += [ROOT/n for n in ('README.md','PRODUCT.md','DESIGN.md','requirements.txt','.env.example','.gitignore','run.ps1','启动网页.cmd')]
++    if args.include_root_archives:
++        files += [p for p in ROOT.glob('*.zip') if p.resolve()!=output]
++        files += list(ROOT.glob('*_校验.json'))
+     hashes={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in files}
+     commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
+-    manifest={'version':'quality-v3-workspace','created_at':datetime.now(timezone.utc).isoformat(),
++    manifest={'version':args.version,'created_at':datetime.now(timezone.utc).isoformat(),
+               'git_base_commit':commit,'uncommitted_changes':True,
+               'note':'Local workspace snapshot; not uploaded or exam-submitted. Baseline commit does not identify final content.',
+               'file_count':len(hashes),'files_sha256':hashes}
+--- v3/scripts/verify_evidence.py
++++ v4/scripts/verify_evidence.py
+@@ -5,7 +5,7 @@
+ 
+ from src.schema import fingerprint
+ from src.tools import ROOT, ToolBox, read_json
+-from src.requirements import review_observation
++from src.requirements import review_observation, bound_duration_check
+ from src.expression import extended_review
+ from src.revisions import revision_summary, failed_feedback
+ 
+@@ -41,8 +41,10 @@
+             if script is None:
+                 continue
+             expected_review_args = {'script': script, 'request': request}
+-            if manifest.get('requirements_review_context') == 'current_rules_check_v1':
++            if manifest.get('requirements_review_context') in {'current_rules_check_v1', 'current_rules_and_duration_v2'}:
+                 expected_review_args['rules_check'] = rules_check if rules_check and rules_check.get('script_hash') == fingerprint(script) else None
++            if manifest.get('requirements_review_context') == 'current_rules_and_duration_v2':
++                expected_review_args['duration_check'] = bound_duration_check(duration, request, script)
+             if args != expected_review_args:
+                 errors.append(f'step {index}: 需求检查参数未绑定当前稿和原始需求')
+             requirements_check = entry['observation']
+@@ -82,7 +84,7 @@
+     if output.get('requirements_check') != requirements_check:
+         errors.append('最终需求检查与 Trace 不一致')
+     if output["status"] == "completed":
+-        if output.get('metadata', {}).get('completion_policy') in {'facts_duration_requirements_v2','facts_duration_requirements_v3'}:
++        if output.get('metadata', {}).get('completion_policy') in {'facts_duration_requirements_v2','facts_duration_requirements_v3','facts_duration_requirements_v4'}:
+             if not (requirements_check and requirements_check.get('ok') and requirements_check.get('passed')
+                     and requirements_check.get('script_hash') == fingerprint(script)
+                     and requirements_check.get('request_hash') == fingerprint(request)):
+--- v3/src/agent.py
++++ v4/src/agent.py
+@@ -5,7 +5,7 @@
+ from datetime import datetime, timezone
+ 
+ from .schema import fingerprint, validate_action, validate_request
+-from .requirements import review_observation
++from .requirements import review_observation, bound_duration_check
+ from .revisions import revision_summary, failed_feedback
+ 
+ 
+@@ -31,7 +31,8 @@
+                 self.on_event(copy.deepcopy({"kind": kind, "step": step, "script": state["script"],
+                                              "duration": state["duration"], "rules_check": state["rules_check"],
+                                              "requirements_check": state["requirements_check"],
+-                                             "trace": state["history"]}))
++                                             "trace": state["history"],
++                                             "snapshot": result('in_progress', '任务执行中，尚未完成。')}))
+ 
+         def record(entry):
+             state["history"].append(entry)
+@@ -46,8 +47,8 @@
+                                  "provider": self.model.name, "evidence_kind": self.model.evidence_kind,
+                                  "data_hash": self.tools.data_hash, "max_steps": self.max_steps,
+                                  "steps": len(state["history"]), "synthetic_data": self.tools.synthetic_data,
+-                                 "completion_policy": "facts_duration_requirements_v3",
+-                                 "requirements_review_context": "current_rules_check_v1",
++                                 "completion_policy": "facts_duration_requirements_v4",
++                                 "requirements_review_context": "current_rules_and_duration_v2",
+                                  "model_responses": sum(("model" in item) + ("review_model" in item)
+                                                         for item in state["history"])}}
+         try:
+@@ -117,8 +118,9 @@
+                         args['request'] = copy.deepcopy(request)
+                         checked = state['rules_check']
+                         args['rules_check'] = copy.deepcopy(checked) if checked and checked.get('script_hash') == fingerprint(state['script']) else None
++                        args['duration_check'] = bound_duration_check(state['duration'], request, state['script'])
+                         try:
+-                            review, review_model = self.model.review(copy.deepcopy(request), copy.deepcopy(state['script']), copy.deepcopy(args['rules_check']))
++                            review, review_model = self.model.review(copy.deepcopy(request), copy.deepcopy(state['script']), copy.deepcopy(args['rules_check']), copy.deepcopy(args['duration_check']))
+                             review_meta = {'review_model': review_model}
+                             if self.cancel_event and self.cancel_event.is_set():
+                                 observation = {'ok': False, 'error': 'review_cancelled'}
+--- v3/src/cli.py
++++ v4/src/cli.py
+@@ -7,7 +7,7 @@
+ from .agent import Agent
+ from .mock import MockModel
+ from .providers import APIModel, CodexModel
+-from .reporting import save_run
++from .recording import run_recorded
+ from .tools import ToolBox, read_json
+ 
+ 
+@@ -40,8 +40,7 @@
+         materials = material_file["materials"] if material_file is not None else None
+         tools = ToolBox(materials=materials, failures=failures,
+                         synthetic_data=material_file.get("synthetic", False) if material_file is not None else True)
+-        result = Agent(model, tools, max_steps=args.max_steps).run(request)
+-        save_run(args.output, request, result, tools)
++        result = run_recorded(args.output, request, model, tools, max_steps=args.max_steps)
+     except (ValueError, OSError, KeyError) as exc:
+         print(f"运行或保存失败：{exc}", file=sys.stderr)
+         return 2
+--- v3/src/mock.py
++++ v4/src/mock.py
+@@ -22,7 +22,7 @@
+     name = "mock"
+     evidence_kind = "offline_mock_not_model_evidence"
+ 
+-    def review(self, request, script, rules_check=None):
++    def review(self, request, script, rules_check=None, duration_check=None):
+         report = {'items': [{'field': field, 'requirement': request[field], 'verdict': 'met',
+                            'evidence': '固定离线桩返回；仅验证接线，不证明语义符合。'}
+                           for field in ('topic', 'audience', 'platform', 'style')],
+--- v3/src/providers.py
++++ v4/src/providers.py
+@@ -9,19 +9,21 @@
+ import urllib.error
+ import urllib.parse
+ import urllib.request
++from datetime import datetime, timezone
+ from pathlib import Path
+ 
+ from .agent import ModelError
+ from .schema import ACTION_SCHEMA
+ from .requirements import REVIEW_SCHEMA, REVIEW_SYSTEM, CREATIVE_REVIEW_SCHEMA, CREATIVE_REVIEW_SYSTEM
+ from .expression import extended_review
++from .reporting import atomic_json
+ 
+ 
+ SYSTEM = """你是一个短视频脚本决策器。仅输出一个符合 schema 的 JSON 动作，不输出内部思维链。
+ 每次只选下一步，由宿主执行；下一次会收到真实工具观察。不得调用你所在运行环境的其他工具或读写文件。
+ 可用动作：search_materials(query)，write_script(script)，estimate_duration，check_rules，check_requirements，finish(status,message)。
+ write_script 由你生成/修订完整分镜稿；它会清空旧检查。三种检查始终针对当前稿，参数由宿主绑定。
+-check_requirements 会单独调用需求审核模型，读取原始需求、当前稿和绑定本稿的事实/规则检查依据，返回逐项覆盖情况；这是模型判断，不是绝对语义保证。建议先完成规则检查，再核对需求。
++check_requirements 会单独调用需求审核模型，读取原始需求、当前稿和绑定本稿的事实/规则及实际估时结果，返回逐项覆盖情况；这是模型判断，不是绝对语义保证。建议先完成时长和规则检查，再核对需求。
+ 需求审核发现遗漏或不确定时，结合反馈修订再检查；若受素材、批准表达或用户条件限制而做不到，应 needs_input/blocked，并准确说明未完成事项。不得仅因时长和事实通过就宣称完成。
+ 检索无结果时可以改写查询，仍不足则 needs_input；工具故障可有限重试、换查询或 blocked，不得假称成功。
+ 主题、受众、平台、风格用于选择合适的素材、标题、镜头与文案组合。duration_mode=max或未指定时，target_seconds是上限，无最低占比；duration_mode=target时必须达到目标的90%至100%，不得修改用户目标或切换模式。
+@@ -89,11 +91,11 @@
+     def decide(self, state, rules):
+         return self._generate(SYSTEM, payload(state, rules), ACTION_SCHEMA)
+ 
+-    def review(self, request, script, rules_check=None):
++    def review(self, request, script, rules_check=None, duration_check=None):
+         # Deliberately omit writer history/claims and previous review verdicts.
+         extra = extended_review(request)
+         return self._generate(REVIEW_SYSTEM + (CREATIVE_REVIEW_SYSTEM if extra else ''),
+-                              json.dumps({'request': request, 'script': script, 'rules_check': rules_check}, ensure_ascii=False),
++                              json.dumps({'request': request, 'script': script, 'rules_check': rules_check, 'duration_check': duration_check}, ensure_ascii=False),
+                               CREATIVE_REVIEW_SCHEMA if extra else REVIEW_SCHEMA)
+ 
+ 
+@@ -171,6 +173,7 @@
+     def __init__(self, timeout=180):
+         self.timeout = timeout
+         self.model = os.environ.get("CODEX_MODEL", "")
++        self.diagnostics_dir = None
+         executable = discover_codex()
+         if not executable:
+             raise ValueError("找不到 Codex CLI；请安装并登录，或配置 CODEX_BIN")
+@@ -185,7 +188,14 @@
+     def _generate(self, system, content, schema):
+         scratch = Path(".runtime")
+         scratch.mkdir(exist_ok=True)
+-        with tempfile.TemporaryDirectory(prefix="decision-", dir=scratch.resolve()) as folder:
++        workspace = tempfile.TemporaryDirectory(prefix="decision-", dir=scratch.resolve())
++        folder = workspace.name
++        call_id = Path(folder).name
++        meta = {"provider": "codex", "model": self.model or "CLI configured default",
++                "thread_id": None, "usage": {}, "call_id": call_id, "warnings": []}
++        diagnostic = {"call_id": call_id, "started_at": datetime.now(timezone.utc).isoformat(),
++                      "response_received": False}
++        try:
+             schema_file = Path(folder) / "schema.json"
+             output_file = Path(folder) / "action.json"
+             schema_file.write_text(json.dumps(schema, ensure_ascii=False), encoding="utf-8")
+@@ -195,33 +205,48 @@
+             if self.model:
+                 command += ["--model", self.model]
+             command += ["-"]
++            process = run_cli(command, input=system + "\nSTATE_JSON:\n" + content,
++                              timeout=self.timeout, cwd=folder)
++            diagnostic['exit_code'] = process.returncode
++            if process.returncode != 0 or not output_file.is_file():
++                if 'Selected model is at capacity' in process.stdout + process.stderr:
++                    diagnostic['provider_error_code'] = 'model_at_capacity'
++                raise ModelError(f"codex_exit_{process.returncode}; call_id={call_id}")
++            for line in process.stdout.splitlines():
++                try:
++                    event = json.loads(line)
++                except json.JSONDecodeError:
++                    continue
++                if event.get("type") == "thread.started":
++                    meta['thread_id'] = event.get("thread_id")
++                if event.get("type") == "turn.completed":
++                    meta['usage'] = event.get("usage", {})
++                item = event.get("item", {})
++                if item.get("type") in {"command_execution", "mcp_tool_call", "web_search", "file_change"}:
++                    raise ModelError("codex_unexpected_external_tool_use")
++            action = parse_action(output_file.read_text(encoding="utf-8"))
++            diagnostic['response_received'] = True
++            return action, meta
++        except subprocess.TimeoutExpired as exc:
++            diagnostic['error_code'] = 'codex_timeout'
++            raise ModelError(f"codex_timeout; call_id={call_id}") from exc
++        except OSError as exc:
++            diagnostic['error_code'] = 'codex_process_error'
++            diagnostic['error_type'] = type(exc).__name__
++            raise ModelError(f"codex_process_error; call_id={call_id}") from exc
++        except ModelError as exc:
++            diagnostic['error_code'] = str(exc).split(';')[0]
++            raise
++        finally:
++            # Cleanup is separate from receiving a valid model response. A Windows
++            # file lock must not discard it or replace the original failure.
+             try:
+-                process = run_cli(command, input=system + "\nSTATE_JSON:\n" + content,
+-                                  timeout=self.timeout, cwd=folder)
+-                if process.returncode != 0 or not output_file.is_file():
+-                    diagnostic = process.stderr + "\n" + process.stdout
+-                    for key in ("MODEL_API_KEY", "OPENAI_API_KEY", "CODEX_API_KEY"):
+-                        if os.environ.get(key):
+-                            diagnostic = diagnostic.replace(os.environ[key], "[REDACTED]")
+-                    (scratch.resolve() / "codex-last-error.txt").write_text(diagnostic, encoding="utf-8")
+-                    raise ModelError(f"codex_exit_{process.returncode}; check CLI login and local permissions")
+-                usage, thread_id = {}, None
+-                for line in process.stdout.splitlines():
+-                    try:
+-                        event = json.loads(line)
+-                    except json.JSONDecodeError:
+-                        continue
+-                    if event.get("type") == "thread.started":
+-                        thread_id = event.get("thread_id")
+-                    if event.get("type") == "turn.completed":
+-                        usage = event.get("usage", {})
+-                    item = event.get("item", {})
+-                    if item.get("type") in {"command_execution", "mcp_tool_call", "web_search", "file_change"}:
+-                        raise ModelError("codex_unexpected_external_tool_use")
+-                action = parse_action(output_file.read_text(encoding="utf-8"))
+-                return action, {"provider": "codex", "model": self.model or "CLI configured default",
+-                                "thread_id": thread_id, "usage": usage}
+-            except subprocess.TimeoutExpired as exc:
+-                raise ModelError("codex_timeout") from exc
++                workspace.cleanup()
+             except OSError as exc:
+-                raise ModelError("codex_process_error") from exc
++                meta['warnings'].append('cleanup_deferred')
++                diagnostic['cleanup_error_type'] = type(exc).__name__
++            diagnostic.update(finished_at=datetime.now(timezone.utc).isoformat(), metadata=meta)
++            try:
++                atomic_json(Path(self.diagnostics_dir or scratch/'diagnostics') / (call_id+'.json'), diagnostic)
++            except OSError:
++                meta['warnings'].append('diagnostic_save_failed')
+--- v3/src/recording.py
++++ v4/src/recording.py
+@@ -0,0 +1,130 @@
++"""Durable last-completed-step evidence; never resume model calls implicitly."""
++import copy
++import json
++import os
++import uuid
++from datetime import datetime, timezone
++from pathlib import Path
++
++from .agent import Agent
++from .reporting import atomic_json, save_run
++
++
++def now():
++    return datetime.now(timezone.utc).isoformat()
++
++
++def owner_running(pid):
++    """Conservative liveness check; never use os.kill(pid, 0) on Windows."""
++    if type(pid) is not int or pid <= 0:
++        return False
++    if pid == os.getpid():
++        return True
++    if os.name == 'nt':
++        import ctypes
++        from ctypes import wintypes
++        kernel = ctypes.WinDLL('kernel32', use_last_error=True)
++        kernel.OpenProcess.argtypes = [wintypes.DWORD,wintypes.BOOL,wintypes.DWORD]
++        kernel.OpenProcess.restype = wintypes.HANDLE
++        kernel.GetExitCodeProcess.argtypes = [wintypes.HANDLE,ctypes.POINTER(wintypes.DWORD)]
++        kernel.GetExitCodeProcess.restype = wintypes.BOOL
++        kernel.CloseHandle.argtypes = [wintypes.HANDLE]
++        handle = kernel.OpenProcess(0x1000,False,pid)
++        if not handle:
++            return ctypes.get_last_error() != 87  # Unknown/access-denied: do not recover.
++        try:
++            code = wintypes.DWORD()
++            return not kernel.GetExitCodeProcess(handle,ctypes.byref(code)) or code.value == 259
++        finally:
++            kernel.CloseHandle(handle)
++    try:
++        os.kill(pid,0)
++        return True
++    except ProcessLookupError:
++        return False
++    except PermissionError:
++        return True
++
++
++class EvidenceSaveError(OSError):
++    pass
++
++
++def interrupted(result, error_type, message):
++    result = copy.deepcopy(result)
++    result.update(status='blocked', message=message,
++                  interruption={'error_type': error_type, 'in_flight_step_may_be_missing': True})
++    result['metadata']['finished_at'] = now()
++    return result
++
++
++def run_recorded(directory, request, model, tools, max_steps=12, on_event=None, cancel_event=None):
++    directory = Path(directory)
++    record = {'run_id': uuid.uuid4().hex, 'state':'recording', 'started_at':now(), 'owner_pid':os.getpid()}
++    last = {'status':'in_progress', 'message':'任务执行中，尚未完成。',
++            'script':copy.deepcopy(request.get('initial_script')) if isinstance(request,dict) else None,
++            'duration':None, 'rules_check':None, 'requirements_check':None, 'sources':[], 'trace':[],
++            'metadata':{'started_at':record['started_at'], 'finished_at':record['started_at'],
++                        'provider':model.name, 'evidence_kind':model.evidence_kind,
++                        'data_hash':tools.data_hash, 'synthetic_data':tools.synthetic_data,
++                        'steps':0, 'max_steps':max_steps, 'model_responses':0}}
++    atomic_json(directory/'run.json',record)
++    atomic_json(directory/'input.json',request)
++    atomic_json(directory/'data_snapshot.json',{'materials':tools.materials,'rules':tools.rules})
++    if hasattr(model,'diagnostics_dir'):
++        model.diagnostics_dir = directory/'diagnostics'
++
++    def progress(event):
++        nonlocal last
++        last = copy.deepcopy(event['snapshot'])
++        last['metadata'].update(run_id=record['run_id'], persistence='checkpoint_v1',
++                                fault_injection=tools.initial_failures)
++        atomic_json(directory/'checkpoint.json',{'format':'checkpoint_v1','recorded_at':now(),
++                    'last_event':{'kind':event['kind'],'step':event['step']},'result':last})
++        if on_event:
++            on_event(event)
++
++    progress({'kind':'starting','step':0,'snapshot':last, **{k:last[k] for k in
++              ('script','duration','rules_check','requirements_check','trace')}})
++    try:
++        result = Agent(model,tools,max_steps,on_event=progress,cancel_event=cancel_event).run(request)
++    except Exception as exc:
++        result = interrupted(last, type(exc).__name__, '运行异常，任务未完成；已保留此前的草稿、检查与执行记录。')
++    result['metadata'].update(run_id=record['run_id'],persistence='checkpoint_v1')
++    try:
++        save_run(directory,request,result,tools)
++        atomic_json(directory/'run.json',{**record,'state':'finished','finished_at':now()})
++    except OSError as exc:
++        # The last checkpoint is independent of the final artifact writes.
++        try:
++            atomic_json(directory/'run.json',{**record,'state':'save_failed','failed_at':now()})
++        except OSError:
++            pass  # A fully unwritable disk cannot be made durable by software.
++        raise EvidenceSaveError('最终记录未保存完成；如检查点已写入，可下载检查点或重启网页服务恢复。') from exc
++    return result
++
++
++def recover_run(directory):
++    """Finalize an interruption; None means a live owner must be left untouched."""
++    directory = Path(directory)
++    if not (directory/'run.json').is_file():
++        return False  # Legacy, already-saved runs are left byte-for-byte unchanged.
++    record = json.loads((directory/'run.json').read_text(encoding='utf-8'))
++    if record['state'] == 'finished':
++        return False
++    checkpoint = json.loads((directory/'checkpoint.json').read_text(encoding='utf-8'))
++    if checkpoint['result']['metadata'].get('run_id') != record['run_id']:
++        raise ValueError('检查点与本次运行不匹配')
++    if record['state'] == 'recording' and owner_running(record.get('owner_pid')):
++        return None
++    request = json.loads((directory/'input.json').read_text(encoding='utf-8'))
++    snapshot = json.loads((directory/'data_snapshot.json').read_text(encoding='utf-8'))
++    from .tools import ToolBox
++    tools = ToolBox(snapshot['materials'],snapshot['rules'],
++                    checkpoint['result']['metadata'].get('fault_injection',{}))
++    result = interrupted(checkpoint['result'],'process_interrupted',
++                         '上次运行或保存被中断；已恢复最后写入的检查点，任务未完成，未自动重跑模型。')
++    result['recovered_from_checkpoint'] = checkpoint['last_event']
++    save_run(directory,request,result,tools)
++    atomic_json(directory/'run.json',{**record,'state':'finished','recovered_at':now()})
++    return True
+--- v3/src/reporting.py
++++ v4/src/reporting.py
+@@ -1,7 +1,34 @@
+ """Human-readable script and machine-readable reproducibility artifacts."""
+ 
+ import json
++import os
++import tempfile
+ from pathlib import Path
++
++
++def atomic_text(path, text):
++    """Replace one artifact only after a complete, flushed write on the same disk."""
++    path = Path(path)
++    path.parent.mkdir(parents=True, exist_ok=True)
++    temporary = None
++    try:
++        with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', newline='\n',
++                                         dir=path.parent, prefix='.'+path.name+'.', suffix='.tmp', delete=False) as handle:
++            temporary = Path(handle.name)
++            handle.write(text)
++            handle.flush()
++            os.fsync(handle.fileno())
++        os.replace(temporary, path)
++    finally:
++        if temporary is not None:
++            try:
++                temporary.unlink(missing_ok=True)
++            except OSError:
++                pass
++
++
++def atomic_json(path, content):
++    atomic_text(path, json.dumps(content, ensure_ascii=False, indent=2, allow_nan=False)+'\n')
+ 
+ 
+ def render_report(result):
+@@ -44,6 +71,8 @@
+              "data_snapshot.json": {"materials": tools.materials, "rules": tools.rules},
+              "manifest.json": {**result["metadata"], "fault_injection": tools.initial_failures if hasattr(tools, "initial_failures") else {}}}
+     for name, content in files.items():
+-        (directory / name).write_text(json.dumps(content, ensure_ascii=False, indent=2, allow_nan=False) + "\n", encoding="utf-8")
+-    (directory / "trace.jsonl").write_text("".join(json.dumps(e, ensure_ascii=False, allow_nan=False) + "\n" for e in result["trace"]), encoding="utf-8")
+-    (directory / "script.md").write_text(render_report(result), encoding="utf-8")
++        if name != 'output.json':
++            atomic_json(directory / name, content)
++    atomic_text(directory / "trace.jsonl", "".join(json.dumps(e, ensure_ascii=False, allow_nan=False) + "\n" for e in result["trace"]))
++    atomic_text(directory / "script.md", render_report(result))
++    atomic_json(directory / 'output.json', files['output.json'])
+--- v3/src/requirements.py
++++ v4/src/requirements.py
+@@ -1,8 +1,19 @@
+ """Bounded model review of a brief; structural validation is not semantic proof."""
++import copy
+ from .schema import TEXT, fingerprint, obj
+ from .expression import EXPRESSION_SCHEMA, PACING_SCHEMA, extended_review, validate_expression_review
+ 
+ FIELDS = ('topic', 'audience', 'platform', 'style')
++
++
++def bound_duration_check(duration, request, script):
++    """Only expose the host's estimate for this draft and duration contract."""
++    if (duration and duration.get('ok') and script
++            and duration.get('script_hash') == fingerprint(script)
++            and duration.get('target_seconds') == request.get('target_seconds')
++            and duration.get('duration_mode', 'max') == request.get('duration_mode', 'max')):
++        return copy.deepcopy(duration)
++    return None
+ REVIEW_SCHEMA = obj({
+     'items': {'type': 'array', 'items': obj({
+         'field': {'type': 'string', 'enum': list(FIELDS)},
+@@ -27,6 +38,7 @@
+ met 表示已满足，unmet 表示明确不满足，uncertain 表示无法确定。没有证据时不得标 met。
+ 用户请求中的未证实能力即使被安全删除，仍属于未满足项，应列明资料缺口；不要以通过事实检查为由认定需求完成。
+ 时长及来源另由确定性工具检查；你只检查需求覆盖，不推翻事实校验，也不要求为满足需求编造产品事实。
++duration_check 是宿主提供、绑定当前稿及用户时长要求的实际估算结果；shots[].estimated_seconds才是每镜预计时长，total_seconds是总长，passed是上限/目标区间判定。hold_seconds仅为最低展示时间，0不代表镜头时长为0，而是没有额外延长；有旁白时仍按语速、停顿和最短镜头计算。不得因hold_seconds为0认定没有播放/朗读时间，也不得忽略已提供的通过结果反复要求证明总时长。duration_check为空时，不自行推断超时或零时长；总时长合规由宿主完成门槛把关。
+ rules_check 是宿主提供、绑定当前稿件的实际事实/规则检查结果，非写稿模型自述。其 citations 包含已核对的原文和来源；ok=true且passed=true时，这些文案已获本项目资料支持。不能仅因未另附完整素材库就把已核对事实判为无法确认，也不能把这种支持延伸为资料没有给出的效果或能力。结果为空/失败时如实标记证据不足。
+ 不要因为当前品牌白名单限制而忽略用户明确要求。不能满足应如实标记，后续 Agent 会修订或说明无法完成。
+ summary 用普通用户能理解的话概括结果，不要求用户修改内部字段或上传到不存在的入口。
+@@ -42,7 +54,7 @@
+ 拍摄校园、课堂、门店等生活背景本身无需产品事实来源；虚构人名作为画面示意可以，声称真实客户、收益或真实测评不可以。
+ 示意画面可以展示资料支持的能力，但不能虚构按钮名称、自动工作流、具体产品UI布局或未证实的操作步骤。
+ 若输入为strict而duration_mode=target，则expressions=[]，表达仍由严格白名单约束。
+-pacing独立检查每个镜头的hold_seconds与旁白长度、画面任务：是否有合理阅读、观察或操作内容支撑停留，是否重复同一事实/空镜凑时长；明确不合理unmet，无法判断uncertain。不要要求每秒都口播；画面明确安排观察/动作时允许停留。不要自行要求固定广告结构。
++pacing独立检查每个镜头的预计时长与旁白长度、画面任务：优先使用duration_check.shots中的estimated_seconds，结合hold_seconds最低停留约束；是否有合理阅读、观察或操作内容支撑停留，是否重复同一事实/空镜凑时长。总长通过不代表节奏必然合理；有具体内容证据的不合理仍为unmet，无法判断为uncertain。不要要求每秒都口播；画面明确安排观察/动作时允许停留。不要自行要求固定广告结构。
+ 各项evidence用具体位置和原文说明。此审核不能跳过原本items中用户全部硬约束的检查。
+ """
+ 
+--- v3/src/web.py
++++ v4/src/web.py
+@@ -19,14 +19,14 @@
+ from .agent import Agent
+ from .cli import make_model
+ from .providers import discover_codex
+-from .reporting import save_run
++from .recording import run_recorded, recover_run
+ from .schema import validate_request
+ from .tools import ROOT, ToolBox
+ 
+ PRESET_NAMES = {"normal": "正常生成", "missing_information": "缺少关键信息", "no_material": "没有产品素材",
+                 "tool_failure": "工具持续失败", "recoverable_failure": "一次故障后恢复", "over_duration": "38 秒旧稿修订",
+                 "rule_revision": "无依据宣传纠错", "impossible_duration": "无法满足的时长"}
+-DOWNLOADS = {"script.md", "input.json", "output.json", "trace.jsonl", "manifest.json", "data_snapshot.json"}
++DOWNLOADS = {"script.md", "input.json", "output.json", "trace.jsonl", "manifest.json", "data_snapshot.json", "checkpoint.json"}
+ 
+ 
+ class BusyError(ValueError):
+@@ -43,13 +43,15 @@
+         self._restore()
+ 
+     def _restore(self):
+-        """Restore only completed, saved runs; never resume model calls implicitly."""
++        """Restore saved runs or interrupted checkpoints; never restart models."""
+         if not self.output_root.exists():
+             return
+         folders = sorted((p for p in self.output_root.iterdir() if p.is_dir() and re.fullmatch(r"[a-f0-9]{32}", p.name)),
+                          key=lambda p: p.stat().st_mtime)[-32:]
+         for folder in folders:
+             try:
++                if recover_run(folder) is None:
++                    continue
+                 request = json.loads((folder / "input.json").read_text(encoding="utf-8"))
+                 result = json.loads((folder / "output.json").read_text(encoding="utf-8"))
+                 manifest = json.loads((folder / "manifest.json").read_text(encoding="utf-8"))
+@@ -59,6 +61,7 @@
+                     "requirements_check": result.get('requirements_check'),
+                     "request": request, "created_at": result["metadata"]["started_at"], "state": "finished",
+                     "phase": "finished", "step": len(trace), "result": result, "error": None, "saved": True,
++                    "checkpoint_saved": (folder/'checkpoint.json').is_file(),
+                     "cancel_requested": False, "cancel_event": threading.Event(), "scenario_id": "custom",
+                     "failures": manifest.get("fault_injection", {}),
+                     **{key: result[key] for key in ("trace", "script", "duration", "rules_check")}}
+@@ -97,7 +100,7 @@
+                    "failures": copy.deepcopy(failures),
+                    "created_at": datetime.now(timezone.utc).isoformat(), "state": "running", "phase": "starting",
+                    "step": 0, "trace": [], "script": request.get("initial_script"), "duration": None,
+-                   "rules_check": None, "result": None, "error": None, "saved": False,
++                   "rules_check": None, "result": None, "error": None, "saved": False, "checkpoint_saved": False,
+                    "requirements_check": None,
+                    "cancel_requested": False, "cancel_event": threading.Event()}
+             self.jobs[run_id] = job
+@@ -111,12 +114,13 @@
+             job = self.jobs[run_id]
+         def progress(event):
+             with self.lock:
+-                job.update({"phase": event["kind"], **{k: event[k] for k in ("step", "trace", "script", "duration", "rules_check", "requirements_check")}})
++                job.update({"phase": event["kind"], "checkpoint_saved": True,
++                            **{k: event[k] for k in ("step", "trace", "script", "duration", "rules_check", "requirements_check")}})
+         try:
+             model = self.model_factory(job["provider"], 180)
+             tools = ToolBox(failures=failures)
+-            result = Agent(model, tools, on_event=progress, cancel_event=job["cancel_event"]).run(job["request"])
+-            save_run(self.output_root / run_id, job["request"], result, tools)
++            result = run_recorded(self.output_root / run_id, job["request"], model, tools,
++                                  on_event=progress, cancel_event=job["cancel_event"])
+             with self.lock:
+                 job.update({"result": result, "state": "finished", "phase": "finished", "saved": True,
+                             **{k: result[k] for k in ("trace", "script", "duration", "rules_check", "requirements_check")}})
+@@ -205,7 +209,7 @@
+                 job = manager.get(run_id)
+                 if job and not filename:
+                     return self._send(200, job)
+-                if job and job["saved"] and filename in DOWNLOADS:
++                if job and filename in DOWNLOADS and (job["saved"] or (filename == 'checkpoint.json' and job.get('checkpoint_saved'))):
+                     try:
+                         return self._send(200, (manager.output_root / run_id / filename).read_bytes(), "application/octet-stream", filename)
+                     except OSError:
+--- v3/tests/test_cli.py
++++ v4/tests/test_cli.py
+@@ -21,12 +21,12 @@
+             self.assertIn("offline_mock_not_model_evidence", stdout.getvalue())
+ 
+     def test_save_failure_never_prints_success(self):
+-        with patch("src.cli.save_run", side_effect=OSError("test-disk-full")):
++        with tempfile.TemporaryDirectory(dir=ROOT/'.runtime') as folder, patch("src.recording.save_run", side_effect=OSError("test-disk-full")):
+             with contextlib.redirect_stdout(io.StringIO()) as stdout, contextlib.redirect_stderr(io.StringIO()) as stderr:
+-                code = main(["--provider", "mock", "--input", str(ROOT / "examples/inputs/normal.json")])
++                code = main(["--provider", "mock", "--input", str(ROOT / "examples/inputs/normal.json"), "--output",folder])
+         self.assertEqual(code, 2)
+         self.assertNotIn("completed", stdout.getvalue())
+-        self.assertIn("test-disk-full", stderr.getvalue())
++        self.assertIn("最终记录未保存完成", stderr.getvalue())
+ 
+     def test_step_limit_cli_exit_is_nonzero(self):
+         scratch = ROOT / ".runtime/tests"
+--- v3/tests/test_finite_v4.py
++++ v4/tests/test_finite_v4.py
+@@ -0,0 +1,183 @@
++"""Fault/contract regressions; these fixtures are not real-model evidence."""
++import copy
++import json
++import os
++import subprocess
++import tempfile
++import unittest
++from pathlib import Path
++from unittest.mock import patch
++
++from src.agent import Agent
++from src.mock import MockModel, action
++from src.providers import CodexModel, StructuredModel
++from src.tools import ROOT, ToolBox, read_json
++from src.web import RunManager
++from tests.test_web import wait_finished
++from src.agent import ModelError
++from src.requirements import bound_duration_check
++from src.recording import run_recorded, recover_run, EvidenceSaveError
++from src.reporting import atomic_json
++from scripts.verify_evidence import verify_run
++
++
++REQUEST = read_json(ROOT / 'examples/inputs/normal.json')
++
++
++class DurationContextTests(unittest.TestCase):
++    def test_stale_draft_target_or_mode_is_not_sent_as_trusted_timing(self):
++        result = Agent(MockModel(),ToolBox()).run(REQUEST)
++        self.assertEqual(bound_duration_check(result['duration'],REQUEST,result['script']),result['duration'])
++        for change in ({'script_hash':'old'}, {'target_seconds':299}, {'duration_mode':'target'}, {'ok':False}):
++            self.assertIsNone(bound_duration_check({**result['duration'],**change},REQUEST,result['script']))
++
++    def test_valid_timing_does_not_override_unmet_content_review(self):
++        class Unmet(MockModel):
++            def review(self, request, script, rules_check=None, duration_check=None):
++                report,meta=super().review(request,script,rules_check,duration_check)
++                report['items'][0]['verdict']='unmet'
++                report['items'][0]['evidence']='fixture: missing requested scene'
++                return report,meta
++        result=Agent(Unmet(),ToolBox()).run(REQUEST)
++        self.assertTrue(result['duration']['passed'])
++        self.assertNotEqual(result['status'],'completed')
++
++    def test_agent_passes_actual_current_timing_to_reviewer(self):
++        received = []
++        class Reviewer(MockModel):
++            def review(self, request, script, rules_check=None, duration_check=None):
++                received.append(copy.deepcopy(duration_check))
++                return super().review(request, script, rules_check)
++        result = Agent(Reviewer(), ToolBox()).run(REQUEST)
++        self.assertEqual(received, [result['duration']])
++        self.assertGreater(received[0]['shots'][0]['estimated_seconds'], 0)
++        self.assertEqual(result['script']['shots'][0]['hold_seconds'], 0)
++
++    def test_adapter_sends_bound_timing_and_hold_semantics(self):
++        calls = []
++        class Recorder(StructuredModel):
++            def _generate(self, system, content, schema):
++                calls.append((system,json.loads(content))); return {},{}
++        timing = {'script_hash':'test-hash','shots':[{'shot':1,'estimated_seconds':7.8}], 'passed':True}
++        Recorder().review(REQUEST, {'title':'fixture','shots':[]}, {}, timing)
++        self.assertEqual(calls[0][1]['duration_check'], timing)
++        self.assertIn('0不代表镜头时长为0', calls[0][0])
++
++
++class EvidenceDurabilityTests(unittest.TestCase):
++    def test_active_owner_is_not_recovered_by_another_manager(self):
++        with tempfile.TemporaryDirectory(dir=ROOT/'.runtime') as folder:
++            class PauseProcess(BaseException):pass
++            def pause(event):
++                if event['kind']=='thinking':raise PauseProcess()
++            with self.assertRaises(PauseProcess):
++                run_recorded(folder,REQUEST,MockModel(),ToolBox(),on_event=pause)
++            self.assertIsNone(recover_run(folder))
++            self.assertFalse((Path(folder)/'output.json').exists())
++
++    def test_cleanup_lock_does_not_replace_model_timeout(self):
++        with patch.dict(os.environ, {'CODEX_BIN':'test-codex.exe'}), \
++             patch('src.providers.run_cli',side_effect=subprocess.TimeoutExpired('test',1)), \
++             patch('tempfile.TemporaryDirectory.cleanup',side_effect=PermissionError(32,'fixture lock')):
++            with self.assertRaisesRegex(ModelError,'codex_timeout'):
++                CodexModel()._generate('test','{}',{})
++
++    def test_failed_final_save_leaves_recoverable_checkpoint_without_new_calls(self):
++        with tempfile.TemporaryDirectory(dir=ROOT/'.runtime') as folder:
++            with patch('src.recording.save_run',side_effect=OSError('fixture disk write failure')):
++                with self.assertRaises(EvidenceSaveError):
++                    run_recorded(folder,REQUEST,MockModel(),ToolBox())
++            self.assertFalse((Path(folder)/'output.json').exists())
++            self.assertTrue((Path(folder)/'checkpoint.json').is_file())
++            self.assertTrue(recover_run(folder))
++            output=json.loads((Path(folder)/'output.json').read_text(encoding='utf-8'))
++            self.assertEqual(output['status'],'blocked')
++            self.assertTrue(output['script'])
++            self.assertEqual(verify_run(folder),[])
++            self.assertFalse(recover_run(folder))
++
++    def test_checkpoint_is_durable_before_next_model_call_and_restart_never_completes_it(self):
++        class SimulatedProcessStop(BaseException): pass
++        with tempfile.TemporaryDirectory(dir=ROOT/'.runtime') as folder:
++            class Stops(MockModel):
++                def decide(model_self,state,rules):
++                    if len(state['history'])==2:
++                        saved=json.loads((Path(folder)/'checkpoint.json').read_text(encoding='utf-8'))
++                        self.assertEqual(len(saved['result']['trace']),2)
++                        self.assertEqual(saved['result']['script'],state['script'])
++                        raise SimulatedProcessStop()
++                    return super().decide(state,rules)
++            with self.assertRaises(SimulatedProcessStop):
++                run_recorded(folder,REQUEST,Stops(),ToolBox())
++            with patch('src.recording.owner_running',return_value=False):
++                self.assertTrue(recover_run(folder))
++            output=json.loads((Path(folder)/'output.json').read_text(encoding='utf-8'))
++            self.assertEqual(output['status'],'blocked')
++            self.assertEqual(output['metadata']['steps'],2)
++            self.assertEqual(verify_run(folder),[])
++
++    def test_atomic_replace_failure_keeps_previous_valid_checkpoint(self):
++        with tempfile.TemporaryDirectory(dir=ROOT/'.runtime') as folder:
++            target=Path(folder)/'checkpoint.json'
++            atomic_json(target,{'step':2})
++            with patch('src.reporting.os.replace',side_effect=PermissionError('fixture target lock')):
++                with self.assertRaises(PermissionError): atomic_json(target,{'step':3})
++            self.assertEqual(json.loads(target.read_text(encoding='utf-8')),{'step':2})
++
++    def test_checkpoint_from_another_run_cannot_be_restored(self):
++        with tempfile.TemporaryDirectory(dir=ROOT/'.runtime') as folder:
++            run_recorded(folder,REQUEST,MockModel(),ToolBox())
++            record=json.loads((Path(folder)/'run.json').read_text(encoding='utf-8'))
++            atomic_json(Path(folder)/'run.json',{**record,'state':'recording','run_id':'different'})
++            with self.assertRaisesRegex(ValueError,'不匹配'):recover_run(folder)
++
++    def test_diagnostics_are_per_call_and_do_not_copy_raw_provider_output(self):
++        with tempfile.TemporaryDirectory(dir=ROOT/'.runtime') as folder:
++            def failed(command,**kwargs):
++                return subprocess.CompletedProcess(command,1,stdout='Selected model is at capacity. secret-fixture',stderr='private body')
++            with patch.dict(os.environ,{'CODEX_BIN':'test-codex.exe'}),patch('src.providers.run_cli',side_effect=failed):
++                model=CodexModel();model.diagnostics_dir=Path(folder)
++                for _ in range(2):
++                    with self.assertRaises(ModelError):model._generate('test','{}',{})
++            files=list(Path(folder).glob('decision-*.json'))
++            self.assertEqual(len(files),2)
++            for file in files:
++                text=file.read_text(encoding='utf-8')
++                self.assertNotIn('secret-fixture',text)
++                self.assertNotIn('private body',text)
++                self.assertEqual(json.loads(text)['provider_error_code'],'model_at_capacity')
++
++    def test_valid_codex_response_survives_cleanup_lock(self):
++        expected = action('search_materials','fixture',query='字幕')
++        def reply(command, **kwargs):
++            Path(command[command.index('--output-last-message')+1]).write_text(json.dumps(expected),encoding='utf-8')
++            return subprocess.CompletedProcess(command,0,stdout='{"type":"turn.completed","usage":{}}\n',stderr='')
++        with patch.dict(os.environ, {'CODEX_BIN':'test-codex.exe'}), patch('src.providers.run_cli',side_effect=reply), \
++             patch('tempfile.TemporaryDirectory.cleanup',side_effect=PermissionError(32,'fixture lock')):
++            actual, meta = CodexModel()._generate('test','{}',{})
++        self.assertEqual(actual, expected)
++        self.assertIn('cleanup_deferred', meta['warnings'])
++
++    def test_unexpected_exception_preserves_last_completed_steps_and_draft(self):
++        class CrashesAfterDraft(MockModel):
++            def decide(self, state, rules):
++                if len(state['history']) == 2:
++                    raise RuntimeError('private diagnostic must not reach user')
++                return super().decide(state,rules)
++        with tempfile.TemporaryDirectory(dir=ROOT/'.runtime') as folder:
++            manager = RunManager(folder,lambda provider,timeout:CrashesAfterDraft())
++            run_id = manager.start({'provider':'mock','request':REQUEST})
++            job = wait_finished(manager,run_id)
++            self.assertTrue(job['saved'])
++            self.assertEqual(job['result']['status'],'blocked')
++            self.assertEqual(len(job['trace']),2)
++            self.assertIsNotNone(job['script'])
++            checkpoint = json.loads((Path(folder)/run_id/'checkpoint.json').read_text(encoding='utf-8'))
++            self.assertEqual(len(checkpoint['result']['trace']),2)
++            self.assertNotIn('private diagnostic',json.dumps(job))
++            restored = RunManager(folder,lambda *_:self.fail('must not invoke a model on restore')).get(run_id)
++            self.assertEqual(restored['result']['status'],'blocked')
++            self.assertEqual(restored['script'],job['script'])
++
++
++if __name__ == '__main__': unittest.main()
+--- v3/tests/test_providers.py
++++ v4/tests/test_providers.py
+@@ -39,7 +39,7 @@
+         body = json.loads(opener.requests[0].data)
+         self.assertEqual(body['text']['format']['schema'], REVIEW_SCHEMA)
+         payload = json.loads(body['input'][1]['content'])
+-        self.assertEqual(set(payload), {'request', 'script', 'rules_check'})
++        self.assertEqual(set(payload), {'request', 'script', 'rules_check', 'duration_check'})
+         self.assertEqual(payload['request']['topic'], '校园采访')
+         self.assertEqual(payload['rules_check'], {'ok': True, 'citations': []})
+ 
+--- v3/tests/test_quality.py
++++ v4/tests/test_quality.py
+@@ -101,7 +101,7 @@
+ 
+     def test_review_failure_cannot_be_finished_as_completed(self):
+         class BlindReviewer(MockModel):
+-            def review(self, request, script, rules_check=None):
++            def review(self, request, script, rules_check=None, duration_check=None):
+                 # Deliberately only legacy report, as if adapter returned partial data.
+                 return MockModel().review({k:v for k,v in request.items() if k!='expression_mode'},script)
+         result=Agent(BlindReviewer(), ToolBox()).run(self.request)
+@@ -149,7 +149,7 @@
+     def test_malformed_pacing_verdict_is_recorded_not_an_uncaught_crash(self):
+         for bad in ([], {}, None, True):
+             class Malformed(MockModel):
+-                def review(self, request, script, rules_check=None):
++                def review(self, request, script, rules_check=None, duration_check=None):
+                     report, meta = super().review(request,script,rules_check)
+                     report['pacing']['verdict']=bad
+                     return report, meta
+--- v3/tests/test_repairs.py
++++ v4/tests/test_repairs.py
+@@ -14,7 +14,7 @@
+         received = []
+ 
+         class FactAwareReviewer(MockModel):
+-            def review(self, request, script, rules_check=None):
++            def review(self, request, script, rules_check=None, duration_check=None):
+                 received.append(copy.deepcopy(rules_check))
+                 return super().review(request, script)
+ 
+@@ -38,7 +38,7 @@
+ 
+     def test_unmet_requirement_is_feedback_not_success_and_reported(self):
+         class RejectingReviewer(MockModel):
+-            def review(self, request, script, rules_check=None):
++            def review(self, request, script, rules_check=None, duration_check=None):
+                 report, meta = super().review(request, script)
+                 report['items'][0].update(verdict='unmet', evidence='当前稿只有通用画面，缺少校园采访背景。')
+                 return report, meta
+@@ -54,7 +54,7 @@
+     def test_uncertain_or_invalid_review_cannot_be_accepted(self):
+         for mode in ('uncertain', 'missing_field', 'invented_quote', 'transport'):
+             class BadReviewer(MockModel):
+-                def review(self, request, script, rules_check=None):
++                def review(self, request, script, rules_check=None, duration_check=None):
+                     if mode == 'transport':
+                         raise ModelError('test_review_timeout')
+                     report, meta = super().review(request, script)
+--- v3/tests/test_web.py
++++ v4/tests/test_web.py
+@@ -59,6 +59,24 @@
+ 
+ 
+ class WebTests(unittest.TestCase):
++    def test_running_checkpoint_download_is_available_before_final_files(self):
++        entered, release = threading.Event(), threading.Event()
++        class Waiting(MockModel):
++            def decide(self,state,rules):
++                entered.set(); release.wait(2)
++                return action('finish','fixture stop',status='blocked',message='fixture'),{}
++        self.manager.model_factory=lambda *_:Waiting()
++        run_id=self.manager.start({'provider':'mock','request':self.request})
++        try:
++            self.assertTrue(entered.wait(2))
++            status,raw,_=self.http('GET',f'/api/runs/{run_id}/download/checkpoint.json')
++            self.assertEqual(status,200)
++            self.assertEqual(json.loads(raw)['result']['status'],'in_progress')
++            self.assertEqual(self.http('GET',f'/api/runs/{run_id}/download/output.json')[0],404)
++        finally:
++            release.set()
++            wait_finished(self.manager,run_id)
++
+     def setUp(self):
+         scratch = ROOT / ".runtime/tests"
+         scratch.mkdir(parents=True, exist_ok=True)
+--- v3/web/app.js
++++ v4/web/app.js
+@@ -430,16 +430,20 @@
+     null,
+     2,
+   );
+-  $("downloads").hidden = !job.saved;
++  $("downloads").hidden = !job.saved && !job.checkpoint_saved;
+   for (const [id, file] of [
+     ["download-script", "script.md"],
+     ["download-trace", "trace.jsonl"],
+     ["download-result", "output.json"],
+-  ])
++  ]) {
+     $(id).href = `/api/runs/${job.id}/download/${file}`;
++    $(id).hidden = !job.saved;
++  }
++  $("download-checkpoint").hidden = !job.checkpoint_saved;
++  $("download-checkpoint").href = `/api/runs/${job.id}/download/checkpoint.json`;
+   $("save-note").textContent = job.saved
+     ? `记录已保存 · ${job.id.slice(0, 8)}`
+-    : "运行记录会保存在本机，便于复验。";
++    : job.checkpoint_saved ? "检查点已保存 · 完整结果尚未保存" : "运行记录会保存在本机，便于复验。";
+   elapsed();
+ }
+ async function recent() {
+--- v3/web/index.html
++++ v4/web/index.html
+@@ -307,7 +307,8 @@
+             <div id="downloads" hidden>
+               <a id="download-script" class="download-link">下载脚本</a
+               ><a id="download-trace" class="download-link">下载 Trace</a
+-              ><a id="download-result" class="download-link">下载 JSON</a>
++              ><a id="download-result" class="download-link">下载 JSON</a
++              ><a id="download-checkpoint" class="download-link" hidden>下载检查点</a>
+             </div>
+           </footer>
+         </section>

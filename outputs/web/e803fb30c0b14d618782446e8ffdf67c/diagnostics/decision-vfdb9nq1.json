@@ -1,0 +1,16 @@
+{
+  "call_id": "decision-vfdb9nq1",
+  "started_at": "2026-11-05T17:00:51.945099+00:00",
+  "response_received": false,
+  "error_code": "codex_timeout",
+  "finished_at": "2026-11-05T17:03:52.851488+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": null,
+    "usage": {},
+    "call_id": "decision-vfdb9nq1",
+    "warnings": []
+  }
+}

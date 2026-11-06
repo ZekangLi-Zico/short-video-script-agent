@@ -1,0 +1,8 @@
+{
+  "case": "V20",
+  "assessment": "改进",
+  "note": "将同一来源中的横屏与竖屏拆成两镜自然说明，功能直接随大厅屏和手机出现，省去旧版第三张功能卡。估时14降到9.8秒，明确两种可选比例且未增自动追踪或同步裁剪。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

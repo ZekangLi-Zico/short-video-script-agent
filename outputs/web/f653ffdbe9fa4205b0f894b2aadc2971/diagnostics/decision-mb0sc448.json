@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-mb0sc448",
+  "started_at": "2026-11-03T20:59:43.864136+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:00:02.819253+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a335-f3d3-74d2-81cc-27a842cd1a3d",
+    "usage": {
+      "input_tokens": 35171,
+      "cached_input_tokens": 9600,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 318,
+      "reasoning_output_tokens": 194
+    },
+    "call_id": "decision-mb0sc448",
+    "warnings": []
+  }
+}

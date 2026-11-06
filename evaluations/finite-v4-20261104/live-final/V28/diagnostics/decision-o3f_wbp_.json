@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-o3f_wbp_",
+  "started_at": "2026-11-03T20:39:43.516906+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:40:00.277959+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a323-a2b4-70c1-a25d-e975b0c5bef1",
+    "usage": {
+      "input_tokens": 30141,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 132,
+      "reasoning_output_tokens": 80
+    },
+    "call_id": "decision-o3f_wbp_",
+    "warnings": []
+  }
+}

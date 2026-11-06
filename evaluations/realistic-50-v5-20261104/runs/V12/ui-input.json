@@ -1,0 +1,19 @@
+{
+  "port": 8824,
+  "submitted_at": "2026-11-04T15:11:24.920Z",
+  "fields": {
+    "audience": "独立花店运营",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "e86909119c314e3a85f9a0d0d112aad5",
+    "initial-script": "",
+    "platform": "小红书",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "轻松，真实",
+    "target-seconds": "18",
+    "topic": "以修剪花枝、摆花桶、整理台面的录像为背景，只介绍裁剪视频片段。片子像工作记录，不是花店广告，不能出现价格或优惠。"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ckhkc7sg",
+  "started_at": "2026-11-03T21:24:26.362474+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:25:27.811250+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a34c-931c-79d2-90a7-35fc06b479e7",
+    "usage": {
+      "input_tokens": 27524,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1558,
+      "reasoning_output_tokens": 1034
+    },
+    "call_id": "decision-ckhkc7sg",
+    "warnings": []
+  }
+}

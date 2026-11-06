@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-wjx8_27s",
+  "started_at": "2026-11-03T21:06:27.661019+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:06:41.594635+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a33c-1cbc-70a2-862e-27e95a756f40",
+    "usage": {
+      "input_tokens": 27804,
+      "cached_input_tokens": 23808,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 112,
+      "reasoning_output_tokens": 60
+    },
+    "call_id": "decision-wjx8_27s",
+    "warnings": []
+  }
+}

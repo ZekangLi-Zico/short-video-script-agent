@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-vfvvxnta",
+  "started_at": "2026-11-04T15:40:00.395246+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:40:40.052533+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a737-bd91-7d01-8658-5b875e10274c",
+    "usage": {
+      "input_tokens": 28678,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 151,
+      "reasoning_output_tokens": 93
+    },
+    "call_id": "decision-vfvvxnta",
+    "warnings": []
+  }
+}

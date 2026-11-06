@@ -1,0 +1,96 @@
+{
+  "case": "T04",
+  "name": "读书分享",
+  "run_id": "55e683e512dc48c09244b635254cfa0f",
+  "status": "completed",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "steps": 5,
+  "model_calls": 5,
+  "seconds": 13.0,
+  "target_seconds": 15,
+  "rules_passed": true,
+  "shots": 3,
+  "title": "字幕，让表达被看见",
+  "citations": [
+    "P01.F1",
+    "P01.F2"
+  ],
+  "script_lines": [
+    "剪影练习版支持为视频添加字幕。",
+    "字幕文字可以手动编辑。",
+    "把想说的话，放进画面里。"
+  ],
+  "actions": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 为视频添加字幕 字幕功能"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前没有可引用的字幕功能事实，先检索相关素材。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "basis": "已检索到两条字幕功能事实，可组成仅介绍字幕的简洁分镜。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "basis": "当前稿尚未检查时长，需确认是否符合15秒上限。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": 13.0,
+      "issues": null
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "basis": "当前稿估算时长为13秒，已通过15秒上限检查，尚需规则检查。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": null,
+      "issues": []
+    },
+    {
+      "step": 5,
+      "action": "finish",
+      "basis": "当前同一稿的时长检查与规则检查均已通过，预计13秒，符合15秒上限。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 88.3,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "e45a17a9a75d16ac23956c388ebed8f5fac74aa05392d274db3943cbd84bdc4b",
+    "output.json": "852bf34eca4869e3ccd7ed32fa34d628ede3ba5a58d436ac398015eead8bb110",
+    "trace.jsonl": "9478c3f8f565dde7433ac02b07480edbdfc26bec5176ae77e593f5ca32a960e2",
+    "manifest.json": "a991c9e16bf223a1407f0d49dd774b5c4f658823b182646fcca83bc3225ace64",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "592ead7212e7e341e7bbbba223656214d0c074b1fe5286bfcbee986aaf5ecf37"
+  }
+}

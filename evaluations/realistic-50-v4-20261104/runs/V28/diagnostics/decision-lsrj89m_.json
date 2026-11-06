@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-lsrj89m_",
+  "started_at": "2026-11-03T21:54:28.977649+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:55:16.937571+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a368-14e8-7f90-b608-a07d405963e9",
+    "usage": {
+      "input_tokens": 27777,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1708,
+      "reasoning_output_tokens": 1034
+    },
+    "call_id": "decision-lsrj89m_",
+    "warnings": []
+  }
+}

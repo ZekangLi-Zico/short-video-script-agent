@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-i65_5f8i",
+  "started_at": "2026-11-03T21:53:46.141497+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:54:03.968078+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a367-6c79-79e1-9015-d6289832b07e",
+    "usage": {
+      "input_tokens": 28159,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 122,
+      "reasoning_output_tokens": 68
+    },
+    "call_id": "decision-i65_5f8i",
+    "warnings": []
+  }
+}

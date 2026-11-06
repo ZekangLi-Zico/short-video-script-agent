@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-qy5dv1zf",
+  "started_at": "2026-11-03T21:26:21.215793+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:27:19.062758+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a34e-5445-7c01-8720-64b615aa1e05",
+    "usage": {
+      "input_tokens": 26863,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1198,
+      "reasoning_output_tokens": 850
+    },
+    "call_id": "decision-qy5dv1zf",
+    "warnings": []
+  }
+}

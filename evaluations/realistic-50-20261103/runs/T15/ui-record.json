@@ -1,0 +1,13 @@
+{
+  "case_id": "T15",
+  "capture_mode": "viewport_fallback",
+  "finished_capture_at": "2026-11-03T14:17:36.604Z",
+  "busy": false,
+  "detail": "真实模型 · 5 个执行步骤",
+  "download": "/api/runs/d8d33bda527b4d75a68d32a46160ea8a/download/output.json",
+  "error": "",
+  "history": "d8d33bda527b4d75a68d32a46160ea8a",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "save": "记录已保存 · d8d33bda",
+  "status": "检查通过"
+}

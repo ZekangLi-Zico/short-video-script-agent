@@ -1,0 +1,11 @@
+test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) ... ok
+test_editor_notes_cannot_replace_a_public_source_fact (tests.test_submission.SubmissionTests.test_editor_notes_cannot_replace_a_public_source_fact) ... ok
+test_editor_notes_do_not_count_as_speech_or_publishable_claims (tests.test_submission.SubmissionTests.test_editor_notes_do_not_count_as_speech_or_publishable_claims) ... ok
+test_legacy_scripts_and_bounded_editor_notes (tests.test_submission.SubmissionTests.test_legacy_scripts_and_bounded_editor_notes) ... ok
+test_markdown_exports_notes_outside_shots_with_an_explicit_non_video_label (tests.test_submission.SubmissionTests.test_markdown_exports_notes_outside_shots_with_an_explicit_non_video_label) ... ok
+test_note_only_change_is_logged_and_invalidates_old_approval (tests.test_submission.SubmissionTests.test_note_only_change_is_logged_and_invalidates_old_approval) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.016s
+
+OK

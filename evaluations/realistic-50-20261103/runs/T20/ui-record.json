@@ -1,0 +1,13 @@
+{
+  "case_id": "T20",
+  "capture_mode": "fullPage",
+  "finished_capture_at": "2026-11-03T14:25:59.042Z",
+  "busy": false,
+  "detail": "真实模型 · 3 个执行步骤",
+  "download": "/api/runs/9e1822fa1d1e4bf48dc369172198a74d/download/output.json",
+  "error": "",
+  "history": "9e1822fa1d1e4bf48dc369172198a74d",
+  "message": "请补充添加字幕、修改错字及确认保存的操作资料，包含每步按钮名称、菜单路径和可逐字引用的步骤原文。现有素材仅说明功能，无法据此编写准确的新手教程。",
+  "save": "记录已保存 · 9e1822fa",
+  "status": "需要补充"
+}

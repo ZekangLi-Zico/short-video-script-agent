@@ -1,0 +1,24 @@
+{
+  "call_id": "decision-bxawjpj2",
+  "started_at": "2026-11-04T15:31:46.431317+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "cleanup_error_type": "PermissionError",
+  "finished_at": "2026-11-04T15:32:27.918395+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a730-1c56-7f13-a07d-e08b060f436a",
+    "usage": {
+      "input_tokens": 31024,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 143,
+      "reasoning_output_tokens": 64
+    },
+    "call_id": "decision-bxawjpj2",
+    "warnings": [
+      "cleanup_deferred"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+test_codex_effort_is_per_call_and_visible_in_metadata (tests.test_effective_v6.V6Tests.test_codex_effort_is_per_call_and_visible_in_metadata) ... ok
+test_codex_timeout_recovers_once_and_records_attempt (tests.test_effective_v6.V6Tests.test_codex_timeout_recovers_once_and_records_attempt) ... ok
+test_creative_payload_has_no_strict_title_or_copy_templates (tests.test_effective_v6.V6Tests.test_creative_payload_has_no_strict_title_or_copy_templates) ... ok
+test_history_does_not_repeat_scripts_but_keeps_failed_feedback (tests.test_effective_v6.V6Tests.test_history_does_not_repeat_scripts_but_keeps_failed_feedback) ... ok
+test_local_failure_does_not_spend_review_call_or_claim_complete (tests.test_effective_v6.V6Tests.test_local_failure_does_not_spend_review_call_or_claim_complete) ... ok
+test_no_recovery_after_cancel_or_non_timeout_error (tests.test_effective_v6.V6Tests.test_no_recovery_after_cancel_or_non_timeout_error) ... ok
+test_review_action_runs_and_records_missing_local_checks (tests.test_effective_v6.V6Tests.test_review_action_runs_and_records_missing_local_checks) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.122s
+
+OK

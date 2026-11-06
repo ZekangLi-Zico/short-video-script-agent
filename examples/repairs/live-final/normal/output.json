@@ -1,0 +1,210 @@
+{
+  "status": "completed",
+  "message": "已完成面向口播新手的抖音四镜头脚本，介绍添加字幕和手动编辑文字两项功能。保留当前稿，无需删改。预计12.8秒，符合30秒上限，三项检查均已通过；实际时长以成片为准。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "字幕，让表达被看见",
+    "shots": [
+      {
+        "visual": "人物面对镜头提出问题",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "想让画面里的表达更清楚？",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "将旁白作为字幕叠加在日常画面上",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "产品功能文字卡片，不展示未经提供的界面",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      },
+      {
+        "visual": "简洁背景展示结尾文字",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "先从一条短片开始。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "2e115bb067810ab2c4e600987e9882080d576f467bd08541ae867afecd080865",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 11,
+        "estimated_seconds": 3.3
+      },
+      {
+        "shot": 2,
+        "speech_units": 14,
+        "estimated_seconds": 4.0
+      },
+      {
+        "shot": 3,
+        "speech_units": 10,
+        "estimated_seconds": 3.0
+      },
+      {
+        "shot": 4,
+        "speech_units": 8,
+        "estimated_seconds": 2.5
+      }
+    ],
+    "total_seconds": 12.8,
+    "target_seconds": 30,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "2e115bb067810ab2c4e600987e9882080d576f467bd08541ae867afecd080865",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:3/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "2e115bb067810ab2c4e600987e9882080d576f467bd08541ae867afecd080865",
+    "request_hash": "405fda7ba61c0d7613c9cdcba2f46e53964582afa08d59d1d10281de288afaef",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "介绍字幕功能",
+        "verdict": "met",
+        "evidence": "镜头2介绍“支持为视频添加字幕”，并展示字幕叠加效果；镜头3介绍“字幕文字可以手动编辑”。两项功能均获 rules_check 引文支持。"
+      },
+      {
+        "field": "audience",
+        "requirement": "第一次制作口播短视频的创作者",
+        "verdict": "met",
+        "evidence": "镜头1采用人物面对镜头的口播画面，镜头2展示旁白配字幕；文案使用简单词语介绍基础功能，结尾“先从一条短片开始”适合新手。"
+      },
+      {
+        "field": "platform",
+        "requirement": "抖音",
+        "verdict": "met",
+        "evidence": "采用提问开场、字幕效果展示、功能文字卡片和简短收尾的四镜头结构，适合抖音短视频呈现。"
+      },
+      {
+        "field": "style",
+        "requirement": "清楚",
+        "verdict": "met",
+        "evidence": "镜头2、3分别介绍添加字幕和手动编辑，每句集中说明一项功能，意思明确。"
+      },
+      {
+        "field": "style",
+        "requirement": "友好",
+        "verdict": "met",
+        "evidence": "开场“想让画面里的表达更清楚？”语气自然，结尾“先从一条短片开始。”以温和建议鼓励尝试。"
+      },
+      {
+        "field": "style",
+        "requirement": "克制",
+        "verdict": "met",
+        "evidence": "功能描述限于添加字幕和手动编辑，没有夸大效果、绝对化承诺或强硬促销。"
+      }
+    ],
+    "summary": "当前稿已落实字幕功能介绍，适合初次制作口播短视频的创作者和抖音呈现，表达清楚、友好、克制，未发现明确需求遗漏。",
+    "method": "model_assessment_not_deterministic_proof"
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T16:04:05.604761+00:00",
+    "finished_at": "2026-11-03T16:06:38.902674+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v2",
+    "requirements_review_context": "current_rules_check_v1",
+    "model_responses": 7
+  }
+}

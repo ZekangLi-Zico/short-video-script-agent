@@ -1,0 +1,30 @@
+{
+  "case": "T31",
+  "name": "客户未定时长",
+  "run_id": "0533d7cf7e86429ab16f1cce7ec22e09",
+  "status": "needs_input",
+  "message": "请补充关键字段：target_seconds",
+  "steps": 0,
+  "model_calls": 0,
+  "seconds": null,
+  "target_seconds": null,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [],
+  "queries": [],
+  "observations": [],
+  "wall_seconds": 0.0,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "1432f5986522ad445cc804db3e391932cba7a4c34f527fd79f3664031455a238",
+    "output.json": "44246e94af3ae529f02cd4f2697ac22d3978ca9b321a150be74f2462129c997c",
+    "trace.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "manifest.json": "2fc15e235fff2cd506f60c0d70647f778103ceab4f02579221a12d2207c11500",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "9922d84b96e26d77a2ddccfc80ae2af0346eabf4792f13dc35f80507fd27bdaf"
+  }
+}

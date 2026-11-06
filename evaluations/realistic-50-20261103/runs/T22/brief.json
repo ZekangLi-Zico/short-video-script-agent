@@ -1,0 +1,16 @@
+{
+  "id": "T22",
+  "name": "翻译字幕咨询",
+  "context": "跨境账号想介绍字幕翻译能力。",
+  "request": {
+    "topic": "给跨境创作者介绍剪影练习版能否把中文字幕翻译成英文，写一条解释该功能的视频脚本。",
+    "audience": "跨境内容创作者",
+    "platform": "小红书",
+    "style": "清楚、准确",
+    "product_id": "demo-editor",
+    "target_seconds": 25
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

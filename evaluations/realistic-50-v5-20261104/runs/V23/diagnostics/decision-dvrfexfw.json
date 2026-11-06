@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-dvrfexfw",
+  "started_at": "2026-11-04T15:28:56.263648+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:29:31.010920+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a72d-78be-78c3-8310-6e8f123e855e",
+    "usage": {
+      "input_tokens": 27345,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 199,
+      "reasoning_output_tokens": 94
+    },
+    "call_id": "decision-dvrfexfw",
+    "warnings": []
+  }
+}

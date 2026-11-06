@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-kd4lswnz",
+  "started_at": "2026-11-03T21:04:13.800063+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:05:21.498472+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a33a-1332-7b21-8647-fec8cbd0827c",
+    "usage": {
+      "input_tokens": 27542,
+      "cached_input_tokens": 9600,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1910,
+      "reasoning_output_tokens": 1317
+    },
+    "call_id": "decision-kd4lswnz",
+    "warnings": []
+  }
+}

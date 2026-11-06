@@ -1,0 +1,30 @@
+[
+  {
+    "name": "hallway",
+    "previous_run_id": "3e1b065fee9f4370bd9a3b10feaf49d3",
+    "request": {
+      "topic": "把第四集陈峥在楼道遇见贺振坤这一段，改成一条30秒的悬疑剧情短片。开头是两个河北同乡随口聊天，让人感觉陈峥难得放松下来；赤锋的电话打来后，气氛突然变了。结尾停在贺振坤掏枪、陈峥意识到危险的那一刻。用人物对白、表情和声音推动这次转折，让观众想接着看他怎么脱身。",
+      "audience": "第一次刷到这部漫剧、喜欢悬疑剧情的观众",
+      "platform": "抖音",
+      "style": "前半段松弛自然，后半段骤然紧张，台词简短、有生活感。",
+      "product_id": "city-drama",
+      "duration_mode": "max",
+      "expression_mode": "creative",
+      "target_seconds": 30
+    }
+  },
+  {
+    "name": "chess",
+    "previous_run_id": null,
+    "request": {
+      "topic": "把第十二集徐承岳与祖父徐尚田下棋这一段，改成一条安静但有张力的短片。徐承岳腹伤还没好，却仍想继续上拳台；祖父和他对上台的理由、要付出的代价有不同看法。让两个人一边下棋一边说，落子、停顿和眼神都参与表达。全片用祖孙对白推进，以徐承岳“既上拳台，生死无怨”收尾。",
+      "audience": "已经看过徐承岳与小韩交手、想进一步了解徐承岳的观众",
+      "platform": "B站",
+      "target_seconds": 45,
+      "style": "长辈沉稳，晚辈有傲气；台词能直接说出口，留出思考和落子的时间。",
+      "product_id": "city-drama",
+      "expression_mode": "creative",
+      "duration_mode": "max"
+    }
+  }
+]

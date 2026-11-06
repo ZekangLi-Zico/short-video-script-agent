@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-hlpxrgm8",
+  "started_at": "2026-11-04T16:02:23.956283+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:02:48.849491+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a74c-1a93-7310-acc1-5b3da0286eae",
+    "usage": {
+      "input_tokens": 27343,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 269,
+      "reasoning_output_tokens": 163
+    },
+    "call_id": "decision-hlpxrgm8",
+    "warnings": []
+  }
+}

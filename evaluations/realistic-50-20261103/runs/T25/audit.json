@@ -1,0 +1,68 @@
+{
+  "case": "T25",
+  "name": "离线与隐私",
+  "run_id": "f5dfd4dd41054b8f8eb883a6793dc08b",
+  "status": "needs_input",
+  "message": "现有素材仅确认支持添加字幕和手动编辑文字，无法判断能否离线使用或视频是否上传服务器。请补充该版本的联网依赖、视频上传触发条件及隐私说明，才能生成符合主题且有依据的脚本。",
+  "steps": 3,
+  "model_calls": 3,
+  "seconds": null,
+  "target_seconds": 30,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "search_materials",
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "剪影练习版 demo-editor 离线编辑字幕 视频素材是否上传服务器 本地处理 联网功能 上传触发条件 隐私说明",
+    "离线字幕 断网编辑 本地处理 联网依赖 视频文件上传服务器 上传触发条件 隐私政策 数据传输"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "尚无素材，需要核实离线字幕编辑能力与视频上传条件。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "basis": "现有素材未说明字幕能否离线编辑，也未说明视频上传条件。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "basis": "两轮检索均未找到离线字幕编辑及视频上传条件的事实依据。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 63.3,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "f84bdde036e6c730dcc29449bc58ea12b082ec967641130ee7f7e9f1ceacac12",
+    "output.json": "65598120d4397e1b1ef70190262566a652f7328cf9f9848c94e151675ea62163",
+    "trace.jsonl": "5525c64a54f149599a67f23528f6af735a7c933c77327a1ddd504a10608fd624",
+    "manifest.json": "3b7d2de1dd0ea04ca4bb6326ebbf723d725138d6261a9da2e3d21923a985f232",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "f248191b18edacfbb7c8304d85d85d9c3e1cb18e47449bb65f29e439c273eaec"
+  }
+}

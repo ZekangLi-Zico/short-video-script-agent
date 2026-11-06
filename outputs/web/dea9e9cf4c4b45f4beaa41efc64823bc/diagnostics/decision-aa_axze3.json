@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-aa_axze3",
+  "started_at": "2026-11-04T01:11:39.169437+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:13:16.987500+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a41c-977a-7820-a0a4-d8b66e1b767b",
+    "usage": {
+      "input_tokens": 28862,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 4277,
+      "reasoning_output_tokens": 1872
+    },
+    "call_id": "decision-aa_axze3",
+    "warnings": []
+  }
+}

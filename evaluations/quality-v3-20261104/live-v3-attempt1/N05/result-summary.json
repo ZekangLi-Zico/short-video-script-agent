@@ -1,0 +1,16 @@
+{
+  "id": "N05",
+  "status": "completed",
+  "steps": 6,
+  "model_responses": 7,
+  "duration": 15.0,
+  "path": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "check_requirements",
+    "finish"
+  ],
+  "message": "三镜头脚本已完成，无需进一步删改：横屏访谈→横竖屏比例说明卡→竖屏花絮。估算15秒，符合24秒上限；规则与需求审核均通过，未承诺智能适配或人物自动居中。实际成片时长以剪辑结果为准。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

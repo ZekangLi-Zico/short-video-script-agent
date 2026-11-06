@@ -1,0 +1,133 @@
+{
+  "status": "error",
+  "script": {
+    "title": "出发前的三段日常",
+    "shots": [
+      {
+        "visual": "背景为摊开的露营装备，俯拍全貌，再缓慢靠近装备细节。文字块作为旁白朗读。",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "周末准备去露营，先拍一段摊开的装备。东西还没收好，出发的心情先到了。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "背景转为把装备逐件装入收纳箱，镜头跟随手部动作，保留拿起、放入和整理的过程。两个文字块依次作为旁白朗读。",
+        "hold_seconds": 10,
+        "blocks": [
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          },
+          {
+            "text": "一件件装进收纳箱，这段收拾的过程，我也想留住。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "背景转为汽车后备箱，收纳箱已经放好。人物走到车尾，关上后备箱，镜头随人物离开自然结束。文字块作为旁白朗读。",
+        "hold_seconds": 9,
+        "blocks": [
+          {
+            "text": "最后，拍下关上后备箱的这一刻。回看素材，我想留下的，就是这些出发前的小片段。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "1421a90178d828c4f81525826dd9fcced571d94812b3ad6bef4e8f1d4e6a699f",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 30,
+        "estimated_seconds": 8
+      },
+      {
+        "shot": 2,
+        "speech_units": 33,
+        "estimated_seconds": 10
+      },
+      {
+        "shot": 3,
+        "speech_units": 33,
+        "estimated_seconds": 9
+      }
+    ],
+    "total_seconds": 27,
+    "target_seconds": 30,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true,
+    "duration_mode": "target",
+    "min_seconds": 27,
+    "max_seconds": 30,
+    "issue": null
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "1421a90178d828c4f81525826dd9fcced571d94812b3ad6bef4e8f1d4e6a699f",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "出发前的三段日常"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "背景为摊开的露营装备，俯拍全貌，再缓慢靠近装备细节。文字块作为旁白朗读。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "周末准备去露营，先拍一段摊开的装备。东西还没收好，出发的心情先到了。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "背景转为把装备逐件装入收纳箱，镜头跟随手部动作，保留拿起、放入和整理的过程。两个文字块依次作为旁白朗读。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "一件件装进收纳箱，这段收拾的过程，我也想留住。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "背景转为汽车后备箱，收纳箱已经放好。人物走到车尾，关上后备箱，镜头随人物离开自然结束。文字块作为旁白朗读。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "最后，拍下关上后备箱的这一刻。回看素材，我想留下的，就是这些出发前的小片段。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": null
+}

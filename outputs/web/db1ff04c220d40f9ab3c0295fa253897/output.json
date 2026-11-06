@@ -1,0 +1,150 @@
+{
+  "status": "needs_input",
+  "message": "现稿保留三项功能各一次、无人物，但估时12.8秒，无法满足8秒上限，尚未完成全部检查。本轮未删减或合并功能。需要项目维护者补充分别介绍字幕添加、片段裁剪、横竖屏比例的更短可引用事实原文，再修订并重新检查。",
+  "script": {
+    "title": "剪影练习版功能速览",
+    "shots": [
+      {
+        "visual": "纯色背景展示本镜事实文字卡，不出现人物，不展示产品界面。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "直接切换至第二张事实文字卡，保持相同排版，不出现人物，不展示产品界面。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ]
+      },
+      {
+        "visual": "直接切换至第三张事实文字卡，保持相同排版，不出现人物，不展示产品界面。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          }
+        ]
+      }
+    ],
+    "editor_notes": "三项功能各用一条原文事实，分别呈现；事实卡与对应旁白同步。标题仅作稿件名称，不另占开场镜头。当前事实原文较长，八秒要求尚待估时核验。"
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "6a05a9516b05d1e39a972112d0382f75a9626df0fc006a39d53c295115f9c71f",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 14,
+        "estimated_seconds": 4.0
+      },
+      {
+        "shot": 2,
+        "speech_units": 13,
+        "estimated_seconds": 3.8
+      },
+      {
+        "shot": 3,
+        "speech_units": 18,
+        "estimated_seconds": 5.0
+      }
+    ],
+    "total_seconds": 12.8,
+    "target_seconds": 8,
+    "passed": false,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": null,
+  "requirements_check": null,
+  "sources": [
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-04T01:30:36.151440+00:00",
+    "finished_at": "2026-11-04T01:33:52.375215+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 5,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "optional_editor_notes_v1",
+    "model_responses": 5,
+    "run_id": "005f300dd71141698a995f477b7f0b25",
+    "persistence": "checkpoint_v1"
+  }
+}

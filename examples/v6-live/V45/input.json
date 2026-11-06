@@ -1,0 +1,48 @@
+{
+  "topic": "把所附旧稿压缩到25秒以内，保留添加字幕和手动改字两个功能。标题保持“记录里的每句话”，优先改冗长停留，不要额外添功能。",
+  "audience": "第一次拍口播的店主",
+  "platform": "抖音",
+  "style": "自然，紧凑",
+  "product_id": "demo-editor",
+  "duration_mode": "max",
+  "expression_mode": "creative",
+  "target_seconds": 25,
+  "initial_script": {
+    "title": "记录里的每句话",
+    "shots": [
+      {
+        "visual": "店主背影和备料台",
+        "hold_seconds": 15,
+        "blocks": [
+          {
+            "text": "一天的准备，从这里开始。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "字幕示意卡",
+        "hold_seconds": 15,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "纸上修改一个错字",
+        "hold_seconds": 15,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      }
+    ]
+  }
+}

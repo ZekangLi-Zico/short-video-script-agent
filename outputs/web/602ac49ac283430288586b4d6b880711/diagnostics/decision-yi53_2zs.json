@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-yi53_2zs",
+  "started_at": "2026-11-04T15:13:28.313100+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:14:33.851793+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a71f-4e86-7c62-bbce-681bc4df4d54",
+    "usage": {
+      "input_tokens": 28050,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1219,
+      "reasoning_output_tokens": 855
+    },
+    "call_id": "decision-yi53_2zs",
+    "warnings": []
+  }
+}

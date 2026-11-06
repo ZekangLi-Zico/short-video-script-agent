@@ -1,0 +1,134 @@
+{
+  "case": "T41",
+  "name": "压缩客户旧稿",
+  "run_id": "16c5992e2dba4a21ae981ee3688b93ec",
+  "status": "completed",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "steps": 7,
+  "model_calls": 7,
+  "seconds": 24.0,
+  "target_seconds": 30,
+  "rules_passed": true,
+  "shots": 4,
+  "title": "字幕，让表达被看见",
+  "citations": [
+    "P01.F1",
+    "P01.F2"
+  ],
+  "script_lines": [
+    "想让画面里的表达更清楚？",
+    "剪影练习版支持为视频添加字幕。",
+    "字幕文字可以手动编辑。",
+    "试试你的下一条短片吧。"
+  ],
+  "actions": [
+    "estimate_duration",
+    "check_rules",
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor P01 添加字幕 手动编辑字幕文字"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "estimate_duration",
+      "basis": "已有旧稿，先检查当前稿时长。",
+      "ok": true,
+      "passed": false,
+      "error": null,
+      "seconds": 50.0,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "check_rules",
+      "basis": "旧稿估算为50秒，尚无规则反馈，先补查规则再针对性压缩。",
+      "ok": true,
+      "passed": false,
+      "error": null,
+      "seconds": null,
+      "issues": [
+        {
+          "code": "source_not_retrieved",
+          "location": "shot:3/block:1",
+          "source_id": "P01"
+        },
+        {
+          "code": "source_not_retrieved",
+          "location": "shot:4/block:1",
+          "source_id": "P01"
+        },
+        {
+          "code": "no_supported_product_fact",
+          "location": "script"
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "action": "search_materials",
+      "basis": "规则检查提示两个字幕功能的来源尚未检索，需先补齐事实依据。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 4,
+      "action": "write_script",
+      "basis": "旧稿估算50秒，字幕事实来源已补齐；删除日常铺垫、缩短停留，保留字幕添加和手动编辑两个功能镜头。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 5,
+      "action": "estimate_duration",
+      "basis": "当前稿已删减铺垫并缩短停留，需重新检查是否在30秒以内。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": 24.0,
+      "issues": null
+    },
+    {
+      "step": 6,
+      "action": "check_rules",
+      "basis": "当前稿估算24秒，已通过时长检查，尚需检查本稿规则。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": null,
+      "issues": []
+    },
+    {
+      "step": 7,
+      "action": "finish",
+      "basis": "当前同一稿的时长与规则检查均已通过，估算24秒。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 126.7,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "c5e2c7cc09a8b888f2d542d292d5c7efdab883f3a94f8d05842432f6ddfd3668",
+    "output.json": "9da95c76e134d94beb596b18de0f9f1031f9dcd74048f62a746d089e15f7d060",
+    "trace.jsonl": "5d65e9af72037b2729e57acf11f30d689ba17685f18ae7b171462466320893a8",
+    "manifest.json": "c6b4e1e702684418a363eca7ef2518a0d29367acf257093a82d1fa7a342ced6e",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "af63a88a8cfd6fe83050007b74a0abbbca257ac685641924aa8a7854dd76541e"
+  }
+}

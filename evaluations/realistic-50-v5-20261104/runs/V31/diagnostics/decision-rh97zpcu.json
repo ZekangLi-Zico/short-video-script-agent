@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-rh97zpcu",
+  "started_at": "2026-11-04T15:48:36.122389+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:49:01.743311+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a73f-856c-7072-8542-024f15f48168",
+    "usage": {
+      "input_tokens": 27358,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 192,
+      "reasoning_output_tokens": 92
+    },
+    "call_id": "decision-rh97zpcu",
+    "warnings": []
+  }
+}

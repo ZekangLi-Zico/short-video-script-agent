@@ -1,0 +1,129 @@
+Browser tab: 1, Title: "脚本试验台 · 短视频 Agent", URL: "http://127.0.0.1:8765/".
+0 AXWebArea 脚本试验台 · 短视频 Agent, URL: 127.0.0.1:8765/
+	1 container
+		2 link Description: 脚本试验台首页, Value: 127.0.0.1:8765/
+		3 text 本地人工测试
+	4 container
+		5 heading 从一个需求，到一份可核验的脚本。, Value: 1
+			6 text 从一个需求，到一份可核验的脚本。
+		7 text 填入创作需求，观察 Agent 如何查资料、写分镜，再根据检查结果修订。
+		8 container 创作需求与测试设置
+			9 container form-fields
+				10 heading 创作需求, Value: 2
+					11 text 创作需求
+				12 button 重置, ID: reset-button
+				13 text 载入测试场景
+				14 pop up button (collapsed, settable) 载入测试场景, Value: 自定义需求, ID: preset, Secondary Actions: Expand
+					15 menu
+						16 (selected) 自定义需求
+						17 正常生成
+						18 缺少关键信息
+						19 没有产品素材
+						20 工具持续失败
+						21 一次故障后恢复
+						22 38 秒旧稿修订
+						23 无依据宣传纠错
+						24 无法满足的时长
+				383 text 需求已修改，将按当前内容运行。
+				26 text 主题
+				27 text entry area (settable) 主题, Value: 以整理宠物日常录像为背景，介绍剪影练习版支持裁剪视频片段，不提字幕。, ID: topic
+				28 text 给谁看
+				29 text field (settable) 给谁看, Value: 拍宠物日常的年轻用户, ID: audience
+				30 text 发布平台
+				31 pop up button (collapsed, settable) 发布平台, Value: 抖音, ID: platform, Secondary Actions: Expand
+					32 menu
+						33 (selected) 抖音
+						34 小红书
+						35 视频号
+						36 B站
+				37 container
+					38 text 目标时长  秒
+				39 stepper (settable, integer) 目标时长 秒, Value: 12, ID: target-seconds
+				40 text 表达风格
+				41 text field (settable) 表达风格, Value: 活泼但不夸张, ID: style
+				42 text 使用的产品资料
+				43 pop up button (collapsed, settable) 使用的产品资料, Value: 剪影练习版 · 示例素材, ID: product, Secondary Actions: Expand
+					44 menu
+						45 (selected) 剪影练习版 · 示例素材
+						46 无素材产品 · 测试资料不足
+				47 button (collapsed) 查看可用素材, Secondary Actions: Expand
+					48 text 查看可用素材
+				49 text 运行方式
+				50 pop up button (collapsed, settable) 运行方式, Value: 真实模型 · Codex, ID: provider, Secondary Actions: Expand
+					51 menu
+						52 (selected) 真实模型 · Codex
+						53 离线演练 · Mock
+						54 (disabled) 模型 API
+				384 text 调用本机已登录的 Codex，通常需要一到数分钟。
+				56 button (collapsed) 测试设置与旧稿, Secondary Actions: Expand
+					57 text 测试设置与旧稿
+				58 button 生成并检查, ID: run-button
+				385 text 真实模型运行会使用当前账号的额度。
+		60 container 运行结果
+			386 text 检查通过
+			387 text 真实模型 · 5 个执行步骤
+			63 tab group 结果视图
+				64 tab (selected, settable, boolean) 脚本预览, Value: 1, ID: tab-script
+				65 tab (selectable, settable, boolean) 执行过程 5, ID: tab-trace, Value: 0
+执行过程
+5
+				66 tab (selectable, settable, boolean) 原始结果, Value: 0, ID: tab-raw
+			67 container
+				68 text 最近运行
+				69 pop up button (collapsed, settable) Description: 查看最近运行, Value: 11/03 21:53:07 · 模型 · 检查通过 · 以整理宠物日常录像为背景，介绍, ID: history, Secondary Actions: Expand
+					70 menu
+						388 选择一条记录
+						389 (selected) 11/03 21:53:07 · 模型 · 检查通过 · 以整理宠物日常录像为背景，介绍
+						390 11/03 21:51:25 · 模型 · 检查通过 · 做一期读书视频制作工具介绍，这
+						391 11/03 21:48:06 · 模型 · 需要补充 · 为餐饮门店运营介绍剪影练习版的
+						392 11/03 21:45:11 · 模型 · 检查通过 · 社团准备发布校园采访花絮，写一
+						393 11/03 21:42:52 · 模型 · 检查通过 · 给第一次拍口播的人介绍剪影练习
+						394 11/03 21:30:22 · 模型 · 检查通过 · 介绍剪影练习版支持为视频添加字
+						395 11/03 21:24:54 · 模型 · 需要补充 · 介绍剪影练习版的字幕功能，说明
+						396 11/03 21:18:26 · 模型 · 检查通过 · 介绍裁剪视频片段和选择横屏、竖
+						397 11/03 21:10:39 · 模型 · 检查通过 · 介绍剪影练习版的字幕功能，说明
+						398 11/03 20:32:33 · 演练 · 需要补充 · 介绍字幕功能
+						399 11/03 20:20:39 · 模型 · 检查通过 · 介绍字幕功能
+						400 11/03 20:20:34 · 演练 · 未完成 · 介绍字幕功能
+						401 11/03 20:19:53 · 演练 · 需要补充 · 介绍字幕功能
+						402 11/03 20:19:46 · 演练 · 检查通过 · 介绍字幕功能
+			403 text 脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。
+			404 container summary-bar
+				405 text 预计时长 
+				406 text 10 / 12 秒
+				407 text 事实与规则 
+				408 text 通过
+				409 text 引用素材 
+				410 text 1
+			411 container Description: 脚本预览, ID: panel-script
+				412 container script-content
+					413 heading 从一段记录开始, Value: 2, ID: script-title
+						414 text 从一段记录开始
+					415 text 当前稿 · 检查通过
+					416 container shots
+						417 container
+							418 text 分镜 1 0.0–3.0s
+							419 heading 日常生活素材蒙太奇, Value: 3
+								420 text 日常生活素材蒙太奇
+							421 text 从一段日常记录开始。 已检查的非事实连接语
+						422 container
+							423 text 分镜 2 3.0–7.0s
+							424 heading 产品功能文字卡片，不展示未经提供的界面, Value: 3
+								425 text 产品功能文字卡片，不展示未经提供的界面
+							426 text 剪影练习版支持裁剪视频片段。
+							427 text P02 · P02.F1
+						428 container
+							429 text 分镜 3 7.0–10.0s
+							430 heading 简洁背景展示结尾文字, Value: 3
+								431 text 简洁背景展示结尾文字
+							432 text 试试你的下一条短片吧。 已检查的非事实连接语
+					433 text 时长按旁白和镜头停留估算，未经实际配音或成片测量。
+			434 container
+				435 text 记录已保存 · 82669d60
+				436 container downloads
+					437 link Description: 下载脚本, Value: 127.0.0.1:8765/api/runs/82669d60c4254e6f9a98a675fa779390/download/script.md, ID: download-script
+					438 link Description: 下载 Trace, Value: 127.0.0.1:8765/api/runs/82669d60c4254e6f9a98a675fa779390/download/trace.jsonl, ID: download-trace
+					439 link Description: 下载 JSON, Value: 127.0.0.1:8765/api/runs/82669d60c4254e6f9a98a675fa779390/download/output.json, ID: download-result
+		120 text 本地运行 · 合成素材 · 只生成脚本 先核对事实，再判断表达。
+
+The focused UI element is 64 tab (selected, settable, boolean) 脚本预览, Value: 1, ID: tab-script

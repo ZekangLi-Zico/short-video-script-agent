@@ -1,0 +1,198 @@
+Browser tab: 1, Title: "脚本试验台 · 短视频 Agent", URL: "http://127.0.0.1:8765/".
+0 AXWebArea 脚本试验台 · 短视频 Agent, URL: 127.0.0.1:8765/
+	1 container
+		2 link Description: 脚本试验台首页, Value: 127.0.0.1:8765/
+		3 text 本地人工测试
+	4 container
+		5 heading 从一个需求，到一份可核验的脚本。, Value: 1
+			6 text 从一个需求，到一份可核验的脚本。
+		7 text 填入创作需求，观察 Agent 如何查资料、写分镜，再根据检查结果修订。
+		8 container 创作需求与测试设置
+			9 container form-fields
+				10 heading 创作需求, Value: 2
+					11 text 创作需求
+				12 button (disabled) 重置, ID: reset-button
+				13 text 载入测试场景
+				14 pop up button (disabled, collapsed, settable) 载入测试场景, Value: 自定义需求, ID: preset, Secondary Actions: Expand
+					15 menu
+						16 (selected) 自定义需求
+						17 正常生成
+						18 缺少关键信息
+						19 没有产品素材
+						20 工具持续失败
+						21 一次故障后恢复
+						22 38 秒旧稿修订
+						23 无依据宣传纠错
+						24 无法满足的时长
+				2655 text 需求已修改，将按当前内容运行。
+				26 text 主题
+				27 text entry area (disabled) 主题, Value: 保留旧稿的字幕添加和手动编辑两个功能，把这份旧稿压缩到30秒以内，优先删减多余铺垫。, ID: topic
+				28 text 给谁看
+				29 text field (disabled) 给谁看, Value: 第一次拍口播的人, ID: audience
+				30 text 发布平台
+				31 pop up button (disabled, collapsed, settable) 发布平台, Value: 抖音, ID: platform, Secondary Actions: Expand
+					32 menu
+						33 (selected) 抖音
+						34 小红书
+						35 视频号
+						36 B站
+				37 container
+					38 text 目标时长  秒
+				39 stepper (disabled, settable, integer) 目标时长 秒, Value: 30, ID: target-seconds
+				40 text 表达风格
+				41 text field (disabled) 表达风格, Value: 自然、紧凑, ID: style
+				42 text 使用的产品资料
+				43 pop up button (disabled, collapsed, settable) 使用的产品资料, Value: 剪影练习版 · 示例素材, ID: product, Secondary Actions: Expand
+					44 menu
+						45 (selected) 剪影练习版 · 示例素材
+						46 无素材产品 · 测试资料不足
+				47 button (collapsed) 查看可用素材, Secondary Actions: Expand
+					48 text 查看可用素材
+				49 text 运行方式
+				50 pop up button (disabled, collapsed, settable) 运行方式, Value: 真实模型 · Codex, ID: provider, Secondary Actions: Expand
+					51 menu
+						52 (selected) 真实模型 · Codex
+						53 离线演练 · Mock
+						54 (disabled) 模型 API
+				2656 text 调用本机已登录的 Codex，通常需要一到数分钟。
+				2657 container advanced
+					2658 button (expanded) 测试设置与旧稿, Secondary Actions: Collapse
+						2659 text 测试设置与旧稿
+					2660 text 工具故障模拟
+					2661 pop up button (disabled, collapsed, settable) 工具故障模拟, Value: 不注入故障, ID: fault, Secondary Actions: Expand
+						2662 menu
+							2663 (selected) 不注入故障
+							2664 素材检索失败一次
+							2665 素材检索持续失败
+							2666 时长工具持续失败
+							2667 规则工具持续失败
+					2668 container
+						2669 text 待修订旧稿  JSON，可选
+					2670 text entry area (disabled) 待修订旧稿 JSON，可选, ID: initial-script, Value: {
+  "title": "字幕，让表达被看见",
+  "shots": [
+    {
+      "visual": "人物面对镜头提出问题",
+      "hold_seconds": 8,
+      "blocks": [
+        {
+          "text": "想让画面里的表达更清楚？",
+          "source_id": "",
+          "fact_id": ""
+        }
+      ]
+    },
+    {
+      "visual": "日常生活素材蒙太奇",
+      "hold_seconds": 10,
+      "blocks": [
+        {
+          "text": "从一段日常记录开始。",
+          "source_id": "",
+          "fact_id": ""
+        }
+      ]
+    },
+    {
+      "visual": "将旁白作为字幕叠加在日常画面上",
+      "hold_seconds": 12,
+      "blocks": [
+        {
+          "text": "剪影练习版支持为视频添加字幕。",
+          "source_id": "P01",
+          "fact_id": "P01.F1"
+        }
+      ]
+    },
+    {
+      "visual": "产品功能文字卡片，不展示未经提供的界面",
+      "hold_seconds": 12,
+      "blocks": [
+        {
+          "text": "字幕文字可以手动编辑。",
+          "source_id": "P01",
+          "fact_id": "P01.F2"
+        }
+      ]
+    },
+    {
+      "visual": "简洁背景展示结尾文字",
+      "hold_seconds": 8,
+      "blocks": [
+        {
+          "text": "试试你的下一条短片吧。",
+          "source_id": "",
+          "fact_id": ""
+        }
+      ]
+    }
+  ]
+}
+					2671 text 留空则生成新稿。停止任务会等待当前模型调用返回，不会开始下一步。
+				58 button (disabled) 正在生成与检查…, ID: run-button
+				2672 text 真实模型运行会使用当前账号的额度。
+		60 container 运行结果
+			2673 text 运行中
+			2674 text 第 1 / 12 步 · 已等待 0 秒
+			2675 button 停止后续步骤, ID: cancel-button
+			63 tab group 结果视图
+				64 tab (selectable, settable, boolean) 脚本预览, Value: 0, ID: tab-script
+				65 tab (selected, settable, boolean) 执行过程 0, ID: tab-trace, Value: 1
+执行过程
+0
+				66 tab (selectable, settable, boolean) 原始结果, Value: 0, ID: tab-raw
+			67 container
+				68 text 最近运行
+				69 pop up button (disabled, collapsed, settable) Description: 查看最近运行, Value: 11/03 22:56:57 · 模型 · 运行中 · 保留旧稿的字幕添加和手动编辑两, ID: history, Secondary Actions: Expand
+					70 menu
+						2676 选择一条记录
+						2677 (selected) 11/03 22:56:57 · 模型 · 运行中 · 保留旧稿的字幕添加和手动编辑两
+						2678 11/03 22:55:40 · 模型 · 需要补充 · 介绍裁剪片段功能，用大字卡片呈
+						2679 11/03 22:54:14 · 模型 · 需要补充 · 介绍字幕添加与手动编辑字幕文字
+						2680 11/03 22:52:18 · 模型 · 检查通过 · 介绍字幕添加功能。开头必须是陈
+						2681 11/03 22:50:13 · 模型 · 检查通过 · 只能使用两个分镜：第一镜头介绍
+						2682 11/03 22:48:05 · 模型 · 检查通过 · 介绍添加字幕和手动编辑字幕文字
+						2683 11/03 22:45:57 · 模型 · 检查通过 · 为静音展位屏幕写脚本，介绍片段
+						2684 11/03 22:43:54 · 模型 · 检查通过 · 介绍字幕添加功能，全片不能出现
+						2685 11/03 22:43:42 · 模型 · 需要补充 · 介绍横屏和竖屏画面比例选项，品
+						2686 11/03 22:43:27 · 模型 · 需要补充 · 介绍视频片段裁剪功能，目标受众
+						2687 11/03 22:43:16 · 模型 · 需要补充 · 客户想介绍字幕添加和手动编辑两
+						2688 11/03 22:41:52 · 模型 · 需要补充 · 帮我写本周新版剪影练习版的更新
+						2689 11/03 22:40:32 · 模型 · 需要补充 · 写给老年初学者的字幕功能介绍，
+						2690 11/03 22:38:14 · 模型 · 检查通过 · 客户口头说用了字幕功能后播放量
+						2691 11/03 22:36:54 · 模型 · 需要补充 · 做一条剪影练习版与剪映的对比视
+						2692 11/03 22:35:35 · 模型 · 需要补充 · 介绍导出视频能否达到4K，以及
+						2693 11/03 22:33:41 · 模型 · 需要补充 · 介绍剪影练习版是否能离线编辑字
+						2694 11/03 22:32:12 · 模型 · 需要补充 · 写一条说明字幕功能是否免费、免
+						2695 11/03 22:30:04 · 模型 · 需要补充 · 介绍剪影练习版导出SRT字幕文
+						2696 11/03 22:27:31 · 模型 · 需要补充 · 给跨境创作者介绍剪影练习版能否
+						2697 11/03 22:25:59 · 模型 · 需要补充 · 我们想宣传口播自动识别成字幕，
+						2698 11/03 22:24:42 · 模型 · 需要补充 · 写一条一步一步教新手添加字幕并
+						2699 11/03 22:23:15 · 模型 · 检查通过 · 介绍字幕添加、手动编辑字幕文字
+						2700 11/03 22:21:43 · 模型 · 需要补充 · 介绍为视频添加字幕这个功能。每
+						2701 11/03 22:20:06 · 模型 · 需要补充 · Write an Englis
+						2702 11/03 22:17:37 · 模型 · 检查通过 · 介绍为视频添加字幕与手动编辑字
+						2703 11/03 22:15:24 · 模型 · 检查通过 · 十五秒以内介绍字幕添加、片段裁
+						2704 11/03 22:13:23 · 模型 · 检查通过 · 用十秒以内介绍两个功能：裁剪视
+						2705 11/03 22:11:53 · 模型 · 检查通过 · 写一条六秒以内的产品入口短片脚
+						2706 11/03 22:08:18 · 模型 · 检查通过 · 做一条接近一分钟的基础功能介绍
+						2707 11/03 22:06:07 · 模型 · 检查通过 · 介绍剪影练习版的三个方面：为视
+						2708 11/03 22:03:30 · 模型 · 检查通过 · 以整理家庭生活录像为背景介绍裁
+			2709 container summary-bar
+				2710 text 预计时长 
+				2711 text 待检查
+				2712 text 事实与规则 
+				2713 text 待检查
+				2714 text 引用素材 
+				2715 text 0
+			2716 container Description: 执行过程 0, ID: panel-trace
+				2717 heading 每一步，都有记录。, Value: 2
+					2718 text 每一步，都有记录。
+				2719 text 这里展示实际工具调用、观察结果与简短动作依据。
+				2720 container thinking
+					2721 text 模型正在决定下一步
+					2722 text 当前调用完成后，将显示实际执行结果。
+			2723 text 运行记录会保存在本机，便于复验。
+		120 text 本地运行 · 合成素材 · 只生成脚本 先核对事实，再判断表达。
+
+The focused UI element is 0 AXWebArea 脚本试验台 · 短视频 Agent, URL: 127.0.0.1:8765/

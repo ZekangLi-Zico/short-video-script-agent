@@ -1,0 +1,25 @@
+{
+  "status": "needs_input",
+  "message": "目前已明确创作方向：面向附近通勤上班族，温暖、生活化的小红书视频，时长不超过25秒。尚未生成分镜稿，无法完成时长、规则和需求检查。请将新品名称、确认的上新时间及产品特点或成分资料交给项目维护者；若要展示价格，也需提供确认价格。资料补齐前不能编造新品信息。",
+  "script": null,
+  "duration": null,
+  "rules_check": null,
+  "requirements_check": null,
+  "sources": [],
+  "metadata": {
+    "started_at": "2026-11-04T01:41:37.119502+00:00",
+    "finished_at": "2026-11-04T01:43:10.739514+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 3,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "optional_editor_notes_v1",
+    "model_responses": 3,
+    "run_id": "48de83508d254f38ae0984c21b660cad",
+    "persistence": "checkpoint_v1"
+  }
+}

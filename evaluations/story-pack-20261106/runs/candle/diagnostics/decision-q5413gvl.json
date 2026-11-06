@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-q5413gvl",
+  "started_at": "2026-11-05T17:35:58.684874+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-05T17:36:15.849167+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1acc8-23bc-7920-9c96-1898e12809e2",
+    "usage": {
+      "input_tokens": 28849,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 84,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-q5413gvl",
+    "warnings": []
+  }
+}

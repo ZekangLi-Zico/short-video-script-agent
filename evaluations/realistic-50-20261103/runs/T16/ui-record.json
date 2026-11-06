@@ -1,0 +1,13 @@
+{
+  "case_id": "T16",
+  "capture_mode": "viewport_fallback",
+  "finished_capture_at": "2026-11-03T14:20:03.727Z",
+  "busy": false,
+  "detail": "真实模型 · 5 个执行步骤",
+  "download": "/api/runs/084d1a34d3844b2c8edda7439e241f43/download/output.json",
+  "error": "",
+  "history": "084d1a34d3844b2c8edda7439e241f43",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "save": "记录已保存 · 084d1a34",
+  "status": "检查通过"
+}

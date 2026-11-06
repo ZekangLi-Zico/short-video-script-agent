@@ -1,0 +1,873 @@
+{
+  "status": "blocked",
+  "message": "模型调用失败，未完成；见执行记录。",
+  "script": {
+    "format_version": 2,
+    "title": "阿晴送来的叉烧饭",
+    "shots": [
+      {
+        "purpose": "阿晴递饭，建立邻里温度。",
+        "visual": "夜，陈峥家门口。阿晴把饭盒递给陈峥，陈峥双手接稳。阿晴说第一句，陈峥笑着回应第二句。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "我妈做的叉烧饭，让我给你送一份。",
+            "source_id": "CZ-C-QING",
+            "fact_id": "CZ-C-QING.F2",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "谢谢啊，也替我谢谢你妈。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "voice",
+            "beat": 2,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "陈峥注意到烛光，顺口问起。",
+        "visual": "陈峥仍拿着饭盒，视线越过阿晴，落向同一楼道里她家的门缝。切门外近景，缝里透出烛光，不展示屋内。陈峥发问。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "你家怎么还点着蜡烛？",
+            "source_id": "CZ-S-HOME",
+            "fact_id": "CZ-S-HOME.F2",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "阿晴说明电路情况，陈峥提出帮忙。",
+        "visual": "切回两人。阿晴平常地回答第一句；陈峥把饭盒托稳，朝她家门口看一眼，说第二句。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "电路坏了，好久了。",
+            "source_id": "CZ-E08",
+            "fact_id": "CZ-E08.F3",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "要不我帮你看看？",
+            "source_id": "CZ-E08",
+            "fact_id": "CZ-E08.F3",
+            "channel": "voice",
+            "beat": 2,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "迅速的拒绝让陈峥微微意外。",
+        "visual": "阿晴立刻摇头说第一句。陈峥目光停在她脸上，顿一下后轻轻点头，说第二句；饭盒始终在他手里。",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "不用了。",
+            "source_id": "CZ-C-QING",
+            "fact_id": "CZ-C-QING.F3",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "……行。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "voice",
+            "beat": 2,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "阿晴正常道别离开，疑问留在陈峥的反应里。",
+        "visual": "阿晴恢复平常的语气，说第一句后转身。陈峥拿着饭盒回应第二句，视线随她移动。阿晴沿楼道走出画面，陈峥留在门口，随即结束。",
+        "hold_seconds": 5,
+        "blocks": [
+          {
+            "text": "那我回去了，你吃饭吧。",
+            "source_id": "CZ-E08",
+            "fact_id": "CZ-E08.F3",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "好，回去吧。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "voice",
+            "beat": 2,
+            "display_seconds": 0
+          }
+        ]
+      }
+    ],
+    "editor_notes": ""
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "1530f5dbde8f6a57e539f2809f52fb811dcd7dd66de6d359d99af4dcc0fd8538",
+    "shots": [
+      {
+        "shot": 1,
+        "estimated_seconds": 7.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 4.0,
+            "voice_seconds": 4.0,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 4.0
+          },
+          {
+            "beat": 2,
+            "start_seconds": 4.0,
+            "end_seconds": 7.0,
+            "voice_seconds": 3.0,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 3.0
+          }
+        ],
+        "tail_hold_seconds": 0.0
+      },
+      {
+        "shot": 2,
+        "estimated_seconds": 2.8,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 2.8,
+            "voice_seconds": 2.75,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 2.8
+          }
+        ],
+        "tail_hold_seconds": 0.0
+      },
+      {
+        "shot": 3,
+        "estimated_seconds": 4.6,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 2.3,
+            "voice_seconds": 2.25,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 2.3
+          },
+          {
+            "beat": 2,
+            "start_seconds": 2.3,
+            "end_seconds": 4.6,
+            "voice_seconds": 2.25,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 2.3
+          }
+        ],
+        "tail_hold_seconds": 0.0
+      },
+      {
+        "shot": 4,
+        "estimated_seconds": 4.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 1.3,
+            "voice_seconds": 1.25,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 1.3
+          },
+          {
+            "beat": 2,
+            "start_seconds": 1.3,
+            "end_seconds": 2.1,
+            "voice_seconds": 0.75,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 0.8
+          }
+        ],
+        "tail_hold_seconds": 1.9
+      },
+      {
+        "shot": 5,
+        "estimated_seconds": 5.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 2.8,
+            "voice_seconds": 2.75,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 2.8
+          },
+          {
+            "beat": 2,
+            "start_seconds": 2.8,
+            "end_seconds": 4.3,
+            "voice_seconds": 1.5,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 1.5
+          }
+        ],
+        "tail_hold_seconds": 0.7
+      }
+    ],
+    "total_seconds": 23.4,
+    "target_seconds": 35,
+    "passed": true,
+    "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "1530f5dbde8f6a57e539f2809f52fb811dcd7dd66de6d359d99af4dcc0fd8538",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:1/block:1",
+        "source_id": "CZ-C-QING",
+        "fact_id": "CZ-C-QING.F2",
+        "quote": "第八集阿晴替母亲送叉烧饭，陈峥在自己家门口接过；饭盒随后仍由陈峥拿着。阿晴母亲只被提及，未在这段出场。",
+        "version": "2026-11-06-v1",
+        "text": "我妈做的叉烧饭，让我给你送一份。",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:2/block:1",
+        "source_id": "CZ-S-HOME",
+        "fact_id": "CZ-S-HOME.F2",
+        "quote": "陈峥与阿晴住在同一楼道。第八集送饭发生在陈峥门口，阿晴家门缝透出烛光；插入镜头只看门外，不揭开屋内秘密。",
+        "version": "2026-11-06-v1",
+        "text": "你家怎么还点着蜡烛？",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:3/block:1",
+        "source_id": "CZ-E08",
+        "fact_id": "CZ-E08.F3",
+        "quote": "阿晴到陈峥家门口送来母亲准备的叉烧饭。她家门缝透出烛光，说电路坏了很久；陈峥提议帮忙，她马上拒绝，随后正常道别。此处只留下疑问，未证实屋内有谁或发生了什么。",
+        "version": "2026-11-06-v1",
+        "text": "电路坏了，好久了。",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:3/block:2",
+        "source_id": "CZ-E08",
+        "fact_id": "CZ-E08.F3",
+        "quote": "阿晴到陈峥家门口送来母亲准备的叉烧饭。她家门缝透出烛光，说电路坏了很久；陈峥提议帮忙，她马上拒绝，随后正常道别。此处只留下疑问，未证实屋内有谁或发生了什么。",
+        "version": "2026-11-06-v1",
+        "text": "要不我帮你看看？",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:4/block:1",
+        "source_id": "CZ-C-QING",
+        "fact_id": "CZ-C-QING.F3",
+        "quote": "阿晴家以蜡烛照明，她说电路坏了很久，却迅速拒绝陈峥帮忙。她随后平常地道别；异常是拒绝修电路，资料未揭晓屋内真相。",
+        "version": "2026-11-06-v1",
+        "text": "不用了。",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:5/block:1",
+        "source_id": "CZ-E08",
+        "fact_id": "CZ-E08.F3",
+        "quote": "阿晴到陈峥家门口送来母亲准备的叉烧饭。她家门缝透出烛光，说电路坏了很久；陈峥提议帮忙，她马上拒绝，随后正常道别。此处只留下疑问，未证实屋内有谁或发生了什么。",
+        "version": "2026-11-06-v1",
+        "text": "那我回去了，你吃饭吧。",
+        "requires_semantic_review": true
+      }
+    ],
+    "rules_version": "city-drama-2026-11-06-v1",
+    "material_kind": "narrative",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "阿晴送来的叉烧饭"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "夜，陈峥家门口。阿晴把饭盒递给陈峥，陈峥双手接稳。阿晴说第一句，陈峥笑着回应第二句。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "我妈做的叉烧饭，让我给你送一份。"
+      },
+      {
+        "location": "shot:1/block:2",
+        "text": "谢谢啊，也替我谢谢你妈。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "陈峥仍拿着饭盒，视线越过阿晴，落向同一楼道里她家的门缝。切门外近景，缝里透出烛光，不展示屋内。陈峥发问。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "你家怎么还点着蜡烛？"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "切回两人。阿晴平常地回答第一句；陈峥把饭盒托稳，朝她家门口看一眼，说第二句。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "电路坏了，好久了。"
+      },
+      {
+        "location": "shot:3/block:2",
+        "text": "要不我帮你看看？"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "阿晴立刻摇头说第一句。陈峥目光停在她脸上，顿一下后轻轻点头，说第二句；饭盒始终在他手里。"
+      },
+      {
+        "location": "shot:4/block:1",
+        "text": "不用了。"
+      },
+      {
+        "location": "shot:4/block:2",
+        "text": "……行。"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "阿晴恢复平常的语气，说第一句后转身。陈峥拿着饭盒回应第二句，视线随她移动。阿晴沿楼道走出画面，陈峥留在门口，随即结束。"
+      },
+      {
+        "location": "shot:5/block:1",
+        "text": "那我回去了，你吃饭吧。"
+      },
+      {
+        "location": "shot:5/block:2",
+        "text": "好，回去吧。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "CZ-E08",
+        "fact_id": "CZ-E08.F1",
+        "quote": "陈峥回看上一集的信息，得知武三郎真名顾明川、古武术69%、技能惊鸿一瞥，传承仍未知。顾明川拒绝合作，约定明日拳台上赢者拿走全部残片。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E08",
+        "fact_id": "CZ-E08.F2",
+        "quote": "陈峥回四楼包厢请赤锋准备一米三左右的八面汉剑，赤锋打算向天魁借；此时只是借剑需求，尚未交付，陈峥右臂也未受伤。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E08",
+        "fact_id": "CZ-E08.F3",
+        "quote": "阿晴到陈峥家门口送来母亲准备的叉烧饭。她家门缝透出烛光，说电路坏了很久；陈峥提议帮忙，她马上拒绝，随后正常道别。此处只留下疑问，未证实屋内有谁或发生了什么。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E08",
+        "fact_id": "CZ-E08.F4",
+        "quote": "兵器战中，陈峥先以汉剑压制顾明川的拦面叟。顾明川发动自己的开明兽传承反转战局，令陈峥右臂暂时失力并夺走汉剑。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E08",
+        "fact_id": "CZ-E08.F5",
+        "quote": "陈峥观察到顾明川用长剑不熟，先空手反击，再以左手夺剑制住他；右臂持续下垂，不突然恢复。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E08",
+        "fact_id": "CZ-E08.F6",
+        "quote": "陈峥问顾清禾与顾明川的关系，得知是姐姐后留手，顾明川存活。陈峥放下剑后才拖人下台，再用左手取回剑；他与顾清禾的过往仍是悬念。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-C-QING",
+        "fact_id": "CZ-C-QING.F1",
+        "quote": "阿晴是住在陈峥附近的贫民女孩，照料橘猫阿咪。陈峥曾替她解围，并在遭劫持时支她去买糖，让她离开危险。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-C-QING",
+        "fact_id": "CZ-C-QING.F2",
+        "quote": "第八集阿晴替母亲送叉烧饭，陈峥在自己家门口接过；饭盒随后仍由陈峥拿着。阿晴母亲只被提及，未在这段出场。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-C-QING",
+        "fact_id": "CZ-C-QING.F3",
+        "quote": "阿晴家以蜡烛照明，她说电路坏了很久，却迅速拒绝陈峥帮忙。她随后平常地道别；异常是拒绝修电路，资料未揭晓屋内真相。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-S-HOME",
+        "fact_id": "CZ-S-HOME.F1",
+        "quote": "陈峥城寨住处有床、桌、门、窗，夜间台灯照明，次日下午以窗外日光为主；同一房间布局随时间连续。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-S-HOME",
+        "fact_id": "CZ-S-HOME.F2",
+        "quote": "陈峥与阿晴住在同一楼道。第八集送饭发生在陈峥门口，阿晴家门缝透出烛光；插入镜头只看门外，不揭开屋内秘密。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-S-HOME",
+        "fact_id": "CZ-S-HOME.F3",
+        "quote": "送饭段的可拍动作是递饭、接稳、看门缝、问话、拒绝与道别；餐盒持续在陈峥手中，不需要额外惊悚事件。",
+        "version": "2026-11-06-v1"
+      }
+    ],
+    "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "1530f5dbde8f6a57e539f2809f52fb811dcd7dd66de6d359d99af4dcc0fd8538",
+    "request_hash": "92cbdd45f1981ef3fd99aa8a91ba29604e4eaf09d03b954274c61016e7b225a5",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "把第八集阿晴送叉烧饭这一段改成一个独立短片",
+        "verdict": "met",
+        "evidence": "第1—5镜完整呈现送饭、问烛光、提出帮忙、拒绝及道别，独立可理解，未加入其他剧情支线。"
+      },
+      {
+        "field": "topic",
+        "requirement": "从递饭开始",
+        "verdict": "met",
+        "evidence": "第1镜直接以阿晴把饭盒递给陈峥开场。"
+      },
+      {
+        "field": "topic",
+        "requirement": "以她拒绝帮忙修电路后离开收尾",
+        "verdict": "met",
+        "evidence": "第4镜阿晴拒绝帮忙，第5镜道别后沿楼道走出画面，随即结束。"
+      },
+      {
+        "field": "topic",
+        "requirement": "主要靠陈峥和阿晴的对白与反应推进",
+        "verdict": "met",
+        "evidence": "各镜通过两人问答、摇头、停顿和目光变化推进，电路话题承接门缝烛光。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不加解说旁白",
+        "verdict": "met",
+        "evidence": "所有voice块均由画面明确归属陈峥或阿晴，没有解说或内心旁白。"
+      },
+      {
+        "field": "audience",
+        "requirement": "已经认识陈峥和阿晴、在追这部漫剧的观众",
+        "verdict": "met",
+        "evidence": "未重复人物背景，连续对白清楚呈现邻里互动，并保留阿晴拒绝帮忙的疑问。"
+      },
+      {
+        "field": "platform",
+        "requirement": "B站",
+        "verdict": "met",
+        "evidence": "五镜构成完整的漫剧短场景，人物对话和反应适合短片观看，无明显平台适配冲突。"
+      },
+      {
+        "field": "style",
+        "requirement": "生活化",
+        "verdict": "met",
+        "evidence": "“谢谢啊，也替我谢谢你妈”和“要不我帮你看看？”自然衔接送饭与邻里帮忙，语义完整。"
+      },
+      {
+        "field": "style",
+        "requirement": "先有邻里的温度，再留一点说不清的疑问",
+        "verdict": "met",
+        "evidence": "第1镜送饭致谢建立温度，第4镜迅速拒绝与陈峥停顿留下疑问，第5镜正常道别而不揭晓真相。"
+      }
+    ],
+    "summary": "当前稿落实了指定段落、开场、收尾和人物对白要求，生活感与轻微悬念均成立。公开内容有剧情依据，预计23.4秒，节奏合理且在35秒上限内。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "阿晴送来的叉烧饭",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-C-QING",
+            "fact_id": "CZ-C-QING.F2"
+          }
+        ],
+        "evidence": "资料明确阿晴替母亲送叉烧饭。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "夜，陈峥家门口。阿晴把饭盒递给陈峥，陈峥双手接稳。阿晴说第一句，陈峥笑着回应第二句。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-C-QING",
+            "fact_id": "CZ-C-QING.F2"
+          }
+        ],
+        "evidence": "门口递饭及陈峥接过有依据，夜景、双手和笑容属于未改变关键情节的拍摄安排。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "我妈做的叉烧饭，让我给你送一份。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-C-QING",
+            "fact_id": "CZ-C-QING.F2"
+          },
+          {
+            "source_id": "CZ-E08",
+            "fact_id": "CZ-E08.F3"
+          }
+        ],
+        "evidence": "对白准确改述阿晴替母亲送来母亲准备的叉烧饭。"
+      },
+      {
+        "location": "shot:1/block:2",
+        "text": "谢谢啊，也替我谢谢你妈。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "符合接饭情境的原创道谢，没有新增人物关系或事件。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "陈峥仍拿着饭盒，视线越过阿晴，落向同一楼道里她家的门缝。切门外近景，缝里透出烛光，不展示屋内。陈峥发问。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-S-HOME",
+            "fact_id": "CZ-S-HOME.F2"
+          },
+          {
+            "source_id": "CZ-C-QING",
+            "fact_id": "CZ-C-QING.F2"
+          }
+        ],
+        "evidence": "同楼道、门缝烛光、门外视角及饭盒持续由陈峥持有均有依据。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "你家怎么还点着蜡烛？",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-S-HOME",
+            "fact_id": "CZ-S-HOME.F2"
+          }
+        ],
+        "evidence": "以问句承接阿晴家门缝透出烛光，未揭示屋内情况。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "切回两人。阿晴平常地回答第一句；陈峥把饭盒托稳，朝她家门口看一眼，说第二句。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "切镜、语气、托稳饭盒和视线安排均为自然表演动作。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "电路坏了，好久了。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-E08",
+            "fact_id": "CZ-E08.F3"
+          }
+        ],
+        "evidence": "准确改述阿晴说电路坏了很久，保留其角色陈述属性。"
+      },
+      {
+        "location": "shot:3/block:2",
+        "text": "要不我帮你看看？",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-E08",
+            "fact_id": "CZ-E08.F3"
+          }
+        ],
+        "evidence": "符合陈峥提议帮忙的既有情节，没有承诺修好。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "阿晴立刻摇头说第一句。陈峥目光停在她脸上，顿一下后轻轻点头，说第二句；饭盒始终在他手里。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-C-QING",
+            "fact_id": "CZ-C-QING.F3"
+          },
+          {
+            "source_id": "CZ-C-QING",
+            "fact_id": "CZ-C-QING.F2"
+          }
+        ],
+        "evidence": "迅速拒绝及饭盒持有连续性有依据，停顿和点头是合理反应设计。"
+      },
+      {
+        "location": "shot:4/block:1",
+        "text": "不用了。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-C-QING",
+            "fact_id": "CZ-C-QING.F3"
+          }
+        ],
+        "evidence": "准确表达阿晴拒绝陈峥帮忙修电路。"
+      },
+      {
+        "location": "shot:4/block:2",
+        "text": "……行。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "是面对拒绝的简短回应，不新增剧情事实。"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "阿晴恢复平常的语气，说第一句后转身。陈峥拿着饭盒回应第二句，视线随她移动。阿晴沿楼道走出画面，陈峥留在门口，随即结束。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-C-QING",
+            "fact_id": "CZ-C-QING.F3"
+          },
+          {
+            "source_id": "CZ-C-QING",
+            "fact_id": "CZ-C-QING.F2"
+          },
+          {
+            "source_id": "CZ-S-HOME",
+            "fact_id": "CZ-S-HOME.F2"
+          }
+        ],
+        "evidence": "平常道别、门口及楼道环境、饭盒归属均符合资料，转身离场未新增秘密或结果。"
+      },
+      {
+        "location": "shot:5/block:1",
+        "text": "那我回去了，你吃饭吧。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "CZ-E08",
+            "fact_id": "CZ-E08.F3"
+          }
+        ],
+        "evidence": "是送饭后正常道别的合理对白改写。"
+      },
+      {
+        "location": "shot:5/block:2",
+        "text": "好，回去吧。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "自然回应阿晴道别，没有新增事实含义。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "第1—3镜分别为7、2.8、4.6秒，容纳递接饭、观察烛光及问答；第4镜4秒以摇头、停顿和点头支撑余留时间，第5镜5秒以道别及走出画面收束，无明显重复或空镜凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "CZ-E08",
+      "product_id": "city-drama",
+      "title": "第8集·全都拿走",
+      "version": "2026-11-06-v1",
+      "category": "分集剧情",
+      "keywords": [
+        "CZ-E08",
+        "第8集·全都拿走",
+        "第8集",
+        "全都拿走",
+        "顾明川",
+        "武三郎",
+        "汉剑",
+        "拦面叟",
+        "阿晴",
+        "烛光",
+        "顾清禾",
+        "对决",
+        "约战",
+        "送饭"
+      ],
+      "facts": [
+        {
+          "id": "CZ-E08.F1",
+          "text": "陈峥回看上一集的信息，得知武三郎真名顾明川、古武术69%、技能惊鸿一瞥，传承仍未知。顾明川拒绝合作，约定明日拳台上赢者拿走全部残片。"
+        },
+        {
+          "id": "CZ-E08.F2",
+          "text": "陈峥回四楼包厢请赤锋准备一米三左右的八面汉剑，赤锋打算向天魁借；此时只是借剑需求，尚未交付，陈峥右臂也未受伤。"
+        },
+        {
+          "id": "CZ-E08.F3",
+          "text": "阿晴到陈峥家门口送来母亲准备的叉烧饭。她家门缝透出烛光，说电路坏了很久；陈峥提议帮忙，她马上拒绝，随后正常道别。此处只留下疑问，未证实屋内有谁或发生了什么。"
+        },
+        {
+          "id": "CZ-E08.F4",
+          "text": "兵器战中，陈峥先以汉剑压制顾明川的拦面叟。顾明川发动自己的开明兽传承反转战局，令陈峥右臂暂时失力并夺走汉剑。"
+        },
+        {
+          "id": "CZ-E08.F5",
+          "text": "陈峥观察到顾明川用长剑不熟，先空手反击，再以左手夺剑制住他；右臂持续下垂，不突然恢复。"
+        },
+        {
+          "id": "CZ-E08.F6",
+          "text": "陈峥问顾清禾与顾明川的关系，得知是姐姐后留手，顾明川存活。陈峥放下剑后才拖人下台，再用左手取回剑；他与顾清禾的过往仍是悬念。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S01",
+          "start_line": 406,
+          "end_line": 478
+        },
+        {
+          "source": "S08",
+          "start_line": 1,
+          "end_line": 68
+        },
+        {
+          "source": "S09",
+          "start_line": 5,
+          "end_line": 30
+        }
+      ]
+    },
+    {
+      "id": "CZ-C-QING",
+      "product_id": "city-drama",
+      "title": "阿晴",
+      "version": "2026-11-06-v1",
+      "category": "人物关系",
+      "keywords": [
+        "CZ-C-QING",
+        "阿晴",
+        "阿咪",
+        "送饭",
+        "烛光",
+        "女孩",
+        "邻居"
+      ],
+      "facts": [
+        {
+          "id": "CZ-C-QING.F1",
+          "text": "阿晴是住在陈峥附近的贫民女孩，照料橘猫阿咪。陈峥曾替她解围，并在遭劫持时支她去买糖，让她离开危险。"
+        },
+        {
+          "id": "CZ-C-QING.F2",
+          "text": "第八集阿晴替母亲送叉烧饭，陈峥在自己家门口接过；饭盒随后仍由陈峥拿着。阿晴母亲只被提及，未在这段出场。"
+        },
+        {
+          "id": "CZ-C-QING.F3",
+          "text": "阿晴家以蜡烛照明，她说电路坏了很久，却迅速拒绝陈峥帮忙。她随后平常地道别；异常是拒绝修电路，资料未揭晓屋内真相。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S01",
+          "start_line": 67,
+          "end_line": 122
+        },
+        {
+          "source": "S03",
+          "start_line": 30,
+          "end_line": 50
+        },
+        {
+          "source": "S08",
+          "start_line": 48,
+          "end_line": 68
+        }
+      ]
+    },
+    {
+      "id": "CZ-S-HOME",
+      "product_id": "city-drama",
+      "title": "城寨住处与阿晴楼道",
+      "version": "2026-11-06-v1",
+      "category": "场景",
+      "keywords": [
+        "CZ-S-HOME",
+        "城寨住处与阿晴楼道",
+        "住处",
+        "楼道",
+        "烛光",
+        "门缝",
+        "送饭",
+        "台灯"
+      ],
+      "facts": [
+        {
+          "id": "CZ-S-HOME.F1",
+          "text": "陈峥城寨住处有床、桌、门、窗，夜间台灯照明，次日下午以窗外日光为主；同一房间布局随时间连续。"
+        },
+        {
+          "id": "CZ-S-HOME.F2",
+          "text": "陈峥与阿晴住在同一楼道。第八集送饭发生在陈峥门口，阿晴家门缝透出烛光；插入镜头只看门外，不揭开屋内秘密。"
+        },
+        {
+          "id": "CZ-S-HOME.F3",
+          "text": "送饭段的可拍动作是递饭、接稳、看门缝、问话、拒绝与道别；餐盒持续在陈峥手中，不需要额外惊悚事件。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S06",
+          "start_line": 23,
+          "end_line": 63
+        },
+        {
+          "source": "S08",
+          "start_line": 48,
+          "end_line": 68
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "app_version": "v7.1-story-materials",
+    "started_at": "2026-11-05T17:35:58.673867+00:00",
+    "finished_at": "2026-11-05T17:44:23.945074+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "5d865600d50d103f98dc820f7ba7505232f2991b7eda6b008e02601df670bf25",
+    "max_steps": 12,
+    "steps": 4,
+    "synthetic_data": false,
+    "completion_policy": "facts_duration_requirements_v6",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+    "model_responses": 4,
+    "run_id": "5980f24ff482456598562e471d1db970",
+    "persistence": "checkpoint_v1"
+  }
+}

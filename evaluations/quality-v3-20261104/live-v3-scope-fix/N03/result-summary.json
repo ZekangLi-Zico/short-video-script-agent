@@ -1,0 +1,20 @@
+{
+  "id": "N03",
+  "status": "completed",
+  "steps": 10,
+  "model_responses": 12,
+  "duration": 13.8,
+  "path": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "check_requirements",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "check_requirements",
+    "finish"
+  ],
+  "message": "已完成三镜头脚本，画面依次为巷口、门牌、门口，只介绍添加字幕，以核对门牌号的平实提醒收尾，未加入裁剪、导航、翻译或识别能力。本次修订仅将末镜最短停留从3秒增至6秒，其余内容保留。估算总时长13.8秒，符合20秒上限；三项检查均通过，无待补事项。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

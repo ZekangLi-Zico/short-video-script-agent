@@ -1,0 +1,68 @@
+{
+  "case": "T22",
+  "name": "翻译字幕咨询",
+  "run_id": "157b44c39ddb4fdd89f0d99223bec748",
+  "status": "needs_input",
+  "message": "现有素材仅确认支持添加字幕和手动编辑，无法判断是否支持中译英。请补充明确说明该功能是否支持及使用限制的产品资料，再编写25秒以内的脚本。",
+  "steps": 3,
+  "model_calls": 3,
+  "seconds": null,
+  "target_seconds": 25,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "search_materials",
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "剪影练习版 demo-editor 是否支持将中文字幕翻译成英文，字幕翻译功能及限制",
+    "中文字幕翻译成英文 中译英 中英互译 subtitle translation translate 功能支持与限制"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "尚无已检索事实可确认中文字幕能否翻译成英文",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "basis": "现有素材仅说明字幕添加和手动编辑，缺少中译英功能依据",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "basis": "两次检索均未找到中文字幕翻译成英文的功能依据。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 56.2,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "d7ff07a3ba324e9d194e18c1a4f685dc98cf58d6139715a76c63a6b3682cf6d5",
+    "output.json": "8d3adcdb8e63ad16f71fa64a98d7235c11cb3d700aef0555fc736d6e175ef5f2",
+    "trace.jsonl": "07948fd1b0b1e5f573adba6f568dc2f7f8dcaa275867d9056a93919bfe87fffb",
+    "manifest.json": "4da640f6ceb99c8031470509d3588c8a29d326bb0ef204d5cac52b4b798dc82d",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "0a6851c2e1a5ac9a58026ea650fed7429921412bb18879ad29b9bec869379592"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "T48",
+  "name": "客户口语化需求",
+  "context": "真实客户常用很口语化的方式描述目标。",
+  "request": {
+    "topic": "我想发个做视频的小工具介绍，别整太像广告。就是能给片子加字，字打错了还可以自己改，给我整一个二十秒左右的。",
+    "audience": "刚开始发生活视频的人",
+    "platform": "抖音",
+    "style": "口语化、自然、不喊口号",
+    "product_id": "demo-editor",
+    "target_seconds": 20
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

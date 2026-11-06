@@ -1,0 +1,61 @@
+{
+  "paired": 50,
+  "old_statuses": {
+    "completed": 36,
+    "needs_input": 14
+  },
+  "new_statuses": {
+    "completed": 36,
+    "blocked": 2,
+    "needs_input": 12
+  },
+  "old_responses": 317,
+  "new_responses": 292,
+  "status_changes": [
+    {
+      "case": "V05",
+      "old": "completed",
+      "new": "blocked"
+    },
+    {
+      "case": "V22",
+      "old": "needs_input",
+      "new": "completed"
+    },
+    {
+      "case": "V28",
+      "old": "completed",
+      "new": "blocked"
+    },
+    {
+      "case": "V30",
+      "old": "needs_input",
+      "new": "completed"
+    }
+  ],
+  "rewritten_citations": 26,
+  "english_fact_cases": [
+    "V21",
+    "V22"
+  ],
+  "stale_note_cases": [],
+  "quality_assessments": {
+    "改进": 21,
+    "退步": 4,
+    "相当": 13,
+    "仍需补充": 12
+  },
+  "manual_stale_note_cases": [],
+  "observed_hard_requirement_violations": [],
+  "old_median_wall_seconds": 206.8,
+  "new_median_wall_seconds": 314.1,
+  "diagnostics": 294,
+  "failed_response_diagnostics": 2,
+  "both_completed_pairs": 34,
+  "both_completed_old_responses": 262,
+  "both_completed_new_responses": 250,
+  "both_completed_old_median_wall_seconds": 223.8,
+  "both_completed_new_median_wall_seconds": 353.1,
+  "old_generic_title_count": 2,
+  "new_generic_title_count": 22
+}

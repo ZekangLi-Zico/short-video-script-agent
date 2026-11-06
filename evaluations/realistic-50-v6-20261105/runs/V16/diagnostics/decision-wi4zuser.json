@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-wi4zuser",
+  "started_at": "2026-11-04T17:24:08.763579+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:24:21.195376+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a796-f150-7ee1-8021-33588401f632",
+    "usage": {
+      "input_tokens": 27521,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 73,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-wi4zuser",
+    "warnings": []
+  }
+}

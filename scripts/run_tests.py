@@ -1,23 +1,28 @@
-"""Run unittest and save verifiable test evidence in examples/test-results/."""
+"""Run unittest; new evidence goes to outputs, preserving submitted history."""
 
 import io
+import argparse
 import json
 import platform
 import sys
 import unittest
 from datetime import datetime, timezone
+from pathlib import Path
 
 from src.tools import ROOT
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--output', default='outputs/test-results')
+    args = parser.parse_args()
     stream = io.StringIO()
     started = datetime.now(timezone.utc).isoformat()
     suite = unittest.defaultTestLoader.discover(str(ROOT / "tests"))
     result = unittest.TextTestRunner(stream=stream, verbosity=2).run(suite)
     text = stream.getvalue()
     sys.stdout.write(text)
-    directory = ROOT / "examples/test-results"
+    directory = Path(args.output)
     directory.mkdir(parents=True, exist_ok=True)
     (directory / "unittest.txt").write_text(text, encoding="utf-8")
     report = {"started_at": started, "finished_at": datetime.now(timezone.utc).isoformat(),

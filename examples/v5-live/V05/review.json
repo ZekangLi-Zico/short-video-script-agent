@@ -1,0 +1,8 @@
+{
+  "case": "V05",
+  "assessment": "退步",
+  "note": "旧版完成32.6秒稿；本次检索成功后，写稿模型调用超过180秒并返回codex_timeout，没有成稿。有效响应1次，失败调用诊断及检查点均已保存。此例计入正式50的未完成，不重跑替换结果；它不能用于比较脚本文案质量。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

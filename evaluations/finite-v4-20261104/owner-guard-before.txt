@@ -1,0 +1,14 @@
+test_active_owner_is_not_recovered_by_another_manager (tests.test_finite_v4.EvidenceDurabilityTests.test_active_owner_is_not_recovered_by_another_manager) ... FAIL
+
+======================================================================
+FAIL: test_active_owner_is_not_recovered_by_another_manager (tests.test_finite_v4.EvidenceDurabilityTests.test_active_owner_is_not_recovered_by_another_manager)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_finite_v4.py", line 75, in test_active_owner_is_not_recovered_by_another_manager
+    self.assertIsNone(recover_run(folder))
+AssertionError: True is not None
+
+----------------------------------------------------------------------
+Ran 1 test in 0.094s
+
+FAILED (failures=1)

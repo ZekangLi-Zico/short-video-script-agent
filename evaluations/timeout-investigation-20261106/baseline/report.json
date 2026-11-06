@@ -1,0 +1,91 @@
+{
+  "mode": "baseline",
+  "source_run": "a4c3fd45ef0243d1a78c8506e5b5228a",
+  "timeout_seconds": 180,
+  "payload_bytes": 41809,
+  "payload_sha256": "0d6ded4bb15ac078d84d713c6b3b8c9502fb540cd948e06c98ded3182c21c401",
+  "events": [
+    {
+      "type": "thread.started",
+      "thread_id": "01a1acf7-440b-7493-86cf-e42be1ae9cea",
+      "signals": []
+    },
+    {
+      "type": "item.completed",
+      "item_type": "error",
+      "signals": []
+    },
+    {
+      "type": "item.completed",
+      "item_type": "error",
+      "signals": []
+    },
+    {
+      "type": "turn.started",
+      "signals": []
+    },
+    {
+      "type": "item.completed",
+      "item_type": "agent_message",
+      "signals": []
+    },
+    {
+      "type": "turn.completed",
+      "usage": {
+        "input_tokens": 41957,
+        "cached_input_tokens": 24576,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 90,
+        "reasoning_output_tokens": 0
+      },
+      "signals": []
+    }
+  ],
+  "stderr_bytes": 1453,
+  "stderr_signals": {
+    "mcp": 10,
+    "timeout": 0,
+    "capacity": 0,
+    "429": 0,
+    "401": 0,
+    "403": 0,
+    "error": 7,
+    "failed": 6,
+    "retry": 0,
+    "connect": 0
+  },
+  "output_file_exists_at_exit": true,
+  "output_at_exit": {
+    "action": "check_requirements",
+    "reason": "当前稿的时长和规则检查已通过，上次需求审核因超时未返回结论；重试需求审核，确认补明补完剂治病用途后，求生动机、保护阿晴及结尾悬念均满足要求。",
+    "query": "",
+    "script": null,
+    "status": "running",
+    "message": ""
+  },
+  "ok": true,
+  "action": {
+    "action": "check_requirements",
+    "reason": "当前稿的时长和规则检查已通过，上次需求审核因超时未返回结论；重试需求审核，确认补明补完剂治病用途后，求生动机、保护阿晴及结尾悬念均满足要求。",
+    "query": "",
+    "script": null,
+    "status": "running",
+    "message": ""
+  },
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1acf7-440b-7493-86cf-e42be1ae9cea",
+    "usage": {
+      "input_tokens": 41957,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 90,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-t0app74g",
+    "warnings": []
+  },
+  "elapsed_seconds": 16.16
+}

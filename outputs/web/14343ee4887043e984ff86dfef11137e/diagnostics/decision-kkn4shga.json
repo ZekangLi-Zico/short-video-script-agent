@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-kkn4shga",
+  "started_at": "2026-11-04T16:03:27.266209+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:03:47.886475+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a74d-103e-77c1-a556-70317cf461f9",
+    "usage": {
+      "input_tokens": 36947,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 233,
+      "reasoning_output_tokens": 128
+    },
+    "call_id": "decision-kkn4shga",
+    "warnings": []
+  }
+}

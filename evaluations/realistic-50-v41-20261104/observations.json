@@ -1,0 +1,847 @@
+{
+  "archived": 50,
+  "reviewed": 50,
+  "actions": {
+    "search_materials": 63,
+    "write_script": 39,
+    "estimate_duration": 44,
+    "check_rules": 43,
+    "check_requirements": 38,
+    "finish": 50,
+    "invalid_model_action": 2
+  },
+  "diagnostic_count": 317,
+  "successful_responses": 317,
+  "diagnostic_warnings": [
+    {
+      "case": "V28",
+      "call_id": "decision-_vk9oee8",
+      "response_received": true,
+      "exit_code": 0,
+      "error_type": null,
+      "cleanup_error_type": "PermissionError",
+      "cleanup_deferred": true,
+      "warnings": [
+        "cleanup_deferred"
+      ]
+    },
+    {
+      "case": "V50",
+      "call_id": "decision-2kef3dkn",
+      "response_received": true,
+      "exit_code": 0,
+      "error_type": null,
+      "cleanup_error_type": "PermissionError",
+      "cleanup_deferred": true,
+      "warnings": [
+        "cleanup_deferred"
+      ]
+    },
+    {
+      "case": "V50",
+      "call_id": "decision-iio59kkd",
+      "response_received": true,
+      "exit_code": 0,
+      "error_type": null,
+      "cleanup_error_type": "PermissionError",
+      "cleanup_deferred": true,
+      "warnings": [
+        "cleanup_deferred"
+      ]
+    },
+    {
+      "case": "V50",
+      "call_id": "decision-zh39z1ov",
+      "response_received": true,
+      "exit_code": 0,
+      "error_type": null,
+      "cleanup_error_type": "PermissionError",
+      "cleanup_deferred": true,
+      "warnings": [
+        "cleanup_deferred"
+      ]
+    }
+  ],
+  "review_assessments": {
+    "脚本可用": 8,
+    "脚本可用；备注有过时措辞": 11,
+    "脚本可用；功能范围略扩写": 2,
+    "脚本可用；字幕计时需人工复核": 4,
+    "脚本可用；无效动作后恢复": 1,
+    "脚本可用；备注时长状态表述不清": 1,
+    "有稿但需复核英文表达与计时；达到步数上限": 1,
+    "未完成；翻译与逐字引用策略限制": 1,
+    "未完成；方言质量边界": 1,
+    "未完成；短时长与逐字引用策略限制": 1,
+    "可执行卡片方案；展示拆分仅写在画面说明中": 1,
+    "未完成；自动转字幕能力缺证据": 1,
+    "未完成；收费资料缺口明确": 1,
+    "未完成；离线与数据传输依据不足": 1,
+    "脚本可用；风险解释与公开内容分离": 1,
+    "未完成；客观对比资料不足": 1,
+    "未完成；SRT导出与操作资料不足": 1,
+    "未完成；导出规格资料不足": 1,
+    "未完成；版本与新增能力未确认": 1,
+    "未完成；新品基础资料不足": 1,
+    "未完成；新产品参数资料缺失": 1,
+    "未完成；活动规则资料缺失": 1,
+    "未完成；课程基础说明缺失": 1,
+    "有效压缩；备注有过时措辞": 3,
+    "有效纠错；审稿解释与公开稿分离": 1,
+    "约束满足；场景字幕创意较普通": 1,
+    "重复输入仍满足约束；稿件存在随机差异": 1
+  },
+  "stale_editorial_note_cases": [
+    "V02",
+    "V03",
+    "V07",
+    "V09",
+    "V11",
+    "V14",
+    "V15",
+    "V16",
+    "V19",
+    "V21",
+    "V25",
+    "V29",
+    "V30",
+    "V32",
+    "V45",
+    "V47",
+    "V49"
+  ],
+  "observed_hard_requirement_violation_cases": [],
+  "first_started_at": "2026-11-04T00:55:22.979207+00:00",
+  "last_finished_at": "2026-11-04T01:54:52.648842+00:00",
+  "rows": [
+    {
+      "case": "V01",
+      "started_at": "2026-11-04T00:55:22.979207+00:00",
+      "finished_at": "2026-11-04T00:58:29.119168+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V02",
+      "started_at": "2026-11-04T00:55:23.790588+00:00",
+      "finished_at": "2026-11-04T00:58:30.976348+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V03",
+      "started_at": "2026-11-04T00:59:02.501858+00:00",
+      "finished_at": "2026-11-04T01:02:55.676495+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V04",
+      "started_at": "2026-11-04T00:59:03.060451+00:00",
+      "finished_at": "2026-11-04T01:02:05.536211+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V05",
+      "started_at": "2026-11-04T01:02:10.702938+00:00",
+      "finished_at": "2026-11-04T01:05:43.812598+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V06",
+      "started_at": "2026-11-04T01:03:13.808699+00:00",
+      "finished_at": "2026-11-04T01:06:43.017804+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V07",
+      "started_at": "2026-11-04T01:05:50.179390+00:00",
+      "finished_at": "2026-11-04T01:09:17.065961+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V08",
+      "started_at": "2026-11-04T01:07:08.931782+00:00",
+      "finished_at": "2026-11-04T01:10:21.574626+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V09",
+      "started_at": "2026-11-04T01:09:49.308622+00:00",
+      "finished_at": "2026-11-04T01:12:54.637055+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V10",
+      "started_at": "2026-11-04T01:09:50.171026+00:00",
+      "finished_at": "2026-11-04T01:13:57.650631+00:00",
+      "actions": [
+        "search_materials",
+        "invalid_model_action",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 8
+    },
+    {
+      "case": "V11",
+      "started_at": "2026-11-04T01:09:51.129164+00:00",
+      "finished_at": "2026-11-04T01:13:32.189908+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V12",
+      "started_at": "2026-11-04T01:12:11.157629+00:00",
+      "finished_at": "2026-11-04T01:15:37.720078+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V13",
+      "started_at": "2026-11-04T01:13:23.373153+00:00",
+      "finished_at": "2026-11-04T01:16:15.505801+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V14",
+      "started_at": "2026-11-04T01:13:54.876988+00:00",
+      "finished_at": "2026-11-04T01:18:25.571012+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V15",
+      "started_at": "2026-11-04T01:15:03.028982+00:00",
+      "finished_at": "2026-11-04T01:19:21.194775+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V16",
+      "started_at": "2026-11-04T01:16:21.483620+00:00",
+      "finished_at": "2026-11-04T01:19:57.018359+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V17",
+      "started_at": "2026-11-04T01:16:22.477172+00:00",
+      "finished_at": "2026-11-04T01:20:01.185830+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V18",
+      "started_at": "2026-11-04T01:18:45.139652+00:00",
+      "finished_at": "2026-11-04T01:22:42.707167+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V19",
+      "started_at": "2026-11-04T01:20:11.857835+00:00",
+      "finished_at": "2026-11-04T01:23:50.269430+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V20",
+      "started_at": "2026-11-04T01:20:12.668283+00:00",
+      "finished_at": "2026-11-04T01:23:32.873567+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V21",
+      "started_at": "2026-11-04T01:20:13.758114+00:00",
+      "finished_at": "2026-11-04T01:30:02.523911+00:00",
+      "actions": [
+        "search_materials",
+        "invalid_model_action",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 14
+    },
+    {
+      "case": "V22",
+      "started_at": "2026-11-04T01:23:29.979593+00:00",
+      "finished_at": "2026-11-04T01:24:39.353572+00:00",
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "status": "needs_input",
+      "responses": 3
+    },
+    {
+      "case": "V23",
+      "started_at": "2026-11-04T01:24:35.760261+00:00",
+      "finished_at": "2026-11-04T01:27:59.337296+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V24",
+      "started_at": "2026-11-04T01:24:36.925046+00:00",
+      "finished_at": "2026-11-04T01:26:05.842198+00:00",
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "status": "needs_input",
+      "responses": 3
+    },
+    {
+      "case": "V25",
+      "started_at": "2026-11-04T01:25:49.761619+00:00",
+      "finished_at": "2026-11-04T01:29:50.012033+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V26",
+      "started_at": "2026-11-04T01:27:06.140871+00:00",
+      "finished_at": "2026-11-04T01:29:51.489531+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V27",
+      "started_at": "2026-11-04T01:28:27.840593+00:00",
+      "finished_at": "2026-11-04T01:31:43.053663+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V28",
+      "started_at": "2026-11-04T01:30:33.833487+00:00",
+      "finished_at": "2026-11-04T01:35:06.365047+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V29",
+      "started_at": "2026-11-04T01:30:34.819288+00:00",
+      "finished_at": "2026-11-04T01:36:03.069043+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V30",
+      "started_at": "2026-11-04T01:30:36.151440+00:00",
+      "finished_at": "2026-11-04T01:33:52.375215+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "search_materials",
+        "finish"
+      ],
+      "status": "needs_input",
+      "responses": 5
+    },
+    {
+      "case": "V31",
+      "started_at": "2026-11-04T01:32:14.424275+00:00",
+      "finished_at": "2026-11-04T01:36:36.199971+00:00",
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 8
+    },
+    {
+      "case": "V32",
+      "started_at": "2026-11-04T01:34:35.580795+00:00",
+      "finished_at": "2026-11-04T01:38:30.848473+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V33",
+      "started_at": "2026-11-04T01:35:50.787366+00:00",
+      "finished_at": "2026-11-04T01:37:11.295273+00:00",
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "status": "needs_input",
+      "responses": 3
+    },
+    {
+      "case": "V34",
+      "started_at": "2026-11-04T01:36:53.456800+00:00",
+      "finished_at": "2026-11-04T01:38:22.354899+00:00",
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "status": "needs_input",
+      "responses": 3
+    },
+    {
+      "case": "V35",
+      "started_at": "2026-11-04T01:36:54.450135+00:00",
+      "finished_at": "2026-11-04T01:38:21.722686+00:00",
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "status": "needs_input",
+      "responses": 3
+    },
+    {
+      "case": "V36",
+      "started_at": "2026-11-04T01:38:12.484352+00:00",
+      "finished_at": "2026-11-04T01:41:59.074416+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    },
+    {
+      "case": "V37",
+      "started_at": "2026-11-04T01:39:15.915204+00:00",
+      "finished_at": "2026-11-04T01:40:16.858064+00:00",
+      "actions": [
+        "search_materials",
+        "finish"
+      ],
+      "status": "needs_input",
+      "responses": 2
+    },
+    {
+      "case": "V38",
+      "started_at": "2026-11-04T01:39:16.731540+00:00",
+      "finished_at": "2026-11-04T01:40:25.569052+00:00",
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "status": "needs_input",
+      "responses": 3
+    },
+    {
+      "case": "V39",
+      "started_at": "2026-11-04T01:39:17.632266+00:00",
+      "finished_at": "2026-11-04T01:40:29.151998+00:00",
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "status": "needs_input",
+      "responses": 3
+    },
+    {
+      "case": "V40",
+      "started_at": "2026-11-04T01:40:24.728257+00:00",
+      "finished_at": "2026-11-04T01:41:15.627635+00:00",
+      "actions": [
+        "search_materials",
+        "finish"
+      ],
+      "status": "needs_input",
+      "responses": 2
+    },
+    {
+      "case": "V41",
+      "started_at": "2026-11-04T01:41:37.119502+00:00",
+      "finished_at": "2026-11-04T01:43:10.739514+00:00",
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "status": "needs_input",
+      "responses": 3
+    },
+    {
+      "case": "V42",
+      "started_at": "2026-11-04T01:41:38.119877+00:00",
+      "finished_at": "2026-11-04T01:42:38.918534+00:00",
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "status": "needs_input",
+      "responses": 3
+    },
+    {
+      "case": "V43",
+      "started_at": "2026-11-04T01:41:39.038245+00:00",
+      "finished_at": "2026-11-04T01:42:26.670322+00:00",
+      "actions": [
+        "search_materials",
+        "finish"
+      ],
+      "status": "needs_input",
+      "responses": 2
+    },
+    {
+      "case": "V44",
+      "started_at": "2026-11-04T01:42:47.130469+00:00",
+      "finished_at": "2026-11-04T01:44:06.246910+00:00",
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "status": "needs_input",
+      "responses": 3
+    },
+    {
+      "case": "V45",
+      "started_at": "2026-11-04T01:42:48.378388+00:00",
+      "finished_at": "2026-11-04T01:47:25.825837+00:00",
+      "actions": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 9
+    },
+    {
+      "case": "V46",
+      "started_at": "2026-11-04T01:42:49.556591+00:00",
+      "finished_at": "2026-11-04T01:51:47.908179+00:00",
+      "actions": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 14
+    },
+    {
+      "case": "V47",
+      "started_at": "2026-11-04T01:44:06.448525+00:00",
+      "finished_at": "2026-11-04T01:49:09.351681+00:00",
+      "actions": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 9
+    },
+    {
+      "case": "V48",
+      "started_at": "2026-11-04T01:45:29.749741+00:00",
+      "finished_at": "2026-11-04T01:52:22.272383+00:00",
+      "actions": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 9
+    },
+    {
+      "case": "V49",
+      "started_at": "2026-11-04T01:48:02.935971+00:00",
+      "finished_at": "2026-11-04T01:54:44.251886+00:00",
+      "actions": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 9
+    },
+    {
+      "case": "V50",
+      "started_at": "2026-11-04T01:49:43.588978+00:00",
+      "finished_at": "2026-11-04T01:54:52.648842+00:00",
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "status": "completed",
+      "responses": 7
+    }
+  ]
+}

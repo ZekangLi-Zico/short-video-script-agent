@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ar828uf5",
+  "started_at": "2026-11-03T21:09:24.981631+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:09:56.619134+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a33e-d166-7290-907b-f55c1db6a340",
+    "usage": {
+      "input_tokens": 26880,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 815,
+      "reasoning_output_tokens": 516
+    },
+    "call_id": "decision-ar828uf5",
+    "warnings": []
+  }
+}

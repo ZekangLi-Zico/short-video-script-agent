@@ -1,0 +1,30 @@
+{
+  "case": "T33",
+  "name": "风格未确定",
+  "run_id": "0d16943d79c94dfc8b7878f722d56630",
+  "status": "needs_input",
+  "message": "请补充关键字段：style",
+  "steps": 0,
+  "model_calls": 0,
+  "seconds": null,
+  "target_seconds": 20,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [],
+  "queries": [],
+  "observations": [],
+  "wall_seconds": 0.0,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "c769dab56130854f99c62e053dc6f77e8e975c88c6f0b1f19ccbbc4a6cd615b8",
+    "output.json": "0e742a0f4045511b36f470eab4d436a043704230dd5096738a2a2e2cef8debb7",
+    "trace.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "manifest.json": "136565776f41f3e19d304eb091eb2e5109fc4d8ba20b8185a011c643ce8e3614",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "71ecfd5b27fa742a8dd1eb15351be2dc2ab26a85df2309d9e5840c7cbc75a39a"
+  }
+}

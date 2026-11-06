@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-g3i86kvd",
+  "started_at": "2026-11-04T01:32:14.443785+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:32:34.063117+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a42f-7901-7ba1-b7f4-e99cec550a30",
+    "usage": {
+      "input_tokens": 27200,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 161,
+      "reasoning_output_tokens": 67
+    },
+    "call_id": "decision-g3i86kvd",
+    "warnings": []
+  }
+}

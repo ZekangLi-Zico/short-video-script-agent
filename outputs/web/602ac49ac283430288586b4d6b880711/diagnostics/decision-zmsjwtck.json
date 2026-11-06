@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-zmsjwtck",
+  "started_at": "2026-11-04T15:16:55.443615+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:17:22.525573+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a722-79b4-7561-bf92-6e2cb8b5dc0e",
+    "usage": {
+      "input_tokens": 36133,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 245,
+      "reasoning_output_tokens": 147
+    },
+    "call_id": "decision-zmsjwtck",
+    "warnings": []
+  }
+}

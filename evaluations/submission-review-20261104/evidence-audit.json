@@ -1,0 +1,576 @@
+{
+  "checked_at": "2026-11-03T16:16:54.384859+00:00",
+  "scope": "Deterministic replay, state binding, UI/input equivalence and acceptance observations; not semantic proof or remote-model authentication.",
+  "frozen_files_checked": 738,
+  "frozen_files_changed": [],
+  "runs_checked": 30,
+  "passed": true,
+  "runs": [
+    {
+      "run": "mock/normal",
+      "passed": true,
+      "errors": [],
+      "actual_status": "completed",
+      "steps": 6,
+      "model_responses": 7,
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "run": "mock/missing_information",
+      "passed": true,
+      "errors": [],
+      "actual_status": "needs_input",
+      "steps": 0,
+      "model_responses": 0,
+      "path": []
+    },
+    {
+      "run": "mock/no_material",
+      "passed": true,
+      "errors": [],
+      "actual_status": "needs_input",
+      "steps": 3,
+      "model_responses": 3,
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ]
+    },
+    {
+      "run": "mock/tool_failure",
+      "passed": true,
+      "errors": [],
+      "actual_status": "blocked",
+      "steps": 3,
+      "model_responses": 3,
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ]
+    },
+    {
+      "run": "mock/recoverable_failure",
+      "passed": true,
+      "errors": [],
+      "actual_status": "completed",
+      "steps": 7,
+      "model_responses": 8,
+      "path": [
+        "search_materials",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "run": "mock/over_duration",
+      "passed": true,
+      "errors": [],
+      "actual_status": "completed",
+      "steps": 7,
+      "model_responses": 8,
+      "path": [
+        "search_materials",
+        "estimate_duration",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "run": "mock/rule_revision",
+      "passed": true,
+      "errors": [],
+      "actual_status": "completed",
+      "steps": 8,
+      "model_responses": 9,
+      "path": [
+        "search_materials",
+        "estimate_duration",
+        "check_rules",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "run": "mock/impossible_duration",
+      "passed": true,
+      "errors": [],
+      "actual_status": "blocked",
+      "steps": 4,
+      "model_responses": 4,
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "finish"
+      ]
+    },
+    {
+      "run": "live-verified/normal",
+      "passed": true,
+      "errors": [],
+      "actual_status": "completed",
+      "steps": 6,
+      "model_responses": 7,
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "run": "live-verified/missing_information",
+      "passed": true,
+      "errors": [],
+      "actual_status": "needs_input",
+      "steps": 0,
+      "model_responses": 0,
+      "path": []
+    },
+    {
+      "run": "live-verified/no_material",
+      "passed": true,
+      "errors": [],
+      "actual_status": "needs_input",
+      "steps": 3,
+      "model_responses": 3,
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ]
+    },
+    {
+      "run": "live-verified/tool_failure",
+      "passed": true,
+      "errors": [],
+      "actual_status": "blocked",
+      "steps": 4,
+      "model_responses": 4,
+      "path": [
+        "search_materials",
+        "search_materials",
+        "search_materials",
+        "finish"
+      ]
+    },
+    {
+      "run": "live-verified/recoverable_failure",
+      "passed": true,
+      "errors": [],
+      "actual_status": "completed",
+      "steps": 7,
+      "model_responses": 8,
+      "path": [
+        "search_materials",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "run": "live-verified/over_duration",
+      "passed": true,
+      "errors": [],
+      "actual_status": "completed",
+      "steps": 8,
+      "model_responses": 9,
+      "path": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "run": "live-verified/rule_revision",
+      "passed": true,
+      "errors": [],
+      "actual_status": "completed",
+      "steps": 8,
+      "model_responses": 9,
+      "path": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "run": "live-verified/impossible_duration",
+      "passed": true,
+      "errors": [],
+      "actual_status": "blocked",
+      "steps": 1,
+      "model_responses": 1,
+      "path": [
+        "finish"
+      ]
+    },
+    {
+      "run": "ui/T02",
+      "passed": true,
+      "errors": [],
+      "actual_status": "needs_input",
+      "steps": 2,
+      "model_responses": 2,
+      "path": [
+        "search_materials",
+        "finish"
+      ]
+    },
+    {
+      "run": "ui/T28",
+      "passed": true,
+      "errors": [],
+      "actual_status": "needs_input",
+      "steps": 3,
+      "model_responses": 3,
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ]
+    },
+    {
+      "run": "ui/T43",
+      "passed": true,
+      "errors": [],
+      "actual_status": "blocked",
+      "steps": 8,
+      "model_responses": 9,
+      "path": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "run": "mock-final/normal",
+      "passed": true,
+      "errors": [],
+      "actual_status": "completed",
+      "steps": 6,
+      "model_responses": 7,
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "run": "mock-final/missing_information",
+      "passed": true,
+      "errors": [],
+      "actual_status": "needs_input",
+      "steps": 0,
+      "model_responses": 0,
+      "path": []
+    },
+    {
+      "run": "mock-final/no_material",
+      "passed": true,
+      "errors": [],
+      "actual_status": "needs_input",
+      "steps": 3,
+      "model_responses": 3,
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ]
+    },
+    {
+      "run": "mock-final/tool_failure",
+      "passed": true,
+      "errors": [],
+      "actual_status": "blocked",
+      "steps": 3,
+      "model_responses": 3,
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ]
+    },
+    {
+      "run": "mock-final/recoverable_failure",
+      "passed": true,
+      "errors": [],
+      "actual_status": "completed",
+      "steps": 7,
+      "model_responses": 8,
+      "path": [
+        "search_materials",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "run": "mock-final/over_duration",
+      "passed": true,
+      "errors": [],
+      "actual_status": "completed",
+      "steps": 7,
+      "model_responses": 8,
+      "path": [
+        "search_materials",
+        "estimate_duration",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "run": "mock-final/rule_revision",
+      "passed": true,
+      "errors": [],
+      "actual_status": "completed",
+      "steps": 8,
+      "model_responses": 9,
+      "path": [
+        "search_materials",
+        "estimate_duration",
+        "check_rules",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "run": "mock-final/impossible_duration",
+      "passed": true,
+      "errors": [],
+      "actual_status": "blocked",
+      "steps": 4,
+      "model_responses": 4,
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "finish"
+      ]
+    },
+    {
+      "run": "live-final/normal",
+      "passed": true,
+      "errors": [],
+      "actual_status": "completed",
+      "steps": 6,
+      "model_responses": 7,
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "run": "live-final/over_duration",
+      "passed": true,
+      "errors": [],
+      "actual_status": "completed",
+      "steps": 8,
+      "model_responses": 9,
+      "path": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "run": "ui-final/T43",
+      "passed": true,
+      "errors": [],
+      "actual_status": "completed",
+      "steps": 8,
+      "model_responses": 9,
+      "path": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "check_rules",
+        "estimate_duration",
+        "check_requirements",
+        "finish"
+      ]
+    }
+  ],
+  "ui_comparisons": [
+    {
+      "case": "T02",
+      "group": "ui",
+      "before_status": "completed",
+      "after_status": "needs_input",
+      "before_message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "after_message": "已找到添加字幕和手动编辑字幕文字的功能依据。当前模板无法指定“校园采访花絮”作为背景，需要项目维护者补充允许使用的对应画面描述，才能完整满足要求。脚本尚未生成，时长、规则和需求检查均未完成。",
+      "requirements_review_executed": false,
+      "note": "States are actual outputs, not a business pass-rate label."
+    },
+    {
+      "case": "T28",
+      "group": "ui",
+      "before_status": "completed",
+      "after_status": "needs_input",
+      "before_message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "after_message": "已找到添加字幕、手动编辑字幕的功能资料，但“播放量涨了30%”缺少可引用依据，完整脚本尚未完成。请将客户原始反馈、引用授权及前后播放量统计交给项目维护者补充；或确认删去增长说法，仅介绍字幕编辑功能。",
+      "requirements_review_executed": false,
+      "note": "States are actual outputs, not a business pass-rate label."
+    },
+    {
+      "case": "T43",
+      "group": "ui",
+      "before_status": "completed",
+      "after_status": "blocked",
+      "before_message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "after_message": "已保留旧稿三段结构，将“自动识别语音并生成字幕”替换为资料支持的“为视频添加字幕”，保留有来源的手动编辑功能，并缩短镜头停留；估算时长由28秒降至13秒。时长和规则检查已通过，但需求审核仍未通过，不能标记全部完成。请项目维护者解决审核无法核对已有功能资料的问题，再重新审核。",
+      "requirements_review_executed": true,
+      "note": "States are actual outputs, not a business pass-rate label."
+    },
+    {
+      "case": "T43",
+      "group": "ui-final",
+      "before_status": "completed",
+      "after_status": "completed",
+      "before_message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "after_message": "已完成旧稿审核与修改，保留原标题和三镜头结构。将未经确认的“自动识别语音并生成字幕”替换为已核实的添加字幕功能，保留手动编辑字幕功能。镜头停留由8/8/12秒缩短为4/5/4秒，当前估算13秒，符合25秒上限；规则与需求检查均通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+      "requirements_review_executed": true,
+      "note": "States are actual outputs, not a business pass-rate label."
+    }
+  ],
+  "startup_attempt_reassessment": [
+    {
+      "case": "normal",
+      "actual_status": "blocked",
+      "passed_after_reassessment": false,
+      "errors": [
+        "模型调用失败不能替代业务场景验收证据",
+        "status=blocked, expected one of ['completed']"
+      ],
+      "model_responses": 0
+    },
+    {
+      "case": "missing_information",
+      "actual_status": "needs_input",
+      "passed_after_reassessment": true,
+      "errors": [],
+      "model_responses": 0
+    },
+    {
+      "case": "no_material",
+      "actual_status": "blocked",
+      "passed_after_reassessment": false,
+      "errors": [
+        "模型调用失败不能替代业务场景验收证据",
+        "缺少实际空检索结果"
+      ],
+      "model_responses": 0
+    },
+    {
+      "case": "tool_failure",
+      "actual_status": "blocked",
+      "passed_after_reassessment": false,
+      "errors": [
+        "模型调用失败不能替代业务场景验收证据",
+        "没有实际触发注入故障"
+      ],
+      "model_responses": 0
+    },
+    {
+      "case": "recoverable_failure",
+      "actual_status": "blocked",
+      "passed_after_reassessment": false,
+      "errors": [
+        "模型调用失败不能替代业务场景验收证据",
+        "status=blocked, expected one of ['completed']",
+        "没有实际触发注入故障"
+      ],
+      "model_responses": 0
+    },
+    {
+      "case": "over_duration",
+      "actual_status": "blocked",
+      "passed_after_reassessment": false,
+      "errors": [
+        "模型调用失败不能替代业务场景验收证据",
+        "status=blocked, expected one of ['completed']"
+      ],
+      "model_responses": 0
+    },
+    {
+      "case": "rule_revision",
+      "actual_status": "blocked",
+      "passed_after_reassessment": false,
+      "errors": [
+        "模型调用失败不能替代业务场景验收证据",
+        "status=blocked, expected one of ['completed']"
+      ],
+      "model_responses": 0
+    },
+    {
+      "case": "impossible_duration",
+      "actual_status": "blocked",
+      "passed_after_reassessment": false,
+      "errors": [
+        "模型调用失败不能替代业务场景验收证据"
+      ],
+      "model_responses": 0
+    }
+  ]
+}

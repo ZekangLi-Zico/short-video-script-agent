@@ -1,0 +1,1475 @@
+{
+  "status": "completed",
+  "message": "已完成六镜头脚本，覆盖字幕添加与手动改字，以手写练习本和手机背面呈现，使用适合初学长者的耐心短句，无一键完成承诺或网络用语。现稿无需删改。估算37.1秒，符合36—40秒要求；规则及需求审核均通过，实际成片时长仍以拍摄为准。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "加字幕、改文字，咱们慢慢学",
+    "shots": [
+      {
+        "visual": "俯拍桌面。手翻开手写练习本，手机背面朝上放在旁边。纸上写着“加字幕”“改文字”。文字块均作旁白。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "第一次剪视频，先别着急。今天只练加字幕、改文字。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "练习本近景，手机保持背面朝上。手写下“今天去公圆散步”，其中“圆”是供后续纠正的练习错字。两段文字依次口播，不另设事实卡。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          },
+          {
+            "text": "先在本子上写一句：今天去公园散步。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "手指沿着练习本上的句子慢慢移动，最后停在“公圆”处。手机背面仍在画面边缘。文字作旁白。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "写好以后，慢慢读一遍。看看是不是自己想说的话。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "手拿起笔，在练习本的“圆”字下画一道短线，准备修改。手机背面朝上，不展示软件界面。两段文字依次口播。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          },
+          {
+            "text": "咱们先在纸上练习改一个字。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "练习本特写。划去错写的“圆”，在上方清楚写下“园”。手指再从句首逐字移到句尾。这是纸面改字练习，手机背面留在画面内。文字作旁白。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "把本子上的“公圆”改成“公园”。再从头读一遍，看看还有没有错字。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "镜头稍拉远，呈现改好的手写句子和背面朝上的手机。手将笔放在练习本旁。文字作旁白。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "先写一句，再检查文字。一次练一点，慢慢就熟悉了。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "f6d2ed2bb518a21c53120e9f258a2a412e31ac476dbede6be580ff5bbf54091d",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 20,
+        "estimated_seconds": 5.5
+      },
+      {
+        "shot": 2,
+        "speech_units": 29,
+        "estimated_seconds": 7.8
+      },
+      {
+        "shot": 3,
+        "speech_units": 20,
+        "estimated_seconds": 5.5
+      },
+      {
+        "shot": 4,
+        "speech_units": 22,
+        "estimated_seconds": 6
+      },
+      {
+        "shot": 5,
+        "speech_units": 25,
+        "estimated_seconds": 6.8
+      },
+      {
+        "shot": 6,
+        "speech_units": 20,
+        "estimated_seconds": 5.5
+      }
+    ],
+    "total_seconds": 37.1,
+    "target_seconds": 40,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true,
+    "duration_mode": "target",
+    "min_seconds": 36,
+    "max_seconds": 40,
+    "issue": null
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "f6d2ed2bb518a21c53120e9f258a2a412e31ac476dbede6be580ff5bbf54091d",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:4/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "加字幕、改文字，咱们慢慢学"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "俯拍桌面。手翻开手写练习本，手机背面朝上放在旁边。纸上写着“加字幕”“改文字”。文字块均作旁白。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "第一次剪视频，先别着急。今天只练加字幕、改文字。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "练习本近景，手机保持背面朝上。手写下“今天去公圆散步”，其中“圆”是供后续纠正的练习错字。两段文字依次口播，不另设事实卡。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "先在本子上写一句：今天去公园散步。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "手指沿着练习本上的句子慢慢移动，最后停在“公圆”处。手机背面仍在画面边缘。文字作旁白。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "写好以后，慢慢读一遍。看看是不是自己想说的话。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "手拿起笔，在练习本的“圆”字下画一道短线，准备修改。手机背面朝上，不展示软件界面。两段文字依次口播。"
+      },
+      {
+        "location": "shot:4/block:2",
+        "text": "咱们先在纸上练习改一个字。"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "练习本特写。划去错写的“圆”，在上方清楚写下“园”。手指再从句首逐字移到句尾。这是纸面改字练习，手机背面留在画面内。文字作旁白。"
+      },
+      {
+        "location": "shot:5/block:1",
+        "text": "把本子上的“公圆”改成“公园”。再从头读一遍，看看还有没有错字。"
+      },
+      {
+        "location": "shot:6/visual",
+        "text": "镜头稍拉远，呈现改好的手写句子和背面朝上的手机。手将笔放在练习本旁。文字作旁白。"
+      },
+      {
+        "location": "shot:6/block:1",
+        "text": "先写一句，再检查文字。一次练一点，慢慢就熟悉了。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "f6d2ed2bb518a21c53120e9f258a2a412e31ac476dbede6be580ff5bbf54091d",
+    "request_hash": "5d5f844deb8a130965b069c67d1de997138a045e7ec49210ef6cb066698c7050",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "字幕添加",
+        "verdict": "met",
+        "evidence": "镜头2明确介绍“剪影练习版支持为视频添加字幕。”，rules_check已核对P01.F1。"
+      },
+      {
+        "field": "topic",
+        "requirement": "手动改字",
+        "verdict": "met",
+        "evidence": "镜头4明确说明“字幕文字可以手动编辑。”，由P01.F2支持；镜头5用纸面改字练习辅助说明。"
+      },
+      {
+        "field": "topic",
+        "requirement": "给第一次剪视频的长者看",
+        "verdict": "met",
+        "evidence": "镜头1以“第一次剪视频，先别着急”开场；后续围绕一句话逐步检查、改字，没有要求已有剪辑经验。"
+      },
+      {
+        "field": "topic",
+        "requirement": "手写练习本",
+        "verdict": "met",
+        "evidence": "镜头1翻开手写练习本，镜头2写句子，镜头3至5检查并修改，镜头6展示练习结果。"
+      },
+      {
+        "field": "topic",
+        "requirement": "手机背面",
+        "verdict": "met",
+        "evidence": "六个镜头均明确保留手机背面；镜头4还说明“手机背面朝上，不展示软件界面”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不假设能一键自动完成",
+        "verdict": "met",
+        "evidence": "全文没有一键或自动完成承诺；镜头4明确讲“手动编辑”，镜头5明确是纸面练习。"
+      },
+      {
+        "field": "topic",
+        "requirement": "避免年轻人网络用语",
+        "verdict": "met",
+        "evidence": "全文使用“先别着急”“慢慢读一遍”“咱们先在纸上练习”等日常表达，没有网络流行语。"
+      },
+      {
+        "field": "audience",
+        "requirement": "社区手机课堂学员",
+        "verdict": "met",
+        "evidence": "镜头2至5采用写一句、检查、改一个字、复查的练习安排，适合社区手机课堂初学者跟随理解。"
+      },
+      {
+        "field": "platform",
+        "requirement": "视频号",
+        "verdict": "met",
+        "evidence": "标题直接点明学习内容，六镜围绕单一练习展开，旁白配合清楚的纸面近景，适合视频号知识讲解。"
+      },
+      {
+        "field": "style",
+        "requirement": "耐心",
+        "verdict": "met",
+        "evidence": "镜头1“先别着急”、镜头3“慢慢读一遍”、镜头6“一次练一点”均体现耐心引导。"
+      },
+      {
+        "field": "style",
+        "requirement": "短句",
+        "verdict": "met",
+        "evidence": "旁白以短句分步表达，如镜头3“写好以后，慢慢读一遍。看看是不是自己想说的话。”"
+      },
+      {
+        "field": "style",
+        "requirement": "无术语",
+        "verdict": "met",
+        "evidence": "旁白使用“写一句”“改一个字”“检查文字”等常用词；除需求本身涉及的字幕和编辑概念外，没有引入专业剪辑术语。"
+      }
+    ],
+    "summary": "需求均已落实：两项功能都有资料支持，画面使用练习本和手机背面，表达适合初学长者，没有一键自动完成承诺或网络用语。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "加字幕、改文字，咱们慢慢学",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          },
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ],
+        "evidence": "标题涉及的添加字幕与修改字幕文字均有资料支持；“咱们慢慢学”是学习邀请，没有额外效果承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "俯拍桌面。手翻开手写练习本，手机背面朝上放在旁边。纸上写着“加字幕”“改文字”。文字块均作旁白。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "描述桌面构图、翻本子和纸上学习主题，没有展示产品界面或宣称操作流程。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "第一次剪视频，先别着急。今天只练加字幕、改文字。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          },
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ],
+        "evidence": "涉及的两项功能均由资料支持；其余文字是安抚和本次学习范围说明，没有自动化或学习效率承诺。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "练习本近景，手机保持背面朝上。手写下“今天去公圆散步”，其中“圆”是供后续纠正的练习错字。两段文字依次口播，不另设事实卡。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "明确安排纸面错字练习和口播形式，没有把手写过程描述为产品功能。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "先在本子上写一句：今天去公园散步。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "是本子上的练习指令和例句，不包含产品能力声明。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "手指沿着练习本上的句子慢慢移动，最后停在“公圆”处。手机背面仍在画面边缘。文字作旁白。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "仅安排手指检查纸面句子的动作，没有暗示软件自动识别错字。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "写好以后，慢慢读一遍。看看是不是自己想说的话。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "是人工阅读与检查的建议，不涉及产品性能或承诺。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "手拿起笔，在练习本的“圆”字下画一道短线，准备修改。手机背面朝上，不展示软件界面。两段文字依次口播。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "明确使用纸笔标记错字，没有虚构产品按钮、界面或操作步骤。"
+      },
+      {
+        "location": "shot:4/block:2",
+        "text": "咱们先在纸上练习改一个字。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "明确邀请进行纸面练习，不是产品操作或效果声明。"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "练习本特写。划去错写的“圆”，在上方清楚写下“园”。手指再从句首逐字移到句尾。这是纸面改字练习，手机背面留在画面内。文字作旁白。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "全过程明确限定在纸面，展示人工改字和复查，没有冒充软件工作流。"
+      },
+      {
+        "location": "shot:5/block:1",
+        "text": "把本子上的“公圆”改成“公园”。再从头读一遍，看看还有没有错字。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "明确要求修改本子上的文字并人工复查，没有声称产品自动纠错。"
+      },
+      {
+        "location": "shot:6/visual",
+        "text": "镜头稍拉远，呈现改好的手写句子和背面朝上的手机。手将笔放在练习本旁。文字作旁白。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "是展示纸面练习结果和放笔动作的拍摄安排，不含产品声明。"
+      },
+      {
+        "location": "shot:6/block:1",
+        "text": "先写一句，再检查文字。一次练一点，慢慢就熟悉了。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "概括练习顺序并给予一般学习鼓励，没有承诺具体学习时限、产品效率或自动化效果。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "六镜hold_seconds均为0，没有额外空停留。镜头1翻本子并引入主题，镜头2写例句，镜头3逐字检查，镜头4标记错字，镜头5改字并复查，镜头6展示结果并放笔，均有对应旁白和画面任务。镜头3与5分别检查修改前后文字，没有重复产品事实凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "arguments": {
+        "query": "demo-editor 添加字幕 手动修改字幕文字 功能说明",
+        "product_id": "demo-editor"
+      },
+      "decision_basis": "需要查找字幕添加与手动改字两项功能的可引用事实。",
+      "observation": {
+        "ok": true,
+        "query": "demo-editor 添加字幕 手动修改字幕文字 功能说明",
+        "product_id": "demo-editor",
+        "materials": [
+          {
+            "id": "P01",
+            "product_id": "demo-editor",
+            "title": "字幕功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "字幕",
+              "口播",
+              "文字",
+              "caption",
+              "subtitle"
+            ],
+            "facts": [
+              {
+                "id": "P01.F1",
+                "text": "剪影练习版支持为视频添加字幕。"
+              },
+              {
+                "id": "P01.F2",
+                "text": "字幕文字可以手动编辑。"
+              }
+            ]
+          },
+          {
+            "id": "P02",
+            "product_id": "demo-editor",
+            "title": "剪辑功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "剪辑",
+              "裁剪",
+              "片段",
+              "trim",
+              "edit"
+            ],
+            "facts": [
+              {
+                "id": "P02.F1",
+                "text": "剪影练习版支持裁剪视频片段。"
+              }
+            ]
+          }
+        ],
+        "count": 2
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a294-4cb1-77b0-9a59-0beef5d2721e",
+        "usage": {
+          "input_tokens": 27046,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 143,
+          "reasoning_output_tokens": 76
+        }
+      },
+      "elapsed_ms": 24375
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "arguments": {
+        "script": {
+          "title": "加字幕、改文字，咱们慢慢学",
+          "shots": [
+            {
+              "visual": "俯拍桌面。手翻开手写练习本，手机背面朝上放在旁边。纸上写着“加字幕”“改文字”。文字块均作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "第一次剪视频，先别着急。今天只练加字幕、改文字。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "练习本近景，手机保持背面朝上。手写下“今天去公圆散步”，其中“圆”是供后续纠正的练习错字。两段文字依次口播，不另设事实卡。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                },
+                {
+                  "text": "先在本子上写一句：今天去公园散步。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "手指沿着练习本上的句子慢慢移动，最后停在“公圆”处。手机背面仍在画面边缘。文字作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "写好以后，慢慢读一遍。看看是不是自己想说的话。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "手拿起笔，在练习本的“圆”字下画一道短线，准备修改。手机背面朝上，不展示软件界面。两段文字依次口播。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                },
+                {
+                  "text": "咱们先在纸上练习改一个字。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "练习本特写。划去错写的“圆”，在上方清楚写下“园”。手指再从句首逐字移到句尾。这是纸面改字练习，手机背面留在画面内。文字作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "把本子上的“公圆”改成“公园”。再从头读一遍，看看还有没有错字。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "镜头稍拉远，呈现改好的手写句子和背面朝上的手机。手将笔放在练习本旁。文字作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "先写一句，再检查文字。一次练一点，慢慢就熟悉了。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision_basis": "已找到添加字幕与手动改字的事实，编排练习本和手机背面的入门分镜。",
+      "observation": {
+        "ok": true,
+        "script_hash": "f6d2ed2bb518a21c53120e9f258a2a412e31ac476dbede6be580ff5bbf54091d",
+        "revision": {
+          "before_hash": null,
+          "after_hash": "f6d2ed2bb518a21c53120e9f258a2a412e31ac476dbede6be580ff5bbf54091d",
+          "changed_fields": [
+            "script:new"
+          ],
+          "unchanged_shots": 0,
+          "unchanged_blocks": 0,
+          "feedback": [],
+          "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+        },
+        "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a294-aa0a-75d3-a5c9-a06af3f01372",
+        "usage": {
+          "input_tokens": 27536,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2179,
+          "reasoning_output_tokens": 1353
+        }
+      },
+      "elapsed_ms": 75344
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "加字幕、改文字，咱们慢慢学",
+          "shots": [
+            {
+              "visual": "俯拍桌面。手翻开手写练习本，手机背面朝上放在旁边。纸上写着“加字幕”“改文字”。文字块均作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "第一次剪视频，先别着急。今天只练加字幕、改文字。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "练习本近景，手机保持背面朝上。手写下“今天去公圆散步”，其中“圆”是供后续纠正的练习错字。两段文字依次口播，不另设事实卡。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                },
+                {
+                  "text": "先在本子上写一句：今天去公园散步。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "手指沿着练习本上的句子慢慢移动，最后停在“公圆”处。手机背面仍在画面边缘。文字作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "写好以后，慢慢读一遍。看看是不是自己想说的话。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "手拿起笔，在练习本的“圆”字下画一道短线，准备修改。手机背面朝上，不展示软件界面。两段文字依次口播。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                },
+                {
+                  "text": "咱们先在纸上练习改一个字。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "练习本特写。划去错写的“圆”，在上方清楚写下“园”。手指再从句首逐字移到句尾。这是纸面改字练习，手机背面留在画面内。文字作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "把本子上的“公圆”改成“公园”。再从头读一遍，看看还有没有错字。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "镜头稍拉远，呈现改好的手写句子和背面朝上的手机。手将笔放在练习本旁。文字作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "先写一句，再检查文字。一次练一点，慢慢就熟悉了。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "target_seconds": 40,
+        "duration_mode": "target"
+      },
+      "decision_basis": "当前稿尚未估时，需确认是否达到40秒目标要求的36至40秒。",
+      "observation": {
+        "ok": true,
+        "script_hash": "f6d2ed2bb518a21c53120e9f258a2a412e31ac476dbede6be580ff5bbf54091d",
+        "shots": [
+          {
+            "shot": 1,
+            "speech_units": 20,
+            "estimated_seconds": 5.5
+          },
+          {
+            "shot": 2,
+            "speech_units": 29,
+            "estimated_seconds": 7.8
+          },
+          {
+            "shot": 3,
+            "speech_units": 20,
+            "estimated_seconds": 5.5
+          },
+          {
+            "shot": 4,
+            "speech_units": 22,
+            "estimated_seconds": 6
+          },
+          {
+            "shot": 5,
+            "speech_units": 25,
+            "estimated_seconds": 6.8
+          },
+          {
+            "shot": 6,
+            "speech_units": 20,
+            "estimated_seconds": 5.5
+          }
+        ],
+        "total_seconds": 37.1,
+        "target_seconds": 40,
+        "passed": true,
+        "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+        "is_estimate": true,
+        "duration_mode": "target",
+        "min_seconds": 36,
+        "max_seconds": 40,
+        "issue": null
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a295-d0d6-7b22-9740-7b0cfeed1839",
+        "usage": {
+          "input_tokens": 29072,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 181,
+          "reasoning_output_tokens": 125
+        }
+      },
+      "elapsed_ms": 24234
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "arguments": {
+        "script": {
+          "title": "加字幕、改文字，咱们慢慢学",
+          "shots": [
+            {
+              "visual": "俯拍桌面。手翻开手写练习本，手机背面朝上放在旁边。纸上写着“加字幕”“改文字”。文字块均作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "第一次剪视频，先别着急。今天只练加字幕、改文字。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "练习本近景，手机保持背面朝上。手写下“今天去公圆散步”，其中“圆”是供后续纠正的练习错字。两段文字依次口播，不另设事实卡。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                },
+                {
+                  "text": "先在本子上写一句：今天去公园散步。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "手指沿着练习本上的句子慢慢移动，最后停在“公圆”处。手机背面仍在画面边缘。文字作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "写好以后，慢慢读一遍。看看是不是自己想说的话。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "手拿起笔，在练习本的“圆”字下画一道短线，准备修改。手机背面朝上，不展示软件界面。两段文字依次口播。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                },
+                {
+                  "text": "咱们先在纸上练习改一个字。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "练习本特写。划去错写的“圆”，在上方清楚写下“园”。手指再从句首逐字移到句尾。这是纸面改字练习，手机背面留在画面内。文字作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "把本子上的“公圆”改成“公园”。再从头读一遍，看看还有没有错字。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "镜头稍拉远，呈现改好的手写句子和背面朝上的手机。手将笔放在练习本旁。文字作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "先写一句，再检查文字。一次练一点，慢慢就熟悉了。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "retrieved_ids": [
+          "P01",
+          "P02"
+        ],
+        "expression_mode": "creative"
+      },
+      "decision_basis": "当前稿估时37.1秒已达标，尚需核对事实引用和公开表达规则。",
+      "observation": {
+        "ok": true,
+        "script_hash": "f6d2ed2bb518a21c53120e9f258a2a412e31ac476dbede6be580ff5bbf54091d",
+        "passed": true,
+        "issues": [],
+        "citations": [
+          {
+            "location": "shot:2/block:1",
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "location": "shot:4/block:1",
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          }
+        ],
+        "rules_version": "2026-11-03-v1",
+        "requires_expression_review": true,
+        "expression_slots": [
+          {
+            "location": "title",
+            "text": "加字幕、改文字，咱们慢慢学"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "俯拍桌面。手翻开手写练习本，手机背面朝上放在旁边。纸上写着“加字幕”“改文字”。文字块均作旁白。"
+          },
+          {
+            "location": "shot:1/block:1",
+            "text": "第一次剪视频，先别着急。今天只练加字幕、改文字。"
+          },
+          {
+            "location": "shot:2/visual",
+            "text": "练习本近景，手机保持背面朝上。手写下“今天去公圆散步”，其中“圆”是供后续纠正的练习错字。两段文字依次口播，不另设事实卡。"
+          },
+          {
+            "location": "shot:2/block:2",
+            "text": "先在本子上写一句：今天去公园散步。"
+          },
+          {
+            "location": "shot:3/visual",
+            "text": "手指沿着练习本上的句子慢慢移动，最后停在“公圆”处。手机背面仍在画面边缘。文字作旁白。"
+          },
+          {
+            "location": "shot:3/block:1",
+            "text": "写好以后，慢慢读一遍。看看是不是自己想说的话。"
+          },
+          {
+            "location": "shot:4/visual",
+            "text": "手拿起笔，在练习本的“圆”字下画一道短线，准备修改。手机背面朝上，不展示软件界面。两段文字依次口播。"
+          },
+          {
+            "location": "shot:4/block:2",
+            "text": "咱们先在纸上练习改一个字。"
+          },
+          {
+            "location": "shot:5/visual",
+            "text": "练习本特写。划去错写的“圆”，在上方清楚写下“园”。手指再从句首逐字移到句尾。这是纸面改字练习，手机背面留在画面内。文字作旁白。"
+          },
+          {
+            "location": "shot:5/block:1",
+            "text": "把本子上的“公圆”改成“公园”。再从头读一遍，看看还有没有错字。"
+          },
+          {
+            "location": "shot:6/visual",
+            "text": "镜头稍拉远，呈现改好的手写句子和背面朝上的手机。手将笔放在练习本旁。文字作旁白。"
+          },
+          {
+            "location": "shot:6/block:1",
+            "text": "先写一句，再检查文字。一次练一点，慢慢就熟悉了。"
+          }
+        ],
+        "available_facts": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1",
+            "quote": "剪影练习版支持裁剪视频片段。",
+            "version": "2026-11-01"
+          }
+        ],
+        "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a296-2ea3-7111-8dac-9072209b5afd",
+        "usage": {
+          "input_tokens": 30350,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 100,
+          "reasoning_output_tokens": 42
+        }
+      },
+      "elapsed_ms": 17203
+    },
+    {
+      "step": 5,
+      "action": "check_requirements",
+      "arguments": {
+        "script": {
+          "title": "加字幕、改文字，咱们慢慢学",
+          "shots": [
+            {
+              "visual": "俯拍桌面。手翻开手写练习本，手机背面朝上放在旁边。纸上写着“加字幕”“改文字”。文字块均作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "第一次剪视频，先别着急。今天只练加字幕、改文字。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "练习本近景，手机保持背面朝上。手写下“今天去公圆散步”，其中“圆”是供后续纠正的练习错字。两段文字依次口播，不另设事实卡。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                },
+                {
+                  "text": "先在本子上写一句：今天去公园散步。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "手指沿着练习本上的句子慢慢移动，最后停在“公圆”处。手机背面仍在画面边缘。文字作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "写好以后，慢慢读一遍。看看是不是自己想说的话。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "手拿起笔，在练习本的“圆”字下画一道短线，准备修改。手机背面朝上，不展示软件界面。两段文字依次口播。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                },
+                {
+                  "text": "咱们先在纸上练习改一个字。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "练习本特写。划去错写的“圆”，在上方清楚写下“园”。手指再从句首逐字移到句尾。这是纸面改字练习，手机背面留在画面内。文字作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "把本子上的“公圆”改成“公园”。再从头读一遍，看看还有没有错字。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "镜头稍拉远，呈现改好的手写句子和背面朝上的手机。手将笔放在练习本旁。文字作旁白。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "先写一句，再检查文字。一次练一点，慢慢就熟悉了。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "request": {
+          "topic": "介绍字幕添加与手动改字，给第一次剪视频的长者看。用手写练习本和手机背面作画面，不假设能一键自动完成，避免年轻人网络用语。",
+          "audience": "社区手机课堂学员",
+          "platform": "视频号",
+          "style": "耐心，短句，无术语",
+          "product_id": "demo-editor",
+          "duration_mode": "target",
+          "expression_mode": "creative",
+          "target_seconds": 40
+        },
+        "rules_check": {
+          "ok": true,
+          "script_hash": "f6d2ed2bb518a21c53120e9f258a2a412e31ac476dbede6be580ff5bbf54091d",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:2/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:4/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "加字幕、改文字，咱们慢慢学"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "俯拍桌面。手翻开手写练习本，手机背面朝上放在旁边。纸上写着“加字幕”“改文字”。文字块均作旁白。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "第一次剪视频，先别着急。今天只练加字幕、改文字。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "练习本近景，手机保持背面朝上。手写下“今天去公圆散步”，其中“圆”是供后续纠正的练习错字。两段文字依次口播，不另设事实卡。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "先在本子上写一句：今天去公园散步。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "手指沿着练习本上的句子慢慢移动，最后停在“公圆”处。手机背面仍在画面边缘。文字作旁白。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "写好以后，慢慢读一遍。看看是不是自己想说的话。"
+            },
+            {
+              "location": "shot:4/visual",
+              "text": "手拿起笔，在练习本的“圆”字下画一道短线，准备修改。手机背面朝上，不展示软件界面。两段文字依次口播。"
+            },
+            {
+              "location": "shot:4/block:2",
+              "text": "咱们先在纸上练习改一个字。"
+            },
+            {
+              "location": "shot:5/visual",
+              "text": "练习本特写。划去错写的“圆”，在上方清楚写下“园”。手指再从句首逐字移到句尾。这是纸面改字练习，手机背面留在画面内。文字作旁白。"
+            },
+            {
+              "location": "shot:5/block:1",
+              "text": "把本子上的“公圆”改成“公园”。再从头读一遍，看看还有没有错字。"
+            },
+            {
+              "location": "shot:6/visual",
+              "text": "镜头稍拉远，呈现改好的手写句子和背面朝上的手机。手将笔放在练习本旁。文字作旁白。"
+            },
+            {
+              "location": "shot:6/block:1",
+              "text": "先写一句，再检查文字。一次练一点，慢慢就熟悉了。"
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+        }
+      },
+      "decision_basis": "当前稿估时37.1秒且规则检查通过，尚需核对需求覆盖和原创表达。",
+      "observation": {
+        "ok": true,
+        "script_hash": "f6d2ed2bb518a21c53120e9f258a2a412e31ac476dbede6be580ff5bbf54091d",
+        "request_hash": "5d5f844deb8a130965b069c67d1de997138a045e7ec49210ef6cb066698c7050",
+        "passed": true,
+        "items": [
+          {
+            "field": "topic",
+            "requirement": "字幕添加",
+            "verdict": "met",
+            "evidence": "镜头2明确介绍“剪影练习版支持为视频添加字幕。”，rules_check已核对P01.F1。"
+          },
+          {
+            "field": "topic",
+            "requirement": "手动改字",
+            "verdict": "met",
+            "evidence": "镜头4明确说明“字幕文字可以手动编辑。”，由P01.F2支持；镜头5用纸面改字练习辅助说明。"
+          },
+          {
+            "field": "topic",
+            "requirement": "给第一次剪视频的长者看",
+            "verdict": "met",
+            "evidence": "镜头1以“第一次剪视频，先别着急”开场；后续围绕一句话逐步检查、改字，没有要求已有剪辑经验。"
+          },
+          {
+            "field": "topic",
+            "requirement": "手写练习本",
+            "verdict": "met",
+            "evidence": "镜头1翻开手写练习本，镜头2写句子，镜头3至5检查并修改，镜头6展示练习结果。"
+          },
+          {
+            "field": "topic",
+            "requirement": "手机背面",
+            "verdict": "met",
+            "evidence": "六个镜头均明确保留手机背面；镜头4还说明“手机背面朝上，不展示软件界面”。"
+          },
+          {
+            "field": "topic",
+            "requirement": "不假设能一键自动完成",
+            "verdict": "met",
+            "evidence": "全文没有一键或自动完成承诺；镜头4明确讲“手动编辑”，镜头5明确是纸面练习。"
+          },
+          {
+            "field": "topic",
+            "requirement": "避免年轻人网络用语",
+            "verdict": "met",
+            "evidence": "全文使用“先别着急”“慢慢读一遍”“咱们先在纸上练习”等日常表达，没有网络流行语。"
+          },
+          {
+            "field": "audience",
+            "requirement": "社区手机课堂学员",
+            "verdict": "met",
+            "evidence": "镜头2至5采用写一句、检查、改一个字、复查的练习安排，适合社区手机课堂初学者跟随理解。"
+          },
+          {
+            "field": "platform",
+            "requirement": "视频号",
+            "verdict": "met",
+            "evidence": "标题直接点明学习内容，六镜围绕单一练习展开，旁白配合清楚的纸面近景，适合视频号知识讲解。"
+          },
+          {
+            "field": "style",
+            "requirement": "耐心",
+            "verdict": "met",
+            "evidence": "镜头1“先别着急”、镜头3“慢慢读一遍”、镜头6“一次练一点”均体现耐心引导。"
+          },
+          {
+            "field": "style",
+            "requirement": "短句",
+            "verdict": "met",
+            "evidence": "旁白以短句分步表达，如镜头3“写好以后，慢慢读一遍。看看是不是自己想说的话。”"
+          },
+          {
+            "field": "style",
+            "requirement": "无术语",
+            "verdict": "met",
+            "evidence": "旁白使用“写一句”“改一个字”“检查文字”等常用词；除需求本身涉及的字幕和编辑概念外，没有引入专业剪辑术语。"
+          }
+        ],
+        "summary": "需求均已落实：两项功能都有资料支持，画面使用练习本和手机背面，表达适合初学长者，没有一键自动完成承诺或网络用语。",
+        "method": "model_assessment_not_deterministic_proof",
+        "expressions": [
+          {
+            "location": "title",
+            "text": "加字幕、改文字，咱们慢慢学",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ],
+            "evidence": "标题涉及的添加字幕与修改字幕文字均有资料支持；“咱们慢慢学”是学习邀请，没有额外效果承诺。"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "俯拍桌面。手翻开手写练习本，手机背面朝上放在旁边。纸上写着“加字幕”“改文字”。文字块均作旁白。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "描述桌面构图、翻本子和纸上学习主题，没有展示产品界面或宣称操作流程。"
+          },
+          {
+            "location": "shot:1/block:1",
+            "text": "第一次剪视频，先别着急。今天只练加字幕、改文字。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ],
+            "evidence": "涉及的两项功能均由资料支持；其余文字是安抚和本次学习范围说明，没有自动化或学习效率承诺。"
+          },
+          {
+            "location": "shot:2/visual",
+            "text": "练习本近景，手机保持背面朝上。手写下“今天去公圆散步”，其中“圆”是供后续纠正的练习错字。两段文字依次口播，不另设事实卡。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "明确安排纸面错字练习和口播形式，没有把手写过程描述为产品功能。"
+          },
+          {
+            "location": "shot:2/block:2",
+            "text": "先在本子上写一句：今天去公园散步。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "是本子上的练习指令和例句，不包含产品能力声明。"
+          },
+          {
+            "location": "shot:3/visual",
+            "text": "手指沿着练习本上的句子慢慢移动，最后停在“公圆”处。手机背面仍在画面边缘。文字作旁白。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "仅安排手指检查纸面句子的动作，没有暗示软件自动识别错字。"
+          },
+          {
+            "location": "shot:3/block:1",
+            "text": "写好以后，慢慢读一遍。看看是不是自己想说的话。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "是人工阅读与检查的建议，不涉及产品性能或承诺。"
+          },
+          {
+            "location": "shot:4/visual",
+            "text": "手拿起笔，在练习本的“圆”字下画一道短线，准备修改。手机背面朝上，不展示软件界面。两段文字依次口播。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "明确使用纸笔标记错字，没有虚构产品按钮、界面或操作步骤。"
+          },
+          {
+            "location": "shot:4/block:2",
+            "text": "咱们先在纸上练习改一个字。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "明确邀请进行纸面练习，不是产品操作或效果声明。"
+          },
+          {
+            "location": "shot:5/visual",
+            "text": "练习本特写。划去错写的“圆”，在上方清楚写下“园”。手指再从句首逐字移到句尾。这是纸面改字练习，手机背面留在画面内。文字作旁白。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "全过程明确限定在纸面，展示人工改字和复查，没有冒充软件工作流。"
+          },
+          {
+            "location": "shot:5/block:1",
+            "text": "把本子上的“公圆”改成“公园”。再从头读一遍，看看还有没有错字。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "明确要求修改本子上的文字并人工复查，没有声称产品自动纠错。"
+          },
+          {
+            "location": "shot:6/visual",
+            "text": "镜头稍拉远，呈现改好的手写句子和背面朝上的手机。手将笔放在练习本旁。文字作旁白。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "是展示纸面练习结果和放笔动作的拍摄安排，不含产品声明。"
+          },
+          {
+            "location": "shot:6/block:1",
+            "text": "先写一句，再检查文字。一次练一点，慢慢就熟悉了。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "概括练习顺序并给予一般学习鼓励，没有承诺具体学习时限、产品效率或自动化效果。"
+          }
+        ],
+        "pacing": {
+          "verdict": "met",
+          "evidence": "六镜hold_seconds均为0，没有额外空停留。镜头1翻本子并引入主题，镜头2写例句，镜头3逐字检查，镜头4标记错字，镜头5改字并复查，镜头6展示结果并放笔，均有对应旁白和画面任务。镜头3与5分别检查修改前后文字，没有重复产品事实凑时长。"
+        },
+        "expression_review_passed": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a296-7332-74d3-b9cd-1b516a2e877a",
+        "usage": {
+          "input_tokens": 32955,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 101,
+          "reasoning_output_tokens": 42
+        }
+      },
+      "review_model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a296-d72f-7b32-95b9-025421c5adaf",
+        "usage": {
+          "input_tokens": 28194,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4327,
+          "reasoning_output_tokens": 1976
+        }
+      },
+      "elapsed_ms": 147422
+    },
+    {
+      "step": 6,
+      "action": "finish",
+      "arguments": {
+        "status": "completed",
+        "message": "已完成六镜头脚本，覆盖字幕添加与手动改字，以手写练习本和手机背面呈现，使用适合初学长者的耐心短句，无一键完成承诺或网络用语。现稿无需删改。估算37.1秒，符合36—40秒要求；规则及需求审核均通过，实际成片时长仍以拍摄为准。"
+      },
+      "decision_basis": "当前同一稿的时长、规则和需求检查均已通过。",
+      "observation": {
+        "ok": true,
+        "status": "completed",
+        "script_hash": "f6d2ed2bb518a21c53120e9f258a2a412e31ac476dbede6be580ff5bbf54091d"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a298-b1b3-7800-b93e-40707b135ccb",
+        "usage": {
+          "input_tokens": 39139,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 477,
+          "reasoning_output_tokens": 337
+        }
+      },
+      "elapsed_ms": 22453
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T18:03:09.134694+00:00",
+    "finished_at": "2026-11-03T18:08:20.168327+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v3",
+    "requirements_review_context": "current_rules_check_v1",
+    "model_responses": 7
+  }
+}

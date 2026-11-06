@@ -1,0 +1,13 @@
+{
+  "case": "V44",
+  "index": 43,
+  "attempt": 1,
+  "run_id": "7a0356124b55408db2ae16ca7acec8d2",
+  "folder": "V44",
+  "status": "needs_input",
+  "steps": 3,
+  "responses": 3,
+  "provider": "codex",
+  "seconds": null,
+  "message": "请补充“周末街拍入门”的已确认课程介绍，例如明确教授的手机摄影内容或授课形式。课表、价格、退费规则可暂不提供，脚本会省略这些未确认信息，也不编造学员效果或许诺结果。"
+}

@@ -1,0 +1,142 @@
+test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) ... 
+  test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v4', change=None) ... FAIL
+  test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v4', change={'passed': False}) ... FAIL
+  test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v4', change={'ok': False}) ... FAIL
+  test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v4', change={'script_hash': 'stale'}) ... FAIL
+  test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v5', change=None) ... FAIL
+  test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v5', change={'passed': False}) ... FAIL
+  test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v5', change={'ok': False}) ... FAIL
+  test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v5', change={'script_hash': 'stale'}) ... FAIL
+test_editor_notes_cannot_replace_a_public_source_fact (tests.test_submission.SubmissionTests.test_editor_notes_cannot_replace_a_public_source_fact) ... ERROR
+test_editor_notes_do_not_count_as_speech_or_publishable_claims (tests.test_submission.SubmissionTests.test_editor_notes_do_not_count_as_speech_or_publishable_claims) ... ERROR
+test_legacy_scripts_and_bounded_editor_notes (tests.test_submission.SubmissionTests.test_legacy_scripts_and_bounded_editor_notes) ... ERROR
+test_markdown_exports_notes_outside_shots_with_an_explicit_non_video_label (tests.test_submission.SubmissionTests.test_markdown_exports_notes_outside_shots_with_an_explicit_non_video_label) ... FAIL
+test_note_only_change_is_logged_and_invalidates_old_approval (tests.test_submission.SubmissionTests.test_note_only_change_is_logged_and_invalidates_old_approval) ... FAIL
+
+======================================================================
+ERROR: test_editor_notes_cannot_replace_a_public_source_fact (tests.test_submission.SubmissionTests.test_editor_notes_cannot_replace_a_public_source_fact)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_submission.py", line 54, in test_editor_notes_cannot_replace_a_public_source_fact
+    self.assertFalse(ToolBox().check_rules(script, ['P01'])['passed'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\src\tools.py", line 124, in check_rules
+    validate_script(script)
+  File "D:\小影科技笔试\src\schema.py", line 40, in validate_script
+    raise ValueError("script 必须包含且只包含 title、shots")
+ValueError: script 必须包含且只包含 title、shots
+
+======================================================================
+ERROR: test_editor_notes_do_not_count_as_speech_or_publishable_claims (tests.test_submission.SubmissionTests.test_editor_notes_do_not_count_as_speech_or_publishable_claims)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_submission.py", line 43, in test_editor_notes_do_not_count_as_speech_or_publishable_claims
+    after = tools.estimate_duration(new, 30)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\src\tools.py", line 101, in estimate_duration
+    validate_script(script)
+  File "D:\小影科技笔试\src\schema.py", line 40, in validate_script
+    raise ValueError("script 必须包含且只包含 title、shots")
+ValueError: script 必须包含且只包含 title、shots
+
+======================================================================
+ERROR: test_legacy_scripts_and_bounded_editor_notes (tests.test_submission.SubmissionTests.test_legacy_scripts_and_bounded_editor_notes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_submission.py", line 33, in test_legacy_scripts_and_bounded_editor_notes
+    validate_script({**old, 'editor_notes': NOTE})
+  File "D:\小影科技笔试\src\schema.py", line 40, in validate_script
+    raise ValueError("script 必须包含且只包含 title、shots")
+ValueError: script 必须包含且只包含 title、shots
+
+======================================================================
+FAIL: test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v4', change=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_submission.py", line 28, in test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions
+    self.assertTrue(check_case('normal', bad, {'completed'}))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v4', change={'passed': False})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_submission.py", line 28, in test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions
+    self.assertTrue(check_case('normal', bad, {'completed'}))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v4', change={'ok': False})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_submission.py", line 28, in test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions
+    self.assertTrue(check_case('normal', bad, {'completed'}))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v4', change={'script_hash': 'stale'})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_submission.py", line 28, in test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions
+    self.assertTrue(check_case('normal', bad, {'completed'}))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v5', change=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_submission.py", line 28, in test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions
+    self.assertTrue(check_case('normal', bad, {'completed'}))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v5', change={'passed': False})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_submission.py", line 28, in test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions
+    self.assertTrue(check_case('normal', bad, {'completed'}))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v5', change={'ok': False})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_submission.py", line 28, in test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions
+    self.assertTrue(check_case('normal', bad, {'completed'}))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (tests.test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) (policy='facts_duration_requirements_v5', change={'script_hash': 'stale'})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_submission.py", line 28, in test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions
+    self.assertTrue(check_case('normal', bad, {'completed'}))
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_markdown_exports_notes_outside_shots_with_an_explicit_non_video_label (tests.test_submission.SubmissionTests.test_markdown_exports_notes_outside_shots_with_an_explicit_non_video_label)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_submission.py", line 60, in test_markdown_exports_notes_outside_shots_with_an_explicit_non_video_label
+    self.assertIn('## 审稿备注（不进入视频，不计入时长）', report)
+AssertionError: '## 审稿备注（不进入视频，不计入时长）' not found in '# 短视频脚本运行结果\n\n- 状态：`completed`\n- 证据类型：`offline_mock_not_model_evidence`\n- 说明：当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。\n\n## 字幕，让表达被看见\n\n> 未完成或检查失败时，下列内容仅为未通过验收的草稿。\n\n### 分镜 1\n\n画面：产品功能文字卡片，不展示未经提供的界面\n\n旁白/字幕：剪影练习版支持为视频添加字幕。\n\n来源：P01/P01.F1\n\n预计镜头时长：4.0 秒\n\n预计总时长：4.0 秒（基于语速与镜头停留估算，非成片实测）。\n\n## 检查结果与来源\n\n```json\n{\n  "ok": true,\n  "script_hash": "dee0c4cf8a9e7629e42ce06857ea4023f4187e26e99fccc4b0594db0e3fe4996",\n  "passed": true,\n  "issues": [],\n  "citations": [\n    {\n      "location": "shot:1/block:1",\n      "source_id": "P01",\n      "fact_id": "P01.F1",\n      "quote": "剪影练习版支持为视频添加字幕。",\n      "version": "2026-11-01"\n    }\n  ],\n  "rules_version": "2026-11-03-v1"\n}\n```\n\n## 需求覆盖核对\n\n以下为模型评估，可能漏判或误判，仍需人工确认。\n\n```json\n{\n  "ok": true,\n  "script_hash": "dee0c4cf8a9e7629e42ce06857ea4023f4187e26e99fccc4b0594db0e3fe4996",\n  "request_hash": "405fda7ba61c0d7613c9cdcba2f46e53964582afa08d59d1d10281de288afaef",\n  "passed": true,\n  "items": [\n    {\n      "field": "topic",\n      "requirement": "介绍字幕功能",\n      "verdict": "met",\n      "evidence": "固定离线桩返回；仅验证接线，不证明语义符合。"\n    },\n    {\n      "field": "audience",\n      "requirement": "第一次制作口播短视频的创作者",\n      "verdict": "met",\n      "evidence": "固定离线桩返回；仅验证接线，不证明语义符合。"\n    },\n    {\n      "field": "platform",\n      "requirement": "抖音",\n      "verdict": "met",\n      "evidence": "固定离线桩返回；仅验证接线，不证明语义符合。"\n    },\n    {\n      "field": "style",\n      "requirement": "清楚、友好、克制",\n      "verdict": "met",\n      "evidence": "固定离线桩返回；仅验证接线，不证明语义符合。"\n    }\n  ],\n  "summary": "固定离线需求检查，不证明真实语义判断。",\n  "method": "model_assessment_not_deterministic_proof"\n}\n```\n\n## 执行路径\n\nsearch_materials → write_script → estimate_duration → check_rules → check_requirements → finish\n\n逐步参数、观察和简短决策依据见 trace.jsonl。未记录模型内部思维过程。\n'
+
+======================================================================
+FAIL: test_note_only_change_is_logged_and_invalidates_old_approval (tests.test_submission.SubmissionTests.test_note_only_change_is_logged_and_invalidates_old_approval)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_submission.py", line 68, in test_note_only_change_is_logged_and_invalidates_old_approval
+    self.assertEqual(revision_summary(old, new, [])['changed_fields'], ['editor_notes'])
+AssertionError: Lists differ: [] != ['editor_notes']
+
+Second list contains 1 additional elements.
+First extra element 0:
+'editor_notes'
+
+- []
++ ['editor_notes']
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.013s
+
+FAILED (failures=10, errors=3)

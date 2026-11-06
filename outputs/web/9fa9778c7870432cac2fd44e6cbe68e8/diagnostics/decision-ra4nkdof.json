@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ra4nkdof",
+  "started_at": "2026-11-04T14:58:02.273413+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T14:58:32.523056+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a711-2d35-7772-ae83-95ce7823eb5c",
+    "usage": {
+      "input_tokens": 27353,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 206,
+      "reasoning_output_tokens": 84
+    },
+    "call_id": "decision-ra4nkdof",
+    "warnings": []
+  }
+}

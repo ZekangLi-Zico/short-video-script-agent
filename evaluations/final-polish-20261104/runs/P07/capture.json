@@ -1,0 +1,10 @@
+{
+  "case": "P07",
+  "run_id": "f335c30a339e4bc98360ba2f544c18e9",
+  "status": "blocked",
+  "steps": 4,
+  "responses": 4,
+  "provider": "codex",
+  "seconds": null,
+  "message": "检索连续三次失败，暂时无法制作有依据的字幕功能介绍。尚未生成脚本，也未完成时长、规则和需求检查。请项目维护者修复检索服务，恢复后再获取字幕功能资料并完成30秒以内的脚本及检查。"
+}

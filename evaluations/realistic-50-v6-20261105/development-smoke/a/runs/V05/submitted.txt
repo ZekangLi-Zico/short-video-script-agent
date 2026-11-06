@@ -1,0 +1,130 @@
+- banner:
+  - link "脚本试验台首页":
+    - /url: /
+    - generic: 脚本试验台
+  - generic: 本地人工测试
+- main:
+  - heading "从一个需求，到一份可核验的脚本。" [level=1]
+  - paragraph: 填入创作需求，观察 Agent 如何查资料、写分镜，再根据检查结果修订。
+  - generic: 第 4 题 · 短视频脚本 Agent
+  - complementary "创作需求与测试设置":
+    - heading "创作需求" [level=2]
+    - button "重置" [disabled]
+    - generic: 载入测试场景
+    - combobox "载入测试场景" [disabled]:
+      - option "自定义需求" [disabled] [selected]
+      - option "正常生成" [disabled]
+      - option "缺少关键信息" [disabled]
+      - option "没有产品素材" [disabled]
+      - option "工具持续失败" [disabled]
+      - option "一次故障后恢复" [disabled]
+      - option "38 秒旧稿修订" [disabled]
+      - option "无依据宣传纠错" [disabled]
+      - option "无法满足的时长" [disabled]
+    - paragraph: 需求已修改，将按当前内容运行。
+    - generic: 主题
+    - textbox "主题" [disabled]:
+      - /placeholder: 例如：面向新手，介绍为口播视频添加字幕
+      - text: 介绍裁剪视频片段与添加字幕。用检查车链、擦拭工具、收工台面三段素材，不说明具体维修安全操作，也不要虚构产品按钮。
+    - generic: 给谁看
+    - textbox "给谁看" [disabled]:
+      - /placeholder: 描述你的目标受众
+      - text: 社区修理铺店主
+    - generic: 发布平台
+    - combobox "发布平台" [disabled]:
+      - option "抖音" [disabled]
+      - option "小红书" [disabled]
+      - option "视频号" [disabled]
+      - option "B站" [disabled] [selected]
+    - generic: 目标时长 秒
+    - spinbutton "目标时长 秒" [disabled]: "35"
+    - generic: 时长要求
+    - combobox "时长要求" [disabled]:
+      - option "不超过目标秒数" [disabled]
+      - option "接近目标（90%–100%）" [disabled] [selected]
+    - generic: 创作方式
+    - combobox "创作方式" [disabled]:
+      - option "场景创作 · 保留事实来源与表达审核" [disabled] [selected]
+      - option "严格引用 · 仅用原版批准表达" [disabled]
+    - generic: 表达风格
+    - textbox "表达风格" [disabled]: 朴实，教学感
+    - generic: 使用的产品资料
+    - combobox "使用的产品资料" [disabled]:
+      - option "剪影练习版 · 示例素材" [disabled] [selected]
+      - option "无素材产品 · 测试资料不足" [disabled]
+    - generic "查看可用素材"
+    - generic: 运行方式
+    - combobox "运行方式" [disabled]:
+      - option "真实模型 · Codex" [disabled] [selected]
+      - option "离线演练 · Mock" [disabled]
+      - option "模型 API" [disabled]
+    - paragraph: 调用本机已登录的 Codex，通常需要一到数分钟。
+    - generic "测试设置与旧稿"
+    - generic: 工具故障模拟
+    - combobox "工具故障模拟" [disabled]:
+      - option "不注入故障" [disabled] [selected]
+      - option "素材检索失败一次" [disabled]
+      - option "素材检索持续失败" [disabled]
+      - option "时长工具持续失败" [disabled]
+      - option "规则工具持续失败" [disabled]
+    - generic: 待修订旧稿 JSON，可选
+    - textbox "待修订旧稿 JSON，可选" [disabled]:
+      - /placeholder: 载入超时或纠错场景后，可在这里编辑旧稿。
+    - paragraph: 留空则生成新稿。停止任务会等待当前模型调用返回，不会开始下一步。
+    - button "正在生成与检查…" [disabled]:
+      - generic: 正在生成与检查…
+    - paragraph: 真实模型运行会使用当前账号的额度。
+  - region "运行结果":
+    - generic: 待运行
+    - generic: 准备好后，开始第一次测试
+    - button "停止后续步骤"
+    - tablist "结果视图":
+      - tab "脚本预览" [selected]
+      - tab "执行过程 0":
+        - text: 执行过程
+        - generic: "0"
+      - tab "原始结果"
+    - text: 最近运行
+    - combobox "查看最近运行" [disabled]:
+      - option "选择一条记录" [selected]
+      - option "11/05 00:11:51 · 模型 · 检查通过 · 做一条剪影练习版字幕功能介绍，"
+      - option "11/05 00:09:49 · 模型 · 检查通过 · 把所附旧稿压缩到15秒以内，保"
+      - option "11/05 00:07:45 · 模型 · 检查通过 · 把所附旧稿改成只介绍添加字幕，"
+      - option "11/05 00:04:22 · 模型 · 检查通过 · 审核并修改所附字幕介绍旧稿；客"
+      - option "11/05 00:05:48 · 模型 · 检查通过 · 所附旧稿四个镜头顺序与数量不能"
+      - option "11/05 00:04:19 · 模型 · 检查通过 · 把所附旧稿压缩到25秒以内，保"
+      - option "11/05 00:04:17 · 模型 · 需要补充 · 为虚构摄影课“周末街拍入门”写"
+      - option "11/05 00:04:15 · 模型 · 需要补充 · 为虚构游戏活动“星港周末赛”写"
+      - option "11/04 23:56:53 · 模型 · 检查通过 · 客户口头说加字幕后播放量提高了"
+      - option "11/05 00:02:22 · 模型 · 需要补充 · 给虚构门店“晨光面包房”写新品"
+      - option "11/05 00:02:23 · 模型 · 需要补充 · 给虚构产品“山径露营灯”做新品"
+      - option "11/05 00:02:21 · 模型 · 需要补充 · 写本周新版剪影练习版更新介绍，"
+      - option "11/05 00:00:13 · 模型 · 需要补充 · 介绍视频能否导出4K、是否有水"
+      - option "11/05 00:00:09 · 模型 · 需要补充 · 写剪影练习版导出SRT字幕文件"
+      - option "11/05 00:00:03 · 模型 · 需要补充 · 比较剪影练习版与剪映的字幕、片"
+      - option "11/04 23:56:42 · 模型 · 需要补充 · 介绍剪影练习版能否完全离线修改"
+      - option "11/04 23:50:53 · 模型 · 检查通过 · 用三个分镜介绍字幕添加和手动改"
+      - option "11/04 23:56:38 · 模型 · 需要补充 · 写字幕功能收费说明：免费版能用"
+      - option "11/04 23:52:54 · 模型 · 需要补充 · 为剪影练习版写一条介绍口播自动"
+      - option "11/04 23:48:36 · 模型 · 检查通过 · 介绍裁剪片段，只用大字屏幕卡片"
+      - option "11/04 23:46:51 · 模型 · 检查通过 · 八秒内必须讲完字幕添加、片段裁"
+      - option "11/04 23:41:32 · 模型 · 检查通过 · 用一分钟左右讲如何围绕现有录像"
+      - option "11/04 23:35:29 · 模型 · 检查通过 · 介绍字幕添加，背景是擦净的黑板"
+      - option "11/04 23:36:20 · 模型 · 检查通过 · 十秒内交付两个分镜：第一镜剪刀"
+      - option "11/04 23:35:30 · 模型 · 检查通过 · 六秒以内只介绍剪影练习版支持为"
+      - option "11/04 23:36:27 · 模型 · 未完成 · 接近45秒介绍字幕添加、手动改"
+      - option "11/04 23:28:55 · 模型 · 检查通过 · 介绍横竖屏比例选项，用中文旁白"
+      - option "11/04 23:28:56 · 模型 · 检查通过 · 标题必须是“Small Cli"
+      - option "11/04 23:27:05 · 模型 · 检查通过 · Write an Englis"
+      - option "11/04 23:30:50 · 模型 · 需要补充 · 帮我做字幕添加和手动改字的介绍"
+      - option "11/04 23:24:49 · 模型 · 检查通过 · 介绍横屏、竖屏画面比例选项，说"
+      - option "11/04 23:23:13 · 模型 · 检查通过 · 标题必须逐字为“这一帧，留给今"
+    - tabpanel "脚本预览":
+      - heading "你的下一份脚本，从这里开始。" [level=2]
+      - paragraph:
+        - text: 先填写需求，或载入一个测试场景。
+        - text: 生成的分镜、来源和时长检查会显示在这里。
+      - button "先体验一次离线演练" [disabled]
+    - generic: 运行记录会保存在本机，便于复验。
+  - generic: 本地运行 · 合成素材 · 只生成脚本
+  - generic: 先核对事实，再判断表达。

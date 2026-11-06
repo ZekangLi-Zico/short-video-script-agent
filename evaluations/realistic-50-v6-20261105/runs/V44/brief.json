@@ -1,0 +1,18 @@
+{
+  "id": "V44",
+  "name": "课程招生缺细则",
+  "context": "培训运营收到尚未定稿的招生需求。",
+  "request": {
+    "topic": "为虚构摄影课“周末街拍入门”写招生介绍。老师还没确认课表、价格和退费规则，也没有学员效果数据。",
+    "audience": "想学习手机摄影的上班族",
+    "platform": "小红书",
+    "target_seconds": 35,
+    "style": "友好，不许诺结果",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

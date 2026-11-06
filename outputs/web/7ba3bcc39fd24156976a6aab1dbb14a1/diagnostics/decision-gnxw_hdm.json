@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-gnxw_hdm",
+  "started_at": "2026-11-03T22:08:01.490304+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:08:18.783120+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a374-79f2-7852-b245-688876451283",
+    "usage": {
+      "input_tokens": 34575,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 227,
+      "reasoning_output_tokens": 114
+    },
+    "call_id": "decision-gnxw_hdm",
+    "warnings": []
+  }
+}

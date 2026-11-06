@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-16whc21_",
+  "started_at": "2026-11-03T21:21:23.515233+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:21:42.178615+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a349-c80b-7b11-a267-a1cbf7cf0614",
+    "usage": {
+      "input_tokens": 28971,
+      "cached_input_tokens": 9600,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 134,
+      "reasoning_output_tokens": 76
+    },
+    "call_id": "decision-16whc21_",
+    "warnings": []
+  }
+}

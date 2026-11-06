@@ -1,0 +1,16 @@
+{
+  "id": "T09",
+  "name": "竖屏发布",
+  "context": "横屏素材作者准备了解比例选项。",
+  "request": {
+    "topic": "介绍剪影练习版提供横屏和竖屏画面比例选项，不要宣称会自动补画面或智能追踪主体。",
+    "audience": "准备把日常记录发到手机平台的人",
+    "platform": "抖音",
+    "style": "简明、克制",
+    "product_id": "demo-editor",
+    "target_seconds": 20
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

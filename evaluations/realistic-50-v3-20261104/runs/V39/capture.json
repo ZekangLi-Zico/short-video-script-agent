@@ -1,0 +1,10 @@
+{
+  "case": "V39",
+  "run_id": "e3abf5045b4745ab95858617e710e129",
+  "status": "blocked",
+  "steps": 3,
+  "responses": 2,
+  "provider": "codex",
+  "seconds": null,
+  "message": "模型调用失败，未完成；见执行记录。"
+}

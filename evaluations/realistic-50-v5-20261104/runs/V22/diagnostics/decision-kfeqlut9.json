@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-kfeqlut9",
+  "started_at": "2026-11-04T15:31:20.307927+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:31:46.345558+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a72f-b550-7830-a8a1-20ad1c72a165",
+    "usage": {
+      "input_tokens": 29435,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 147,
+      "reasoning_output_tokens": 76
+    },
+    "call_id": "decision-kfeqlut9",
+    "warnings": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "V39",
+  "name": "导出画质水印",
+  "context": "摄影社团关注最终输出规格。",
+  "request": {
+    "topic": "介绍视频能否导出4K、是否有水印、竖屏导出有哪些限制。不要用有横竖屏比例选项来代替导出规格。",
+    "audience": "摄影社团编辑",
+    "platform": "B站",
+    "target_seconds": 30,
+    "style": "技术信息清楚，不夸大",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

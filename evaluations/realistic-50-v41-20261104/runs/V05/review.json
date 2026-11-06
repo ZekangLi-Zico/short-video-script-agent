@@ -1,0 +1,8 @@
+{
+  "case": "V05",
+  "assessment": "脚本可用；功能范围略扩写",
+  "note": "三段修理铺素材均使用，未给具体维修安全操作或虚构按钮；P02.F1、P01.F1支持裁剪和加字幕，32.6秒位于31.5–35秒区间。额外加入P01.F2手动改字的教学镜头，有资料依据，原需求未明确只限两项，暂不判硬违规，但交付比原brief更宽。五镜中两次播放三段素材用于总览/字幕示范，仍需编辑者判断是否冗余。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

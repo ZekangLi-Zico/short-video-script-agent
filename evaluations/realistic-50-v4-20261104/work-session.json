@@ -1,0 +1,13 @@
+{
+  "frozen_at": "2026-11-03T20:55:24.159418+00:00",
+  "first_model_run_started_at": "2026-11-03T20:56:54.512937+00:00",
+  "last_model_run_finished_at": "2026-11-03T22:25:39.325771+00:00",
+  "cases": 50,
+  "unique_inputs": 49,
+  "web_attempts": 50,
+  "zero_response_attempts": 0,
+  "model_responses": 315,
+  "concurrent_services": 2,
+  "application_changed": false,
+  "note": "Time range is automated experiment wall time, not candidate manual work time. Review and packaging followed experiments."
+}

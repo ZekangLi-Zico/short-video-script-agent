@@ -1,0 +1,13 @@
+{
+  "case": "V05",
+  "index": 0,
+  "attempt": 1,
+  "run_id": "f243fc004e32465abceb077d91ae374d",
+  "folder": "V05",
+  "status": "completed",
+  "steps": 6,
+  "responses": 7,
+  "provider": "codex",
+  "seconds": 33.9,
+  "message": "已完成三镜脚本，预计33.9秒。用检查车链、擦拭工具、收工台面展示裁剪片段与添加字幕；不涉及具体维修安全操作或虚构按钮。全部检查通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

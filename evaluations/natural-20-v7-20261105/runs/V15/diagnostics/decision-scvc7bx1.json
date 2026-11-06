@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-scvc7bx1",
+  "started_at": "2026-11-04T21:18:15.519490+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T21:19:09.305804+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a86d-46e6-7940-93f5-dfd8df5519aa",
+    "usage": {
+      "input_tokens": 29571,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1783,
+      "reasoning_output_tokens": 60
+    },
+    "call_id": "decision-scvc7bx1",
+    "warnings": []
+  }
+}

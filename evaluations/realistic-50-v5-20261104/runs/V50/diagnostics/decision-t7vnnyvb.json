@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-t7vnnyvb",
+  "started_at": "2026-11-04T16:11:51.601072+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:12:20.848251+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a754-d140-7ca1-a7ce-f4714d8ba14b",
+    "usage": {
+      "input_tokens": 27363,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 173,
+      "reasoning_output_tokens": 77
+    },
+    "call_id": "decision-t7vnnyvb",
+    "warnings": []
+  }
+}

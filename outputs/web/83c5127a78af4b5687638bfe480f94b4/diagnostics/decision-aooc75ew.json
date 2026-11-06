@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-aooc75ew",
+  "started_at": "2026-11-03T22:16:35.535581+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:16:49.464632+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a37c-51fb-7392-9ddd-3ca0d918420e",
+    "usage": {
+      "input_tokens": 27458,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 149,
+      "reasoning_output_tokens": 101
+    },
+    "call_id": "decision-aooc75ew",
+    "warnings": []
+  }
+}

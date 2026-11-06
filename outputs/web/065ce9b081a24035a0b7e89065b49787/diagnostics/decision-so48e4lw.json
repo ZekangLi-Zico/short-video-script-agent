@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-so48e4lw",
+  "started_at": "2026-11-04T01:46:09.652054+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:46:31.824493+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a43c-3408-7020-9d5d-b52e98dab812",
+    "usage": {
+      "input_tokens": 31367,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 133,
+      "reasoning_output_tokens": 74
+    },
+    "call_id": "decision-so48e4lw",
+    "warnings": []
+  }
+}

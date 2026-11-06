@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-spr18dj3",
+  "started_at": "2026-11-03T21:36:57.947280+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:38:17.977014+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a358-0b81-7831-bec3-9ab36b796cba",
+    "usage": {
+      "input_tokens": 27672,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2823,
+      "reasoning_output_tokens": 1419
+    },
+    "call_id": "decision-spr18dj3",
+    "warnings": []
+  }
+}

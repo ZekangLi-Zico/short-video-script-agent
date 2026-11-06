@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-cm84ievw",
+  "started_at": "2026-11-04T01:18:50.697321+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:19:21.173775+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a423-3bf6-7e43-93c0-396c155713ea",
+    "usage": {
+      "input_tokens": 38118,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 261,
+      "reasoning_output_tokens": 120
+    },
+    "call_id": "decision-cm84ievw",
+    "warnings": []
+  }
+}

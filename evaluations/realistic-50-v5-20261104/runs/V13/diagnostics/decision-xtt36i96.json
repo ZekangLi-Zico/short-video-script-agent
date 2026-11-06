@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-xtt36i96",
+  "started_at": "2026-11-04T15:14:33.868771+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:14:49.378184+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a720-4d79-7472-aee6-fee44dc79723",
+    "usage": {
+      "input_tokens": 28961,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 175,
+      "reasoning_output_tokens": 111
+    },
+    "call_id": "decision-xtt36i96",
+    "warnings": []
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "status": "completed",
+  "message": "脚本已完成，估算15秒，符合20秒上限，无需再删改。画面依次为巷口、门牌、门口，介绍添加字幕及手动编辑字幕文字，最后提醒核对地址和门牌。未涉及裁剪，也未虚构导航、翻译或识别能力。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "民宿入住指引：给画面加字幕",
+    "shots": [
+      {
+        "visual": "巷口实拍，镜头停稳。文字块均作旁白，并同步显示为字幕。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "拍民宿入住指引，试试加字幕。",
+            "source_id": "",
+            "fact_id": ""
+          },
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "切到门牌近景，完整拍入门牌。文字块作旁白，并同步显示为字幕。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      },
+      {
+        "visual": "切到民宿门口，保持入口清晰可见。文字块作旁白，并同步显示为字幕，以提醒收尾。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "发给客人前，记得核对字幕里的地址和门牌。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "684d16c9fa8325ad686bb339d40f5d3201c1a9306cb59cc5cb61fa6ae7f494fc",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 26,
+        "estimated_seconds": 7.0
+      },
+      {
+        "shot": 2,
+        "speech_units": 10,
+        "estimated_seconds": 3.0
+      },
+      {
+        "shot": 3,
+        "speech_units": 18,
+        "estimated_seconds": 5.0
+      }
+    ],
+    "total_seconds": 15.0,
+    "target_seconds": 20,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "684d16c9fa8325ad686bb339d40f5d3201c1a9306cb59cc5cb61fa6ae7f494fc",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:1/block:2",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "民宿入住指引：给画面加字幕"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "巷口实拍，镜头停稳。文字块均作旁白，并同步显示为字幕。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "拍民宿入住指引，试试加字幕。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "切到门牌近景，完整拍入门牌。文字块作旁白，并同步显示为字幕。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "切到民宿门口，保持入口清晰可见。文字块作旁白，并同步显示为字幕，以提醒收尾。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "发给客人前，记得核对字幕里的地址和门牌。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "684d16c9fa8325ad686bb339d40f5d3201c1a9306cb59cc5cb61fa6ae7f494fc",
+    "request_hash": "a427b60f9535bafce97f71bba52e3608a49f3595d0ba37cda883e76798d9a9f7",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "写一条介绍剪影练习版字幕功能的分享",
+        "verdict": "met",
+        "evidence": "第1镜介绍“剪影练习版支持为视频添加字幕”，第2镜补充“字幕文字可以手动编辑”，两句均已获 rules_check 引用支持。"
+      },
+      {
+        "field": "topic",
+        "requirement": "画面依次是巷口、门牌、门口。",
+        "verdict": "met",
+        "evidence": "三个镜头依次为“巷口实拍”“门牌近景”“民宿门口”，场景与顺序均符合要求。"
+      },
+      {
+        "field": "topic",
+        "requirement": "只讲添加字幕",
+        "verdict": "met",
+        "evidence": "功能介绍限于添加字幕及手动编辑字幕文字，其余内容为入住指引场景和发布前提醒。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不讲裁剪",
+        "verdict": "met",
+        "evidence": "标题、画面说明和全部旁白均未介绍裁剪功能。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不要虚构导航、翻译或识别能力。",
+        "verdict": "met",
+        "evidence": "导航方面：仅展示巷口、门牌和入口，未声称产品提供导航或路线规划。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不要虚构导航、翻译或识别能力。",
+        "verdict": "met",
+        "evidence": "翻译方面：全文未出现翻译、多语言转换等能力声明。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不要虚构导航、翻译或识别能力。",
+        "verdict": "met",
+        "evidence": "识别方面：未声称自动识别语音、地址或门牌；“同步显示为字幕”是成片呈现安排，没有描述自动识别工作流。"
+      },
+      {
+        "field": "topic",
+        "requirement": "最后用一句平实提醒收尾。",
+        "verdict": "met",
+        "evidence": "最后一句为“发给客人前，记得核对字幕里的地址和门牌。”语气平实，内容为具体提醒。"
+      },
+      {
+        "field": "audience",
+        "requirement": "自行拍摄入住指引的民宿店主",
+        "verdict": "met",
+        "evidence": "第1镜明确“拍民宿入住指引”，画面展示实际位置信息，第3镜提醒发给客人前核对地址和门牌，贴合店主自行制作指引的用途。"
+      },
+      {
+        "field": "platform",
+        "requirement": "抖音",
+        "verdict": "met",
+        "evidence": "采用三个连续实拍镜头、简短口播和同步字幕，信息集中，适合抖音短视频呈现。"
+      },
+      {
+        "field": "style",
+        "requirement": "简洁",
+        "verdict": "met",
+        "evidence": "三个镜头共四句旁白，分别承担场景引入、功能介绍和核对提醒，无冗长铺垫。"
+      },
+      {
+        "field": "style",
+        "requirement": "口语化",
+        "verdict": "met",
+        "evidence": "使用“试试加字幕”“发给客人前，记得核对”等日常表达，适合直接口播。"
+      }
+    ],
+    "summary": "当前稿已覆盖全部明确要求：场景顺序正确，内容围绕字幕，结尾平实；未虚构导航、翻译或识别能力。表达和节奏检查通过。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "民宿入住指引：给画面加字幕",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "“给画面加字幕”由“剪影练习版支持为视频添加字幕”支持；“民宿入住指引”仅限定使用场景，没有额外效果承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "巷口实拍，镜头停稳。文字块均作旁白，并同步显示为字幕。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "全部内容为拍摄及旁白、字幕的呈现安排，没有声称产品自动生成或同步字幕，也未虚构界面或操作步骤。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "拍民宿入住指引，试试加字幕。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于场景引入和行动邀请，没有新增产品能力或效果承诺。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "切到门牌近景，完整拍入门牌。文字块作旁白，并同步显示为字幕。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "说明门牌取景和成片字幕呈现，不涉及产品识别门牌或自动处理字幕的能力声明。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "切到民宿门口，保持入口清晰可见。文字块作旁白，并同步显示为字幕，以提醒收尾。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于入口取景、字幕呈现和结尾安排；“保持入口清晰可见”是拍摄要求，没有承诺产品提升画质。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "发给客人前，记得核对字幕里的地址和门牌。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "提醒使用者自行核对信息，没有宣称产品能够识别、验证地址或提供导航。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "三个镜头的 hold_seconds 均为0，未设置额外停留。第1镜两句旁白配稳定巷口画面，第2镜一句旁白配门牌近景，第3镜一句提醒配入口画面；各镜头均有明确观察内容，未见重复事实或空镜凑时。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T16:55:55.738656+00:00",
+    "finished_at": "2026-11-03T16:59:29.099388+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v3",
+    "requirements_review_context": "current_rules_check_v1",
+    "model_responses": 7
+  }
+}

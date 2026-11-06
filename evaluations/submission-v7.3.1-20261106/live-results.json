@@ -1,0 +1,146 @@
+{
+  "cases_recorded": 4,
+  "all_four_recorded": true,
+  "passed": true,
+  "runs": [
+    {
+      "case": "product_normal",
+      "web_run_id": "f63e19933d5d43b0a96302e7f19a25e5",
+      "status": "completed",
+      "elapsed_seconds": 120.91,
+      "model_responses": 5,
+      "attempts": 5,
+      "timeouts": 0,
+      "estimated_video_seconds": 24.8,
+      "duration_observations": [
+        {
+          "step": 3,
+          "seconds": 24.8,
+          "passed": true
+        }
+      ],
+      "steps": 4,
+      "actions": [
+        "search_materials",
+        "write_script",
+        "check_requirements",
+        "finish"
+      ],
+      "failures_injected": {},
+      "input_matches_frozen": true,
+      "checks": {
+        "duration": true,
+        "rules_check": true,
+        "requirements_check": true
+      },
+      "evidence_errors": [],
+      "acceptance_errors": [],
+      "passed": true,
+      "message": "已完成3镜配音脚本，示范添加字幕、手动改正咖啡名，预计24.8秒。时长、规则及需求检查全部通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+      "evidence_path": "examples/current/product_normal"
+    },
+    {
+      "case": "over_duration",
+      "web_run_id": "d1e03fc08d4947fb86ba1c03613ad869",
+      "status": "completed",
+      "elapsed_seconds": 75.44,
+      "model_responses": 6,
+      "attempts": 6,
+      "timeouts": 0,
+      "estimated_video_seconds": 7.3,
+      "duration_observations": [
+        {
+          "step": 1,
+          "seconds": 38.0,
+          "passed": false
+        },
+        {
+          "step": 4,
+          "seconds": 7.3,
+          "passed": true
+        }
+      ],
+      "steps": 5,
+      "actions": [
+        "estimate_duration",
+        "search_materials",
+        "write_script",
+        "check_requirements",
+        "finish"
+      ],
+      "failures_injected": {},
+      "input_matches_frozen": true,
+      "checks": {
+        "duration": true,
+        "rules_check": true,
+        "requirements_check": true
+      },
+      "evidence_errors": [],
+      "acceptance_errors": [],
+      "passed": true,
+      "message": "脚本已完成：保留原标题、两镜结构及原有台词，补齐声画与动作编排，取消过长停留。预计7.3秒，符合30秒上限，全部检查通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+      "evidence_path": "examples/current/over_duration"
+    },
+    {
+      "case": "no_material",
+      "web_run_id": "55fe7327f7dc47f78a539fadfbc3a3ee",
+      "status": "needs_input",
+      "elapsed_seconds": 29.41,
+      "model_responses": 3,
+      "attempts": 3,
+      "timeouts": 0,
+      "estimated_video_seconds": null,
+      "duration_observations": [],
+      "steps": 3,
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "failures_injected": {},
+      "input_matches_frozen": true,
+      "checks": {
+        "duration": null,
+        "rules_check": null,
+        "requirements_check": null
+      },
+      "evidence_errors": [],
+      "acceptance_errors": [],
+      "passed": true,
+      "message": "请补充晨光剪辑处理采访人声字幕的产品说明：支持哪些字幕功能、如何操作，以及适用限制。可直接粘贴现有说明原文，无需整理或改写；有这些依据后即可完成30秒以内的同事示范脚本。",
+      "evidence_path": "examples/current/no_material"
+    },
+    {
+      "case": "tool_failure",
+      "web_run_id": "8b03cdca0d5d41e7ac94a489ebf39f57",
+      "status": "blocked",
+      "elapsed_seconds": 37.53,
+      "model_responses": 4,
+      "attempts": 4,
+      "timeouts": 0,
+      "estimated_video_seconds": null,
+      "duration_observations": [],
+      "steps": 4,
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "failures_injected": {
+        "search_materials": -1
+      },
+      "input_matches_frozen": true,
+      "checks": {
+        "duration": null,
+        "rules_check": null,
+        "requirements_check": null
+      },
+      "evidence_errors": [],
+      "acceptance_errors": [],
+      "passed": true,
+      "message": "尚未完成脚本：素材检索连续三次失败。需恢复检索，或补充剪影练习版“添加字幕”和“手动修改字幕文字”的操作说明，才能完成30秒内的配音教学稿。",
+      "evidence_path": "examples/current/tool_failure"
+    }
+  ]
+}

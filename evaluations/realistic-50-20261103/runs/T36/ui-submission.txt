@@ -1,0 +1,45 @@
+Browser tab: 1, Title: "脚本试验台 · 短视频 Agent", URL: "http://127.0.0.1:8765/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 2323-2327
+~				12 button (disabled) 重置, ID: reset-button
+~				14 pop up button (disabled, collapsed, settable) 载入测试场景, Value: 自定义需求, ID: preset, Secondary Actions: Expand
+~				27 text entry area (disabled) 主题, Value: 介绍添加字幕和手动编辑字幕文字。不要添加下载、尝试、关注或点赞等行动号召，介绍完功能就结束。, ID: topic
+~				29 text field (disabled) 给谁看, Value: 已经安装产品的新用户, ID: audience
+~				31 pop up button (disabled, collapsed, settable) 发布平台, Value: B站, ID: platform, Secondary Actions: Expand
+~				39 stepper (disabled, settable, integer) 目标时长 秒, Value: 18, ID: target-seconds
+~				41 text field (disabled) 表达风格, Value: 纯说明，不营销, ID: style
+~				43 pop up button (disabled, collapsed, settable) 使用的产品资料, Value: 剪影练习版 · 示例素材, ID: product, Secondary Actions: Expand
+~				50 pop up button (disabled, collapsed, settable) 运行方式, Value: 真实模型 · Codex, ID: provider, Secondary Actions: Expand
+~				58 button (disabled) 正在生成与检查…, ID: run-button
++			2331 button 停止后续步骤, ID: cancel-button
+~				65 tab (selected, settable, boolean) 执行过程 5, ID: tab-trace, Value: 1
+执行过程
+5
+~				66 tab (selectable, settable, boolean) 原始结果, Value: 0, ID: tab-raw
+~				69 pop up button (disabled, collapsed, settable) Description: 查看最近运行, Value: 11/03 22:45:57 · 模型 · 检查通过 · 为静音展位屏幕写脚本，介绍片段, ID: history, Secondary Actions: Expand
++			2332 container Description: 执行过程 5, ID: panel-trace
++				2333 heading 每一步，都有记录。, Value: 2
++					2334 text 每一步，都有记录。
++				2335 text 这里展示实际工具调用、观察结果与简短动作依据。
++				2336 content list timeline
++					2337 container
++						2338 text 1 检索素材 已执行 19.0 s 需要检索片段裁剪和横竖屏比例的产品事实，用于屏幕字幕。 检索“demo-editor 片段裁剪 横屏 竖屏 画面比例”：找到 2 条素材
++						2339 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
++							2340 text 查看参数与返回结果
++					2341 container
++						2342 text 2 生成 / 修订脚本 已执行 26.4 s 已检索到裁剪和横竖屏比例事实，采用屏幕文字卡片呈现关键信息。 已更新草稿，必须对本稿重新运行时长与规则检查
++						2343 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
++							2344 text 查看参数与返回结果
++					2345 container
++						2346 text 3 估算时长 已执行 14.0 s 当前稿尚未检查时长，需确认是否满足20秒上限。 预计 18 秒 / 上限 20 秒，符合上限
++						2347 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
++							2348 text 查看参数与返回结果
++					2349 container
++						2350 text 4 检查事实与规则 已执行 14.4 s 当前稿估算18秒，已通过20秒上限检查，尚需规则检查。 检查通过，核对 2 处事实引用
++						2351 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
++							2352 text 查看参数与返回结果
++					2353 container
++						2354 text 5 结束任务 已执行 15.5 s 当前同一稿的时长检查和规则检查均已通过，估算18秒，未超过20秒上限。 检查通过
++						2355 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
++							2356 text 查看参数与返回结果
+The focused UI element is 0 AXWebArea 脚本试验台 · 短视频 Agent, URL: 127.0.0.1:8765/

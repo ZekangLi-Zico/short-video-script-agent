@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-bdccxm7p",
+  "started_at": "2026-11-04T01:49:19.133804+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:49:43.305878+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a43f-1eeb-76d1-8761-62f0f6e5f67a",
+    "usage": {
+      "input_tokens": 31076,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 151,
+      "reasoning_output_tokens": 94
+    },
+    "call_id": "decision-bdccxm7p",
+    "warnings": []
+  }
+}

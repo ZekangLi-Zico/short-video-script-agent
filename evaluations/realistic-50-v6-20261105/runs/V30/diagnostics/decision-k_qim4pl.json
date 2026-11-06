@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-k_qim4pl",
+  "started_at": "2026-11-04T17:37:45.152538+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:38:44.465564+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a7a3-64ce-7d92-81d8-bf7e0498ab44",
+    "usage": {
+      "input_tokens": 28833,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1589,
+      "reasoning_output_tokens": 51
+    },
+    "call_id": "decision-k_qim4pl",
+    "warnings": []
+  }
+}

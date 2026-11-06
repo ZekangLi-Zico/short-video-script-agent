@@ -1,0 +1,11 @@
+{
+  "observed_start": "2026-11-03T16:39:43.133973+00:00",
+  "observed_end": "2026-11-03T17:08:32.419647+00:00",
+  "elapsed_minutes": 28.8,
+  "scope": "From preimplementation freeze to last quality-campaign model run. Excludes design/backup preparation, subsequent engineering fault injection and final packaging; not candidate manual effort.",
+  "candidate_manual_minutes": null,
+  "separate_engineering_acceptance": {
+    "started_at": "2026-11-03T17:13:03.699001+00:00",
+    "finished_at": "2026-11-03T17:14:23.760092+00:00"
+  }
+}

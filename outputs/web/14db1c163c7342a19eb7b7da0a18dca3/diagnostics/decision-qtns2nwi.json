@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-qtns2nwi",
+  "started_at": "2026-11-04T21:14:17.502009+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T21:14:42.563715+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a869-ad52-7363-93cb-e39ebc5c278b",
+    "usage": {
+      "input_tokens": 27464,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 81,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-qtns2nwi",
+    "warnings": []
+  }
+}

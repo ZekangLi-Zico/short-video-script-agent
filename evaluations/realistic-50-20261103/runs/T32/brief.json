@@ -1,0 +1,16 @@
+{
+  "id": "T32",
+  "name": "受众未确定",
+  "context": "产品经理只给了功能主题，还没定目标受众。",
+  "request": {
+    "topic": "介绍视频片段裁剪功能，目标受众还没有明确。",
+    "audience": "",
+    "platform": "视频号",
+    "style": "简单、实用",
+    "product_id": "demo-editor",
+    "target_seconds": 20
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

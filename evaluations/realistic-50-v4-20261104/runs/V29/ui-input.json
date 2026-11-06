@@ -1,0 +1,19 @@
+{
+  "port": 8792,
+  "submitted_at": "2026-11-03T21:56:28.841Z",
+  "fields": {
+    "audience": "工作室新来的运营实习生",
+    "duration-mode": "target",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "4668d0c4ea974e46924bab35a7c9efbd",
+    "initial-script": "",
+    "platform": "B站",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "教学式，循序渐进",
+    "target-seconds": "60",
+    "topic": "用一分钟左右讲如何围绕现有录像安排字幕、片段裁剪与比例选择，背景是工作交接；不要虚构按钮操作，也不要同一画面无意义长停留。"
+  }
+}

@@ -1,0 +1,293 @@
+# 短视频脚本运行结果
+
+- 状态：`completed`
+- 证据类型：`real_model`
+- 说明：已完成面向新志愿者的三镜头交接稿。保留原标题和三镜头框架，调整为社区旧物交换活动开场、裁剪与手动编辑字幕说明、交换现场收尾；删除无依据的自动识别描述，将结尾停留从12秒缩短至8秒。未承诺节省时间。估算总长24秒，符合25秒目标的范围；三项检查均通过，实际成片时长仍需制作后复核。
+
+当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。
+
+## 字幕，让表达被看见
+
+> 未完成或检查失败时，下列内容仅为未通过验收的草稿。
+
+### 分镜 1
+
+画面：社区旧物交换摊位前，志愿者面对镜头介绍活动，随后侧身示意摆放着旧书和玩具的交换桌。旁白对应本镜头文案。
+
+旁白/字幕：新来的志愿者，欢迎加入社区旧物交换活动。这是短片制作交接。
+
+来源：
+
+预计镜头时长：8.0 秒
+
+### 分镜 2
+
+画面：产品功能文字卡片，不展示未经提供的界面。以交换活动素材为背景，两张事实卡依次出现，卡片文字分别使用对应事实块原文；旁白逐条读出。
+
+旁白/字幕：剪影练习版支持裁剪视频片段。字幕文字可以手动编辑。
+
+来源：P02/P02.F1, P01/P01.F2
+
+预计镜头时长：8.0 秒
+
+### 分镜 3
+
+画面：镜头回到社区旧物交换现场：参与者展示一本旧书，随后双方递交交换物品。连续拍下展示和交接动作，旁白对应本镜头文案。
+
+旁白/字幕：回到交换现场，拍下物品介绍和交接。交片前，再核对字幕里的物品名称。
+
+来源：
+
+预计镜头时长：8.0 秒
+
+## 实际修订
+
+位置按镜头索引比较；日志关联的是实际反馈，不证明模型因果推理。
+
+- 修改：shot:1/visual, shot:1/block:1, shot:2/visual, shot:2/block:1, shot:2/block:2, shot:3/visual, shot:3/hold_seconds, shot:3/block:1；保留原镜头 0 个、原文案块 0 个。
+- 修订前失败检查：duration, rules_check
+
+时长要求：22.5–25 秒（接近目标）。
+
+预计总时长：24.0 秒（基于语速与镜头停留估算，非成片实测）。
+
+## 检查结果与来源
+
+```json
+{
+  "ok": true,
+  "script_hash": "965e222428c1bec02a534eaec5cd800f5c6ed70584e28325019b4dd365f0c741",
+  "passed": true,
+  "issues": [],
+  "citations": [
+    {
+      "location": "shot:2/block:1",
+      "source_id": "P02",
+      "fact_id": "P02.F1",
+      "quote": "剪影练习版支持裁剪视频片段。",
+      "version": "2026-11-01"
+    },
+    {
+      "location": "shot:2/block:2",
+      "source_id": "P01",
+      "fact_id": "P01.F2",
+      "quote": "字幕文字可以手动编辑。",
+      "version": "2026-11-01"
+    }
+  ],
+  "rules_version": "2026-11-03-v1",
+  "requires_expression_review": true,
+  "expression_slots": [
+    {
+      "location": "title",
+      "text": "字幕，让表达被看见"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "社区旧物交换摊位前，志愿者面对镜头介绍活动，随后侧身示意摆放着旧书和玩具的交换桌。旁白对应本镜头文案。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "新来的志愿者，欢迎加入社区旧物交换活动。这是短片制作交接。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "产品功能文字卡片，不展示未经提供的界面。以交换活动素材为背景，两张事实卡依次出现，卡片文字分别使用对应事实块原文；旁白逐条读出。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "镜头回到社区旧物交换现场：参与者展示一本旧书，随后双方递交交换物品。连续拍下展示和交接动作，旁白对应本镜头文案。"
+    },
+    {
+      "location": "shot:3/block:1",
+      "text": "回到交换现场，拍下物品介绍和交接。交片前，再核对字幕里的物品名称。"
+    }
+  ],
+  "available_facts": [
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F2",
+      "quote": "字幕文字可以手动编辑。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P02",
+      "fact_id": "P02.F1",
+      "quote": "剪影练习版支持裁剪视频片段。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P03",
+      "fact_id": "P03.F1",
+      "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+      "version": "2026-11-01"
+    }
+  ],
+  "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+}
+```
+
+## 需求覆盖核对
+
+以下为模型评估，可能漏判或误判，仍需人工确认。
+
+```json
+{
+  "ok": true,
+  "script_hash": "965e222428c1bec02a534eaec5cd800f5c6ed70584e28325019b4dd365f0c741",
+  "request_hash": "eddd21c4b9794f1b015fafd9e5f97fbf65b295d89b511ad9ad9437160b09753e",
+  "passed": true,
+  "items": [
+    {
+      "field": "topic",
+      "requirement": "做一条剪影练习版的交接说明",
+      "verdict": "met",
+      "evidence": "镜头1明确“这是短片制作交接”，镜头2介绍剪影练习版的两项功能，镜头3补充拍摄内容及交片前核对字幕的提醒。"
+    },
+    {
+      "field": "topic",
+      "requirement": "使用社区旧物交换活动的拍摄场景",
+      "verdict": "met",
+      "evidence": "镜头1出现社区旧物交换摊位、旧书和玩具；镜头2使用交换活动素材作背景；镜头3展示旧书及双方交换物品的动作。"
+    },
+    {
+      "field": "topic",
+      "requirement": "分别介绍裁剪视频片段",
+      "verdict": "met",
+      "evidence": "镜头2第1块明确“剪影练习版支持裁剪视频片段。”，并安排对应文字卡与旁白。"
+    },
+    {
+      "field": "topic",
+      "requirement": "手动编辑字幕文字",
+      "verdict": "met",
+      "evidence": "镜头2第2块明确“字幕文字可以手动编辑。”，与裁剪功能分别呈现。"
+    },
+    {
+      "field": "topic",
+      "requirement": "用三个镜头",
+      "verdict": "met",
+      "evidence": "当前稿件共有三个镜头，分别为活动介绍、工具功能说明、交换现场。"
+    },
+    {
+      "field": "topic",
+      "requirement": "开场交代活动",
+      "verdict": "met",
+      "evidence": "镜头1在交换摊位前开场，旁白明确“欢迎加入社区旧物交换活动”。"
+    },
+    {
+      "field": "topic",
+      "requirement": "中段说工具",
+      "verdict": "met",
+      "evidence": "镜头2介绍剪影练习版裁剪视频片段、手动编辑字幕文字两项功能。"
+    },
+    {
+      "field": "topic",
+      "requirement": "结尾回到交换现场",
+      "verdict": "met",
+      "evidence": "镜头3明确“镜头回到社区旧物交换现场”，展示旧书和交换动作，旁白也以“回到交换现场”起句。"
+    },
+    {
+      "field": "topic",
+      "requirement": "不许承诺节省多少时间",
+      "verdict": "met",
+      "evidence": "标题、三个镜头画面及全部文案均未承诺节省时间，也未出现效率提升数字。"
+    },
+    {
+      "field": "audience",
+      "requirement": "刚加入的社区志愿者",
+      "verdict": "met",
+      "evidence": "镜头1直接招呼“新来的志愿者”，后续用简短功能说明和物品名称核对提醒完成入门交接，未依赖专业术语。"
+    },
+    {
+      "field": "platform",
+      "requirement": "视频号",
+      "verdict": "met",
+      "evidence": "稿件用三个镜头串联社区活动现场、简短功能卡和交接提醒，信息集中，适合视频号短视频观看。"
+    },
+    {
+      "field": "style",
+      "requirement": "亲切直白",
+      "verdict": "met",
+      "evidence": "“新来的志愿者，欢迎加入”语气亲切；“拍下物品介绍和交接”“再核对字幕里的物品名称”表达直接。"
+    },
+    {
+      "field": "style",
+      "requirement": "避免广告腔",
+      "verdict": "met",
+      "evidence": "功能说明使用“支持裁剪视频片段”“可以手动编辑”等平实表述，结尾是工作提醒，没有夸张效果或促销号召。"
+    }
+  ],
+  "summary": "当前稿件已覆盖全部明确要求：社区旧物交换场景、两项功能和三个镜头的顺序均落实，语气适合新志愿者，也未承诺节省时间。表达审核及各镜头节奏均通过。",
+  "method": "model_assessment_not_deterministic_proof",
+  "expressions": [
+    {
+      "location": "title",
+      "text": "字幕，让表达被看见",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "标题以“被看见”表达字幕的主题意象，未承诺识别准确率、传播效果或其他具体产品性能。"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "社区旧物交换摊位前，志愿者面对镜头介绍活动，随后侧身示意摆放着旧书和玩具的交换桌。旁白对应本镜头文案。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "仅安排社区活动背景、人物介绍及侧身示意动作，不包含产品能力或真实用户背书。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "新来的志愿者，欢迎加入社区旧物交换活动。这是短片制作交接。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "属于欢迎语及交接用途说明，没有产品性能或效果承诺。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "产品功能文字卡片，不展示未经提供的界面。以交换活动素材为背景，两张事实卡依次出现，卡片文字分别使用对应事实块原文；旁白逐条读出。",
+      "verdict": "supported_claim",
+      "references": [
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1"
+        },
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F2"
+        }
+      ],
+      "evidence": "画面指定展示的两张卡对应“剪影练习版支持裁剪视频片段。”和“字幕文字可以手动编辑。”，分别由P02.F1、P01.F2支持，且已获rules_check核对；未增加按钮、具体界面布局或自动工作流。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "镜头回到社区旧物交换现场：参与者展示一本旧书，随后双方递交交换物品。连续拍下展示和交接动作，旁白对应本镜头文案。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "仅描述参与者展示旧书、递交物品及连续拍摄的安排，没有产品操作或效果声明。"
+    },
+    {
+      "location": "shot:3/block:1",
+      "text": "回到交换现场，拍下物品介绍和交接。交片前，再核对字幕里的物品名称。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "属于拍摄和人工核对提醒，未声称产品能够自动核对物品名称或保证字幕正确。"
+    }
+  ],
+  "pacing": {
+    "verdict": "met",
+    "evidence": "三个镜头各停留8秒。镜头1有欢迎及交接说明，并安排面对镜头介绍、侧身展示交换桌；镜头2依次呈现并读出两条简短功能卡，留有阅读时间；镜头3有旧书展示和双方交接的连续动作，配合拍摄及字幕核对提醒。各镜头均有旁白或观察动作支撑，未见重复同一事实或空镜凑时长。"
+  },
+  "expression_review_passed": true
+}
+```
+
+## 执行路径
+
+estimate_duration → check_rules → search_materials → write_script → estimate_duration → check_rules → check_requirements → finish
+
+逐步参数、观察和简短决策依据见 trace.jsonl。未记录模型内部思维过程。

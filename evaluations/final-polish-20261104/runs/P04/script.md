@@ -1,0 +1,209 @@
+# 短视频脚本运行结果
+
+- 状态：`completed`
+- 证据类型：`real_model`
+- 说明：已完成审核修改：保留原标题及添加字幕、手动编辑字幕两项已确认功能；删除“自动识别人声，字幕准确率达到99%。”及对应示意镜头，原因已写入审稿备注。当前稿估算16秒，符合28秒上限，三项检查均通过。被删除的说法仍未确认，如需恢复，需向项目维护者补充功能依据和注明测试条件的准确率报告。
+
+当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。
+
+## 口播字幕小帮手
+
+> 未完成或检查失败时，下列内容仅为未通过验收的草稿。
+
+### 分镜 1
+
+画面：桌上的采访话筒
+
+旁白/字幕：剪影练习版支持为视频添加字幕。
+
+来源：P01/P01.F1
+
+预计镜头时长：8.0 秒
+
+### 分镜 2
+
+画面：便签上手改错字
+
+旁白/字幕：字幕文字可以手动编辑。
+
+来源：P01/P01.F2
+
+预计镜头时长：8.0 秒
+
+## 审稿备注（不进入视频，不计入时长）
+
+供创作者核对修改与资料缺口，不是经过事实认证的产品介绍。
+
+客户未提供自动识别功能依据及准确率测试数据，原稿“自动识别人声，字幕准确率达到99%。”无法确认，已删除该说法及对应示意镜头。保留原标题，以及原第一、第三镜的画面、事实文案、顺序和停留时间。删除不代表确认产品不支持该能力；如需恢复相关说法，应向项目维护者提供功能说明及准确率测试报告，明确测试条件后重新审核。
+
+## 实际修订
+
+位置按镜头索引比较；日志关联的是实际反馈，不证明模型因果推理。
+
+- 修改：editor_notes, shot:2/visual, shot:2/block:1, shot:3:removed；保留原镜头 1 个、原文案块 1 个。
+- 修订前失败检查：rules_check
+
+预计总时长：16.0 秒（基于语速与镜头停留估算，非成片实测）。
+
+## 检查结果与来源
+
+```json
+{
+  "ok": true,
+  "script_hash": "3f1ae13f3f40904313cfbc457450cbd7cfc15c268587726a906d0601ce7e6220",
+  "passed": true,
+  "issues": [],
+  "citations": [
+    {
+      "location": "shot:1/block:1",
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01"
+    },
+    {
+      "location": "shot:2/block:1",
+      "source_id": "P01",
+      "fact_id": "P01.F2",
+      "quote": "字幕文字可以手动编辑。",
+      "version": "2026-11-01"
+    }
+  ],
+  "rules_version": "2026-11-03-v1",
+  "requires_expression_review": true,
+  "expression_slots": [
+    {
+      "location": "title",
+      "text": "口播字幕小帮手"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "桌上的采访话筒"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "便签上手改错字"
+    }
+  ],
+  "available_facts": [
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F2",
+      "quote": "字幕文字可以手动编辑。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P02",
+      "fact_id": "P02.F1",
+      "quote": "剪影练习版支持裁剪视频片段。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P03",
+      "fact_id": "P03.F1",
+      "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+      "version": "2026-11-01"
+    }
+  ],
+  "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+}
+```
+
+## 需求覆盖核对
+
+以下为模型评估，可能漏判或误判，仍需人工确认。
+
+```json
+{
+  "ok": true,
+  "script_hash": "3f1ae13f3f40904313cfbc457450cbd7cfc15c268587726a906d0601ce7e6220",
+  "request_hash": "7fb52283cc4eb7795933e6f2730cfb020711e034af85be6312f908b57de4f30b",
+  "passed": true,
+  "items": [
+    {
+      "field": "topic",
+      "requirement": "审核并修改所附字幕介绍旧稿",
+      "verdict": "met",
+      "evidence": "当前稿删除旧稿第2镜“显示自动识别示意”及其旁白，保留原第1、3镜，实际完成了针对旧稿的修改。"
+    },
+    {
+      "field": "topic",
+      "requirement": "保留可确认的产品功能",
+      "verdict": "met",
+      "evidence": "当前第1镜保留“剪影练习版支持为视频添加字幕。”，第2镜保留“字幕文字可以手动编辑。”；rules_check已分别核对P01.F1、P01.F2并通过。"
+    },
+    {
+      "field": "topic",
+      "requirement": "明确处理无法确认的说法",
+      "verdict": "met",
+      "evidence": "“自动识别人声，字幕准确率达到99%。”及对应示意镜头均已删除。editor_notes准确说明缺少功能依据及准确率测试数据，并明确删除不代表确认产品不支持该能力；处理说明未混入观众看到或听到的内容。"
+    },
+    {
+      "field": "audience",
+      "requirement": "新手内容创作者",
+      "verdict": "met",
+      "evidence": "两镜分别介绍添加字幕和手动编辑文字，表述简短直白，没有需要专业背景才能理解的术语。"
+    },
+    {
+      "field": "platform",
+      "requirement": "小红书",
+      "verdict": "met",
+      "evidence": "标题“口播字幕小帮手”主题明确，两镜配简短功能说明，适合作为小红书上的简短工具介绍；原始需求未限定画幅或互动结尾。"
+    },
+    {
+      "field": "style",
+      "requirement": "客观",
+      "verdict": "met",
+      "evidence": "面向观众的两句功能文案均有已核对来源，未保留自动识别或99%准确率承诺，也未添加效果夸大。"
+    },
+    {
+      "field": "style",
+      "requirement": "实用",
+      "verdict": "met",
+      "evidence": "第1镜说明可以添加字幕，第2镜说明字幕文字可手动编辑，并配“便签上手改错字”画面，提供清楚的功能用途。"
+    }
+  ],
+  "summary": "需求已落实：保留两项已确认的字幕功能，删除无依据的自动识别及99%准确率说法，并在审稿备注中准确交代处理原因。整体节奏偏舒缓。",
+  "method": "model_assessment_not_deterministic_proof",
+  "expressions": [
+    {
+      "location": "title",
+      "text": "口播字幕小帮手",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "这是字幕主题的形象化标题，没有承诺自动生成、识别准确率或具体效率效果。"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "桌上的采访话筒",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "仅安排采访话筒这一场景道具，没有声称产品具备录音或自动识别能力。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "便签上手改错字",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "仅描述在便签上手动改字的拍摄动作，未虚构产品按钮、界面布局或操作流程。"
+    }
+  ],
+  "pacing": {
+    "verdict": "met",
+    "evidence": "第1镜预计8秒，承载14个口播单位与话筒场景展示；第2镜预计8秒，承载10个口播单位及手改错字动作。两镜分别介绍不同功能，停留可用于听读和观察，节奏偏舒缓但未见明显重复凑时长。总长16秒已通过28秒上限检查，editor_notes不参与计时。"
+  },
+  "expression_review_passed": true
+}
+```
+
+## 执行路径
+
+estimate_duration → check_rules → search_materials → write_script → estimate_duration → check_rules → check_requirements → finish
+
+逐步参数、观察和简短决策依据见 trace.jsonl。未记录模型内部思维过程。

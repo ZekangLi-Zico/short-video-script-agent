@@ -1,0 +1,45 @@
+Browser tab: 1, Title: "脚本试验台 · 短视频 Agent", URL: "http://127.0.0.1:8765/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 3375-3379
+~				12 button (disabled) 重置, ID: reset-button
+~				14 pop up button (disabled, collapsed, settable) 载入测试场景, Value: 自定义需求, ID: preset, Secondary Actions: Expand
+~				27 text entry area (disabled) 主题, Value: 介绍剪影练习版的三个方面：为视频添加和手动编辑字幕、裁剪视频片段、横竖屏比例选项。每个方面都要出现。, ID: topic
+~				29 text field (disabled) 给谁看, Value: 第一次接触视频制作工具的人, ID: audience
+~				31 pop up button (disabled, collapsed, settable) 发布平台, Value: 抖音, ID: platform, Secondary Actions: Expand
+~				39 stepper (disabled, settable, integer) 目标时长 秒, Value: 45, ID: target-seconds
+~				41 text field (disabled) 表达风格, Value: 清晰、少口号, ID: style
+~				43 pop up button (disabled, collapsed, settable) 使用的产品资料, Value: 剪影练习版 · 示例素材, ID: product, Secondary Actions: Expand
+~				50 pop up button (disabled, collapsed, settable) 运行方式, Value: 真实模型 · Codex, ID: provider, Secondary Actions: Expand
+~				58 button (disabled) 正在生成与检查…, ID: run-button
++			3383 button 停止后续步骤, ID: cancel-button
+~				65 tab (selected, settable, boolean) 执行过程 5, ID: tab-trace, Value: 1
+执行过程
+5
+~				66 tab (selectable, settable, boolean) 原始结果, Value: 0, ID: tab-raw
+~				69 pop up button (disabled, collapsed, settable) Description: 查看最近运行, Value: 11/03 23:14:03 · 模型 · 检查通过 · 给第一次拍口播的人介绍剪影练习, ID: history, Secondary Actions: Expand
++			3384 container Description: 执行过程 5, ID: panel-trace
++				3385 heading 每一步，都有记录。, Value: 2
++					3386 text 每一步，都有记录。
++				3387 text 这里展示实际工具调用、观察结果与简短动作依据。
++				3388 content list timeline
++					3389 container
++						3390 text 1 检索素材 已执行 16.8 s 当前尚无已检索事实，需要获取字幕功能的可引用素材。 检索“demo-editor 剪影练习版 为视频添加字幕 手动编辑字幕文字”：找到 3 条素材
++						3391 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
++							3392 text 查看参数与返回结果
++					3393 container
++						3394 text 2 生成 / 修订脚本 已执行 36.3 s 已检索到添加字幕与手动编辑字幕文字的事实，可据此编排分镜。 已更新草稿，必须对本稿重新运行时长与规则检查
++						3395 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
++							3396 text 查看参数与返回结果
++					3397 container
++						3398 text 3 估算时长 已执行 15.1 s 当前稿尚未检查时长，需要确认是否符合30秒上限。 预计 25 秒 / 上限 30 秒，符合上限
++						3399 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
++							3400 text 查看参数与返回结果
++					3401 container
++						3402 text 4 检查事实与规则 已执行 14.9 s 当前稿估算25秒，已通过时长检查，尚未进行规则检查。 检查通过，核对 2 处事实引用
++						3403 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
++							3404 text 查看参数与返回结果
++					3405 container
++						3406 text 5 结束任务 已执行 16.7 s 当前同一稿的时长检查和规则检查均已通过。 检查通过
++						3407 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
++							3408 text 查看参数与返回结果
+The focused UI element is 0 AXWebArea 脚本试验台 · 短视频 Agent, URL: 127.0.0.1:8765/

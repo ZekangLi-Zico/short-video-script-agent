@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-evbqacig",
+  "started_at": "2026-11-04T16:05:23.330856+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:06:00.314422+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a74e-d5d4-7a21-8971-e667222a5736",
+    "usage": {
+      "input_tokens": 27665,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 541,
+      "reasoning_output_tokens": 415
+    },
+    "call_id": "decision-evbqacig",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-iask6iue",
+  "started_at": "2026-11-04T01:44:56.990378+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:45:15.603706+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a43b-149b-7ba0-81db-5b0afc2c4019",
+    "usage": {
+      "input_tokens": 30751,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 100,
+      "reasoning_output_tokens": 41
+    },
+    "call_id": "decision-iask6iue",
+    "warnings": []
+  }
+}

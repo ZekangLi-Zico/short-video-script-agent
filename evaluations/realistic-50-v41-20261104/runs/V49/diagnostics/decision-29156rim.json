@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-29156rim",
+  "started_at": "2026-11-04T01:51:16.964570+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:52:04.378838+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a440-f3ff-78e1-9b49-ae675e1b4d4f",
+    "usage": {
+      "input_tokens": 30044,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 115,
+      "reasoning_output_tokens": 59
+    },
+    "call_id": "decision-29156rim",
+    "warnings": []
+  }
+}

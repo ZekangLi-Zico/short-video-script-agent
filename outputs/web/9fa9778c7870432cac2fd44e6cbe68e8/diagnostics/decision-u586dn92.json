@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-u586dn92",
+  "started_at": "2026-11-04T15:00:32.451801+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:01:14.092201+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a713-78cf-7751-a919-189ef62d6240",
+    "usage": {
+      "input_tokens": 29355,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 181,
+      "reasoning_output_tokens": 114
+    },
+    "call_id": "decision-u586dn92",
+    "warnings": []
+  }
+}

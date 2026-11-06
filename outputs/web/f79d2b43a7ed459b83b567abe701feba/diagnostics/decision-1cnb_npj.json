@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-1cnb_npj",
+  "started_at": "2026-11-04T14:53:48.257365+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T14:54:18.024199+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a70d-5a7a-7da1-9f05-16779c1fec6e",
+    "usage": {
+      "input_tokens": 31193,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 169,
+      "reasoning_output_tokens": 92
+    },
+    "call_id": "decision-1cnb_npj",
+    "warnings": []
+  }
+}

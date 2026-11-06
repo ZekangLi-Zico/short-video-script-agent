@@ -1,0 +1,13 @@
+{
+  "case": "V25",
+  "index": 14,
+  "attempt": 1,
+  "run_id": "102e67f82f2b4cc28e1fc2da1b89ab2d",
+  "folder": "V25",
+  "status": "completed",
+  "steps": 8,
+  "responses": 10,
+  "provider": "codex",
+  "seconds": 19.8,
+  "message": "已完成《给课程录像添加字幕》三镜脚本，预计19.8秒。保留指定教室背景，仅介绍字幕添加，已删除手动编辑功能内容，全部检查通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

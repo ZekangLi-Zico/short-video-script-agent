@@ -1,0 +1,13 @@
+{
+  "case": "V32",
+  "index": 31,
+  "attempt": 1,
+  "run_id": "aa08841e46594241a2f4fc0ef5ce8d71",
+  "folder": "V32",
+  "status": "completed",
+  "steps": 4,
+  "responses": 5,
+  "provider": "codex",
+  "seconds": 24,
+  "message": "已完成三分镜脚本：以笔记本、字幕示意卡和讲义夹展示添加字幕、手动改字及核对步骤。每镜8秒，预计共24秒，全部检查通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

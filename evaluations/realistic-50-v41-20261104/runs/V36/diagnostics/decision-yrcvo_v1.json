@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-yrcvo_v1",
+  "started_at": "2026-11-04T01:38:40.313923+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:39:29.716890+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a435-5511-7e93-bc4a-8a1689ffac67",
+    "usage": {
+      "input_tokens": 27725,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1245,
+      "reasoning_output_tokens": 794
+    },
+    "call_id": "decision-yrcvo_v1",
+    "warnings": []
+  }
+}

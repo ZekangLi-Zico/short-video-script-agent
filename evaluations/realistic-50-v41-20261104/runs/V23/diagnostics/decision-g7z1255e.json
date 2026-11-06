@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-g7z1255e",
+  "started_at": "2026-11-04T01:25:07.885654+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:25:50.497992+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a428-ef4d-7080-bc6a-b61b6295e43a",
+    "usage": {
+      "input_tokens": 27670,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 835,
+      "reasoning_output_tokens": 491
+    },
+    "call_id": "decision-g7z1255e",
+    "warnings": []
+  }
+}

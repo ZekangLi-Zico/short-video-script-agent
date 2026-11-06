@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-pvgmou3u",
+  "started_at": "2026-11-03T21:16:04.505270+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:16:22.201662+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a344-eaa1-7933-ba6d-b64286135cfe",
+    "usage": {
+      "input_tokens": 35596,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 288,
+      "reasoning_output_tokens": 153
+    },
+    "call_id": "decision-pvgmou3u",
+    "warnings": []
+  }
+}

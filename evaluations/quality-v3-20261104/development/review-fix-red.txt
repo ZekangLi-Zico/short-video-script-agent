@@ -1,0 +1,24 @@
+test_malformed_pacing_verdict_is_recorded_not_an_uncaught_crash (tests.test_quality.RevisionQualityTests.test_malformed_pacing_verdict_is_recorded_not_an_uncaught_crash) ... ERROR
+
+======================================================================
+ERROR: test_malformed_pacing_verdict_is_recorded_not_an_uncaught_crash (tests.test_quality.RevisionQualityTests.test_malformed_pacing_verdict_is_recorded_not_an_uncaught_crash)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_quality.py", line 156, in test_malformed_pacing_verdict_is_recorded_not_an_uncaught_crash
+    result=Agent(Malformed(),ToolBox()).run(brief())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\src\agent.py", line 126, in run
+    observation = review_observation(review, request, state['script'], args['rules_check'])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\src\requirements.py", line 77, in review_observation
+    expression_passed = validate_expression_review(review, request, script, rules_check)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\src\expression.py", line 62, in validate_expression_review
+    or pacing['verdict'] not in {'met','unmet','uncertain'}
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+FAILED (errors=1)

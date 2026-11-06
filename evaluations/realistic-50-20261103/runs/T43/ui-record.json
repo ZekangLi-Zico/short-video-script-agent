@@ -1,0 +1,13 @@
+{
+  "case_id": "T43",
+  "capture_mode": "fullPage",
+  "finished_capture_at": "2026-11-03T15:03:50.907Z",
+  "busy": false,
+  "detail": "真实模型 · 7 个执行步骤",
+  "download": "/api/runs/545b560fe736431e9a963df642b05aff/download/output.json",
+  "error": "",
+  "history": "545b560fe736431e9a963df642b05aff",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "save": "记录已保存 · 545b560f",
+  "status": "检查通过"
+}

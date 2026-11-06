@@ -1,0 +1,16 @@
+{
+  "input_matches_frozen": true,
+  "replay_errors": [],
+  "provider": "codex",
+  "actual_model_responses": 2,
+  "fault_injection": {},
+  "sha256": {
+    "input.json": "22f25fd0e1f6eaa02705f5840d8eda0cc90e97808e4f1d20057c80f0e9e6da2a",
+    "output.json": "e8c25ea685e1e93b25226e3c533ba71314a8eaa58bc484140ac28a8342b2498b",
+    "trace.jsonl": "65025d3aabc4069f3b29c8074f206edc743a50582432ac3481e27cf60bee5a9f",
+    "manifest.json": "8339cd54724016f261b0b01eac07514af0e033463dae600c3331411b24cfc086",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "c8abb2262b14bfd0fec29bfa8faff3c490381a384bc83fb29cc83a0f30e2d3ce",
+    "page.jpg": "29fa878e33db63cb8733d7830ffc6841308d57821ba20a189c007817cf5d0bd8"
+  }
+}

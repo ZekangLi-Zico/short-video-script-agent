@@ -1,0 +1,16 @@
+{
+  "id": "T23",
+  "name": "字幕文件交付",
+  "context": "工作室要向客户交付独立字幕文件。",
+  "request": {
+    "topic": "介绍剪影练习版导出SRT字幕文件的操作和适用场景，我们要把字幕文件交给合作剪辑师。",
+    "audience": "小型视频工作室",
+    "platform": "B站",
+    "style": "专业、具体",
+    "product_id": "demo-editor",
+    "target_seconds": 30
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

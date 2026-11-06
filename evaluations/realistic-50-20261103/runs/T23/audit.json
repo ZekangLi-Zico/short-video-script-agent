@@ -1,0 +1,68 @@
+{
+  "case": "T23",
+  "name": "字幕文件交付",
+  "run_id": "b8baba1b32a64ea5bc839ca571ce539b",
+  "status": "needs_input",
+  "message": "现有素材仅能确认字幕添加和手动编辑，无法确认是否支持SRT导出。请补充可引用的SRT导出支持情况、操作步骤及向合作剪辑师交付的适用场景说明，以继续制作30秒脚本。",
+  "steps": 3,
+  "model_calls": 3,
+  "seconds": null,
+  "target_seconds": 30,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "search_materials",
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "剪影练习版 demo-editor 导出SRT字幕文件的操作步骤、适用场景，以及向合作剪辑师交付字幕文件的说明",
+    "SRT .srt 字幕文件导出：是否支持、导出入口、操作步骤、向合作剪辑师交付的适用场景"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前没有可引用的SRT导出操作和字幕交付素材。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "basis": "现有素材仅说明字幕添加和编辑，缺少SRT导出能力、操作及交付说明，需改用专项关键词检索。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "basis": "两次检索均未找到SRT导出操作及字幕文件交付的依据。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 70.7,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "053f02012d79669cc93fcb7b9890bc0d08d24143bbe920f9be19d811c4931c50",
+    "output.json": "d5b84cefe42d19c643ee41f431da36b2176da31e8c3f3c257c1243f9020ee088",
+    "trace.jsonl": "716dd635ae54a6f652f0d7964cae787547a3ca886f0a05109fbb8738191f4ebf",
+    "manifest.json": "f310eba02610c086fd38b9f7ade120c39c78527370971a7a1bf0322ef290db4b",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "a868e2b797b465d20812586dbdc9edb5a5698421b2cc26e5672fd0a1e7353b5f"
+  }
+}

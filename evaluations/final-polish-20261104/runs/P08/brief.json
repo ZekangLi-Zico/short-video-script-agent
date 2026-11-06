@@ -1,0 +1,26 @@
+{
+  "id": "P08",
+  "source": "recoverable_failure",
+  "name": "recoverable_failure",
+  "request": {
+    "topic": "介绍字幕功能",
+    "audience": "第一次制作口播短视频的创作者",
+    "platform": "抖音",
+    "target_seconds": 30,
+    "style": "清楚、友好、克制",
+    "product_id": "demo-editor",
+    "expression_mode": "strict",
+    "duration_mode": "max"
+  },
+  "failures": {
+    "search_materials": 1
+  },
+  "original_request": {
+    "topic": "介绍字幕功能",
+    "audience": "第一次制作口播短视频的创作者",
+    "platform": "抖音",
+    "target_seconds": 30,
+    "style": "清楚、友好、克制",
+    "product_id": "demo-editor"
+  }
+}

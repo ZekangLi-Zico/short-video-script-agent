@@ -23,7 +23,15 @@ test_http_error_does_not_echo_provider_body_or_key (test_providers.ProviderTests
 test_json_markdown_or_text_is_not_silently_accepted (test_providers.ProviderTests.test_json_markdown_or_text_is_not_silently_accepted) ... ok
 test_missing_credentials_have_no_fallback (test_providers.ProviderTests.test_missing_credentials_have_no_fallback) ... ok
 test_responses_adapter_sends_observation_and_schema (test_providers.ProviderTests.test_responses_adapter_sends_observation_and_schema) ... ok
+test_review_uses_separate_schema_and_original_request_without_writer_history (test_providers.ProviderTests.test_review_uses_separate_schema_and_original_request_without_writer_history) ... ok
 test_timeout_terminates_only_the_created_process_tree (test_providers.ProviderTests.test_timeout_terminates_only_the_created_process_tree) ... ok
+test_completed_script_preserves_model_explanation_in_delivery (test_repairs.RepairTests.test_completed_script_preserves_model_explanation_in_delivery) ... ok
+test_model_start_failure_is_not_evidence_of_business_negative_case (test_repairs.RepairTests.test_model_start_failure_is_not_evidence_of_business_negative_case) ... ok
+test_review_receives_actual_fact_evidence_for_current_script (test_repairs.RepairTests.test_review_receives_actual_fact_evidence_for_current_script) ... ok
+test_revision_invalidates_requirement_review_even_after_other_rechecks (test_repairs.RepairTests.test_revision_invalidates_requirement_review_even_after_other_rechecks) ... ok
+test_two_checks_alone_cannot_claim_all_requirements_completed (test_repairs.RepairTests.test_two_checks_alone_cannot_claim_all_requirements_completed) ... ok
+test_uncertain_or_invalid_review_cannot_be_accepted (test_repairs.RepairTests.test_uncertain_or_invalid_review_cannot_be_accepted) ... ok
+test_unmet_requirement_is_feedback_not_success_and_reported (test_repairs.RepairTests.test_unmet_requirement_is_feedback_not_success_and_reported) ... ok
 test_boundary_duration_is_allowed (test_tools.ToolTests.test_boundary_duration_is_allowed) ... ok
 test_cannot_fake_duration_by_zeroing_holds (test_tools.ToolTests.test_cannot_fake_duration_by_zeroing_holds) ... ok
 test_changed_query_changes_result (test_tools.ToolTests.test_changed_query_changes_result) ... ok
@@ -58,6 +66,6 @@ test_restart_restores_saved_runs_without_running_models (test_web.WebTests.test_
 test_setup_error_is_visible_not_fake_completion (test_web.WebTests.test_setup_error_is_visible_not_fake_completion) ... ok
 
 ----------------------------------------------------------------------
-Ran 58 tests in 5.475s
+Ran 66 tests in 5.579s
 
 OK

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ub30g033",
+  "started_at": "2026-11-04T01:18:05.099055+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:18:25.541014+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a422-7b54-7502-80ec-813fd5728e2a",
+    "usage": {
+      "input_tokens": 38755,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 346,
+      "reasoning_output_tokens": 205
+    },
+    "call_id": "decision-ub30g033",
+    "warnings": []
+  }
+}

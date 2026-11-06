@@ -1,0 +1,14 @@
+test_complete_review_binds_every_exposed_surface (tests.test_quality.CreativeQualityTests.test_complete_review_binds_every_exposed_surface) ... ok
+test_free_scene_is_reviewable_but_strict_mode_still_rejects (tests.test_quality.CreativeQualityTests.test_free_scene_is_reviewable_but_strict_mode_still_rejects) ... ok
+test_hidden_claim_or_uncertainty_cannot_pass (tests.test_quality.CreativeQualityTests.test_hidden_claim_or_uncertainty_cannot_pass) ... ok
+test_invalid_mode_is_invalid_input (tests.test_quality.CreativeQualityTests.test_invalid_mode_is_invalid_input) ... ok
+test_missing_duplicate_or_changed_surface_is_invalid (tests.test_quality.CreativeQualityTests.test_missing_duplicate_or_changed_surface_is_invalid) ... ok
+test_no_current_rules_evidence_cannot_pass_creative_review (tests.test_quality.CreativeQualityTests.test_no_current_rules_evidence_cannot_pass_creative_review) ... ok
+test_review_failure_cannot_be_finished_as_completed (tests.test_quality.CreativeQualityTests.test_review_failure_cannot_be_finished_as_completed) ... ok
+test_semantic_claim_needs_real_retrieved_reference (tests.test_quality.CreativeQualityTests.test_semantic_claim_needs_real_retrieved_reference) ... ok
+test_supported_fact_still_requires_exact_retrieved_quote (tests.test_quality.CreativeQualityTests.test_supported_fact_still_requires_exact_retrieved_quote) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.012s
+
+OK

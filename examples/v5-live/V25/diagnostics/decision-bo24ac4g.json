@@ -1,0 +1,24 @@
+{
+  "call_id": "decision-bo24ac4g",
+  "started_at": "2026-11-04T15:44:27.334217+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "cleanup_error_type": "PermissionError",
+  "finished_at": "2026-11-04T15:45:25.415856+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a73b-b14c-78a1-b037-ed6ef1e95dba",
+    "usage": {
+      "input_tokens": 38032,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 975,
+      "reasoning_output_tokens": 452
+    },
+    "call_id": "decision-bo24ac4g",
+    "warnings": [
+      "cleanup_deferred"
+    ]
+  }
+}

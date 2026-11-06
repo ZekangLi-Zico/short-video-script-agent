@@ -1,0 +1,16 @@
+{
+  "id": "N03",
+  "status": "completed",
+  "steps": 6,
+  "model_responses": 7,
+  "duration": 15.0,
+  "path": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "check_requirements",
+    "finish"
+  ],
+  "message": "脚本已完成，估算15秒，符合20秒上限，无需再删改。画面依次为巷口、门牌、门口，介绍添加字幕及手动编辑字幕文字，最后提醒核对地址和门牌。未涉及裁剪，也未虚构导航、翻译或识别能力。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

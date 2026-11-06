@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-wsu_rpj9",
+  "started_at": "2026-11-04T16:01:58.311999+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:03:27.228067+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a74b-b53e-7763-91e6-3d5df80441b3",
+    "usage": {
+      "input_tokens": 28772,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2430,
+      "reasoning_output_tokens": 896
+    },
+    "call_id": "decision-wsu_rpj9",
+    "warnings": []
+  }
+}

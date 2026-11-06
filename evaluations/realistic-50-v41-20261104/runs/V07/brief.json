@@ -1,0 +1,18 @@
+{
+  "id": "V07",
+  "name": "服装店换季展示",
+  "context": "店员需要制作货架介绍视频。",
+  "request": {
+    "topic": "介绍裁剪片段和横竖屏比例选择，以衣架、面料特写、整排货架为背景。恰好四个分镜，最后一镜回到整排货架。",
+    "audience": "小型服装店店员",
+    "platform": "抖音",
+    "target_seconds": 24,
+    "style": "明快，不喊促销口号",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "target"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

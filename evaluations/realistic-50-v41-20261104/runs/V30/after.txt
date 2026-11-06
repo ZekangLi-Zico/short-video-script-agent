@@ -1,0 +1,179 @@
+- banner:
+  - link "脚本试验台首页":
+    - /url: /
+    - generic: 脚本试验台
+  - generic: 本地人工测试
+- main:
+  - heading "从一个需求，到一份可核验的脚本。" [level=1]
+  - paragraph: 填入创作需求，观察 Agent 如何查资料、写分镜，再根据检查结果修订。
+  - generic: 第 4 题 · 短视频脚本 Agent
+  - complementary "创作需求与测试设置":
+    - heading "创作需求" [level=2]
+    - button "重置"
+    - generic: 载入测试场景
+    - combobox "载入测试场景":
+      - option "自定义需求" [selected]
+      - option "正常生成"
+      - option "缺少关键信息"
+      - option "没有产品素材"
+      - option "工具持续失败"
+      - option "一次故障后恢复"
+      - option "38 秒旧稿修订"
+      - option "无依据宣传纠错"
+      - option "无法满足的时长"
+    - paragraph: 需求已修改，将按当前内容运行。
+    - generic: 主题
+    - textbox "主题":
+      - /placeholder: 例如：面向新手，介绍为口播视频添加字幕
+      - text: 八秒内必须讲完字幕添加、片段裁剪和横竖屏比例三个功能，各出现一次。画面不用人物，不允许把三项合并成一句含糊的“多功能编辑”。
+    - generic: 给谁看
+    - textbox "给谁看":
+      - /placeholder: 描述你的目标受众
+      - text: 广告位快速浏览者
+    - generic: 发布平台
+    - combobox "发布平台":
+      - option "抖音" [selected]
+      - option "小红书"
+      - option "视频号"
+      - option "B站"
+    - generic: 目标时长 秒
+    - spinbutton "目标时长 秒": "8"
+    - generic: 时长要求
+    - combobox "时长要求":
+      - option "不超过目标秒数" [selected]
+      - option "接近目标（90%–100%）"
+    - generic: 创作方式
+    - combobox "创作方式":
+      - option "场景创作 · 保留事实来源与表达审核" [selected]
+      - option "严格引用 · 仅用原版批准表达"
+    - generic: 表达风格
+    - textbox "表达风格": 信息优先，紧凑
+    - generic: 使用的产品资料
+    - combobox "使用的产品资料":
+      - option "剪影练习版 · 示例素材" [selected]
+      - option "无素材产品 · 测试资料不足"
+    - generic "查看可用素材"
+    - generic: 运行方式
+    - combobox "运行方式":
+      - option "真实模型 · Codex" [selected]
+      - option "离线演练 · Mock"
+      - option "模型 API" [disabled]
+    - paragraph: 调用本机已登录的 Codex，通常需要一到数分钟。
+    - generic "测试设置与旧稿"
+    - generic: 工具故障模拟
+    - combobox "工具故障模拟":
+      - option "不注入故障" [selected]
+      - option "素材检索失败一次"
+      - option "素材检索持续失败"
+      - option "时长工具持续失败"
+      - option "规则工具持续失败"
+    - generic: 待修订旧稿 JSON，可选
+    - textbox "待修订旧稿 JSON，可选":
+      - /placeholder: 载入超时或纠错场景后，可在这里编辑旧稿。
+    - paragraph: 留空则生成新稿。停止任务会等待当前模型调用返回，不会开始下一步。
+    - button "生成并检查":
+      - generic: 生成并检查
+    - paragraph: 真实模型运行会使用当前账号的额度。
+  - region "运行结果":
+    - generic: 需要补充
+    - generic: 真实模型 · 5 个执行步骤
+    - tablist "结果视图":
+      - tab "脚本预览"
+      - tab "执行过程 5" [selected]:
+        - text: 执行过程
+        - generic: "5"
+      - tab "原始结果"
+    - text: 最近运行
+    - combobox "查看最近运行":
+      - option "选择一条记录"
+      - option "11/04 09:30:36 · 模型 · 需要补充 · 八秒内必须讲完字幕添加、片段裁" [selected]
+      - option "11/04 09:25:49 · 模型 · 检查通过 · 介绍字幕添加，背景是擦净的黑板"
+      - option "11/04 09:23:29 · 模型 · 需要补充 · 介绍横竖屏比例选项，用中文旁白"
+      - option "11/04 09:18:45 · 模型 · 检查通过 · 介绍手动编辑字幕文字，全部画面"
+      - option "11/04 09:13:54 · 模型 · 检查通过 · 介绍裁剪片段、字幕添加和横竖屏"
+      - option "11/04 09:09:51 · 模型 · 检查通过 · 介绍字幕添加与手动改字，给第一"
+      - option "11/04 09:05:50 · 模型 · 检查通过 · 介绍裁剪片段和横竖屏比例选择，"
+      - option "11/04 09:03:13 · 模型 · 检查通过 · 做一条工具介绍，说明可为领养日"
+      - option "11/04 09:02:10 · 模型 · 检查通过 · 介绍裁剪视频片段与添加字幕。用"
+      - option "11/04 08:59:02 · 模型 · 检查通过 · 介绍字幕添加和手动编辑字幕文字"
+      - option "11/04 08:59:03 · 模型 · 检查通过 · 用陶艺作品展素材介绍横屏与竖屏"
+      - option "11/04 08:55:23 · 模型 · 检查通过 · 以古镇步行素材为背景介绍裁剪视"
+      - option "11/04 08:55:22 · 模型 · 检查通过 · 做一条剪影练习版字幕功能介绍，"
+      - option "11/04 07:16:51 · 模型 · 检查通过 · 介绍字幕功能"
+      - option "11/04 07:14:56 · 模型 · 未完成 · 介绍字幕功能"
+      - option "11/04 07:12:03 · 模型 · 检查通过 · 审核并修改所附字幕介绍旧稿；客"
+      - option "11/04 07:13:17 · 模型 · 需要补充 · 介绍字幕功能"
+      - option "11/04 07:12:55 · 模型 · 需要补充 · 介绍字幕功能"
+      - option "11/04 07:09:36 · 模型 · 检查通过 · 把所附旧稿压缩到25秒以内，保"
+      - option "11/04 07:06:08 · 模型 · 检查通过 · 审核并修改所附字幕介绍旧稿；客"
+      - option "11/04 07:06:09 · 模型 · 检查通过 · 做一条剪影练习版字幕功能介绍，"
+      - option "11/04 06:22:38 · 模型 · 检查通过 · 做一条剪影练习版字幕功能介绍，"
+      - option "11/04 06:20:11 · 模型 · 检查通过 · 把所附旧稿压缩到15秒以内，保"
+      - option "11/04 06:18:53 · 模型 · 检查通过 · 把所附旧稿改成只介绍添加字幕，"
+      - option "11/04 06:16:35 · 模型 · 检查通过 · 所附旧稿四个镜头顺序与数量不能"
+      - option "11/04 06:12:46 · 模型 · 检查通过 · 审核并修改所附字幕介绍旧稿；客"
+      - option "11/04 06:12:45 · 模型 · 检查通过 · 把所附旧稿压缩到25秒以内，保"
+      - option "11/04 06:11:28 · 模型 · 需要补充 · 为虚构摄影课“周末街拍入门”写"
+      - option "11/04 06:11:27 · 模型 · 需要补充 · 为虚构游戏活动“星港周末赛”写"
+      - option "11/04 06:10:05 · 模型 · 需要补充 · 给虚构门店“晨光面包房”写新品"
+      - option "11/04 06:10:06 · 模型 · 需要补充 · 给虚构产品“山径露营灯”做新品"
+      - option "11/04 06:08:53 · 模型 · 需要补充 · 介绍视频能否导出4K、是否有水"
+    - status: 现稿保留三项功能各一次、无人物，但估时12.8秒，无法满足8秒上限，尚未完成全部检查。本轮未删减或合并功能。需要项目维护者补充分别介绍字幕添加、片段裁剪、横竖屏比例的更短可引用事实原文，再修订并重新检查。
+    - text: 预计时长
+    - strong: 12.8 秒 / ≤8 秒
+    - text: 事实与规则
+    - strong: 待检查
+    - text: 需求核对
+    - strong: 未执行
+    - text: 引用素材
+    - strong: "0"
+    - tabpanel "执行过程 5":
+      - heading "每一步，都有记录。" [level=2]
+      - paragraph: 这里展示实际工具调用、观察结果与简短动作依据。
+      - list:
+        - generic: "1"
+        - strong: 检索素材
+        - generic: 已执行
+        - generic: 30.3 s
+        - paragraph: 当前尚无素材，需要检索三项功能的可引用事实。
+        - paragraph: 检索“demo-editor 字幕添加、片段裁剪、横竖屏比例三个功能的简短独立事实，用于八秒内各介绍一次，不出现人物。”：找到 3 条素材
+        - generic "查看参数与返回结果"
+        - generic: "2"
+        - strong: 生成 / 修订脚本
+        - generic: 已执行
+        - generic: 49.6 s
+        - paragraph: 已取得三项功能的独立事实，生成无人物的最简三镜稿，随后核验是否满足八秒上限。
+        - paragraph: 已更新草稿，必须对本稿重新运行时长、规则与需求检查
+        - generic "查看参数与返回结果"
+        - generic: "3"
+        - strong: 估算时长
+        - generic: 需要处理
+        - generic: 35.0 s
+        - paragraph: 当前三镜稿尚未估时，需要核验是否符合八秒上限。
+        - paragraph: 预计 12.8 秒 / 上限 8 秒，需要压缩脚本
+        - generic "查看参数与返回结果"
+        - generic: "4"
+        - strong: 检索素材
+        - generic: 已执行
+        - generic: 34.0 s
+        - paragraph: 当前三项事实原文估时12.8秒，且无额外停留可压缩，需要查找更短的可引用原文。
+        - paragraph: 检索“demo-editor 是否有已收录的更短事实原文，分别明确支持添加字幕、裁剪视频片段、横屏和竖屏比例选项？优先检索不重复产品名称的简短独立表述，用于八秒内三项各介绍一次。”：找到 3 条素材
+        - generic "查看参数与返回结果"
+        - generic: "5"
+        - strong: 结束任务
+        - generic: 已执行
+        - generic: 47.3 s
+        - paragraph: 三项事实原文估时12.8秒，镜头无额外停留可压缩，再次检索未找到更短原文。
+        - paragraph: 需要补充
+        - generic "查看参数与返回结果"
+    - generic: 记录已保存 · db1ff04c
+    - link "下载脚本":
+      - /url: /api/runs/db1ff04c220d40f9ab3c0295fa253897/download/script.md
+    - link "下载 Trace":
+      - /url: /api/runs/db1ff04c220d40f9ab3c0295fa253897/download/trace.jsonl
+    - link "下载 JSON":
+      - /url: /api/runs/db1ff04c220d40f9ab3c0295fa253897/download/output.json
+    - link "下载检查点":
+      - /url: /api/runs/db1ff04c220d40f9ab3c0295fa253897/download/checkpoint.json
+  - generic: 本地运行 · 合成素材 · 只生成脚本
+  - generic: 先核对事实，再判断表达。

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-pyb9lfuu",
+  "started_at": "2026-11-03T22:15:30.743537+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:16:07.862696+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a37b-5572-7692-835b-31b83fe53e51",
+    "usage": {
+      "input_tokens": 34312,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1051,
+      "reasoning_output_tokens": 811
+    },
+    "call_id": "decision-pyb9lfuu",
+    "warnings": []
+  }
+}

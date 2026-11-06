@@ -1,0 +1,16 @@
+{
+  "id": "T46",
+  "name": "新门店资料",
+  "context": "门店老板第一次打开工具，资料还没有录入。",
+  "request": {
+    "topic": "为虚构的“晴天烘焙”写周末新品介绍视频，想突出刚出炉的面包，但我还没有上传具体产品资料。",
+    "audience": "附近上班族",
+    "platform": "小红书",
+    "style": "温暖、生活化",
+    "product_id": "product-without-materials",
+    "target_seconds": 20
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

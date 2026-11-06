@@ -1,0 +1,92 @@
+{
+  "completed": true,
+  "next": 8,
+  "active": [
+    null,
+    null
+  ],
+  "done": [
+    {
+      "case": "P01",
+      "run_id": "50707b8a38134e139864bb330c624449",
+      "status": "completed",
+      "steps": 12,
+      "responses": 14,
+      "provider": "codex",
+      "seconds": 12,
+      "message": "已完成局部修改：保留原标题、添加字幕和手动编辑字幕两项功能及原有顺序；删除未证实的自动识别画面与99%准确率说法；第一镜停留由8秒缩短至4秒。当前稿估时12秒，符合28秒上限，三项检查均通过。删除原因已写入创作者备注；如需恢复相关说法，需向项目维护者提供功能证明及准确率测试资料。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+    },
+    {
+      "case": "P02",
+      "run_id": "6f1071c3cf144b899a8486a915def8f3",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "provider": "codex",
+      "seconds": 13,
+      "message": "分镜稿已完成，预计13秒，符合25秒上限。仅介绍添加字幕，按蒸笼、手写菜单、打包台的顺序呈现早餐备料，各镜均注明不拍顾客正脸。本次无需删改；拍摄前请按实际备料确认情境台词。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+    },
+    {
+      "case": "P03",
+      "run_id": "bb5de717adcc4389b405930f20ed681a",
+      "status": "completed",
+      "steps": 8,
+      "responses": 9,
+      "provider": "codex",
+      "seconds": 12,
+      "message": "已将三镜停留从各15秒缩短为3秒、5秒、4秒，预计总长12秒，符合25秒上限。保留标题“记录里的每句话”、原镜头顺序、画面和全部文案，保留添加字幕与手动改字两项功能，未新增功能。三项检查均通过；时长为估算值。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+    },
+    {
+      "case": "P04",
+      "run_id": "32a9fc9193ff464aa535eb797666e25e",
+      "status": "completed",
+      "steps": 8,
+      "responses": 9,
+      "provider": "codex",
+      "seconds": 16,
+      "message": "已完成审核修改：保留原标题及添加字幕、手动编辑字幕两项已确认功能；删除“自动识别人声，字幕准确率达到99%。”及对应示意镜头，原因已写入审稿备注。当前稿估算16秒，符合28秒上限，三项检查均通过。被删除的说法仍未确认，如需恢复，需向项目维护者补充功能依据和注明测试条件的准确率报告。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+    },
+    {
+      "case": "P05",
+      "run_id": "b054c3e9a4e7418bb932217375740f57",
+      "status": "needs_input",
+      "steps": 0,
+      "responses": 0,
+      "provider": "codex",
+      "seconds": null,
+      "message": "请补充关键字段：target_seconds"
+    },
+    {
+      "case": "P06",
+      "run_id": "ec92d74623f74481ac6798a3524d8127",
+      "status": "needs_input",
+      "steps": 3,
+      "responses": 3,
+      "provider": "codex",
+      "seconds": null,
+      "message": "暂未生成脚本，也未完成时长、规则和需求检查。请将该产品字幕功能的官方说明或经确认可公开引用的功能文案交给项目维护者补充，再继续制作仅介绍字幕功能、30秒以内的脚本。"
+    },
+    {
+      "case": "P07",
+      "run_id": "f335c30a339e4bc98360ba2f544c18e9",
+      "status": "blocked",
+      "steps": 4,
+      "responses": 4,
+      "provider": "codex",
+      "seconds": null,
+      "message": "检索连续三次失败，暂时无法制作有依据的字幕功能介绍。尚未生成脚本，也未完成时长、规则和需求检查。请项目维护者修复检索服务，恢复后再获取字幕功能资料并完成30秒以内的脚本及检查。"
+    },
+    {
+      "case": "P08",
+      "run_id": "3715aa9cc10349e8b6004867a88cb6f9",
+      "status": "completed",
+      "steps": 7,
+      "responses": 8,
+      "provider": "codex",
+      "seconds": 12.8,
+      "message": "已完成《字幕，让表达被看见》4镜脚本，面向口播新手，介绍添加字幕和手动编辑字幕文字。估算12.8秒，符合30秒上限，三项检查均通过，无需进一步删改。字幕画面为示意，实际成片时长以剪辑结果为准。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+    }
+  ],
+  "updated_at": "2026-11-03T23:20:02.357Z",
+  "automation_note": "P08 reset click timed out before submission. Inspected page and filled all fields explicitly. Exactly eight submissions; no model attempt discarded."
+}

@@ -1,0 +1,12 @@
+{
+  "case": "V04",
+  "run_id": "61ba12c389cc471abfa23a1322197c43",
+  "status": "infrastructure_error",
+  "steps": 8,
+  "responses": null,
+  "model_responses_lower_bound": 9,
+  "provider": "codex",
+  "seconds": 11,
+  "actual_model_evidence": "Eight observed tool steps, including one independent model review. Exact response total unavailable because normal artifact saving did not occur.",
+  "message": "启动或保存失败：[WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\\\小影科技笔试\\\\.runtime\\\\decision-ln3emvgh'"
+}

@@ -1,0 +1,6 @@
+test_no_csrf_token_and_foreign_origin_are_rejected (tests.test_web.WebTests.test_no_csrf_token_and_foreign_origin_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.561s
+
+OK

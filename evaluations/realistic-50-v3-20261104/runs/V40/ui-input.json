@@ -1,0 +1,19 @@
+{
+  "port": 8781,
+  "submitted_at": "2026-11-03T19:04:14.822Z",
+  "fields": {
+    "audience": "已经用过旧版的用户",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "8b79da3a57b642b0a9e307aa28f48938",
+    "initial-script": "",
+    "platform": "视频号",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "像公告，具体",
+    "target-seconds": "25",
+    "topic": "写本周新版剪影练习版更新介绍，说明新增加了什么字幕能力、旧版还能否使用。我们没有给版本更新日志。"
+  }
+}

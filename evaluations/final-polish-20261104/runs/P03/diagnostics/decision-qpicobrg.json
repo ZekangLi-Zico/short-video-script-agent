@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-qpicobrg",
+  "started_at": "2026-11-03T23:11:29.294759+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:12:22.429337+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3ae-9456-7db2-9b3a-1caa1e557750",
+    "usage": {
+      "input_tokens": 28074,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2006,
+      "reasoning_output_tokens": 670
+    },
+    "call_id": "decision-qpicobrg",
+    "warnings": []
+  }
+}

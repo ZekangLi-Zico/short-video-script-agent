@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-hs1vrba9",
+  "started_at": "2026-11-04T15:01:10.514744+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:01:41.471986+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a714-0f90-7a53-9d05-a9bbb4ea20aa",
+    "usage": {
+      "input_tokens": 30446,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 150,
+      "reasoning_output_tokens": 81
+    },
+    "call_id": "decision-hs1vrba9",
+    "warnings": []
+  }
+}

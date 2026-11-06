@@ -1,0 +1,24 @@
+{
+  "call_id": "decision-rhod8qqa",
+  "started_at": "2026-11-04T15:01:14.139323+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "cleanup_error_type": "PermissionError",
+  "finished_at": "2026-11-04T15:01:58.319546+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a714-19b8-7703-ab3c-34fd0c173ca3",
+    "usage": {
+      "input_tokens": 31095,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 176,
+      "reasoning_output_tokens": 101
+    },
+    "call_id": "decision-rhod8qqa",
+    "warnings": [
+      "cleanup_deferred"
+    ]
+  }
+}

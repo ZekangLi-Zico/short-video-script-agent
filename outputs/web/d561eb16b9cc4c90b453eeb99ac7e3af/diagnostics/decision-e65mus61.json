@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-e65mus61",
+  "started_at": "2026-11-03T21:01:37.133338+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:01:52.881210+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a337-b1b0-7703-a7d3-6086964f5ea7",
+    "usage": {
+      "input_tokens": 27043,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 147,
+      "reasoning_output_tokens": 73
+    },
+    "call_id": "decision-e65mus61",
+    "warnings": []
+  }
+}

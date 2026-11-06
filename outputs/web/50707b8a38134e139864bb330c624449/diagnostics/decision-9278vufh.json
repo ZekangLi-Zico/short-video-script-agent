@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-9278vufh",
+  "started_at": "2026-11-03T23:07:36.541155+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:07:49.530185+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3ab-07e1-7f43-9423-b65bbcff6aea",
+    "usage": {
+      "input_tokens": 32123,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 102,
+      "reasoning_output_tokens": 41
+    },
+    "call_id": "decision-9278vufh",
+    "warnings": []
+  }
+}

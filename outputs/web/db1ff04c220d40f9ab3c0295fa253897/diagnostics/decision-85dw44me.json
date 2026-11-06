@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-85dw44me",
+  "started_at": "2026-11-04T01:32:31.114648+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:33:05.032097+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a42f-b20d-7811-9bde-64906d6fb5c9",
+    "usage": {
+      "input_tokens": 29491,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 580,
+      "reasoning_output_tokens": 448
+    },
+    "call_id": "decision-85dw44me",
+    "warnings": []
+  }
+}

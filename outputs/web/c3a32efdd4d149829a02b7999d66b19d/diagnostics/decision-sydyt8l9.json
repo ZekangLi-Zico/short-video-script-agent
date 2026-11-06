@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-sydyt8l9",
+  "started_at": "2026-11-03T21:37:00.285106+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:37:20.174801+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a358-1594-7a81-9c41-c1b6db69fc60",
+    "usage": {
+      "input_tokens": 32001,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 97,
+      "reasoning_output_tokens": 35
+    },
+    "call_id": "decision-sydyt8l9",
+    "warnings": []
+  }
+}

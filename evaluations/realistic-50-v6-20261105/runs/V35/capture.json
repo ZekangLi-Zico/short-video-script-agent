@@ -1,0 +1,13 @@
+{
+  "case": "V35",
+  "index": 34,
+  "attempt": 1,
+  "run_id": "31c5951b04ac4f609febfed51660bce4",
+  "folder": "V35",
+  "status": "needs_input",
+  "steps": 3,
+  "responses": 3,
+  "provider": "codex",
+  "seconds": null,
+  "message": "现有说明仅证实可添加字幕、手动编辑字幕文字，不能确认是否支持完全离线修改，也不能确认视频是否上传服务器。本地能打开不构成不会上传的证据。请补充该版本的离线使用说明，以及隐私政策或数据处理说明中涉及视频上传、服务器处理和触发条件的内容；目前尚未完成脚本。"
+}

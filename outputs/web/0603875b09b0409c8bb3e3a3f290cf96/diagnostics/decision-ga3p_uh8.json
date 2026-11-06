@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ga3p_uh8",
+  "started_at": "2026-11-04T15:13:47.683998+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:15:26.792270+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a71f-99c2-7ee3-81d7-0754ddcf4f2a",
+    "usage": {
+      "input_tokens": 28005,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2801,
+      "reasoning_output_tokens": 1034
+    },
+    "call_id": "decision-ga3p_uh8",
+    "warnings": []
+  }
+}

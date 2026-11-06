@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-_vsgveif",
+  "started_at": "2026-11-04T15:24:41.668848+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:25:01.087007+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a729-9504-7963-9f2a-f4b2aa25e6aa",
+    "usage": {
+      "input_tokens": 37997,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 193,
+      "reasoning_output_tokens": 96
+    },
+    "call_id": "decision-_vsgveif",
+    "warnings": []
+  }
+}

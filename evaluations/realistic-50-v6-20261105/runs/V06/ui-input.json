@@ -1,0 +1,19 @@
+{
+  "port": 8834,
+  "submitted_at": "2026-11-04T17:15:21.925Z",
+  "fields": {
+    "audience": "动物救助志愿者",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "a06fcdad56e8439c9661eb8bfe51aee3",
+    "initial-script": "",
+    "platform": "视频号",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "温暖但不煽情",
+    "target-seconds": "28",
+    "topic": "做一条工具介绍，说明可为领养日花絮添加字幕并手动修改文字。画面只拍笼牌、牵引绳和志愿者手部，不使用真实姓名和联系方式。"
+  }
+}

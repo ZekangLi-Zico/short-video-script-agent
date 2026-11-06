@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-czgvyon8",
+  "started_at": "2026-11-04T15:02:04.382568+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:03:36.681906+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a714-e189-7d23-8387-8e5cf1250b78",
+    "usage": {
+      "input_tokens": 28762,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2692,
+      "reasoning_output_tokens": 1034
+    },
+    "call_id": "decision-czgvyon8",
+    "warnings": []
+  }
+}

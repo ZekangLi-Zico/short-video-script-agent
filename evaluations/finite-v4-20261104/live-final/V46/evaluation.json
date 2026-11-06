@@ -1,0 +1,12 @@
+{
+  "case": "V46",
+  "status": "completed",
+  "model_responses": 14,
+  "provider": "codex",
+  "steps": 12,
+  "seconds": 20.5,
+  "review_calls": 2,
+  "review_has_current_duration": true,
+  "replay_errors": [],
+  "message": "已完成旧稿审核与修改：保留原标题、添加字幕和手动编辑功能；删除自动识别示意及99%准确率断言，新增资料不足、无法确认的说明；首镜停留由8秒缩至4秒。当前稿估时20.5秒，符合28秒上限，三项检查均通过。自动识别能力及准确率仍未获证实。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

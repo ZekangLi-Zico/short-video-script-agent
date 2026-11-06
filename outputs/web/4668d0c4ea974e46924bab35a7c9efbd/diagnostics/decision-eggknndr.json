@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-eggknndr",
+  "started_at": "2026-11-03T21:52:59.233886+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:53:46.125498+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a366-b569-7113-a5e2-2377e1637acd",
+    "usage": {
+      "input_tokens": 26848,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 620,
+      "reasoning_output_tokens": 380
+    },
+    "call_id": "decision-eggknndr",
+    "warnings": []
+  }
+}

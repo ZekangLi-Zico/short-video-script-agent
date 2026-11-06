@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-qeuag98l",
+  "started_at": "2026-11-04T21:10:30.561417+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T21:11:14.514432+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a866-30b3-7b42-b385-6b26f5590bfc",
+    "usage": {
+      "input_tokens": 27732,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 689,
+      "reasoning_output_tokens": 204
+    },
+    "call_id": "decision-qeuag98l",
+    "warnings": []
+  }
+}

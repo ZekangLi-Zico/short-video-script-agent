@@ -1,0 +1,18 @@
+{
+  "id": "V04",
+  "name": "陶艺作品展",
+  "context": "工作室需要一条发布比例说明片。",
+  "request": {
+    "topic": "用陶艺作品展素材介绍横屏与竖屏画面比例选项。先展示横向展台，再展示竖向单件花瓶，只讲比例选择，不介绍字幕和剪辑。",
+    "audience": "手作工作室运营",
+    "platform": "小红书",
+    "target_seconds": 20,
+    "style": "有条理，不夸张",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

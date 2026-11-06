@@ -1,0 +1,13 @@
+{
+  "case_id": "T40",
+  "capture_mode": "fullPage",
+  "finished_capture_at": "2026-11-03T14:56:56.913Z",
+  "busy": false,
+  "detail": "真实模型 · 3 个执行步骤",
+  "download": "/api/runs/c9b8475d7d234702bcd978240403eb62/download/output.json",
+  "error": "",
+  "history": "c9b8475d7d234702bcd978240403eb62",
+  "message": "现有事实无法同时满足完整逐字引用和每镜最多8个汉字。请补充每条不超过8个汉字的可引用产品事实，或允许事实卡片展示13个汉字。",
+  "save": "记录已保存 · c9b8475d",
+  "status": "需要补充"
+}

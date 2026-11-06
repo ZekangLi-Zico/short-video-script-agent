@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-m885qd5c",
+  "started_at": "2026-11-04T01:39:48.943409+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:40:09.914252+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a436-61ce-7c53-b416-a7c70fe705a1",
+    "usage": {
+      "input_tokens": 29655,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 116,
+      "reasoning_output_tokens": 48
+    },
+    "call_id": "decision-m885qd5c",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-jxkzigmd",
+  "started_at": "2026-11-04T01:45:13.099610+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:45:37.004397+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a43b-56cc-7b02-b9b1-3a4b19378fe6",
+    "usage": {
+      "input_tokens": 32344,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 118,
+      "reasoning_output_tokens": 48
+    },
+    "call_id": "decision-jxkzigmd",
+    "warnings": []
+  }
+}

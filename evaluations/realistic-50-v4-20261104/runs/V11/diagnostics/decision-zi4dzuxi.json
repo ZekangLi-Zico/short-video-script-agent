@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-zi4dzuxi",
+  "started_at": "2026-11-03T21:16:34.121162+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:16:51.937138+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a345-6288-7322-ba14-5d3f0378902e",
+    "usage": {
+      "input_tokens": 27049,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 192,
+      "reasoning_output_tokens": 127
+    },
+    "call_id": "decision-zi4dzuxi",
+    "warnings": []
+  }
+}

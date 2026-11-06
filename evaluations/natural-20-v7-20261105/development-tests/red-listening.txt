@@ -1,0 +1,14 @@
+test_review_gets_actual_audible_order_without_screen_notes_or_title (tests.test_natural_v7.NaturalVoiceTests.test_review_gets_actual_audible_order_without_screen_notes_or_title) ... FAIL
+
+======================================================================
+FAIL: test_review_gets_actual_audible_order_without_screen_notes_or_title (tests.test_natural_v7.NaturalVoiceTests.test_review_gets_actual_audible_order_without_screen_notes_or_title)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_natural_v7.py", line 26, in test_review_gets_actual_audible_order_without_screen_notes_or_title
+    self.assertIn('listening_copy',model.sent)
+AssertionError: 'listening_copy' not found in {'request': {'expression_mode': 'creative'}, 'script': {'format_version': 2, 'title': '标题不念', 'editor_notes': '审稿备注不念', 'shots': [{'visual': '画面不念', 'purpose': '说明不念', 'blocks': [{'beat': 2, 'channel': 'voice', 'text': '接着检查名称。'}, {'beat': 1, 'channel': 'screen', 'text': 'SILENT TRANSLATION'}, {'beat': 1, 'channel': 'both', 'text': '先把视频看一遍。'}, {'beat': 2, 'channel': 'voice', 'text': '确认没有写错。'}]}, {'blocks': [{'beat': 1, 'channel': 'voice', 'text': '这就可以交稿了。'}]}]}, 'rules_check': None, 'duration_check': None}
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)

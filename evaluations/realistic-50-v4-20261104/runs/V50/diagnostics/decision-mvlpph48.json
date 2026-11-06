@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-mvlpph48",
+  "started_at": "2026-11-03T22:24:17.446140+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:25:22.125882+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a383-5e58-7382-963e-07f7b869a8fa",
+    "usage": {
+      "input_tokens": 28062,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2797,
+      "reasoning_output_tokens": 1034
+    },
+    "call_id": "decision-mvlpph48",
+    "warnings": []
+  }
+}

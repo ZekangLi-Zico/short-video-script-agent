@@ -1,0 +1,13 @@
+{
+  "case": "V28",
+  "index": 27,
+  "attempt": 1,
+  "run_id": "3b8a42846da14906aebc5d9ec16a5e5d",
+  "folder": "V28",
+  "status": "blocked",
+  "steps": 2,
+  "responses": 1,
+  "provider": "codex",
+  "seconds": null,
+  "message": "模型调用失败，未完成；见执行记录。"
+}

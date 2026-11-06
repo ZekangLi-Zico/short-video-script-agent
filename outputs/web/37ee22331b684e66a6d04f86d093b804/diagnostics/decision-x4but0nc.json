@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-x4but0nc",
+  "started_at": "2026-11-04T14:59:54.579315+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:00:10.865621+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a712-e48d-7e43-a013-fc3e09cc9ddc",
+    "usage": {
+      "input_tokens": 28816,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 121,
+      "reasoning_output_tokens": 61
+    },
+    "call_id": "decision-x4but0nc",
+    "warnings": []
+  }
+}

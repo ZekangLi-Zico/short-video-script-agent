@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-hv5g11cj",
+  "started_at": "2026-11-03T20:15:45.524743+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:16:00.028003+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a30d-b1a5-77c1-8de2-78ea887772c9",
+    "usage": {
+      "input_tokens": 31383,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 144,
+      "reasoning_output_tokens": 75
+    },
+    "call_id": "decision-hv5g11cj",
+    "warnings": []
+  }
+}

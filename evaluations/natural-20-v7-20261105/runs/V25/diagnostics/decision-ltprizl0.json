@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-ltprizl0",
+  "started_at": "2026-11-04T21:23:12.616415+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T21:24:16.273625+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a871-d5de-7ca1-904c-495669b38f50",
+    "usage": {
+      "input_tokens": 27738,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 713,
+      "reasoning_output_tokens": 297
+    },
+    "call_id": "decision-ltprizl0",
+    "warnings": []
+  }
+}

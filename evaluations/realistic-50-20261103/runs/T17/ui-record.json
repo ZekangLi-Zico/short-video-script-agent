@@ -1,0 +1,13 @@
+{
+  "case_id": "T17",
+  "capture_mode": "viewport_fallback",
+  "finished_capture_at": "2026-11-03T14:21:42.522Z",
+  "busy": false,
+  "detail": "真实模型 · 2 个执行步骤",
+  "download": "/api/runs/0ec5cb80022d4644b0f97a2898b622ea/download/output.json",
+  "error": "",
+  "history": "0ec5cb80022d4644b0f97a2898b622ea",
+  "message": "Please provide approved English product facts, titles, visual descriptions, and any connecting copy. Keep the product name 剪影练习版 unchanged.",
+  "save": "记录已保存 · 0ec5cb80",
+  "status": "需要补充"
+}

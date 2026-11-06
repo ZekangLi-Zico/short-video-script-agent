@@ -1,0 +1,13 @@
+{
+  "case": "V17",
+  "index": 16,
+  "attempt": 1,
+  "run_id": "3d3c83c4efe64a97aca4b15c1b593bb8",
+  "folder": "V17",
+  "status": "completed",
+  "steps": 6,
+  "responses": 7,
+  "provider": "codex",
+  "seconds": 23,
+  "message": "已完成《从一段记录开始》：共3镜，预计23秒，以屏幕文字和画面示意介绍添加字幕、裁剪片段，全片静音，不依赖旁白。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

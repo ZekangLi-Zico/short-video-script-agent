@@ -1,0 +1,8 @@
+{
+  "case": "V10",
+  "assessment": "脚本可用；无效动作后恢复",
+  "note": "空展厅、导览卡、休息区顺序覆盖；P01添加字幕与手动改字引用正确，没有文物年代或故事，结尾直接结束。14秒小于26秒。首个写稿动作因分镜缺少文案块被拒，模型观察错误后重新写稿并完成全部检查；该无效动作保留在Trace中。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

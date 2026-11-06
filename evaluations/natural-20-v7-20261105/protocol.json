@@ -1,0 +1,21 @@
+{
+  "frozen_at": "2026-11-04T20:58:27.597088+00:00",
+  "baseline": "realistic-50-v6-20261105",
+  "cases": 20,
+  "unique_briefs": 20,
+  "cases_sha256": "dde5aa57b6727bb7ca972287b8c9d196ee720100b11e22c491dab5d3045a3f7a",
+  "submission": "browser UI only",
+  "provider": "codex real model",
+  "concurrency": 4,
+  "fault": "none",
+  "selection": "Existing v6 briefs selected for varied spoken use: ordinary shops, nonprofit, travel, teaching, English, bilingual, one silent screen, old-draft preservation. No inputs edited and no desired wording supplied.",
+  "assessment": "Read the whole audible copy before viewing audit verdicts. Judge complete spoken sentences, clear referents, cross-shot meaning and scene relation, then factual and hard-constraint fidelity. Record exact problematic words and needed edit; do not score by forbidden-word counts.",
+  "readiness": [
+    "可直接试配音",
+    "需局部改写",
+    "需整体重写",
+    "静音稿不适用",
+    "未成稿"
+  ],
+  "limits": "Developer AI text read-through, not independent human blind evaluation, recorded voice or TTS. Preserve every attempt; no post-hoc replacement reruns."
+}

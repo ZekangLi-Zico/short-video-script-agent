@@ -1,0 +1,18 @@
+{
+  "id": "V02",
+  "name": "古镇步行记录",
+  "context": "旅行博主想说明如何整理散乱素材。",
+  "request": {
+    "topic": "以古镇步行素材为背景介绍裁剪视频片段：入口牌匾、石桥、临河茶桌三个场景。不要承诺自动找精彩片段，结尾不要引导下载。",
+    "audience": "手机旅行记录者",
+    "platform": "小红书",
+    "target_seconds": 30,
+    "style": "舒缓，有画面感",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "target"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

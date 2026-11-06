@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-tlgpp37j",
+  "started_at": "2026-11-04T01:22:08.906058+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:23:15.789405+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a426-33b2-7631-b1de-d4090407c797",
+    "usage": {
+      "input_tokens": 27953,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2512,
+      "reasoning_output_tokens": 1034
+    },
+    "call_id": "decision-tlgpp37j",
+    "warnings": []
+  }
+}

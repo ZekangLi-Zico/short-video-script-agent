@@ -1,0 +1,13 @@
+{
+  "case": "V38",
+  "index": 37,
+  "attempt": 1,
+  "run_id": "f727433fe7924f55aedfcbf1b6c424f0",
+  "folder": "V38",
+  "status": "needs_input",
+  "steps": 3,
+  "responses": 3,
+  "provider": "codex",
+  "seconds": null,
+  "message": "请补充剪影练习版关于SRT导出的官方说明或实际界面信息，包括是否支持、适用版本、操作步骤及交接限制。现有资料仅确认可添加和手动编辑字幕，暂时无法据此完成具体支持情况与操作脚本。"
+}

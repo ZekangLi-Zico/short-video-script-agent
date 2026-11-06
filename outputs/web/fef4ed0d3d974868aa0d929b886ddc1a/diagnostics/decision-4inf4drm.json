@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-4inf4drm",
+  "started_at": "2026-11-04T15:09:26.655003+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:10:12.118529+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a71b-a0d7-7901-840b-442a813cd4f8",
+    "usage": {
+      "input_tokens": 36591,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 256,
+      "reasoning_output_tokens": 147
+    },
+    "call_id": "decision-4inf4drm",
+    "warnings": []
+  }
+}

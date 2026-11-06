@@ -1,0 +1,13 @@
+{
+  "case": "V31",
+  "index": 30,
+  "attempt": 1,
+  "run_id": "89a473afa25342f59a6c53716771ecc3",
+  "folder": "V31",
+  "status": "completed",
+  "steps": 6,
+  "responses": 7,
+  "provider": "codex",
+  "seconds": 10,
+  "message": "已完成两镜大字卡脚本，预计10秒。每卡不超过8个汉字，无旁白，仅用实物剪刀和纸片呈现裁剪功能，并留足远距离阅读时间。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

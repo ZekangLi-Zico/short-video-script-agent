@@ -1,0 +1,13 @@
+{
+  "case_id": "T33",
+  "capture_mode": "viewport_fallback",
+  "finished_capture_at": "2026-11-03T14:43:52.731Z",
+  "busy": false,
+  "detail": "真实模型 · 0 个执行步骤",
+  "download": "/api/runs/0d16943d79c94dfc8b7878f722d56630/download/output.json",
+  "error": "",
+  "history": "0d16943d79c94dfc8b7878f722d56630",
+  "message": "请补充关键字段：表达风格",
+  "save": "记录已保存 · 0d16943d",
+  "status": "需要补充"
+}

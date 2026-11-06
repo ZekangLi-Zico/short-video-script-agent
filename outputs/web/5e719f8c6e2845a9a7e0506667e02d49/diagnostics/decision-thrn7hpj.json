@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-thrn7hpj",
+  "started_at": "2026-11-03T21:49:03.721166+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:49:22.895138+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a363-1d6b-7151-9b4a-8ad6fe126b85",
+    "usage": {
+      "input_tokens": 27044,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 348,
+      "reasoning_output_tokens": 223
+    },
+    "call_id": "decision-thrn7hpj",
+    "warnings": []
+  }
+}

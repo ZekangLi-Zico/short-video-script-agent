@@ -1,0 +1,6 @@
+Browser tab: 1, Title: "脚本试验台 · 短视频 Agent", URL: "http://127.0.0.1:8765/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 184
++				187 text 需求已修改，将按当前内容运行。
+~					70 text entry area (settable) 待修订旧稿 JSON，可选, ID: initial-script, Value: {"title":"字幕，让表达被看见","shots":[{"visual":"人物面对镜头提出问题","hold_seconds":8,"blocks":[{"text":"想让画面里的表达更清楚？","source_id":"","fact_id":""}]},{"visual":"产品功能文字卡片，不展示未经提供的界面","hold_seconds":8,"blocks":[{"text":"剪影练习版支持自动识别语音并生成字幕。","source_id":"P01","fact_id":"P01.F1"}]},{"visual":"产品功能文字卡片，不展示未经提供的界面","hold_seconds":12,"blocks":[{"text":"字幕文字可以手动编辑。","source_id":"P01","fact_id":"P01.F2"}]}]}
+The focused UI element is 70 text entry area (settable) 待修订旧稿 JSON，可选, ID: initial-script, Value: {"title":"字幕，让表达被看见","shots":[{"visual":"人物面对镜头提出问题","hold_seconds":8,"blocks":[{"text":"想让画面里的表达更清楚？","source_id":"","fact_id":""}]},{"visual":"产品功能文字卡片，不展示未经提供的界面","hold_seconds":8,"blocks":[{"text":"剪影练习版支持自动识别语音并生成字幕。","source_id":"P01","fact_id":"P01.F1"}]},{"visual":"产品功能文字卡片，不展示未经提供的界面","hold_seconds":12,"blocks":[{"text":"字幕文字可以手动编辑。","source_id":"P01","fact_id":"P01.F2"}]}]}

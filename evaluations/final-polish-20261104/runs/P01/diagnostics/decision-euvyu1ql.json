@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-euvyu1ql",
+  "started_at": "2026-11-03T23:09:26.671719+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:09:37.681180+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3ac-b4f1-7321-ba4e-c2f5449b2583",
+    "usage": {
+      "input_tokens": 35337,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 116,
+      "reasoning_output_tokens": 58
+    },
+    "call_id": "decision-euvyu1ql",
+    "warnings": []
+  }
+}

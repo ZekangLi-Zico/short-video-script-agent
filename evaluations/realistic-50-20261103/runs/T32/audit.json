@@ -1,0 +1,30 @@
+{
+  "case": "T32",
+  "name": "受众未确定",
+  "run_id": "0984400887104d51a082321dc4f437e9",
+  "status": "needs_input",
+  "message": "请补充关键字段：audience",
+  "steps": 0,
+  "model_calls": 0,
+  "seconds": null,
+  "target_seconds": 20,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [],
+  "queries": [],
+  "observations": [],
+  "wall_seconds": 0.0,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "15c10443ecb953055ec21329de7a6463e086cab91e84a01c87de154332abae13",
+    "output.json": "25c1a1085dfbc9009062ffebe19551064dba7caf2a37e161b78cd9724348d4ab",
+    "trace.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "manifest.json": "e2efaee71a6f7f7feeb7ff129029afc3194d94e1950254a9f37c5f9034b0649f",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "558f6f396b8cbc6cea0aa75f47f65ee45140d3aafb20c8bb4a36859850ce0dec"
+  }
+}

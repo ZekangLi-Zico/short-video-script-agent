@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ieb790fq",
+  "started_at": "2026-11-03T21:23:20.007035+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:23:37.162014+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a34b-90bb-77e2-997e-6301201e5627",
+    "usage": {
+      "input_tokens": 30099,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 110,
+      "reasoning_output_tokens": 50
+    },
+    "call_id": "decision-ieb790fq",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-f73wusx2",
+  "started_at": "2026-11-04T15:25:48.873267+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:27:56.989912+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a72a-9a7a-7601-bc8a-1bedd08e2c6f",
+    "usage": {
+      "input_tokens": 28657,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3283,
+      "reasoning_output_tokens": 1511
+    },
+    "call_id": "decision-f73wusx2",
+    "warnings": []
+  }
+}

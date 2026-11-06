@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-tfsv5ong",
+  "started_at": "2026-11-03T21:44:33.758504+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:45:24.624659+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a35e-fe92-71e3-a199-b1e3e3027ec3",
+    "usage": {
+      "input_tokens": 27760,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1954,
+      "reasoning_output_tokens": 463
+    },
+    "call_id": "decision-tfsv5ong",
+    "warnings": []
+  }
+}

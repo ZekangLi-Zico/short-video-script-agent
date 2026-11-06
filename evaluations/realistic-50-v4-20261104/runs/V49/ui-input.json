@@ -1,0 +1,19 @@
+{
+  "port": 8791,
+  "submitted_at": "2026-11-03T22:20:11.122Z",
+  "fields": {
+    "audience": "短片剪辑助理",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "83c5127a78af4b5687638bfe480f94b4",
+    "initial-script": "{\n  \"title\": \"两步整理片段\",\n  \"shots\": [\n    {\n      \"visual\": \"桌面上的片段卡片\",\n      \"hold_seconds\": 14,\n      \"blocks\": [\n        {\n          \"text\": \"剪影练习版支持裁剪视频片段。\",\n          \"source_id\": \"P02\",\n          \"fact_id\": \"P02.F1\"\n        }\n      ]\n    },\n    {\n      \"visual\": \"横竖两种相框\",\n      \"hold_seconds\": 14,\n      \"blocks\": [\n        {\n          \"text\": \"剪影练习版提供横屏和竖屏画面比例选项。\",\n          \"source_id\": \"P03\",\n          \"fact_id\": \"P03.F1\"\n        }\n      ]\n    }\n  ]\n}",
+    "platform": "抖音",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "紧凑，信息优先",
+    "target-seconds": "15",
+    "topic": "把所附旧稿压缩到15秒以内，保留裁剪片段和横竖屏比例两项介绍，标题不变；不增加自动适配、智能追踪等说法。"
+  }
+}

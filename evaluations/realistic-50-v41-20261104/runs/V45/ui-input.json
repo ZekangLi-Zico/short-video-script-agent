@@ -1,0 +1,19 @@
+{
+  "port": 8813,
+  "submitted_at": "2026-11-04T01:42:47.941Z",
+  "fields": {
+    "audience": "第一次拍口播的店主",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "f27d6d5d8284460ebf7d95ff58e56761",
+    "initial-script": "{\n  \"title\": \"记录里的每句话\",\n  \"shots\": [\n    {\n      \"visual\": \"店主背影和备料台\",\n      \"hold_seconds\": 15,\n      \"blocks\": [\n        {\n          \"text\": \"一天的准备，从这里开始。\",\n          \"source_id\": \"\",\n          \"fact_id\": \"\"\n        }\n      ]\n    },\n    {\n      \"visual\": \"字幕示意卡\",\n      \"hold_seconds\": 15,\n      \"blocks\": [\n        {\n          \"text\": \"剪影练习版支持为视频添加字幕。\",\n          \"source_id\": \"P01\",\n          \"fact_id\": \"P01.F1\"\n        }\n      ]\n    },\n    {\n      \"visual\": \"纸上修改一个错字\",\n      \"hold_seconds\": 15,\n      \"blocks\": [\n        {\n          \"text\": \"字幕文字可以手动编辑。\",\n          \"source_id\": \"P01\",\n          \"fact_id\": \"P01.F2\"\n        }\n      ]\n    }\n  ]\n}",
+    "platform": "抖音",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "自然，紧凑",
+    "target-seconds": "25",
+    "topic": "把所附旧稿压缩到25秒以内，保留添加字幕和手动改字两个功能。标题保持“记录里的每句话”，优先改冗长停留，不要额外添功能。"
+  }
+}

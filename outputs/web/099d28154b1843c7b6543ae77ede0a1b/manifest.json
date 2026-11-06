@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-11-04T15:24:49.204946+00:00",
+  "finished_at": "2026-11-04T15:29:49.369886+00:00",
+  "provider": "codex",
+  "evidence_kind": "real_model",
+  "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+  "max_steps": 12,
+  "steps": 6,
+  "synthetic_data": true,
+  "completion_policy": "facts_duration_requirements_v5",
+  "requirements_review_context": "current_rules_and_duration_v2",
+  "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+  "model_responses": 7,
+  "run_id": "49c2c3339630491abc42c29ef89d62ff",
+  "persistence": "checkpoint_v1",
+  "fault_injection": {}
+}

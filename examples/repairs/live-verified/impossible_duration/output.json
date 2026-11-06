@@ -1,0 +1,21 @@
+{
+  "status": "blocked",
+  "message": "当前无法满足要求：视频上限为1秒，但模板要求每个镜头至少展示2秒。尚未生成脚本，也未完成三项检查。需要项目维护者处理模板的最短镜头时长限制；本次未修改你的时长上限。",
+  "script": null,
+  "duration": null,
+  "rules_check": null,
+  "requirements_check": null,
+  "sources": [],
+  "metadata": {
+    "started_at": "2026-11-03T16:00:39.139350+00:00",
+    "finished_at": "2026-11-03T16:01:14.567155+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 1,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v2",
+    "model_responses": 1
+  }
+}

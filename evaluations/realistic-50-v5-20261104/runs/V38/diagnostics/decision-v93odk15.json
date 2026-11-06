@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-v93odk15",
+  "started_at": "2026-11-04T16:00:09.164880+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:00:44.401788+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a74a-0cdc-7423-9c09-53fcc0397983",
+    "usage": {
+      "input_tokens": 27341,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 196,
+      "reasoning_output_tokens": 88
+    },
+    "call_id": "decision-v93odk15",
+    "warnings": []
+  }
+}

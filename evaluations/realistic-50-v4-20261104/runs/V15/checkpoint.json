@@ -1,0 +1,1293 @@
+{
+  "format": "checkpoint_v1",
+  "recorded_at": "2026-11-03T21:28:57.940994+00:00",
+  "last_event": {
+    "kind": "step",
+    "step": 6
+  },
+  "result": {
+    "status": "in_progress",
+    "message": "任务执行中，尚未完成。",
+    "script": {
+      "title": "给做饭日常添几行字幕",
+      "shots": [
+        {
+          "visual": "俯拍料理台，洗好的蔬菜、空餐盘和食谱本同框。仅出现成年人的手：摆正餐盘，再翻开食谱本。文字块为旁白，全片不出现儿童正脸。",
+          "hold_seconds": 6,
+          "blocks": [
+            {
+              "text": "洗好蔬菜，摆好空餐盘，翻开食谱本，记录今天的做饭日常。",
+              "source_id": "",
+              "fact_id": ""
+            }
+          ]
+        },
+        {
+          "visual": "保持三样背景物同框，缓慢推近蔬菜。以简单文字叠加示意添加字幕，示例文字为“准备晚餐”，不展示产品界面或按钮。第一块为产品事实旁白，第二块为创作示例旁白。",
+          "hold_seconds": 7,
+          "blocks": [
+            {
+              "text": "剪影练习版支持为视频添加字幕。",
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            },
+            {
+              "text": "先写一句：准备晚餐。",
+              "source_id": "",
+              "fact_id": ""
+            }
+          ]
+        },
+        {
+          "visual": "延续料理台背景，用前后两版文字示意手动编辑：“准备晚餐”变为“今晚做家常菜”，依次留出阅读时间。不模拟操作界面，不暗示文字自动变化。第一块为产品事实旁白，第二块为编辑示例旁白。",
+          "hold_seconds": 8,
+          "blocks": [
+            {
+              "text": "字幕文字可以手动编辑。",
+              "source_id": "P01",
+              "fact_id": "P01.F2"
+            },
+            {
+              "text": "再把“准备晚餐”改成“今晚做家常菜”。",
+              "source_id": "",
+              "fact_id": ""
+            }
+          ]
+        },
+        {
+          "visual": "镜头回到俯拍全景，成年人的手沿食谱本上的文字缓慢移动，再将食谱本摆正；洗好的蔬菜和空餐盘始终可见。不突出任何营养功效文字。旁白结束后自然收镜。",
+          "hold_seconds": 6,
+          "blocks": [
+            {
+              "text": "对照食谱本，再读一遍文字，把这次的准备过程记下来。",
+              "source_id": "",
+              "fact_id": ""
+            }
+          ]
+        }
+      ]
+    },
+    "duration": {
+      "ok": true,
+      "script_hash": "cb964d0808940dee50883b892d1eaf5d89666a2890acfdc55e86efc19e87bda8",
+      "shots": [
+        {
+          "shot": 1,
+          "speech_units": 23,
+          "estimated_seconds": 6.3
+        },
+        {
+          "shot": 2,
+          "speech_units": 22,
+          "estimated_seconds": 7.0
+        },
+        {
+          "shot": 3,
+          "speech_units": 24,
+          "estimated_seconds": 8.0
+        },
+        {
+          "shot": 4,
+          "speech_units": 22,
+          "estimated_seconds": 6.0
+        }
+      ],
+      "total_seconds": 27.3,
+      "target_seconds": 30,
+      "passed": true,
+      "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+      "is_estimate": true,
+      "duration_mode": "target",
+      "min_seconds": 27.0,
+      "max_seconds": 30,
+      "issue": null
+    },
+    "rules_check": {
+      "ok": true,
+      "script_hash": "cb964d0808940dee50883b892d1eaf5d89666a2890acfdc55e86efc19e87bda8",
+      "passed": true,
+      "issues": [],
+      "citations": [
+        {
+          "location": "shot:2/block:1",
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01"
+        },
+        {
+          "location": "shot:3/block:1",
+          "source_id": "P01",
+          "fact_id": "P01.F2",
+          "quote": "字幕文字可以手动编辑。",
+          "version": "2026-11-01"
+        }
+      ],
+      "rules_version": "2026-11-03-v1",
+      "requires_expression_review": true,
+      "expression_slots": [
+        {
+          "location": "title",
+          "text": "给做饭日常添几行字幕"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "俯拍料理台，洗好的蔬菜、空餐盘和食谱本同框。仅出现成年人的手：摆正餐盘，再翻开食谱本。文字块为旁白，全片不出现儿童正脸。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "洗好蔬菜，摆好空餐盘，翻开食谱本，记录今天的做饭日常。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "保持三样背景物同框，缓慢推近蔬菜。以简单文字叠加示意添加字幕，示例文字为“准备晚餐”，不展示产品界面或按钮。第一块为产品事实旁白，第二块为创作示例旁白。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "先写一句：准备晚餐。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "延续料理台背景，用前后两版文字示意手动编辑：“准备晚餐”变为“今晚做家常菜”，依次留出阅读时间。不模拟操作界面，不暗示文字自动变化。第一块为产品事实旁白，第二块为编辑示例旁白。"
+        },
+        {
+          "location": "shot:3/block:2",
+          "text": "再把“准备晚餐”改成“今晚做家常菜”。"
+        },
+        {
+          "location": "shot:4/visual",
+          "text": "镜头回到俯拍全景，成年人的手沿食谱本上的文字缓慢移动，再将食谱本摆正；洗好的蔬菜和空餐盘始终可见。不突出任何营养功效文字。旁白结束后自然收镜。"
+        },
+        {
+          "location": "shot:4/block:1",
+          "text": "对照食谱本，再读一遍文字，把这次的准备过程记下来。"
+        }
+      ],
+      "available_facts": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F2",
+          "quote": "字幕文字可以手动编辑。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01"
+        }
+      ],
+      "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+    },
+    "requirements_check": {
+      "ok": true,
+      "script_hash": "cb964d0808940dee50883b892d1eaf5d89666a2890acfdc55e86efc19e87bda8",
+      "request_hash": "f0cdde0bd1d754eaa019cd4f805619d55970619edd7cffce8ab94facc5e33052",
+      "passed": true,
+      "items": [
+        {
+          "field": "topic",
+          "requirement": "介绍添加字幕",
+          "verdict": "met",
+          "evidence": "镜头2旁白“剪影练习版支持为视频添加字幕。”，并以“准备晚餐”示意字幕。"
+        },
+        {
+          "field": "topic",
+          "requirement": "手动编辑文字",
+          "verdict": "met",
+          "evidence": "镜头3旁白“字幕文字可以手动编辑。”，画面展示“准备晚餐”改为“今晚做家常菜”的前后对比。"
+        },
+        {
+          "field": "topic",
+          "requirement": "洗好的蔬菜",
+          "verdict": "met",
+          "evidence": "镜头1明确“洗好的蔬菜、空餐盘和食谱本同框”；镜头2、3延续背景，镜头4明确蔬菜始终可见。"
+        },
+        {
+          "field": "topic",
+          "requirement": "空餐盘",
+          "verdict": "met",
+          "evidence": "镜头1展示并摆正空餐盘；镜头2保持三样背景物同框，镜头4明确空餐盘始终可见。"
+        },
+        {
+          "field": "topic",
+          "requirement": "食谱本",
+          "verdict": "met",
+          "evidence": "镜头1翻开食谱本；镜头2、3延续背景，镜头4展示沿食谱文字移动手指并摆正食谱本。"
+        },
+        {
+          "field": "topic",
+          "requirement": "不要代写营养功效",
+          "verdict": "met",
+          "evidence": "标题、旁白及字幕示例均未宣称营养功效；镜头4另明确“不突出任何营养功效文字”。"
+        },
+        {
+          "field": "topic",
+          "requirement": "不出现儿童正脸",
+          "verdict": "met",
+          "evidence": "镜头1明确“仅出现成年人的手”“全片不出现儿童正脸”；其余镜头均为料理台、文字示意或成年人的手。"
+        },
+        {
+          "field": "audience",
+          "requirement": "记录家庭料理的普通用户",
+          "verdict": "met",
+          "evidence": "以准备晚餐、家常菜和食谱本为具体场景，使用“先写一句”“再把……改成……”等易懂表达，适合普通用户记录家庭料理。"
+        },
+        {
+          "field": "platform",
+          "requirement": "小红书",
+          "verdict": "met",
+          "evidence": "标题“给做饭日常添几行字幕”结合家庭料理画面和简短文字示例，符合生活记录、经验分享类短视频表达。"
+        },
+        {
+          "field": "style",
+          "requirement": "亲切",
+          "verdict": "met",
+          "evidence": "“记录今天的做饭日常”“先写一句：准备晚餐”等旁白自然、生活化，没有生硬术语。"
+        },
+        {
+          "field": "style",
+          "requirement": "不营销",
+          "verdict": "met",
+          "evidence": "产品介绍仅陈述添加字幕、手动编辑两项功能；结尾“把这次的准备过程记下来”没有购买引导、促销或夸大效果。"
+        }
+      ],
+      "summary": "已满足功能介绍、三样背景物和两项禁止要求，受众、平台及语气适配。产品能力表达有资料支持，各镜头节奏合理。",
+      "method": "model_assessment_not_deterministic_proof",
+      "expressions": [
+        {
+          "location": "title",
+          "text": "给做饭日常添几行字幕",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "标题涉及为视频添加字幕，P01.F1直接支持；未增加自动生成等能力承诺。"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "俯拍料理台，洗好的蔬菜、空餐盘和食谱本同框。仅出现成年人的手：摆正餐盘，再翻开食谱本。文字块为旁白，全片不出现儿童正脸。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "全部为背景、人物出镜范围、动作及旁白安排，不含产品能力声明。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "洗好蔬菜，摆好空餐盘，翻开食谱本，记录今天的做饭日常。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "描述料理准备动作和记录意图，不涉及产品性能或营养功效。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "保持三样背景物同框，缓慢推近蔬菜。以简单文字叠加示意添加字幕，示例文字为“准备晚餐”，不展示产品界面或按钮。第一块为产品事实旁白，第二块为创作示例旁白。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "文字叠加示意的是P01.F1支持的添加字幕能力；其余为拍摄安排和示例文案，没有虚构产品界面或按钮。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "先写一句：准备晚餐。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "仅邀请拟写一句字幕示例，没有宣称自动生成文案或指定产品操作步骤。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "延续料理台背景，用前后两版文字示意手动编辑：“准备晚餐”变为“今晚做家常菜”，依次留出阅读时间。不模拟操作界面，不暗示文字自动变化。第一块为产品事实旁白，第二块为编辑示例旁白。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2"
+            }
+          ],
+          "evidence": "前后两版文字展示手动编辑字幕，P01.F2直接支持；画面明确排除自动变化和模拟产品界面。"
+        },
+        {
+          "location": "shot:3/block:2",
+          "text": "再把“准备晚餐”改成“今晚做家常菜”。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2"
+            }
+          ],
+          "evidence": "结合本镜头语境，这是手动修改字幕内容的具体示例，属于P01.F2支持的能力，没有扩展操作承诺。"
+        },
+        {
+          "location": "shot:4/visual",
+          "text": "镜头回到俯拍全景，成年人的手沿食谱本上的文字缓慢移动，再将食谱本摆正；洗好的蔬菜和空餐盘始终可见。不突出任何营养功效文字。旁白结束后自然收镜。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "仅安排构图、手部动作、背景物和收镜方式，不含产品效果或营养功效声明。"
+        },
+        {
+          "location": "shot:4/block:1",
+          "text": "对照食谱本，再读一遍文字，把这次的准备过程记下来。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于复读检查和生活记录的行动邀请，未声称产品能够识别食谱或自动检查文字。"
+        }
+      ],
+      "pacing": {
+        "verdict": "met",
+        "evidence": "镜头1预计6.3秒，支撑摆盘、翻书及旁白；镜头2预计7秒，包含推近、字幕示例和两块旁白；镜头3预计8秒，包含两版文字依次展示、阅读与编辑说明；镜头4预计6秒，包含对照食谱、移动手指和摆正食谱本。各镜头均有具体观察或动作内容，符合6、7、8、6秒的最低停留约束，未见重复功能或空镜凑时长。宿主估算总长27.3秒，目标区间判定已通过。"
+      },
+      "expression_review_passed": true
+    },
+    "sources": [
+      {
+        "id": "P01",
+        "product_id": "demo-editor",
+        "title": "字幕功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "字幕",
+          "口播",
+          "文字",
+          "caption",
+          "subtitle"
+        ],
+        "facts": [
+          {
+            "id": "P01.F1",
+            "text": "剪影练习版支持为视频添加字幕。"
+          },
+          {
+            "id": "P01.F2",
+            "text": "字幕文字可以手动编辑。"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "product_id": "demo-editor",
+        "title": "剪辑功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "剪辑",
+          "裁剪",
+          "片段",
+          "trim",
+          "edit"
+        ],
+        "facts": [
+          {
+            "id": "P02.F1",
+            "text": "剪影练习版支持裁剪视频片段。"
+          }
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "action": "search_materials",
+        "arguments": {
+          "query": "demo-editor 添加字幕 手动编辑文字 功能事实",
+          "product_id": "demo-editor"
+        },
+        "decision_basis": "当前没有产品素材，需要核实添加字幕与手动编辑文字两项功能。",
+        "observation": {
+          "ok": true,
+          "query": "demo-editor 添加字幕 手动编辑文字 功能事实",
+          "product_id": "demo-editor",
+          "materials": [
+            {
+              "id": "P01",
+              "product_id": "demo-editor",
+              "title": "字幕功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "字幕",
+                "口播",
+                "文字",
+                "caption",
+                "subtitle"
+              ],
+              "facts": [
+                {
+                  "id": "P01.F1",
+                  "text": "剪影练习版支持为视频添加字幕。"
+                },
+                {
+                  "id": "P01.F2",
+                  "text": "字幕文字可以手动编辑。"
+                }
+              ]
+            },
+            {
+              "id": "P02",
+              "product_id": "demo-editor",
+              "title": "剪辑功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "剪辑",
+                "裁剪",
+                "片段",
+                "trim",
+                "edit"
+              ],
+              "facts": [
+                {
+                  "id": "P02.F1",
+                  "text": "剪影练习版支持裁剪视频片段。"
+                }
+              ]
+            }
+          ],
+          "count": 2
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a34c-4082-7e73-8a16-51159b1a1fa3",
+          "usage": {
+            "input_tokens": 27038,
+            "cached_input_tokens": 24448,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 143,
+            "reasoning_output_tokens": 77
+          },
+          "call_id": "decision-7ltj60ej",
+          "warnings": []
+        },
+        "elapsed_ms": 21609
+      },
+      {
+        "step": 2,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "title": "给做饭日常添几行字幕",
+            "shots": [
+              {
+                "visual": "俯拍料理台，洗好的蔬菜、空餐盘和食谱本同框。仅出现成年人的手：摆正餐盘，再翻开食谱本。文字块为旁白，全片不出现儿童正脸。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "洗好蔬菜，摆好空餐盘，翻开食谱本，记录今天的做饭日常。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "保持三样背景物同框，缓慢推近蔬菜。以简单文字叠加示意添加字幕，示例文字为“准备晚餐”，不展示产品界面或按钮。第一块为产品事实旁白，第二块为创作示例旁白。",
+                "hold_seconds": 7,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1"
+                  },
+                  {
+                    "text": "先写一句：准备晚餐。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "延续料理台背景，用前后两版文字示意手动编辑：“准备晚餐”变为“今晚做家常菜”，依次留出阅读时间。不模拟操作界面，不暗示文字自动变化。第一块为产品事实旁白，第二块为编辑示例旁白。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "字幕文字可以手动编辑。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2"
+                  },
+                  {
+                    "text": "再把“准备晚餐”改成“今晚做家常菜”。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "镜头回到俯拍全景，成年人的手沿食谱本上的文字缓慢移动，再将食谱本摆正；洗好的蔬菜和空餐盘始终可见。不突出任何营养功效文字。旁白结束后自然收镜。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "对照食谱本，再读一遍文字，把这次的准备过程记下来。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "decision_basis": "已有添加字幕和手动编辑文字两项事实素材，可编写家庭料理场景首稿。",
+        "observation": {
+          "ok": true,
+          "script_hash": "cb964d0808940dee50883b892d1eaf5d89666a2890acfdc55e86efc19e87bda8",
+          "revision": {
+            "before_hash": null,
+            "after_hash": "cb964d0808940dee50883b892d1eaf5d89666a2890acfdc55e86efc19e87bda8",
+            "changed_fields": [
+              "script:new"
+            ],
+            "unchanged_shots": 0,
+            "unchanged_blocks": 0,
+            "feedback": [],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a34c-931c-79d2-90a7-35fc06b479e7",
+          "usage": {
+            "input_tokens": 27524,
+            "cached_input_tokens": 24448,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1558,
+            "reasoning_output_tokens": 1034
+          },
+          "call_id": "decision-ckhkc7sg",
+          "warnings": []
+        },
+        "elapsed_ms": 61453
+      },
+      {
+        "step": 3,
+        "action": "estimate_duration",
+        "arguments": {
+          "script": {
+            "title": "给做饭日常添几行字幕",
+            "shots": [
+              {
+                "visual": "俯拍料理台，洗好的蔬菜、空餐盘和食谱本同框。仅出现成年人的手：摆正餐盘，再翻开食谱本。文字块为旁白，全片不出现儿童正脸。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "洗好蔬菜，摆好空餐盘，翻开食谱本，记录今天的做饭日常。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "保持三样背景物同框，缓慢推近蔬菜。以简单文字叠加示意添加字幕，示例文字为“准备晚餐”，不展示产品界面或按钮。第一块为产品事实旁白，第二块为创作示例旁白。",
+                "hold_seconds": 7,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1"
+                  },
+                  {
+                    "text": "先写一句：准备晚餐。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "延续料理台背景，用前后两版文字示意手动编辑：“准备晚餐”变为“今晚做家常菜”，依次留出阅读时间。不模拟操作界面，不暗示文字自动变化。第一块为产品事实旁白，第二块为编辑示例旁白。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "字幕文字可以手动编辑。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2"
+                  },
+                  {
+                    "text": "再把“准备晚餐”改成“今晚做家常菜”。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "镜头回到俯拍全景，成年人的手沿食谱本上的文字缓慢移动，再将食谱本摆正；洗好的蔬菜和空餐盘始终可见。不突出任何营养功效文字。旁白结束后自然收镜。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "对照食谱本，再读一遍文字，把这次的准备过程记下来。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "target_seconds": 30,
+          "duration_mode": "target"
+        },
+        "decision_basis": "当前稿尚未估时，先核对是否达到30秒目标的27至30秒范围。",
+        "observation": {
+          "ok": true,
+          "script_hash": "cb964d0808940dee50883b892d1eaf5d89666a2890acfdc55e86efc19e87bda8",
+          "shots": [
+            {
+              "shot": 1,
+              "speech_units": 23,
+              "estimated_seconds": 6.3
+            },
+            {
+              "shot": 2,
+              "speech_units": 22,
+              "estimated_seconds": 7.0
+            },
+            {
+              "shot": 3,
+              "speech_units": 24,
+              "estimated_seconds": 8.0
+            },
+            {
+              "shot": 4,
+              "speech_units": 22,
+              "estimated_seconds": 6.0
+            }
+          ],
+          "total_seconds": 27.3,
+          "target_seconds": 30,
+          "passed": true,
+          "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+          "is_estimate": true,
+          "duration_mode": "target",
+          "min_seconds": 27.0,
+          "max_seconds": 30,
+          "issue": null
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a34d-8652-76a0-80d4-5fe69b157efc",
+          "usage": {
+            "input_tokens": 28784,
+            "cached_input_tokens": 24448,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 104,
+            "reasoning_output_tokens": 47
+          },
+          "call_id": "decision-6eacb9y_",
+          "warnings": []
+        },
+        "elapsed_ms": 51907
+      },
+      {
+        "step": 4,
+        "action": "check_rules",
+        "arguments": {
+          "script": {
+            "title": "给做饭日常添几行字幕",
+            "shots": [
+              {
+                "visual": "俯拍料理台，洗好的蔬菜、空餐盘和食谱本同框。仅出现成年人的手：摆正餐盘，再翻开食谱本。文字块为旁白，全片不出现儿童正脸。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "洗好蔬菜，摆好空餐盘，翻开食谱本，记录今天的做饭日常。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "保持三样背景物同框，缓慢推近蔬菜。以简单文字叠加示意添加字幕，示例文字为“准备晚餐”，不展示产品界面或按钮。第一块为产品事实旁白，第二块为创作示例旁白。",
+                "hold_seconds": 7,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1"
+                  },
+                  {
+                    "text": "先写一句：准备晚餐。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "延续料理台背景，用前后两版文字示意手动编辑：“准备晚餐”变为“今晚做家常菜”，依次留出阅读时间。不模拟操作界面，不暗示文字自动变化。第一块为产品事实旁白，第二块为编辑示例旁白。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "字幕文字可以手动编辑。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2"
+                  },
+                  {
+                    "text": "再把“准备晚餐”改成“今晚做家常菜”。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "镜头回到俯拍全景，成年人的手沿食谱本上的文字缓慢移动，再将食谱本摆正；洗好的蔬菜和空餐盘始终可见。不突出任何营养功效文字。旁白结束后自然收镜。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "对照食谱本，再读一遍文字，把这次的准备过程记下来。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "retrieved_ids": [
+            "P01",
+            "P02"
+          ],
+          "expression_mode": "creative"
+        },
+        "decision_basis": "当前稿估时27.3秒，已满足目标范围，尚需检查事实引用与表达规则。",
+        "observation": {
+          "ok": true,
+          "script_hash": "cb964d0808940dee50883b892d1eaf5d89666a2890acfdc55e86efc19e87bda8",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:2/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:3/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "给做饭日常添几行字幕"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "俯拍料理台，洗好的蔬菜、空餐盘和食谱本同框。仅出现成年人的手：摆正餐盘，再翻开食谱本。文字块为旁白，全片不出现儿童正脸。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "洗好蔬菜，摆好空餐盘，翻开食谱本，记录今天的做饭日常。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "保持三样背景物同框，缓慢推近蔬菜。以简单文字叠加示意添加字幕，示例文字为“准备晚餐”，不展示产品界面或按钮。第一块为产品事实旁白，第二块为创作示例旁白。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "先写一句：准备晚餐。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "延续料理台背景，用前后两版文字示意手动编辑：“准备晚餐”变为“今晚做家常菜”，依次留出阅读时间。不模拟操作界面，不暗示文字自动变化。第一块为产品事实旁白，第二块为编辑示例旁白。"
+            },
+            {
+              "location": "shot:3/block:2",
+              "text": "再把“准备晚餐”改成“今晚做家常菜”。"
+            },
+            {
+              "location": "shot:4/visual",
+              "text": "镜头回到俯拍全景，成年人的手沿食谱本上的文字缓慢移动，再将食谱本摆正；洗好的蔬菜和空餐盘始终可见。不突出任何营养功效文字。旁白结束后自然收镜。"
+            },
+            {
+              "location": "shot:4/block:1",
+              "text": "对照食谱本，再读一遍文字，把这次的准备过程记下来。"
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a34e-4ec4-75b2-8f2e-6589f4981dbb",
+          "usage": {
+            "input_tokens": 29159,
+            "cached_input_tokens": 13696,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 111,
+            "reasoning_output_tokens": 53
+          },
+          "call_id": "decision-9n1798jc",
+          "warnings": []
+        },
+        "elapsed_ms": 28672
+      },
+      {
+        "step": 5,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "title": "给做饭日常添几行字幕",
+            "shots": [
+              {
+                "visual": "俯拍料理台，洗好的蔬菜、空餐盘和食谱本同框。仅出现成年人的手：摆正餐盘，再翻开食谱本。文字块为旁白，全片不出现儿童正脸。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "洗好蔬菜，摆好空餐盘，翻开食谱本，记录今天的做饭日常。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "保持三样背景物同框，缓慢推近蔬菜。以简单文字叠加示意添加字幕，示例文字为“准备晚餐”，不展示产品界面或按钮。第一块为产品事实旁白，第二块为创作示例旁白。",
+                "hold_seconds": 7,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1"
+                  },
+                  {
+                    "text": "先写一句：准备晚餐。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "延续料理台背景，用前后两版文字示意手动编辑：“准备晚餐”变为“今晚做家常菜”，依次留出阅读时间。不模拟操作界面，不暗示文字自动变化。第一块为产品事实旁白，第二块为编辑示例旁白。",
+                "hold_seconds": 8,
+                "blocks": [
+                  {
+                    "text": "字幕文字可以手动编辑。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2"
+                  },
+                  {
+                    "text": "再把“准备晚餐”改成“今晚做家常菜”。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              },
+              {
+                "visual": "镜头回到俯拍全景，成年人的手沿食谱本上的文字缓慢移动，再将食谱本摆正；洗好的蔬菜和空餐盘始终可见。不突出任何营养功效文字。旁白结束后自然收镜。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "对照食谱本，再读一遍文字，把这次的准备过程记下来。",
+                    "source_id": "",
+                    "fact_id": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "request": {
+            "topic": "介绍添加字幕与手动编辑文字，以洗好的蔬菜、空餐盘和食谱本为背景。不要代写营养功效，不出现儿童正脸。",
+            "audience": "记录家庭料理的普通用户",
+            "platform": "小红书",
+            "style": "亲切，不营销",
+            "product_id": "demo-editor",
+            "duration_mode": "target",
+            "expression_mode": "creative",
+            "target_seconds": 30
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "cb964d0808940dee50883b892d1eaf5d89666a2890acfdc55e86efc19e87bda8",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:2/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "location": "shot:3/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "给做饭日常添几行字幕"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "俯拍料理台，洗好的蔬菜、空餐盘和食谱本同框。仅出现成年人的手：摆正餐盘，再翻开食谱本。文字块为旁白，全片不出现儿童正脸。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "洗好蔬菜，摆好空餐盘，翻开食谱本，记录今天的做饭日常。"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "保持三样背景物同框，缓慢推近蔬菜。以简单文字叠加示意添加字幕，示例文字为“准备晚餐”，不展示产品界面或按钮。第一块为产品事实旁白，第二块为创作示例旁白。"
+              },
+              {
+                "location": "shot:2/block:2",
+                "text": "先写一句：准备晚餐。"
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "延续料理台背景，用前后两版文字示意手动编辑：“准备晚餐”变为“今晚做家常菜”，依次留出阅读时间。不模拟操作界面，不暗示文字自动变化。第一块为产品事实旁白，第二块为编辑示例旁白。"
+              },
+              {
+                "location": "shot:3/block:2",
+                "text": "再把“准备晚餐”改成“今晚做家常菜”。"
+              },
+              {
+                "location": "shot:4/visual",
+                "text": "镜头回到俯拍全景，成年人的手沿食谱本上的文字缓慢移动，再将食谱本摆正；洗好的蔬菜和空餐盘始终可见。不突出任何营养功效文字。旁白结束后自然收镜。"
+              },
+              {
+                "location": "shot:4/block:1",
+                "text": "对照食谱本，再读一遍文字，把这次的准备过程记下来。"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "cb964d0808940dee50883b892d1eaf5d89666a2890acfdc55e86efc19e87bda8",
+            "shots": [
+              {
+                "shot": 1,
+                "speech_units": 23,
+                "estimated_seconds": 6.3
+              },
+              {
+                "shot": 2,
+                "speech_units": 22,
+                "estimated_seconds": 7.0
+              },
+              {
+                "shot": 3,
+                "speech_units": 24,
+                "estimated_seconds": 8.0
+              },
+              {
+                "shot": 4,
+                "speech_units": 22,
+                "estimated_seconds": 6.0
+              }
+            ],
+            "total_seconds": 27.3,
+            "target_seconds": 30,
+            "passed": true,
+            "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+            "is_estimate": true,
+            "duration_mode": "target",
+            "min_seconds": 27.0,
+            "max_seconds": 30,
+            "issue": null
+          }
+        },
+        "decision_basis": "当前稿估时27.3秒，时长与规则检查均已通过，尚需核对需求覆盖和原创表达。",
+        "observation": {
+          "ok": true,
+          "script_hash": "cb964d0808940dee50883b892d1eaf5d89666a2890acfdc55e86efc19e87bda8",
+          "request_hash": "f0cdde0bd1d754eaa019cd4f805619d55970619edd7cffce8ab94facc5e33052",
+          "passed": true,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "介绍添加字幕",
+              "verdict": "met",
+              "evidence": "镜头2旁白“剪影练习版支持为视频添加字幕。”，并以“准备晚餐”示意字幕。"
+            },
+            {
+              "field": "topic",
+              "requirement": "手动编辑文字",
+              "verdict": "met",
+              "evidence": "镜头3旁白“字幕文字可以手动编辑。”，画面展示“准备晚餐”改为“今晚做家常菜”的前后对比。"
+            },
+            {
+              "field": "topic",
+              "requirement": "洗好的蔬菜",
+              "verdict": "met",
+              "evidence": "镜头1明确“洗好的蔬菜、空餐盘和食谱本同框”；镜头2、3延续背景，镜头4明确蔬菜始终可见。"
+            },
+            {
+              "field": "topic",
+              "requirement": "空餐盘",
+              "verdict": "met",
+              "evidence": "镜头1展示并摆正空餐盘；镜头2保持三样背景物同框，镜头4明确空餐盘始终可见。"
+            },
+            {
+              "field": "topic",
+              "requirement": "食谱本",
+              "verdict": "met",
+              "evidence": "镜头1翻开食谱本；镜头2、3延续背景，镜头4展示沿食谱文字移动手指并摆正食谱本。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不要代写营养功效",
+              "verdict": "met",
+              "evidence": "标题、旁白及字幕示例均未宣称营养功效；镜头4另明确“不突出任何营养功效文字”。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不出现儿童正脸",
+              "verdict": "met",
+              "evidence": "镜头1明确“仅出现成年人的手”“全片不出现儿童正脸”；其余镜头均为料理台、文字示意或成年人的手。"
+            },
+            {
+              "field": "audience",
+              "requirement": "记录家庭料理的普通用户",
+              "verdict": "met",
+              "evidence": "以准备晚餐、家常菜和食谱本为具体场景，使用“先写一句”“再把……改成……”等易懂表达，适合普通用户记录家庭料理。"
+            },
+            {
+              "field": "platform",
+              "requirement": "小红书",
+              "verdict": "met",
+              "evidence": "标题“给做饭日常添几行字幕”结合家庭料理画面和简短文字示例，符合生活记录、经验分享类短视频表达。"
+            },
+            {
+              "field": "style",
+              "requirement": "亲切",
+              "verdict": "met",
+              "evidence": "“记录今天的做饭日常”“先写一句：准备晚餐”等旁白自然、生活化，没有生硬术语。"
+            },
+            {
+              "field": "style",
+              "requirement": "不营销",
+              "verdict": "met",
+              "evidence": "产品介绍仅陈述添加字幕、手动编辑两项功能；结尾“把这次的准备过程记下来”没有购买引导、促销或夸大效果。"
+            }
+          ],
+          "summary": "已满足功能介绍、三样背景物和两项禁止要求，受众、平台及语气适配。产品能力表达有资料支持，各镜头节奏合理。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "给做饭日常添几行字幕",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "标题涉及为视频添加字幕，P01.F1直接支持；未增加自动生成等能力承诺。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "俯拍料理台，洗好的蔬菜、空餐盘和食谱本同框。仅出现成年人的手：摆正餐盘，再翻开食谱本。文字块为旁白，全片不出现儿童正脸。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "全部为背景、人物出镜范围、动作及旁白安排，不含产品能力声明。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "洗好蔬菜，摆好空餐盘，翻开食谱本，记录今天的做饭日常。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "描述料理准备动作和记录意图，不涉及产品性能或营养功效。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "保持三样背景物同框，缓慢推近蔬菜。以简单文字叠加示意添加字幕，示例文字为“准备晚餐”，不展示产品界面或按钮。第一块为产品事实旁白，第二块为创作示例旁白。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "文字叠加示意的是P01.F1支持的添加字幕能力；其余为拍摄安排和示例文案，没有虚构产品界面或按钮。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "先写一句：准备晚餐。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "仅邀请拟写一句字幕示例，没有宣称自动生成文案或指定产品操作步骤。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "延续料理台背景，用前后两版文字示意手动编辑：“准备晚餐”变为“今晚做家常菜”，依次留出阅读时间。不模拟操作界面，不暗示文字自动变化。第一块为产品事实旁白，第二块为编辑示例旁白。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ],
+              "evidence": "前后两版文字展示手动编辑字幕，P01.F2直接支持；画面明确排除自动变化和模拟产品界面。"
+            },
+            {
+              "location": "shot:3/block:2",
+              "text": "再把“准备晚餐”改成“今晚做家常菜”。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ],
+              "evidence": "结合本镜头语境，这是手动修改字幕内容的具体示例，属于P01.F2支持的能力，没有扩展操作承诺。"
+            },
+            {
+              "location": "shot:4/visual",
+              "text": "镜头回到俯拍全景，成年人的手沿食谱本上的文字缓慢移动，再将食谱本摆正；洗好的蔬菜和空餐盘始终可见。不突出任何营养功效文字。旁白结束后自然收镜。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "仅安排构图、手部动作、背景物和收镜方式，不含产品效果或营养功效声明。"
+            },
+            {
+              "location": "shot:4/block:1",
+              "text": "对照食谱本，再读一遍文字，把这次的准备过程记下来。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于复读检查和生活记录的行动邀请，未声称产品能够识别食谱或自动检查文字。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "镜头1预计6.3秒，支撑摆盘、翻书及旁白；镜头2预计7秒，包含推近、字幕示例和两块旁白；镜头3预计8秒，包含两版文字依次展示、阅读与编辑说明；镜头4预计6秒，包含对照食谱、移动手指和摆正食谱本。各镜头均有具体观察或动作内容，符合6、7、8、6秒的最低停留约束，未见重复功能或空镜凑时长。宿主估算总长27.3秒，目标区间判定已通过。"
+          },
+          "expression_review_passed": true
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a34e-bdd4-7d02-925a-aac20d358a35",
+          "usage": {
+            "input_tokens": 32030,
+            "cached_input_tokens": 24448,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 116,
+            "reasoning_output_tokens": 52
+          },
+          "call_id": "decision-uv_47f5e",
+          "warnings": []
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a34f-11ea-7ef0-9911-0432ee800485",
+          "usage": {
+            "input_tokens": 27663,
+            "cached_input_tokens": 13696,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 3354,
+            "reasoning_output_tokens": 1296
+          },
+          "call_id": "decision-jtnzov5l",
+          "warnings": []
+        },
+        "elapsed_ms": 99844
+      },
+      {
+        "step": 6,
+        "action": "finish",
+        "arguments": {
+          "status": "completed",
+          "message": "已完成4镜头脚本，首稿通过检查，无需删改。涵盖添加字幕和手动编辑文字，以洗好的蔬菜、空餐盘和食谱本为背景，语气亲切、不营销；未写营养功效，并明确不出现儿童正脸。估算27.3秒，符合30秒目标的27—30秒范围。需求审核为模型判断，实际成片时长仍需拍摄剪辑后确认。"
+        },
+        "decision_basis": "当前同一稿的时长、规则及需求检查均已通过。",
+        "observation": {
+          "ok": true,
+          "status": "completed",
+          "script_hash": "cb964d0808940dee50883b892d1eaf5d89666a2890acfdc55e86efc19e87bda8"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a350-449a-74e0-b197-bd5e875480d3",
+          "usage": {
+            "input_tokens": 37660,
+            "cached_input_tokens": 24448,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 459,
+            "reasoning_output_tokens": 308
+          },
+          "call_id": "decision-svz9v8z1",
+          "warnings": []
+        },
+        "elapsed_ms": 29609
+      }
+    ],
+    "metadata": {
+      "started_at": "2026-11-03T21:24:04.741321+00:00",
+      "finished_at": "2026-11-03T21:28:57.939923+00:00",
+      "provider": "codex",
+      "evidence_kind": "real_model",
+      "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+      "max_steps": 12,
+      "steps": 6,
+      "synthetic_data": true,
+      "completion_policy": "facts_duration_requirements_v4",
+      "requirements_review_context": "current_rules_and_duration_v2",
+      "model_responses": 7,
+      "run_id": "dc6d2b7a9abe4503be670ec123ef0fca",
+      "persistence": "checkpoint_v1",
+      "fault_injection": {}
+    }
+  }
+}

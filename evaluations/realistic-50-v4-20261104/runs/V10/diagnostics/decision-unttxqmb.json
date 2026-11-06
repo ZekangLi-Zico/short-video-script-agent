@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-unttxqmb",
+  "started_at": "2026-11-03T21:14:20.871557+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:14:37.085633+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a343-5666-7d30-891f-59be0e5f5f85",
+    "usage": {
+      "input_tokens": 29085,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 150,
+      "reasoning_output_tokens": 92
+    },
+    "call_id": "decision-unttxqmb",
+    "warnings": []
+  }
+}

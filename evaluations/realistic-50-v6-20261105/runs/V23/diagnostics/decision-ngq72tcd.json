@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-ngq72tcd",
+  "started_at": "2026-11-04T17:32:59.506864+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:33:15.799128+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a79f-0c39-7800-8d2b-152554b3849a",
+    "usage": {
+      "input_tokens": 27250,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 75,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-ngq72tcd",
+    "warnings": []
+  }
+}

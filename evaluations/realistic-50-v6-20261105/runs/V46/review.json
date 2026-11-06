@@ -1,0 +1,8 @@
+{
+  "case": "V46",
+  "assessment": "改进",
+  "note": "两版都删除无依据的人声识别和99%准确率及相关画面。新稿直接保留两项确认功能、删除中间泛化连接镜，2镜16秒；用户未要求保留三镜。旧版存在空文案块无效动作，新版没有，响应9降6。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

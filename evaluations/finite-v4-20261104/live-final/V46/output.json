@@ -1,0 +1,319 @@
+{
+  "status": "completed",
+  "message": "已完成旧稿审核与修改：保留原标题、添加字幕和手动编辑功能；删除自动识别示意及99%准确率断言，新增资料不足、无法确认的说明；首镜停留由8秒缩至4秒。当前稿估时20.5秒，符合28秒上限，三项检查均通过。自动识别能力及准确率仍未获证实。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "口播字幕小帮手",
+    "shots": [
+      {
+        "visual": "桌上的采访话筒",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "便签上手改错字",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      },
+      {
+        "visual": "简洁背景展示修订说明；以下文字由旁白朗读，并随旁白逐句显示。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "旧稿中语音识别及99%准确率的说法，因客户未提供相关资料，无法确认，已删除。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "1f7e82f80c51ff57e54159867240c2ac4f18c693a62f13c9af6d02d6f594ee3c",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 14,
+        "estimated_seconds": 4.0
+      },
+      {
+        "shot": 2,
+        "speech_units": 10,
+        "estimated_seconds": 8.0
+      },
+      {
+        "shot": 3,
+        "speech_units": 32,
+        "estimated_seconds": 8.5
+      }
+    ],
+    "total_seconds": 20.5,
+    "target_seconds": 28,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "1f7e82f80c51ff57e54159867240c2ac4f18c693a62f13c9af6d02d6f594ee3c",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:1/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "口播字幕小帮手"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "桌上的采访话筒"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "便签上手改错字"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "简洁背景展示修订说明；以下文字由旁白朗读，并随旁白逐句显示。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "旧稿中语音识别及99%准确率的说法，因客户未提供相关资料，无法确认，已删除。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "1f7e82f80c51ff57e54159867240c2ac4f18c693a62f13c9af6d02d6f594ee3c",
+    "request_hash": "7fb52283cc4eb7795933e6f2730cfb020711e034af85be6312f908b57de4f30b",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "审核并修改所附字幕介绍旧稿",
+        "verdict": "met",
+        "evidence": "当前稿保留原标题及两条有依据的字幕功能介绍，删除旧稿自动识别示意和准确率断言，并新增第3镜修订说明。"
+      },
+      {
+        "field": "topic",
+        "requirement": "客户没有提供自动识别和准确率数据。",
+        "verdict": "met",
+        "evidence": "第3镜明确说明“因客户未提供相关资料，无法确认，已删除”，未将自动识别或99%准确率作为已证实能力介绍。"
+      },
+      {
+        "field": "topic",
+        "requirement": "保留可确认的产品功能",
+        "verdict": "met",
+        "evidence": "第1镜保留“剪影练习版支持为视频添加字幕。”，第2镜保留“字幕文字可以手动编辑。”；分别获得P01.F1、P01.F2及通过的rules_check支持。"
+      },
+      {
+        "field": "topic",
+        "requirement": "明确处理无法确认的说法。",
+        "verdict": "met",
+        "evidence": "第3镜逐项点明“语音识别及99%准确率”，说明资料缺口、无法确认及已删除的处理结果。"
+      },
+      {
+        "field": "audience",
+        "requirement": "新手内容创作者",
+        "verdict": "met",
+        "evidence": "第1、2镜用“添加字幕”“手动编辑”等直白表述介绍基础功能，配合采访话筒和手改错字画面，理解门槛较低。"
+      },
+      {
+        "field": "platform",
+        "requirement": "小红书",
+        "verdict": "met",
+        "evidence": "标题“口播字幕小帮手”明确主题，三镜内容简短，第3镜安排说明文字随旁白逐句显示，适合短视频观看与阅读。"
+      },
+      {
+        "field": "style",
+        "requirement": "客观",
+        "verdict": "met",
+        "evidence": "第1、2镜仅陈述已核对的功能，第3镜明确承认资料不足，没有继续使用99%准确率作为宣传承诺。"
+      },
+      {
+        "field": "style",
+        "requirement": "实用",
+        "verdict": "met",
+        "evidence": "第1、2镜交代添加字幕及手动编辑两项实际用途，第3镜说明旧稿哪些说法不能确认及如何处理。"
+      }
+    ],
+    "summary": "当前稿已覆盖需求：保留两项可确认的字幕功能，删除并明确说明自动识别及99%准确率说法的资料缺口。受众、平台、风格与镜头节奏均符合要求。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "口播字幕小帮手",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "标题以“小帮手”概括字幕主题，没有提出具体性能、自动化或效果承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "桌上的采访话筒",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于采访场景的道具安排，没有声称产品具备录音或自动识别功能。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "便签上手改错字",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于在便签上手动改字的示意动作，未虚构产品按钮、界面或操作步骤。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "简洁背景展示修订说明；以下文字由旁白朗读，并随旁白逐句显示。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "描述修订说明的拍摄和呈现方式，没有将逐句显示宣称为产品自动完成的功能。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "旧稿中语音识别及99%准确率的说法，因客户未提供相关资料，无法确认，已删除。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "这是修订说明：原始需求明确客户未提供相关数据，旧稿确有对应断言，当前稿已删除肯定性介绍。此处引用这些说法是说明无法确认，不构成产品能力承诺。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "duration_check给出第1镜4秒、第2镜8秒、第3镜8.5秒，总计20.5秒，通过28秒上限检查。第1镜配14个旁白单位；第2镜虽仅10个旁白单位，但“便签上手改错字”的动作可支撑观察停留；第3镜配32个旁白单位及逐句显示的修订说明，hold_seconds为0不影响已估算的朗读时间。各镜内容不同，没有明显重复或空镜凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T20:14:11.862032+00:00",
+    "finished_at": "2026-11-03T20:19:54.705883+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 12,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "model_responses": 14,
+    "run_id": "b95a4f568efc4979ad820c028a08c60b",
+    "persistence": "checkpoint_v1"
+  }
+}

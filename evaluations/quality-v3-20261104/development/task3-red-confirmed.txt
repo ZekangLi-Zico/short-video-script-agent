@@ -1,0 +1,39 @@
+test_agent_reports_actual_local_revision_and_stale_checks_are_cleared (tests.test_quality.RevisionQualityTests.test_agent_reports_actual_local_revision_and_stale_checks_are_cleared) ... ERROR
+test_trace_replays_creative_mode_with_complete_review (tests.test_quality.RevisionQualityTests.test_trace_replays_creative_mode_with_complete_review) ... FAIL
+
+======================================================================
+ERROR: test_agent_reports_actual_local_revision_and_stale_checks_are_cleared (tests.test_quality.RevisionQualityTests.test_agent_reports_actual_local_revision_and_stale_checks_are_cleared)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_quality.py", line 162, in test_agent_reports_actual_local_revision_and_stale_checks_are_cleared
+    revision=next(t['observation']['revision'] for t in result['trace'] if t['action']=='write_script')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\tests\test_quality.py", line 162, in <genexpr>
+    revision=next(t['observation']['revision'] for t in result['trace'] if t['action']=='write_script')
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'revision'
+
+======================================================================
+FAIL: test_trace_replays_creative_mode_with_complete_review (tests.test_quality.RevisionQualityTests.test_trace_replays_creative_mode_with_complete_review)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_quality.py", line 180, in test_trace_replays_creative_mode_with_complete_review
+    self.assertEqual(verify_run(temp),[])
+AssertionError: Lists differ: ['step 3: 宿主绑定参数不一致', 'step 4: 宿主绑定参数不一致',[92 chars]不一致'] != []
+
+First list contains 6 additional elements.
+First extra element 0:
+'step 3: 宿主绑定参数不一致'
+
++ []
+- ['step 3: 宿主绑定参数不一致',
+-  'step 4: 宿主绑定参数不一致',
+-  'step 4: 工具返回不能由当前快照复算',
+-  'step 5: 需求检查参数未绑定当前稿和原始需求',
+-  'step 5: 需求检查结构无效',
+-  '最终输出与 Trace 重放状态不一致']
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.074s
+
+FAILED (failures=1, errors=1)

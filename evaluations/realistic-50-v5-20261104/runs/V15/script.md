@@ -1,0 +1,359 @@
+# 短视频脚本运行结果
+
+- 状态：`completed`
+- 证据类型：`real_model`
+- 说明：已完成3镜竖屏脚本，以洗好的蔬菜、空餐盘和食谱本串起添加字幕与手动编辑文字的展示；语气亲切、不营销，不含营养功效文案，不出现儿童。
+
+当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。
+
+## 从一段记录开始
+
+> 未完成或检查失败时，下列内容仅为未通过验收的草稿。
+
+### 分镜 1
+
+镜头目的：建立家庭料理记录场景，明确接下来要添加字幕的视频内容。
+
+画面：竖屏俯拍餐桌：洗好的蔬菜、空餐盘和食谱本同时入镜。成人双手把蔬菜摆到盘子旁，再翻开食谱本，镜头停在准备好的桌面；全片不出现儿童。
+
+同拍同步，不同拍依次播放。
+
+**第 1 拍 · 镜内 0–5.3 秒**
+
+旁白：洗好的蔬菜摆好，空餐盘和食谱本也一起入镜。
+
+镜头末尾保持画面：5.3–7.0 秒（保留最后一拍屏幕文字）
+
+预计镜头时长：7.0 秒
+
+### 分镜 2
+
+镜头目的：展示为这段料理准备视频添加字幕，让观众看到画面从没有字幕到出现字幕的变化。
+
+画面：延续同一桌面构图，成人双手轻轻放下洗好的蔬菜。先展示无字幕画面，再叠加“蔬菜洗好了。”作为字幕示意，保留空餐盘和食谱本在背景中；不展示产品按钮或未经提供的界面。
+
+同拍同步，不同拍依次播放。
+
+**第 1 拍 · 镜内 0–4.0 秒**
+
+旁白：剪影练习版支持为视频添加字幕。
+
+依据：P01/P01.F1
+
+**第 2 拍 · 镜内 4.0–8.0 秒**
+
+屏幕文字：蔬菜洗好了。
+
+镜头末尾保持画面：8.0–10.0 秒（保留最后一拍屏幕文字）
+
+预计镜头时长：10.0 秒
+
+### 分镜 3
+
+镜头目的：用同一句字幕修改前后的顺序展示，说明字幕文字可以手动编辑。
+
+画面：固定桌面画面，先保留原字幕，再用文字示意将其替换为“蔬菜洗好，准备做晚饭。”，让观众读清修改结果。成人手指沿食谱本的一行轻移，随后停住；字幕变化仅作示意，不呈现具体软件操作。
+
+同拍同步，不同拍依次播放。
+
+**第 1 拍 · 镜内 0–4.0 秒**
+
+旁白：字幕文字可以手动编辑。
+
+依据：P01/P01.F2
+
+屏幕文字：蔬菜洗好了。
+
+**第 2 拍 · 镜内 4.0–10.0 秒**
+
+屏幕文字：蔬菜洗好，准备做晚饭。
+
+镜头末尾保持画面：10.0–11.0 秒（保留最后一拍屏幕文字）
+
+预计镜头时长：11.0 秒
+
+时长要求：27.0–30 秒（接近目标）。
+
+预计总时长：28.0 秒（基于语速与镜头停留估算，非成片实测）。
+
+## 检查结果与来源
+
+```json
+{
+  "ok": true,
+  "script_hash": "7c1653f95ccbc9722c1301eb4743f3bb9aa47b1d17ff624edc972b0413b3b3f7",
+  "passed": true,
+  "issues": [],
+  "citations": [
+    {
+      "location": "shot:2/block:1",
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01",
+      "text": "剪影练习版支持为视频添加字幕。",
+      "requires_semantic_review": true
+    },
+    {
+      "location": "shot:3/block:1",
+      "source_id": "P01",
+      "fact_id": "P01.F2",
+      "quote": "字幕文字可以手动编辑。",
+      "version": "2026-11-01",
+      "text": "字幕文字可以手动编辑。",
+      "requires_semantic_review": true
+    }
+  ],
+  "rules_version": "2026-11-03-v1",
+  "requires_expression_review": true,
+  "expression_slots": [
+    {
+      "location": "title",
+      "text": "从一段记录开始"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "竖屏俯拍餐桌：洗好的蔬菜、空餐盘和食谱本同时入镜。成人双手把蔬菜摆到盘子旁，再翻开食谱本，镜头停在准备好的桌面；全片不出现儿童。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "洗好的蔬菜摆好，空餐盘和食谱本也一起入镜。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "延续同一桌面构图，成人双手轻轻放下洗好的蔬菜。先展示无字幕画面，再叠加“蔬菜洗好了。”作为字幕示意，保留空餐盘和食谱本在背景中；不展示产品按钮或未经提供的界面。"
+    },
+    {
+      "location": "shot:2/block:1",
+      "text": "剪影练习版支持为视频添加字幕。"
+    },
+    {
+      "location": "shot:2/block:2",
+      "text": "蔬菜洗好了。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "固定桌面画面，先保留原字幕，再用文字示意将其替换为“蔬菜洗好，准备做晚饭。”，让观众读清修改结果。成人手指沿食谱本的一行轻移，随后停住；字幕变化仅作示意，不呈现具体软件操作。"
+    },
+    {
+      "location": "shot:3/block:1",
+      "text": "字幕文字可以手动编辑。"
+    },
+    {
+      "location": "shot:3/block:2",
+      "text": "蔬菜洗好了。"
+    },
+    {
+      "location": "shot:3/block:3",
+      "text": "蔬菜洗好，准备做晚饭。"
+    }
+  ],
+  "available_facts": [
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F2",
+      "quote": "字幕文字可以手动编辑。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P02",
+      "fact_id": "P02.F1",
+      "quote": "剪影练习版支持裁剪视频片段。",
+      "version": "2026-11-01"
+    }
+  ],
+  "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+}
+```
+
+## 需求覆盖核对
+
+以下为模型评估，可能漏判或误判，仍需人工确认。
+
+```json
+{
+  "ok": true,
+  "script_hash": "7c1653f95ccbc9722c1301eb4743f3bb9aa47b1d17ff624edc972b0413b3b3f7",
+  "request_hash": "f0cdde0bd1d754eaa019cd4f805619d55970619edd7cffce8ab94facc5e33052",
+  "passed": true,
+  "items": [
+    {
+      "field": "topic",
+      "requirement": "介绍添加字幕",
+      "verdict": "met",
+      "evidence": "第2镜旁白“剪影练习版支持为视频添加字幕。”，画面从无字幕切换到显示“蔬菜洗好了。”，落实功能介绍与示意。"
+    },
+    {
+      "field": "topic",
+      "requirement": "手动编辑文字",
+      "verdict": "met",
+      "evidence": "第3镜旁白“字幕文字可以手动编辑。”，画面依次展示“蔬菜洗好了。”和“蔬菜洗好，准备做晚饭。”，体现文字修改前后变化。"
+    },
+    {
+      "field": "topic",
+      "requirement": "洗好的蔬菜",
+      "verdict": "met",
+      "evidence": "第1镜明确洗好的蔬菜入镜；第2镜继续展示成人双手放下洗好的蔬菜，第3镜延续同一桌面背景。"
+    },
+    {
+      "field": "topic",
+      "requirement": "空餐盘",
+      "verdict": "met",
+      "evidence": "第1镜明确空餐盘与蔬菜、食谱本同时入镜；第2镜明确保留空餐盘在背景中，第3镜延续固定桌面画面。"
+    },
+    {
+      "field": "topic",
+      "requirement": "食谱本",
+      "verdict": "met",
+      "evidence": "第1镜成人翻开食谱本，第2镜保留食谱本作为背景，第3镜安排成人手指沿食谱本的一行轻移。"
+    },
+    {
+      "field": "topic",
+      "requirement": "不要代写营养功效",
+      "verdict": "met",
+      "evidence": "全部公开文案仅描述料理准备、添加字幕和手动编辑文字；“蔬菜洗好了。”“准备做晚饭。”均未涉及营养或健康功效。"
+    },
+    {
+      "field": "topic",
+      "requirement": "不出现儿童正脸",
+      "verdict": "met",
+      "evidence": "第1镜明确“全片不出现儿童”；三镜人物画面均仅安排成人双手或手指。"
+    },
+    {
+      "field": "audience",
+      "requirement": "记录家庭料理的普通用户",
+      "verdict": "met",
+      "evidence": "以家庭餐桌、洗菜和晚饭准备为场景，通过一句生活字幕的添加与修改介绍功能，无需专业剪辑知识即可理解。"
+    },
+    {
+      "field": "platform",
+      "requirement": "小红书",
+      "verdict": "met",
+      "evidence": "第1镜明确竖屏俯拍，后续延续构图；家庭料理场景、简短字幕和28秒估算总长适合生活记录类短视频。"
+    },
+    {
+      "field": "style",
+      "requirement": "亲切",
+      "verdict": "met",
+      "evidence": "使用“蔬菜洗好了。”“准备做晚饭。”等日常表达，结合摆菜、翻食谱的生活动作，语气平实自然。"
+    },
+    {
+      "field": "style",
+      "requirement": "不营销",
+      "verdict": "met",
+      "evidence": "仅客观介绍两项功能，没有购买引导、优惠信息、夸大效果或催促使用的文案。"
+    }
+  ],
+  "summary": "已落实两项功能、三种指定背景及内容禁限要求，受众、平台和风格适配。公开能力表述均有资料支持；预计28秒，时长检查通过，镜头停留有动作与字幕对照支撑。",
+  "method": "model_assessment_not_deterministic_proof",
+  "expressions": [
+    {
+      "location": "title",
+      "text": "从一段记录开始",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "属于主题引入，不包含可验证的产品能力或效果承诺。"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "竖屏俯拍餐桌：洗好的蔬菜、空餐盘和食谱本同时入镜。成人双手把蔬菜摆到盘子旁，再翻开食谱本，镜头停在准备好的桌面；全片不出现儿童。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "仅安排餐桌背景、成人动作、构图及人物出镜范围，不包含产品事实声明。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "洗好的蔬菜摆好，空餐盘和食谱本也一起入镜。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "描述拍摄场景和物品摆放，不宣称产品能力或营养功效。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "延续同一桌面构图，成人双手轻轻放下洗好的蔬菜。先展示无字幕画面，再叠加“蔬菜洗好了。”作为字幕示意，保留空餐盘和食谱本在背景中；不展示产品按钮或未经提供的界面。",
+      "verdict": "supported_claim",
+      "references": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1"
+        }
+      ],
+      "evidence": "无字幕到出现字幕的示意由“剪影练习版支持为视频添加字幕。”支持；其余为生活场景和拍摄安排，未新增自动化能力、按钮或操作步骤。"
+    },
+    {
+      "location": "shot:2/block:1",
+      "text": "剪影练习版支持为视频添加字幕。",
+      "verdict": "supported_claim",
+      "references": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1"
+        }
+      ],
+      "evidence": "与P01.F1原文完全一致，引用保留原块标注的来源和事实编号。"
+    },
+    {
+      "location": "shot:2/block:2",
+      "text": "蔬菜洗好了。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "作为料理场景中的字幕示例，不包含产品性能或营养功效声明。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "固定桌面画面，先保留原字幕，再用文字示意将其替换为“蔬菜洗好，准备做晚饭。”，让观众读清修改结果。成人手指沿食谱本的一行轻移，随后停住；字幕变化仅作示意，不呈现具体软件操作。",
+      "verdict": "supported_claim",
+      "references": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F2"
+        }
+      ],
+      "evidence": "字幕文字修改前后的示意由“字幕文字可以手动编辑。”支持；未宣称自动改写，也未虚构具体软件操作或界面。"
+    },
+    {
+      "location": "shot:3/block:1",
+      "text": "字幕文字可以手动编辑。",
+      "verdict": "supported_claim",
+      "references": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F2"
+        }
+      ],
+      "evidence": "与P01.F2原文完全一致，引用保留原块标注的来源和事实编号。"
+    },
+    {
+      "location": "shot:3/block:2",
+      "text": "蔬菜洗好了。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "作为修改前的生活字幕示例，不包含产品能力承诺。"
+    },
+    {
+      "location": "shot:3/block:3",
+      "text": "蔬菜洗好，准备做晚饭。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "作为修改后的料理字幕示例，仅描述生活情境，不涉及营养效果或额外产品功能。"
+    }
+  ],
+  "pacing": {
+    "verdict": "met",
+    "evidence": "第1镜7秒，旁白约5.3秒，摆菜、翻开食谱和观察桌面支撑剩余停留。第2镜10秒，先用4秒旁白介绍添加字幕，再展示字幕4秒并留2秒观察，配合无字幕到有字幕的变化。第3镜11秒，首拍旁白与原字幕同步占4秒，次拍修改结果展示6秒，另留1秒；前后文字对照及沿食谱移动手指提供观察内容。原字幕的再次出现用于修改对照，未重复口播同一功能。总长28秒已通过目标区间检查，同拍声画无需相加。"
+  },
+  "expression_review_passed": true
+}
+```
+
+## 执行路径
+
+search_materials → write_script → estimate_duration → check_rules → check_requirements → finish
+
+逐步参数、观察和简短决策依据见 trace.jsonl。未记录模型内部思维过程。

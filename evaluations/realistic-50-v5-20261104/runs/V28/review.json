@@ -1,0 +1,8 @@
+{
+  "case": "V28",
+  "assessment": "退步",
+  "note": "旧版完成40.8秒五镜社区分享会讲解；新版检索返回后写稿调用超时，只有1次成功模型响应，无可交付稿。按本轮实际任务结果记退步，保留decision-6fyll2uc诊断，不用重跑替换；无法仅凭一次超时确定是代码还是模型服务波动。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

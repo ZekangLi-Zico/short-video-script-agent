@@ -1,0 +1,231 @@
+# 短视频脚本运行结果
+
+- 状态：`completed`
+- 证据类型：`real_model`
+- 说明：已完成三镜头脚本，标题为“Small Clips, Shared Moments”，以街头咖啡外带窗口为背景，用轻松中文短句介绍裁剪视频片段，无省时百分比承诺。估算11.9秒，符合25秒上限；三项检查均通过，当前稿无需进一步删改。
+
+当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。
+
+## Small Clips, Shared Moments
+
+> 未完成或检查失败时，下列内容仅为未通过验收的草稿。
+
+### 分镜 1
+
+画面：街头咖啡外带窗口，镜头记录店员递出咖啡、顾客伸手接杯。开场显示标题“Small Clips, Shared Moments”。本镜头文字块作为中文旁白及同步字幕。
+
+旁白/字幕：街角的咖啡窗口，记录一点日常。
+
+来源：
+
+预计镜头时长：3.8 秒
+
+### 分镜 2
+
+画面：沿用同一段外带窗口取咖啡素材，先播放完整取杯过程，再展示裁剪后保留的递杯片段，用素材示意裁剪视频片段，不呈现软件按钮或界面。事实文字块作为中文旁白及同步字幕。
+
+旁白/字幕：剪影练习版支持裁剪视频片段。
+
+来源：P02/P02.F1
+
+预计镜头时长：3.8 秒
+
+### 分镜 3
+
+画面：咖啡外带窗口前，顾客接稳纸杯，轻轻举杯，镜头随动作自然结束。本镜头文字块作为中文旁白及同步字幕。
+
+旁白/字幕：留下递杯这一刻，分享街角的小日常。
+
+来源：
+
+预计镜头时长：4.3 秒
+
+预计总时长：11.9 秒（基于语速与镜头停留估算，非成片实测）。
+
+## 检查结果与来源
+
+```json
+{
+  "ok": true,
+  "script_hash": "841f31fd5fd0fb802c2334c89a72de4fd35a960213ce65fcce9d41c5d2e1b402",
+  "passed": true,
+  "issues": [],
+  "citations": [
+    {
+      "location": "shot:2/block:1",
+      "source_id": "P02",
+      "fact_id": "P02.F1",
+      "quote": "剪影练习版支持裁剪视频片段。",
+      "version": "2026-11-01"
+    }
+  ],
+  "rules_version": "2026-11-03-v1",
+  "requires_expression_review": true,
+  "expression_slots": [
+    {
+      "location": "title",
+      "text": "Small Clips, Shared Moments"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "街头咖啡外带窗口，镜头记录店员递出咖啡、顾客伸手接杯。开场显示标题“Small Clips, Shared Moments”。本镜头文字块作为中文旁白及同步字幕。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "街角的咖啡窗口，记录一点日常。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "沿用同一段外带窗口取咖啡素材，先播放完整取杯过程，再展示裁剪后保留的递杯片段，用素材示意裁剪视频片段，不呈现软件按钮或界面。事实文字块作为中文旁白及同步字幕。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "咖啡外带窗口前，顾客接稳纸杯，轻轻举杯，镜头随动作自然结束。本镜头文字块作为中文旁白及同步字幕。"
+    },
+    {
+      "location": "shot:3/block:1",
+      "text": "留下递杯这一刻，分享街角的小日常。"
+    }
+  ],
+  "available_facts": [
+    {
+      "source_id": "P02",
+      "fact_id": "P02.F1",
+      "quote": "剪影练习版支持裁剪视频片段。",
+      "version": "2026-11-01"
+    }
+  ],
+  "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+}
+```
+
+## 需求覆盖核对
+
+以下为模型评估，可能漏判或误判，仍需人工确认。
+
+```json
+{
+  "ok": true,
+  "script_hash": "841f31fd5fd0fb802c2334c89a72de4fd35a960213ce65fcce9d41c5d2e1b402",
+  "request_hash": "4063fbc3f220e248e20a21eb2067ee185c61d3df13f80e53138212ce2ffbd007",
+  "passed": true,
+  "items": [
+    {
+      "field": "topic",
+      "requirement": "标题必须是“Small Clips, Shared Moments”",
+      "verdict": "met",
+      "evidence": "稿件标题逐字为“Small Clips, Shared Moments”，镜头1也明确显示该标题。"
+    },
+    {
+      "field": "topic",
+      "requirement": "正文用中文",
+      "verdict": "met",
+      "evidence": "三个镜头的正文均为中文，并明确作为中文旁白及同步字幕。"
+    },
+    {
+      "field": "topic",
+      "requirement": "介绍裁剪视频片段",
+      "verdict": "met",
+      "evidence": "镜头2旁白为“剪影练习版支持裁剪视频片段。”，画面展示完整取杯过程及裁剪后保留的递杯片段；该功能已由P02/P02.F1支持。"
+    },
+    {
+      "field": "topic",
+      "requirement": "背景是街头咖啡外带窗口",
+      "verdict": "met",
+      "evidence": "镜头1明确设置“街头咖啡外带窗口”；镜头2沿用同一素材，镜头3仍在咖啡外带窗口前。"
+    },
+    {
+      "field": "topic",
+      "requirement": "不承诺省时百分比",
+      "verdict": "met",
+      "evidence": "标题、三个镜头的画面说明及全部正文均未出现省时百分比承诺。"
+    },
+    {
+      "field": "audience",
+      "requirement": "跨境账号的中文编辑",
+      "verdict": "met",
+      "evidence": "使用中文讲解裁剪功能，并以完整素材与保留片段的对比呈现编辑用途，适合中文编辑理解；英文标题与中文正文的组合符合本次需求。"
+    },
+    {
+      "field": "platform",
+      "requirement": "小红书",
+      "verdict": "met",
+      "evidence": "采用咖啡窗口生活场景、简短中文旁白和同步字幕，以三个镜头展示单一编辑功能，具备小红书短视频的基本适配性。"
+    },
+    {
+      "field": "style",
+      "requirement": "轻松",
+      "verdict": "met",
+      "evidence": "“记录一点日常”“分享街角的小日常”配合接杯、轻轻举杯的画面，语气轻松自然。"
+    },
+    {
+      "field": "style",
+      "requirement": "短句",
+      "verdict": "met",
+      "evidence": "每镜仅一句简短旁白，如镜头2“剪影练习版支持裁剪视频片段。”，没有长句或密集解释。"
+    }
+  ],
+  "summary": "各项需求均已落实。裁剪功能有资料支持，未出现省时百分比或额外能力承诺，镜头节奏合理。",
+  "method": "model_assessment_not_deterministic_proof",
+  "expressions": [
+    {
+      "location": "title",
+      "text": "Small Clips, Shared Moments",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "属于片段与分享时刻的主题表达，没有声称产品具备发布、分享等具体功能。"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "街头咖啡外带窗口，镜头记录店员递出咖啡、顾客伸手接杯。开场显示标题“Small Clips, Shared Moments”。本镜头文字块作为中文旁白及同步字幕。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "内容为生活场景、人物动作、标题及旁白字幕的制作安排，未宣称产品自动生成字幕或具备其他能力。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "街角的咖啡窗口，记录一点日常。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "描述拍摄场景和记录日常的意图，不包含可验证的产品承诺。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "沿用同一段外带窗口取咖啡素材，先播放完整取杯过程，再展示裁剪后保留的递杯片段，用素材示意裁剪视频片段，不呈现软件按钮或界面。事实文字块作为中文旁白及同步字幕。",
+      "verdict": "supported_claim",
+      "references": [
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1"
+        }
+      ],
+      "evidence": "完整素材与保留片段的对比仅示意裁剪能力，由“剪影练习版支持裁剪视频片段。”支持；没有虚构软件按钮、界面布局或自动操作流程。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "咖啡外带窗口前，顾客接稳纸杯，轻轻举杯，镜头随动作自然结束。本镜头文字块作为中文旁白及同步字幕。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "仅安排接杯、举杯和结束镜头，以及旁白字幕的呈现方式，不涉及产品效果承诺。"
+    },
+    {
+      "location": "shot:3/block:1",
+      "text": "留下递杯这一刻，分享街角的小日常。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "属于记录与分享生活的行动邀请，没有声称产品提供一键分享或自动发布功能。"
+    }
+  ],
+  "pacing": {
+    "verdict": "met",
+    "evidence": "镜头1预计3.8秒，对应13个旁白单位及递杯、接杯和标题展示；镜头2预计3.8秒，对应13个旁白单位及简短取杯过程与裁剪片段的对比；镜头3预计4.3秒，对应15个旁白单位及接稳、举杯和自然收尾。各镜头均有明确内容支撑，无明显空镜或重复事实凑时长。hold_seconds均为0表示无额外最低停留要求；宿主估算总长11.9秒，已通过25秒上限检查。"
+  },
+  "expression_review_passed": true
+}
+```
+
+## 执行路径
+
+search_materials → write_script → estimate_duration → check_rules → check_requirements → finish
+
+逐步参数、观察和简短决策依据见 trace.jsonl。未记录模型内部思维过程。

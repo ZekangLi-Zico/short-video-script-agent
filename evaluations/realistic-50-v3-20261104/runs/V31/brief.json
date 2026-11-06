@@ -1,0 +1,18 @@
+{
+  "id": "V31",
+  "name": "屏幕大字限制",
+  "context": "门店电视距离观众较远。",
+  "request": {
+    "topic": "介绍裁剪片段，只用大字屏幕卡片，不使用旁白。每张卡最多8个汉字，观众应能读清楚；画面只用实物剪刀和纸片意象。",
+    "audience": "门店远距离观看者",
+    "platform": "视频号",
+    "target_seconds": 20,
+    "style": "短字卡，清晰",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

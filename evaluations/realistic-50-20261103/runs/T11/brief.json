@@ -1,0 +1,16 @@
+{
+  "id": "T11",
+  "name": "产品概览",
+  "context": "运营需要一条完整的基础功能概览。",
+  "request": {
+    "topic": "介绍剪影练习版的三个方面：为视频添加和手动编辑字幕、裁剪视频片段、横竖屏比例选项。每个方面都要出现。",
+    "audience": "第一次接触视频制作工具的人",
+    "platform": "抖音",
+    "style": "清晰、少口号",
+    "product_id": "demo-editor",
+    "target_seconds": 45
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

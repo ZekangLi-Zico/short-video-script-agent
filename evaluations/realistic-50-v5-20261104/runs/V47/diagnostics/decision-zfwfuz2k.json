@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-zfwfuz2k",
+  "started_at": "2026-11-04T16:06:42.863752+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:07:53.918204+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a750-0d1a-7333-9087-8a9646f78621",
+    "usage": {
+      "input_tokens": 29191,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1237,
+      "reasoning_output_tokens": 715
+    },
+    "call_id": "decision-zfwfuz2k",
+    "warnings": []
+  }
+}

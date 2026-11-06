@@ -1,0 +1,20 @@
+{
+  "port": 8801,
+  "submitted_at": "2026-11-03T23:16:50.338Z",
+  "fields": {
+    "audience": "第一次制作口播短视频的创作者",
+    "duration-mode": "max",
+    "expression-mode": "strict",
+    "fault": "search_materials:1",
+    "history": "32a9fc9193ff464aa535eb797666e25e",
+    "initial-script": "",
+    "platform": "抖音",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "清楚、友好、克制",
+    "target-seconds": "30",
+    "topic": "介绍字幕功能"
+  },
+  "automation_note": "A reset click timed out before any input or generation. Inspected the unchanged page, then filled all fields explicitly; no model run was retried."
+}

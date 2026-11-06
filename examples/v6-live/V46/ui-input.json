@@ -1,0 +1,19 @@
+{
+  "port": 8834,
+  "submitted_at": "2026-11-04T17:44:32.972Z",
+  "fields": {
+    "audience": "新手内容创作者",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "ef92b41e68f64a55a53e1dace4fc558e",
+    "initial-script": "{\n  \"title\": \"口播字幕小帮手\",\n  \"shots\": [\n    {\n      \"visual\": \"桌上的采访话筒\",\n      \"hold_seconds\": 8,\n      \"blocks\": [\n        {\n          \"text\": \"剪影练习版支持为视频添加字幕。\",\n          \"source_id\": \"P01\",\n          \"fact_id\": \"P01.F1\"\n        }\n      ]\n    },\n    {\n      \"visual\": \"显示自动识别示意\",\n      \"hold_seconds\": 8,\n      \"blocks\": [\n        {\n          \"text\": \"自动识别人声，字幕准确率达到99%。\",\n          \"source_id\": \"\",\n          \"fact_id\": \"\"\n        }\n      ]\n    },\n    {\n      \"visual\": \"便签上手改错字\",\n      \"hold_seconds\": 8,\n      \"blocks\": [\n        {\n          \"text\": \"字幕文字可以手动编辑。\",\n          \"source_id\": \"P01\",\n          \"fact_id\": \"P01.F2\"\n        }\n      ]\n    }\n  ]\n}",
+    "platform": "小红书",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "客观，实用",
+    "target-seconds": "28",
+    "topic": "审核并修改所附字幕介绍旧稿；客户没有提供自动识别和准确率数据。保留可确认的产品功能，明确处理无法确认的说法。"
+  }
+}

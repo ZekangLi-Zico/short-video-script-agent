@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-k__xomty",
+  "started_at": "2026-11-04T01:28:24.458851+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:28:44.071252+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a42b-efc4-7922-ada0-c1993cc8cc4f",
+    "usage": {
+      "input_tokens": 29713,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 116,
+      "reasoning_output_tokens": 59
+    },
+    "call_id": "decision-k__xomty",
+    "warnings": []
+  }
+}

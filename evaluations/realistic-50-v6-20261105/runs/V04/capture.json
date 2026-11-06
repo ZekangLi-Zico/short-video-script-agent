@@ -1,0 +1,13 @@
+{
+  "case": "V04",
+  "index": 3,
+  "attempt": 1,
+  "run_id": "8df1ee5246764401b4dc3e8ff723540c",
+  "folder": "V04",
+  "status": "completed",
+  "steps": 4,
+  "responses": 5,
+  "provider": "codex",
+  "seconds": 14.5,
+  "message": "已完成两镜脚本，预计14.5秒：先展示横向展台，再展示竖向单件花瓶，仅介绍横竖屏比例选择。时长、规则及需求检查均通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

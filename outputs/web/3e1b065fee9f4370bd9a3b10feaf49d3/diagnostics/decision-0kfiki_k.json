@@ -1,0 +1,45 @@
+{
+  "call_id": "decision-0kfiki_k",
+  "started_at": "2026-11-05T19:33:12.626973+00:00",
+  "response_received": true,
+  "phase": "decision",
+  "timeout_seconds": 180,
+  "request_bytes": 20247,
+  "exit_code": 0,
+  "runtime": {
+    "event_counts": {
+      "thread.started": 1,
+      "turn.started": 1,
+      "item.completed": 1,
+      "turn.completed": 1
+    },
+    "last_event": "turn.completed",
+    "turn_started": true,
+    "turn_completed": true,
+    "external_tool_used": false,
+    "signals": [
+      "network_error"
+    ],
+    "stdout_bytes": 609,
+    "stderr_bytes": 2422
+  },
+  "finished_at": "2026-11-05T19:33:23.583479+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1ad33-7651-7ea1-ba0f-a0a37c12c990",
+    "usage": {
+      "input_tokens": 26721,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 77,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-0kfiki_k",
+    "warnings": [],
+    "configuration_mode": "isolated",
+    "phase": "decision"
+  },
+  "elapsed_seconds": 10.953
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-jgauphlq",
+  "started_at": "2026-11-04T14:51:18.274040+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T14:53:26.027810+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a70b-035a-7881-9f10-4020c55f5ca3",
+    "usage": {
+      "input_tokens": 27942,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2629,
+      "reasoning_output_tokens": 1996
+    },
+    "call_id": "decision-jgauphlq",
+    "warnings": []
+  }
+}

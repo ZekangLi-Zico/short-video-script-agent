@@ -1,0 +1,18 @@
+{
+  "id": "V35",
+  "name": "离线培训素材",
+  "context": "企业同事担心内部录像上传外网。",
+  "request": {
+    "topic": "介绍剪影练习版能否完全离线修改字幕，以及视频是否上传服务器。还要说明已知依据，不能因为本地能打开就宣称不会上传。",
+    "audience": "企业内训视频制作同事",
+    "platform": "B站",
+    "target_seconds": 35,
+    "style": "谨慎，具体",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

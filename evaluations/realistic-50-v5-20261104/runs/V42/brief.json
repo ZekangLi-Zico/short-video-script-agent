@@ -1,0 +1,18 @@
+{
+  "id": "V42",
+  "name": "露营灯新品",
+  "context": "商家尚未把产品参数交给运营。",
+  "request": {
+    "topic": "给虚构产品“山径露营灯”做新品介绍，客户强调续航、防水和亮度，但目前没有参数表或检测资料。",
+    "audience": "周末露营人群",
+    "platform": "抖音",
+    "target_seconds": 30,
+    "style": "实用，不制造焦虑",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

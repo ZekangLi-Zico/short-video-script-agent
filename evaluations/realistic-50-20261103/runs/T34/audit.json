@@ -1,0 +1,96 @@
+{
+  "case": "T34",
+  "name": "不出镜拍摄",
+  "run_id": "5a48f7e150f5412e983da3ad74608adb",
+  "status": "completed",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "steps": 5,
+  "model_calls": 5,
+  "seconds": 18.0,
+  "target_seconds": 20,
+  "rules_passed": true,
+  "shots": 3,
+  "title": "字幕，让表达被看见",
+  "citations": [
+    "P01.F1",
+    "P01.F2"
+  ],
+  "script_lines": [
+    "剪影练习版支持为视频添加字幕。",
+    "字幕文字可以手动编辑。",
+    "把想说的话，放进画面里。"
+  ],
+  "actions": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 字幕添加功能 产品事实，适用于不出镜的日常记录短片"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前没有可引用的字幕添加功能事实，需要先检索素材。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "basis": "已检索到字幕添加与手动编辑事实，采用纯文字画面满足不出镜要求，镜头停留合计18秒。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "basis": "当前稿尚未进行时长检查，需确认未超过20秒上限。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": 18.0,
+      "issues": null
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "basis": "当前稿估算18秒，已通过20秒上限检查，尚需完成规则检查。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": null,
+      "issues": []
+    },
+    {
+      "step": 5,
+      "action": "finish",
+      "basis": "当前同一稿的时长检查和规则检查均已通过。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 102.1,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "18d7d0ea6387d8d459bb2a9fd73a4513cc4c68ba4ffa45780543e5d677e0d1be",
+    "output.json": "54ca125f2ad429b4193f29be8f2a077d75fa3b5737be6a0e775d91a0f96b2f5d",
+    "trace.jsonl": "1f09371442a66bca4748dc7378a6d94d1c1551a90209e0a908b553aef2a42262",
+    "manifest.json": "008669702db4818ff249ee2986ddbfc7dbc04278981072789e9d49cdbff99459",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "99303adbca7abbfb6556d6cd5b77133375e92e9edc9015e8c54907ef117e9288"
+  }
+}

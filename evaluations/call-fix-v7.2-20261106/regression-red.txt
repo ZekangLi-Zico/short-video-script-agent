@@ -1,0 +1,107 @@
+test_custom_provider_configuration_is_not_silently_dropped (tests.test_call_reliability.CallReliabilityTests.test_custom_provider_configuration_is_not_silently_dropped) ... ERROR
+test_decision_and_later_review_each_can_recover_with_run_budget (tests.test_call_reliability.CallReliabilityTests.test_decision_and_later_review_each_can_recover_with_run_budget) ... ERROR
+test_decision_compacts_duplicate_checks_but_keeps_failed_feedback (tests.test_call_reliability.CallReliabilityTests.test_decision_compacts_duplicate_checks_but_keeps_failed_feedback) ... FAIL
+test_default_openai_configuration_is_scoped_and_model_preserved (tests.test_call_reliability.CallReliabilityTests.test_default_openai_configuration_is_scoped_and_model_preserved) ... FAIL
+test_exhausted_review_stops_without_spending_another_decision (tests.test_call_reliability.CallReliabilityTests.test_exhausted_review_stops_without_spending_another_decision) ... FAIL
+test_failure_diagnostics_keep_phase_and_safe_signals_not_body (tests.test_call_reliability.CallReliabilityTests.test_failure_diagnostics_keep_phase_and_safe_signals_not_body) ... ERROR
+test_timeout_preserves_output_drained_after_termination (tests.test_call_reliability.CallReliabilityTests.test_timeout_preserves_output_drained_after_termination) ... FAIL
+
+======================================================================
+ERROR: test_custom_provider_configuration_is_not_silently_dropped (tests.test_call_reliability.CallReliabilityTests.test_custom_provider_configuration_is_not_silently_dropped)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_call_reliability.py", line 121, in test_custom_provider_configuration_is_not_silently_dropped
+    self.assertEqual(meta['configuration_mode'],'inherited_custom_provider')
+                     ~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'configuration_mode'
+
+======================================================================
+ERROR: test_decision_and_later_review_each_can_recover_with_run_budget (tests.test_call_reliability.CallReliabilityTests.test_decision_and_later_review_each_can_recover_with_run_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_call_reliability.py", line 62, in test_decision_and_later_review_each_can_recover_with_run_budget
+    _,meta=model.review(REQUEST,{},None,None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\src\providers.py", line 133, in review
+    return self._with_recovery(REVIEW_SYSTEM + (CREATIVE_REVIEW_SYSTEM if extra else '') + (NARRATIVE_REVIEW_SYSTEM if story else ''),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\src\providers.py", line 232, in _with_recovery
+    return self._generate(system, content, schema)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "USER_HOME\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\unittest\mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "USER_HOME\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\unittest\mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "USER_HOME\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\unittest\mock.py", line 1202, in _execute_mock_call
+    raise result
+src.agent.ModelError: codex_timeout; call_id=r
+
+======================================================================
+ERROR: test_failure_diagnostics_keep_phase_and_safe_signals_not_body (tests.test_call_reliability.CallReliabilityTests.test_failure_diagnostics_keep_phase_and_safe_signals_not_body)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_call_reliability.py", line 47, in test_failure_diagnostics_keep_phase_and_safe_signals_not_body
+    self.assertEqual(record['phase'],'review')
+                     ~~~~~~^^^^^^^^^
+KeyError: 'phase'
+
+======================================================================
+FAIL: test_decision_compacts_duplicate_checks_but_keeps_failed_feedback (tests.test_call_reliability.CallReliabilityTests.test_decision_compacts_duplicate_checks_but_keeps_failed_feedback)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_call_reliability.py", line 91, in test_decision_compacts_duplicate_checks_but_keeps_failed_feedback
+    self.assertNotIn('available_facts',actual['rules_check'])
+AssertionError: 'available_facts' unexpectedly found in {'ok': True, 'passed': True, 'script_hash': 'x', 'available_facts': [{'quote': 'repeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-fact'}], 'citations': [{'quote': 'repeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-factrepeated-fact'}], 'expression_slots': [{'text': 'repeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-scriptrepeated-script'}]}
+
+======================================================================
+FAIL: test_default_openai_configuration_is_scoped_and_model_preserved (tests.test_call_reliability.CallReliabilityTests.test_default_openai_configuration_is_scoped_and_model_preserved)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_call_reliability.py", line 109, in test_default_openai_configuration_is_scoped_and_model_preserved
+    _,meta=CodexModel()._generate('system','{}',{})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\src\providers.py", line 275, in _generate
+    process = run_cli(command, input=system + "\nSTATE_JSON:\n" + content,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "USER_HOME\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\unittest\mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "USER_HOME\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\unittest\mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "USER_HOME\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\unittest\mock.py", line 1204, in _execute_mock_call
+    result = effect(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\tests\test_call_reliability.py", line 101, in reply
+    self.assertIn('--ignore-user-config',command)
+AssertionError: '--ignore-user-config' not found in ['test-codex.exe', 'exec', '--skip-git-repo-check', '--ephemeral', '--sandbox', 'read-only', '-c', 'model_reasoning_effort="medium"', '--color', 'never', '--json', '--output-schema', 'D:\\小影科技笔试\\.runtime\\decision-ul58wsrz\\schema.json', '--output-last-message', 'D:\\小影科技笔试\\.runtime\\decision-ul58wsrz\\action.json', '-']
+
+======================================================================
+FAIL: test_exhausted_review_stops_without_spending_another_decision (tests.test_call_reliability.CallReliabilityTests.test_exhausted_review_stops_without_spending_another_decision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_call_reliability.py", line 74, in test_exhausted_review_stops_without_spending_another_decision
+    result=Agent(FailedReviewer(),ToolBox()).run(REQUEST)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\src\agent.py", line 74, in run
+    action, meta = self.model.decide(copy.deepcopy(state), copy.deepcopy(self.tools.rules))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\tests\test_call_reliability.py", line 70, in decide
+    if s.get('requirements_check'):raise AssertionError('decision after unavailable review')
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: decision after unavailable review
+
+======================================================================
+FAIL: test_timeout_preserves_output_drained_after_termination (tests.test_call_reliability.CallReliabilityTests.test_timeout_preserves_output_drained_after_termination)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_call_reliability.py", line 31, in test_timeout_preserves_output_drained_after_termination
+    self.assertEqual(caught.exception.stdout,'partial events')
+AssertionError: None != 'partial events'
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.054s
+
+FAILED (failures=4, errors=3)

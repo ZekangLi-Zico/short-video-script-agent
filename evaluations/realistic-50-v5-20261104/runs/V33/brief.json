@@ -1,0 +1,18 @@
+{
+  "id": "V33",
+  "name": "自动识别宣传",
+  "context": "口播工作室提出自动转文字的宣传需求。",
+  "request": {
+    "topic": "为剪影练习版写一条介绍口播自动识别为字幕、然后手动改错字的视频。客户还没给自动识别的产品演示，但希望这两点都讲清楚。",
+    "audience": "高频录制口播的作者",
+    "platform": "抖音",
+    "target_seconds": 30,
+    "style": "实用，客观",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-pz5mk37w",
+  "started_at": "2026-11-03T21:00:30.912955+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:01:13.865648+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a336-aac3-7782-a927-bb32b48bdb04",
+    "usage": {
+      "input_tokens": 26850,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1401,
+      "reasoning_output_tokens": 1034
+    },
+    "call_id": "decision-pz5mk37w",
+    "warnings": []
+  }
+}

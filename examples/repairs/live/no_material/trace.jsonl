@@ -1,0 +1,1 @@
+{"step": 1, "action": "model_error", "arguments": {}, "decision_basis": "模型不可用，不能继续决策", "observation": {"ok": false, "error": "codex_exit_1; check CLI login and local permissions"}}

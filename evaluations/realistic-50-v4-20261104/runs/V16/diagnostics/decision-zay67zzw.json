@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-zay67zzw",
+  "started_at": "2026-11-03T21:27:52.089779+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:28:08.352164+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a34f-b87e-75a0-8626-41178a50bb1c",
+    "usage": {
+      "input_tokens": 30745,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 96,
+      "reasoning_output_tokens": 40
+    },
+    "call_id": "decision-zay67zzw",
+    "warnings": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "input_and_ui_match": true,
+  "errors": [],
+  "provider": "codex",
+  "responses": 3,
+  "files_sha256": {
+    "after.txt": "aab5801dd0ea2b1fc7b6d184cf36338021f332032c13b757b5be4dd844182098",
+    "before.txt": "99a8bae8eea7d4168fc13f7470cff82031791edeabd4529bfdc3a4721d7ec65e",
+    "brief.json": "800e9b7a14a626153e859fd36fdf41d1bc573ddffb7c740cc4954e6af951adf7",
+    "capture.json": "a3f97a5980c9fd41d2b60a0c7054a68c7e6907d73ba522ce29722015ae7bb669",
+    "checkpoint.json": "6f470cc73384de7ff8db20d52277c5013403e62fe74bc199397be02b4a932c3a",
+    "data_snapshot.json": "9999df256468ed0ee8026a96d9a73e71c65824ebebb2dd35e7664b3cffdded2a",
+    "input.json": "8e09f3905b651f1203c53e7b40d25dbf65ca003fc021c7b4dd30de22a29d21a2",
+    "manifest.json": "da977d8d2a0f0c6ad886a95bf73eb8556e36414d58b83d2637085e2ad49ef945",
+    "output.json": "8616de505b2c91129dac75db811e74c4b9455a9d01780c4f8fad7cb4f7c6af5f",
+    "page.png": "97d74ac9d7ad5bdb23ef6e993843a074b4cc038fac761e7ec75b85dcd66bcb65",
+    "run.json": "7932e34855ef4eba8fa4307431ee59a54eea653ec938b752bb754425e3025199",
+    "script.md": "a6c7b2bb49a2d3fbbe551f1f71c90d099ddc562d4c2a37ca45a53c8b0e087b2c",
+    "submitted.txt": "a77192108219776373ba222d1f45a000295caaa33b5ddfc04db911944c6ee406",
+    "trace.jsonl": "d33085f60808874c4f6419b13c631652ee9ee07aa16015aea3a401f4cff7ba78",
+    "ui-input.json": "a83fecac2474e83f1ef095f7cac0c3e718f8dc7e18d1286ee8eb24e8e027dc8d",
+    "ui-record.json": "048ddaa622d5dbcc2433f1f47aea3e3212853d5a9d8eb6c449dee43b344d3e4a",
+    "diagnostics/decision-9vmt3nwp.json": "cd6a2cfc0aeac3743f82f653687b97063c42921c80b128129286de5fc419a907",
+    "diagnostics/decision-r4daghtn.json": "b74f1f9d75708296c4d94bf0e49c59fcbf690154e9e33a9c75bf8b53498f7f30",
+    "diagnostics/decision-wrv3w2el.json": "0be7fe59e66c1a8235266993956dd4dc3bc6bd26423ceec9c950ab8b56c2c49d"
+  }
+}

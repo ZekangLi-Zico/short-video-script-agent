@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-u3sh36bx",
+  "started_at": "2026-11-03T21:50:48.058806+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:51:30.725837+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a364-b561-7682-9f86-1fed2e53c749",
+    "usage": {
+      "input_tokens": 30166,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 104,
+      "reasoning_output_tokens": 45
+    },
+    "call_id": "decision-u3sh36bx",
+    "warnings": []
+  }
+}

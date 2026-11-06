@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-7obzvick",
+  "started_at": "2026-11-04T16:09:33.960247+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:11:06.479183+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a752-a8d2-77f2-a585-1f2df19b45a1",
+    "usage": {
+      "input_tokens": 29018,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2505,
+      "reasoning_output_tokens": 940
+    },
+    "call_id": "decision-7obzvick",
+    "warnings": []
+  }
+}

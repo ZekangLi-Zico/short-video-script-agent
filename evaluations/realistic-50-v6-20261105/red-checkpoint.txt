@@ -1,0 +1,21 @@
+test_interrupted_review_checkpoint_replays_last_completed_state (tests.test_effective_v6.V6Tests.test_interrupted_review_checkpoint_replays_last_completed_state) ... FAIL
+
+======================================================================
+FAIL: test_interrupted_review_checkpoint_replays_last_completed_state (tests.test_effective_v6.V6Tests.test_interrupted_review_checkpoint_replays_last_completed_state)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_effective_v6.py", line 93, in test_interrupted_review_checkpoint_replays_last_completed_state
+    self.assertEqual(verify_run(folder),[])
+AssertionError: Lists differ: ['最终输出与 Trace 重放状态不一致'] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+'最终输出与 Trace 重放状态不一致'
+
+- ['最终输出与 Trace 重放状态不一致']
++ []
+
+----------------------------------------------------------------------
+Ran 1 test in 0.083s
+
+FAILED (failures=1)

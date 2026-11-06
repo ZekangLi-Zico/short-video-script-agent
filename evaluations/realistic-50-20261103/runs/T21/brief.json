@@ -1,0 +1,16 @@
+{
+  "id": "T21",
+  "name": "自动字幕咨询",
+  "context": "客户希望做自动转字幕功能宣传。",
+  "request": {
+    "topic": "我们想宣传口播自动识别成字幕，以及识别后修改错字，写一条介绍这两项能力的产品视频脚本。",
+    "audience": "经常录口播但不想手打字幕的人",
+    "platform": "抖音",
+    "style": "实用、直接",
+    "product_id": "demo-editor",
+    "target_seconds": 25
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

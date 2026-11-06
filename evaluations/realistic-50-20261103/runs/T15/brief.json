@@ -1,0 +1,16 @@
+{
+  "id": "T15",
+  "name": "十五秒概览",
+  "context": "合作账号要求简短基础功能概览。",
+  "request": {
+    "topic": "十五秒以内介绍字幕添加、片段裁剪、横竖屏比例三个功能，各提一次即可。",
+    "audience": "小红书日常记录用户",
+    "platform": "小红书",
+    "style": "简短、自然",
+    "product_id": "demo-editor",
+    "target_seconds": 15
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

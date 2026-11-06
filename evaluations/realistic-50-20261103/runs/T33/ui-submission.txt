@@ -1,0 +1,15 @@
+Browser tab: 1, Title: "脚本试验台 · 短视频 Agent", URL: "http://127.0.0.1:8765/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~				12 button (disabled) 重置, ID: reset-button
+~				14 pop up button (disabled, collapsed, settable) 载入测试场景, Value: 自定义需求, ID: preset, Secondary Actions: Expand
+~				27 text entry area (disabled) 主题, Value: 介绍横屏和竖屏画面比例选项，品牌表达风格还没确定。, ID: topic
+~				29 text field (disabled) 给谁看, Value: 日常记录用户, ID: audience
+~				31 pop up button (disabled, collapsed, settable) 发布平台, Value: 小红书, ID: platform, Secondary Actions: Expand
+~				39 stepper (disabled, settable, integer) 目标时长 秒, Value: 20, ID: target-seconds
+~				41 text field (disabled) 表达风格, ID: style
+~				43 pop up button (disabled, collapsed, settable) 使用的产品资料, Value: 剪影练习版 · 示例素材, ID: product, Secondary Actions: Expand
+~				50 pop up button (disabled, collapsed, settable) 运行方式, Value: 真实模型 · Codex, ID: provider, Secondary Actions: Expand
+~				58 button (disabled) 正在生成与检查…, ID: run-button
++			2125 button 停止后续步骤, ID: cancel-button
+~				69 pop up button (disabled, collapsed, settable) Description: 查看最近运行, Value: 11/03 22:43:27 · 模型 · 需要补充 · 介绍视频片段裁剪功能，目标受众, ID: history, Secondary Actions: Expand
+The focused UI element is 0 AXWebArea 脚本试验台 · 短视频 Agent, URL: 127.0.0.1:8765/

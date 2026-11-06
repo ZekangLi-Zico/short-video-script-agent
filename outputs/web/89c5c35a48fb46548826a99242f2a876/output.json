@@ -1,0 +1,363 @@
+{
+  "status": "completed",
+  "message": "已完成《Small Clips, Shared Moments》三镜中文脚本，以街头咖啡外带窗口展示视频片段裁剪。预计16.3秒，符合25秒上限，无省时百分比承诺；全部检查通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "format_version": 2,
+    "title": "Small Clips, Shared Moments",
+    "shots": [
+      {
+        "purpose": "交代街头咖啡素材，展示从等候到递杯的原始记录。",
+        "visual": "街头咖啡外带窗口固定机位：顾客站在窗边等候，店员随后把咖啡递出窗口，顾客伸手接杯。",
+        "hold_seconds": 5,
+        "blocks": [
+          {
+            "text": "等咖啡时，拍下了这一段。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "介绍裁剪视频片段的能力，说明这次选择保留的动作。",
+        "visual": "以窗口原片为背景展示功能文案；随后依次展示递杯与接杯的画面，示意本次保留的片段，不展示产品界面或按钮。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "这次，只留递杯到接杯的几秒。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "both",
+            "beat": 2,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "播放选定片段，让观众看见裁剪后的内容范围。",
+        "visual": "播放同一机位素材中选定的一段：咖啡从窗口递出，顾客接稳杯子，画面在接杯动作结束时收住。保留窗口环境声。",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "一杯咖啡，一个小片刻。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "screen",
+            "beat": 1,
+            "display_seconds": 4
+          }
+        ]
+      }
+    ],
+    "editor_notes": ""
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "895c5810fd389fa1ba47de7725384faf9f1d048bac0a36eff102b5f8fffec606",
+    "shots": [
+      {
+        "shot": 1,
+        "estimated_seconds": 5.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 3.0,
+            "voice_seconds": 3.0,
+            "screen_read_seconds": 3.0,
+            "display_seconds": 0,
+            "estimated_seconds": 3.0
+          }
+        ],
+        "tail_hold_seconds": 2.0
+      },
+      {
+        "shot": 2,
+        "estimated_seconds": 7.3,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 3.8,
+            "voice_seconds": 3.75,
+            "screen_read_seconds": 3.75,
+            "display_seconds": 0,
+            "estimated_seconds": 3.8
+          },
+          {
+            "beat": 2,
+            "start_seconds": 3.8,
+            "end_seconds": 7.3,
+            "voice_seconds": 3.5,
+            "screen_read_seconds": 3.5,
+            "display_seconds": 0,
+            "estimated_seconds": 3.5
+          }
+        ],
+        "tail_hold_seconds": 0.0
+      },
+      {
+        "shot": 3,
+        "estimated_seconds": 4.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 4.0,
+            "voice_seconds": 0,
+            "screen_read_seconds": 2.75,
+            "display_seconds": 4,
+            "estimated_seconds": 4.0
+          }
+        ],
+        "tail_hold_seconds": 0.0
+      }
+    ],
+    "total_seconds": 16.3,
+    "target_seconds": 25,
+    "passed": true,
+    "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "895c5810fd389fa1ba47de7725384faf9f1d048bac0a36eff102b5f8fffec606",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01",
+        "text": "剪影练习版支持裁剪视频片段。",
+        "requires_semantic_review": true
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "Small Clips, Shared Moments"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "街头咖啡外带窗口固定机位：顾客站在窗边等候，店员随后把咖啡递出窗口，顾客伸手接杯。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "等咖啡时，拍下了这一段。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "以窗口原片为背景展示功能文案；随后依次展示递杯与接杯的画面，示意本次保留的片段，不展示产品界面或按钮。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "剪影练习版支持裁剪视频片段。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "这次，只留递杯到接杯的几秒。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "播放同一机位素材中选定的一段：咖啡从窗口递出，顾客接稳杯子，画面在接杯动作结束时收住。保留窗口环境声。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "一杯咖啡，一个小片刻。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "895c5810fd389fa1ba47de7725384faf9f1d048bac0a36eff102b5f8fffec606",
+    "request_hash": "4063fbc3f220e248e20a21eb2067ee185c61d3df13f80e53138212ce2ffbd007",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "标题必须是“Small Clips, Shared Moments”",
+        "verdict": "met",
+        "evidence": "script.title为“Small Clips, Shared Moments”，与指定标题完全一致。"
+      },
+      {
+        "field": "topic",
+        "requirement": "正文用中文",
+        "verdict": "met",
+        "evidence": "三个镜头的全部旁白和屏幕文案均为中文；英文仅用于指定标题。"
+      },
+      {
+        "field": "topic",
+        "requirement": "介绍裁剪视频片段",
+        "verdict": "met",
+        "evidence": "镜头2第1块明确介绍“剪影练习版支持裁剪视频片段”，第2块说明保留递杯到接杯的片段，镜头3展示选段。"
+      },
+      {
+        "field": "topic",
+        "requirement": "背景是街头咖啡外带窗口",
+        "verdict": "met",
+        "evidence": "镜头1明确设置“街头咖啡外带窗口”，安排等候、递杯、接杯动作；镜头2、3沿用窗口素材。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不承诺省时百分比",
+        "verdict": "met",
+        "evidence": "标题、全部画面描述及文案均未出现省时百分比；“几秒”指保留片段的长度。"
+      },
+      {
+        "field": "audience",
+        "requirement": "跨境账号的中文编辑",
+        "verdict": "met",
+        "evidence": "采用中文说明裁剪功能和选段思路，英文标题搭配日常咖啡素材，适合中文编辑理解和制作。"
+      },
+      {
+        "field": "platform",
+        "requirement": "小红书",
+        "verdict": "met",
+        "evidence": "三个镜头以生活场景展示简单剪辑用途，配有简短屏幕文字；16.3秒的内容体量适合短视频浏览。"
+      },
+      {
+        "field": "style",
+        "requirement": "轻松",
+        "verdict": "met",
+        "evidence": "“等咖啡时，拍下了这一段”“一杯咖啡，一个小片刻”使用轻松日常的表达。"
+      },
+      {
+        "field": "style",
+        "requirement": "短句",
+        "verdict": "met",
+        "evidence": "全部公开文案均为简短单句，镜头2也将功能介绍和选段说明分为两个节拍。"
+      }
+    ],
+    "summary": "全部明确要求均已落实，产品功能表述有资料支持，未出现省时百分比承诺。预计总长16.3秒，节奏合理。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "Small Clips, Shared Moments",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "主题性标题，不包含产品性能或功能承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "街头咖啡外带窗口固定机位：顾客站在窗边等候，店员随后把咖啡递出窗口，顾客伸手接杯。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "描述拍摄场景、机位和人物动作，不涉及产品能力或真实客户背书。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "等咖啡时，拍下了这一段。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "场景叙述，未声称产品具备拍摄或自动记录能力。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "以窗口原片为背景展示功能文案；随后依次展示递杯与接杯的画面，示意本次保留的片段，不展示产品界面或按钮。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于文案与素材的展示安排，没有新增产品能力、虚构界面或操作步骤；具体功能声明在本镜头第1块单独核对。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "剪影练习版支持裁剪视频片段。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ],
+        "evidence": "与P02.F1原文“剪影练习版支持裁剪视频片段。”完全一致，未扩展功能或效果。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "这次，只留递杯到接杯的几秒。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "说明本次素材的选段范围；“几秒”是片段长度，不是处理速度或省时承诺。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "播放同一机位素材中选定的一段：咖啡从窗口递出，顾客接稳杯子，画面在接杯动作结束时收住。保留窗口环境声。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "描述成片播放范围、结束位置和声音安排；未声称产品自动识别动作、自动裁剪或处理环境声。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "一杯咖啡，一个小片刻。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "情绪性收束文案，不包含可验证的产品承诺。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "镜头1预计5秒，3秒同步声画后有2秒供观察窗口动作；镜头2两个节拍依次为3.8秒和3.5秒，分别承载功能介绍与选段说明；镜头3为4秒，仅显示短句并播放递杯、接杯动作及环境声，停留有具体内容支撑。原片交代、选段说明、结果播放各有作用，无明显空镜凑时长。总长16.3秒，宿主已判定通过25秒上限。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-04T15:28:56.254763+00:00",
+    "finished_at": "2026-11-04T15:35:50.244294+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v5",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+    "model_responses": 7,
+    "run_id": "ec04bbf6242d410690a54c8397aaf9d5",
+    "persistence": "checkpoint_v1"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "case": "V35",
+  "assessment": "未完成；离线与数据传输依据不足",
+  "note": "未从本地能打开推断完全离线或不上传；明确现有材料只支持添加与编辑字幕，要求版本对应的官方说明、隐私资料与断网/恢复联网测试记录，未下无依据结论。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

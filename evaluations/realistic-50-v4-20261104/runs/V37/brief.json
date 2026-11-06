@@ -1,0 +1,18 @@
+{
+  "id": "V37",
+  "name": "竞品功能价格对比",
+  "context": "博主需要帮助新手选择工具。",
+  "request": {
+    "topic": "比较剪影练习版与剪映的字幕、片段裁剪、价格和水印。写成客观对比脚本，我们尚未提供竞品资料，不要凭印象填数据。",
+    "audience": "准备选择剪辑工具的新人",
+    "platform": "小红书",
+    "target_seconds": 45,
+    "style": "客观，不贬低竞品",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

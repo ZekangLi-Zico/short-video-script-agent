@@ -1,0 +1,56 @@
+{
+  "case": "T17",
+  "name": "英文受众",
+  "run_id": "0ec5cb80022d4644b0f97a2898b622ea",
+  "status": "needs_input",
+  "message": "Please provide approved English product facts, titles, visual descriptions, and any connecting copy. Keep the product name 剪影练习版 unchanged.",
+  "steps": 2,
+  "model_calls": 2,
+  "seconds": null,
+  "target_seconds": 20,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 剪影练习版 English facts video captions manual caption text editing"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "需要检索介绍视频字幕和手动编辑字幕文字的英文产品事实。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "finish",
+      "basis": "Retrieved facts and approved titles are Chinese; the rules prohibit translating them.",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 55.5,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "5dfb369ef86c9893dd01f6bce0a55c8a09acd829313ab28cbdfa79196fa99f14",
+    "output.json": "ec80e8161a60a7d3190eb8e32dc7317efa7a512d32d92c5e497ef63300da4283",
+    "trace.jsonl": "fea72f52bdf023f3527a028820c59ae3ca887c8638033a7a6588e74f50967f8d",
+    "manifest.json": "02ce0ecd58812e8d200995d78cb40cfb36b95a7696b55b6738b06cec6d3c6fe4",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "0bbba7fad40d42a5f3735883cc6132e937a7fb7616357401bbe340a849ac45c5"
+  }
+}

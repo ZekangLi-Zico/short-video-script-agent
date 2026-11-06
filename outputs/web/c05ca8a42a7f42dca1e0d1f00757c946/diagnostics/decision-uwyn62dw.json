@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-uwyn62dw",
+  "started_at": "2026-11-03T21:30:14.992428+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:31:15.757722+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a351-e557-7ed0-b950-4f2cad76e30b",
+    "usage": {
+      "input_tokens": 27520,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1271,
+      "reasoning_output_tokens": 949
+    },
+    "call_id": "decision-uwyn62dw",
+    "warnings": []
+  }
+}

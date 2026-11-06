@@ -1,0 +1,12 @@
+{
+  "case": "runtime_exception",
+  "status": "blocked",
+  "model_responses": 2,
+  "provider": "codex",
+  "steps": 2,
+  "seconds": null,
+  "review_calls": 0,
+  "review_has_current_duration": null,
+  "replay_errors": [],
+  "message": "运行异常，任务未完成；已保留此前的草稿、检查与执行记录。"
+}

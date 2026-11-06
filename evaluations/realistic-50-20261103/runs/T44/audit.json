@@ -1,0 +1,134 @@
+{
+  "case": "T44",
+  "name": "镜头顺序锁定",
+  "run_id": "c6fcf08e67a04f089958246a74e191a1",
+  "status": "completed",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "steps": 7,
+  "model_calls": 7,
+  "seconds": 19.0,
+  "target_seconds": 20,
+  "rules_passed": true,
+  "shots": 4,
+  "title": "字幕，让表达被看见",
+  "citations": [
+    "P01.F1",
+    "P01.F2"
+  ],
+  "script_lines": [
+    "想让画面里的表达更清楚？",
+    "剪影练习版支持为视频添加字幕。",
+    "字幕文字可以手动编辑。",
+    "试试你的下一条短片吧。"
+  ],
+  "actions": [
+    "estimate_duration",
+    "check_rules",
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 剪影练习版 P01 为视频添加字幕 字幕文字手动编辑"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "estimate_duration",
+      "basis": "已有旧稿，先检查当前稿时长。",
+      "ok": true,
+      "passed": false,
+      "error": null,
+      "seconds": 40.0,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "check_rules",
+      "basis": "旧稿估算为40秒，超过20秒上限；先补查规则反馈，再针对性压缩。",
+      "ok": true,
+      "passed": false,
+      "error": null,
+      "seconds": null,
+      "issues": [
+        {
+          "code": "source_not_retrieved",
+          "location": "shot:2/block:1",
+          "source_id": "P01"
+        },
+        {
+          "code": "source_not_retrieved",
+          "location": "shot:3/block:1",
+          "source_id": "P01"
+        },
+        {
+          "code": "no_supported_product_fact",
+          "location": "script"
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "action": "search_materials",
+      "basis": "规则检查指出两个字幕功能的来源尚未检索，需先补齐事实依据。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 4,
+      "action": "write_script",
+      "basis": "旧稿估算40秒，超过20秒上限；字幕来源已补齐，保留四镜头顺序和全部文案，将停留时间合计缩至19秒。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 5,
+      "action": "estimate_duration",
+      "basis": "当前稿已缩短四个镜头的停留时间，需重新检查是否满足20秒上限。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": 19.0,
+      "issues": null
+    },
+    {
+      "step": 6,
+      "action": "check_rules",
+      "basis": "当前稿估算19秒，已满足20秒上限；需补查本稿规则。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": null,
+      "issues": []
+    },
+    {
+      "step": 7,
+      "action": "finish",
+      "basis": "当前同一稿的时长检查和规则检查均已通过，估算19秒。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 116.3,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "f9017c3ce82105b54cc4e3b1b9bb7007f8ac65d4cafdd1d33d9457bdbb279a4b",
+    "output.json": "7dd09c5c3963e1795c0a532aac29785ee97ed4d176d609262b1bf55f9e8ffca5",
+    "trace.jsonl": "698dab2a45071e4333f499efc16ba49c47b38854d3e0fc7a757ec5fe96ebee29",
+    "manifest.json": "cea907c8d9354333059c27fa6715fe4d24219b1a2dfcd63296a1d4454bc8d030",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "2eb208d19c2a22e8f792bbdf32fc083fa37ce5a01d493953a1100b9c142a29a9"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-jods66sc",
+  "started_at": "2026-11-03T21:05:29.086537+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:06:27.617012+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a33b-3801-74e3-be84-3704ab658d30",
+    "usage": {
+      "input_tokens": 27548,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1412,
+      "reasoning_output_tokens": 1034
+    },
+    "call_id": "decision-jods66sc",
+    "warnings": []
+  }
+}

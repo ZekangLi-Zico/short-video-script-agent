@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-aoo7nvm9",
+  "started_at": "2026-11-04T16:13:29.752243+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:13:45.315250+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a756-41d4-7903-b42e-df300042c858",
+    "usage": {
+      "input_tokens": 37839,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 173,
+      "reasoning_output_tokens": 69
+    },
+    "call_id": "decision-aoo7nvm9",
+    "warnings": []
+  }
+}

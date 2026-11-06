@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-dl_prhdh",
+  "started_at": "2026-11-04T15:44:08.402653+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:46:48.427668+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a73b-66e5-7250-9cb7-aab3a04c2479",
+    "usage": {
+      "input_tokens": 28068,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3579,
+      "reasoning_output_tokens": 1967
+    },
+    "call_id": "decision-dl_prhdh",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-90iynfb6",
+  "started_at": "2026-11-03T22:14:31.571922+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:15:21.943783+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a37a-6ec3-72c3-aa16-a3938dff7d10",
+    "usage": {
+      "input_tokens": 27827,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1947,
+      "reasoning_output_tokens": 717
+    },
+    "call_id": "decision-90iynfb6",
+    "warnings": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "busy": false,
+  "detail": "真实模型 · 8 个执行步骤",
+  "history": "61ba12c389cc471abfa23a1322197c43",
+  "href": "/api/runs/61ba12c389cc471abfa23a1322197c43/download/output.json",
+  "message": "启动或保存失败：[WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\\\小影科技笔试\\\\.runtime\\\\decision-ln3emvgh'",
+  "status": "运行失败",
+  "case": "V04",
+  "captured_at": "2026-11-03T17:55:27.157Z"
+}

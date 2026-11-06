@@ -1,0 +1,15 @@
+{
+  "call_id": "decision-6fyll2uc",
+  "started_at": "2026-11-04T15:38:06.111832+00:00",
+  "response_received": false,
+  "error_code": "codex_timeout",
+  "finished_at": "2026-11-04T15:41:14.523598+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": null,
+    "usage": {},
+    "call_id": "decision-6fyll2uc",
+    "warnings": []
+  }
+}

@@ -1,0 +1,1331 @@
+{
+  "format": "checkpoint_v1",
+  "recorded_at": "2026-11-04T17:27:57.389925+00:00",
+  "last_event": {
+    "kind": "step",
+    "step": 4
+  },
+  "result": {
+    "status": "in_progress",
+    "message": "任务执行中，尚未完成。",
+    "script": {
+      "format_version": 2,
+      "title": "活动视频：大厅横屏与手机竖屏两种比例",
+      "shots": [
+        {
+          "purpose": "从大厅屏场景引出横屏画面比例选项。",
+          "visual": "先拍大厅里的横向屏幕，屏幕展示活动现场全景；镜头由大厅环境推近屏幕，突出画面的横向形状。",
+          "hold_seconds": 0,
+          "blocks": [
+            {
+              "text": "活动视频，先看大厅屏。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "both",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "剪影练习版提供横屏画面比例选项。",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "channel": "both",
+              "beat": 2,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "转到手机场景展示竖屏，并明确横屏与竖屏是两种可选比例。",
+          "visual": "切到手持竖向手机的近景，手机展示活动现场的竖向构图；随后在手机旁依次出现横向、竖向矩形示意，标明两种可选画面比例。",
+          "hold_seconds": 0,
+          "blocks": [
+            {
+              "text": "再看手机。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "both",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "也提供竖屏画面比例选项。",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "channel": "both",
+              "beat": 2,
+              "display_seconds": 0
+            },
+            {
+              "text": "横屏、竖屏，是两种可选画面比例。",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "channel": "both",
+              "beat": 3,
+              "display_seconds": 0
+            }
+          ]
+        }
+      ],
+      "editor_notes": ""
+    },
+    "duration": {
+      "ok": true,
+      "script_hash": "e1a7cb780ccc2c8671b06d0d5de3fce01ee8cd41f81fc1c92246337923742185",
+      "shots": [
+        {
+          "shot": 1,
+          "estimated_seconds": 7.1,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 2.8,
+              "voice_seconds": 2.75,
+              "screen_read_seconds": 2.75,
+              "display_seconds": 0,
+              "estimated_seconds": 2.8
+            },
+            {
+              "beat": 2,
+              "start_seconds": 2.8,
+              "end_seconds": 7.1,
+              "voice_seconds": 4.25,
+              "screen_read_seconds": 4.25,
+              "display_seconds": 0,
+              "estimated_seconds": 4.3
+            }
+          ],
+          "tail_hold_seconds": 0.0
+        },
+        {
+          "shot": 2,
+          "estimated_seconds": 8.6,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 1.5,
+              "voice_seconds": 1.5,
+              "screen_read_seconds": 1.5,
+              "display_seconds": 0,
+              "estimated_seconds": 1.5
+            },
+            {
+              "beat": 2,
+              "start_seconds": 1.5,
+              "end_seconds": 4.8,
+              "voice_seconds": 3.25,
+              "screen_read_seconds": 3.25,
+              "display_seconds": 0,
+              "estimated_seconds": 3.3
+            },
+            {
+              "beat": 3,
+              "start_seconds": 4.8,
+              "end_seconds": 8.6,
+              "voice_seconds": 3.75,
+              "screen_read_seconds": 3.75,
+              "display_seconds": 0,
+              "estimated_seconds": 3.8
+            }
+          ],
+          "tail_hold_seconds": 0.0
+        }
+      ],
+      "total_seconds": 15.7,
+      "target_seconds": 25,
+      "passed": true,
+      "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+      "is_estimate": true
+    },
+    "rules_check": {
+      "ok": true,
+      "script_hash": "e1a7cb780ccc2c8671b06d0d5de3fce01ee8cd41f81fc1c92246337923742185",
+      "passed": true,
+      "issues": [],
+      "citations": [
+        {
+          "location": "shot:1/block:2",
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01",
+          "text": "剪影练习版提供横屏画面比例选项。",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:2/block:2",
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01",
+          "text": "也提供竖屏画面比例选项。",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:2/block:3",
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01",
+          "text": "横屏、竖屏，是两种可选画面比例。",
+          "requires_semantic_review": true
+        }
+      ],
+      "rules_version": "2026-11-03-v1",
+      "requires_expression_review": true,
+      "expression_slots": [
+        {
+          "location": "title",
+          "text": "活动视频：大厅横屏与手机竖屏两种比例"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "先拍大厅里的横向屏幕，屏幕展示活动现场全景；镜头由大厅环境推近屏幕，突出画面的横向形状。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "活动视频，先看大厅屏。"
+        },
+        {
+          "location": "shot:1/block:2",
+          "text": "剪影练习版提供横屏画面比例选项。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "切到手持竖向手机的近景，手机展示活动现场的竖向构图；随后在手机旁依次出现横向、竖向矩形示意，标明两种可选画面比例。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "再看手机。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "也提供竖屏画面比例选项。"
+        },
+        {
+          "location": "shot:2/block:3",
+          "text": "横屏、竖屏，是两种可选画面比例。"
+        }
+      ],
+      "available_facts": [
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01"
+        }
+      ],
+      "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+    },
+    "requirements_check": {
+      "ok": true,
+      "script_hash": "e1a7cb780ccc2c8671b06d0d5de3fce01ee8cd41f81fc1c92246337923742185",
+      "request_hash": "8f83e2cbcbb2dd70c13429381120bdf2dd261a226dda5f319aca191d2a7b49e6",
+      "passed": true,
+      "items": [
+        {
+          "field": "topic",
+          "requirement": "介绍横屏、竖屏画面比例选项",
+          "verdict": "met",
+          "evidence": "第1镜第2块介绍横屏选项，第2镜第2块介绍竖屏选项。"
+        },
+        {
+          "field": "topic",
+          "requirement": "说明这是两种可选画面比例",
+          "verdict": "met",
+          "evidence": "第2镜第3块明确写出“横屏、竖屏，是两种可选画面比例。”"
+        },
+        {
+          "field": "topic",
+          "requirement": "场景先大厅屏再手机",
+          "verdict": "met",
+          "evidence": "第1镜拍大厅横向屏幕，第2镜切到手持竖向手机，顺序符合要求。"
+        },
+        {
+          "field": "topic",
+          "requirement": "不要声称自动同步裁剪或自动追踪人物。",
+          "verdict": "met",
+          "evidence": "标题、画面与全部文案均未声称自动同步裁剪或自动追踪人物。"
+        },
+        {
+          "field": "audience",
+          "requirement": "活动视频外包剪辑师",
+          "verdict": "met",
+          "evidence": "以活动现场视频在大厅屏和手机上的画面比例为例，贴合活动视频剪辑交付场景。"
+        },
+        {
+          "field": "platform",
+          "requirement": "B站",
+          "verdict": "met",
+          "evidence": "两镜以中文声画同步介绍具体选项，内容完整，适合B站短视频呈现。"
+        },
+        {
+          "field": "style",
+          "requirement": "客观，直截了当",
+          "verdict": "met",
+          "evidence": "文案直接说明两种比例选项，没有夸张效果承诺或冗长铺垫。"
+        }
+      ],
+      "summary": "当前稿已覆盖全部明确要求，场景顺序正确，公开产品声明均有资料支持。预计15.7秒，符合25秒上限，节奏合理。",
+      "method": "model_assessment_not_deterministic_proof",
+      "expressions": [
+        {
+          "location": "title",
+          "text": "活动视频：大厅横屏与手机竖屏两种比例",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "两种比例由原文支持，大厅与手机是应用场景示意，未增加自动处理能力。"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "先拍大厅里的横向屏幕，屏幕展示活动现场全景；镜头由大厅环境推近屏幕，突出画面的横向形状。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "仅安排大厅屏场景和推近拍摄动作，不含产品能力承诺或虚构界面。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "活动视频，先看大厅屏。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "仅引入活动视频的大厅屏展示场景。"
+        },
+        {
+          "location": "shot:1/block:2",
+          "text": "剪影练习版提供横屏画面比例选项。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "原文明确提供横屏画面比例选项，删去竖屏部分未改变含义。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "切到手持竖向手机的近景，手机展示活动现场的竖向构图；随后在手机旁依次出现横向、竖向矩形示意，标明两种可选画面比例。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "横竖两种可选比例有原文支持，手机和矩形为示意，没有展示自动转换或具体产品操作。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "再看手机。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "仅作为切换到手机场景的连接语。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "也提供竖屏画面比例选项。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "原文明确提供竖屏画面比例选项，承接前文省略产品名准确。"
+        },
+        {
+          "location": "shot:2/block:3",
+          "text": "横屏、竖屏，是两种可选画面比例。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "准确概括原文中的横屏和竖屏选项，未声称只有这两种选项。"
+        }
+      ],
+      "pacing": {
+        "verdict": "met",
+        "evidence": "第1镜7.1秒配合大厅环境推近和两拍文案，第2镜8.6秒配合手机近景及两种矩形示意；同拍声画同步，末拍总结服务于明确两种选项的要求，无空镜凑时长。"
+      },
+      "expression_review_passed": true
+    },
+    "sources": [
+      {
+        "id": "P03",
+        "product_id": "demo-editor",
+        "title": "画面比例说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "比例",
+          "竖屏",
+          "横屏",
+          "画面",
+          "aspect"
+        ],
+        "facts": [
+          {
+            "id": "P03.F1",
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "product_id": "demo-editor",
+        "title": "剪辑功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "剪辑",
+          "裁剪",
+          "片段",
+          "trim",
+          "edit"
+        ],
+        "facts": [
+          {
+            "id": "P02.F1",
+            "text": "剪影练习版支持裁剪视频片段。"
+          }
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "action": "search_materials",
+        "arguments": {
+          "query": "demo-editor 横屏 竖屏 画面比例 选项",
+          "product_id": "demo-editor"
+        },
+        "decision_basis": "查找横屏、竖屏画面比例的产品依据，用于按大厅屏到手机的顺序展示两种选项。",
+        "observation": {
+          "ok": true,
+          "query": "demo-editor 横屏 竖屏 画面比例 选项",
+          "product_id": "demo-editor",
+          "materials": [
+            {
+              "id": "P03",
+              "product_id": "demo-editor",
+              "title": "画面比例说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "比例",
+                "竖屏",
+                "横屏",
+                "画面",
+                "aspect"
+              ],
+              "facts": [
+                {
+                  "id": "P03.F1",
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+                }
+              ]
+            },
+            {
+              "id": "P02",
+              "product_id": "demo-editor",
+              "title": "剪辑功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "剪辑",
+                "裁剪",
+                "片段",
+                "trim",
+                "edit"
+              ],
+              "facts": [
+                {
+                  "id": "P02.F1",
+                  "text": "剪影练习版支持裁剪视频片段。"
+                }
+              ]
+            }
+          ],
+          "count": 2
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a798-9bd9-7f73-adbc-277234a31541",
+          "usage": {
+            "input_tokens": 27258,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 80,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-55eahre9",
+          "warnings": []
+        },
+        "elapsed_ms": 18062
+      },
+      {
+        "step": 2,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "活动视频：大厅横屏与手机竖屏两种比例",
+            "shots": [
+              {
+                "purpose": "从大厅屏场景引出横屏画面比例选项。",
+                "visual": "先拍大厅里的横向屏幕，屏幕展示活动现场全景；镜头由大厅环境推近屏幕，突出画面的横向形状。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "活动视频，先看大厅屏。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "剪影练习版提供横屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "both",
+                    "beat": 2,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "转到手机场景展示竖屏，并明确横屏与竖屏是两种可选比例。",
+                "visual": "切到手持竖向手机的近景，手机展示活动现场的竖向构图；随后在手机旁依次出现横向、竖向矩形示意，标明两种可选画面比例。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "再看手机。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "也提供竖屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "both",
+                    "beat": 2,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "横屏、竖屏，是两种可选画面比例。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "both",
+                    "beat": 3,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          }
+        },
+        "decision_basis": "已有资料覆盖两种画面比例，按大厅屏到手机的顺序成稿，仅介绍比例选项。",
+        "observation": {
+          "ok": true,
+          "script_hash": "e1a7cb780ccc2c8671b06d0d5de3fce01ee8cd41f81fc1c92246337923742185",
+          "revision": {
+            "before_hash": null,
+            "after_hash": "e1a7cb780ccc2c8671b06d0d5de3fce01ee8cd41f81fc1c92246337923742185",
+            "changed_fields": [
+              "script:new"
+            ],
+            "unchanged_shots": 0,
+            "unchanged_blocks": 0,
+            "feedback": [],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a798-e363-7a20-8de7-ea6decf0c075",
+          "usage": {
+            "input_tokens": 27536,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 428,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-q5d3mwa2",
+          "warnings": []
+        },
+        "elapsed_ms": 31516
+      },
+      {
+        "step": 3,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "活动视频：大厅横屏与手机竖屏两种比例",
+            "shots": [
+              {
+                "purpose": "从大厅屏场景引出横屏画面比例选项。",
+                "visual": "先拍大厅里的横向屏幕，屏幕展示活动现场全景；镜头由大厅环境推近屏幕，突出画面的横向形状。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "活动视频，先看大厅屏。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "剪影练习版提供横屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "both",
+                    "beat": 2,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "转到手机场景展示竖屏，并明确横屏与竖屏是两种可选比例。",
+                "visual": "切到手持竖向手机的近景，手机展示活动现场的竖向构图；随后在手机旁依次出现横向、竖向矩形示意，标明两种可选画面比例。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "再看手机。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "也提供竖屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "both",
+                    "beat": 2,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "横屏、竖屏，是两种可选画面比例。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "both",
+                    "beat": 3,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "request": {
+            "topic": "介绍横屏、竖屏画面比例选项，说明这是两种可选画面比例；场景先大厅屏再手机。不要声称自动同步裁剪或自动追踪人物。",
+            "audience": "活动视频外包剪辑师",
+            "platform": "B站",
+            "style": "客观，直截了当",
+            "product_id": "demo-editor",
+            "duration_mode": "max",
+            "expression_mode": "creative",
+            "target_seconds": 25
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "e1a7cb780ccc2c8671b06d0d5de3fce01ee8cd41f81fc1c92246337923742185",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:1/block:2",
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01",
+                "text": "剪影练习版提供横屏画面比例选项。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:2/block:2",
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01",
+                "text": "也提供竖屏画面比例选项。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:2/block:3",
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01",
+                "text": "横屏、竖屏，是两种可选画面比例。",
+                "requires_semantic_review": true
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "活动视频：大厅横屏与手机竖屏两种比例"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "先拍大厅里的横向屏幕，屏幕展示活动现场全景；镜头由大厅环境推近屏幕，突出画面的横向形状。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "活动视频，先看大厅屏。"
+              },
+              {
+                "location": "shot:1/block:2",
+                "text": "剪影练习版提供横屏画面比例选项。"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "切到手持竖向手机的近景，手机展示活动现场的竖向构图；随后在手机旁依次出现横向、竖向矩形示意，标明两种可选画面比例。"
+              },
+              {
+                "location": "shot:2/block:1",
+                "text": "再看手机。"
+              },
+              {
+                "location": "shot:2/block:2",
+                "text": "也提供竖屏画面比例选项。"
+              },
+              {
+                "location": "shot:2/block:3",
+                "text": "横屏、竖屏，是两种可选画面比例。"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "e1a7cb780ccc2c8671b06d0d5de3fce01ee8cd41f81fc1c92246337923742185",
+            "shots": [
+              {
+                "shot": 1,
+                "estimated_seconds": 7.1,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 2.8,
+                    "voice_seconds": 2.75,
+                    "screen_read_seconds": 2.75,
+                    "display_seconds": 0,
+                    "estimated_seconds": 2.8
+                  },
+                  {
+                    "beat": 2,
+                    "start_seconds": 2.8,
+                    "end_seconds": 7.1,
+                    "voice_seconds": 4.25,
+                    "screen_read_seconds": 4.25,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.3
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              },
+              {
+                "shot": 2,
+                "estimated_seconds": 8.6,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 1.5,
+                    "voice_seconds": 1.5,
+                    "screen_read_seconds": 1.5,
+                    "display_seconds": 0,
+                    "estimated_seconds": 1.5
+                  },
+                  {
+                    "beat": 2,
+                    "start_seconds": 1.5,
+                    "end_seconds": 4.8,
+                    "voice_seconds": 3.25,
+                    "screen_read_seconds": 3.25,
+                    "display_seconds": 0,
+                    "estimated_seconds": 3.3
+                  },
+                  {
+                    "beat": 3,
+                    "start_seconds": 4.8,
+                    "end_seconds": 8.6,
+                    "voice_seconds": 3.75,
+                    "screen_read_seconds": 3.75,
+                    "display_seconds": 0,
+                    "estimated_seconds": 3.8
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              }
+            ],
+            "total_seconds": 15.7,
+            "target_seconds": 25,
+            "passed": true,
+            "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+            "is_estimate": true
+          }
+        },
+        "decision_basis": "检查当前稿的时长、规则与需求，确认不超过25秒，按大厅屏到手机的顺序介绍两种可选比例，且未增加自动裁剪或人物追踪声明。",
+        "observation": {
+          "ok": true,
+          "script_hash": "e1a7cb780ccc2c8671b06d0d5de3fce01ee8cd41f81fc1c92246337923742185",
+          "request_hash": "8f83e2cbcbb2dd70c13429381120bdf2dd261a226dda5f319aca191d2a7b49e6",
+          "passed": true,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "介绍横屏、竖屏画面比例选项",
+              "verdict": "met",
+              "evidence": "第1镜第2块介绍横屏选项，第2镜第2块介绍竖屏选项。"
+            },
+            {
+              "field": "topic",
+              "requirement": "说明这是两种可选画面比例",
+              "verdict": "met",
+              "evidence": "第2镜第3块明确写出“横屏、竖屏，是两种可选画面比例。”"
+            },
+            {
+              "field": "topic",
+              "requirement": "场景先大厅屏再手机",
+              "verdict": "met",
+              "evidence": "第1镜拍大厅横向屏幕，第2镜切到手持竖向手机，顺序符合要求。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不要声称自动同步裁剪或自动追踪人物。",
+              "verdict": "met",
+              "evidence": "标题、画面与全部文案均未声称自动同步裁剪或自动追踪人物。"
+            },
+            {
+              "field": "audience",
+              "requirement": "活动视频外包剪辑师",
+              "verdict": "met",
+              "evidence": "以活动现场视频在大厅屏和手机上的画面比例为例，贴合活动视频剪辑交付场景。"
+            },
+            {
+              "field": "platform",
+              "requirement": "B站",
+              "verdict": "met",
+              "evidence": "两镜以中文声画同步介绍具体选项，内容完整，适合B站短视频呈现。"
+            },
+            {
+              "field": "style",
+              "requirement": "客观，直截了当",
+              "verdict": "met",
+              "evidence": "文案直接说明两种比例选项，没有夸张效果承诺或冗长铺垫。"
+            }
+          ],
+          "summary": "当前稿已覆盖全部明确要求，场景顺序正确，公开产品声明均有资料支持。预计15.7秒，符合25秒上限，节奏合理。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "活动视频：大厅横屏与手机竖屏两种比例",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "两种比例由原文支持，大厅与手机是应用场景示意，未增加自动处理能力。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "先拍大厅里的横向屏幕，屏幕展示活动现场全景；镜头由大厅环境推近屏幕，突出画面的横向形状。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "仅安排大厅屏场景和推近拍摄动作，不含产品能力承诺或虚构界面。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "活动视频，先看大厅屏。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "仅引入活动视频的大厅屏展示场景。"
+            },
+            {
+              "location": "shot:1/block:2",
+              "text": "剪影练习版提供横屏画面比例选项。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "原文明确提供横屏画面比例选项，删去竖屏部分未改变含义。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "切到手持竖向手机的近景，手机展示活动现场的竖向构图；随后在手机旁依次出现横向、竖向矩形示意，标明两种可选画面比例。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "横竖两种可选比例有原文支持，手机和矩形为示意，没有展示自动转换或具体产品操作。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "再看手机。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "仅作为切换到手机场景的连接语。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "也提供竖屏画面比例选项。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "原文明确提供竖屏画面比例选项，承接前文省略产品名准确。"
+            },
+            {
+              "location": "shot:2/block:3",
+              "text": "横屏、竖屏，是两种可选画面比例。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "准确概括原文中的横屏和竖屏选项，未声称只有这两种选项。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "第1镜7.1秒配合大厅环境推近和两拍文案，第2镜8.6秒配合手机近景及两种矩形示意；同拍声画同步，末拍总结服务于明确两种选项的要求，无空镜凑时长。"
+          },
+          "expression_review_passed": true
+        },
+        "preflight_checks": [
+          {
+            "action": "estimate_duration",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "活动视频：大厅横屏与手机竖屏两种比例",
+                "shots": [
+                  {
+                    "purpose": "从大厅屏场景引出横屏画面比例选项。",
+                    "visual": "先拍大厅里的横向屏幕，屏幕展示活动现场全景；镜头由大厅环境推近屏幕，突出画面的横向形状。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "活动视频，先看大厅屏。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "both",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "剪影练习版提供横屏画面比例选项。",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "both",
+                        "beat": 2,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "转到手机场景展示竖屏，并明确横屏与竖屏是两种可选比例。",
+                    "visual": "切到手持竖向手机的近景，手机展示活动现场的竖向构图；随后在手机旁依次出现横向、竖向矩形示意，标明两种可选画面比例。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "再看手机。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "both",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "也提供竖屏画面比例选项。",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "both",
+                        "beat": 2,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "横屏、竖屏，是两种可选画面比例。",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "both",
+                        "beat": 3,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "target_seconds": 25,
+              "duration_mode": "max"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "e1a7cb780ccc2c8671b06d0d5de3fce01ee8cd41f81fc1c92246337923742185",
+              "shots": [
+                {
+                  "shot": 1,
+                  "estimated_seconds": 7.1,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 2.8,
+                      "voice_seconds": 2.75,
+                      "screen_read_seconds": 2.75,
+                      "display_seconds": 0,
+                      "estimated_seconds": 2.8
+                    },
+                    {
+                      "beat": 2,
+                      "start_seconds": 2.8,
+                      "end_seconds": 7.1,
+                      "voice_seconds": 4.25,
+                      "screen_read_seconds": 4.25,
+                      "display_seconds": 0,
+                      "estimated_seconds": 4.3
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                },
+                {
+                  "shot": 2,
+                  "estimated_seconds": 8.6,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 1.5,
+                      "voice_seconds": 1.5,
+                      "screen_read_seconds": 1.5,
+                      "display_seconds": 0,
+                      "estimated_seconds": 1.5
+                    },
+                    {
+                      "beat": 2,
+                      "start_seconds": 1.5,
+                      "end_seconds": 4.8,
+                      "voice_seconds": 3.25,
+                      "screen_read_seconds": 3.25,
+                      "display_seconds": 0,
+                      "estimated_seconds": 3.3
+                    },
+                    {
+                      "beat": 3,
+                      "start_seconds": 4.8,
+                      "end_seconds": 8.6,
+                      "voice_seconds": 3.75,
+                      "screen_read_seconds": 3.75,
+                      "display_seconds": 0,
+                      "estimated_seconds": 3.8
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                }
+              ],
+              "total_seconds": 15.7,
+              "target_seconds": 25,
+              "passed": true,
+              "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+              "is_estimate": true
+            }
+          },
+          {
+            "action": "check_rules",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "活动视频：大厅横屏与手机竖屏两种比例",
+                "shots": [
+                  {
+                    "purpose": "从大厅屏场景引出横屏画面比例选项。",
+                    "visual": "先拍大厅里的横向屏幕，屏幕展示活动现场全景；镜头由大厅环境推近屏幕，突出画面的横向形状。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "活动视频，先看大厅屏。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "both",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "剪影练习版提供横屏画面比例选项。",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "both",
+                        "beat": 2,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "转到手机场景展示竖屏，并明确横屏与竖屏是两种可选比例。",
+                    "visual": "切到手持竖向手机的近景，手机展示活动现场的竖向构图；随后在手机旁依次出现横向、竖向矩形示意，标明两种可选画面比例。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "再看手机。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "both",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "也提供竖屏画面比例选项。",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "both",
+                        "beat": 2,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "横屏、竖屏，是两种可选画面比例。",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "both",
+                        "beat": 3,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "retrieved_ids": [
+                "P02",
+                "P03"
+              ],
+              "expression_mode": "creative"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "e1a7cb780ccc2c8671b06d0d5de3fce01ee8cd41f81fc1c92246337923742185",
+              "passed": true,
+              "issues": [],
+              "citations": [
+                {
+                  "location": "shot:1/block:2",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1",
+                  "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "version": "2026-11-01",
+                  "text": "剪影练习版提供横屏画面比例选项。",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:2/block:2",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1",
+                  "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "version": "2026-11-01",
+                  "text": "也提供竖屏画面比例选项。",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:2/block:3",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1",
+                  "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "version": "2026-11-01",
+                  "text": "横屏、竖屏，是两种可选画面比例。",
+                  "requires_semantic_review": true
+                }
+              ],
+              "rules_version": "2026-11-03-v1",
+              "requires_expression_review": true,
+              "expression_slots": [
+                {
+                  "location": "title",
+                  "text": "活动视频：大厅横屏与手机竖屏两种比例"
+                },
+                {
+                  "location": "shot:1/visual",
+                  "text": "先拍大厅里的横向屏幕，屏幕展示活动现场全景；镜头由大厅环境推近屏幕，突出画面的横向形状。"
+                },
+                {
+                  "location": "shot:1/block:1",
+                  "text": "活动视频，先看大厅屏。"
+                },
+                {
+                  "location": "shot:1/block:2",
+                  "text": "剪影练习版提供横屏画面比例选项。"
+                },
+                {
+                  "location": "shot:2/visual",
+                  "text": "切到手持竖向手机的近景，手机展示活动现场的竖向构图；随后在手机旁依次出现横向、竖向矩形示意，标明两种可选画面比例。"
+                },
+                {
+                  "location": "shot:2/block:1",
+                  "text": "再看手机。"
+                },
+                {
+                  "location": "shot:2/block:2",
+                  "text": "也提供竖屏画面比例选项。"
+                },
+                {
+                  "location": "shot:2/block:3",
+                  "text": "横屏、竖屏，是两种可选画面比例。"
+                }
+              ],
+              "available_facts": [
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1",
+                  "quote": "剪影练习版支持裁剪视频片段。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1",
+                  "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "version": "2026-11-01"
+                }
+              ],
+              "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+            }
+          }
+        ],
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a799-5d72-7972-b590-21a84e006001",
+          "usage": {
+            "input_tokens": 28108,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 78,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-0t01d5a0",
+          "warnings": []
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a799-abc7-7733-8a14-3ef3d7af403a",
+          "usage": {
+            "input_tokens": 28964,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1118,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-y9xzwx25",
+          "warnings": []
+        },
+        "elapsed_ms": 53984
+      },
+      {
+        "step": 4,
+        "action": "finish",
+        "arguments": {
+          "status": "completed",
+          "message": "已完成两镜脚本：先大厅横屏，再手机竖屏，明确两种可选画面比例。预计15.7秒，符合25秒上限；未加入自动同步裁剪或自动追踪人物的声明，全部检查通过。"
+        },
+        "decision_basis": "当前同一稿的时长、规则及需求检查均已通过，满足交付条件。",
+        "observation": {
+          "ok": true,
+          "status": "completed",
+          "script_hash": "e1a7cb780ccc2c8671b06d0d5de3fce01ee8cd41f81fc1c92246337923742185"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a79a-300d-77e1-850e-325df738b701",
+          "usage": {
+            "input_tokens": 30847,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 108,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-7fqhj5uh",
+          "warnings": []
+        },
+        "elapsed_ms": 15891
+      }
+    ],
+    "metadata": {
+      "started_at": "2026-11-04T17:25:57.840662+00:00",
+      "finished_at": "2026-11-04T17:27:57.388399+00:00",
+      "provider": "codex",
+      "evidence_kind": "real_model",
+      "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+      "max_steps": 12,
+      "steps": 4,
+      "synthetic_data": true,
+      "completion_policy": "facts_duration_requirements_v6",
+      "requirements_review_context": "current_rules_and_duration_v2",
+      "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+      "model_responses": 5,
+      "run_id": "05060e07b3d149b599af924890fa4f67",
+      "persistence": "checkpoint_v1",
+      "fault_injection": {}
+    }
+  }
+}

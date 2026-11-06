@@ -1,0 +1,97 @@
+{
+  "case": "T15",
+  "name": "十五秒概览",
+  "run_id": "d8d33bda527b4d75a68d32a46160ea8a",
+  "status": "completed",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "steps": 5,
+  "model_calls": 5,
+  "seconds": 13.0,
+  "target_seconds": 15,
+  "rules_passed": true,
+  "shots": 3,
+  "title": "从一段记录开始",
+  "citations": [
+    "P01.F1",
+    "P02.F1",
+    "P03.F1"
+  ],
+  "script_lines": [
+    "剪影练习版支持为视频添加字幕。",
+    "剪影练习版支持裁剪视频片段。",
+    "剪影练习版提供横屏和竖屏画面比例选项。"
+  ],
+  "actions": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 字幕添加、片段裁剪、横竖屏比例功能的简短事实文案"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前没有素材，需要检索三个功能的可引用事实。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "basis": "已检索到三个功能的事实文案，按每项一次编排三个镜头。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "basis": "当前稿已写入，需检查三个镜头的总时长是否在15秒以内。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": 13.0,
+      "issues": null
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "basis": "当前稿估算13秒，已通过时长检查，尚未完成规则检查。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": null,
+      "issues": []
+    },
+    {
+      "step": 5,
+      "action": "finish",
+      "basis": "当前同一稿的时长检查与规则检查均已通过。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 87.2,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "2f6461805bc90203d01946acb714b44372151dae6913b1491dc963a3115196e1",
+    "output.json": "b2b0a93654dcdbedb536c1dbdc294caf110a8de3ede46402982e9ef6c5af5cd7",
+    "trace.jsonl": "a6558361a74c17ae6036344dc26d50457bbf99c0e9b14a438cc32f4a1b08cafd",
+    "manifest.json": "12e98cc4e827fedae68415255a3281653b706c3738871e1aa1cd59317879502b",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "ee80a1209a4497f73caa2a42dba869dcc4bd324bb2ce942c39d551bb5660489e"
+  }
+}

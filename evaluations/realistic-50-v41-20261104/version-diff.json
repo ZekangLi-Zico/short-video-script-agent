@@ -1,0 +1,83 @@
+{
+  "baseline_version": "v4 before final-polish",
+  "current_version": "v4.1 tested code",
+  "changes": [
+    {
+      "file": "src/agent.py",
+      "old": "12d8e33f717d9e13e5dd837f4395e6e3416e8325efa639aedb2a8c6a1fc12681",
+      "current": "5543e7acf6500a81f35ce7e76efffb8d87fb4d071068984ff7ac11d23663a1fe",
+      "kind": "changed"
+    },
+    {
+      "file": "src/providers.py",
+      "old": "c7cecbe179e8620dd06f6a1367147df84c1ad0059cfb263773c53b9d138ce82f",
+      "current": "5afe4b902886e784505f5f3ce2bdf3e103d741a607a6de7e03a22995bbc18b53",
+      "kind": "changed"
+    },
+    {
+      "file": "src/reporting.py",
+      "old": "34740758b914f144d197c97c4ded2c0d97a2849429ec1511e45cc911ff569301",
+      "current": "a38f28d4f9eac5ee4332340c856ff2e11d9da71325b26de9e585dc855eaae157",
+      "kind": "changed"
+    },
+    {
+      "file": "src/requirements.py",
+      "old": "ea8b64711bea52738af5220640dee0907077b64d4f577b4027de6b187c88b000",
+      "current": "ff5df4b9a3f5cf572dcf4e622ab5aae11ab1f4db923f746dca92645e59e1df3e",
+      "kind": "changed"
+    },
+    {
+      "file": "src/revisions.py",
+      "old": "ba96a4e3451b3b19917be15592195830c842defb432ec44622de599ff27ece66",
+      "current": "832095e35ed155f6f97e6d8f09af69c8428ebdc3770c3d47215eeeaa7626fd19",
+      "kind": "changed"
+    },
+    {
+      "file": "src/schema.py",
+      "old": "184459469c1985e36ed641606ffc5944d37a3b0df7a82335a695f5e0e27928ce",
+      "current": "48c021915762fb37db1ed867077c755f6af65881b150d189bf740607694730b2",
+      "kind": "changed"
+    },
+    {
+      "file": "src/tools.py",
+      "old": "28f37d1ddf5b76101bf597662408b85a5270922d88d4b06bb6ee2c8ccdac2789",
+      "current": "ce281020e6d6c1cd022bf728e0323199bfd1d6c70de351f16a56250cde80522b",
+      "kind": "changed"
+    },
+    {
+      "file": "web/app.js",
+      "old": "b019ee5be8ecc3eaa0fc6f6a6dbd12889bff527ec3a63d0dd1a087a455b45b34",
+      "current": "09223fe0a3910e75fe80277ca8d0853314f6916d60b04f60ef9f267bd705eb42",
+      "kind": "changed"
+    },
+    {
+      "file": "web/index.html",
+      "old": "b17faa074be8e1fb35f66a92884f3b849db48e2eb06551bcde2af35f92569303",
+      "current": "7cdfe108a8730408f4660639b3eeb27e6e3422b7a1e47ef2bf4856c9900cf6b4",
+      "kind": "changed"
+    },
+    {
+      "file": "web/style.css",
+      "old": "3855e4392bc31e90ed04fe7d480fba272aa26fc1dc3b1f0c9a0ce3986a182ede",
+      "current": "80f19885f1d3a0108260289d36410221f3075987511fd4abed1874faebe4e3a3",
+      "kind": "changed"
+    },
+    {
+      "file": "scripts/evaluate.py",
+      "old": "b6eae540b5d45fe27e7d8c7d46edac267dc0dd3e0ad80e416aff08c187d5e778",
+      "current": "835af6b9f9b07f26b63c0c7b2813d36da60e7464e6337477ab57c7f8f03190a2",
+      "kind": "changed"
+    },
+    {
+      "file": "tests/test_submission.py",
+      "old": null,
+      "current": "eccced365a953498b21270ae91911e824e62ad9660a9a28c7f4809e680cbc446",
+      "kind": "new"
+    }
+  ],
+  "same_data": [
+    "data/brand_rules.json",
+    "data/materials.json"
+  ],
+  "note": "Difference established before experiments; no app code changes authorized during this campaign."
+}

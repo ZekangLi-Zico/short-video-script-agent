@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ckg34fzp",
+  "started_at": "2026-11-03T23:15:31.206296+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:15:50.209547+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3b2-4536-71b1-80b8-d9f674bd8cf4",
+    "usage": {
+      "input_tokens": 35129,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 377,
+      "reasoning_output_tokens": 228
+    },
+    "call_id": "decision-ckg34fzp",
+    "warnings": []
+  }
+}

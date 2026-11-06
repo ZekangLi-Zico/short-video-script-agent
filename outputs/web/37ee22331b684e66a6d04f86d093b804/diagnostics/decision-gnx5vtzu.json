@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-gnx5vtzu",
+  "started_at": "2026-11-04T15:00:10.901132+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:00:27.742714+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a713-2226-7240-af19-40891d0bc020",
+    "usage": {
+      "input_tokens": 29966,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 151,
+      "reasoning_output_tokens": 71
+    },
+    "call_id": "decision-gnx5vtzu",
+    "warnings": []
+  }
+}

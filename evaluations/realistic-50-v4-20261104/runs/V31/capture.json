@@ -1,0 +1,13 @@
+{
+  "case": "V31",
+  "index": 30,
+  "attempt": 1,
+  "run_id": "aafcdbf3a8844b50bb2df7565e56d7ce",
+  "folder": "V31",
+  "status": "needs_input",
+  "steps": 3,
+  "responses": 3,
+  "provider": "codex",
+  "seconds": null,
+  "message": "请项目维护者补充一条不超过8个汉字、可独立完整引用的裁剪片段功能说明。现有事实须逐字保留，无法直接用于符合要求的单张屏幕卡，也不能改用旁白。尚未生成分镜稿，时长、规则和需求检查均未完成。"
+}

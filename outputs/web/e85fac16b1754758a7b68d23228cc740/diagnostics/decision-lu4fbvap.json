@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-lu4fbvap",
+  "started_at": "2026-11-03T22:08:53.667608+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:09:09.505607+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a375-45a7-7d02-aff7-c05aa0ed16d0",
+    "usage": {
+      "input_tokens": 27038,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 220,
+      "reasoning_output_tokens": 99
+    },
+    "call_id": "decision-lu4fbvap",
+    "warnings": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-qplat85w",
+  "started_at": "2026-11-04T17:48:15.646550+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:48:29.721072+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a7ad-044f-7a40-bbeb-9e52ec40148a",
+    "usage": {
+      "input_tokens": 28254,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 78,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-qplat85w",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-mcmuqdh8",
+  "started_at": "2026-11-03T21:49:36.987399+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:49:52.055021+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a363-9f7f-7092-a9f0-8ef4d3e0ffae",
+    "usage": {
+      "input_tokens": 28538,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 129,
+      "reasoning_output_tokens": 68
+    },
+    "call_id": "decision-mcmuqdh8",
+    "warnings": []
+  }
+}

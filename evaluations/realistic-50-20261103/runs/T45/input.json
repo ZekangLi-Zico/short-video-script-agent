@@ -1,0 +1,46 @@
+{
+  "topic": "这份旧稿从别的产品项目复制过来，请改成剪影练习版的介绍，使用当前资料核对，不要把其他产品的功能直接照搬。",
+  "audience": "新用户",
+  "platform": "视频号",
+  "style": "准确、朴实",
+  "product_id": "demo-editor",
+  "target_seconds": 25,
+  "initial_script": {
+    "title": "字幕，让表达被看见",
+    "shots": [
+      {
+        "visual": "人物面对镜头提出问题",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "想让画面里的表达更清楚？",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "产品功能文字卡片，不展示未经提供的界面",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "其他产品支持导出字幕文件。",
+            "source_id": "OTHER01",
+            "fact_id": "OTHER01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "简洁背景展示结尾文字",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "试试你的下一条短片吧。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  }
+}

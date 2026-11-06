@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-11-05T20:53:30.075925+00:00",
+  "scope": "证据入口修复、提交文档整理、四类网页真实模型验收",
+  "actor": "AI assistant; not candidate personal hours",
+  "source_files": 105,
+  "preserved_files": 13508,
+  "finished_at": "2026-11-05T21:13:29.097628+00:00",
+  "version": "v7.3.1-submission",
+  "real_web_cases": 4,
+  "model_responses": 18,
+  "model_timeouts": 0,
+  "automatic_tests": 161,
+  "replayed_evidence": 20
+}

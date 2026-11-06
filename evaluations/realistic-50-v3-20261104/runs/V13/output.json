@@ -1,0 +1,306 @@
+{
+  "status": "completed",
+  "message": "已完成两个固定分镜：会议室空椅子介绍添加字幕，会议资料封面介绍横竖屏比例选项。稿件不含会议发言内容或员工姓名，无需进一步删改。估算总时长9秒，符合20秒上限；三项检查均通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "添加字幕与横竖屏比例",
+    "shots": [
+      {
+        "visual": "会议室空椅子固定镜头，无人物、员工姓名或会议发言内容。事实块作为产品介绍旁白，同步叠加同文字幕；不使用会议现场人声。",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "会议资料封面特写，封面仅写“会议资料”，不出现员工姓名或发言内容。事实块作为产品介绍旁白，同步叠加同文字幕。",
+        "hold_seconds": 5,
+        "blocks": [
+          {
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "ff1769bbf91d63e73e9b6090797ad06b64bb1893dd4c40a1c5613b39aae87925",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 14,
+        "estimated_seconds": 4.0
+      },
+      {
+        "shot": 2,
+        "speech_units": 18,
+        "estimated_seconds": 5.0
+      }
+    ],
+    "total_seconds": 9.0,
+    "target_seconds": 20,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "ff1769bbf91d63e73e9b6090797ad06b64bb1893dd4c40a1c5613b39aae87925",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:1/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "添加字幕与横竖屏比例"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "会议室空椅子固定镜头，无人物、员工姓名或会议发言内容。事实块作为产品介绍旁白，同步叠加同文字幕；不使用会议现场人声。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "会议资料封面特写，封面仅写“会议资料”，不出现员工姓名或发言内容。事实块作为产品介绍旁白，同步叠加同文字幕。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "ff1769bbf91d63e73e9b6090797ad06b64bb1893dd4c40a1c5613b39aae87925",
+    "request_hash": "ba2bdefd5f318c1b41a9d753aafc5e14453b6a56431a14aaa98befe8c588f8ca",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "介绍添加字幕",
+        "verdict": "met",
+        "evidence": "第一镜旁白明确介绍：“剪影练习版支持为视频添加字幕。”"
+      },
+      {
+        "field": "topic",
+        "requirement": "横竖屏比例选项",
+        "verdict": "met",
+        "evidence": "第二镜旁白明确介绍：“剪影练习版提供横屏和竖屏画面比例选项。”"
+      },
+      {
+        "field": "topic",
+        "requirement": "固定两个分镜",
+        "verdict": "met",
+        "evidence": "稿件恰有两个分镜。"
+      },
+      {
+        "field": "topic",
+        "requirement": "第一镜会议室空椅子",
+        "verdict": "met",
+        "evidence": "第一镜画面明确为“会议室空椅子固定镜头”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "第二镜会议资料封面",
+        "verdict": "met",
+        "evidence": "第二镜画面明确为“会议资料封面特写”，封面仅写“会议资料”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不出现发言内容",
+        "verdict": "met",
+        "evidence": "两镜均明确不出现会议发言内容；旁白仅介绍产品功能，第一镜还明确“不使用会议现场人声”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不出现发言内容和员工姓名。",
+        "verdict": "met",
+        "evidence": "员工姓名禁用要求已落实：两镜画面均明确不出现员工姓名，标题和旁白也没有姓名。"
+      },
+      {
+        "field": "audience",
+        "requirement": "公司行政视频编辑",
+        "verdict": "met",
+        "evidence": "会议室及会议资料封面体现公司行政场景，旁白介绍字幕和画面比例功能，符合该受众的工作语境。"
+      },
+      {
+        "field": "platform",
+        "requirement": "视频号",
+        "verdict": "met",
+        "evidence": "采用两个简短镜头，每镜介绍一个功能，并安排同文字幕，适合视频号短视频观看。"
+      },
+      {
+        "field": "style",
+        "requirement": "简洁",
+        "verdict": "met",
+        "evidence": "标题直接点明两项功能，每镜仅一句功能介绍，没有重复铺陈。"
+      },
+      {
+        "field": "style",
+        "requirement": "专业",
+        "verdict": "met",
+        "evidence": "使用会议场景与客观功能描述，未出现夸张效果承诺或随意调侃。"
+      }
+    ],
+    "summary": "稿件满足两项功能介绍、固定分镜及内容禁用要求，受众、平台和风格适配；表达审核通过，镜头停留合理。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "添加字幕与横竖屏比例",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          },
+          {
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          }
+        ],
+        "evidence": "标题涉及的添加字幕及横竖屏比例选项分别由P01.F1、P03.F1支持，没有扩展能力或效果承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "会议室空椅子固定镜头，无人物、员工姓名或会议发言内容。事实块作为产品介绍旁白，同步叠加同文字幕；不使用会议现场人声。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "全文为场景、拍摄、旁白与字幕制作安排；“同步叠加同文字幕”未声称产品能自动识别或生成字幕，没有虚构产品界面或操作步骤。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "会议资料封面特写，封面仅写“会议资料”，不出现员工姓名或发言内容。事实块作为产品介绍旁白，同步叠加同文字幕。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "全文描述封面内容及旁白、字幕安排，没有新增产品能力、自动化效果或具体界面声明。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "第一镜停留4秒，对应14个汉字的旁白及空椅子画面；第二镜停留5秒，对应18个汉字的旁白及仅写“会议资料”的封面。两镜均有字幕阅读和画面观察内容，长度合理，介绍的功能不同，没有重复事实或明显空镜凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T18:08:58.960008+00:00",
+    "finished_at": "2026-11-03T18:12:06.300384+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v3",
+    "requirements_review_context": "current_rules_check_v1",
+    "model_responses": 7
+  }
+}

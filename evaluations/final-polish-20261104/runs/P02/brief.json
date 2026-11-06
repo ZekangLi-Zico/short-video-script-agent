@@ -1,0 +1,16 @@
+{
+  "id": "P02",
+  "source": "V01",
+  "name": "早餐摊口播",
+  "request": {
+    "topic": "做一条剪影练习版字幕功能介绍，背景是早餐摊主讲今日备料。只介绍添加字幕，画面按蒸笼、手写菜单、打包台的顺序，不要出现顾客正脸。",
+    "audience": "小店新媒体兼职",
+    "platform": "抖音",
+    "target_seconds": 25,
+    "style": "像同事分享经验，短句",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "failures": {}
+}

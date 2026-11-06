@@ -1,0 +1,68 @@
+{
+  "case": "T26",
+  "name": "导出质量",
+  "run_id": "0b7e2f5a07d041359d8fe6c9765ecbe4",
+  "status": "needs_input",
+  "message": "请提供产品最高导出分辨率、是否支持4K，以及导出是否带水印和适用条件的官方素材。当前资料不足以讲清这两个问题，无法生成符合要求的脚本。",
+  "steps": 3,
+  "model_calls": 3,
+  "seconds": null,
+  "target_seconds": 30,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "search_materials",
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 视频导出是否支持4K、最高导出分辨率，以及导出是否带水印和相关限制条件",
+    "4K 最高导出分辨率 水印 导出限制"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "尚无产品素材，需要查明4K导出支持情况及水印条件。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "basis": "现有素材仅说明视频裁剪，缺少4K导出和水印信息。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "basis": "两次检索均未获得4K导出和水印的相关事实，现有素材仅说明裁剪功能。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 66.4,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "764ca534b9d64eb1a8646fc0642d07435faceb320c0fe1cf12928741c2172a4c",
+    "output.json": "6cf756b80f8a5746d29a0d07b8f0914093d7746a8d22cc975cc663b1556db96d",
+    "trace.jsonl": "7f40548a8b72c087ec6f256e660e749d1c2952947ccc2e9bacd4563afdc388ad",
+    "manifest.json": "e3c68bce04dae687ec97a5799d1d749d39c3e73a4556441ec84d5a9ecc7aaf82",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "23926b09e0aac3a91efb6739d3e6479cd10b9c84bbdbea05ec8dcdd996d04347"
+  }
+}

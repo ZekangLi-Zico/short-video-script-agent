@@ -1,0 +1,11 @@
+{
+  "status": "blocked",
+  "script_retained": true,
+  "steps": 2,
+  "interruption": {
+    "error_type": "RuntimeError",
+    "in_flight_step_may_be_missing": true
+  },
+  "checkpoint_unchanged_since_injection": true,
+  "run_state": "finished"
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-og2918wh",
+  "started_at": "2026-11-04T15:24:21.163302+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:24:43.716670+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a729-46f5-74b3-bd8c-a6b84c9bd6ae",
+    "usage": {
+      "input_tokens": 38369,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 195,
+      "reasoning_output_tokens": 91
+    },
+    "call_id": "decision-og2918wh",
+    "warnings": []
+  }
+}

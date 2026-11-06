@@ -1,0 +1,19 @@
+{
+  "port": 8835,
+  "submitted_at": "2026-11-04T17:38:02.898Z",
+  "fields": {
+    "audience": "初次编辑课程视频的教师",
+    "duration-mode": "target",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "751e82734f3d4425b4522811977a81a4",
+    "initial-script": "",
+    "platform": "B站",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "慢节奏，明确",
+    "target-seconds": "25",
+    "topic": "用三个分镜介绍字幕添加和手动改字，每个镜头至少停留5秒。场景为笔记本、字幕示意卡、讲义夹，目标接近25秒。"
+  }
+}

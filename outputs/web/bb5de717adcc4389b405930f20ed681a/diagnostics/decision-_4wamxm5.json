@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-_4wamxm5",
+  "started_at": "2026-11-03T23:11:17.870765+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:11:29.288774+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3ae-676b-7082-babe-9d8ce40ef654",
+    "usage": {
+      "input_tokens": 32350,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 110,
+      "reasoning_output_tokens": 42
+    },
+    "call_id": "decision-_4wamxm5",
+    "warnings": []
+  }
+}

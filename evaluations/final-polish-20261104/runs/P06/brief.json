@@ -1,0 +1,24 @@
+{
+  "id": "P06",
+  "source": "no_material",
+  "name": "no_material",
+  "request": {
+    "topic": "介绍字幕功能",
+    "audience": "第一次制作口播短视频的创作者",
+    "platform": "抖音",
+    "target_seconds": 30,
+    "style": "清楚、友好、克制",
+    "product_id": "product-without-materials",
+    "expression_mode": "strict",
+    "duration_mode": "max"
+  },
+  "failures": {},
+  "original_request": {
+    "topic": "介绍字幕功能",
+    "audience": "第一次制作口播短视频的创作者",
+    "platform": "抖音",
+    "target_seconds": 30,
+    "style": "清楚、友好、克制",
+    "product_id": "product-without-materials"
+  }
+}

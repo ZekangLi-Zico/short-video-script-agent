@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-wmyhcu4u",
+  "started_at": "2026-11-04T15:10:48.869715+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:11:09.538049+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a71c-e146-78e3-9dc8-c07d4152f763",
+    "usage": {
+      "input_tokens": 39193,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 220,
+      "reasoning_output_tokens": 114
+    },
+    "call_id": "decision-wmyhcu4u",
+    "warnings": []
+  }
+}

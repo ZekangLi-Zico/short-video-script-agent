@@ -1,0 +1,13 @@
+{
+  "case": "V25",
+  "index": 24,
+  "attempt": 1,
+  "run_id": "78ccc5940f83493d8806657ccc3ae0d1",
+  "folder": "V25",
+  "status": "completed",
+  "steps": 10,
+  "responses": 12,
+  "provider": "codex",
+  "seconds": 18,
+  "message": "已完成3镜脚本，预计18秒。保留擦净的黑板、课程讲义和空座位场景，仅介绍字幕添加；已删除超出范围的手动编辑演示。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

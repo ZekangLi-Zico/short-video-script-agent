@@ -1,0 +1,18 @@
+{
+  "id": "V20",
+  "name": "横竖屏双交付",
+  "context": "同一活动分别有大厅屏和手机端版本。",
+  "request": {
+    "topic": "介绍横屏、竖屏画面比例选项，说明这是两种可选画面比例；场景先大厅屏再手机。不要声称自动同步裁剪或自动追踪人物。",
+    "audience": "活动视频外包剪辑师",
+    "platform": "B站",
+    "target_seconds": 25,
+    "style": "客观，直截了当",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

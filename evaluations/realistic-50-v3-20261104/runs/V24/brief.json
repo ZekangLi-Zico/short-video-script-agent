@@ -1,0 +1,18 @@
+{
+  "id": "V24",
+  "name": "方言口播请求",
+  "context": "地方社区账号想保留当地表达。",
+  "request": {
+    "topic": "帮我做字幕添加和手动改字的介绍，旁白希望是自然杭州话表达，不要把普通话加几个语气词就称作地道方言。画面是社区长椅和报刊架。",
+    "audience": "杭州社区生活账号观众",
+    "platform": "视频号",
+    "target_seconds": 30,
+    "style": "亲切，保留地方感",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

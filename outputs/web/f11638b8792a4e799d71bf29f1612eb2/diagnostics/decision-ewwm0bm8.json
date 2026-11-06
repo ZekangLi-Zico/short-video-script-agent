@@ -1,0 +1,19 @@
+{
+  "call_id": "decision-ewwm0bm8",
+  "started_at": "2026-11-05T17:52:34.213924+00:00",
+  "response_received": false,
+  "error_code": "codex_timeout",
+  "cleanup_error_type": "PermissionError",
+  "finished_at": "2026-11-05T17:55:35.272342+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": null,
+    "usage": {},
+    "call_id": "decision-ewwm0bm8",
+    "warnings": [
+      "cleanup_deferred"
+    ]
+  }
+}

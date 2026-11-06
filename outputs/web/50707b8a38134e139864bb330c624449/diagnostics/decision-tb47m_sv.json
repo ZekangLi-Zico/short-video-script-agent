@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-tb47m_sv",
+  "started_at": "2026-11-03T23:06:50.972692+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:07:10.818680+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3aa-54be-7102-82a2-a799b715da86",
+    "usage": {
+      "input_tokens": 29708,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 544,
+      "reasoning_output_tokens": 235
+    },
+    "call_id": "decision-tb47m_sv",
+    "warnings": []
+  }
+}

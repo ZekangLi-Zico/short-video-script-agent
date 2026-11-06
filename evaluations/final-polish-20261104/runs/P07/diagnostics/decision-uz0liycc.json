@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-uz0liycc",
+  "started_at": "2026-11-03T23:15:22.437255+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:15:34.083414+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3b2-2332-7a62-8513-6a595bac534e",
+    "usage": {
+      "input_tokens": 27264,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 109,
+      "reasoning_output_tokens": 44
+    },
+    "call_id": "decision-uz0liycc",
+    "warnings": []
+  }
+}

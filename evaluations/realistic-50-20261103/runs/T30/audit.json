@@ -1,0 +1,68 @@
+{
+  "case": "T30",
+  "name": "更新公告",
+  "run_id": "0e2ddcf784544af6b90c6fd816c09859",
+  "status": "needs_input",
+  "message": "现有素材只能确认支持添加字幕和手动编辑，无法确认这些功能是本周新增。请提供本周更新说明及旧版字幕功能资料，包含可引用原文和来源，以便准确介绍版本差异。",
+  "steps": 3,
+  "model_calls": 3,
+  "seconds": null,
+  "target_seconds": 30,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "search_materials",
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 剪影练习版 本周新版 更新日志 发布日期 版本号 新增字幕功能 与旧版本的区别",
+    "demo-editor 剪影练习版 本周更新日志 发布说明 历史版本 旧版功能清单 字幕功能新增时间 新旧版本差异"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "尚无素材，需要核实本周新增字幕功能及与旧版的区别。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "basis": "现有素材仅说明字幕功能，未证明本周新增或与旧版的差异。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "basis": "两次检索均未获得本周更新记录或新旧版差异资料。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 66.2,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "4bc49c05e9f9fae19dbe1215f05e2763c02a24b77859090e8b4723d865f8dd8d",
+    "output.json": "2ee8682ba814726952f9c73a710c5b8c7fdbdbeb68634e3ecfdfe864d58f5fa9",
+    "trace.jsonl": "d557f2f4b66340a6bbd3de5b69ba1290cf5d931cb9495b68ede984b68f8fa0bf",
+    "manifest.json": "97689a7f6731f71e32c15ae43672030e2294ac97e77c84450d9eeb233d6c60e4",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "080c8b583b2eafb1d9c15529e44ec43be735055168b14d445c8fa3efb4c382ba"
+  }
+}

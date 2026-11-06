@@ -1,0 +1,18 @@
+{
+  "app_version": "v7.3-staged-storyboard",
+  "started_at": "2026-11-05T20:23:59.848960+00:00",
+  "finished_at": "2026-11-05T20:26:37.904117+00:00",
+  "provider": "codex",
+  "evidence_kind": "real_model",
+  "data_hash": "5d865600d50d103f98dc820f7ba7505232f2991b7eda6b008e02601df670bf25",
+  "max_steps": 12,
+  "steps": 4,
+  "synthetic_data": false,
+  "completion_policy": "facts_duration_requirements_v6",
+  "requirements_review_context": "current_rules_and_duration_v2",
+  "script_format": "staged_storyboard_v3; legacy_v1_v2_readable",
+  "model_responses": 5,
+  "run_id": "56221b32b9b54d33983fe68524182c74",
+  "persistence": "checkpoint_v1",
+  "fault_injection": {}
+}

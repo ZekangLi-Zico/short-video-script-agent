@@ -1,0 +1,13 @@
+{
+  "case": "V37",
+  "index": 36,
+  "attempt": 1,
+  "run_id": "92bb38bf7a95482ba238ce7fc305d2ff",
+  "folder": "V37",
+  "status": "needs_input",
+  "steps": 2,
+  "responses": 2,
+  "provider": "codex",
+  "seconds": null,
+  "message": "已检索到剪影练习版的字幕和片段裁剪资料，但缺少其价格、水印信息，以及剪映的全部四项资料。请将缺失项目的官方说明或可核验材料交给项目维护者，注明适用版本、平台和日期。当前未生成对比稿，未完成时长、规则和需求检查；不会凭印象补写或判断优劣。"
+}

@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-bsy48s3b",
+  "started_at": "2026-11-04T17:36:42.291488+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:37:43.320907+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a7a2-6ee9-7501-9785-1219b5f07fca",
+    "usage": {
+      "input_tokens": 30230,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2511,
+      "reasoning_output_tokens": 38
+    },
+    "call_id": "decision-bsy48s3b",
+    "warnings": []
+  }
+}

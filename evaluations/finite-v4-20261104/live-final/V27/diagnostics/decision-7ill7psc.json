@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-7ill7psc",
+  "started_at": "2026-11-03T20:21:45.307176+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:22:49.867139+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a313-300a-71c3-91d9-bdab2457123f",
+    "usage": {
+      "input_tokens": 27632,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2742,
+      "reasoning_output_tokens": 1445
+    },
+    "call_id": "decision-7ill7psc",
+    "warnings": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "busy": false,
+  "detail": "真实模型 · 1 个执行步骤",
+  "history": "65a5ba0abbb549bfa023ada35c19580f",
+  "href": "/api/runs/65a5ba0abbb549bfa023ada35c19580f/download/output.json",
+  "message": "模型调用失败，未完成；见执行记录。",
+  "status": "未完成",
+  "case": "V43",
+  "captured_at": "2026-11-03T19:05:41.579Z"
+}

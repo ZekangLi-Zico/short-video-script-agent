@@ -1,0 +1,19 @@
+{
+  "port": 8835,
+  "submitted_at": "2026-11-04T17:33:03.886Z",
+  "fields": {
+    "audience": "刚进入课程页的访客",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "3afa9e051a5f415c84a21881c63abef8",
+    "initial-script": "",
+    "platform": "抖音",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "极简，信息优先",
+    "target-seconds": "6",
+    "topic": "六秒以内只介绍剪影练习版支持为视频添加字幕。不要开场寒暄，不加第二个功能；画面是一张写着“开讲”的卡片。"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-hztigcpr",
+  "started_at": "2026-11-03T21:46:42.687826+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:47:07.698272+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a360-f68f-7853-9a10-aee5eac405da",
+    "usage": {
+      "input_tokens": 27950,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 587,
+      "reasoning_output_tokens": 438
+    },
+    "call_id": "decision-hztigcpr",
+    "warnings": []
+  }
+}

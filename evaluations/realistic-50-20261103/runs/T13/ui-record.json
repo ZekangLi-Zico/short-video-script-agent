@@ -1,0 +1,13 @@
+{
+  "case_id": "T13",
+  "capture_mode": "fullPage",
+  "finished_capture_at": "2026-11-03T14:13:22.693Z",
+  "busy": false,
+  "detail": "真实模型 · 5 个执行步骤",
+  "download": "/api/runs/9bb9032b483b4150a510a028fc1d069c/download/output.json",
+  "error": "",
+  "history": "9bb9032b483b4150a510a028fc1d069c",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "save": "记录已保存 · 9bb9032b",
+  "status": "检查通过"
+}

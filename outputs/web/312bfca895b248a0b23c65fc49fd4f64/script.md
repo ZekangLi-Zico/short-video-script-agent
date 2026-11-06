@@ -1,0 +1,244 @@
+# 短视频脚本运行结果
+
+- 状态：`completed`
+- 证据类型：`real_model`
+- 说明：三镜头脚本已完成，无需进一步删改。仅介绍手动编辑字幕文字，画面限定为键盘、便签和空白笔记本，无人物、人物照片或手机界面；采用陈述式开场和轻声旁白。估算时长9.5秒，低于18秒上限，三项检查均通过。实际成片时长以录制剪辑为准。
+
+当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。
+
+## 一句字幕，慢慢斟酌
+
+> 未完成或检查失败时，下列内容仅为未通过验收的草稿。
+
+### 分镜 1
+
+画面：固定俯拍，画面仅有键盘、空白便签和摊开的空白笔记本。无人物、手部、人物照片或设备界面。文案采用轻声旁白。
+
+旁白/字幕：分享知识，从一句话开始。
+
+来源：
+
+预计镜头时长：3.0 秒
+
+### 分镜 2
+
+画面：切至键盘与空白便签的近景，空白笔记本边缘入画。仅拍摄这三类物件，不展示人物、照片、界面或操作演示。文案采用轻声旁白。
+
+旁白/字幕：字幕文字可以手动编辑。
+
+来源：P01/P01.F2
+
+预计镜头时长：3.0 秒
+
+### 分镜 3
+
+画面：镜头缓慢推近空白笔记本，键盘和空白便签保留在画面边缘。全程仅出现这三类物件，无人物、手部、照片或界面。文案采用轻声旁白。
+
+旁白/字幕：逐字读一遍，斟酌自己的表达。
+
+来源：
+
+预计镜头时长：3.5 秒
+
+预计总时长：9.5 秒（基于语速与镜头停留估算，非成片实测）。
+
+## 检查结果与来源
+
+```json
+{
+  "ok": true,
+  "script_hash": "db13b0a739801a71b31ae0a06927b0c5b6cfda76d0eb7b4c37626ddd3a7d0344",
+  "passed": true,
+  "issues": [],
+  "citations": [
+    {
+      "location": "shot:2/block:1",
+      "source_id": "P01",
+      "fact_id": "P01.F2",
+      "quote": "字幕文字可以手动编辑。",
+      "version": "2026-11-01"
+    }
+  ],
+  "rules_version": "2026-11-03-v1",
+  "requires_expression_review": true,
+  "expression_slots": [
+    {
+      "location": "title",
+      "text": "一句字幕，慢慢斟酌"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "固定俯拍，画面仅有键盘、空白便签和摊开的空白笔记本。无人物、手部、人物照片或设备界面。文案采用轻声旁白。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "分享知识，从一句话开始。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "切至键盘与空白便签的近景，空白笔记本边缘入画。仅拍摄这三类物件，不展示人物、照片、界面或操作演示。文案采用轻声旁白。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "镜头缓慢推近空白笔记本，键盘和空白便签保留在画面边缘。全程仅出现这三类物件，无人物、手部、照片或界面。文案采用轻声旁白。"
+    },
+    {
+      "location": "shot:3/block:1",
+      "text": "逐字读一遍，斟酌自己的表达。"
+    }
+  ],
+  "available_facts": [
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F2",
+      "quote": "字幕文字可以手动编辑。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P02",
+      "fact_id": "P02.F1",
+      "quote": "剪影练习版支持裁剪视频片段。",
+      "version": "2026-11-01"
+    }
+  ],
+  "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+}
+```
+
+## 需求覆盖核对
+
+以下为模型评估，可能漏判或误判，仍需人工确认。
+
+```json
+{
+  "ok": true,
+  "script_hash": "db13b0a739801a71b31ae0a06927b0c5b6cfda76d0eb7b4c37626ddd3a7d0344",
+  "request_hash": "57e9fad560a4df02ef94972a7997aa3a52eb81ff2e4a84f66cfd2fd6df778bd6",
+  "passed": true,
+  "items": [
+    {
+      "field": "topic",
+      "requirement": "介绍手动编辑字幕文字",
+      "verdict": "met",
+      "evidence": "镜头2旁白明确介绍：“字幕文字可以手动编辑。”"
+    },
+    {
+      "field": "topic",
+      "requirement": "全部画面只用键盘、便签和空白笔记本",
+      "verdict": "met",
+      "evidence": "镜头1仅列出键盘、空白便签和空白笔记本；镜头2、3均明确只出现这三类物件，没有加入其他画面元素。"
+    },
+    {
+      "field": "topic",
+      "requirement": "不出现人物",
+      "verdict": "met",
+      "evidence": "镜头1、3明确“无人物、手部”，镜头2明确“不展示人物”，没有安排人物出镜。"
+    },
+    {
+      "field": "topic",
+      "requirement": "人物照片",
+      "verdict": "met",
+      "evidence": "该词属于原始需求的禁止出现清单。镜头1明确无“人物照片”，镜头2、3均明确不展示照片。"
+    },
+    {
+      "field": "topic",
+      "requirement": "手机界面",
+      "verdict": "met",
+      "evidence": "该词属于原始需求的禁止出现清单。镜头1排除“设备界面”，镜头2、3排除所有界面，均未安排手机界面。"
+    },
+    {
+      "field": "topic",
+      "requirement": "不使用问句开场",
+      "verdict": "met",
+      "evidence": "开场为陈述句：“分享知识，从一句话开始。”"
+    },
+    {
+      "field": "audience",
+      "requirement": "不想出镜的知识分享者",
+      "verdict": "met",
+      "evidence": "三个镜头均以静物和旁白呈现，无需人物出镜；开场直接关联“分享知识”，内容介绍字幕文字编辑。"
+    },
+    {
+      "field": "platform",
+      "requirement": "小红书",
+      "verdict": "met",
+      "evidence": "三镜头聚焦一个字幕编辑功能，每镜一句简短旁白，搭配统一的静物画面，适合小红书短视频呈现。"
+    },
+    {
+      "field": "style",
+      "requirement": "陈述式",
+      "verdict": "met",
+      "evidence": "开场和功能介绍均直接陈述；结尾“逐字读一遍，斟酌自己的表达。”为平实建议，没有提问或悬念式表达。"
+    },
+    {
+      "field": "style",
+      "requirement": "安静",
+      "verdict": "met",
+      "evidence": "三个镜头均指定“轻声旁白”，画面采用固定俯拍、静物近景和缓慢推近，符合安静风格。"
+    }
+  ],
+  "summary": "当前稿件覆盖全部明确需求，画面限定、开场、受众和风格均符合要求；自由表达未加入额外产品承诺，未见明显拖沓。",
+  "method": "model_assessment_not_deterministic_proof",
+  "expressions": [
+    {
+      "location": "title",
+      "text": "一句字幕，慢慢斟酌",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "标题表达斟酌文字的主题和情绪，不包含可验证的产品能力或效果承诺。"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "固定俯拍，画面仅有键盘、空白便签和摊开的空白笔记本。无人物、手部、人物照片或设备界面。文案采用轻声旁白。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "全部内容为机位、道具、画面排除项和旁白方式，没有产品声明或虚构界面。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "分享知识，从一句话开始。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "属于知识分享主题的引入语，没有承诺产品能力、自动化或使用效果。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "切至键盘与空白便签的近景，空白笔记本边缘入画。仅拍摄这三类物件，不展示人物、照片、界面或操作演示。文案采用轻声旁白。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "仅安排静物构图、画面限制和旁白方式，不包含按钮、产品界面或未经证实的操作步骤。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "镜头缓慢推近空白笔记本，键盘和空白便签保留在画面边缘。全程仅出现这三类物件，无人物、手部、照片或界面。文案采用轻声旁白。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "描述镜头运动、道具位置和声音风格，不包含可验证的产品承诺。"
+    },
+    {
+      "location": "shot:3/block:1",
+      "text": "逐字读一遍，斟酌自己的表达。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "建议观众自行审读文字，没有声称产品能够自动审校或优化表达。"
+    }
+  ],
+  "pacing": {
+    "verdict": "met",
+    "evidence": "镜头1—3的hold_seconds均为0，未设置延长停留；各配一句简短旁白，分别承担引入、功能说明和审读建议。画面依次为俯拍、近景、缓慢推近，未重复讲述同一事实，也未安排长时间空镜凑时长。"
+  },
+  "expression_review_passed": true
+}
+```
+
+## 执行路径
+
+search_materials → write_script → estimate_duration → check_rules → check_requirements → finish
+
+逐步参数、观察和简短决策依据见 trace.jsonl。未记录模型内部思维过程。

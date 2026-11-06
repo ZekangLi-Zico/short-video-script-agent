@@ -1,0 +1,97 @@
+{
+  "case": "T48",
+  "name": "客户口语化需求",
+  "run_id": "0d0add6b8ef14533aa07dd9a1abb9534",
+  "status": "completed",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "steps": 5,
+  "model_calls": 5,
+  "seconds": 18.0,
+  "target_seconds": 20,
+  "rules_passed": true,
+  "shots": 4,
+  "title": "从一段记录开始",
+  "citations": [
+    "P01.F1",
+    "P01.F2"
+  ],
+  "script_lines": [
+    "从一段日常记录开始。",
+    "剪影练习版支持为视频添加字幕。",
+    "字幕文字可以手动编辑。",
+    "把想说的话，放进画面里。"
+  ],
+  "actions": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 添加字幕 手动编辑字幕 修改错字"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前没有产品素材，需要检索添加字幕和修改字幕文字的事实。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "basis": "已检索到添加字幕和手动编辑字幕的事实，可编排为口语化的日常记录分镜。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "basis": "当前稿尚未检查时长，需确认是否在20秒上限内。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": 18.0,
+      "issues": null
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "basis": "当前稿估算18秒，已通过20秒上限检查，尚需规则检查。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": null,
+      "issues": []
+    },
+    {
+      "step": 5,
+      "action": "finish",
+      "basis": "当前同一稿的时长检查与规则检查均已通过，估算18秒。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 89.5,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "ff2d7be82e818b635985f519d06544df2122eb12d87c9db4163e124771bbba33",
+    "output.json": "699497f35f9182286aa7cc2a1e93fc04049ff92d11ed4f1cb53d87fbb953349d",
+    "trace.jsonl": "b6b95d3a3db61f4e282b46629ba803e7ba53f61141d3d0fde8b2a3734b28d2fe",
+    "manifest.json": "a1332d27cb9a6c7c74167ab561dae6ea4167b4cdb02dc7057f9abfe411692654",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "a8d4c50a1968c0a84ff320f924f3d47bee73ac75bd87919774405fda1b1401d4"
+  }
+}

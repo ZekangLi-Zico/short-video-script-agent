@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-93i_z2hi",
+  "started_at": "2026-11-04T15:36:16.550815+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:39:00.688554+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a734-3284-7030-a099-adf9c0d6e723",
+    "usage": {
+      "input_tokens": 27869,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2648,
+      "reasoning_output_tokens": 1983
+    },
+    "call_id": "decision-93i_z2hi",
+    "warnings": []
+  }
+}

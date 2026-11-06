@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ialjlpks",
+  "started_at": "2026-11-03T22:11:28.283359+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:11:45.687430+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a377-a1c9-7722-9909-5e86ca456044",
+    "usage": {
+      "input_tokens": 27038,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 244,
+      "reasoning_output_tokens": 149
+    },
+    "call_id": "decision-ialjlpks",
+    "warnings": []
+  }
+}

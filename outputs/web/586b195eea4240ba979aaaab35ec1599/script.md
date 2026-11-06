@@ -1,0 +1,321 @@
+# 短视频脚本运行结果
+
+- 状态：`completed`
+- 证据类型：`real_model`
+- 说明：《球场日记的三个画面》已完成，保留当前四镜稿，无需删改。裁剪片段、字幕添加、横竖屏比例各介绍一次，包含空球场、记分牌和队员背影，不宣传提高运动成绩。估时36.8秒，符合36至40秒要求；三项检查均通过，实际成片时长以配音和剪辑为准。
+
+当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。
+
+## 球场日记的三个画面
+
+> 未完成或检查失败时，下列内容仅为未通过验收的草稿。
+
+### 分镜 1
+
+画面：空球场全景，缓慢横移，依次带出场地边线和远处的记分牌。所有文字块均为旁白，不另设功能文字卡。
+
+旁白/字幕：训练结束，球场安静下来。给社团留一段记录，从这三个画面开始。
+
+来源：
+
+预计镜头时长：8.0 秒
+
+### 分镜 2
+
+画面：仍为空球场，切到边线近景，沿线缓慢移动，再切回场地中景，以景别变化呈现片段衔接；不展示产品界面。文字块依次作为旁白。
+
+旁白/字幕：剪影练习版支持裁剪视频片段。镜头沿着边线移动，把目光带进今天的球场。
+
+来源：P02/P02.F1
+
+预计镜头时长：8.3 秒
+
+### 分镜 3
+
+画面：从空球场远景切到记分牌近景，待镜头稳定后看清现场已有数字，不修改分数，不展示产品界面。文字块依次作为旁白。
+
+旁白/字幕：剪影练习版支持为视频添加字幕。从远景走近记分牌，记录这一天留下的数字。
+
+来源：P01/P01.F1
+
+预计镜头时长：8.5 秒
+
+### 分镜 4
+
+画面：队员背向镜头走向场边。先拍包含场地环境的背影远景，再切背影中景，最后固定机位让队员逐渐走远；不出现正脸或运动表现对比，不展示产品界面。文字块依次作为旁白。
+
+旁白/字幕：剪影练习版提供横屏和竖屏画面比例选项。队员朝场边走去，镜头留在背影上。把这一幕，放进社团日记的结尾。
+
+来源：P03/P03.F1
+
+预计镜头时长：12.0 秒
+
+时长要求：36.0–40 秒（接近目标）。
+
+预计总时长：36.8 秒（基于语速与镜头停留估算，非成片实测）。
+
+## 检查结果与来源
+
+```json
+{
+  "ok": true,
+  "script_hash": "3a1b2635fb4ce4d12276f7dbaad620d217aaa5d2947977a11942bf233d483565",
+  "passed": true,
+  "issues": [],
+  "citations": [
+    {
+      "location": "shot:2/block:1",
+      "source_id": "P02",
+      "fact_id": "P02.F1",
+      "quote": "剪影练习版支持裁剪视频片段。",
+      "version": "2026-11-01"
+    },
+    {
+      "location": "shot:3/block:1",
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01"
+    },
+    {
+      "location": "shot:4/block:1",
+      "source_id": "P03",
+      "fact_id": "P03.F1",
+      "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+      "version": "2026-11-01"
+    }
+  ],
+  "rules_version": "2026-11-03-v1",
+  "requires_expression_review": true,
+  "expression_slots": [
+    {
+      "location": "title",
+      "text": "球场日记的三个画面"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "空球场全景，缓慢横移，依次带出场地边线和远处的记分牌。所有文字块均为旁白，不另设功能文字卡。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "训练结束，球场安静下来。给社团留一段记录，从这三个画面开始。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "仍为空球场，切到边线近景，沿线缓慢移动，再切回场地中景，以景别变化呈现片段衔接；不展示产品界面。文字块依次作为旁白。"
+    },
+    {
+      "location": "shot:2/block:2",
+      "text": "镜头沿着边线移动，把目光带进今天的球场。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "从空球场远景切到记分牌近景，待镜头稳定后看清现场已有数字，不修改分数，不展示产品界面。文字块依次作为旁白。"
+    },
+    {
+      "location": "shot:3/block:2",
+      "text": "从远景走近记分牌，记录这一天留下的数字。"
+    },
+    {
+      "location": "shot:4/visual",
+      "text": "队员背向镜头走向场边。先拍包含场地环境的背影远景，再切背影中景，最后固定机位让队员逐渐走远；不出现正脸或运动表现对比，不展示产品界面。文字块依次作为旁白。"
+    },
+    {
+      "location": "shot:4/block:2",
+      "text": "队员朝场边走去，镜头留在背影上。把这一幕，放进社团日记的结尾。"
+    }
+  ],
+  "available_facts": [
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F2",
+      "quote": "字幕文字可以手动编辑。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P02",
+      "fact_id": "P02.F1",
+      "quote": "剪影练习版支持裁剪视频片段。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P03",
+      "fact_id": "P03.F1",
+      "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+      "version": "2026-11-01"
+    }
+  ],
+  "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+}
+```
+
+## 需求覆盖核对
+
+以下为模型评估，可能漏判或误判，仍需人工确认。
+
+```json
+{
+  "ok": true,
+  "script_hash": "3a1b2635fb4ce4d12276f7dbaad620d217aaa5d2947977a11942bf233d483565",
+  "request_hash": "591d795f27d54679859589d02cd03bd9856ac588441f3611f9148a747fde8e3d",
+  "passed": true,
+  "items": [
+    {
+      "field": "topic",
+      "requirement": "介绍裁剪片段",
+      "verdict": "met",
+      "evidence": "第2镜第1段明确介绍：“剪影练习版支持裁剪视频片段。”"
+    },
+    {
+      "field": "topic",
+      "requirement": "字幕添加",
+      "verdict": "met",
+      "evidence": "第3镜第1段明确介绍：“剪影练习版支持为视频添加字幕。”"
+    },
+    {
+      "field": "topic",
+      "requirement": "横竖屏比例",
+      "verdict": "met",
+      "evidence": "第4镜第1段明确介绍：“剪影练习版提供横屏和竖屏画面比例选项。”"
+    },
+    {
+      "field": "topic",
+      "requirement": "空球场",
+      "verdict": "met",
+      "evidence": "第1镜为“空球场全景”；第2镜继续展示空球场的边线近景和场地中景。"
+    },
+    {
+      "field": "topic",
+      "requirement": "记分牌",
+      "verdict": "met",
+      "evidence": "第1镜带出远处记分牌，第3镜明确安排“记分牌近景”并看清现场已有数字。"
+    },
+    {
+      "field": "topic",
+      "requirement": "队员背影",
+      "verdict": "met",
+      "evidence": "第4镜安排队员背向镜头走向场边，依次呈现背影远景、中景及逐渐走远的画面。"
+    },
+    {
+      "field": "topic",
+      "requirement": "三项功能各提一次",
+      "verdict": "met",
+      "evidence": "裁剪、添加字幕、横竖屏比例分别仅在第2、3、4镜第1段提及一次；标题及其他旁白未重复功能，画面明确不另设功能文字卡。"
+    },
+    {
+      "field": "topic",
+      "requirement": "不宣传提高运动成绩",
+      "verdict": "met",
+      "evidence": "全文仅介绍编辑功能和社团记录场景；第3镜要求“不修改分数”，第4镜要求“不出现正脸或运动表现对比”，没有提高运动成绩的承诺。"
+    },
+    {
+      "field": "audience",
+      "requirement": "校体育社团运营",
+      "verdict": "met",
+      "evidence": "第1镜提出“给社团留一段记录”，第4镜落在“社团日记的结尾”；球场、记分牌和队员背影贴合体育社团记录内容的用途。"
+    },
+    {
+      "field": "platform",
+      "requirement": "B站",
+      "verdict": "met",
+      "evidence": "稿件具备标题、连续旁白和明确分镜，以球场日记串联功能介绍，适合作为B站短视频呈现。"
+    },
+    {
+      "field": "style",
+      "requirement": "清晰",
+      "verdict": "met",
+      "evidence": "第2至4镜各用一句直接说明一项功能，画面与旁白安排明确，没有混杂多项功能解释。"
+    },
+    {
+      "field": "style",
+      "requirement": "有节奏",
+      "verdict": "met",
+      "evidence": "画面从空球场横移、边线景别切换推进到记分牌近景，最后以队员走远收束；对应预计时长为8.0、8.3、8.5、12.0秒，末镜有持续动作支撑较长停留。"
+    }
+  ],
+  "summary": "当前稿满足全部明确要求：三项功能各介绍一次，指定画面齐全，没有宣传提高运动成绩。表达审核未发现额外产品承诺，镜头节奏合理。",
+  "method": "model_assessment_not_deterministic_proof",
+  "expressions": [
+    {
+      "location": "title",
+      "text": "球场日记的三个画面",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "标题概括球场记录主题，不包含产品能力或效果承诺。"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "空球场全景，缓慢横移，依次带出场地边线和远处的记分牌。所有文字块均为旁白，不另设功能文字卡。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "全文描述场景、运镜及旁白呈现方式，没有产品声明。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "训练结束，球场安静下来。给社团留一段记录，从这三个画面开始。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "属于场景铺垫和记录邀请，没有声称产品效果或真实用户背书。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "仍为空球场，切到边线近景，沿线缓慢移动，再切回场地中景，以景别变化呈现片段衔接；不展示产品界面。文字块依次作为旁白。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "描述成片的景别变化和镜头衔接，没有将其归为产品自动能力，也未虚构操作或界面。"
+    },
+    {
+      "location": "shot:2/block:2",
+      "text": "镜头沿着边线移动，把目光带进今天的球场。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "描述镜头运动及观看感受，不含可验证的产品承诺。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "从空球场远景切到记分牌近景，待镜头稳定后看清现场已有数字，不修改分数，不展示产品界面。文字块依次作为旁白。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "属于拍摄和剪辑安排；“看清现场已有数字”描述观察任务，未声称产品识别、增强或修改数字。"
+    },
+    {
+      "location": "shot:3/block:2",
+      "text": "从远景走近记分牌，记录这一天留下的数字。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "描述拍摄对象和记录内容，没有宣称运动成绩改善或产品数据处理能力。"
+    },
+    {
+      "location": "shot:4/visual",
+      "text": "队员背向镜头走向场边。先拍包含场地环境的背影远景，再切背影中景，最后固定机位让队员逐渐走远；不出现正脸或运动表现对比，不展示产品界面。文字块依次作为旁白。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "全文为人物动作、景别、机位及画面限制，没有产品功能或效果声明。"
+    },
+    {
+      "location": "shot:4/block:2",
+      "text": "队员朝场边走去，镜头留在背影上。把这一幕，放进社团日记的结尾。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "属于动作描述和创作邀请，未承诺自动生成、自动剪辑等能力。"
+    }
+  ],
+  "pacing": {
+    "verdict": "met",
+    "evidence": "第1镜预计8.0秒，26个旁白单位配合横移观察；第2镜8.3秒，31个单位配合边线近景、移动和中景切换；第3镜8.5秒，32个单位配合远近景转换及记分牌数字观察；第4镜12.0秒，45个单位配合背影景别变化和走远动作。各镜均达到hold_seconds最低停留要求，旁白与画面任务足以支撑时长，没有重复功能或明显空镜凑时长；宿主总长36.8秒已通过目标区间检查。"
+  },
+  "expression_review_passed": true
+}
+```
+
+## 执行路径
+
+search_materials → write_script → estimate_duration → check_rules → check_requirements → finish
+
+逐步参数、观察和简短决策依据见 trace.jsonl。未记录模型内部思维过程。

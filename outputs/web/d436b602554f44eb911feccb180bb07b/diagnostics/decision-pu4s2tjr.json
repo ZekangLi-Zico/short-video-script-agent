@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-pu4s2tjr",
+  "started_at": "2026-11-03T22:19:08.046035+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:19:22.921615+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a37e-a568-7643-9ca3-5dbf0bae5cf1",
+    "usage": {
+      "input_tokens": 28007,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 179,
+      "reasoning_output_tokens": 120
+    },
+    "call_id": "decision-pu4s2tjr",
+    "warnings": []
+  }
+}

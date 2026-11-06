@@ -1,0 +1,17 @@
+test_listening_retains_english_spacing_and_excludes_silent_shots (tests.test_natural_v7.NaturalVoiceTests.test_listening_retains_english_spacing_and_excludes_silent_shots) ... ok
+test_review_gets_actual_audible_order_without_screen_notes_or_title (tests.test_natural_v7.NaturalVoiceTests.test_review_gets_actual_audible_order_without_screen_notes_or_title) ... ok
+test_saved_run_exposes_exact_listening_artifact_and_current_version (tests.test_natural_v7.NaturalVoiceTests.test_saved_run_exposes_exact_listening_artifact_and_current_version) ... FAIL
+test_silent_and_empty_drafts_do_not_invent_voice (tests.test_natural_v7.NaturalVoiceTests.test_silent_and_empty_drafts_do_not_invent_voice) ... ok
+
+======================================================================
+FAIL: test_saved_run_exposes_exact_listening_artifact_and_current_version (tests.test_natural_v7.NaturalVoiceTests.test_saved_run_exposes_exact_listening_artifact_and_current_version)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_natural_v7.py", line 43, in test_saved_run_exposes_exact_listening_artifact_and_current_version
+    self.assertTrue((target/'listening.json').is_file())
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.115s
+
+FAILED (failures=1)

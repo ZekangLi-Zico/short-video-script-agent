@@ -1,0 +1,18 @@
+{
+  "id": "V08",
+  "name": "乐队排练留档",
+  "context": "社团保留排练记录并说明字幕用途。",
+  "request": {
+    "topic": "只介绍给视频添加字幕，场景是空排练室、鼓棒和谱架；不要涉及歌词版权、自动识别或音质增强。标题必须是“排练室的这一晚”。",
+    "audience": "高校乐队宣传成员",
+    "platform": "B站",
+    "target_seconds": 20,
+    "style": "克制，有生活感",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

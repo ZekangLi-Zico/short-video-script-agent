@@ -1,0 +1,8 @@
+{
+  "case": "V45",
+  "assessment": "改进",
+  "note": "先实际估出旧稿45秒，模型保留标题、三镜顺序和全部文案，缩短停留为4/5/4秒并补充可拍动作与声画标记，13秒完成。旧版10秒也达标；新版不先做缺来源检查而先检索，响应9降8，备注准确说明已改事项。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

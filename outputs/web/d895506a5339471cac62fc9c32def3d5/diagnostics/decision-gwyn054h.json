@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-gwyn054h",
+  "started_at": "2026-11-04T01:20:31.278467+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:21:36.130994+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a424-b7b7-7122-b466-8cd2c24f246e",
+    "usage": {
+      "input_tokens": 27680,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1779,
+      "reasoning_output_tokens": 1034
+    },
+    "call_id": "decision-gwyn054h",
+    "warnings": []
+  }
+}

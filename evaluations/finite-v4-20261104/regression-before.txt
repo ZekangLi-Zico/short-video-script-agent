@@ -1,0 +1,69 @@
+test_adapter_sends_bound_timing_and_hold_semantics (tests.test_finite_v4.DurationContextTests.test_adapter_sends_bound_timing_and_hold_semantics) ... ERROR
+test_agent_passes_actual_current_timing_to_reviewer (tests.test_finite_v4.DurationContextTests.test_agent_passes_actual_current_timing_to_reviewer) ... FAIL
+test_unexpected_exception_preserves_last_completed_steps_and_draft (tests.test_finite_v4.EvidenceDurabilityTests.test_unexpected_exception_preserves_last_completed_steps_and_draft) ... FAIL
+test_valid_codex_response_survives_cleanup_lock (tests.test_finite_v4.EvidenceDurabilityTests.test_valid_codex_response_survives_cleanup_lock) ... ERROR
+
+======================================================================
+ERROR: test_adapter_sends_bound_timing_and_hold_semantics (tests.test_finite_v4.DurationContextTests.test_adapter_sends_bound_timing_and_hold_semantics)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_finite_v4.py", line 40, in test_adapter_sends_bound_timing_and_hold_semantics
+    Recorder().review(REQUEST, {'title':'fixture','shots':[]}, {}, timing)
+TypeError: StructuredModel.review() takes from 3 to 4 positional arguments but 5 were given
+
+======================================================================
+ERROR: test_valid_codex_response_survives_cleanup_lock (tests.test_finite_v4.EvidenceDurabilityTests.test_valid_codex_response_survives_cleanup_lock)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_finite_v4.py", line 53, in test_valid_codex_response_survives_cleanup_lock
+    actual, meta = CodexModel()._generate('test','{}',{})
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\src\providers.py", line 188, in _generate
+    with tempfile.TemporaryDirectory(prefix="decision-", dir=scratch.resolve()) as folder:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "USER_HOME\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\tempfile.py", line 950, in __exit__
+    self.cleanup()
+  File "USER_HOME\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\unittest\mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "USER_HOME\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\unittest\mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "USER_HOME\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\unittest\mock.py", line 1198, in _execute_mock_call
+    raise effect
+PermissionError: [Errno 32] fixture lock
+
+======================================================================
+FAIL: test_agent_passes_actual_current_timing_to_reviewer (tests.test_finite_v4.DurationContextTests.test_agent_passes_actual_current_timing_to_reviewer)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_finite_v4.py", line 30, in test_agent_passes_actual_current_timing_to_reviewer
+    self.assertEqual(received, [result['duration']])
+AssertionError: Lists differ: [None] != [{'ok': True, 'script_hash': 'dee0c4cf8a9e[257 chars]rue}]
+
+First differing element 0:
+None
+{'ok': True, 'script_hash': 'dee0c4cf8a9e[256 chars]True}
+
+- [None]
++ [{'is_estimate': True,
++   'method': 'max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒',
++   'ok': True,
++   'passed': True,
++   'script_hash': 'dee0c4cf8a9e7629e42ce06857ea4023f4187e26e99fccc4b0594db0e3fe4996',
++   'shots': [{'estimated_seconds': 4.0, 'shot': 1, 'speech_units': 14}],
++   'target_seconds': 30,
++   'total_seconds': 4.0}]
+
+======================================================================
+FAIL: test_unexpected_exception_preserves_last_completed_steps_and_draft (tests.test_finite_v4.EvidenceDurabilityTests.test_unexpected_exception_preserves_last_completed_steps_and_draft)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_finite_v4.py", line 67, in test_unexpected_exception_preserves_last_completed_steps_and_draft
+    self.assertTrue(job['saved'])
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.061s
+
+FAILED (failures=2, errors=2)

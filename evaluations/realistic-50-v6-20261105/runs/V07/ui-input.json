@@ -1,0 +1,19 @@
+{
+  "port": 8835,
+  "submitted_at": "2026-11-04T17:15:23.330Z",
+  "fields": {
+    "audience": "小型服装店店员",
+    "duration-mode": "target",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "8df1ee5246764401b4dc3e8ff723540c",
+    "initial-script": "",
+    "platform": "抖音",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "明快，不喊促销口号",
+    "target-seconds": "24",
+    "topic": "介绍裁剪片段和横竖屏比例选择，以衣架、面料特写、整排货架为背景。恰好四个分镜，最后一镜回到整排货架。"
+  }
+}

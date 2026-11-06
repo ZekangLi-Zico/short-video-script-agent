@@ -1,0 +1,157 @@
+test_all_acceptance_scenarios_offline (test_agent.AgentTests.test_all_acceptance_scenarios_offline) ... ok
+test_cannot_finish_without_checks (test_agent.AgentTests.test_cannot_finish_without_checks) ... ok
+test_failed_check_cannot_be_reported_as_completed (test_agent.AgentTests.test_failed_check_cannot_be_reported_as_completed) ... ok
+test_invalid_target_values (test_agent.AgentTests.test_invalid_target_values) ... ok
+test_missing_field_never_calls_model (test_agent.AgentTests.test_missing_field_never_calls_model) ... ok
+test_model_error_is_not_offline_fallback (test_agent.AgentTests.test_model_error_is_not_offline_fallback) ... ok
+test_no_mutation_of_input_or_materials (test_agent.AgentTests.test_no_mutation_of_input_or_materials) ... ok
+test_request_target_is_bound_by_host (test_agent.AgentTests.test_request_target_is_bound_by_host) ... ok
+test_revision_invalidates_both_checks (test_agent.AgentTests.test_revision_invalidates_both_checks) ... ok
+test_step_limit_is_validated (test_agent.AgentTests.test_step_limit_is_validated) ... ok
+test_unknown_action_is_observation_and_bounded (test_agent.AgentTests.test_unknown_action_is_observation_and_bounded) ... ok
+test_valid_completion_and_saved_artifacts (test_agent.AgentTests.test_valid_completion_and_saved_artifacts) ... ok
+test_save_failure_never_prints_success (test_cli.CLITests.test_save_failure_never_prints_success) ... ok
+test_step_limit_cli_exit_is_nonzero (test_cli.CLITests.test_step_limit_cli_exit_is_nonzero) ... ok
+test_success_exit_and_actual_files (test_cli.CLITests.test_success_exit_and_actual_files) ... ok
+test_all_simultaneous_screen_text_needs_reading_time (test_effective_v5.EffectiveV5Tests.test_all_simultaneous_screen_text_needs_reading_time) ... ok
+test_bound_rewrite_cannot_be_approved_as_plain_expression (test_effective_v5.EffectiveV5Tests.test_bound_rewrite_cannot_be_approved_as_plain_expression) ... ok
+test_editorial_purpose_does_not_trigger_public_brand_rule (test_effective_v5.EffectiveV5Tests.test_editorial_purpose_does_not_trigger_public_brand_rule) ... ok
+test_english_speech_rate_not_four_words_per_second (test_effective_v5.EffectiveV5Tests.test_english_speech_rate_not_four_words_per_second) ... ok
+test_malformed_channel_beat_and_partial_fields_rejected (test_effective_v5.EffectiveV5Tests.test_malformed_channel_beat_and_partial_fields_rejected) ... ok
+test_paraphrase_is_reviewable_with_actual_source_quote (test_effective_v5.EffectiveV5Tests.test_paraphrase_is_reviewable_with_actual_source_quote) ... ok
+test_purpose_edit_is_recorded_as_actual_revision (test_effective_v5.EffectiveV5Tests.test_purpose_edit_is_recorded_as_actual_revision) ... ok
+test_rendered_script_distinguishes_channels_and_purpose (test_effective_v5.EffectiveV5Tests.test_rendered_script_distinguishes_channels_and_purpose) ... ok
+test_same_text_voice_and_screen_are_simultaneous (test_effective_v5.EffectiveV5Tests.test_same_text_voice_and_screen_are_simultaneous) ... ok
+test_saved_v2_run_replays_with_same_checks (test_effective_v5.EffectiveV5Tests.test_saved_v2_run_replays_with_same_checks) ... ok
+test_screen_cards_in_distinct_beats_are_sequential (test_effective_v5.EffectiveV5Tests.test_screen_cards_in_distinct_beats_are_sequential) ... ok
+test_screen_hold_is_not_spoken_and_notes_not_timed (test_effective_v5.EffectiveV5Tests.test_screen_hold_is_not_spoken_and_notes_not_timed) ... ok
+test_semantic_rejection_is_not_structural_error (test_effective_v5.EffectiveV5Tests.test_semantic_rejection_is_not_structural_error) ... ok
+test_semantic_rejection_of_added_capability_blocks_completion (test_effective_v5.EffectiveV5Tests.test_semantic_rejection_of_added_capability_blocks_completion) ... ok
+test_tail_hold_is_visible_to_editor (test_effective_v5.EffectiveV5Tests.test_tail_hold_is_visible_to_editor) ... ok
+test_versioned_script_accepted_and_legacy_unchanged (test_effective_v5.EffectiveV5Tests.test_versioned_script_accepted_and_legacy_unchanged) ... ok
+test_wrong_source_and_strict_rewrite_are_rejected (test_effective_v5.EffectiveV5Tests.test_wrong_source_and_strict_rewrite_are_rejected) ... ok
+test_cancel_at_review_phase_prevents_new_remote_call (test_effective_v6.V6Tests.test_cancel_at_review_phase_prevents_new_remote_call) ... ok
+test_codex_effort_is_per_call_and_visible_in_metadata (test_effective_v6.V6Tests.test_codex_effort_is_per_call_and_visible_in_metadata) ... ok
+test_codex_timeout_recovers_once_and_records_attempt (test_effective_v6.V6Tests.test_codex_timeout_recovers_once_and_records_attempt) ... ok
+test_creative_payload_has_no_strict_title_or_copy_templates (test_effective_v6.V6Tests.test_creative_payload_has_no_strict_title_or_copy_templates) ... ok
+test_history_does_not_repeat_scripts_but_keeps_failed_feedback (test_effective_v6.V6Tests.test_history_does_not_repeat_scripts_but_keeps_failed_feedback) ... ok
+test_interrupted_review_checkpoint_replays_last_completed_state (test_effective_v6.V6Tests.test_interrupted_review_checkpoint_replays_last_completed_state) ... ok
+test_local_failure_does_not_spend_review_call_or_claim_complete (test_effective_v6.V6Tests.test_local_failure_does_not_spend_review_call_or_claim_complete) ... ok
+test_no_recovery_after_cancel_or_non_timeout_error (test_effective_v6.V6Tests.test_no_recovery_after_cancel_or_non_timeout_error) ... ok
+test_recovered_diagnostic_and_trace_metadata_match (test_effective_v6.V6Tests.test_recovered_diagnostic_and_trace_metadata_match) ... ok
+test_retrieval_change_refreshes_rule_check_for_existing_draft (test_effective_v6.V6Tests.test_retrieval_change_refreshes_rule_check_for_existing_draft) ... ok
+test_review_action_runs_and_records_missing_local_checks (test_effective_v6.V6Tests.test_review_action_runs_and_records_missing_local_checks) ... ok
+test_replay_accepts_real_tool_outputs_and_detects_tampering (test_evidence.EvidenceTests.test_replay_accepts_real_tool_outputs_and_detects_tampering) ... ok
+test_adapter_sends_bound_timing_and_hold_semantics (test_finite_v4.DurationContextTests.test_adapter_sends_bound_timing_and_hold_semantics) ... ok
+test_agent_passes_actual_current_timing_to_reviewer (test_finite_v4.DurationContextTests.test_agent_passes_actual_current_timing_to_reviewer) ... ok
+test_stale_draft_target_or_mode_is_not_sent_as_trusted_timing (test_finite_v4.DurationContextTests.test_stale_draft_target_or_mode_is_not_sent_as_trusted_timing) ... ok
+test_valid_timing_does_not_override_unmet_content_review (test_finite_v4.DurationContextTests.test_valid_timing_does_not_override_unmet_content_review) ... ok
+test_active_owner_is_not_recovered_by_another_manager (test_finite_v4.EvidenceDurabilityTests.test_active_owner_is_not_recovered_by_another_manager) ... ok
+test_atomic_replace_failure_keeps_previous_valid_checkpoint (test_finite_v4.EvidenceDurabilityTests.test_atomic_replace_failure_keeps_previous_valid_checkpoint) ... ok
+test_checkpoint_from_another_run_cannot_be_restored (test_finite_v4.EvidenceDurabilityTests.test_checkpoint_from_another_run_cannot_be_restored) ... ok
+test_checkpoint_is_durable_before_next_model_call_and_restart_never_completes_it (test_finite_v4.EvidenceDurabilityTests.test_checkpoint_is_durable_before_next_model_call_and_restart_never_completes_it) ... ok
+test_cleanup_lock_does_not_replace_model_timeout (test_finite_v4.EvidenceDurabilityTests.test_cleanup_lock_does_not_replace_model_timeout) ... ok
+test_diagnostics_are_per_call_and_do_not_copy_raw_provider_output (test_finite_v4.EvidenceDurabilityTests.test_diagnostics_are_per_call_and_do_not_copy_raw_provider_output) ... ok
+test_failed_final_save_leaves_recoverable_checkpoint_without_new_calls (test_finite_v4.EvidenceDurabilityTests.test_failed_final_save_leaves_recoverable_checkpoint_without_new_calls) ... ok
+test_unexpected_exception_preserves_last_completed_steps_and_draft (test_finite_v4.EvidenceDurabilityTests.test_unexpected_exception_preserves_last_completed_steps_and_draft) ... ok
+test_valid_codex_response_survives_cleanup_lock (test_finite_v4.EvidenceDurabilityTests.test_valid_codex_response_survives_cleanup_lock) ... ok
+test_all_material_evidence_points_into_unchanged_local_sources (test_material_catalog.MaterialCatalogTests.test_all_material_evidence_points_into_unchanged_local_sources) ... ok
+test_custom_material_file_carries_its_own_rules (test_material_catalog.MaterialCatalogTests.test_custom_material_file_carries_its_own_rules) ... ok
+test_episode_ids_get_precise_cards_among_shared_character_names (test_material_catalog.MaterialCatalogTests.test_episode_ids_get_precise_cards_among_shared_character_names) ... ok
+test_reviewer_uses_host_material_kind_not_user_label (test_material_catalog.MaterialCatalogTests.test_reviewer_uses_host_material_kind_not_user_label) ... ok
+test_story_project_selects_real_dossier_and_keeps_demo_isolated (test_material_catalog.MaterialCatalogTests.test_story_project_selects_real_dossier_and_keeps_demo_isolated) ... ok
+test_web_config_exposes_complete_catalog_and_story_briefs (test_material_catalog.MaterialCatalogTests.test_web_config_exposes_complete_catalog_and_story_briefs) ... ok
+test_web_worker_and_cli_share_selection (test_material_catalog.MaterialCatalogTests.test_web_worker_and_cli_share_selection) ... ok
+test_natural_v7 (unittest.loader._FailedTest.test_natural_v7) ... ERROR
+test_bad_api_configuration_is_rejected (test_providers.ProviderTests.test_bad_api_configuration_is_rejected) ... ok
+test_chat_compatible_adapter (test_providers.ProviderTests.test_chat_compatible_adapter) ... ok
+test_codex_adapter_uses_json_and_keeps_reasoning_out_of_metadata (test_providers.ProviderTests.test_codex_adapter_uses_json_and_keeps_reasoning_out_of_metadata) ... ok
+test_codex_timeout_is_explicit (test_providers.ProviderTests.test_codex_timeout_is_explicit) ... ok
+test_codex_unexpected_tools_are_rejected (test_providers.ProviderTests.test_codex_unexpected_tools_are_rejected) ... ok
+test_http_error_does_not_echo_provider_body_or_key (test_providers.ProviderTests.test_http_error_does_not_echo_provider_body_or_key) ... ok
+test_json_markdown_or_text_is_not_silently_accepted (test_providers.ProviderTests.test_json_markdown_or_text_is_not_silently_accepted) ... ok
+test_missing_credentials_have_no_fallback (test_providers.ProviderTests.test_missing_credentials_have_no_fallback) ... ok
+test_responses_adapter_sends_observation_and_schema (test_providers.ProviderTests.test_responses_adapter_sends_observation_and_schema) ... ok
+test_review_uses_separate_schema_and_original_request_without_writer_history (test_providers.ProviderTests.test_review_uses_separate_schema_and_original_request_without_writer_history) ... ok
+test_timeout_terminates_only_the_created_process_tree (test_providers.ProviderTests.test_timeout_terminates_only_the_created_process_tree) ... ok
+test_complete_review_binds_every_exposed_surface (test_quality.CreativeQualityTests.test_complete_review_binds_every_exposed_surface) ... ok
+test_free_scene_is_reviewable_but_strict_mode_still_rejects (test_quality.CreativeQualityTests.test_free_scene_is_reviewable_but_strict_mode_still_rejects) ... ok
+test_hidden_claim_or_uncertainty_cannot_pass (test_quality.CreativeQualityTests.test_hidden_claim_or_uncertainty_cannot_pass) ... ok
+test_invalid_mode_is_invalid_input (test_quality.CreativeQualityTests.test_invalid_mode_is_invalid_input) ... ok
+test_missing_duplicate_or_changed_surface_is_invalid (test_quality.CreativeQualityTests.test_missing_duplicate_or_changed_surface_is_invalid) ... ok
+test_no_current_rules_evidence_cannot_pass_creative_review (test_quality.CreativeQualityTests.test_no_current_rules_evidence_cannot_pass_creative_review) ... ok
+test_review_failure_cannot_be_finished_as_completed (test_quality.CreativeQualityTests.test_review_failure_cannot_be_finished_as_completed) ... ok
+test_semantic_claim_needs_real_retrieved_reference (test_quality.CreativeQualityTests.test_semantic_claim_needs_real_retrieved_reference) ... ok
+test_supported_fact_still_requires_exact_retrieved_quote (test_quality.CreativeQualityTests.test_supported_fact_still_requires_exact_retrieved_quote) ... ok
+test_agent_binds_duration_mode_and_review_adapter (test_quality.DurationQualityTests.test_agent_binds_duration_mode_and_review_adapter) ... ok
+test_bad_mode_and_fake_padding_review (test_quality.DurationQualityTests.test_bad_mode_and_fake_padding_review) ... ok
+test_target_interval_and_legacy_cap (test_quality.DurationQualityTests.test_target_interval_and_legacy_cap) ... ok
+test_agent_reports_actual_local_revision_and_stale_checks_are_cleared (test_quality.RevisionQualityTests.test_agent_reports_actual_local_revision_and_stale_checks_are_cleared) ... ok
+test_malformed_pacing_verdict_is_recorded_not_an_uncaught_crash (test_quality.RevisionQualityTests.test_malformed_pacing_verdict_is_recorded_not_an_uncaught_crash) ... ok
+test_trace_replays_creative_mode_with_complete_review (test_quality.RevisionQualityTests.test_trace_replays_creative_mode_with_complete_review) ... ok
+test_completed_script_preserves_model_explanation_in_delivery (test_repairs.RepairTests.test_completed_script_preserves_model_explanation_in_delivery) ... ok
+test_model_start_failure_is_not_evidence_of_business_negative_case (test_repairs.RepairTests.test_model_start_failure_is_not_evidence_of_business_negative_case) ... ok
+test_review_receives_actual_fact_evidence_for_current_script (test_repairs.RepairTests.test_review_receives_actual_fact_evidence_for_current_script) ... ok
+test_revision_invalidates_requirement_review_even_after_other_rechecks (test_repairs.RepairTests.test_revision_invalidates_requirement_review_even_after_other_rechecks) ... ok
+test_two_checks_alone_cannot_claim_all_requirements_completed (test_repairs.RepairTests.test_two_checks_alone_cannot_claim_all_requirements_completed) ... ok
+test_uncertain_or_invalid_review_cannot_be_accepted (test_repairs.RepairTests.test_uncertain_or_invalid_review_cannot_be_accepted) ... ok
+test_unmet_requirement_is_feedback_not_success_and_reported (test_repairs.RepairTests.test_unmet_requirement_is_feedback_not_success_and_reported) ... ok
+test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions (test_submission.SubmissionTests.test_acceptance_rejects_missing_failed_or_stale_review_in_current_and_future_versions) ... ok
+test_editor_notes_cannot_replace_a_public_source_fact (test_submission.SubmissionTests.test_editor_notes_cannot_replace_a_public_source_fact) ... ok
+test_editor_notes_do_not_count_as_speech_or_publishable_claims (test_submission.SubmissionTests.test_editor_notes_do_not_count_as_speech_or_publishable_claims) ... ok
+test_legacy_scripts_and_bounded_editor_notes (test_submission.SubmissionTests.test_legacy_scripts_and_bounded_editor_notes) ... ok
+test_markdown_exports_notes_outside_shots_with_an_explicit_non_video_label (test_submission.SubmissionTests.test_markdown_exports_notes_outside_shots_with_an_explicit_non_video_label) ... ok
+test_note_only_change_is_logged_and_invalidates_old_approval (test_submission.SubmissionTests.test_note_only_change_is_logged_and_invalidates_old_approval) ... ok
+test_boundary_duration_is_allowed (test_tools.ToolTests.test_boundary_duration_is_allowed) ... ok
+test_cannot_fake_duration_by_zeroing_holds (test_tools.ToolTests.test_cannot_fake_duration_by_zeroing_holds) ... ok
+test_changed_query_changes_result (test_tools.ToolTests.test_changed_query_changes_result) ... ok
+test_chinese_and_english_units (test_tools.ToolTests.test_chinese_and_english_units) ... ok
+test_citation_with_real_id_and_fake_text_is_rejected (test_tools.ToolTests.test_citation_with_real_id_and_fake_text_is_rejected) ... ok
+test_claim_in_title_or_visual_cannot_bypass_rules (test_tools.ToolTests.test_claim_in_title_or_visual_cannot_bypass_rules) ... ok
+test_custom_materials_are_not_assumed_synthetic (test_tools.ToolTests.test_custom_materials_are_not_assumed_synthetic) ... ok
+test_duplicate_source_and_malformed_data_are_rejected (test_tools.ToolTests.test_duplicate_source_and_malformed_data_are_rejected) ... ok
+test_fact_in_creative_block_is_rejected (test_tools.ToolTests.test_fact_in_creative_block_is_rejected) ... ok
+test_fact_is_not_accepted_without_retrieval (test_tools.ToolTests.test_fact_is_not_accepted_without_retrieval) ... ok
+test_fault_injection_only_changes_requested_count (test_tools.ToolTests.test_fault_injection_only_changes_requested_count) ... ok
+test_invalid_estimator_configuration_is_rejected (test_tools.ToolTests.test_invalid_estimator_configuration_is_rejected) ... ok
+test_malformed_tool_arguments_are_errors (test_tools.ToolTests.test_malformed_tool_arguments_are_errors) ... ok
+test_no_fact_script_is_rejected (test_tools.ToolTests.test_no_fact_script_is_rejected) ... ok
+test_overlong_hold_is_detected_even_if_speech_is_short (test_tools.ToolTests.test_overlong_hold_is_detected_even_if_speech_is_short) ... ok
+test_search_can_return_no_results (test_tools.ToolTests.test_search_can_return_no_results) ... ok
+test_search_has_real_source_and_product_isolation (test_tools.ToolTests.test_search_has_real_source_and_product_isolation) ... ok
+test_source_update_invalidates_old_statement (test_tools.ToolTests.test_source_update_invalidates_old_statement) ... ok
+test_successful_quotes_are_exact (test_tools.ToolTests.test_successful_quotes_are_exact) ... ok
+test_cancel_after_model_prevents_tool_execution (test_web.ProgressTests.test_cancel_after_model_prevents_tool_execution) ... ok
+test_cancel_before_model_never_calls_model (test_web.ProgressTests.test_cancel_before_model_never_calls_model) ... ok
+test_progress_exposes_actual_steps_without_mutating_core_state (test_web.ProgressTests.test_progress_exposes_actual_steps_without_mutating_core_state) ... ok
+test_fault_injection_returns_real_failure (test_web.WebTests.test_fault_injection_returns_real_failure) ... ok
+test_host_and_path_are_not_arbitrary_file_access (test_web.WebTests.test_host_and_path_are_not_arbitrary_file_access) ... ok
+test_http_run_download_and_saved_evidence (test_web.WebTests.test_http_run_download_and_saved_evidence) ... ok
+test_invalid_input_and_faults_are_400 (test_web.WebTests.test_invalid_input_and_faults_are_400) ... ok
+test_missing_field_is_a_testable_business_result (test_web.WebTests.test_missing_field_is_a_testable_business_result) ... ok
+test_no_csrf_token_and_foreign_origin_are_rejected (test_web.WebTests.test_no_csrf_token_and_foreign_origin_are_rejected) ... ok
+test_only_one_active_run_and_cooperative_stop (test_web.WebTests.test_only_one_active_run_and_cooperative_stop) ... ok
+test_page_and_static_assets_have_correct_types (test_web.WebTests.test_page_and_static_assets_have_correct_types) ... ok
+test_restart_restores_saved_runs_without_running_models (test_web.WebTests.test_restart_restores_saved_runs_without_running_models) ... ok
+test_running_checkpoint_download_is_available_before_final_files (test_web.WebTests.test_running_checkpoint_download_is_available_before_final_files) ... ok
+test_setup_error_is_visible_not_fake_completion (test_web.WebTests.test_setup_error_is_visible_not_fake_completion) ... ok
+
+======================================================================
+ERROR: test_natural_v7 (unittest.loader._FailedTest.test_natural_v7)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_natural_v7
+Traceback (most recent call last):
+  File "USER_HOME\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\unittest\loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "USER_HOME\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\unittest\loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "D:\小影科技笔试\tests\test_natural_v7.py", line 50
+    manager=RunManager(target/'empty')
+IndentationError: unexpected indent
+
+
+----------------------------------------------------------------------
+Ran 137 tests in 7.618s
+
+FAILED (errors=1)

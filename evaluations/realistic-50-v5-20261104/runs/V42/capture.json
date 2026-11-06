@@ -1,0 +1,13 @@
+{
+  "case": "V42",
+  "index": 41,
+  "attempt": 1,
+  "run_id": "d3ad8420e92c4d859279c636da84803e",
+  "folder": "V42",
+  "status": "needs_input",
+  "steps": 2,
+  "responses": 2,
+  "provider": "codex",
+  "seconds": null,
+  "message": "请直接粘贴可引用的产品说明或测试依据，涵盖：续航时长及对应档位、亮度数据或已验证的照明能力、防水等级或已验证的防水能力及使用限制。目前这些关键事实缺失，尚无法完成30秒内的新品介绍稿。"
+}

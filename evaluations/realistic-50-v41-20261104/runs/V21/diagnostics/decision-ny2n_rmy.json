@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ny2n_rmy",
+  "started_at": "2026-11-04T01:26:37.469207+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:27:06.997723+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a42a-4c69-7053-bad7-18abda4bc703",
+    "usage": {
+      "input_tokens": 37742,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 924,
+      "reasoning_output_tokens": 343
+    },
+    "call_id": "decision-ny2n_rmy",
+    "warnings": []
+  }
+}

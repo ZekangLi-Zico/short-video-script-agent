@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ff6csk2z",
+  "started_at": "2026-11-04T01:27:56.572815+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:28:14.225118+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a42b-81bd-7f71-9999-747c043f443e",
+    "usage": {
+      "input_tokens": 30974,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 101,
+      "reasoning_output_tokens": 44
+    },
+    "call_id": "decision-ff6csk2z",
+    "warnings": []
+  }
+}

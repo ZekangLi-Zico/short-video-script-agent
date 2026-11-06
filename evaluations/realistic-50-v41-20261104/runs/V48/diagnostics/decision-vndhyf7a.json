@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-vndhyf7a",
+  "started_at": "2026-11-04T01:46:50.364592+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:47:27.206341+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a43c-ded9-70c2-aa4b-f1718b48f77d",
+    "usage": {
+      "input_tokens": 28963,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 179,
+      "reasoning_output_tokens": 108
+    },
+    "call_id": "decision-vndhyf7a",
+    "warnings": []
+  }
+}

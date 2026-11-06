@@ -1,0 +1,34 @@
+test_agent_binds_duration_mode_and_review_adapter (tests.test_quality.DurationQualityTests.test_agent_binds_duration_mode_and_review_adapter) ... FAIL
+test_bad_mode_and_fake_padding_review (tests.test_quality.DurationQualityTests.test_bad_mode_and_fake_padding_review) ... FAIL
+test_target_interval_and_legacy_cap (tests.test_quality.DurationQualityTests.test_target_interval_and_legacy_cap) ... ERROR
+
+======================================================================
+ERROR: test_target_interval_and_legacy_cap (tests.test_quality.DurationQualityTests.test_target_interval_and_legacy_cap)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_quality.py", line 116, in test_target_interval_and_legacy_cap
+    self.assertFalse(tools.estimate_duration(s,30,duration_mode='target')['passed'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ToolBox.estimate_duration() got an unexpected keyword argument 'duration_mode'
+
+======================================================================
+FAIL: test_agent_binds_duration_mode_and_review_adapter (tests.test_quality.DurationQualityTests.test_agent_binds_duration_mode_and_review_adapter)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_quality.py", line 145, in test_agent_binds_duration_mode_and_review_adapter
+    self.assertTrue(all(t['arguments'].get('duration_mode')=='target' for t in duration_calls))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_bad_mode_and_fake_padding_review (tests.test_quality.DurationQualityTests.test_bad_mode_and_fake_padding_review)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_quality.py", line 125, in test_bad_mode_and_fake_padding_review
+    with self.assertRaises(ValueError): validate_request(brief(duration_mode='magic'))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.266s
+
+FAILED (failures=2, errors=1)

@@ -1,0 +1,46 @@
+Browser tab: 1, Title: "脚本试验台 · 短视频 Agent", URL: "http://127.0.0.1:8765/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 386-410, 434-444
+~				12 button (disabled) 重置, ID: reset-button
+~				14 pop up button (disabled, collapsed, settable) 载入测试场景, Value: 自定义需求, ID: preset, Secondary Actions: Expand
+~				27 text entry area (disabled) 主题, Value: 写一条介绍裁剪视频片段功能的脚本，用旅行回来整理录像作为开场语境。不要承诺自动剪辑。, ID: topic
+~				29 text field (disabled) 给谁看, Value: 喜欢记录旅行的人, ID: audience
+~				31 pop up button (disabled, collapsed, settable) 发布平台, Value: 小红书, ID: platform, Secondary Actions: Expand
+~				39 stepper (disabled, settable, integer) 目标时长 秒, Value: 20, ID: target-seconds
+~				41 text field (disabled) 表达风格, Value: 轻松、实用, ID: style
+~				43 pop up button (disabled, collapsed, settable) 使用的产品资料, Value: 剪影练习版 · 示例素材, ID: product, Secondary Actions: Expand
+~				50 pop up button (disabled, collapsed, settable) 运行方式, Value: 真实模型 · Codex, ID: provider, Secondary Actions: Expand
+~				58 button (disabled) 正在生成与检查…, ID: run-button
++			448 text 运行中
++			449 text 第 1 / 12 步 · 已等待 0 秒
++			450 button 停止后续步骤, ID: cancel-button
+~				65 tab (selected, settable, boolean) 执行过程 0, ID: tab-trace, Value: 1
+执行过程
+0
+~				66 tab (selectable, settable, boolean) 原始结果, Value: 0, ID: tab-raw
+~				69 pop up button (disabled, collapsed, settable) Description: 查看最近运行, Value: 11/03 21:55:38 · 模型 · 运行中 · 写一条介绍裁剪视频片段功能的脚, ID: history, Secondary Actions: Expand
++						451 选择一条记录
++						452 (selected) 11/03 21:55:38 · 模型 · 运行中 · 写一条介绍裁剪视频片段功能的脚
++						453 11/03 21:53:07 · 模型 · 检查通过 · 以整理宠物日常录像为背景，介绍
++						454 11/03 21:51:25 · 模型 · 检查通过 · 做一期读书视频制作工具介绍，这
++						455 11/03 21:48:06 · 模型 · 需要补充 · 为餐饮门店运营介绍剪影练习版的
++						456 11/03 21:45:11 · 模型 · 检查通过 · 社团准备发布校园采访花絮，写一
++						457 11/03 21:42:52 · 模型 · 检查通过 · 给第一次拍口播的人介绍剪影练习
++						458 11/03 21:30:22 · 模型 · 检查通过 · 介绍剪影练习版支持为视频添加字
++						459 11/03 21:24:54 · 模型 · 需要补充 · 介绍剪影练习版的字幕功能，说明
++						460 11/03 21:18:26 · 模型 · 检查通过 · 介绍裁剪视频片段和选择横屏、竖
++						461 11/03 21:10:39 · 模型 · 检查通过 · 介绍剪影练习版的字幕功能，说明
++						462 11/03 20:32:33 · 演练 · 需要补充 · 介绍字幕功能
++						463 11/03 20:20:39 · 模型 · 检查通过 · 介绍字幕功能
++						464 11/03 20:20:34 · 演练 · 未完成 · 介绍字幕功能
++						465 11/03 20:19:53 · 演练 · 需要补充 · 介绍字幕功能
++						466 11/03 20:19:46 · 演练 · 检查通过 · 介绍字幕功能
++			467 container Description: 执行过程 0, ID: panel-trace
++				468 heading 每一步，都有记录。, Value: 2
++					469 text 每一步，都有记录。
++				470 text 这里展示实际工具调用、观察结果与简短动作依据。
++				471 container thinking
++					472 text 模型正在决定下一步
++					473 text 当前调用完成后，将显示实际执行结果。
++			474 text 运行记录会保存在本机，便于复验。
+The focused UI element is 0 AXWebArea 脚本试验台 · 短视频 Agent, URL: 127.0.0.1:8765/

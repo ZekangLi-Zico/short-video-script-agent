@@ -1,0 +1,16 @@
+{
+  "id": "T18",
+  "name": "双语字幕",
+  "context": "交换生活动账号需要双语内容。",
+  "request": {
+    "topic": "介绍为视频添加字幕这个功能。每个分镜同时提供中文和对应英文字幕，不要只在结尾加一句英文。",
+    "audience": "中文和英文观众混合的校园账号",
+    "platform": "小红书",
+    "style": "中文英文双语，简单清楚",
+    "product_id": "demo-editor",
+    "target_seconds": 25
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

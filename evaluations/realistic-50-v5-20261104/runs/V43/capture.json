@@ -1,0 +1,13 @@
+{
+  "case": "V43",
+  "index": 42,
+  "attempt": 1,
+  "run_id": "5c3e017b732b4dec8bb48d458ab1af57",
+  "folder": "V43",
+  "status": "needs_input",
+  "steps": 1,
+  "responses": 1,
+  "provider": "codex",
+  "seconds": null,
+  "message": "请补充“星港周末赛”的报名起止时间、奖品设置，以及参赛规则（参赛资格、赛制和获奖条件）。这些必讲信息齐全后，才能完成面向休闲游戏社群、30秒内的B站预告脚本。"
+}

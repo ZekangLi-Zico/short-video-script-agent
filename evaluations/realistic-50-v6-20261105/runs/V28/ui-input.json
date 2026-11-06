@@ -1,0 +1,19 @@
+{
+  "port": 8832,
+  "submitted_at": "2026-11-04T17:34:46.538Z",
+  "fields": {
+    "audience": "第一次接触视频编辑的展位访客",
+    "duration-mode": "target",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "3fbb66a6b4c143e49bf1dd675a265203",
+    "initial-script": "",
+    "platform": "视频号",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "耐心，条理清楚",
+    "target-seconds": "45",
+    "topic": "接近45秒介绍字幕添加、手动改字、片段裁剪、横竖屏比例。以整理一场社区分享会素材串联，不重复相同产品句子填时间。"
+  }
+}

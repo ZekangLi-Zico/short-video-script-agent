@@ -1,0 +1,16 @@
+{
+  "id": "T27",
+  "name": "竞品选择",
+  "context": "博主准备制作工具对比内容。",
+  "request": {
+    "topic": "做一条剪影练习版与剪映的对比视频，比较字幕编辑、片段裁剪和价格，帮助新手选择。",
+    "audience": "第一次选剪辑工具的用户",
+    "platform": "小红书",
+    "style": "客观，不贬低竞品",
+    "product_id": "demo-editor",
+    "target_seconds": 45
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

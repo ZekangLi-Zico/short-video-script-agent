@@ -1,0 +1,463 @@
+{
+  "status": "completed",
+  "message": "已完成《从一段记录开始》三镜脚本，预计28秒，以入口牌匾、石桥、临河茶桌串联裁剪示例，节奏舒缓，无自动找精彩片段承诺或下载引导。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "format_version": 2,
+    "title": "从一段记录开始",
+    "shots": [
+      {
+        "purpose": "从入口牌匾开启古镇步行，通过同一段素材的前后变化介绍裁剪能力。",
+        "visual": "竖屏拍摄古镇入口：先呈现镜头从地面抬向牌匾的原片，再展示裁剪示意，从牌匾完整入画的位置开始播放，行人缓缓走过牌匾下方。不展示软件界面。",
+        "hold_seconds": 9,
+        "blocks": [
+          {
+            "text": "古镇这一程，从抬头看见牌匾开始。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1",
+            "channel": "both",
+            "beat": 2,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "走到石桥，用明确的取舍示范想保留哪一段旅行记录。",
+        "visual": "侧后方拍摄行人走近石桥、登桥、驻足看水。先短暂播放走近桥头的原片，再呈现同一素材的裁剪示意，从行人到达桥中央开始，保留停步与低头看水的动作。",
+        "hold_seconds": 9,
+        "blocks": [
+          {
+            "text": "这一段，想留下桥中央停步看水的片刻。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "在临河茶桌结束步行，用保留倒茶动作的示例收束裁剪主题。",
+        "visual": "固定机位拍临河茶桌，画面含茶杯和河面。先短暂呈现扶正茶杯的准备动作，再展示从茶水入杯开始的裁剪片段，完整保留倒茶至放下茶壶；最后停留在杯口热气与身后水波。",
+        "hold_seconds": 10,
+        "blocks": [
+          {
+            "text": "最后，在临河茶桌坐下。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "这一刻，留给水声和茶香。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "both",
+            "beat": 2,
+            "display_seconds": 0
+          }
+        ]
+      }
+    ],
+    "editor_notes": ""
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "2493aea084816ffb8003d6eb3ad8475ff7314e059dd2dd4338b71de38221c062",
+    "shots": [
+      {
+        "shot": 1,
+        "estimated_seconds": 9.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 4.0,
+            "voice_seconds": 4.0,
+            "screen_read_seconds": 4.0,
+            "display_seconds": 0,
+            "estimated_seconds": 4.0
+          },
+          {
+            "beat": 2,
+            "start_seconds": 4.0,
+            "end_seconds": 7.8,
+            "voice_seconds": 3.75,
+            "screen_read_seconds": 3.75,
+            "display_seconds": 0,
+            "estimated_seconds": 3.8
+          }
+        ],
+        "tail_hold_seconds": 1.2
+      },
+      {
+        "shot": 2,
+        "estimated_seconds": 9.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 4.5,
+            "voice_seconds": 4.5,
+            "screen_read_seconds": 4.5,
+            "display_seconds": 0,
+            "estimated_seconds": 4.5
+          }
+        ],
+        "tail_hold_seconds": 4.5
+      },
+      {
+        "shot": 3,
+        "estimated_seconds": 10.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 2.8,
+            "voice_seconds": 2.75,
+            "screen_read_seconds": 2.75,
+            "display_seconds": 0,
+            "estimated_seconds": 2.8
+          },
+          {
+            "beat": 2,
+            "start_seconds": 2.8,
+            "end_seconds": 5.8,
+            "voice_seconds": 3.0,
+            "screen_read_seconds": 3.0,
+            "display_seconds": 0,
+            "estimated_seconds": 3.0
+          }
+        ],
+        "tail_hold_seconds": 4.2
+      }
+    ],
+    "total_seconds": 28.0,
+    "target_seconds": 30,
+    "passed": true,
+    "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+    "is_estimate": true,
+    "duration_mode": "target",
+    "min_seconds": 27.0,
+    "max_seconds": 30,
+    "issue": null
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "2493aea084816ffb8003d6eb3ad8475ff7314e059dd2dd4338b71de38221c062",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:1/block:2",
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01",
+        "text": "剪影练习版支持裁剪视频片段。",
+        "requires_semantic_review": true
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "从一段记录开始"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "竖屏拍摄古镇入口：先呈现镜头从地面抬向牌匾的原片，再展示裁剪示意，从牌匾完整入画的位置开始播放，行人缓缓走过牌匾下方。不展示软件界面。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "古镇这一程，从抬头看见牌匾开始。"
+      },
+      {
+        "location": "shot:1/block:2",
+        "text": "剪影练习版支持裁剪视频片段。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "侧后方拍摄行人走近石桥、登桥、驻足看水。先短暂播放走近桥头的原片，再呈现同一素材的裁剪示意，从行人到达桥中央开始，保留停步与低头看水的动作。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "这一段，想留下桥中央停步看水的片刻。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "固定机位拍临河茶桌，画面含茶杯和河面。先短暂呈现扶正茶杯的准备动作，再展示从茶水入杯开始的裁剪片段，完整保留倒茶至放下茶壶；最后停留在杯口热气与身后水波。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "最后，在临河茶桌坐下。"
+      },
+      {
+        "location": "shot:3/block:2",
+        "text": "这一刻，留给水声和茶香。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "2493aea084816ffb8003d6eb3ad8475ff7314e059dd2dd4338b71de38221c062",
+    "request_hash": "35276dbd3f7bdb655e98e84013dba48b530ec8b68fd336c3bacc09a6f4c0b31d",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "以古镇步行素材为背景",
+        "verdict": "met",
+        "evidence": "第1镜从古镇入口开始，第2镜行人走近并登上石桥，第3镜在临河茶桌坐下，形成连续的步行游览场景。"
+      },
+      {
+        "field": "topic",
+        "requirement": "介绍裁剪视频片段",
+        "verdict": "met",
+        "evidence": "第1镜第2块明确介绍“剪影练习版支持裁剪视频片段。”；三镜分别展示从牌匾完整入画、桥中央停步和茶水入杯开始的裁剪示意。"
+      },
+      {
+        "field": "topic",
+        "requirement": "入口牌匾",
+        "verdict": "met",
+        "evidence": "第1镜展示古镇入口牌匾，并从“牌匾完整入画的位置开始播放”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "石桥",
+        "verdict": "met",
+        "evidence": "第2镜展示行人走近石桥、登桥及停步看水。"
+      },
+      {
+        "field": "topic",
+        "requirement": "临河茶桌",
+        "verdict": "met",
+        "evidence": "第3镜固定机位拍摄临河茶桌，画面包含茶杯、倒茶动作和河面。"
+      },
+      {
+        "field": "topic",
+        "requirement": "三个场景",
+        "verdict": "met",
+        "evidence": "三镜依次对应入口牌匾、石桥、临河茶桌，三个场景均有具体画面。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不要承诺自动找精彩片段",
+        "verdict": "met",
+        "evidence": "全部公开文案和画面仅介绍裁剪及想保留的片段，没有自动识别、自动筛选精彩片段的承诺。"
+      },
+      {
+        "field": "topic",
+        "requirement": "结尾不要引导下载",
+        "verdict": "met",
+        "evidence": "结尾为“这一刻，留给水声和茶香。”，画面停留在杯口热气与水波，没有下载引导。"
+      },
+      {
+        "field": "audience",
+        "requirement": "手机旅行记录者",
+        "verdict": "met",
+        "evidence": "采用竖屏旅行记录，以入口、登桥、倒茶等易拍摄素材示范裁剪取舍，适合手机旅行记录者理解和参考。"
+      },
+      {
+        "field": "platform",
+        "requirement": "小红书",
+        "verdict": "met",
+        "evidence": "竖屏旅行画面配简短同步声画文案，以个人游览体验串联功能介绍，适合小红书短视频呈现。"
+      },
+      {
+        "field": "style",
+        "requirement": "舒缓",
+        "verdict": "met",
+        "evidence": "三镜分别安排9、9、10秒，包含行人缓行、停步看水、倒茶及水波停留，节奏舒缓。"
+      },
+      {
+        "field": "style",
+        "requirement": "有画面感",
+        "verdict": "met",
+        "evidence": "“抬头看见牌匾”“桥中央停步看水”“水声和茶香”等文案与牌匾、河面、杯口热气等具体画面呼应。"
+      }
+    ],
+    "summary": "当前稿满足全部明确要求，三个古镇场景和裁剪介绍均已落实，无自动找精彩片段或下载引导。产品表述有资料支持；预计28秒，已通过30秒目标区间检查，各镜停留也有具体动作和观察内容支撑。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "从一段记录开始",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于主题引入，不包含可验证的产品能力或效果承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "竖屏拍摄古镇入口：先呈现镜头从地面抬向牌匾的原片，再展示裁剪示意，从牌匾完整入画的位置开始播放，行人缓缓走过牌匾下方。不展示软件界面。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ],
+        "evidence": "从原片中选取牌匾完整入画后的片段属于资料支持的裁剪能力；其余内容是拍摄安排，没有新增自动化能力或虚构操作界面。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "古镇这一程，从抬头看见牌匾开始。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "描述古镇游览的开场情境，不涉及产品承诺。"
+      },
+      {
+        "location": "shot:1/block:2",
+        "text": "剪影练习版支持裁剪视频片段。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ],
+        "evidence": "与P02.F1原文一致，引用保留原块标注的同一来源和事实编号。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "侧后方拍摄行人走近石桥、登桥、驻足看水。先短暂播放走近桥头的原片，再呈现同一素材的裁剪示意，从行人到达桥中央开始，保留停步与低头看水的动作。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ],
+        "evidence": "选取同一素材中到达桥中央后的片段，是裁剪视频片段的具体示例；没有声称产品自动识别人物位置或动作。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "这一段，想留下桥中央停步看水的片刻。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "表达记录者对保留画面的个人意愿，没有宣称额外产品能力。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "固定机位拍临河茶桌，画面含茶杯和河面。先短暂呈现扶正茶杯的准备动作，再展示从茶水入杯开始的裁剪片段，完整保留倒茶至放下茶壶；最后停留在杯口热气与身后水波。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ],
+        "evidence": "去掉准备动作、保留倒茶片段属于资料支持的裁剪范围；热气与水波为实拍场景安排，没有额外产品效果声明。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "最后，在临河茶桌坐下。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于场景转换和人物动作描述，不涉及产品能力。"
+      },
+      {
+        "location": "shot:3/block:2",
+        "text": "这一刻，留给水声和茶香。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于感官与情绪表达，没有宣称音频处理能力，也没有下载邀请。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "按宿主估算，第1镜9秒，两段同步声画占7.8秒，余1.2秒可观察行人经过；第2镜9秒，文案占4.5秒，余4.5秒有登桥、停步看水及裁剪对照支撑；第3镜10秒，两段文案占5.8秒，余4.2秒有倒茶、放壶及热气水波可观察。同beat的声画同步，无需重复相加。三镜以不同动作示范裁剪取舍，未见空镜凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-04T14:58:02.253421+00:00",
+    "finished_at": "2026-11-04T15:04:24.761411+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v5",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+    "model_responses": 7,
+    "run_id": "d6c1a77217484cd8bf61c75656f6ad1e",
+    "persistence": "checkpoint_v1"
+  }
+}

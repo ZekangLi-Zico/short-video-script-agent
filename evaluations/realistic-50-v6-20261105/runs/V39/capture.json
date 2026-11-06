@@ -1,0 +1,13 @@
+{
+  "case": "V39",
+  "index": 38,
+  "attempt": 1,
+  "run_id": "83bc94e3774242a8bde76fea94a27536",
+  "folder": "V39",
+  "status": "needs_input",
+  "steps": 3,
+  "responses": 3,
+  "provider": "codex",
+  "seconds": null,
+  "message": "请补充剪影练习版的导出规格说明：是否支持4K及适用条件、导出水印规则、竖屏输出分辨率及限制。现有资料仅说明画面比例选项，无法据此完成准确的30秒内脚本。"
+}

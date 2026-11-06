@@ -1,0 +1,12 @@
+{
+  "id": "N03",
+  "status": "needs_input",
+  "steps": 2,
+  "model_responses": 2,
+  "duration": null,
+  "path": [
+    "search_materials",
+    "finish"
+  ],
+  "message": "已找到添加字幕的功能资料，但当前模板无法安排“巷口→门牌→门口”的指定画面。需要项目维护者将这三种镜头加入模板可选画面后继续。脚本尚未生成，时长、规则和需求检查尚未完成。"
+}

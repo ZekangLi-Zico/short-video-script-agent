@@ -1,0 +1,8 @@
+{
+  "case": "V05",
+  "assessment": "改进",
+  "note": "旧版检索后写稿自然超时，无成稿。新版查到两类事实，首稿时长超限后仅精简第三镜旁白，完成34.5秒三镜脚本；三段修理铺素材、两项功能及禁止维修安全讲解/虚构按钮均落实。失败预检查和具体修订已保存；没有重跑覆盖。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

@@ -1,0 +1,19 @@
+{
+  "port": 8845,
+  "submitted_at": "2026-11-04T21:17:12.551Z",
+  "fields": {
+    "audience": "记录家庭料理的普通用户",
+    "duration-mode": "target",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "bb92639c500049928b0c3379477559bc",
+    "initial-script": "",
+    "platform": "小红书",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "亲切，不营销",
+    "target-seconds": "30",
+    "topic": "介绍添加字幕与手动编辑文字，以洗好的蔬菜、空餐盘和食谱本为背景。不要代写营养功效，不出现儿童正脸。"
+  }
+}

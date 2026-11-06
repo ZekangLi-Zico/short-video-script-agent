@@ -1,0 +1,82 @@
+[
+  {
+    "id": "story-character",
+    "name": "陈峥的人物预告",
+    "request": {
+      "topic": "给《城寨风云》的陈峥做一支人物预告，用前六集的经历串起他为什么来到城寨、为什么非赢不可，也让人看到他保护阿晴的一面。最后留下继续追剧的念头。",
+      "audience": "没有看过原剧、喜欢港片和人物故事的成年观众",
+      "platform": "B站",
+      "target_seconds": 45,
+      "style": "克制、有情绪，旁白像在讲一个人的遭遇，不念人物档案",
+      "product_id": "city-drama",
+      "expression_mode": "creative",
+      "duration_mode": "max"
+    },
+    "failures": {},
+    "hint": "取材于现有漫剧的创作需求，可以直接改主题、角度或时长。"
+  },
+  {
+    "id": "story-candle",
+    "name": "门缝里的烛光",
+    "request": {
+      "topic": "把第八集阿晴送叉烧饭这一段改成一个独立短片，从递饭开始，以她拒绝帮忙修电路后离开收尾。主要靠陈峥和阿晴的对白与反应推进，不加解说旁白。",
+      "audience": "已经认识陈峥和阿晴、在追这部漫剧的观众",
+      "platform": "B站",
+      "target_seconds": 35,
+      "style": "生活化，先有邻里的温度，再留一点说不清的疑问",
+      "product_id": "city-drama",
+      "expression_mode": "creative",
+      "duration_mode": "max"
+    },
+    "failures": {},
+    "hint": "取材于现有漫剧的创作需求，可以直接改主题、角度或时长。"
+  },
+  {
+    "id": "story-rivals",
+    "name": "两位行走的交锋预告",
+    "request": {
+      "topic": "做第七至八集的对决预告：从包厢与擂台的隔空对视，进入顾明川约战和陈峥借剑，停在比赛即将开始的紧张感上。",
+      "audience": "看完前六集、准备进入中篇的观众",
+      "platform": "B站",
+      "target_seconds": 40,
+      "style": "有压迫感但不堆狠话，允许简短人物对白和少量旁白",
+      "product_id": "city-drama",
+      "expression_mode": "creative",
+      "duration_mode": "max"
+    },
+    "failures": {},
+    "hint": "取材于现有漫剧的创作需求，可以直接改主题、角度或时长。"
+  },
+  {
+    "id": "story-hospital",
+    "name": "医院探望片段",
+    "request": {
+      "topic": "用第十二集陈峥探望小韩做一条短片。围绕床边削苹果、劝他离开拳台和最后道谢，把两个嘴硬的人之间的关心拍出来。用人物对白，不加介绍背景的旁白。",
+      "audience": "看过小韩受伤、关心人物关系的观众",
+      "platform": "B站",
+      "target_seconds": 40,
+      "style": "安静、自然、留有停顿，感情藏在动作和短句里",
+      "product_id": "city-drama",
+      "expression_mode": "creative",
+      "duration_mode": "max"
+    },
+    "failures": {},
+    "hint": "取材于现有漫剧的创作需求，可以直接改主题、角度或时长。"
+  },
+  {
+    "id": "story-midarc",
+    "name": "中篇回顾",
+    "request": {
+      "topic": "做《城寨风云》第七至十二集的回顾，串起发现同行者、兵器对决、小韩受伤、护送出城和医院探望，让没追上更新的人能明白陈峥这几集经历了什么。",
+      "audience": "已经看过前六集、暂时漏看中篇的观众",
+      "platform": "B站",
+      "target_seconds": 60,
+      "style": "清楚连贯，像朋友讲剧情，不逐条报集名，不假装全剧完结",
+      "product_id": "city-drama",
+      "expression_mode": "creative",
+      "duration_mode": "max"
+    },
+    "failures": {},
+    "hint": "取材于现有漫剧的创作需求，可以直接改主题、角度或时长。"
+  }
+]

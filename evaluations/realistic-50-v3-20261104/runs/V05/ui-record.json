@@ -1,0 +1,10 @@
+{
+  "busy": false,
+  "detail": "真实模型 · 4 个执行步骤",
+  "history": "216d3e2f9d41448fbacbff57bca3f0ba",
+  "href": "/api/runs/216d3e2f9d41448fbacbff57bca3f0ba/download/output.json",
+  "message": "启动或保存失败：[WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\\\小影科技笔试\\\\.runtime\\\\decision-jaogx9io'",
+  "status": "运行失败",
+  "case": "V05",
+  "captured_at": "2026-11-03T17:57:01.291Z"
+}

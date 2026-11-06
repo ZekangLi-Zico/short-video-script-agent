@@ -1,0 +1,13 @@
+{
+  "case": "V27",
+  "index": 26,
+  "attempt": 1,
+  "run_id": "a97be14868d24930a1f9bfe700812ef2",
+  "folder": "V27",
+  "status": "completed",
+  "steps": 6,
+  "responses": 7,
+  "provider": "codex",
+  "seconds": 8,
+  "message": "已完成两个分镜，预计共8秒：第一镜用剪刀和胶片介绍裁剪片段，第二镜用横竖相框介绍比例选项，无额外开场或结尾镜头。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

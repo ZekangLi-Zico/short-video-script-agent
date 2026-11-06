@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-x05we_32",
+  "started_at": "2026-11-04T01:45:38.026388+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:46:09.612281+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a43b-bf4c-7cc3-b0c6-007fb34552be",
+    "usage": {
+      "input_tokens": 30601,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 109,
+      "reasoning_output_tokens": 53
+    },
+    "call_id": "decision-x05we_32",
+    "warnings": []
+  }
+}

@@ -7,6 +7,8 @@ import re
 from pathlib import Path
 
 from .schema import fingerprint, number, validate_script
+from .expression import expression_slots
+from .timing import estimate_tracks
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -22,6 +24,8 @@ def speech_units(text):
 
 
 class ToolBox:
+    search_contract = 'id_first_v2'
+
     def __init__(self, materials=None, rules=None, failures=None, synthetic_data=None):
         self.synthetic_data = (materials is None) if synthetic_data is None else bool(synthetic_data)
         self.materials = copy.deepcopy(materials if materials is not None else read_json(ROOT / "data/materials.json")["materials"])
@@ -82,6 +86,12 @@ class ToolBox:
         if not isinstance(query, str) or not 1 <= len(query.strip()) <= 200:
             raise ValueError("query 必须为 1–200 字符")
         q = query.strip().casefold()
+        # The dossier exposes card IDs so a model can deliberately fetch a scene
+        # without common character names pushing it out of the top five.
+        requested = set(re.findall(r'[a-z0-9]+(?:-[a-z0-9]+)*', q))
+        exact = [m for m in self.materials if m['product_id'] == product_id and m['id'].casefold() in requested]
+        if exact:
+            return {'query':query, 'product_id':product_id, 'materials':copy.deepcopy(exact[:5]), 'count':len(exact[:5])}
         terms = re.findall(r"[a-z0-9]+|[\u3400-\u9fff]+", q)
         ranked = []
         for item in self.materials:
@@ -96,50 +106,89 @@ class ToolBox:
         return {"query": query, "product_id": product_id, "materials": [copy.deepcopy(item) for _, item in ranked[:5]],
                 "count": len(ranked[:5])}
 
-    def estimate_duration(self, script, target_seconds):
+    def estimate_duration(self, script, target_seconds, duration_mode='max'):
         validate_script(script)
+        if duration_mode not in {'max', 'target'} or not number(target_seconds, 1, 300):
+            raise ValueError('非法时长模式或目标秒数')
         shots = []
         for index, shot in enumerate(script["shots"], 1):
+            if script.get('format_version') in (2, 3):
+                shots.append({'shot':index, **estimate_tracks(shot,self.rules)})
+                continue
             text = "".join(block["text"] for block in shot["blocks"])
             units = speech_units(text)
             seconds = max(self.rules["min_shot_seconds"], shot["hold_seconds"],
                           units / self.rules["speech_units_per_second"] + self.rules["shot_pause_seconds"])
             shots.append({"shot": index, "speech_units": units, "estimated_seconds": math.ceil(seconds * 10) / 10})
         total = round(sum(shot["estimated_seconds"] for shot in shots), 1)
-        return {"script_hash": fingerprint(script), "shots": shots, "total_seconds": total,
+        result = {"script_hash": fingerprint(script), "shots": shots, "total_seconds": total,
                 "target_seconds": target_seconds, "passed": total <= target_seconds,
                 "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
                 "is_estimate": True}
+        if script.get('format_version') in (2, 3):
+            result['method']='声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒'
+        if duration_mode == 'target':
+            minimum = round(target_seconds * 0.9, 4)
+            result.update(duration_mode='target', min_seconds=minimum, max_seconds=target_seconds,
+                          passed=minimum <= total <= target_seconds,
+                          issue='too_short' if total < minimum else 'too_long' if total > target_seconds else None)
+        if script.get('format_version') == 3:
+            result['method']='动作与声画v3：每段max(声音,屏幕文字阅读,展示停留,动作最低时长)，各段相加；再取镜头最低停留较大者。说话者和动作说明不计入朗读。'
+        return result
 
-    def check_rules(self, script, retrieved_ids):
+    def check_rules(self, script, retrieved_ids, expression_mode='strict'):
         validate_script(script)
+        if expression_mode not in {'strict', 'creative'}:
+            raise ValueError('非法表达模式')
         issues, citations = [], []
+        if script.get('format_version') == 3 and expression_mode == 'strict':
+            issues.append({'code':'staging_requires_creative_mode','location':'script'})
         allowed = {item["id"]: item for item in self.materials if item["id"] in retrieved_ids}
-        if script["title"] not in self.rules["allowed_titles"]:
+        if expression_mode == 'strict' and script["title"] not in self.rules["allowed_titles"]:
             issues.append({"code": "unapproved_title", "location": "title"})
         for i, shot in enumerate(script["shots"], 1):
-            if shot["visual"] not in self.rules["visuals"]:
+            if expression_mode == 'strict' and shot["visual"] not in self.rules["visuals"]:
                 issues.append({"code": "unapproved_visual", "location": f"shot:{i}"})
             for j, block in enumerate(shot["blocks"], 1):
                 where = f"shot:{i}/block:{j}"
                 source = allowed.get(block["source_id"])
                 if not block["source_id"] and not block["fact_id"]:
-                    if block["text"] not in self.rules["creative_copy"]:
+                    if expression_mode == 'strict' and block["text"] not in self.rules["creative_copy"]:
                         issues.append({"code": "unapproved_copy", "location": where, "text": block["text"]})
                 elif source is None:
                     issues.append({"code": "source_not_retrieved", "location": where, "source_id": block["source_id"]})
                 else:
                     fact = next((f for f in source["facts"] if f["id"] == block["fact_id"]), None)
-                    if fact is None or block["text"] != fact["text"]:
+                    paraphrase = script.get('format_version') in (2, 3) and expression_mode == 'creative'
+                    if fact is None or (not paraphrase and block["text"] != fact["text"]):
                         issues.append({"code": "unsupported_claim", "location": where, "text": block["text"]})
                     else:
                         citations.append({"location": where, "source_id": source["id"], "fact_id": fact["id"],
                                           "quote": fact["text"], "version": source["version"]})
+                        if script.get('format_version') in (2, 3):
+                            citations[-1].update(text=block['text'], requires_semantic_review=paraphrase)
         if not citations:
             issues.append({"code": "no_supported_product_fact", "location": "script"})
-        all_text = json.dumps(script, ensure_ascii=False)
+        # Editorial notes can quote a rejected claim to explain its removal.
+        # They are not video copy; every actual title/shot/block remains checked.
+        all_text = json.dumps({'title': script['title'], 'shots': script['shots']}, ensure_ascii=False)
+        if script.get('format_version') in (2, 3):
+            all_text = '\n'.join([script['title'], *[s['visual'] for s in script['shots']],
+                                  *[b['text'] for s in script['shots'] for b in s['blocks']]])
+        if script.get('format_version') == 3:
+            all_text='\n'.join(slot['text'] for slot in expression_slots(script))
         for phrase in self.rules["forbidden_phrases"]:
             if phrase in all_text:
                 issues.append({"code": "brand_rule_violation", "phrase": phrase})
-        return {"script_hash": fingerprint(script), "passed": not issues, "issues": issues,
-                "citations": citations, "rules_version": self.rules["version"]}
+        result = {"script_hash": fingerprint(script), "passed": not issues, "issues": issues,
+                  "citations": citations, "rules_version": self.rules["version"]}
+        if self.rules.get('material_kind') == 'narrative':
+            result['material_kind'] = 'narrative'
+        if expression_mode == 'creative':
+            result.update(requires_expression_review=True, expression_slots=expression_slots(script),
+                          available_facts=[{'source_id': m['id'], 'fact_id': f['id'], 'quote': f['text'], 'version': m['version']}
+                                           for m in allowed.values() for f in m['facts']],
+                          scope='exact_quote_and_brand_checks_only; expression semantics require independent model review')
+            if script.get('format_version') in (2, 3):
+                result['scope']='source_identity_and_brand_checks; every public claim requires semantic entailment review'
+        return result

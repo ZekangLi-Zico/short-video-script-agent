@@ -1,0 +1,16 @@
+{
+  "id": "T12",
+  "name": "一分钟介绍",
+  "context": "产品展示会需要更长的解说稿。",
+  "request": {
+    "topic": "做一条接近一分钟的基础功能介绍，涵盖字幕添加及手动编辑、片段裁剪、横竖屏比例。不要重复同一句话填时长。",
+    "audience": "线下体验活动的普通观众",
+    "platform": "视频号",
+    "style": "耐心、说明式",
+    "product_id": "demo-editor",
+    "target_seconds": 60
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

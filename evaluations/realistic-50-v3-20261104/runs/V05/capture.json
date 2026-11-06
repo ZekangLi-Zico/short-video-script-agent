@@ -1,0 +1,12 @@
+{
+  "case": "V05",
+  "run_id": "216d3e2f9d41448fbacbff57bca3f0ba",
+  "status": "infrastructure_error",
+  "steps": 4,
+  "responses": null,
+  "model_responses_lower_bound": 4,
+  "provider": "codex",
+  "seconds": 32.3,
+  "message": "启动或保存失败：[WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D:\\\\小影科技笔试\\\\.runtime\\\\decision-jaogx9io'",
+  "actual_model_evidence": "Partial tool execution observed in webpage; complete engine artifacts unavailable. Response count is a lower bound."
+}

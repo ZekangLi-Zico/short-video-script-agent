@@ -1,0 +1,97 @@
+{
+  "case": "T35",
+  "name": "静音展位",
+  "run_id": "a0882cce48a747488e624c3ab6fa9600",
+  "status": "completed",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "steps": 5,
+  "model_calls": 5,
+  "seconds": 18.0,
+  "target_seconds": 20,
+  "rules_passed": true,
+  "shots": 4,
+  "title": "一条短片的开始",
+  "citations": [
+    "P02.F1",
+    "P03.F1"
+  ],
+  "script_lines": [
+    "看看这些功能。",
+    "剪影练习版支持裁剪视频片段。",
+    "剪影练习版提供横屏和竖屏画面比例选项。",
+    "先从一条短片开始。"
+  ],
+  "actions": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 片段裁剪 横屏 竖屏 画面比例"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "需要检索片段裁剪和横竖屏比例的产品事实，用于屏幕字幕。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "basis": "已检索到裁剪和横竖屏比例事实，采用屏幕文字卡片呈现关键信息。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "basis": "当前稿尚未检查时长，需确认是否满足20秒上限。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": 18.0,
+      "issues": null
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "basis": "当前稿估算18秒，已通过20秒上限检查，尚需规则检查。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": null,
+      "issues": []
+    },
+    {
+      "step": 5,
+      "action": "finish",
+      "basis": "当前同一稿的时长检查和规则检查均已通过，估算18秒，未超过20秒上限。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 89.2,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "b46be193d162824f4eb627f369e00e2dc3e00bc3743dc00fa09b396bcd9e3af7",
+    "output.json": "64f95664ca74404a388827c2989f927cfc3afcc573df3ccc745a4f8d5210d8bc",
+    "trace.jsonl": "f7e4bfebe632e71a057a7be88e018a2af42f7eb78cabc35e76518cc17f86d281",
+    "manifest.json": "6157b434ad5a72fc931d7100ec230d9acf8aab6543e951793116b943607bf56e",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "8d7df2f92a9f5d8dbf9bd9ead2a4548ece231e520a7e73371bf2b86e99ed3cb2"
+  }
+}

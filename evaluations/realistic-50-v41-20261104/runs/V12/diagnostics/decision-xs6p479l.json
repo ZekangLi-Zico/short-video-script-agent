@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-xs6p479l",
+  "started_at": "2026-11-04T01:13:21.549734+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:13:37.135358+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a41e-2746-7691-b606-b96de54d5c5a",
+    "usage": {
+      "input_tokens": 29066,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 109,
+      "reasoning_output_tokens": 48
+    },
+    "call_id": "decision-xs6p479l",
+    "warnings": []
+  }
+}

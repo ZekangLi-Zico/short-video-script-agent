@@ -1,0 +1,24 @@
+{
+  "call_id": "decision-9u5xwngw",
+  "started_at": "2026-11-03T20:37:53.328321+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "cleanup_error_type": "PermissionError",
+  "finished_at": "2026-11-03T20:38:08.667211+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a321-f49b-7021-b438-a5241c8e4d81",
+    "usage": {
+      "input_tokens": 27059,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 139,
+      "reasoning_output_tokens": 65
+    },
+    "call_id": "decision-9u5xwngw",
+    "warnings": [
+      "cleanup_deferred"
+    ]
+  }
+}

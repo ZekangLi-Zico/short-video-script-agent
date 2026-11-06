@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-gzitha6i",
+  "started_at": "2026-11-03T21:50:06.371494+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:50:24.057411+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a364-1214-7003-a224-5f5c2890ac19",
+    "usage": {
+      "input_tokens": 28413,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 127,
+      "reasoning_output_tokens": 70
+    },
+    "call_id": "decision-gzitha6i",
+    "warnings": []
+  }
+}

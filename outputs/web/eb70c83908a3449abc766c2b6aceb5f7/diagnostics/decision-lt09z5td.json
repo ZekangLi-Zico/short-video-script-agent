@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-lt09z5td",
+  "started_at": "2026-11-04T21:15:24.605955+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T21:16:00.838042+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a86a-ac1c-78c1-a6ef-6bb81bc15fd6",
+    "usage": {
+      "input_tokens": 27740,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 868,
+      "reasoning_output_tokens": 252
+    },
+    "call_id": "decision-lt09z5td",
+    "warnings": []
+  }
+}

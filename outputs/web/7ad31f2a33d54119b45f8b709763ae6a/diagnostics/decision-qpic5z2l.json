@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-qpic5z2l",
+  "started_at": "2026-11-03T21:42:54.857995+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:43:16.565919+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a35d-7c6a-7400-8979-96a271372d2e",
+    "usage": {
+      "input_tokens": 32297,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 333,
+      "reasoning_output_tokens": 273
+    },
+    "call_id": "decision-qpic5z2l",
+    "warnings": []
+  }
+}

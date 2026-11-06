@@ -1,0 +1,358 @@
+{
+  "status": "completed",
+  "message": "已完成仅介绍字幕添加的三镜脚本，包含擦净的黑板、课程讲义和空座位，风格平实克制，无问句、感叹号、下载引导或夸张保证。本轮保留现稿，无需删改。三项检查均通过，估时18.8秒，符合18至20秒目标范围；实际时长以成片为准。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "课程视频的字幕添加",
+    "shots": [
+      {
+        "visual": "镜头缓慢掠过空座位，停在擦净的黑板前，前景桌上放着课程讲义。旁白不作为事实卡展示。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "下课后，黑板已经擦净，讲义留在桌上，座位空着。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "课程讲义近景，一只手沿讲义中的一行文字移动。产品事实以文字卡呈现并读出，后一句仅作旁白，不展示产品界面。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          },
+          {
+            "text": "助教对照讲义，确认这一句讲解的内容。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "固定画面包含空座位、桌上的课程讲义与擦净的黑板。将本镜头旁白同步作为字幕叠加，示意字幕添加后的画面；不呈现按钮或操作流程。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "空座位前，留出读完字幕的时间，再继续回看课程。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "7bee2f2abc74e4f1684205a3f3c6a5d4ce5accb2975ba4c2dd93e40d5fdcf4f0",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 19,
+        "estimated_seconds": 5.3
+      },
+      {
+        "shot": 2,
+        "speech_units": 30,
+        "estimated_seconds": 8.0
+      },
+      {
+        "shot": 3,
+        "speech_units": 20,
+        "estimated_seconds": 5.5
+      }
+    ],
+    "total_seconds": 18.8,
+    "target_seconds": 20,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true,
+    "duration_mode": "target",
+    "min_seconds": 18.0,
+    "max_seconds": 20,
+    "issue": null
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "7bee2f2abc74e4f1684205a3f3c6a5d4ce5accb2975ba4c2dd93e40d5fdcf4f0",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "课程视频的字幕添加"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "镜头缓慢掠过空座位，停在擦净的黑板前，前景桌上放着课程讲义。旁白不作为事实卡展示。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "下课后，黑板已经擦净，讲义留在桌上，座位空着。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "课程讲义近景，一只手沿讲义中的一行文字移动。产品事实以文字卡呈现并读出，后一句仅作旁白，不展示产品界面。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "助教对照讲义，确认这一句讲解的内容。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "固定画面包含空座位、桌上的课程讲义与擦净的黑板。将本镜头旁白同步作为字幕叠加，示意字幕添加后的画面；不呈现按钮或操作流程。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "空座位前，留出读完字幕的时间，再继续回看课程。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "7bee2f2abc74e4f1684205a3f3c6a5d4ce5accb2975ba4c2dd93e40d5fdcf4f0",
+    "request_hash": "fe513b9257dbed69caead2482b20e7d77c4402d6ab34c67d59e7319e8c7156e7",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "介绍字幕添加",
+        "verdict": "met",
+        "evidence": "第2镜明确介绍“剪影练习版支持为视频添加字幕。”；第3镜叠加字幕，展示添加后的画面。"
+      },
+      {
+        "field": "topic",
+        "requirement": "擦净的黑板",
+        "verdict": "met",
+        "evidence": "第1镜“停在擦净的黑板前”，第3镜固定画面也包含擦净的黑板。"
+      },
+      {
+        "field": "topic",
+        "requirement": "课程讲义",
+        "verdict": "met",
+        "evidence": "第1镜前景桌上放着课程讲义；第2镜为课程讲义近景；第3镜保留桌上的课程讲义。"
+      },
+      {
+        "field": "topic",
+        "requirement": "空座位",
+        "verdict": "met",
+        "evidence": "第1镜“镜头缓慢掠过空座位”，第3镜固定画面包含空座位。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不要问句",
+        "verdict": "met",
+        "evidence": "标题、画面说明与旁白均无问句；第2镜使用“支持为视频添加字幕”的陈述句。"
+      },
+      {
+        "field": "topic",
+        "requirement": "感叹号",
+        "verdict": "met",
+        "evidence": "全部标题、画面说明和旁白均未使用感叹号。"
+      },
+      {
+        "field": "topic",
+        "requirement": "下载引导",
+        "verdict": "met",
+        "evidence": "全文没有下载引导；结尾为“留出读完字幕的时间，再继续回看课程”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "“轻松搞定”式保证",
+        "verdict": "met",
+        "evidence": "第2镜仅陈述支持添加字幕，未承诺轻松、省时、自动完成或保证效果。"
+      },
+      {
+        "field": "topic",
+        "requirement": "只讲这个功能。",
+        "verdict": "met",
+        "evidence": "标题、第2镜事实卡和第3镜字幕叠加示意均只涉及字幕添加。“助教对照讲义”是人物行为，稿件未介绍其他产品功能。"
+      },
+      {
+        "field": "audience",
+        "requirement": "线上课程剪辑助教",
+        "verdict": "met",
+        "evidence": "标题指向课程视频，第2镜安排“助教对照讲义，确认这一句讲解的内容”，第3镜呈现字幕并回看课程，符合课程剪辑辅助工作的场景。"
+      },
+      {
+        "field": "platform",
+        "requirement": "B站",
+        "verdict": "met",
+        "evidence": "三镜头以中文旁白、功能事实卡和字幕效果示意构成简短课程视频功能介绍，适合B站视频呈现。"
+      },
+      {
+        "field": "style",
+        "requirement": "平实",
+        "verdict": "met",
+        "evidence": "“讲义留在桌上，座位空着”等旁白采用具体、日常的描述，功能介绍直接陈述支持字幕添加。"
+      },
+      {
+        "field": "style",
+        "requirement": "克制",
+        "verdict": "met",
+        "evidence": "画面采用缓慢掠过、讲义近景与固定镜头；文案没有夸张效果承诺、强促销或情绪煽动。"
+      }
+    ],
+    "summary": "原始需求均已落实：只介绍字幕添加，三种指定背景齐全，无问句、感叹号、下载引导或夸张保证。表达有资料支持，逐镜节奏合理。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "课程视频的字幕添加",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "标题涉及为视频添加字幕，P01.F1明确支持该能力；“课程视频”仅限定使用场景，未增加能力承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "镜头缓慢掠过空座位，停在擦净的黑板前，前景桌上放着课程讲义。旁白不作为事实卡展示。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "仅安排课堂背景、镜头移动及文案展示方式，不含产品能力或效果声明。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "下课后，黑板已经擦净，讲义留在桌上，座位空着。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "仅描述下课后的场景，不含产品承诺或真实客户背书。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "课程讲义近景，一只手沿讲义中的一行文字移动。产品事实以文字卡呈现并读出，后一句仅作旁白，不展示产品界面。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "仅安排手部动作、景别与事实卡呈现方式，未虚构产品界面、按钮或操作步骤。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "助教对照讲义，确认这一句讲解的内容。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "核对动作明确由助教完成，未声称产品能自动理解、核对或纠正讲解。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "固定画面包含空座位、桌上的课程讲义与擦净的黑板。将本镜头旁白同步作为字幕叠加，示意字幕添加后的画面；不呈现按钮或操作流程。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "字幕叠加示意由P01.F1支持。“同步作为字幕叠加”是拍摄制作安排，没有声称产品自动转写或自动同步，也未虚构具体界面。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "空座位前，留出读完字幕的时间，再继续回看课程。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于阅读字幕和回看课程的行动安排，未承诺产品能自动控制阅读时间或提升学习效果。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "第1镜预计5.3秒、19个口播单位，配合掠过座位并停在黑板前的动作；第2镜预计8.0秒、30个口播单位，安排讲义指读与事实卡呈现；第3镜预计5.5秒、20个口播单位，以字幕叠加供观众阅读。第3镜虽复用课堂背景，但新增字幕效果示意，并非空镜凑时长。各镜hold_seconds为0仅表示无额外最低停留要求；宿主估算总长18.8秒，已通过目标区间检查。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T21:48:46.552133+00:00",
+    "finished_at": "2026-11-03T21:53:10.746433+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "model_responses": 7,
+    "run_id": "b1218242f62b494696c23773bb3eac50",
+    "persistence": "checkpoint_v1"
+  }
+}

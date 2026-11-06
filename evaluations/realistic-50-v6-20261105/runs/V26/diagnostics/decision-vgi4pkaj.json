@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-vgi4pkaj",
+  "started_at": "2026-11-04T17:33:52.177446+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:34:16.411094+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a79f-d6df-7e12-86bd-50b64bc524d3",
+    "usage": {
+      "input_tokens": 27485,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 729,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-vgi4pkaj",
+    "warnings": []
+  }
+}

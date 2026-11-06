@@ -1,0 +1,98 @@
+{
+  "case": "T19",
+  "name": "四镜头交付",
+  "run_id": "5edede063ac745eebb39b670bc39e56c",
+  "status": "completed",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "steps": 5,
+  "model_calls": 5,
+  "seconds": 21.0,
+  "target_seconds": 24,
+  "rules_passed": true,
+  "shots": 4,
+  "title": "从一段记录开始",
+  "citations": [
+    "P01.F1",
+    "P01.F2",
+    "P02.F1"
+  ],
+  "script_lines": [
+    "从一段日常记录开始。",
+    "剪影练习版支持为视频添加字幕。字幕文字可以手动编辑。",
+    "剪影练习版支持裁剪视频片段。",
+    "试试你的下一条短片吧。"
+  ],
+  "actions": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 添加字幕、手动编辑字幕文字、裁剪片段的功能说明"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前无产品素材，需要检索三个指定功能的可引用事实。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "basis": "已检索到三个指定功能的事实，按开场、两个功能段落、结尾编排四个分镜。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "basis": "当前四分镜稿尚未检查时长，需确认是否符合24秒上限。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": 21.0,
+      "issues": null
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "basis": "当前四分镜稿估算21秒，已通过24秒上限检查，尚需规则检查。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": null,
+      "issues": []
+    },
+    {
+      "step": 5,
+      "action": "finish",
+      "basis": "当前四分镜稿的时长与规则检查均已通过，且对应同一稿件。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 83.2,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "21f3dad0742008ceeeb935520ff1566e94273bdd6b1d338e4f02be59ea17a395",
+    "output.json": "eeb780754703e64b574ace95d134513b7591eac78683fd231c7485ae60607b52",
+    "trace.jsonl": "4684eb67d3e29903da321d9bb52537a0723014b15399abddd7d6fc86b3586a33",
+    "manifest.json": "0269a81461326838bbf47aa970b58763a792c6496b85ef2340858773f7643328",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "ee33a7ac42b70b3f4c9cbb2ec305531b86fd52fe360bc30fe2d847c49b253362"
+  }
+}

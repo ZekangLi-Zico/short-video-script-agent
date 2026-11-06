@@ -1,0 +1,274 @@
+{
+  "runs_checked": 20,
+  "passed": false,
+  "runs": [
+    {
+      "path": "examples/live/impossible_duration",
+      "version": null,
+      "provider": "codex",
+      "status": "needs_input",
+      "errors": [],
+      "path_actions": [
+        "finish"
+      ]
+    },
+    {
+      "path": "examples/live/missing_information",
+      "version": null,
+      "provider": "codex",
+      "status": "needs_input",
+      "errors": [],
+      "path_actions": []
+    },
+    {
+      "path": "examples/live/normal",
+      "version": null,
+      "provider": "codex",
+      "status": "completed",
+      "errors": [],
+      "path_actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ]
+    },
+    {
+      "path": "examples/live/no_material",
+      "version": null,
+      "provider": "codex",
+      "status": "needs_input",
+      "errors": [],
+      "path_actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ]
+    },
+    {
+      "path": "examples/live/over_duration",
+      "version": null,
+      "provider": "codex",
+      "status": "completed",
+      "errors": [
+        "step 3: 工具返回不能由当前快照复算",
+        "step 6: 宿主绑定参数不一致"
+      ],
+      "path_actions": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ]
+    },
+    {
+      "path": "examples/live/recoverable_failure",
+      "version": null,
+      "provider": "codex",
+      "status": "completed",
+      "errors": [],
+      "path_actions": [
+        "search_materials",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ]
+    },
+    {
+      "path": "examples/live/rule_revision",
+      "version": null,
+      "provider": "codex",
+      "status": "completed",
+      "errors": [],
+      "path_actions": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ]
+    },
+    {
+      "path": "examples/live/tool_failure",
+      "version": null,
+      "provider": "codex",
+      "status": "blocked",
+      "errors": [],
+      "path_actions": [
+        "search_materials",
+        "search_materials",
+        "search_materials",
+        "finish"
+      ]
+    },
+    {
+      "path": "evaluations/requirements-audit-v7.3-20261106/mock/impossible_duration",
+      "version": "v7.3-staged-storyboard",
+      "provider": "mock",
+      "status": "blocked",
+      "errors": [],
+      "path_actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "finish"
+      ]
+    },
+    {
+      "path": "evaluations/requirements-audit-v7.3-20261106/mock/missing_information",
+      "version": "v7.3-staged-storyboard",
+      "provider": "mock",
+      "status": "needs_input",
+      "errors": [],
+      "path_actions": []
+    },
+    {
+      "path": "evaluations/requirements-audit-v7.3-20261106/mock/normal",
+      "version": "v7.3-staged-storyboard",
+      "provider": "mock",
+      "status": "completed",
+      "errors": [],
+      "path_actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "path": "evaluations/requirements-audit-v7.3-20261106/mock/no_material",
+      "version": "v7.3-staged-storyboard",
+      "provider": "mock",
+      "status": "needs_input",
+      "errors": [],
+      "path_actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ]
+    },
+    {
+      "path": "evaluations/requirements-audit-v7.3-20261106/mock/over_duration",
+      "version": "v7.3-staged-storyboard",
+      "provider": "mock",
+      "status": "completed",
+      "errors": [],
+      "path_actions": [
+        "search_materials",
+        "estimate_duration",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "path": "evaluations/requirements-audit-v7.3-20261106/mock/recoverable_failure",
+      "version": "v7.3-staged-storyboard",
+      "provider": "mock",
+      "status": "completed",
+      "errors": [],
+      "path_actions": [
+        "search_materials",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "path": "evaluations/requirements-audit-v7.3-20261106/mock/rule_revision",
+      "version": "v7.3-staged-storyboard",
+      "provider": "mock",
+      "status": "completed",
+      "errors": [],
+      "path_actions": [
+        "search_materials",
+        "estimate_duration",
+        "check_rules",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "path": "evaluations/requirements-audit-v7.3-20261106/mock/tool_failure",
+      "version": "v7.3-staged-storyboard",
+      "provider": "mock",
+      "status": "blocked",
+      "errors": [],
+      "path_actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ]
+    },
+    {
+      "path": "outputs/web/30769563136641ea8660d4a3c6cc355f",
+      "version": "v7.3-staged-storyboard",
+      "provider": "codex",
+      "status": "completed",
+      "errors": [],
+      "path_actions": [
+        "search_materials",
+        "write_script",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "path": "outputs/web/581d5978b0ba41ce8a048d7ec58e909c",
+      "version": "v7.3-staged-storyboard",
+      "provider": "codex",
+      "status": "completed",
+      "errors": [],
+      "path_actions": [
+        "search_materials",
+        "write_script",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "path": "outputs/web/bd623739d6bc468ab6420a71875e7465",
+      "version": "v7.3-staged-storyboard",
+      "provider": "codex",
+      "status": "completed",
+      "errors": [],
+      "path_actions": [
+        "search_materials",
+        "write_script",
+        "check_requirements",
+        "finish"
+      ]
+    },
+    {
+      "path": "outputs/web/e728b9dabc21453387bb89c4e55f4fe7",
+      "version": "v7.3-staged-storyboard",
+      "provider": "codex",
+      "status": "completed",
+      "errors": [],
+      "path_actions": [
+        "search_materials",
+        "write_script",
+        "check_requirements",
+        "finish"
+      ]
+    }
+  ]
+}

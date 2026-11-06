@@ -1,0 +1,81 @@
+[
+  {
+    "case": "hallway",
+    "before": {
+      "web_run_id": "3e1b065fee9f4370bd9a3b10feaf49d3",
+      "status": "completed",
+      "version": "v7.2-call-reliability",
+      "format_version": 2,
+      "elapsed_seconds": 457.03,
+      "estimated_video_seconds": 26.0,
+      "shots": 5,
+      "staged_segments": 0,
+      "silent_action_segments": 0,
+      "voice_blocks": 7,
+      "voice_blocks_with_speaker": 0,
+      "model_responses": 9,
+      "attempts": 10,
+      "timeouts": 1,
+      "checks": {
+        "duration": true,
+        "rules_check": true,
+        "requirements_check": true
+      },
+      "data_hash": "5d865600d50d103f98dc820f7ba7505232f2991b7eda6b008e02601df670bf25"
+    },
+    "after": {
+      "web_run_id": "30769563136641ea8660d4a3c6cc355f",
+      "status": "completed",
+      "version": "v7.3-staged-storyboard",
+      "format_version": 3,
+      "elapsed_seconds": 181.76,
+      "estimated_video_seconds": 18.4,
+      "shots": 4,
+      "staged_segments": 8,
+      "silent_action_segments": 2,
+      "voice_blocks": 6,
+      "voice_blocks_with_speaker": 6,
+      "model_responses": 5,
+      "attempts": 5,
+      "timeouts": 0,
+      "checks": {
+        "duration": true,
+        "rules_check": true,
+        "requirements_check": true
+      },
+      "data_hash": "5d865600d50d103f98dc820f7ba7505232f2991b7eda6b008e02601df670bf25"
+    },
+    "input_matches_frozen": true,
+    "data_matches_previous": true,
+    "evidence_errors": []
+  },
+  {
+    "case": "chess",
+    "before": null,
+    "after": {
+      "web_run_id": "e728b9dabc21453387bb89c4e55f4fe7",
+      "status": "completed",
+      "version": "v7.3-staged-storyboard",
+      "format_version": 3,
+      "elapsed_seconds": 179.93,
+      "estimated_video_seconds": 31.9,
+      "shots": 4,
+      "staged_segments": 11,
+      "silent_action_segments": 3,
+      "voice_blocks": 8,
+      "voice_blocks_with_speaker": 8,
+      "model_responses": 5,
+      "attempts": 5,
+      "timeouts": 0,
+      "checks": {
+        "duration": true,
+        "rules_check": true,
+        "requirements_check": true
+      },
+      "data_hash": "5d865600d50d103f98dc820f7ba7505232f2991b7eda6b008e02601df670bf25"
+    },
+    "input_matches_frozen": true,
+    "data_matches_previous": null,
+    "evidence_errors": []
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "case": "V39",
+  "assessment": "模型调用故障",
+  "note": "两次真实模型响应完成检索后，第3步发生codex_exit_1，返回blocked且未假称完成；完整常规产物已保存。现有Trace不足以确认退出原因，不能据通用错误提示认定是登录或权限问题。",
+  "reviewer": "AI developer reading original brief and actual artifacts; not independent blind evaluation"
+}

@@ -1,0 +1,16 @@
+{
+  "call_id": "decision-y50a044p",
+  "started_at": "2026-11-05T17:38:21.501494+00:00",
+  "response_received": false,
+  "error_code": "codex_timeout",
+  "finished_at": "2026-11-05T17:41:22.611733+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": null,
+    "usage": {},
+    "call_id": "decision-y50a044p",
+    "warnings": []
+  }
+}

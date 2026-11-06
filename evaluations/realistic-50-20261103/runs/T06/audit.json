@@ -1,0 +1,80 @@
+{
+  "case": "T06",
+  "name": "旅行片段",
+  "run_id": "72540a32a35e4280ba9c88cf1e3daa73",
+  "status": "needs_input",
+  "message": "请提供可引用的旅行归来整理录像开场素材，或在 creative_copy / visuals 中补充对应授权选项。已找到裁剪视频片段的产品事实。",
+  "steps": 4,
+  "model_calls": 4,
+  "seconds": null,
+  "target_seconds": 20,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "search_materials",
+    "search_materials",
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 裁剪视频片段 旅行回来整理录像 手动裁剪",
+    "旅行回来 整理录像 旅行记录 开场文案",
+    "旅行结束 旅游归来 旅拍 游记 整理旅行视频"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前没有可引用的产品事实，需检索裁剪功能及旅行整理语境素材。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "basis": "现有素材仅含裁剪功能，缺少可引用的旅行回来整理录像开场文案。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "search_materials",
+      "basis": "现有素材仅包含裁剪功能，改用同义词补查旅行结束后整理录像的开场素材。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 4,
+      "action": "finish",
+      "basis": "两次补充检索均无结果，现有授权文案和画面选项无法明确呈现旅行归来整理录像的开场。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 108.4,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "0fb32b2426a378b3bb5b96d0c9934347e133bfca27557182a22cb7412d884112",
+    "output.json": "3e2b5761bc80e777a3ae276512198b84aef8109c572ed66c36ddae30fe5bac32",
+    "trace.jsonl": "956295d435f1839842fc966bc68fdca1ea9702509195bfc78c762793158ce874",
+    "manifest.json": "ba4d8be2d63b667d43d45d9eaf829c1c422c94ec75b918ee4883d6286bc6a810",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "865059df65da722cefdc7e6e22297132a399cba969213ccadaa01c69f07bdd25"
+  }
+}

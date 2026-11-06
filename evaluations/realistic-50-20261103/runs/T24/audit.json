@@ -1,0 +1,68 @@
+{
+  "case": "T24",
+  "name": "费用说明",
+  "run_id": "53fe9c47201348f0873b449152b21246",
+  "status": "needs_input",
+  "message": "请提供带 source_id/fact_id 的字幕收费政策及免费版限制事实；当前规则禁用“免费”，还需调整该规则或提供获准的替代表述。",
+  "steps": 3,
+  "model_calls": 3,
+  "seconds": null,
+  "target_seconds": 25,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "search_materials",
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 字幕功能是否收费 免费版限制 使用额度 付费条件",
+    "demo-editor 定价方案 订阅权益 基础版字幕额度 非会员使用限制 导出水印 收费规则"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "尚无字幕收费情况及版本限制的可引用素材",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "basis": "现有素材仅说明字幕功能，缺少收费政策与免费版限制信息",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "basis": "两次检索均缺少字幕收费政策和免费版限制，无法回答核心问题。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 67.1,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "79d8f0a13ef7394947a3971ea527a0fc232b335a7a483bb181bbdac0c7a9d4e7",
+    "output.json": "b6ae39db7f71c5c34ad3c34d81ced766a7b0ea61bb135fc0e96bb655a0c27a37",
+    "trace.jsonl": "77cd11efcc3df7d22ef3f19d6cee6cc2fcb54e580906a0152ca6710de0bb4281",
+    "manifest.json": "35b6070baa555a41fefc63a74593287d0404d6f16c75af7934593ad5842a8e85",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "ce6a45d185138a0d48af21df0a6470fdbf81fe1a35e0300a3958d9b2d33cc5e1"
+  }
+}

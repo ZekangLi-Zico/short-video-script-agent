@@ -1,0 +1,2513 @@
+{
+  "format": "checkpoint_v1",
+  "recorded_at": "2026-11-04T21:17:57.732287+00:00",
+  "last_event": {
+    "kind": "step",
+    "step": 6
+  },
+  "result": {
+    "status": "in_progress",
+    "message": "任务执行中，尚未完成。",
+    "script": {
+      "format_version": 2,
+      "title": "给领养日花絮加字幕、改文字",
+      "shots": [
+        {
+          "purpose": "交代领养日花絮的记录场景",
+          "visual": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。",
+          "hold_seconds": 0,
+          "blocks": [
+            {
+              "text": "领养日结束，我想给志愿者整理牵引绳的小片段，配上简单的文字。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "介绍为花絮添加字幕的具体用法",
+          "visual": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。",
+          "hold_seconds": 0,
+          "blocks": [
+            {
+              "text": "用剪影练习版，可以给这些花絮添加字幕。",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "准备迎接新伙伴",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "screen",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "说明字幕文字可手动修改并收束分享",
+          "visual": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。",
+          "hold_seconds": 0,
+          "blocks": [
+            {
+              "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "谢谢今天来帮忙的伙伴",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "screen",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "用一句简单的感谢，留下今天的记录。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "voice",
+              "beat": 2,
+              "display_seconds": 0
+            }
+          ]
+        }
+      ],
+      "editor_notes": "已修正开场语义搭配，并补明确说话人；其余文案和镜头保持不变。"
+    },
+    "duration": {
+      "ok": true,
+      "script_hash": "968acf189ce0250a70649437aadef924b16056fb7091d38759b04ed27777908d",
+      "shots": [
+        {
+          "shot": 1,
+          "estimated_seconds": 7.3,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 7.3,
+              "voice_seconds": 7.25,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 7.3
+            }
+          ],
+          "tail_hold_seconds": 0.0
+        },
+        {
+          "shot": 2,
+          "estimated_seconds": 4.8,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 4.8,
+              "voice_seconds": 4.75,
+              "screen_read_seconds": 2.25,
+              "display_seconds": 0,
+              "estimated_seconds": 4.8
+            }
+          ],
+          "tail_hold_seconds": 0.0
+        },
+        {
+          "shot": 3,
+          "estimated_seconds": 10.8,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 6.5,
+              "voice_seconds": 6.5,
+              "screen_read_seconds": 3.0,
+              "display_seconds": 0,
+              "estimated_seconds": 6.5
+            },
+            {
+              "beat": 2,
+              "start_seconds": 6.5,
+              "end_seconds": 10.8,
+              "voice_seconds": 4.25,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 4.3
+            }
+          ],
+          "tail_hold_seconds": 0.0
+        }
+      ],
+      "total_seconds": 22.9,
+      "target_seconds": 28,
+      "passed": true,
+      "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+      "is_estimate": true
+    },
+    "rules_check": {
+      "ok": true,
+      "script_hash": "968acf189ce0250a70649437aadef924b16056fb7091d38759b04ed27777908d",
+      "passed": true,
+      "issues": [],
+      "citations": [
+        {
+          "location": "shot:2/block:1",
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01",
+          "text": "用剪影练习版，可以给这些花絮添加字幕。",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:3/block:1",
+          "source_id": "P01",
+          "fact_id": "P01.F2",
+          "quote": "字幕文字可以手动编辑。",
+          "version": "2026-11-01",
+          "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+          "requires_semantic_review": true
+        }
+      ],
+      "rules_version": "2026-11-03-v1",
+      "requires_expression_review": true,
+      "expression_slots": [
+        {
+          "location": "title",
+          "text": "给领养日花絮加字幕、改文字"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "领养日结束，我想给志愿者整理牵引绳的小片段，配上简单的文字。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "用剪影练习版，可以给这些花絮添加字幕。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "准备迎接新伙伴"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。"
+        },
+        {
+          "location": "shot:3/block:2",
+          "text": "谢谢今天来帮忙的伙伴"
+        },
+        {
+          "location": "shot:3/block:3",
+          "text": "用一句简单的感谢，留下今天的记录。"
+        }
+      ],
+      "available_facts": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F2",
+          "quote": "字幕文字可以手动编辑。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01"
+        }
+      ],
+      "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+    },
+    "requirements_check": {
+      "ok": true,
+      "script_hash": "968acf189ce0250a70649437aadef924b16056fb7091d38759b04ed27777908d",
+      "request_hash": "5c0b0575b38040eae7c360d4797877a9d0ce4b18e4b26ee4c709496cad63c2dd",
+      "passed": true,
+      "items": [
+        {
+          "field": "topic",
+          "requirement": "做一条工具介绍",
+          "verdict": "met",
+          "evidence": "第2镜点名“剪影练习版”，第2、3镜分别介绍添加字幕和手动修改文字。"
+        },
+        {
+          "field": "topic",
+          "requirement": "说明可为领养日花絮添加字幕",
+          "verdict": "met",
+          "evidence": "第1镜以领养日笼牌和整理牵引绳交代场景，第2镜明确说“可以给这些花絮添加字幕”。"
+        },
+        {
+          "field": "topic",
+          "requirement": "并手动修改文字",
+          "verdict": "met",
+          "evidence": "第3镜说明“字幕文字也能手动修改”，并安排示例字幕替换。"
+        },
+        {
+          "field": "topic",
+          "requirement": "画面只拍笼牌、牵引绳和志愿者手部",
+          "verdict": "met",
+          "evidence": "三镜拍摄主体均限于笼牌、牵引绳和手部，字幕为后期叠加，第3镜明确不展示软件界面。"
+        },
+        {
+          "field": "topic",
+          "requirement": "不使用真实姓名和联系方式",
+          "verdict": "met",
+          "evidence": "道具笼牌仅写“领养日”，全部公开文案及画面安排均无真实姓名或联系方式。"
+        },
+        {
+          "field": "audience",
+          "requirement": "动物救助志愿者",
+          "verdict": "met",
+          "evidence": "领养日、整理牵引绳及感谢帮忙伙伴的内容贴合志愿者记录活动的用途，旁白指代连贯。"
+        },
+        {
+          "field": "platform",
+          "requirement": "视频号",
+          "verdict": "met",
+          "evidence": "三镜围绕一个具体用途展开，旁白配简短字幕，预计22.9秒，适合短视频观看。"
+        },
+        {
+          "field": "style",
+          "requirement": "温暖但不煽情",
+          "verdict": "met",
+          "evidence": "“准备迎接新伙伴”和“谢谢今天来帮忙的伙伴”表达克制的关怀与感谢，连续旁白语义完整，无夸张煽情。"
+        }
+      ],
+      "summary": "当前稿已落实领养日花絮加字幕、手动改字和拍摄隐私限制，表达温暖克制。产品声明有资料支持，预计22.9秒，镜头节奏合理。",
+      "method": "model_assessment_not_deterministic_proof",
+      "expressions": [
+        {
+          "location": "title",
+          "text": "给领养日花絮加字幕、改文字",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2"
+            }
+          ],
+          "evidence": "标题中的加字幕和改文字分别由添加字幕、手动编辑字幕的事实支持。"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "仅规定拍摄主体、道具及隐私边界，不含产品承诺。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "领养日结束，我想给志愿者整理牵引绳的小片段，配上简单的文字。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "表达记录者为活动片段配文字的意愿，未宣称产品能力。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于手部动作与后期字幕的拍摄安排，未虚构产品界面或操作流程。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "用剪影练习版，可以给这些花絮添加字幕。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "原文支持为视频添加字幕，应用于领养日花絮未增加能力承诺。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "准备迎接新伙伴",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "作为领养日示例字幕表达期待，不含可验证的产品声明。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "安排后期示例文字切换，不声称自动修改或展示未经证实的软件操作。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2"
+            }
+          ],
+          "evidence": "手动修改与原文“字幕文字可以手动编辑”一致，所举文字仅为编辑示例。"
+        },
+        {
+          "location": "shot:3/block:2",
+          "text": "谢谢今天来帮忙的伙伴",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "是场景中的感谢语，不构成产品效果或用户背书。"
+        },
+        {
+          "location": "shot:3/block:3",
+          "text": "用一句简单的感谢，留下今天的记录。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于活动记录的情绪收束，没有新增产品功能或效果承诺。"
+        }
+      ],
+      "pacing": {
+        "verdict": "met",
+        "evidence": "第1镜7.3秒对应场景旁白和整理动作，第2镜4.8秒同步介绍功能与展示字幕，第3镜按6.5秒改字示例、4.3秒感谢收束依次展开；均有具体内容支撑，无额外空镜凑时长。"
+      },
+      "expression_review_passed": true
+    },
+    "sources": [
+      {
+        "id": "P01",
+        "product_id": "demo-editor",
+        "title": "字幕功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "字幕",
+          "口播",
+          "文字",
+          "caption",
+          "subtitle"
+        ],
+        "facts": [
+          {
+            "id": "P01.F1",
+            "text": "剪影练习版支持为视频添加字幕。"
+          },
+          {
+            "id": "P01.F2",
+            "text": "字幕文字可以手动编辑。"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "product_id": "demo-editor",
+        "title": "剪辑功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "剪辑",
+          "裁剪",
+          "片段",
+          "trim",
+          "edit"
+        ],
+        "facts": [
+          {
+            "id": "P02.F1",
+            "text": "剪影练习版支持裁剪视频片段。"
+          }
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "action": "search_materials",
+        "arguments": {
+          "query": "demo-editor 添加字幕 手动修改字幕文字",
+          "product_id": "demo-editor"
+        },
+        "decision_basis": "查找添加字幕与手动修改字幕文字的产品依据，用于领养日花絮场景。",
+        "observation": {
+          "ok": true,
+          "query": "demo-editor 添加字幕 手动修改字幕文字",
+          "product_id": "demo-editor",
+          "materials": [
+            {
+              "id": "P01",
+              "product_id": "demo-editor",
+              "title": "字幕功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "字幕",
+                "口播",
+                "文字",
+                "caption",
+                "subtitle"
+              ],
+              "facts": [
+                {
+                  "id": "P01.F1",
+                  "text": "剪影练习版支持为视频添加字幕。"
+                },
+                {
+                  "id": "P01.F2",
+                  "text": "字幕文字可以手动编辑。"
+                }
+              ]
+            },
+            {
+              "id": "P02",
+              "product_id": "demo-editor",
+              "title": "剪辑功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "剪辑",
+                "裁剪",
+                "片段",
+                "trim",
+                "edit"
+              ],
+              "facts": [
+                {
+                  "id": "P02.F1",
+                  "text": "剪影练习版支持裁剪视频片段。"
+                }
+              ]
+            }
+          ],
+          "count": 2
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a869-a4d3-7c93-8b52-988764e8c438",
+          "usage": {
+            "input_tokens": 27470,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 68,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-3pi39lkt",
+          "warnings": []
+        },
+        "elapsed_ms": 32703
+      },
+      {
+        "step": 2,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "给领养日花絮加字幕、改文字",
+            "shots": [
+              {
+                "purpose": "交代领养日花絮的记录场景",
+                "visual": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "领养日结束，想给志愿者整理的牵引绳这些小片段，配上简单的文字。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "介绍为花絮添加字幕的具体用法",
+                "visual": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "用剪影练习版，可以给这些花絮添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "准备迎接新伙伴",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "说明字幕文字可手动修改并收束分享",
+                "visual": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "谢谢今天来帮忙的伙伴",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "用一句简单的感谢，留下今天的记录。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 2,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          }
+        },
+        "decision_basis": "依据已检索的字幕能力成稿，将添加字幕和手动改字放进领养日花絮场景，并遵守拍摄与隐私限制。",
+        "observation": {
+          "ok": true,
+          "script_hash": "da284df960f36acd4ecd75b66cf29e06546a61afa2cd5d31f626bce762faf0ff",
+          "revision": {
+            "before_hash": null,
+            "after_hash": "da284df960f36acd4ecd75b66cf29e06546a61afa2cd5d31f626bce762faf0ff",
+            "changed_fields": [
+              "script:new"
+            ],
+            "unchanged_shots": 0,
+            "unchanged_blocks": 0,
+            "feedback": [],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a86a-02eb-73e1-9d21-75fddf633d41",
+          "usage": {
+            "input_tokens": 27067,
+            "cached_input_tokens": 23936,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 527,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-qv9alztf",
+          "warnings": []
+        },
+        "elapsed_ms": 22313
+      },
+      {
+        "step": 3,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "给领养日花絮加字幕、改文字",
+            "shots": [
+              {
+                "purpose": "交代领养日花絮的记录场景",
+                "visual": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "领养日结束，想给志愿者整理的牵引绳这些小片段，配上简单的文字。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "介绍为花絮添加字幕的具体用法",
+                "visual": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "用剪影练习版，可以给这些花絮添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "准备迎接新伙伴",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "说明字幕文字可手动修改并收束分享",
+                "visual": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "谢谢今天来帮忙的伙伴",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "用一句简单的感谢，留下今天的记录。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 2,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "request": {
+            "topic": "做一条工具介绍，说明可为领养日花絮添加字幕并手动修改文字。画面只拍笼牌、牵引绳和志愿者手部，不使用真实姓名和联系方式。",
+            "audience": "动物救助志愿者",
+            "platform": "视频号",
+            "style": "温暖但不煽情",
+            "product_id": "demo-editor",
+            "duration_mode": "max",
+            "expression_mode": "creative",
+            "target_seconds": 28
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "da284df960f36acd4ecd75b66cf29e06546a61afa2cd5d31f626bce762faf0ff",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:2/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01",
+                "text": "用剪影练习版，可以给这些花絮添加字幕。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:3/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01",
+                "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+                "requires_semantic_review": true
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "给领养日花絮加字幕、改文字"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "领养日结束，想给志愿者整理的牵引绳这些小片段，配上简单的文字。"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。"
+              },
+              {
+                "location": "shot:2/block:1",
+                "text": "用剪影练习版，可以给这些花絮添加字幕。"
+              },
+              {
+                "location": "shot:2/block:2",
+                "text": "准备迎接新伙伴"
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。"
+              },
+              {
+                "location": "shot:3/block:1",
+                "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。"
+              },
+              {
+                "location": "shot:3/block:2",
+                "text": "谢谢今天来帮忙的伙伴"
+              },
+              {
+                "location": "shot:3/block:3",
+                "text": "用一句简单的感谢，留下今天的记录。"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "da284df960f36acd4ecd75b66cf29e06546a61afa2cd5d31f626bce762faf0ff",
+            "shots": [
+              {
+                "shot": 1,
+                "estimated_seconds": 7.5,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 7.5,
+                    "voice_seconds": 7.5,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 7.5
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              },
+              {
+                "shot": 2,
+                "estimated_seconds": 4.8,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 4.8,
+                    "voice_seconds": 4.75,
+                    "screen_read_seconds": 2.25,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.8
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              },
+              {
+                "shot": 3,
+                "estimated_seconds": 10.8,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 6.5,
+                    "voice_seconds": 6.5,
+                    "screen_read_seconds": 3.0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 6.5
+                  },
+                  {
+                    "beat": 2,
+                    "start_seconds": 6.5,
+                    "end_seconds": 10.8,
+                    "voice_seconds": 4.25,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.3
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              }
+            ],
+            "total_seconds": 23.1,
+            "target_seconds": 28,
+            "passed": true,
+            "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+            "is_estimate": true
+          }
+        },
+        "decision_basis": "核对当前稿是否满足28秒上限、字幕添加与手动改字两项必讲内容，以及限定拍摄主体和隐私要求，并补齐时长与规则检查。",
+        "observation": {
+          "ok": true,
+          "script_hash": "da284df960f36acd4ecd75b66cf29e06546a61afa2cd5d31f626bce762faf0ff",
+          "request_hash": "5c0b0575b38040eae7c360d4797877a9d0ce4b18e4b26ee4c709496cad63c2dd",
+          "passed": false,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "做一条工具介绍",
+              "verdict": "met",
+              "evidence": "第2镜点名“剪影练习版”，第2、3镜介绍字幕添加和文字修改。"
+            },
+            {
+              "field": "topic",
+              "requirement": "说明可为领养日花絮添加字幕",
+              "verdict": "met",
+              "evidence": "第1镜以“领养日”笼牌交代场景，第2镜说明添加字幕并展示示例文字。"
+            },
+            {
+              "field": "topic",
+              "requirement": "并手动修改文字",
+              "verdict": "met",
+              "evidence": "第3镜明确说“字幕文字也能手动修改”，画面配合字幕替换示意。"
+            },
+            {
+              "field": "topic",
+              "requirement": "画面只拍笼牌、牵引绳和志愿者手部",
+              "verdict": "met",
+              "evidence": "三镜拍摄主体均限于笼牌、牵引绳和手部，附加内容仅为后期示例字幕。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不使用真实姓名和联系方式",
+              "verdict": "met",
+              "evidence": "笼牌仅写“领养日”，全部公开文案和画面安排均未使用真实姓名或联系方式。"
+            },
+            {
+              "field": "audience",
+              "requirement": "动物救助志愿者",
+              "verdict": "unmet",
+              "evidence": "场景贴合志愿者，但第1镜“志愿者整理的牵引绳这些小片段”将牵引绳直接接成片段，需改为“志愿者整理牵引绳的小片段”以明确记录的动作。"
+            },
+            {
+              "field": "platform",
+              "requirement": "视频号",
+              "verdict": "met",
+              "evidence": "三镜通过场景、功能说明和字幕示例传递信息，预计23.1秒，适合作为视频号简短工具介绍。"
+            },
+            {
+              "field": "style",
+              "requirement": "温暖但不煽情",
+              "verdict": "met",
+              "evidence": "“准备迎接新伙伴”和“谢谢今天来帮忙的伙伴”表达温暖，未使用悲情叙述或夸张情绪动员。"
+            }
+          ],
+          "summary": "功能、拍摄范围、隐私和温暖克制的风格均已落实，产品说法有资料支持。开场有一处语义搭配问题，应改为“志愿者整理牵引绳的小片段”。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "给领养日花絮加字幕、改文字",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                },
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ],
+              "evidence": "添加字幕与修改字幕文字分别由两条事实支持。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "仅规定拍摄主体、道具和隐私范围。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "领养日结束，想给志愿者整理的牵引绳这些小片段，配上简单的文字。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "表达记录场景和配字意愿，未承诺产品能力；语义搭配问题已在受众项指出。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "字幕效果示意符合添加字幕能力，未虚构软件界面或操作步骤。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "用剪影练习版，可以给这些花絮添加字幕。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "为花絮添加字幕属于原文支持的为视频添加字幕。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "准备迎接新伙伴",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于领养日场景的示例字幕，不含产品承诺。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ],
+              "evidence": "字幕替换仅示意手动编辑结果，没有新增自动化或界面声明。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ],
+              "evidence": "手动修改与原文“字幕文字可以手动编辑”含义一致，感谢文字只是示例。"
+            },
+            {
+              "location": "shot:3/block:2",
+              "text": "谢谢今天来帮忙的伙伴",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "表达感谢，不构成用户背书或产品效果声明。"
+            },
+            {
+              "location": "shot:3/block:3",
+              "text": "用一句简单的感谢，留下今天的记录。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于记录场景的情绪收束，没有新增可验证产品承诺。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "三镜预计7.5、4.8、10.8秒，分别承载场景说明、字幕示例和文字替换；第3镜按6.5秒与4.3秒两拍推进，同拍声画无需相加，没有额外空镜凑时长。"
+          },
+          "expression_review_passed": true
+        },
+        "preflight_checks": [
+          {
+            "action": "estimate_duration",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "给领养日花絮加字幕、改文字",
+                "shots": [
+                  {
+                    "purpose": "交代领养日花絮的记录场景",
+                    "visual": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "领养日结束，想给志愿者整理的牵引绳这些小片段，配上简单的文字。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "介绍为花絮添加字幕的具体用法",
+                    "visual": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "用剪影练习版，可以给这些花絮添加字幕。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "准备迎接新伙伴",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "说明字幕文字可手动修改并收束分享",
+                    "visual": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F2",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "谢谢今天来帮忙的伙伴",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "用一句简单的感谢，留下今天的记录。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 2,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "target_seconds": 28,
+              "duration_mode": "max"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "da284df960f36acd4ecd75b66cf29e06546a61afa2cd5d31f626bce762faf0ff",
+              "shots": [
+                {
+                  "shot": 1,
+                  "estimated_seconds": 7.5,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 7.5,
+                      "voice_seconds": 7.5,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 7.5
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                },
+                {
+                  "shot": 2,
+                  "estimated_seconds": 4.8,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 4.8,
+                      "voice_seconds": 4.75,
+                      "screen_read_seconds": 2.25,
+                      "display_seconds": 0,
+                      "estimated_seconds": 4.8
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                },
+                {
+                  "shot": 3,
+                  "estimated_seconds": 10.8,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 6.5,
+                      "voice_seconds": 6.5,
+                      "screen_read_seconds": 3.0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 6.5
+                    },
+                    {
+                      "beat": 2,
+                      "start_seconds": 6.5,
+                      "end_seconds": 10.8,
+                      "voice_seconds": 4.25,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 4.3
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                }
+              ],
+              "total_seconds": 23.1,
+              "target_seconds": 28,
+              "passed": true,
+              "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+              "is_estimate": true
+            }
+          },
+          {
+            "action": "check_rules",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "给领养日花絮加字幕、改文字",
+                "shots": [
+                  {
+                    "purpose": "交代领养日花絮的记录场景",
+                    "visual": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "领养日结束，想给志愿者整理的牵引绳这些小片段，配上简单的文字。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "介绍为花絮添加字幕的具体用法",
+                    "visual": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "用剪影练习版，可以给这些花絮添加字幕。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "准备迎接新伙伴",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "说明字幕文字可手动修改并收束分享",
+                    "visual": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F2",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "谢谢今天来帮忙的伙伴",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "用一句简单的感谢，留下今天的记录。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 2,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "retrieved_ids": [
+                "P01",
+                "P02"
+              ],
+              "expression_mode": "creative"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "da284df960f36acd4ecd75b66cf29e06546a61afa2cd5d31f626bce762faf0ff",
+              "passed": true,
+              "issues": [],
+              "citations": [
+                {
+                  "location": "shot:2/block:1",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1",
+                  "quote": "剪影练习版支持为视频添加字幕。",
+                  "version": "2026-11-01",
+                  "text": "用剪影练习版，可以给这些花絮添加字幕。",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:3/block:1",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2",
+                  "quote": "字幕文字可以手动编辑。",
+                  "version": "2026-11-01",
+                  "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+                  "requires_semantic_review": true
+                }
+              ],
+              "rules_version": "2026-11-03-v1",
+              "requires_expression_review": true,
+              "expression_slots": [
+                {
+                  "location": "title",
+                  "text": "给领养日花絮加字幕、改文字"
+                },
+                {
+                  "location": "shot:1/visual",
+                  "text": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。"
+                },
+                {
+                  "location": "shot:1/block:1",
+                  "text": "领养日结束，想给志愿者整理的牵引绳这些小片段，配上简单的文字。"
+                },
+                {
+                  "location": "shot:2/visual",
+                  "text": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。"
+                },
+                {
+                  "location": "shot:2/block:1",
+                  "text": "用剪影练习版，可以给这些花絮添加字幕。"
+                },
+                {
+                  "location": "shot:2/block:2",
+                  "text": "准备迎接新伙伴"
+                },
+                {
+                  "location": "shot:3/visual",
+                  "text": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。"
+                },
+                {
+                  "location": "shot:3/block:1",
+                  "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。"
+                },
+                {
+                  "location": "shot:3/block:2",
+                  "text": "谢谢今天来帮忙的伙伴"
+                },
+                {
+                  "location": "shot:3/block:3",
+                  "text": "用一句简单的感谢，留下今天的记录。"
+                }
+              ],
+              "available_facts": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1",
+                  "quote": "剪影练习版支持为视频添加字幕。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2",
+                  "quote": "字幕文字可以手动编辑。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1",
+                  "quote": "剪影练习版支持裁剪视频片段。",
+                  "version": "2026-11-01"
+                }
+              ],
+              "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+            }
+          }
+        ],
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a86a-5b17-7722-9849-34db00d43cb9",
+          "usage": {
+            "input_tokens": 28427,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 75,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-uvrj4_v5",
+          "warnings": []
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a86a-a23f-7860-be77-509b90ce9022",
+          "usage": {
+            "input_tokens": 29416,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1798,
+            "reasoning_output_tokens": 97
+          },
+          "call_id": "decision-ko5s3bc0",
+          "warnings": []
+        },
+        "elapsed_ms": 71344
+      },
+      {
+        "step": 4,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "给领养日花絮加字幕、改文字",
+            "shots": [
+              {
+                "purpose": "交代领养日花絮的记录场景",
+                "visual": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "领养日结束，我想给志愿者整理牵引绳的小片段，配上简单的文字。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "介绍为花絮添加字幕的具体用法",
+                "visual": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "用剪影练习版，可以给这些花絮添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "准备迎接新伙伴",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "说明字幕文字可手动修改并收束分享",
+                "visual": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "谢谢今天来帮忙的伙伴",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "用一句简单的感谢，留下今天的记录。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 2,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": "已修正开场语义搭配，并补明确说话人；其余文案和镜头保持不变。"
+          }
+        },
+        "decision_basis": "修正开场语义搭配，明确花絮记录的是志愿者整理牵引绳的动作，保留其余文案和镜头。",
+        "observation": {
+          "ok": true,
+          "script_hash": "968acf189ce0250a70649437aadef924b16056fb7091d38759b04ed27777908d",
+          "revision": {
+            "before_hash": "da284df960f36acd4ecd75b66cf29e06546a61afa2cd5d31f626bce762faf0ff",
+            "after_hash": "968acf189ce0250a70649437aadef924b16056fb7091d38759b04ed27777908d",
+            "changed_fields": [
+              "editor_notes",
+              "shot:1/block:1"
+            ],
+            "unchanged_shots": 2,
+            "unchanged_blocks": 5,
+            "feedback": [
+              {
+                "check": "requirements_check",
+                "observation": {
+                  "ok": true,
+                  "script_hash": "da284df960f36acd4ecd75b66cf29e06546a61afa2cd5d31f626bce762faf0ff",
+                  "request_hash": "5c0b0575b38040eae7c360d4797877a9d0ce4b18e4b26ee4c709496cad63c2dd",
+                  "passed": false,
+                  "items": [
+                    {
+                      "field": "topic",
+                      "requirement": "做一条工具介绍",
+                      "verdict": "met",
+                      "evidence": "第2镜点名“剪影练习版”，第2、3镜介绍字幕添加和文字修改。"
+                    },
+                    {
+                      "field": "topic",
+                      "requirement": "说明可为领养日花絮添加字幕",
+                      "verdict": "met",
+                      "evidence": "第1镜以“领养日”笼牌交代场景，第2镜说明添加字幕并展示示例文字。"
+                    },
+                    {
+                      "field": "topic",
+                      "requirement": "并手动修改文字",
+                      "verdict": "met",
+                      "evidence": "第3镜明确说“字幕文字也能手动修改”，画面配合字幕替换示意。"
+                    },
+                    {
+                      "field": "topic",
+                      "requirement": "画面只拍笼牌、牵引绳和志愿者手部",
+                      "verdict": "met",
+                      "evidence": "三镜拍摄主体均限于笼牌、牵引绳和手部，附加内容仅为后期示例字幕。"
+                    },
+                    {
+                      "field": "topic",
+                      "requirement": "不使用真实姓名和联系方式",
+                      "verdict": "met",
+                      "evidence": "笼牌仅写“领养日”，全部公开文案和画面安排均未使用真实姓名或联系方式。"
+                    },
+                    {
+                      "field": "audience",
+                      "requirement": "动物救助志愿者",
+                      "verdict": "unmet",
+                      "evidence": "场景贴合志愿者，但第1镜“志愿者整理的牵引绳这些小片段”将牵引绳直接接成片段，需改为“志愿者整理牵引绳的小片段”以明确记录的动作。"
+                    },
+                    {
+                      "field": "platform",
+                      "requirement": "视频号",
+                      "verdict": "met",
+                      "evidence": "三镜通过场景、功能说明和字幕示例传递信息，预计23.1秒，适合作为视频号简短工具介绍。"
+                    },
+                    {
+                      "field": "style",
+                      "requirement": "温暖但不煽情",
+                      "verdict": "met",
+                      "evidence": "“准备迎接新伙伴”和“谢谢今天来帮忙的伙伴”表达温暖，未使用悲情叙述或夸张情绪动员。"
+                    }
+                  ],
+                  "summary": "功能、拍摄范围、隐私和温暖克制的风格均已落实，产品说法有资料支持。开场有一处语义搭配问题，应改为“志愿者整理牵引绳的小片段”。",
+                  "method": "model_assessment_not_deterministic_proof",
+                  "expressions": [
+                    {
+                      "location": "title",
+                      "text": "给领养日花絮加字幕、改文字",
+                      "verdict": "supported_claim",
+                      "references": [
+                        {
+                          "source_id": "P01",
+                          "fact_id": "P01.F1"
+                        },
+                        {
+                          "source_id": "P01",
+                          "fact_id": "P01.F2"
+                        }
+                      ],
+                      "evidence": "添加字幕与修改字幕文字分别由两条事实支持。"
+                    },
+                    {
+                      "location": "shot:1/visual",
+                      "text": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。",
+                      "verdict": "plain_expression",
+                      "references": [],
+                      "evidence": "仅规定拍摄主体、道具和隐私范围。"
+                    },
+                    {
+                      "location": "shot:1/block:1",
+                      "text": "领养日结束，想给志愿者整理的牵引绳这些小片段，配上简单的文字。",
+                      "verdict": "plain_expression",
+                      "references": [],
+                      "evidence": "表达记录场景和配字意愿，未承诺产品能力；语义搭配问题已在受众项指出。"
+                    },
+                    {
+                      "location": "shot:2/visual",
+                      "text": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。",
+                      "verdict": "supported_claim",
+                      "references": [
+                        {
+                          "source_id": "P01",
+                          "fact_id": "P01.F1"
+                        }
+                      ],
+                      "evidence": "字幕效果示意符合添加字幕能力，未虚构软件界面或操作步骤。"
+                    },
+                    {
+                      "location": "shot:2/block:1",
+                      "text": "用剪影练习版，可以给这些花絮添加字幕。",
+                      "verdict": "supported_claim",
+                      "references": [
+                        {
+                          "source_id": "P01",
+                          "fact_id": "P01.F1"
+                        }
+                      ],
+                      "evidence": "为花絮添加字幕属于原文支持的为视频添加字幕。"
+                    },
+                    {
+                      "location": "shot:2/block:2",
+                      "text": "准备迎接新伙伴",
+                      "verdict": "plain_expression",
+                      "references": [],
+                      "evidence": "属于领养日场景的示例字幕，不含产品承诺。"
+                    },
+                    {
+                      "location": "shot:3/visual",
+                      "text": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。",
+                      "verdict": "supported_claim",
+                      "references": [
+                        {
+                          "source_id": "P01",
+                          "fact_id": "P01.F2"
+                        }
+                      ],
+                      "evidence": "字幕替换仅示意手动编辑结果，没有新增自动化或界面声明。"
+                    },
+                    {
+                      "location": "shot:3/block:1",
+                      "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+                      "verdict": "supported_claim",
+                      "references": [
+                        {
+                          "source_id": "P01",
+                          "fact_id": "P01.F2"
+                        }
+                      ],
+                      "evidence": "手动修改与原文“字幕文字可以手动编辑”含义一致，感谢文字只是示例。"
+                    },
+                    {
+                      "location": "shot:3/block:2",
+                      "text": "谢谢今天来帮忙的伙伴",
+                      "verdict": "plain_expression",
+                      "references": [],
+                      "evidence": "表达感谢，不构成用户背书或产品效果声明。"
+                    },
+                    {
+                      "location": "shot:3/block:3",
+                      "text": "用一句简单的感谢，留下今天的记录。",
+                      "verdict": "plain_expression",
+                      "references": [],
+                      "evidence": "属于记录场景的情绪收束，没有新增可验证产品承诺。"
+                    }
+                  ],
+                  "pacing": {
+                    "verdict": "met",
+                    "evidence": "三镜预计7.5、4.8、10.8秒，分别承载场景说明、字幕示例和文字替换；第3镜按6.5秒与4.3秒两拍推进，同拍声画无需相加，没有额外空镜凑时长。"
+                  },
+                  "expression_review_passed": true
+                }
+              }
+            ],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a86b-701a-71c0-9091-afb0f73ebc6c",
+          "usage": {
+            "input_tokens": 30868,
+            "cached_input_tokens": 23936,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 552,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-eg57hnkd",
+          "warnings": []
+        },
+        "elapsed_ms": 23141
+      },
+      {
+        "step": 5,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "给领养日花絮加字幕、改文字",
+            "shots": [
+              {
+                "purpose": "交代领养日花絮的记录场景",
+                "visual": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "领养日结束，我想给志愿者整理牵引绳的小片段，配上简单的文字。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "介绍为花絮添加字幕的具体用法",
+                "visual": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "用剪影练习版，可以给这些花絮添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "准备迎接新伙伴",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "说明字幕文字可手动修改并收束分享",
+                "visual": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F2",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "谢谢今天来帮忙的伙伴",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "用一句简单的感谢，留下今天的记录。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 2,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": "已修正开场语义搭配，并补明确说话人；其余文案和镜头保持不变。"
+          },
+          "request": {
+            "topic": "做一条工具介绍，说明可为领养日花絮添加字幕并手动修改文字。画面只拍笼牌、牵引绳和志愿者手部，不使用真实姓名和联系方式。",
+            "audience": "动物救助志愿者",
+            "platform": "视频号",
+            "style": "温暖但不煽情",
+            "product_id": "demo-editor",
+            "duration_mode": "max",
+            "expression_mode": "creative",
+            "target_seconds": 28
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "968acf189ce0250a70649437aadef924b16056fb7091d38759b04ed27777908d",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:2/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01",
+                "text": "用剪影练习版，可以给这些花絮添加字幕。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:3/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01",
+                "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+                "requires_semantic_review": true
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "给领养日花絮加字幕、改文字"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "领养日结束，我想给志愿者整理牵引绳的小片段，配上简单的文字。"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。"
+              },
+              {
+                "location": "shot:2/block:1",
+                "text": "用剪影练习版，可以给这些花絮添加字幕。"
+              },
+              {
+                "location": "shot:2/block:2",
+                "text": "准备迎接新伙伴"
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。"
+              },
+              {
+                "location": "shot:3/block:1",
+                "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。"
+              },
+              {
+                "location": "shot:3/block:2",
+                "text": "谢谢今天来帮忙的伙伴"
+              },
+              {
+                "location": "shot:3/block:3",
+                "text": "用一句简单的感谢，留下今天的记录。"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "968acf189ce0250a70649437aadef924b16056fb7091d38759b04ed27777908d",
+            "shots": [
+              {
+                "shot": 1,
+                "estimated_seconds": 7.3,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 7.3,
+                    "voice_seconds": 7.25,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 7.3
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              },
+              {
+                "shot": 2,
+                "estimated_seconds": 4.8,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 4.8,
+                    "voice_seconds": 4.75,
+                    "screen_read_seconds": 2.25,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.8
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              },
+              {
+                "shot": 3,
+                "estimated_seconds": 10.8,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 6.5,
+                    "voice_seconds": 6.5,
+                    "screen_read_seconds": 3.0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 6.5
+                  },
+                  {
+                    "beat": 2,
+                    "start_seconds": 6.5,
+                    "end_seconds": 10.8,
+                    "voice_seconds": 4.25,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.3
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              }
+            ],
+            "total_seconds": 22.9,
+            "target_seconds": 28,
+            "passed": true,
+            "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+            "is_estimate": true
+          }
+        },
+        "decision_basis": "开场语义已修正，重新核对当前稿的时长、规则及需求，确认字幕添加、手动改字、限定拍摄主体和隐私要求均满足。",
+        "observation": {
+          "ok": true,
+          "script_hash": "968acf189ce0250a70649437aadef924b16056fb7091d38759b04ed27777908d",
+          "request_hash": "5c0b0575b38040eae7c360d4797877a9d0ce4b18e4b26ee4c709496cad63c2dd",
+          "passed": true,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "做一条工具介绍",
+              "verdict": "met",
+              "evidence": "第2镜点名“剪影练习版”，第2、3镜分别介绍添加字幕和手动修改文字。"
+            },
+            {
+              "field": "topic",
+              "requirement": "说明可为领养日花絮添加字幕",
+              "verdict": "met",
+              "evidence": "第1镜以领养日笼牌和整理牵引绳交代场景，第2镜明确说“可以给这些花絮添加字幕”。"
+            },
+            {
+              "field": "topic",
+              "requirement": "并手动修改文字",
+              "verdict": "met",
+              "evidence": "第3镜说明“字幕文字也能手动修改”，并安排示例字幕替换。"
+            },
+            {
+              "field": "topic",
+              "requirement": "画面只拍笼牌、牵引绳和志愿者手部",
+              "verdict": "met",
+              "evidence": "三镜拍摄主体均限于笼牌、牵引绳和手部，字幕为后期叠加，第3镜明确不展示软件界面。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不使用真实姓名和联系方式",
+              "verdict": "met",
+              "evidence": "道具笼牌仅写“领养日”，全部公开文案及画面安排均无真实姓名或联系方式。"
+            },
+            {
+              "field": "audience",
+              "requirement": "动物救助志愿者",
+              "verdict": "met",
+              "evidence": "领养日、整理牵引绳及感谢帮忙伙伴的内容贴合志愿者记录活动的用途，旁白指代连贯。"
+            },
+            {
+              "field": "platform",
+              "requirement": "视频号",
+              "verdict": "met",
+              "evidence": "三镜围绕一个具体用途展开，旁白配简短字幕，预计22.9秒，适合短视频观看。"
+            },
+            {
+              "field": "style",
+              "requirement": "温暖但不煽情",
+              "verdict": "met",
+              "evidence": "“准备迎接新伙伴”和“谢谢今天来帮忙的伙伴”表达克制的关怀与感谢，连续旁白语义完整，无夸张煽情。"
+            }
+          ],
+          "summary": "当前稿已落实领养日花絮加字幕、手动改字和拍摄隐私限制，表达温暖克制。产品声明有资料支持，预计22.9秒，镜头节奏合理。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "给领养日花絮加字幕、改文字",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                },
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ],
+              "evidence": "标题中的加字幕和改文字分别由添加字幕、手动编辑字幕的事实支持。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "仅规定拍摄主体、道具及隐私边界，不含产品承诺。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "领养日结束，我想给志愿者整理牵引绳的小片段，配上简单的文字。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "表达记录者为活动片段配文字的意愿，未宣称产品能力。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于手部动作与后期字幕的拍摄安排，未虚构产品界面或操作流程。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "用剪影练习版，可以给这些花絮添加字幕。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "原文支持为视频添加字幕，应用于领养日花絮未增加能力承诺。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "准备迎接新伙伴",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "作为领养日示例字幕表达期待，不含可验证的产品声明。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "安排后期示例文字切换，不声称自动修改或展示未经证实的软件操作。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ],
+              "evidence": "手动修改与原文“字幕文字可以手动编辑”一致，所举文字仅为编辑示例。"
+            },
+            {
+              "location": "shot:3/block:2",
+              "text": "谢谢今天来帮忙的伙伴",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "是场景中的感谢语，不构成产品效果或用户背书。"
+            },
+            {
+              "location": "shot:3/block:3",
+              "text": "用一句简单的感谢，留下今天的记录。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于活动记录的情绪收束，没有新增产品功能或效果承诺。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "第1镜7.3秒对应场景旁白和整理动作，第2镜4.8秒同步介绍功能与展示字幕，第3镜按6.5秒改字示例、4.3秒感谢收束依次展开；均有具体内容支撑，无额外空镜凑时长。"
+          },
+          "expression_review_passed": true
+        },
+        "preflight_checks": [
+          {
+            "action": "estimate_duration",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "给领养日花絮加字幕、改文字",
+                "shots": [
+                  {
+                    "purpose": "交代领养日花絮的记录场景",
+                    "visual": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "领养日结束，我想给志愿者整理牵引绳的小片段，配上简单的文字。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "介绍为花絮添加字幕的具体用法",
+                    "visual": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "用剪影练习版，可以给这些花絮添加字幕。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "准备迎接新伙伴",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "说明字幕文字可手动修改并收束分享",
+                    "visual": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F2",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "谢谢今天来帮忙的伙伴",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "用一句简单的感谢，留下今天的记录。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 2,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": "已修正开场语义搭配，并补明确说话人；其余文案和镜头保持不变。"
+              },
+              "target_seconds": 28,
+              "duration_mode": "max"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "968acf189ce0250a70649437aadef924b16056fb7091d38759b04ed27777908d",
+              "shots": [
+                {
+                  "shot": 1,
+                  "estimated_seconds": 7.3,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 7.3,
+                      "voice_seconds": 7.25,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 7.3
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                },
+                {
+                  "shot": 2,
+                  "estimated_seconds": 4.8,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 4.8,
+                      "voice_seconds": 4.75,
+                      "screen_read_seconds": 2.25,
+                      "display_seconds": 0,
+                      "estimated_seconds": 4.8
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                },
+                {
+                  "shot": 3,
+                  "estimated_seconds": 10.8,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 6.5,
+                      "voice_seconds": 6.5,
+                      "screen_read_seconds": 3.0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 6.5
+                    },
+                    {
+                      "beat": 2,
+                      "start_seconds": 6.5,
+                      "end_seconds": 10.8,
+                      "voice_seconds": 4.25,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 4.3
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                }
+              ],
+              "total_seconds": 22.9,
+              "target_seconds": 28,
+              "passed": true,
+              "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+              "is_estimate": true
+            }
+          },
+          {
+            "action": "check_rules",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "给领养日花絮加字幕、改文字",
+                "shots": [
+                  {
+                    "purpose": "交代领养日花絮的记录场景",
+                    "visual": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "领养日结束，我想给志愿者整理牵引绳的小片段，配上简单的文字。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "介绍为花絮添加字幕的具体用法",
+                    "visual": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "用剪影练习版，可以给这些花絮添加字幕。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "准备迎接新伙伴",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "说明字幕文字可手动修改并收束分享",
+                    "visual": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F2",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "谢谢今天来帮忙的伙伴",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "用一句简单的感谢，留下今天的记录。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 2,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": "已修正开场语义搭配，并补明确说话人；其余文案和镜头保持不变。"
+              },
+              "retrieved_ids": [
+                "P01",
+                "P02"
+              ],
+              "expression_mode": "creative"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "968acf189ce0250a70649437aadef924b16056fb7091d38759b04ed27777908d",
+              "passed": true,
+              "issues": [],
+              "citations": [
+                {
+                  "location": "shot:2/block:1",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1",
+                  "quote": "剪影练习版支持为视频添加字幕。",
+                  "version": "2026-11-01",
+                  "text": "用剪影练习版，可以给这些花絮添加字幕。",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:3/block:1",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2",
+                  "quote": "字幕文字可以手动编辑。",
+                  "version": "2026-11-01",
+                  "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。",
+                  "requires_semantic_review": true
+                }
+              ],
+              "rules_version": "2026-11-03-v1",
+              "requires_expression_review": true,
+              "expression_slots": [
+                {
+                  "location": "title",
+                  "text": "给领养日花絮加字幕、改文字"
+                },
+                {
+                  "location": "shot:1/visual",
+                  "text": "近拍志愿者手部整理牵引绳，旁边放仅写“领养日”的道具笼牌；画面不出现其他主体或个人信息。"
+                },
+                {
+                  "location": "shot:1/block:1",
+                  "text": "领养日结束，我想给志愿者整理牵引绳的小片段，配上简单的文字。"
+                },
+                {
+                  "location": "shot:2/visual",
+                  "text": "志愿者双手将牵引绳整齐放在笼牌旁；后期叠加示例字幕“准备迎接新伙伴”。"
+                },
+                {
+                  "location": "shot:2/block:1",
+                  "text": "用剪影练习版，可以给这些花絮添加字幕。"
+                },
+                {
+                  "location": "shot:2/block:2",
+                  "text": "准备迎接新伙伴"
+                },
+                {
+                  "location": "shot:3/visual",
+                  "text": "继续近拍手部整理牵引绳；后期示例字幕由“准备迎接新伙伴”替换为“谢谢今天来帮忙的伙伴”，不展示软件界面。"
+                },
+                {
+                  "location": "shot:3/block:1",
+                  "text": "字幕文字也能手动修改，比如改成“谢谢今天来帮忙的伙伴”。"
+                },
+                {
+                  "location": "shot:3/block:2",
+                  "text": "谢谢今天来帮忙的伙伴"
+                },
+                {
+                  "location": "shot:3/block:3",
+                  "text": "用一句简单的感谢，留下今天的记录。"
+                }
+              ],
+              "available_facts": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1",
+                  "quote": "剪影练习版支持为视频添加字幕。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2",
+                  "quote": "字幕文字可以手动编辑。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1",
+                  "quote": "剪影练习版支持裁剪视频片段。",
+                  "version": "2026-11-01"
+                }
+              ],
+              "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+            }
+          }
+        ],
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a86b-cb68-7b31-8378-3fbc47fa824e",
+          "usage": {
+            "input_tokens": 28858,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 75,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-njs2t97z",
+          "warnings": []
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a86b-fc66-7813-9a3c-fb241528394c",
+          "usage": {
+            "input_tokens": 29431,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1658,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-hq0bsm0j",
+          "warnings": []
+        },
+        "elapsed_ms": 60500
+      },
+      {
+        "step": 6,
+        "action": "finish",
+        "arguments": {
+          "status": "completed",
+          "message": "已完成3镜头脚本，预计22.9秒，介绍添加字幕与手动改字。画面仅拍笼牌、牵引绳和志愿者手部，不含真实姓名或联系方式；全部检查已通过。"
+        },
+        "decision_basis": "当前稿的时长、规则及需求检查均已通过，且对应同一版本。",
+        "observation": {
+          "ok": true,
+          "status": "completed",
+          "script_hash": "968acf189ce0250a70649437aadef924b16056fb7091d38759b04ed27777908d"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a86c-b8c8-75d2-b6af-c74f9d313f5e",
+          "usage": {
+            "input_tokens": 31831,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 105,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-dq8za5oa",
+          "warnings": []
+        },
+        "elapsed_ms": 18844
+      }
+    ],
+    "metadata": {
+      "app_version": "v7-natural-voice",
+      "started_at": "2026-11-04T21:14:08.766497+00:00",
+      "finished_at": "2026-11-04T21:17:57.728286+00:00",
+      "provider": "codex",
+      "evidence_kind": "real_model",
+      "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+      "max_steps": 12,
+      "steps": 6,
+      "synthetic_data": true,
+      "completion_policy": "facts_duration_requirements_v6",
+      "requirements_review_context": "current_rules_and_duration_v2",
+      "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+      "model_responses": 8,
+      "run_id": "be01c44629b0449fa4d06548136c990d",
+      "persistence": "checkpoint_v1",
+      "fault_injection": {}
+    }
+  }
+}

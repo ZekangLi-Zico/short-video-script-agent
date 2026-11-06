@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-7ltj60ej",
+  "started_at": "2026-11-03T21:24:04.751536+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:24:26.334404+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a34c-4082-7e73-8a16-51159b1a1fa3",
+    "usage": {
+      "input_tokens": 27038,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 143,
+      "reasoning_output_tokens": 77
+    },
+    "call_id": "decision-7ltj60ej",
+    "warnings": []
+  }
+}

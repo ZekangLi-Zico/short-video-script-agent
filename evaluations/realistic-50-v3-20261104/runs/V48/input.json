@@ -1,0 +1,48 @@
+{
+  "topic": "把所附旧稿改成只介绍添加字幕，删除片段裁剪和手动编辑的介绍。仍保留三个分镜和“门口—招牌—室内”的顺序。",
+  "audience": "民宿运营协作伙伴",
+  "platform": "小红书",
+  "style": "简洁，不营销",
+  "product_id": "demo-editor",
+  "duration_mode": "max",
+  "expression_mode": "creative",
+  "target_seconds": 20,
+  "initial_script": {
+    "title": "从门口到房间",
+    "shots": [
+      {
+        "visual": "民宿门口",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "民宿招牌",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      },
+      {
+        "visual": "室内空桌椅",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "case": "V41",
+  "assessment": "仍需补充",
+  "note": "新版在缺新品事实时先给出通勤路过、展示、邀请的可用分镜方向，价格仅在要展示时追问，比旧版单纯列缺口更有推进感；仍未生成可审核脚本，响应3降2，不能算完成。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

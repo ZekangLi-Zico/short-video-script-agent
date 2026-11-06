@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-u6sicknf",
+  "started_at": "2026-11-04T15:11:25.039746+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:11:42.499977+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a71d-6bf5-7993-ad89-de8d9b8517ee",
+    "usage": {
+      "input_tokens": 27346,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 207,
+      "reasoning_output_tokens": 100
+    },
+    "call_id": "decision-u6sicknf",
+    "warnings": []
+  }
+}

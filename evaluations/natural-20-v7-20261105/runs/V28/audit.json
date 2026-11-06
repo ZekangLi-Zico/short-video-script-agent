@@ -1,0 +1,33 @@
+{
+  "input_and_ui_match": true,
+  "errors": [],
+  "provider": "codex",
+  "responses": 7,
+  "files_sha256": {
+    "after.txt": "f135f05979da79067efafc58e8cd74afada2eda0277771b98237cf4d53122007",
+    "before.txt": "0a674f44ee19aa898286e5815ed3aaf44a3842020e051015cdaa5974298a4ac7",
+    "brief.json": "9922308ee4da1e3108edd961616851d53f66c8ad31e4d0216f8107d508c6c83b",
+    "capture.json": "a5c14215a5b4c7021211581e8a54057eedee89a1edc161202c8b1b53ce31e39e",
+    "checkpoint.json": "942738802484bb4d8654d312a94d01e36cf43dcbe1de96b3791325fd5d92c92a",
+    "data_snapshot.json": "9999df256468ed0ee8026a96d9a73e71c65824ebebb2dd35e7664b3cffdded2a",
+    "input.json": "222c30a63979090e613c283971fc591d1e9f1bd314d2ee577d55ef5eaf36184d",
+    "listening.json": "2112b09be0db94ec9ddd5c356372b19d597a127b8860efb6f67db650f8d4fb13",
+    "manifest.json": "1802323bbd4ee3ee55a5e810e5d04830e50e668911e01a2304217ef3c25a3d0d",
+    "output.json": "914e6b32e1c64a4669d9daa359cf3fcf963a6ea127817c21d685cd5eb939a6b6",
+    "page.png": "39314a88b7355ed0b422569fb7bb4a125977523882b8ef3f6650f969dcf98c7c",
+    "run.json": "a7b714a59f6765b2b3d81b1f3a748a6c78417d6923ae89ddda8fd13543316d41",
+    "script.md": "21ed1ca00162c9ecc9b5218c4e2490aeea720b30fab7a6f70c4aee475894df50",
+    "submitted.txt": "cde781f2d9c128120dd5a2a468a6e8db3778ca90a3637a3522e40a536ad59537",
+    "trace.jsonl": "caad24bce2e93271e58bef5f8307a8cfa84db6ff213da77b15ff599c653ef619",
+    "ui-input.json": "a6eebba899c7bbe082ab58e5d46cb7a24046cae665209e2acab7758e1e03a3e0",
+    "ui-record.json": "9f07e5932e84622cf0c9bfeabd174a31ddf65c0642ac95b9a1f3e1a499baa96e",
+    "voice.txt": "e7a39b293a6ee5f69086645a08063da16f8bfc00d4be637d67714ba34b16e919",
+    "diagnostics/decision-6rhd28qm.json": "b9ac5763fe9094bf735a5cc025e02a8c0c628b27105c5dcf818097630c817e77",
+    "diagnostics/decision-7s278nhr.json": "db9467b247f41d685d3473fcd02ae5f2f6c97f54f9582597d45573850bee6db9",
+    "diagnostics/decision-bofaunfn.json": "c239babe98697ea505534e405ae21fb29dd1d53d6430ab4403b99cc561fc78ce",
+    "diagnostics/decision-qr466a8o.json": "0883377183939db86460625d8aac44bbc0bd82aafaa81b0ce59f870d515bb33d",
+    "diagnostics/decision-se0zkxvz.json": "9a109da34d36f6c9ebaddebb010e7ba837873b150b2c7f20ccad33f28c4a665b",
+    "diagnostics/decision-t6uyz8lv.json": "2709a3de47209ff4630e79a5022b59cec25bf0f7770e730b339ef9bddcc6bb71",
+    "diagnostics/decision-_usnzj9d.json": "f5420b03612ad8a748c0d754e658db7df6a8160ab9c8e0520d90fd873d398880"
+  }
+}

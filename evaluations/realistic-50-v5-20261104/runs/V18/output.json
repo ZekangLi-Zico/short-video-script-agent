@@ -1,0 +1,399 @@
+{
+  "status": "completed",
+  "message": "已完成两镜静物脚本，预计10秒。仅用键盘、便签和空白笔记本展示字幕文字修改前后，采用安静陈述式表达，无人物、人物照片或手机界面，不以问句开场。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "format_version": 2,
+    "title": "字幕，让表达被看见",
+    "shots": [
+      {
+        "purpose": "用便签上的错字建立需要修改字幕的具体场景。",
+        "visual": "竖屏俯拍，空白笔记本铺满背景，键盘露出上沿，便签写着“分享三个方发”。镜头缓慢推近错字。仅拍静物，无人物、手部、照片或设备界面；笔记本始终空白。",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "把想说的话，放进画面里。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "字幕修改示意",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "screen",
+            "beat": 1,
+            "display_seconds": 4
+          },
+          {
+            "text": "分享三个方发",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "screen",
+            "beat": 1,
+            "display_seconds": 4
+          }
+        ]
+      },
+      {
+        "purpose": "展示错字修改后的文字，并明确字幕文字支持手动编辑。",
+        "visual": "保持相同机位，硬切到预先更换的便签，文字变为“分享三个方法”。停留让观众对照修改结果。便签文字即屏幕示例，不重复叠字；键盘与空白笔记本位置不变，无人入镜。",
+        "hold_seconds": 6,
+        "blocks": [
+          {
+            "text": "剪影练习版的字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "字幕修改示意",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "screen",
+            "beat": 1,
+            "display_seconds": 6
+          },
+          {
+            "text": "分享三个方法",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "screen",
+            "beat": 1,
+            "display_seconds": 6
+          }
+        ]
+      }
+    ],
+    "editor_notes": ""
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "3e796aa51a4b89ceceef0a361f6d3d31671035929c319403e693bc02db722be4",
+    "shots": [
+      {
+        "shot": 1,
+        "estimated_seconds": 4.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 4.0,
+            "voice_seconds": 3.0,
+            "screen_read_seconds": 3.5,
+            "display_seconds": 4,
+            "estimated_seconds": 4.0
+          }
+        ],
+        "tail_hold_seconds": 0.0
+      },
+      {
+        "shot": 2,
+        "estimated_seconds": 6.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 6.0,
+            "voice_seconds": 4.5,
+            "screen_read_seconds": 3.5,
+            "display_seconds": 6,
+            "estimated_seconds": 6.0
+          }
+        ],
+        "tail_hold_seconds": 0.0
+      }
+    ],
+    "total_seconds": 10.0,
+    "target_seconds": 18,
+    "passed": true,
+    "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "3e796aa51a4b89ceceef0a361f6d3d31671035929c319403e693bc02db722be4",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01",
+        "text": "剪影练习版的字幕文字可以手动编辑。",
+        "requires_semantic_review": true
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "字幕，让表达被看见"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "竖屏俯拍，空白笔记本铺满背景，键盘露出上沿，便签写着“分享三个方发”。镜头缓慢推近错字。仅拍静物，无人物、手部、照片或设备界面；笔记本始终空白。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "把想说的话，放进画面里。"
+      },
+      {
+        "location": "shot:1/block:2",
+        "text": "字幕修改示意"
+      },
+      {
+        "location": "shot:1/block:3",
+        "text": "分享三个方发"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "保持相同机位，硬切到预先更换的便签，文字变为“分享三个方法”。停留让观众对照修改结果。便签文字即屏幕示例，不重复叠字；键盘与空白笔记本位置不变，无人入镜。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "剪影练习版的字幕文字可以手动编辑。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "字幕修改示意"
+      },
+      {
+        "location": "shot:2/block:3",
+        "text": "分享三个方法"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "3e796aa51a4b89ceceef0a361f6d3d31671035929c319403e693bc02db722be4",
+    "request_hash": "57e9fad560a4df02ef94972a7997aa3a52eb81ff2e4a84f66cfd2fd6df778bd6",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "介绍手动编辑字幕文字",
+        "verdict": "met",
+        "evidence": "第2镜旁白明确说明“字幕文字可以手动编辑”，便签从“分享三个方发”变为“分享三个方法”，具体示意文字修改。"
+      },
+      {
+        "field": "topic",
+        "requirement": "全部画面只用键盘、便签和空白笔记本",
+        "verdict": "met",
+        "evidence": "第1镜仅安排键盘、便签和始终空白的笔记本；第2镜沿用相同机位与物件，仅预先更换便签，未增加其他实物。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不出现人物、人物照片或手机界面。",
+        "verdict": "met",
+        "evidence": "人物限制：第1镜明确“无人物、手部”，第2镜明确“无人入镜”，全片为静物拍摄。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不出现人物、人物照片或手机界面。",
+        "verdict": "met",
+        "evidence": "人物照片限制：第1镜明确“无……照片”，第2镜保持原有物件，仅更换文字便签，未安排任何人物照片。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不出现人物、人物照片或手机界面。",
+        "verdict": "met",
+        "evidence": "手机界面限制：第1镜明确不出现设备界面，第2镜以便签文字示意修改结果，未展示手机或产品界面。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不使用问句开场。",
+        "verdict": "met",
+        "evidence": "开场旁白为“把想说的话，放进画面里。”，标题与首镜屏幕文字也均无问句。"
+      },
+      {
+        "field": "audience",
+        "requirement": "不想出镜的知识分享者",
+        "verdict": "met",
+        "evidence": "全片无需人物或手部出镜；“分享三个方法”的文字示例贴合知识分享，字幕纠错也对应表达需求。"
+      },
+      {
+        "field": "platform",
+        "requirement": "小红书",
+        "verdict": "met",
+        "evidence": "第1镜明确竖屏俯拍，全片以简短屏幕文字和直观的错字前后对比呈现，适合移动端短视频观看。"
+      },
+      {
+        "field": "style",
+        "requirement": "陈述式",
+        "verdict": "met",
+        "evidence": "正文用“字幕文字可以手动编辑”直接说明能力，开场为平实引导，全片没有提问或问答结构。"
+      },
+      {
+        "field": "style",
+        "requirement": "安静",
+        "verdict": "met",
+        "evidence": "第1镜缓慢推近静物，第2镜固定机位停留观察，旁白简短，未安排喧闹音效或强烈情绪表达。"
+      }
+    ],
+    "summary": "当前稿覆盖全部明确要求，静物范围、禁止出镜内容和非问句开场均符合要求。手动编辑字幕的能力有资料支持；预计总长10秒，通过18秒上限检查，节奏合理。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "字幕，让表达被看见",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于字幕主题的修辞表达，未承诺曝光量、传播效果或额外产品能力。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "竖屏俯拍，空白笔记本铺满背景，键盘露出上沿，便签写着“分享三个方发”。镜头缓慢推近错字。仅拍静物，无人物、手部、照片或设备界面；笔记本始终空白。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "内容为静物布置、示例错字和镜头运动，没有产品操作、虚构界面或自动化承诺。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "把想说的话，放进画面里。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于表达主题的行动邀请，未声称语音识别、自动生成字幕等具体能力。"
+      },
+      {
+        "location": "shot:1/block:2",
+        "text": "字幕修改示意",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "用于标识便签画面为示意，未作独立产品能力或效果承诺。"
+      },
+      {
+        "location": "shot:1/block:3",
+        "text": "分享三个方发",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "作为待修改的错字样例，不涉及产品事实或真实用户背书。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "保持相同机位，硬切到预先更换的便签，文字变为“分享三个方法”。停留让观众对照修改结果。便签文字即屏幕示例，不重复叠字；键盘与空白笔记本位置不变，无人入镜。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "明确采用预先换便签和硬切的拍摄方式展示文字对比，未声称产品自动纠错，也未编造按钮、界面布局或操作步骤。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "剪影练习版的字幕文字可以手动编辑。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ],
+        "evidence": "P01.F2原文为“字幕文字可以手动编辑。”；当前文案补充已通过身份核对的产品名称，功能含义未扩大，引用与原块一致。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "字幕修改示意",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于示意画面的说明标签，不包含新增产品承诺。"
+      },
+      {
+        "location": "shot:2/block:3",
+        "text": "分享三个方法",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于修改后的示例文字，与首镜错字形成对照，不涉及产品性能或实际效果数据。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "第1镜预计4秒，同拍旁白3秒、屏幕阅读3.5秒，缓慢推近支持观察错字；第2镜预计6秒，同拍旁白4.5秒、屏幕阅读3.5秒，并安排对照修改结果。两镜分别满足4秒、6秒最低停留要求；声画同步无需相加，停留有明确阅读和观察任务，无明显空镜凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-04T15:22:28.668859+00:00",
+    "finished_at": "2026-11-04T15:28:25.737389+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v5",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+    "model_responses": 7,
+    "run_id": "8a35b57e9619488b9af6084b0f1de3ae",
+    "persistence": "checkpoint_v1"
+  }
+}

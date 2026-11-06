@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-cus2vjd4",
+  "started_at": "2026-11-04T01:28:27.850276+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:28:50.482591+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a42b-ff22-7a81-bffb-1bad92abee0a",
+    "usage": {
+      "input_tokens": 27199,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 132,
+      "reasoning_output_tokens": 55
+    },
+    "call_id": "decision-cus2vjd4",
+    "warnings": []
+  }
+}

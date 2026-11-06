@@ -1,0 +1,19 @@
+{
+  "port": 8791,
+  "submitted_at": "2026-11-03T21:43:02.282Z",
+  "fields": {
+    "audience": "跨境账号的中文编辑",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "b1a59f82afbe4bc39d75b0341f2e5dc9",
+    "initial-script": "",
+    "platform": "小红书",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "轻松，短句",
+    "target-seconds": "25",
+    "topic": "标题必须是“Small Clips, Shared Moments”。正文用中文介绍裁剪视频片段，背景是街头咖啡外带窗口，不承诺省时百分比。"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-pp5xh516",
+  "started_at": "2026-11-04T17:38:03.999773+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:38:19.973278+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a7a3-b262-7d92-98d7-4a41d12187ea",
+    "usage": {
+      "input_tokens": 27256,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 73,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-pp5xh516",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-zolnk4an",
+  "started_at": "2026-11-04T16:12:03.384186+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:12:23.906796+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a754-ef35-76b1-95cc-972f525cc2c8",
+    "usage": {
+      "input_tokens": 32576,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 157,
+      "reasoning_output_tokens": 67
+    },
+    "call_id": "decision-zolnk4an",
+    "warnings": []
+  }
+}

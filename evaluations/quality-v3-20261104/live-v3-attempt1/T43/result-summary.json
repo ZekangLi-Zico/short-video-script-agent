@@ -1,0 +1,22 @@
+{
+  "id": "T43",
+  "status": "completed",
+  "steps": 12,
+  "model_responses": 14,
+  "duration": 13.5,
+  "path": [
+    "estimate_duration",
+    "check_rules",
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "check_requirements",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "check_requirements",
+    "finish"
+  ],
+  "message": "已完成旧稿审核与修改，保留原标题和三镜头结构。将未经证实的“自动识别语音并生成字幕”替换为有资料支持的添加字幕功能，保留手动编辑说明；三镜头停留由8、8、12秒缩短为4、4.5、5秒。当前稿估时13.5秒，符合25秒上限，三项检查均通过；实际成片时长以剪辑结果为准。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

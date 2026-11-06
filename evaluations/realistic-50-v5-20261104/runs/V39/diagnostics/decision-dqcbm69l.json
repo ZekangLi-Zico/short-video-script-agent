@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-dqcbm69l",
+  "started_at": "2026-11-04T16:00:14.000314+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:00:43.502870+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a74a-1e50-7dd1-96ae-7341f0c5b4b2",
+    "usage": {
+      "input_tokens": 27348,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 197,
+      "reasoning_output_tokens": 66
+    },
+    "call_id": "decision-dqcbm69l",
+    "warnings": []
+  }
+}

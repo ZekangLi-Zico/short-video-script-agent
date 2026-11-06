@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ocob6o75",
+  "started_at": "2026-11-03T21:34:05.364744+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:34:26.620359+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a355-68dd-7781-a1e8-bbda048e8c8a",
+    "usage": {
+      "input_tokens": 34526,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 325,
+      "reasoning_output_tokens": 198
+    },
+    "call_id": "decision-ocob6o75",
+    "warnings": []
+  }
+}

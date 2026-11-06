@@ -1,0 +1,13 @@
+{
+  "tool_session_exit_code": 1,
+  "script_requested_native_exit_code": 86,
+  "note": "PowerShell tool session reports 1 for a nonzero native command; the native exit code was not separately captured. The script reached the recorded self-exit injection after checkpointing.",
+  "owner_pid": 31168,
+  "owner_running": false,
+  "state_before_recovery": "recording",
+  "output_existed_before_recovery": false,
+  "diagnostics_before_recovery": {
+    "decision-dn3sqgvj.json": "60b5954f333ab1f70c4d8ff43abd51cd56f3a4e0e0c5bbc49428581a4e9e7b20",
+    "decision-t03b7lk0.json": "5bd373feef3e0a95946d5b85f8c0903ebed239ef153fdf2b2b346c5b976acac6"
+  }
+}

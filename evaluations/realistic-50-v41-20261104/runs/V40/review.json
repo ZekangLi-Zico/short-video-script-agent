@@ -1,0 +1,8 @@
+{
+  "case": "V40",
+  "assessment": "未完成；版本与新增能力未确认",
+  "note": "一次检索获取已有字幕事实后，正确区分已有能力和本周新增；请求版本日期、新旧对照与旧版支持安排，不强求完整日志。未把现有添加与编辑字幕包装成新功能公告。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

@@ -1,0 +1,18 @@
+{
+  "id": "V10",
+  "name": "博物馆志愿者",
+  "context": "志愿者需要一段字幕编辑介绍。",
+  "request": {
+    "topic": "介绍添加字幕和手动编辑字幕文字，背景是空展厅、导览卡和休息区。不要编造文物年代或展品故事，结尾直接结束。",
+    "audience": "展馆志愿者",
+    "platform": "视频号",
+    "target_seconds": 26,
+    "style": "安静，说明式",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

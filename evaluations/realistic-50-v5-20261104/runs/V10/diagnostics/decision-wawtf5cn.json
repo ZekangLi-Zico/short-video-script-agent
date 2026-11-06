@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-wawtf5cn",
+  "started_at": "2026-11-04T15:10:24.951771+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:12:13.852977+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a71c-837c-7422-93bf-207d87dfe885",
+    "usage": {
+      "input_tokens": 27850,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2269,
+      "reasoning_output_tokens": 1552
+    },
+    "call_id": "decision-wawtf5cn",
+    "warnings": []
+  }
+}

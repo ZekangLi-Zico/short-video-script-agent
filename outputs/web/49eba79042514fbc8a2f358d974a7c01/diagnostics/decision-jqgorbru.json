@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-jqgorbru",
+  "started_at": "2026-11-04T01:09:50.177432+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:10:04.029063+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a41a-ee5a-7b82-ac78-6e29fba4a2ae",
+    "usage": {
+      "input_tokens": 27185,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 155,
+      "reasoning_output_tokens": 88
+    },
+    "call_id": "decision-jqgorbru",
+    "warnings": []
+  }
+}

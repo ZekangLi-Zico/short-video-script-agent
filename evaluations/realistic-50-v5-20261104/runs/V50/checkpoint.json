@@ -1,0 +1,1380 @@
+{
+  "format": "checkpoint_v1",
+  "recorded_at": "2026-11-04T16:16:29.512432+00:00",
+  "last_event": {
+    "kind": "step",
+    "step": 6
+  },
+  "result": {
+    "status": "in_progress",
+    "message": "任务执行中，尚未完成。",
+    "script": {
+      "format_version": 2,
+      "title": "字幕，让表达被看见",
+      "shots": [
+        {
+          "purpose": "先呈现摊主备料原声，为后续添加字幕提供对照。",
+          "visual": "近拍蒸笼，摊主的手揭开笼盖，露出包子；摊主画外音讲今日备料，此镜暂不叠加字幕。取景只含蒸笼和手，不出现顾客。",
+          "hold_seconds": 4,
+          "blocks": [
+            {
+              "text": "今天先蒸两笼包子。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "介绍添加字幕，并用摊主下一句备料口播展示字幕效果。",
+          "visual": "切到手写菜单，俯拍摊主在“今日备料”下写包子、豆浆。同事旁白介绍功能，同步显示介绍文字；介绍结束后撤下文字，摊主继续说话，底部出现对应字幕。全程只拍纸笔和手。",
+          "hold_seconds": 9,
+          "blocks": [
+            {
+              "text": "这段备料视频，用剪影练习版加字幕。",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "channel": "both",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "豆浆也备好了。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "both",
+              "beat": 2,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "在打包台延续带字幕的备料介绍，呈现实际成片样例。",
+          "visual": "切到打包台近景，摊主将一叠纸袋摆齐，再把打包盒放在旁边；摊主画外音与底部字幕同步，完成动作后短暂停留供观看。画面仅含台面和手，不出现顾客。",
+          "hold_seconds": 5,
+          "blocks": [
+            {
+              "text": "纸袋也备齐了，等会儿打包用。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "both",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        }
+      ],
+      "editor_notes": ""
+    },
+    "duration": {
+      "ok": true,
+      "script_hash": "59fe7b506204ad0a46de65cd3746a56c181afc019e47d58208ab9fcd554e8802",
+      "shots": [
+        {
+          "shot": 1,
+          "estimated_seconds": 4.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 2.5,
+              "voice_seconds": 2.5,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 2.5
+            }
+          ],
+          "tail_hold_seconds": 1.5
+        },
+        {
+          "shot": 2,
+          "estimated_seconds": 9.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 4.3,
+              "voice_seconds": 4.25,
+              "screen_read_seconds": 4.25,
+              "display_seconds": 0,
+              "estimated_seconds": 4.3
+            },
+            {
+              "beat": 2,
+              "start_seconds": 4.3,
+              "end_seconds": 6.3,
+              "voice_seconds": 2.0,
+              "screen_read_seconds": 2.0,
+              "display_seconds": 0,
+              "estimated_seconds": 2.0
+            }
+          ],
+          "tail_hold_seconds": 2.7
+        },
+        {
+          "shot": 3,
+          "estimated_seconds": 5.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 3.5,
+              "voice_seconds": 3.5,
+              "screen_read_seconds": 3.5,
+              "display_seconds": 0,
+              "estimated_seconds": 3.5
+            }
+          ],
+          "tail_hold_seconds": 1.5
+        }
+      ],
+      "total_seconds": 18.0,
+      "target_seconds": 25,
+      "passed": true,
+      "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+      "is_estimate": true
+    },
+    "rules_check": {
+      "ok": true,
+      "script_hash": "59fe7b506204ad0a46de65cd3746a56c181afc019e47d58208ab9fcd554e8802",
+      "passed": true,
+      "issues": [],
+      "citations": [
+        {
+          "location": "shot:2/block:1",
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01",
+          "text": "这段备料视频，用剪影练习版加字幕。",
+          "requires_semantic_review": true
+        }
+      ],
+      "rules_version": "2026-11-03-v1",
+      "requires_expression_review": true,
+      "expression_slots": [
+        {
+          "location": "title",
+          "text": "字幕，让表达被看见"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "近拍蒸笼，摊主的手揭开笼盖，露出包子；摊主画外音讲今日备料，此镜暂不叠加字幕。取景只含蒸笼和手，不出现顾客。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "今天先蒸两笼包子。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "切到手写菜单，俯拍摊主在“今日备料”下写包子、豆浆。同事旁白介绍功能，同步显示介绍文字；介绍结束后撤下文字，摊主继续说话，底部出现对应字幕。全程只拍纸笔和手。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "这段备料视频，用剪影练习版加字幕。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "豆浆也备好了。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "切到打包台近景，摊主将一叠纸袋摆齐，再把打包盒放在旁边；摊主画外音与底部字幕同步，完成动作后短暂停留供观看。画面仅含台面和手，不出现顾客。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "纸袋也备齐了，等会儿打包用。"
+        }
+      ],
+      "available_facts": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F2",
+          "quote": "字幕文字可以手动编辑。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01"
+        }
+      ],
+      "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+    },
+    "requirements_check": {
+      "ok": true,
+      "script_hash": "59fe7b506204ad0a46de65cd3746a56c181afc019e47d58208ab9fcd554e8802",
+      "request_hash": "4299792130470435332510610b8526e5f391e330ac68588a7ba5d1498ead5ad2",
+      "passed": true,
+      "items": [
+        {
+          "field": "topic",
+          "requirement": "做一条剪影练习版字幕功能介绍",
+          "verdict": "met",
+          "evidence": "第2镜文案“这段备料视频，用剪影练习版加字幕。”明确产品和功能，并通过第2、3镜的字幕成片展示落实介绍。"
+        },
+        {
+          "field": "topic",
+          "requirement": "背景是早餐摊主讲今日备料",
+          "verdict": "met",
+          "evidence": "第1镜摊主说“今天先蒸两笼包子。”；第2镜手写菜单标有“今日备料”，并讲豆浆；第3镜讲打包纸袋，明确呈现早餐摊备料场景。"
+        },
+        {
+          "field": "topic",
+          "requirement": "只介绍添加字幕",
+          "verdict": "met",
+          "evidence": "产品介绍及示例均围绕添加字幕；未介绍字幕文字编辑、视频裁剪或横竖屏比例等其他功能。镜头切换和手写菜单属于拍摄安排。"
+        },
+        {
+          "field": "topic",
+          "requirement": "画面按蒸笼、手写菜单、打包台的顺序",
+          "verdict": "met",
+          "evidence": "第1镜近拍蒸笼，第2镜俯拍手写菜单，第3镜切到打包台，顺序完全一致。"
+        },
+        {
+          "field": "topic",
+          "requirement": "不要出现顾客正脸",
+          "verdict": "met",
+          "evidence": "第1镜明确“不出现顾客”；第2镜“全程只拍纸笔和手”；第3镜“画面仅含台面和手，不出现顾客”。"
+        },
+        {
+          "field": "audience",
+          "requirement": "小店新媒体兼职",
+          "verdict": "met",
+          "evidence": "用早餐摊备料视频演示一个基础字幕功能，表达直接，无专业术语，符合小店兼职制作日常内容的使用情境。"
+        },
+        {
+          "field": "platform",
+          "requirement": "抖音",
+          "verdict": "met",
+          "evidence": "三镜头围绕一个功能展开，近景动作配短句字幕；宿主估算总长18秒，符合本次短视频形式及25秒上限。"
+        },
+        {
+          "field": "style",
+          "requirement": "像同事分享经验",
+          "verdict": "met",
+          "evidence": "第2镜安排同事旁白，以“这段备料视频，用剪影练习版加字幕。”结合眼前素材分享用法，语气自然直接。"
+        },
+        {
+          "field": "style",
+          "requirement": "短句",
+          "verdict": "met",
+          "evidence": "公开文案均为简短句子，如“豆浆也备好了。”及“纸袋也备齐了，等会儿打包用。”，没有长段解释。"
+        }
+      ],
+      "summary": "需求均已落实：早餐摊备料场景明确，仅介绍添加字幕，画面顺序正确并避开顾客正脸。产品表述有资料支持，预计18秒，节奏合理。",
+      "method": "model_assessment_not_deterministic_proof",
+      "expressions": [
+        {
+          "location": "title",
+          "text": "字幕，让表达被看见",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于标题修辞，没有承诺播放量、传播效果或额外产品能力。"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "近拍蒸笼，摊主的手揭开笼盖，露出包子；摊主画外音讲今日备料，此镜暂不叠加字幕。取景只含蒸笼和手，不出现顾客。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "内容为揭盖动作、备料场景、原声和取景安排，不包含产品能力声明。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "今天先蒸两笼包子。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于摊主备料场景台词，“两笼”不是产品性能或效果数据。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "切到手写菜单，俯拍摊主在“今日备料”下写包子、豆浆。同事旁白介绍功能，同步显示介绍文字；介绍结束后撤下文字，摊主继续说话，底部出现对应字幕。全程只拍纸笔和手。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "展示在视频中添加字幕，由“剪影练习版支持为视频添加字幕。”支持。同步呈现和撤下文字是成片安排，没有宣称自动识别、自动同步或具体产品操作流程；手写菜单是生活场景。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "这段备料视频，用剪影练习版加字幕。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "准确改写原文“剪影练习版支持为视频添加字幕。”，应用于备料视频未增加功能、效果或自动化承诺，引用与原块一致。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "豆浆也备好了。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于早餐摊备料示例台词，不涉及产品性能、真实客户背书或收益。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "切到打包台近景，摊主将一叠纸袋摆齐，再把打包盒放在旁边；摊主画外音与底部字幕同步，完成动作后短暂停留供观看。画面仅含台面和手，不出现顾客。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "字幕成片示例由添加字幕能力支持；声画同步属于呈现安排，没有声称产品自动完成同步。摆纸袋、放打包盒及取景限制均为拍摄安排。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "纸袋也备齐了，等会儿打包用。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于备料场景台词，说明纸袋用途，没有产品能力或效果承诺。"
+        }
+      ],
+      "pacing": {
+        "verdict": "met",
+        "evidence": "第1镜预计4秒，口播2.5秒，余下1.5秒可观察揭盖和包子；第2镜预计9秒，两段声画依次占4.3秒和2秒，另有2.7秒观看菜单书写及字幕；第3镜预计5秒，声画同步占3.5秒，余下1.5秒观看摆齐纸袋、放置打包盒后的画面。各镜动作和信息支撑停留，没有重复空镜凑时长；总长18秒，宿主已判定通过25秒上限。"
+      },
+      "expression_review_passed": true
+    },
+    "sources": [
+      {
+        "id": "P01",
+        "product_id": "demo-editor",
+        "title": "字幕功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "字幕",
+          "口播",
+          "文字",
+          "caption",
+          "subtitle"
+        ],
+        "facts": [
+          {
+            "id": "P01.F1",
+            "text": "剪影练习版支持为视频添加字幕。"
+          },
+          {
+            "id": "P01.F2",
+            "text": "字幕文字可以手动编辑。"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "product_id": "demo-editor",
+        "title": "剪辑功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "剪辑",
+          "裁剪",
+          "片段",
+          "trim",
+          "edit"
+        ],
+        "facts": [
+          {
+            "id": "P02.F1",
+            "text": "剪影练习版支持裁剪视频片段。"
+          }
+        ]
+      },
+      {
+        "id": "P03",
+        "product_id": "demo-editor",
+        "title": "画面比例说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "比例",
+          "竖屏",
+          "横屏",
+          "画面",
+          "aspect"
+        ],
+        "facts": [
+          {
+            "id": "P03.F1",
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+          }
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "action": "search_materials",
+        "arguments": {
+          "query": "剪影练习版 demo-editor 添加字幕 功能说明 支持范围",
+          "product_id": "demo-editor"
+        },
+        "decision_basis": "先查证剪影练习版“添加字幕”的功能事实，用于蒸笼、手写菜单、打包台三镜脚本；只介绍添加字幕，控制在25秒内。",
+        "observation": {
+          "ok": true,
+          "query": "剪影练习版 demo-editor 添加字幕 功能说明 支持范围",
+          "product_id": "demo-editor",
+          "materials": [
+            {
+              "id": "P01",
+              "product_id": "demo-editor",
+              "title": "字幕功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "字幕",
+                "口播",
+                "文字",
+                "caption",
+                "subtitle"
+              ],
+              "facts": [
+                {
+                  "id": "P01.F1",
+                  "text": "剪影练习版支持为视频添加字幕。"
+                },
+                {
+                  "id": "P01.F2",
+                  "text": "字幕文字可以手动编辑。"
+                }
+              ]
+            },
+            {
+              "id": "P02",
+              "product_id": "demo-editor",
+              "title": "剪辑功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "剪辑",
+                "裁剪",
+                "片段",
+                "trim",
+                "edit"
+              ],
+              "facts": [
+                {
+                  "id": "P02.F1",
+                  "text": "剪影练习版支持裁剪视频片段。"
+                }
+              ]
+            },
+            {
+              "id": "P03",
+              "product_id": "demo-editor",
+              "title": "画面比例说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "比例",
+                "竖屏",
+                "横屏",
+                "画面",
+                "aspect"
+              ],
+              "facts": [
+                {
+                  "id": "P03.F1",
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+                }
+              ]
+            }
+          ],
+          "count": 3
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a754-d140-7ca1-a7ce-f4714d8ba14b",
+          "usage": {
+            "input_tokens": 27363,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 173,
+            "reasoning_output_tokens": 77
+          },
+          "call_id": "decision-t7vnnyvb",
+          "warnings": []
+        },
+        "elapsed_ms": 29281
+      },
+      {
+        "step": 2,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "字幕，让表达被看见",
+            "shots": [
+              {
+                "purpose": "先呈现摊主备料原声，为后续添加字幕提供对照。",
+                "visual": "近拍蒸笼，摊主的手揭开笼盖，露出包子；摊主画外音讲今日备料，此镜暂不叠加字幕。取景只含蒸笼和手，不出现顾客。",
+                "hold_seconds": 4,
+                "blocks": [
+                  {
+                    "text": "今天先蒸两笼包子。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "介绍添加字幕，并用摊主下一句备料口播展示字幕效果。",
+                "visual": "切到手写菜单，俯拍摊主在“今日备料”下写包子、豆浆。同事旁白介绍功能，同步显示介绍文字；介绍结束后撤下文字，摊主继续说话，底部出现对应字幕。全程只拍纸笔和手。",
+                "hold_seconds": 9,
+                "blocks": [
+                  {
+                    "text": "这段备料视频，用剪影练习版加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "豆浆也备好了。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 2,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "在打包台延续带字幕的备料介绍，呈现实际成片样例。",
+                "visual": "切到打包台近景，摊主将一叠纸袋摆齐，再把打包盒放在旁边；摊主画外音与底部字幕同步，完成动作后短暂停留供观看。画面仅含台面和手，不出现顾客。",
+                "hold_seconds": 5,
+                "blocks": [
+                  {
+                    "text": "纸袋也备齐了，等会儿打包用。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          }
+        },
+        "decision_basis": "资料已覆盖添加字幕功能；用备料口播的字幕前后变化展示用途，严格按蒸笼、手写菜单、打包台展开，不加入其他功能。",
+        "observation": {
+          "ok": true,
+          "script_hash": "59fe7b506204ad0a46de65cd3746a56c181afc019e47d58208ab9fcd554e8802",
+          "revision": {
+            "before_hash": null,
+            "after_hash": "59fe7b506204ad0a46de65cd3746a56c181afc019e47d58208ab9fcd554e8802",
+            "changed_fields": [
+              "script:new"
+            ],
+            "unchanged_shots": 0,
+            "unchanged_blocks": 0,
+            "feedback": [],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a755-34ed-7120-8838-6681297517ab",
+          "usage": {
+            "input_tokens": 28071,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2077,
+            "reasoning_output_tokens": 1552
+          },
+          "call_id": "decision-4j_ra8qx",
+          "warnings": []
+        },
+        "elapsed_ms": 100140
+      },
+      {
+        "step": 3,
+        "action": "estimate_duration",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "字幕，让表达被看见",
+            "shots": [
+              {
+                "purpose": "先呈现摊主备料原声，为后续添加字幕提供对照。",
+                "visual": "近拍蒸笼，摊主的手揭开笼盖，露出包子；摊主画外音讲今日备料，此镜暂不叠加字幕。取景只含蒸笼和手，不出现顾客。",
+                "hold_seconds": 4,
+                "blocks": [
+                  {
+                    "text": "今天先蒸两笼包子。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "介绍添加字幕，并用摊主下一句备料口播展示字幕效果。",
+                "visual": "切到手写菜单，俯拍摊主在“今日备料”下写包子、豆浆。同事旁白介绍功能，同步显示介绍文字；介绍结束后撤下文字，摊主继续说话，底部出现对应字幕。全程只拍纸笔和手。",
+                "hold_seconds": 9,
+                "blocks": [
+                  {
+                    "text": "这段备料视频，用剪影练习版加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "豆浆也备好了。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 2,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "在打包台延续带字幕的备料介绍，呈现实际成片样例。",
+                "visual": "切到打包台近景，摊主将一叠纸袋摆齐，再把打包盒放在旁边；摊主画外音与底部字幕同步，完成动作后短暂停留供观看。画面仅含台面和手，不出现顾客。",
+                "hold_seconds": 5,
+                "blocks": [
+                  {
+                    "text": "纸袋也备齐了，等会儿打包用。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "target_seconds": 25,
+          "duration_mode": "max"
+        },
+        "decision_basis": "核算当前三镜稿的旁白、字幕阅读及动作停留时间，确认总时长不超过25秒。",
+        "observation": {
+          "ok": true,
+          "script_hash": "59fe7b506204ad0a46de65cd3746a56c181afc019e47d58208ab9fcd554e8802",
+          "shots": [
+            {
+              "shot": 1,
+              "estimated_seconds": 4.0,
+              "beats": [
+                {
+                  "beat": 1,
+                  "start_seconds": 0,
+                  "end_seconds": 2.5,
+                  "voice_seconds": 2.5,
+                  "screen_read_seconds": 0,
+                  "display_seconds": 0,
+                  "estimated_seconds": 2.5
+                }
+              ],
+              "tail_hold_seconds": 1.5
+            },
+            {
+              "shot": 2,
+              "estimated_seconds": 9.0,
+              "beats": [
+                {
+                  "beat": 1,
+                  "start_seconds": 0,
+                  "end_seconds": 4.3,
+                  "voice_seconds": 4.25,
+                  "screen_read_seconds": 4.25,
+                  "display_seconds": 0,
+                  "estimated_seconds": 4.3
+                },
+                {
+                  "beat": 2,
+                  "start_seconds": 4.3,
+                  "end_seconds": 6.3,
+                  "voice_seconds": 2.0,
+                  "screen_read_seconds": 2.0,
+                  "display_seconds": 0,
+                  "estimated_seconds": 2.0
+                }
+              ],
+              "tail_hold_seconds": 2.7
+            },
+            {
+              "shot": 3,
+              "estimated_seconds": 5.0,
+              "beats": [
+                {
+                  "beat": 1,
+                  "start_seconds": 0,
+                  "end_seconds": 3.5,
+                  "voice_seconds": 3.5,
+                  "screen_read_seconds": 3.5,
+                  "display_seconds": 0,
+                  "estimated_seconds": 3.5
+                }
+              ],
+              "tail_hold_seconds": 1.5
+            }
+          ],
+          "total_seconds": 18.0,
+          "target_seconds": 25,
+          "passed": true,
+          "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+          "is_estimate": true
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a756-bb48-7782-bba2-fe226a9dfeb3",
+          "usage": {
+            "input_tokens": 29350,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 166,
+            "reasoning_output_tokens": 104
+          },
+          "call_id": "decision-dgnrrkqy",
+          "warnings": []
+        },
+        "elapsed_ms": 15750
+      },
+      {
+        "step": 4,
+        "action": "check_rules",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "字幕，让表达被看见",
+            "shots": [
+              {
+                "purpose": "先呈现摊主备料原声，为后续添加字幕提供对照。",
+                "visual": "近拍蒸笼，摊主的手揭开笼盖，露出包子；摊主画外音讲今日备料，此镜暂不叠加字幕。取景只含蒸笼和手，不出现顾客。",
+                "hold_seconds": 4,
+                "blocks": [
+                  {
+                    "text": "今天先蒸两笼包子。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "介绍添加字幕，并用摊主下一句备料口播展示字幕效果。",
+                "visual": "切到手写菜单，俯拍摊主在“今日备料”下写包子、豆浆。同事旁白介绍功能，同步显示介绍文字；介绍结束后撤下文字，摊主继续说话，底部出现对应字幕。全程只拍纸笔和手。",
+                "hold_seconds": 9,
+                "blocks": [
+                  {
+                    "text": "这段备料视频，用剪影练习版加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "豆浆也备好了。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 2,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "在打包台延续带字幕的备料介绍，呈现实际成片样例。",
+                "visual": "切到打包台近景，摊主将一叠纸袋摆齐，再把打包盒放在旁边；摊主画外音与底部字幕同步，完成动作后短暂停留供观看。画面仅含台面和手，不出现顾客。",
+                "hold_seconds": 5,
+                "blocks": [
+                  {
+                    "text": "纸袋也备齐了，等会儿打包用。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "retrieved_ids": [
+            "P01",
+            "P02",
+            "P03"
+          ],
+          "expression_mode": "creative"
+        },
+        "decision_basis": "当前稿估时18秒，已通过时长检查；接着核对事实引用、品牌禁用词及声画格式，确认只介绍添加字幕且无未经支持的功能声明。",
+        "observation": {
+          "ok": true,
+          "script_hash": "59fe7b506204ad0a46de65cd3746a56c181afc019e47d58208ab9fcd554e8802",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:2/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01",
+              "text": "这段备料视频，用剪影练习版加字幕。",
+              "requires_semantic_review": true
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "字幕，让表达被看见"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "近拍蒸笼，摊主的手揭开笼盖，露出包子；摊主画外音讲今日备料，此镜暂不叠加字幕。取景只含蒸笼和手，不出现顾客。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "今天先蒸两笼包子。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "切到手写菜单，俯拍摊主在“今日备料”下写包子、豆浆。同事旁白介绍功能，同步显示介绍文字；介绍结束后撤下文字，摊主继续说话，底部出现对应字幕。全程只拍纸笔和手。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "这段备料视频，用剪影练习版加字幕。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "豆浆也备好了。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "切到打包台近景，摊主将一叠纸袋摆齐，再把打包盒放在旁边；摊主画外音与底部字幕同步，完成动作后短暂停留供观看。画面仅含台面和手，不出现顾客。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "纸袋也备齐了，等会儿打包用。"
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a756-f99d-7800-8fab-2180d9818cf8",
+          "usage": {
+            "input_tokens": 30848,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 162,
+            "reasoning_output_tokens": 85
+          },
+          "call_id": "decision-9l4rkpau",
+          "warnings": []
+        },
+        "elapsed_ms": 15079
+      },
+      {
+        "step": 5,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "字幕，让表达被看见",
+            "shots": [
+              {
+                "purpose": "先呈现摊主备料原声，为后续添加字幕提供对照。",
+                "visual": "近拍蒸笼，摊主的手揭开笼盖，露出包子；摊主画外音讲今日备料，此镜暂不叠加字幕。取景只含蒸笼和手，不出现顾客。",
+                "hold_seconds": 4,
+                "blocks": [
+                  {
+                    "text": "今天先蒸两笼包子。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "介绍添加字幕，并用摊主下一句备料口播展示字幕效果。",
+                "visual": "切到手写菜单，俯拍摊主在“今日备料”下写包子、豆浆。同事旁白介绍功能，同步显示介绍文字；介绍结束后撤下文字，摊主继续说话，底部出现对应字幕。全程只拍纸笔和手。",
+                "hold_seconds": 9,
+                "blocks": [
+                  {
+                    "text": "这段备料视频，用剪影练习版加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "豆浆也备好了。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 2,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "在打包台延续带字幕的备料介绍，呈现实际成片样例。",
+                "visual": "切到打包台近景，摊主将一叠纸袋摆齐，再把打包盒放在旁边；摊主画外音与底部字幕同步，完成动作后短暂停留供观看。画面仅含台面和手，不出现顾客。",
+                "hold_seconds": 5,
+                "blocks": [
+                  {
+                    "text": "纸袋也备齐了，等会儿打包用。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "request": {
+            "topic": "做一条剪影练习版字幕功能介绍，背景是早餐摊主讲今日备料。只介绍添加字幕，画面按蒸笼、手写菜单、打包台的顺序，不要出现顾客正脸。",
+            "audience": "小店新媒体兼职",
+            "platform": "抖音",
+            "style": "像同事分享经验，短句",
+            "product_id": "demo-editor",
+            "duration_mode": "max",
+            "expression_mode": "creative",
+            "target_seconds": 25
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "59fe7b506204ad0a46de65cd3746a56c181afc019e47d58208ab9fcd554e8802",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:2/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01",
+                "text": "这段备料视频，用剪影练习版加字幕。",
+                "requires_semantic_review": true
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "字幕，让表达被看见"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "近拍蒸笼，摊主的手揭开笼盖，露出包子；摊主画外音讲今日备料，此镜暂不叠加字幕。取景只含蒸笼和手，不出现顾客。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "今天先蒸两笼包子。"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "切到手写菜单，俯拍摊主在“今日备料”下写包子、豆浆。同事旁白介绍功能，同步显示介绍文字；介绍结束后撤下文字，摊主继续说话，底部出现对应字幕。全程只拍纸笔和手。"
+              },
+              {
+                "location": "shot:2/block:1",
+                "text": "这段备料视频，用剪影练习版加字幕。"
+              },
+              {
+                "location": "shot:2/block:2",
+                "text": "豆浆也备好了。"
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "切到打包台近景，摊主将一叠纸袋摆齐，再把打包盒放在旁边；摊主画外音与底部字幕同步，完成动作后短暂停留供观看。画面仅含台面和手，不出现顾客。"
+              },
+              {
+                "location": "shot:3/block:1",
+                "text": "纸袋也备齐了，等会儿打包用。"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "59fe7b506204ad0a46de65cd3746a56c181afc019e47d58208ab9fcd554e8802",
+            "shots": [
+              {
+                "shot": 1,
+                "estimated_seconds": 4.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 2.5,
+                    "voice_seconds": 2.5,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 2.5
+                  }
+                ],
+                "tail_hold_seconds": 1.5
+              },
+              {
+                "shot": 2,
+                "estimated_seconds": 9.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 4.3,
+                    "voice_seconds": 4.25,
+                    "screen_read_seconds": 4.25,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.3
+                  },
+                  {
+                    "beat": 2,
+                    "start_seconds": 4.3,
+                    "end_seconds": 6.3,
+                    "voice_seconds": 2.0,
+                    "screen_read_seconds": 2.0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 2.0
+                  }
+                ],
+                "tail_hold_seconds": 2.7
+              },
+              {
+                "shot": 3,
+                "estimated_seconds": 5.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 3.5,
+                    "voice_seconds": 3.5,
+                    "screen_read_seconds": 3.5,
+                    "display_seconds": 0,
+                    "estimated_seconds": 3.5
+                  }
+                ],
+                "tail_hold_seconds": 1.5
+              }
+            ],
+            "total_seconds": 18.0,
+            "target_seconds": 25,
+            "passed": true,
+            "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+            "is_estimate": true
+          }
+        },
+        "decision_basis": "当前稿估时18秒，时长与规则检查已通过；核对是否仅介绍添加字幕、按蒸笼→手写菜单→打包台展开、不出现顾客正脸，并确认文案符合资料含义及同事分享式短句风格。",
+        "observation": {
+          "ok": true,
+          "script_hash": "59fe7b506204ad0a46de65cd3746a56c181afc019e47d58208ab9fcd554e8802",
+          "request_hash": "4299792130470435332510610b8526e5f391e330ac68588a7ba5d1498ead5ad2",
+          "passed": true,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "做一条剪影练习版字幕功能介绍",
+              "verdict": "met",
+              "evidence": "第2镜文案“这段备料视频，用剪影练习版加字幕。”明确产品和功能，并通过第2、3镜的字幕成片展示落实介绍。"
+            },
+            {
+              "field": "topic",
+              "requirement": "背景是早餐摊主讲今日备料",
+              "verdict": "met",
+              "evidence": "第1镜摊主说“今天先蒸两笼包子。”；第2镜手写菜单标有“今日备料”，并讲豆浆；第3镜讲打包纸袋，明确呈现早餐摊备料场景。"
+            },
+            {
+              "field": "topic",
+              "requirement": "只介绍添加字幕",
+              "verdict": "met",
+              "evidence": "产品介绍及示例均围绕添加字幕；未介绍字幕文字编辑、视频裁剪或横竖屏比例等其他功能。镜头切换和手写菜单属于拍摄安排。"
+            },
+            {
+              "field": "topic",
+              "requirement": "画面按蒸笼、手写菜单、打包台的顺序",
+              "verdict": "met",
+              "evidence": "第1镜近拍蒸笼，第2镜俯拍手写菜单，第3镜切到打包台，顺序完全一致。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不要出现顾客正脸",
+              "verdict": "met",
+              "evidence": "第1镜明确“不出现顾客”；第2镜“全程只拍纸笔和手”；第3镜“画面仅含台面和手，不出现顾客”。"
+            },
+            {
+              "field": "audience",
+              "requirement": "小店新媒体兼职",
+              "verdict": "met",
+              "evidence": "用早餐摊备料视频演示一个基础字幕功能，表达直接，无专业术语，符合小店兼职制作日常内容的使用情境。"
+            },
+            {
+              "field": "platform",
+              "requirement": "抖音",
+              "verdict": "met",
+              "evidence": "三镜头围绕一个功能展开，近景动作配短句字幕；宿主估算总长18秒，符合本次短视频形式及25秒上限。"
+            },
+            {
+              "field": "style",
+              "requirement": "像同事分享经验",
+              "verdict": "met",
+              "evidence": "第2镜安排同事旁白，以“这段备料视频，用剪影练习版加字幕。”结合眼前素材分享用法，语气自然直接。"
+            },
+            {
+              "field": "style",
+              "requirement": "短句",
+              "verdict": "met",
+              "evidence": "公开文案均为简短句子，如“豆浆也备好了。”及“纸袋也备齐了，等会儿打包用。”，没有长段解释。"
+            }
+          ],
+          "summary": "需求均已落实：早餐摊备料场景明确，仅介绍添加字幕，画面顺序正确并避开顾客正脸。产品表述有资料支持，预计18秒，节奏合理。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "字幕，让表达被看见",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于标题修辞，没有承诺播放量、传播效果或额外产品能力。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "近拍蒸笼，摊主的手揭开笼盖，露出包子；摊主画外音讲今日备料，此镜暂不叠加字幕。取景只含蒸笼和手，不出现顾客。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "内容为揭盖动作、备料场景、原声和取景安排，不包含产品能力声明。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "今天先蒸两笼包子。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于摊主备料场景台词，“两笼”不是产品性能或效果数据。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "切到手写菜单，俯拍摊主在“今日备料”下写包子、豆浆。同事旁白介绍功能，同步显示介绍文字；介绍结束后撤下文字，摊主继续说话，底部出现对应字幕。全程只拍纸笔和手。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "展示在视频中添加字幕，由“剪影练习版支持为视频添加字幕。”支持。同步呈现和撤下文字是成片安排，没有宣称自动识别、自动同步或具体产品操作流程；手写菜单是生活场景。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "这段备料视频，用剪影练习版加字幕。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "准确改写原文“剪影练习版支持为视频添加字幕。”，应用于备料视频未增加功能、效果或自动化承诺，引用与原块一致。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "豆浆也备好了。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于早餐摊备料示例台词，不涉及产品性能、真实客户背书或收益。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "切到打包台近景，摊主将一叠纸袋摆齐，再把打包盒放在旁边；摊主画外音与底部字幕同步，完成动作后短暂停留供观看。画面仅含台面和手，不出现顾客。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "字幕成片示例由添加字幕能力支持；声画同步属于呈现安排，没有声称产品自动完成同步。摆纸袋、放打包盒及取景限制均为拍摄安排。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "纸袋也备齐了，等会儿打包用。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于备料场景台词，说明纸袋用途，没有产品能力或效果承诺。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "第1镜预计4秒，口播2.5秒，余下1.5秒可观察揭盖和包子；第2镜预计9秒，两段声画依次占4.3秒和2秒，另有2.7秒观看菜单书写及字幕；第3镜预计5秒，声画同步占3.5秒，余下1.5秒观看摆齐纸袋、放置打包盒后的画面。各镜动作和信息支撑停留，没有重复空镜凑时长；总长18秒，宿主已判定通过25秒上限。"
+          },
+          "expression_review_passed": true
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a757-33a2-7112-86ca-812f220a4fd2",
+          "usage": {
+            "input_tokens": 32930,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 174,
+            "reasoning_output_tokens": 77
+          },
+          "call_id": "decision-mw9g3wlr",
+          "warnings": []
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a757-7553-7b32-a207-8d3a2bbecd3d",
+          "usage": {
+            "input_tokens": 28951,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2589,
+            "reasoning_output_tokens": 746
+          },
+          "call_id": "decision-zzzz7792",
+          "warnings": []
+        },
+        "elapsed_ms": 100735
+      },
+      {
+        "step": 6,
+        "action": "finish",
+        "arguments": {
+          "status": "completed",
+          "message": "已完成三镜脚本《字幕，让表达被看见》，预计18秒。按蒸笼→手写菜单→打包台展开，仅介绍添加字幕，取景避开顾客正脸。"
+        },
+        "decision_basis": "当前同一稿的时长、规则与需求检查均已通过。",
+        "observation": {
+          "ok": true,
+          "status": "completed",
+          "script_hash": "59fe7b506204ad0a46de65cd3746a56c181afc019e47d58208ab9fcd554e8802"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "thread_id": "01a1a758-bdd4-7b22-b144-99d60d87cd8f",
+          "usage": {
+            "input_tokens": 38392,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 246,
+            "reasoning_output_tokens": 151
+          },
+          "call_id": "decision-pjw6qj0t",
+          "warnings": []
+        },
+        "elapsed_ms": 16828
+      }
+    ],
+    "metadata": {
+      "started_at": "2026-11-04T16:11:51.583536+00:00",
+      "finished_at": "2026-11-04T16:16:29.509768+00:00",
+      "provider": "codex",
+      "evidence_kind": "real_model",
+      "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+      "max_steps": 12,
+      "steps": 6,
+      "synthetic_data": true,
+      "completion_policy": "facts_duration_requirements_v5",
+      "requirements_review_context": "current_rules_and_duration_v2",
+      "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+      "model_responses": 7,
+      "run_id": "5d559fee40014feb9b3827ed0fd5ff72",
+      "persistence": "checkpoint_v1",
+      "fault_injection": {}
+    }
+  }
+}

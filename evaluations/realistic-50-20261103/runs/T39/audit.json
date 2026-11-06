@@ -1,0 +1,43 @@
+{
+  "case": "T39",
+  "name": "客户指定标题",
+  "run_id": "415d590301794c6182c9543e8c09acba",
+  "status": "needs_input",
+  "message": "请将客户已确认的标题“让每一句话都看得见”加入 brand_rules.allowed_titles，才能按指定标题继续制作。",
+  "steps": 1,
+  "model_calls": 1,
+  "seconds": null,
+  "target_seconds": 25,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "finish"
+  ],
+  "queries": [],
+  "observations": [
+    {
+      "step": 1,
+      "action": "finish",
+      "basis": "客户指定标题不在 allowed_titles 中，当前要求存在冲突",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 18.7,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "cf44fa991df83001ab07e1f911d65701bf545c6daad51155fd0a61b4a7666a54",
+    "output.json": "9bc898ca965e7aa0f8d4dcb0e08aa3e5b864e63fa1a2e889e19b8ea09909831e",
+    "trace.jsonl": "9f7bb46a17fbff4ab4a124bff48bf780d3a3f66e137cb5f54b5d1eb231f8b70a",
+    "manifest.json": "abe5926b5a1b1fa43cbeb48e45f089d0c3a09caee90b3f6e4881107caa3f422d",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "2d81b5cbb5d6f976179b2d4dec17907e9ac74ffc765017990498baa91b74229d"
+  }
+}

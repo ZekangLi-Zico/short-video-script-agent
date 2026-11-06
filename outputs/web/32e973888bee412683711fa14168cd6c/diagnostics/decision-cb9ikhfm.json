@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-cb9ikhfm",
+  "started_at": "2026-11-04T16:07:12.925095+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:07:35.155775+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a750-8382-7d02-8186-c7241fd47db0",
+    "usage": {
+      "input_tokens": 33264,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 220,
+      "reasoning_output_tokens": 136
+    },
+    "call_id": "decision-cb9ikhfm",
+    "warnings": []
+  }
+}

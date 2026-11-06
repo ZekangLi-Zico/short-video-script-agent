@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-40va2_1c",
+  "started_at": "2026-11-04T01:36:53.465429+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:37:21.109946+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a433-b458-7f40-a32b-474fc8049256",
+    "usage": {
+      "input_tokens": 27194,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 173,
+      "reasoning_output_tokens": 74
+    },
+    "call_id": "decision-40va2_1c",
+    "warnings": []
+  }
+}

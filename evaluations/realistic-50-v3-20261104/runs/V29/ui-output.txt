@@ -1,0 +1,2092 @@
+{
+  "status": "blocked",
+  "message": "已保留7镜头稿，覆盖工作交接中的字幕、片段裁剪与比例选择，本次未删改。估算55.6秒，符合54—60秒要求，规则检查通过；但需求审核未收到时长依据，重试后仍未通过，暂不能宣称全部完成。需项目维护者将本稿时长检查结果传入需求审核，再重新核验。",
+  "script": {
+    "title": "接手交接录像：片段、字幕与比例",
+    "shots": [
+      {
+        "visual": "播放现有工作交接录像，切到实习生边看边在纸上记录内容位置。所有文字块按顺序作为旁白；有来源的事实同时显示为事实卡，不另作一段静默阅读。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "接手一段交接录像，先看原片，记下任务、负责人和截止时间出现的位置。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "先展示裁剪事实卡，再用标有录像内容的纸条示意片段取舍，依次圈出完整交代事项的部分和重复寒暄，不展示软件操作界面。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          },
+          {
+            "text": "选出交代清楚的片段，保留前因后果，删去重复寒暄。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "回到选出的交接录像片段，依旁白顺序展示两张字幕事实卡；随后切到实习生对照原声检查字幕草稿的近景。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          },
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      },
+      {
+        "visual": "在纸面字幕草稿中依次核对原片提到的姓名和日期，再按语义画分隔线；切回录像，用来自原片的对应文字示意字幕编排，不展示未经提供的界面。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "对照原声核对姓名与日期。字幕按意思分段，让每段文字跟随对应的讲述出现。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "显示比例事实卡，纸上横屏与竖屏两个画框依次入镜，作为接下来检查构图的教学道具。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          }
+        ]
+      },
+      {
+        "visual": "实习生查看交付要求，在纸上分别绘制同一原片的横屏和竖屏构图草图，依次圈出人物、资料和关键文字的位置；这是构图评估示意，不是软件界面演示。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "先按交付要求选比例，再检查原片构图：横屏留意人物与资料，竖屏检查关键文字是否完整。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "按检查内容依次切换片段连接处、字幕核对处和选定比例的构图示意；实习生逐项核对纸面清单，结束在交接录像与清单同框的画面。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "交接前再看一遍：片段衔接是否清楚，字幕是否准确，选定比例下的信息有没有遗漏。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "3dd44e52419d4c22c7bfeef9ce9887b90646a7ce96c82dd1c789c5ba9e9bfba7",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 29,
+        "estimated_seconds": 7.8
+      },
+      {
+        "shot": 2,
+        "speech_units": 34,
+        "estimated_seconds": 9
+      },
+      {
+        "shot": 3,
+        "speech_units": 24,
+        "estimated_seconds": 6.5
+      },
+      {
+        "shot": 4,
+        "speech_units": 32,
+        "estimated_seconds": 8.5
+      },
+      {
+        "shot": 5,
+        "speech_units": 18,
+        "estimated_seconds": 5
+      },
+      {
+        "shot": 6,
+        "speech_units": 37,
+        "estimated_seconds": 9.8
+      },
+      {
+        "shot": 7,
+        "speech_units": 34,
+        "estimated_seconds": 9
+      }
+    ],
+    "total_seconds": 55.6,
+    "target_seconds": 60,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true,
+    "duration_mode": "target",
+    "min_seconds": 54,
+    "max_seconds": 60,
+    "issue": null
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "3dd44e52419d4c22c7bfeef9ce9887b90646a7ce96c82dd1c789c5ba9e9bfba7",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:3/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:3/block:2",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:5/block:1",
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "接手交接录像：片段、字幕与比例"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "播放现有工作交接录像，切到实习生边看边在纸上记录内容位置。所有文字块按顺序作为旁白；有来源的事实同时显示为事实卡，不另作一段静默阅读。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "接手一段交接录像，先看原片，记下任务、负责人和截止时间出现的位置。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "先展示裁剪事实卡，再用标有录像内容的纸条示意片段取舍，依次圈出完整交代事项的部分和重复寒暄，不展示软件操作界面。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "选出交代清楚的片段，保留前因后果，删去重复寒暄。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "回到选出的交接录像片段，依旁白顺序展示两张字幕事实卡；随后切到实习生对照原声检查字幕草稿的近景。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "在纸面字幕草稿中依次核对原片提到的姓名和日期，再按语义画分隔线；切回录像，用来自原片的对应文字示意字幕编排，不展示未经提供的界面。"
+      },
+      {
+        "location": "shot:4/block:1",
+        "text": "对照原声核对姓名与日期。字幕按意思分段，让每段文字跟随对应的讲述出现。"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "显示比例事实卡，纸上横屏与竖屏两个画框依次入镜，作为接下来检查构图的教学道具。"
+      },
+      {
+        "location": "shot:6/visual",
+        "text": "实习生查看交付要求，在纸上分别绘制同一原片的横屏和竖屏构图草图，依次圈出人物、资料和关键文字的位置；这是构图评估示意，不是软件界面演示。"
+      },
+      {
+        "location": "shot:6/block:1",
+        "text": "先按交付要求选比例，再检查原片构图：横屏留意人物与资料，竖屏检查关键文字是否完整。"
+      },
+      {
+        "location": "shot:7/visual",
+        "text": "按检查内容依次切换片段连接处、字幕核对处和选定比例的构图示意；实习生逐项核对纸面清单，结束在交接录像与清单同框的画面。"
+      },
+      {
+        "location": "shot:7/block:1",
+        "text": "交接前再看一遍：片段衔接是否清楚，字幕是否准确，选定比例下的信息有没有遗漏。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "3dd44e52419d4c22c7bfeef9ce9887b90646a7ce96c82dd1c789c5ba9e9bfba7",
+    "request_hash": "e649bd32b380ab985c81ac5b1dd8cb23cf20267ebcbd534e6731c545f0d4c7e9",
+    "passed": false,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "用一分钟左右",
+        "verdict": "uncertain",
+        "evidence": "已设置60秒目标；输入未包含实际时长核验结果，是否约一分钟交由独立时长工具确认。"
+      },
+      {
+        "field": "topic",
+        "requirement": "围绕现有录像",
+        "verdict": "met",
+        "evidence": "镜头1先播放现有录像并记录内容位置；镜头2至6围绕该原片安排片段、字幕和构图。"
+      },
+      {
+        "field": "topic",
+        "requirement": "字幕",
+        "verdict": "met",
+        "evidence": "镜头3介绍添加字幕和手动编辑文字；镜头4讲解核对姓名、日期及按语义分段。"
+      },
+      {
+        "field": "topic",
+        "requirement": "片段裁剪",
+        "verdict": "met",
+        "evidence": "镜头2介绍裁剪能力，并具体建议“保留前因后果，删去重复寒暄”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "比例选择",
+        "verdict": "met",
+        "evidence": "镜头5介绍横屏与竖屏选项；镜头6说明按交付要求选比例，并检查人物、资料及关键文字是否完整。"
+      },
+      {
+        "field": "topic",
+        "requirement": "背景是工作交接",
+        "verdict": "met",
+        "evidence": "镜头1明确播放“工作交接录像”，旁白记录任务、负责人和截止时间；镜头7进行交接前复核。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不要虚构按钮操作",
+        "verdict": "met",
+        "evidence": "全稿未出现按钮名称或具体软件操作步骤；镜头2、4、6使用纸条、字幕草稿及构图草图示意。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不要同一画面无意义长停留",
+        "verdict": "met",
+        "evidence": "7个镜头的hold_seconds均为0，画面依次安排记录、圈选、核对、画分隔线及构图检查，没有额外长停留安排。"
+      },
+      {
+        "field": "audience",
+        "requirement": "工作室新来的运营实习生",
+        "verdict": "met",
+        "evidence": "镜头1以实习生接手录像切入，后续用纸面示意和具体检查项讲解，适合缺乏经验的运营新人。"
+      },
+      {
+        "field": "platform",
+        "requirement": "B站",
+        "verdict": "met",
+        "evidence": "采用中文旁白、事实卡和连续教学示意，标题明确说明内容，适合B站的短篇教程呈现。"
+      },
+      {
+        "field": "style",
+        "requirement": "教学式",
+        "verdict": "met",
+        "evidence": "镜头2至6分别介绍能力并给出取舍、字幕核对和构图检查方法，具有明确教学内容。"
+      },
+      {
+        "field": "style",
+        "requirement": "循序渐进",
+        "verdict": "met",
+        "evidence": "依次安排看原片、裁剪片段、添加与核对字幕、选择比例、交接前复核，步骤衔接清楚。"
+      }
+    ],
+    "summary": "内容要求均已落实，表达未发现超出资料的产品承诺，也未安排虚构按钮操作或无意义长停留。实际是否约一分钟仍需独立时长检查确认。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "接手交接录像：片段、字幕与比例",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "标题概括教学场景与主题，没有性能、自动化或效果承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "播放现有工作交接录像，切到实习生边看边在纸上记录内容位置。所有文字块按顺序作为旁白；有来源的事实同时显示为事实卡，不另作一段静默阅读。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "描述观看、纸面记录及旁白与事实卡的呈现安排，没有新增产品能力声明。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "接手一段交接录像，先看原片，记下任务、负责人和截止时间出现的位置。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "要求观看者人工记录内容位置，未声称产品能够自动识别或提取交接事项。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "先展示裁剪事实卡，再用标有录像内容的纸条示意片段取舍，依次圈出完整交代事项的部分和重复寒暄，不展示软件操作界面。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ],
+        "evidence": "裁剪事实卡对应已支持的片段裁剪能力；纸条圈选是人工取舍示意，没有扩展为自动筛选或虚构操作。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "选出交代清楚的片段，保留前因后果，删去重复寒暄。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "提供人工剪辑取舍原则，没有声称产品能自动理解上下文或删除寒暄。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "回到选出的交接录像片段，依旁白顺序展示两张字幕事实卡；随后切到实习生对照原声检查字幕草稿的近景。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          },
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ],
+        "evidence": "两张事实卡对应添加字幕、手动编辑字幕文字；后续由实习生人工核对，未增加自动生成或纠错承诺。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "在纸面字幕草稿中依次核对原片提到的姓名和日期，再按语义画分隔线；切回录像，用来自原片的对应文字示意字幕编排，不展示未经提供的界面。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "描述纸面核对和字幕编排的教学示意，没有虚构产品界面、按钮或自动分段流程。"
+      },
+      {
+        "location": "shot:4/block:1",
+        "text": "对照原声核对姓名与日期。字幕按意思分段，让每段文字跟随对应的讲述出现。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于字幕内容与出现时机的编辑建议，未承诺产品自动识别、分段或同步字幕。"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "显示比例事实卡，纸上横屏与竖屏两个画框依次入镜，作为接下来检查构图的教学道具。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          }
+        ],
+        "evidence": "比例事实卡及两个画框对应资料支持的横屏、竖屏选项，未增加其他比例或智能适配能力。"
+      },
+      {
+        "location": "shot:6/visual",
+        "text": "实习生查看交付要求，在纸上分别绘制同一原片的横屏和竖屏构图草图，依次圈出人物、资料和关键文字的位置；这是构图评估示意，不是软件界面演示。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "由实习生在纸上评估构图，没有声称产品自动重构画面、追踪人物或保全关键文字。"
+      },
+      {
+        "location": "shot:6/block:1",
+        "text": "先按交付要求选比例，再检查原片构图：横屏留意人物与资料，竖屏检查关键文字是否完整。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "给出比例选择与人工检查建议，没有保证转换比例后信息必然完整。"
+      },
+      {
+        "location": "shot:7/visual",
+        "text": "按检查内容依次切换片段连接处、字幕核对处和选定比例的构图示意；实习生逐项核对纸面清单，结束在交接录像与清单同框的画面。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于复核过程和收尾画面的拍摄安排，未声称产品具有自动质检功能。"
+      },
+      {
+        "location": "shot:7/block:1",
+        "text": "交接前再看一遍：片段衔接是否清楚，字幕是否准确，选定比例下的信息有没有遗漏。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "邀请操作者逐项检查，没有将准确性、衔接质量或信息完整性表述为产品保证。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "7镜头hold_seconds均为0，镜头1明确旁白连续呈现、事实卡同步显示。镜头1观看并记录，镜头2圈选纸条，镜头3展示事实卡并核对草稿，镜头4核对与分段，镜头5展示两种画框，镜头6绘制并圈点构图，镜头7逐项复核；各镜头均有对应观察或动作，末尾复核有明确检查目的，未见重复事实或空镜凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "arguments": {
+        "query": "demo-editor 字幕 片段裁剪 画面比例选择：用于围绕现有工作交接录像安排剪辑教学的功能事实与原文",
+        "product_id": "demo-editor"
+      },
+      "decision_basis": "需要先核实字幕、片段裁剪与比例选择的功能素材。",
+      "observation": {
+        "ok": true,
+        "query": "demo-editor 字幕 片段裁剪 画面比例选择：用于围绕现有工作交接录像安排剪辑教学的功能事实与原文",
+        "product_id": "demo-editor",
+        "materials": [
+          {
+            "id": "P02",
+            "product_id": "demo-editor",
+            "title": "剪辑功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "剪辑",
+              "裁剪",
+              "片段",
+              "trim",
+              "edit"
+            ],
+            "facts": [
+              {
+                "id": "P02.F1",
+                "text": "剪影练习版支持裁剪视频片段。"
+              }
+            ]
+          },
+          {
+            "id": "P03",
+            "product_id": "demo-editor",
+            "title": "画面比例说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "比例",
+              "竖屏",
+              "横屏",
+              "画面",
+              "aspect"
+            ],
+            "facts": [
+              {
+                "id": "P03.F1",
+                "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+              }
+            ]
+          },
+          {
+            "id": "P01",
+            "product_id": "demo-editor",
+            "title": "字幕功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "字幕",
+              "口播",
+              "文字",
+              "caption",
+              "subtitle"
+            ],
+            "facts": [
+              {
+                "id": "P01.F1",
+                "text": "剪影练习版支持为视频添加字幕。"
+              },
+              {
+                "id": "P01.F2",
+                "text": "字幕文字可以手动编辑。"
+              }
+            ]
+          }
+        ],
+        "count": 3
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2ba-213f-7db0-8a50-a09cf9887671",
+        "usage": {
+          "input_tokens": 27045,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 163,
+          "reasoning_output_tokens": 75
+        }
+      },
+      "elapsed_ms": 15329
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "arguments": {
+        "script": {
+          "title": "接手交接录像：片段、字幕与比例",
+          "shots": [
+            {
+              "visual": "播放现有工作交接录像，切到实习生边看边在纸上记录内容位置。所有文字块按顺序作为旁白；有来源的事实同时显示为事实卡，不另作一段静默阅读。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "接手一段交接录像，先看原片，记下任务、负责人和截止时间出现的位置。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "先展示裁剪事实卡，再用标有录像内容的纸条示意片段取舍，依次圈出完整交代事项的部分和重复寒暄，不展示软件操作界面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                },
+                {
+                  "text": "选出交代清楚的片段，保留前因后果，删去重复寒暄。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "回到选出的交接录像片段，依旁白顺序展示两张字幕事实卡；随后切到实习生对照原声检查字幕草稿的近景。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "在纸面字幕草稿中依次核对原片提到的姓名和日期，再按语义画分隔线；切回录像，用来自原片的对应文字示意字幕编排，不展示未经提供的界面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "对照原声核对姓名与日期。字幕按意思分段，让每段文字跟随对应的讲述出现。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "显示比例事实卡，纸上横屏与竖屏两个画框依次入镜，作为接下来检查构图的教学道具。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "实习生查看交付要求，在纸上分别绘制同一原片的横屏和竖屏构图草图，依次圈出人物、资料和关键文字的位置；这是构图评估示意，不是软件界面演示。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "先按交付要求选比例，再检查原片构图：横屏留意人物与资料，竖屏检查关键文字是否完整。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "按检查内容依次切换片段连接处、字幕核对处和选定比例的构图示意；实习生逐项核对纸面清单，结束在交接录像与清单同框的画面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "交接前再看一遍：片段衔接是否清楚，字幕是否准确，选定比例下的信息有没有遗漏。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision_basis": "已取得字幕、裁剪和比例的事实素材，可编写围绕现有交接录像的教学分镜。",
+      "observation": {
+        "ok": true,
+        "script_hash": "3dd44e52419d4c22c7bfeef9ce9887b90646a7ce96c82dd1c789c5ba9e9bfba7",
+        "revision": {
+          "before_hash": null,
+          "after_hash": "3dd44e52419d4c22c7bfeef9ce9887b90646a7ce96c82dd1c789c5ba9e9bfba7",
+          "changed_fields": [
+            "script:new"
+          ],
+          "unchanged_shots": 0,
+          "unchanged_blocks": 0,
+          "feedback": [],
+          "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+        },
+        "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2ba-5a9f-7bd2-ad19-9e91e68653b2",
+        "usage": {
+          "input_tokens": 27091,
+          "cached_input_tokens": 23808,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2244,
+          "reasoning_output_tokens": 1447
+        }
+      },
+      "elapsed_ms": 81812
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "接手交接录像：片段、字幕与比例",
+          "shots": [
+            {
+              "visual": "播放现有工作交接录像，切到实习生边看边在纸上记录内容位置。所有文字块按顺序作为旁白；有来源的事实同时显示为事实卡，不另作一段静默阅读。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "接手一段交接录像，先看原片，记下任务、负责人和截止时间出现的位置。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "先展示裁剪事实卡，再用标有录像内容的纸条示意片段取舍，依次圈出完整交代事项的部分和重复寒暄，不展示软件操作界面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                },
+                {
+                  "text": "选出交代清楚的片段，保留前因后果，删去重复寒暄。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "回到选出的交接录像片段，依旁白顺序展示两张字幕事实卡；随后切到实习生对照原声检查字幕草稿的近景。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "在纸面字幕草稿中依次核对原片提到的姓名和日期，再按语义画分隔线；切回录像，用来自原片的对应文字示意字幕编排，不展示未经提供的界面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "对照原声核对姓名与日期。字幕按意思分段，让每段文字跟随对应的讲述出现。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "显示比例事实卡，纸上横屏与竖屏两个画框依次入镜，作为接下来检查构图的教学道具。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "实习生查看交付要求，在纸上分别绘制同一原片的横屏和竖屏构图草图，依次圈出人物、资料和关键文字的位置；这是构图评估示意，不是软件界面演示。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "先按交付要求选比例，再检查原片构图：横屏留意人物与资料，竖屏检查关键文字是否完整。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "按检查内容依次切换片段连接处、字幕核对处和选定比例的构图示意；实习生逐项核对纸面清单，结束在交接录像与清单同框的画面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "交接前再看一遍：片段衔接是否清楚，字幕是否准确，选定比例下的信息有没有遗漏。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "target_seconds": 60,
+        "duration_mode": "target"
+      },
+      "decision_basis": "当前稿尚未估时，需要核对是否处于目标要求的54至60秒范围。",
+      "observation": {
+        "ok": true,
+        "script_hash": "3dd44e52419d4c22c7bfeef9ce9887b90646a7ce96c82dd1c789c5ba9e9bfba7",
+        "shots": [
+          {
+            "shot": 1,
+            "speech_units": 29,
+            "estimated_seconds": 7.8
+          },
+          {
+            "shot": 2,
+            "speech_units": 34,
+            "estimated_seconds": 9
+          },
+          {
+            "shot": 3,
+            "speech_units": 24,
+            "estimated_seconds": 6.5
+          },
+          {
+            "shot": 4,
+            "speech_units": 32,
+            "estimated_seconds": 8.5
+          },
+          {
+            "shot": 5,
+            "speech_units": 18,
+            "estimated_seconds": 5
+          },
+          {
+            "shot": 6,
+            "speech_units": 37,
+            "estimated_seconds": 9.8
+          },
+          {
+            "shot": 7,
+            "speech_units": 34,
+            "estimated_seconds": 9
+          }
+        ],
+        "total_seconds": 55.6,
+        "target_seconds": 60,
+        "passed": true,
+        "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+        "is_estimate": true,
+        "duration_mode": "target",
+        "min_seconds": 54,
+        "max_seconds": 60,
+        "issue": null
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2bb-9a28-7681-91cb-e6655d5500f0",
+        "usage": {
+          "input_tokens": 29624,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 161,
+          "reasoning_output_tokens": 105
+        }
+      },
+      "elapsed_ms": 14093
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "arguments": {
+        "script": {
+          "title": "接手交接录像：片段、字幕与比例",
+          "shots": [
+            {
+              "visual": "播放现有工作交接录像，切到实习生边看边在纸上记录内容位置。所有文字块按顺序作为旁白；有来源的事实同时显示为事实卡，不另作一段静默阅读。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "接手一段交接录像，先看原片，记下任务、负责人和截止时间出现的位置。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "先展示裁剪事实卡，再用标有录像内容的纸条示意片段取舍，依次圈出完整交代事项的部分和重复寒暄，不展示软件操作界面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                },
+                {
+                  "text": "选出交代清楚的片段，保留前因后果，删去重复寒暄。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "回到选出的交接录像片段，依旁白顺序展示两张字幕事实卡；随后切到实习生对照原声检查字幕草稿的近景。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "在纸面字幕草稿中依次核对原片提到的姓名和日期，再按语义画分隔线；切回录像，用来自原片的对应文字示意字幕编排，不展示未经提供的界面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "对照原声核对姓名与日期。字幕按意思分段，让每段文字跟随对应的讲述出现。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "显示比例事实卡，纸上横屏与竖屏两个画框依次入镜，作为接下来检查构图的教学道具。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "实习生查看交付要求，在纸上分别绘制同一原片的横屏和竖屏构图草图，依次圈出人物、资料和关键文字的位置；这是构图评估示意，不是软件界面演示。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "先按交付要求选比例，再检查原片构图：横屏留意人物与资料，竖屏检查关键文字是否完整。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "按检查内容依次切换片段连接处、字幕核对处和选定比例的构图示意；实习生逐项核对纸面清单，结束在交接录像与清单同框的画面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "交接前再看一遍：片段衔接是否清楚，字幕是否准确，选定比例下的信息有没有遗漏。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "retrieved_ids": [
+          "P01",
+          "P02",
+          "P03"
+        ],
+        "expression_mode": "creative"
+      },
+      "decision_basis": "当前稿估时55.6秒，已通过时长检查，尚需核对事实引用与表达规则。",
+      "observation": {
+        "ok": true,
+        "script_hash": "3dd44e52419d4c22c7bfeef9ce9887b90646a7ce96c82dd1c789c5ba9e9bfba7",
+        "passed": true,
+        "issues": [],
+        "citations": [
+          {
+            "location": "shot:2/block:1",
+            "source_id": "P02",
+            "fact_id": "P02.F1",
+            "quote": "剪影练习版支持裁剪视频片段。",
+            "version": "2026-11-01"
+          },
+          {
+            "location": "shot:3/block:1",
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "location": "shot:3/block:2",
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          },
+          {
+            "location": "shot:5/block:1",
+            "source_id": "P03",
+            "fact_id": "P03.F1",
+            "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "version": "2026-11-01"
+          }
+        ],
+        "rules_version": "2026-11-03-v1",
+        "requires_expression_review": true,
+        "expression_slots": [
+          {
+            "location": "title",
+            "text": "接手交接录像：片段、字幕与比例"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "播放现有工作交接录像，切到实习生边看边在纸上记录内容位置。所有文字块按顺序作为旁白；有来源的事实同时显示为事实卡，不另作一段静默阅读。"
+          },
+          {
+            "location": "shot:1/block:1",
+            "text": "接手一段交接录像，先看原片，记下任务、负责人和截止时间出现的位置。"
+          },
+          {
+            "location": "shot:2/visual",
+            "text": "先展示裁剪事实卡，再用标有录像内容的纸条示意片段取舍，依次圈出完整交代事项的部分和重复寒暄，不展示软件操作界面。"
+          },
+          {
+            "location": "shot:2/block:2",
+            "text": "选出交代清楚的片段，保留前因后果，删去重复寒暄。"
+          },
+          {
+            "location": "shot:3/visual",
+            "text": "回到选出的交接录像片段，依旁白顺序展示两张字幕事实卡；随后切到实习生对照原声检查字幕草稿的近景。"
+          },
+          {
+            "location": "shot:4/visual",
+            "text": "在纸面字幕草稿中依次核对原片提到的姓名和日期，再按语义画分隔线；切回录像，用来自原片的对应文字示意字幕编排，不展示未经提供的界面。"
+          },
+          {
+            "location": "shot:4/block:1",
+            "text": "对照原声核对姓名与日期。字幕按意思分段，让每段文字跟随对应的讲述出现。"
+          },
+          {
+            "location": "shot:5/visual",
+            "text": "显示比例事实卡，纸上横屏与竖屏两个画框依次入镜，作为接下来检查构图的教学道具。"
+          },
+          {
+            "location": "shot:6/visual",
+            "text": "实习生查看交付要求，在纸上分别绘制同一原片的横屏和竖屏构图草图，依次圈出人物、资料和关键文字的位置；这是构图评估示意，不是软件界面演示。"
+          },
+          {
+            "location": "shot:6/block:1",
+            "text": "先按交付要求选比例，再检查原片构图：横屏留意人物与资料，竖屏检查关键文字是否完整。"
+          },
+          {
+            "location": "shot:7/visual",
+            "text": "按检查内容依次切换片段连接处、字幕核对处和选定比例的构图示意；实习生逐项核对纸面清单，结束在交接录像与清单同框的画面。"
+          },
+          {
+            "location": "shot:7/block:1",
+            "text": "交接前再看一遍：片段衔接是否清楚，字幕是否准确，选定比例下的信息有没有遗漏。"
+          }
+        ],
+        "available_facts": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1",
+            "quote": "剪影练习版支持裁剪视频片段。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P03",
+            "fact_id": "P03.F1",
+            "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "version": "2026-11-01"
+          }
+        ],
+        "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2bb-d19a-74e1-8193-b9e1c23cbc64",
+        "usage": {
+          "input_tokens": 31119,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 110,
+          "reasoning_output_tokens": 50
+        }
+      },
+      "elapsed_ms": 17172
+    },
+    {
+      "step": 5,
+      "action": "check_requirements",
+      "arguments": {
+        "script": {
+          "title": "接手交接录像：片段、字幕与比例",
+          "shots": [
+            {
+              "visual": "播放现有工作交接录像，切到实习生边看边在纸上记录内容位置。所有文字块按顺序作为旁白；有来源的事实同时显示为事实卡，不另作一段静默阅读。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "接手一段交接录像，先看原片，记下任务、负责人和截止时间出现的位置。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "先展示裁剪事实卡，再用标有录像内容的纸条示意片段取舍，依次圈出完整交代事项的部分和重复寒暄，不展示软件操作界面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                },
+                {
+                  "text": "选出交代清楚的片段，保留前因后果，删去重复寒暄。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "回到选出的交接录像片段，依旁白顺序展示两张字幕事实卡；随后切到实习生对照原声检查字幕草稿的近景。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "在纸面字幕草稿中依次核对原片提到的姓名和日期，再按语义画分隔线；切回录像，用来自原片的对应文字示意字幕编排，不展示未经提供的界面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "对照原声核对姓名与日期。字幕按意思分段，让每段文字跟随对应的讲述出现。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "显示比例事实卡，纸上横屏与竖屏两个画框依次入镜，作为接下来检查构图的教学道具。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "实习生查看交付要求，在纸上分别绘制同一原片的横屏和竖屏构图草图，依次圈出人物、资料和关键文字的位置；这是构图评估示意，不是软件界面演示。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "先按交付要求选比例，再检查原片构图：横屏留意人物与资料，竖屏检查关键文字是否完整。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "按检查内容依次切换片段连接处、字幕核对处和选定比例的构图示意；实习生逐项核对纸面清单，结束在交接录像与清单同框的画面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "交接前再看一遍：片段衔接是否清楚，字幕是否准确，选定比例下的信息有没有遗漏。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "request": {
+          "topic": "用一分钟左右讲如何围绕现有录像安排字幕、片段裁剪与比例选择，背景是工作交接；不要虚构按钮操作，也不要同一画面无意义长停留。",
+          "audience": "工作室新来的运营实习生",
+          "platform": "B站",
+          "style": "教学式，循序渐进",
+          "product_id": "demo-editor",
+          "duration_mode": "target",
+          "expression_mode": "creative",
+          "target_seconds": 60
+        },
+        "rules_check": {
+          "ok": true,
+          "script_hash": "3dd44e52419d4c22c7bfeef9ce9887b90646a7ce96c82dd1c789c5ba9e9bfba7",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:2/block:1",
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:3/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:3/block:2",
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:5/block:1",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "接手交接录像：片段、字幕与比例"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "播放现有工作交接录像，切到实习生边看边在纸上记录内容位置。所有文字块按顺序作为旁白；有来源的事实同时显示为事实卡，不另作一段静默阅读。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "接手一段交接录像，先看原片，记下任务、负责人和截止时间出现的位置。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "先展示裁剪事实卡，再用标有录像内容的纸条示意片段取舍，依次圈出完整交代事项的部分和重复寒暄，不展示软件操作界面。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "选出交代清楚的片段，保留前因后果，删去重复寒暄。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "回到选出的交接录像片段，依旁白顺序展示两张字幕事实卡；随后切到实习生对照原声检查字幕草稿的近景。"
+            },
+            {
+              "location": "shot:4/visual",
+              "text": "在纸面字幕草稿中依次核对原片提到的姓名和日期，再按语义画分隔线；切回录像，用来自原片的对应文字示意字幕编排，不展示未经提供的界面。"
+            },
+            {
+              "location": "shot:4/block:1",
+              "text": "对照原声核对姓名与日期。字幕按意思分段，让每段文字跟随对应的讲述出现。"
+            },
+            {
+              "location": "shot:5/visual",
+              "text": "显示比例事实卡，纸上横屏与竖屏两个画框依次入镜，作为接下来检查构图的教学道具。"
+            },
+            {
+              "location": "shot:6/visual",
+              "text": "实习生查看交付要求，在纸上分别绘制同一原片的横屏和竖屏构图草图，依次圈出人物、资料和关键文字的位置；这是构图评估示意，不是软件界面演示。"
+            },
+            {
+              "location": "shot:6/block:1",
+              "text": "先按交付要求选比例，再检查原片构图：横屏留意人物与资料，竖屏检查关键文字是否完整。"
+            },
+            {
+              "location": "shot:7/visual",
+              "text": "按检查内容依次切换片段连接处、字幕核对处和选定比例的构图示意；实习生逐项核对纸面清单，结束在交接录像与清单同框的画面。"
+            },
+            {
+              "location": "shot:7/block:1",
+              "text": "交接前再看一遍：片段衔接是否清楚，字幕是否准确，选定比例下的信息有没有遗漏。"
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+        }
+      },
+      "decision_basis": "当前稿估时55.6秒且规则检查通过，尚需核对需求覆盖与原创表达。",
+      "observation": {
+        "ok": true,
+        "script_hash": "3dd44e52419d4c22c7bfeef9ce9887b90646a7ce96c82dd1c789c5ba9e9bfba7",
+        "request_hash": "e649bd32b380ab985c81ac5b1dd8cb23cf20267ebcbd534e6731c545f0d4c7e9",
+        "passed": false,
+        "items": [
+          {
+            "field": "topic",
+            "requirement": "用一分钟左右讲",
+            "verdict": "uncertain",
+            "evidence": "输入未提供确定性时长检查结果；本次不估算总时长，约一分钟是否达成留待该检查确认。"
+          },
+          {
+            "field": "topic",
+            "requirement": "围绕现有录像",
+            "verdict": "met",
+            "evidence": "镜头1先看现有交接录像并记录内容位置；镜头2—6持续围绕原片进行片段取舍、字幕核对与构图评估。"
+          },
+          {
+            "field": "topic",
+            "requirement": "字幕",
+            "verdict": "met",
+            "evidence": "镜头3介绍添加字幕及手动编辑文字；镜头4说明“对照原声核对姓名与日期”，并按语义安排字幕。"
+          },
+          {
+            "field": "topic",
+            "requirement": "片段裁剪",
+            "verdict": "met",
+            "evidence": "镜头2介绍裁剪能力，并讲解“保留前因后果，删去重复寒暄”，配合纸条展示取舍。"
+          },
+          {
+            "field": "topic",
+            "requirement": "比例选择",
+            "verdict": "met",
+            "evidence": "镜头5介绍横屏和竖屏比例选项；镜头6说明按交付要求选择，并检查人物、资料及关键文字是否完整。"
+          },
+          {
+            "field": "topic",
+            "requirement": "背景是工作交接",
+            "verdict": "met",
+            "evidence": "镜头1明确播放“现有工作交接录像”，记录任务、负责人和截止时间；镜头7以交接前逐项核对收尾。"
+          },
+          {
+            "field": "topic",
+            "requirement": "不要虚构按钮操作",
+            "verdict": "met",
+            "evidence": "全文未出现按钮名称或软件点击步骤。镜头2使用纸条，镜头4使用纸面字幕草稿，镜头6使用构图草图。"
+          },
+          {
+            "field": "topic",
+            "requirement": "不要同一画面无意义长停留",
+            "verdict": "met",
+            "evidence": "各镜头hold_seconds均为0；画面依次安排记录、圈选、核对、画分隔线及构图检查，没有额外静默长停留安排。"
+          },
+          {
+            "field": "audience",
+            "requirement": "工作室新来的运营实习生",
+            "verdict": "met",
+            "evidence": "以实习生接手录像为情境，从观看原片开始，用纸条、草稿和清单解释基础判断，适合新入职人员理解。"
+          },
+          {
+            "field": "platform",
+            "requirement": "B站",
+            "verdict": "met",
+            "evidence": "采用中文分镜教学、旁白配事实卡与示意画面，具备短视频教程的可理解性，未见与B站适配相冲突的安排。"
+          },
+          {
+            "field": "style",
+            "requirement": "教学式",
+            "verdict": "met",
+            "evidence": "镜头2讲解如何取舍片段，镜头4示范字幕核对，镜头6讲解比例判断，均有具体方法和对应画面。"
+          },
+          {
+            "field": "style",
+            "requirement": "循序渐进",
+            "verdict": "met",
+            "evidence": "镜头1—7按看原片、选片段、认识字幕能力、核对字幕、认识比例、评估构图、交接复查推进。"
+          }
+        ],
+        "summary": "内容、交接场景、受众和教学风格均已落实，三项功能都有具体讲解。未见虚构按钮操作、无依据的产品承诺或无意义长停留；约一分钟的实际时长待确定性检查确认。",
+        "method": "model_assessment_not_deterministic_proof",
+        "expressions": [
+          {
+            "location": "title",
+            "text": "接手交接录像：片段、字幕与比例",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "标题概括交接情境和教学主题，没有产品性能或效果承诺。"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "播放现有工作交接录像，切到实习生边看边在纸上记录内容位置。所有文字块按顺序作为旁白；有来源的事实同时显示为事实卡，不另作一段静默阅读。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "描述观看、纸面记录及旁白与事实卡的呈现方式，没有新增产品能力声明。"
+          },
+          {
+            "location": "shot:1/block:1",
+            "text": "接手一段交接录像，先看原片，记下任务、负责人和截止时间出现的位置。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "要求观看者手动观察和记录，没有宣称产品自动识别任务、人物或时间。"
+          },
+          {
+            "location": "shot:2/visual",
+            "text": "先展示裁剪事实卡，再用标有录像内容的纸条示意片段取舍，依次圈出完整交代事项的部分和重复寒暄，不展示软件操作界面。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1"
+              }
+            ],
+            "evidence": "裁剪事实卡对应本镜头已核对的“支持裁剪视频片段”；纸条圈选是教学示意，没有扩展为自动筛选或虚构软件操作。"
+          },
+          {
+            "location": "shot:2/block:2",
+            "text": "选出交代清楚的片段，保留前因后果，删去重复寒暄。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "给出人工选择片段的编辑原则，没有声称产品自动理解内容或自动删除寒暄。"
+          },
+          {
+            "location": "shot:3/visual",
+            "text": "回到选出的交接录像片段，依旁白顺序展示两张字幕事实卡；随后切到实习生对照原声检查字幕草稿的近景。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ],
+            "evidence": "两张事实卡分别对应添加字幕和手动编辑字幕文字，均有资料支持；实习生人工核对草稿没有引入自动识别能力。"
+          },
+          {
+            "location": "shot:4/visual",
+            "text": "在纸面字幕草稿中依次核对原片提到的姓名和日期，再按语义画分隔线；切回录像，用来自原片的对应文字示意字幕编排，不展示未经提供的界面。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "描述纸面校核及后期字幕编排示意，没有将分段或对应文字的安排宣称为产品自动完成，也未虚构界面。"
+          },
+          {
+            "location": "shot:4/block:1",
+            "text": "对照原声核对姓名与日期。字幕按意思分段，让每段文字跟随对应的讲述出现。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "这是人工核对与字幕编排建议，没有宣称自动分段、自动校对或自动同步。"
+          },
+          {
+            "location": "shot:5/visual",
+            "text": "显示比例事实卡，纸上横屏与竖屏两个画框依次入镜，作为接下来检查构图的教学道具。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P03",
+                "fact_id": "P03.F1"
+              }
+            ],
+            "evidence": "比例事实卡对应提供横屏和竖屏比例选项；纸面画框只是教学道具，没有增加具体比例数值或自动构图能力。"
+          },
+          {
+            "location": "shot:6/visual",
+            "text": "实习生查看交付要求，在纸上分别绘制同一原片的横屏和竖屏构图草图，依次圈出人物、资料和关键文字的位置；这是构图评估示意，不是软件界面演示。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "明确由实习生在纸上绘图并检查信息位置，未声称产品自动重构画面或保全关键信息。"
+          },
+          {
+            "location": "shot:6/block:1",
+            "text": "先按交付要求选比例，再检查原片构图：横屏留意人物与资料，竖屏检查关键文字是否完整。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "属于选择比例和人工检查构图的教学建议，没有保证转换后信息自动完整保留。"
+          },
+          {
+            "location": "shot:7/visual",
+            "text": "按检查内容依次切换片段连接处、字幕核对处和选定比例的构图示意；实习生逐项核对纸面清单，结束在交接录像与清单同框的画面。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "描述复查画面的剪辑安排及人工清单核对，没有产品自动检测或质量保证声明。"
+          },
+          {
+            "location": "shot:7/block:1",
+            "text": "交接前再看一遍：片段衔接是否清楚，字幕是否准确，选定比例下的信息有没有遗漏。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "提出交接前的人工检查问题，没有承诺产品保证衔接、准确率或信息完整性。"
+          }
+        ],
+        "pacing": {
+          "verdict": "met",
+          "evidence": "7个镜头的hold_seconds均为0，未安排额外停留。镜头1边看边记录，镜头2圈选纸条，镜头3随两句能力旁白展示两张事实卡并切核对近景，镜头4核对并分段，镜头5展示事实卡和两种画框，镜头6逐项圈出构图信息，镜头7切换检查位置并核对清单。各段都有对应旁白和观察任务；末镜将三项内容转为复查问题，没有重复宣读同一事实或空镜凑时长。"
+        },
+        "expression_review_passed": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2bc-146a-7331-8a30-ff5b8071c026",
+        "usage": {
+          "input_tokens": 34401,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 120,
+          "reasoning_output_tokens": 61
+        }
+      },
+      "review_model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2bc-4560-77b1-803c-51f417e3b14e",
+        "usage": {
+          "input_tokens": 28612,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4665,
+          "reasoning_output_tokens": 2070
+        }
+      },
+      "elapsed_ms": 134750
+    },
+    {
+      "step": 6,
+      "action": "check_requirements",
+      "arguments": {
+        "script": {
+          "title": "接手交接录像：片段、字幕与比例",
+          "shots": [
+            {
+              "visual": "播放现有工作交接录像，切到实习生边看边在纸上记录内容位置。所有文字块按顺序作为旁白；有来源的事实同时显示为事实卡，不另作一段静默阅读。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "接手一段交接录像，先看原片，记下任务、负责人和截止时间出现的位置。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "先展示裁剪事实卡，再用标有录像内容的纸条示意片段取舍，依次圈出完整交代事项的部分和重复寒暄，不展示软件操作界面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                },
+                {
+                  "text": "选出交代清楚的片段，保留前因后果，删去重复寒暄。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "回到选出的交接录像片段，依旁白顺序展示两张字幕事实卡；随后切到实习生对照原声检查字幕草稿的近景。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "在纸面字幕草稿中依次核对原片提到的姓名和日期，再按语义画分隔线；切回录像，用来自原片的对应文字示意字幕编排，不展示未经提供的界面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "对照原声核对姓名与日期。字幕按意思分段，让每段文字跟随对应的讲述出现。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "显示比例事实卡，纸上横屏与竖屏两个画框依次入镜，作为接下来检查构图的教学道具。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "实习生查看交付要求，在纸上分别绘制同一原片的横屏和竖屏构图草图，依次圈出人物、资料和关键文字的位置；这是构图评估示意，不是软件界面演示。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "先按交付要求选比例，再检查原片构图：横屏留意人物与资料，竖屏检查关键文字是否完整。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "按检查内容依次切换片段连接处、字幕核对处和选定比例的构图示意；实习生逐项核对纸面清单，结束在交接录像与清单同框的画面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "交接前再看一遍：片段衔接是否清楚，字幕是否准确，选定比例下的信息有没有遗漏。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "request": {
+          "topic": "用一分钟左右讲如何围绕现有录像安排字幕、片段裁剪与比例选择，背景是工作交接；不要虚构按钮操作，也不要同一画面无意义长停留。",
+          "audience": "工作室新来的运营实习生",
+          "platform": "B站",
+          "style": "教学式，循序渐进",
+          "product_id": "demo-editor",
+          "duration_mode": "target",
+          "expression_mode": "creative",
+          "target_seconds": 60
+        },
+        "rules_check": {
+          "ok": true,
+          "script_hash": "3dd44e52419d4c22c7bfeef9ce9887b90646a7ce96c82dd1c789c5ba9e9bfba7",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:2/block:1",
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:3/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:3/block:2",
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:5/block:1",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "接手交接录像：片段、字幕与比例"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "播放现有工作交接录像，切到实习生边看边在纸上记录内容位置。所有文字块按顺序作为旁白；有来源的事实同时显示为事实卡，不另作一段静默阅读。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "接手一段交接录像，先看原片，记下任务、负责人和截止时间出现的位置。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "先展示裁剪事实卡，再用标有录像内容的纸条示意片段取舍，依次圈出完整交代事项的部分和重复寒暄，不展示软件操作界面。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "选出交代清楚的片段，保留前因后果，删去重复寒暄。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "回到选出的交接录像片段，依旁白顺序展示两张字幕事实卡；随后切到实习生对照原声检查字幕草稿的近景。"
+            },
+            {
+              "location": "shot:4/visual",
+              "text": "在纸面字幕草稿中依次核对原片提到的姓名和日期，再按语义画分隔线；切回录像，用来自原片的对应文字示意字幕编排，不展示未经提供的界面。"
+            },
+            {
+              "location": "shot:4/block:1",
+              "text": "对照原声核对姓名与日期。字幕按意思分段，让每段文字跟随对应的讲述出现。"
+            },
+            {
+              "location": "shot:5/visual",
+              "text": "显示比例事实卡，纸上横屏与竖屏两个画框依次入镜，作为接下来检查构图的教学道具。"
+            },
+            {
+              "location": "shot:6/visual",
+              "text": "实习生查看交付要求，在纸上分别绘制同一原片的横屏和竖屏构图草图，依次圈出人物、资料和关键文字的位置；这是构图评估示意，不是软件界面演示。"
+            },
+            {
+              "location": "shot:6/block:1",
+              "text": "先按交付要求选比例，再检查原片构图：横屏留意人物与资料，竖屏检查关键文字是否完整。"
+            },
+            {
+              "location": "shot:7/visual",
+              "text": "按检查内容依次切换片段连接处、字幕核对处和选定比例的构图示意；实习生逐项核对纸面清单，结束在交接录像与清单同框的画面。"
+            },
+            {
+              "location": "shot:7/block:1",
+              "text": "交接前再看一遍：片段衔接是否清楚，字幕是否准确，选定比例下的信息有没有遗漏。"
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+        }
+      },
+      "decision_basis": "当前稿估时55.6秒已通过，需求审核仅因缺少时长依据存疑，保留原稿重试审核。",
+      "observation": {
+        "ok": true,
+        "script_hash": "3dd44e52419d4c22c7bfeef9ce9887b90646a7ce96c82dd1c789c5ba9e9bfba7",
+        "request_hash": "e649bd32b380ab985c81ac5b1dd8cb23cf20267ebcbd534e6731c545f0d4c7e9",
+        "passed": false,
+        "items": [
+          {
+            "field": "topic",
+            "requirement": "用一分钟左右",
+            "verdict": "uncertain",
+            "evidence": "已设置60秒目标；输入未包含实际时长核验结果，是否约一分钟交由独立时长工具确认。"
+          },
+          {
+            "field": "topic",
+            "requirement": "围绕现有录像",
+            "verdict": "met",
+            "evidence": "镜头1先播放现有录像并记录内容位置；镜头2至6围绕该原片安排片段、字幕和构图。"
+          },
+          {
+            "field": "topic",
+            "requirement": "字幕",
+            "verdict": "met",
+            "evidence": "镜头3介绍添加字幕和手动编辑文字；镜头4讲解核对姓名、日期及按语义分段。"
+          },
+          {
+            "field": "topic",
+            "requirement": "片段裁剪",
+            "verdict": "met",
+            "evidence": "镜头2介绍裁剪能力，并具体建议“保留前因后果，删去重复寒暄”。"
+          },
+          {
+            "field": "topic",
+            "requirement": "比例选择",
+            "verdict": "met",
+            "evidence": "镜头5介绍横屏与竖屏选项；镜头6说明按交付要求选比例，并检查人物、资料及关键文字是否完整。"
+          },
+          {
+            "field": "topic",
+            "requirement": "背景是工作交接",
+            "verdict": "met",
+            "evidence": "镜头1明确播放“工作交接录像”，旁白记录任务、负责人和截止时间；镜头7进行交接前复核。"
+          },
+          {
+            "field": "topic",
+            "requirement": "不要虚构按钮操作",
+            "verdict": "met",
+            "evidence": "全稿未出现按钮名称或具体软件操作步骤；镜头2、4、6使用纸条、字幕草稿及构图草图示意。"
+          },
+          {
+            "field": "topic",
+            "requirement": "不要同一画面无意义长停留",
+            "verdict": "met",
+            "evidence": "7个镜头的hold_seconds均为0，画面依次安排记录、圈选、核对、画分隔线及构图检查，没有额外长停留安排。"
+          },
+          {
+            "field": "audience",
+            "requirement": "工作室新来的运营实习生",
+            "verdict": "met",
+            "evidence": "镜头1以实习生接手录像切入，后续用纸面示意和具体检查项讲解，适合缺乏经验的运营新人。"
+          },
+          {
+            "field": "platform",
+            "requirement": "B站",
+            "verdict": "met",
+            "evidence": "采用中文旁白、事实卡和连续教学示意，标题明确说明内容，适合B站的短篇教程呈现。"
+          },
+          {
+            "field": "style",
+            "requirement": "教学式",
+            "verdict": "met",
+            "evidence": "镜头2至6分别介绍能力并给出取舍、字幕核对和构图检查方法，具有明确教学内容。"
+          },
+          {
+            "field": "style",
+            "requirement": "循序渐进",
+            "verdict": "met",
+            "evidence": "依次安排看原片、裁剪片段、添加与核对字幕、选择比例、交接前复核，步骤衔接清楚。"
+          }
+        ],
+        "summary": "内容要求均已落实，表达未发现超出资料的产品承诺，也未安排虚构按钮操作或无意义长停留。实际是否约一分钟仍需独立时长检查确认。",
+        "method": "model_assessment_not_deterministic_proof",
+        "expressions": [
+          {
+            "location": "title",
+            "text": "接手交接录像：片段、字幕与比例",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "标题概括教学场景与主题，没有性能、自动化或效果承诺。"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "播放现有工作交接录像，切到实习生边看边在纸上记录内容位置。所有文字块按顺序作为旁白；有来源的事实同时显示为事实卡，不另作一段静默阅读。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "描述观看、纸面记录及旁白与事实卡的呈现安排，没有新增产品能力声明。"
+          },
+          {
+            "location": "shot:1/block:1",
+            "text": "接手一段交接录像，先看原片，记下任务、负责人和截止时间出现的位置。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "要求观看者人工记录内容位置，未声称产品能够自动识别或提取交接事项。"
+          },
+          {
+            "location": "shot:2/visual",
+            "text": "先展示裁剪事实卡，再用标有录像内容的纸条示意片段取舍，依次圈出完整交代事项的部分和重复寒暄，不展示软件操作界面。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1"
+              }
+            ],
+            "evidence": "裁剪事实卡对应已支持的片段裁剪能力；纸条圈选是人工取舍示意，没有扩展为自动筛选或虚构操作。"
+          },
+          {
+            "location": "shot:2/block:2",
+            "text": "选出交代清楚的片段，保留前因后果，删去重复寒暄。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "提供人工剪辑取舍原则，没有声称产品能自动理解上下文或删除寒暄。"
+          },
+          {
+            "location": "shot:3/visual",
+            "text": "回到选出的交接录像片段，依旁白顺序展示两张字幕事实卡；随后切到实习生对照原声检查字幕草稿的近景。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ],
+            "evidence": "两张事实卡对应添加字幕、手动编辑字幕文字；后续由实习生人工核对，未增加自动生成或纠错承诺。"
+          },
+          {
+            "location": "shot:4/visual",
+            "text": "在纸面字幕草稿中依次核对原片提到的姓名和日期，再按语义画分隔线；切回录像，用来自原片的对应文字示意字幕编排，不展示未经提供的界面。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "描述纸面核对和字幕编排的教学示意，没有虚构产品界面、按钮或自动分段流程。"
+          },
+          {
+            "location": "shot:4/block:1",
+            "text": "对照原声核对姓名与日期。字幕按意思分段，让每段文字跟随对应的讲述出现。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "属于字幕内容与出现时机的编辑建议，未承诺产品自动识别、分段或同步字幕。"
+          },
+          {
+            "location": "shot:5/visual",
+            "text": "显示比例事实卡，纸上横屏与竖屏两个画框依次入镜，作为接下来检查构图的教学道具。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P03",
+                "fact_id": "P03.F1"
+              }
+            ],
+            "evidence": "比例事实卡及两个画框对应资料支持的横屏、竖屏选项，未增加其他比例或智能适配能力。"
+          },
+          {
+            "location": "shot:6/visual",
+            "text": "实习生查看交付要求，在纸上分别绘制同一原片的横屏和竖屏构图草图，依次圈出人物、资料和关键文字的位置；这是构图评估示意，不是软件界面演示。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "由实习生在纸上评估构图，没有声称产品自动重构画面、追踪人物或保全关键文字。"
+          },
+          {
+            "location": "shot:6/block:1",
+            "text": "先按交付要求选比例，再检查原片构图：横屏留意人物与资料，竖屏检查关键文字是否完整。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "给出比例选择与人工检查建议，没有保证转换比例后信息必然完整。"
+          },
+          {
+            "location": "shot:7/visual",
+            "text": "按检查内容依次切换片段连接处、字幕核对处和选定比例的构图示意；实习生逐项核对纸面清单，结束在交接录像与清单同框的画面。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "属于复核过程和收尾画面的拍摄安排，未声称产品具有自动质检功能。"
+          },
+          {
+            "location": "shot:7/block:1",
+            "text": "交接前再看一遍：片段衔接是否清楚，字幕是否准确，选定比例下的信息有没有遗漏。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "邀请操作者逐项检查，没有将准确性、衔接质量或信息完整性表述为产品保证。"
+          }
+        ],
+        "pacing": {
+          "verdict": "met",
+          "evidence": "7镜头hold_seconds均为0，镜头1明确旁白连续呈现、事实卡同步显示。镜头1观看并记录，镜头2圈选纸条，镜头3展示事实卡并核对草稿，镜头4核对与分段，镜头5展示两种画框，镜头6绘制并圈点构图，镜头7逐项复核；各镜头均有对应观察或动作，末尾复核有明确检查目的，未见重复事实或空镜凑时长。"
+        },
+        "expression_review_passed": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2be-23ef-7da1-b5b2-5ae434e8dfd2",
+        "usage": {
+          "input_tokens": 41507,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 351,
+          "reasoning_output_tokens": 284
+        }
+      },
+      "review_model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2be-95b6-74a3-b588-fabdd7850756",
+        "usage": {
+          "input_tokens": 28608,
+          "cached_input_tokens": 24576,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4300,
+          "reasoning_output_tokens": 1808
+        }
+      },
+      "elapsed_ms": 114594
+    },
+    {
+      "step": 7,
+      "action": "finish",
+      "arguments": {
+        "status": "blocked",
+        "message": "已保留7镜头稿，覆盖工作交接中的字幕、片段裁剪与比例选择，本次未删改。估算55.6秒，符合54—60秒要求，规则检查通过；但需求审核未收到时长依据，重试后仍未通过，暂不能宣称全部完成。需项目维护者将本稿时长检查结果传入需求审核，再重新核验。"
+      },
+      "decision_basis": "需求审核连续两次因缺少时长检查依据而未通过，当前动作无法修复审核输入。",
+      "observation": {
+        "ok": true,
+        "status": "blocked"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2bf-e40e-7ae3-8901-a6bd029750a8",
+        "usage": {
+          "input_tokens": 45949,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 531,
+          "reasoning_output_tokens": 385
+        }
+      },
+      "elapsed_ms": 25937
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T18:44:28.400916+00:00",
+    "finished_at": "2026-11-03T18:51:12.121459+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 7,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v3",
+    "requirements_review_context": "current_rules_check_v1",
+    "model_responses": 9
+  }
+}

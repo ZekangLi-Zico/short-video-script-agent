@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-cd7vlkap",
+  "started_at": "2026-11-03T21:43:02.534094+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:43:19.570478+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a35d-9b08-7b33-8ddf-9e5d7a14c0f3",
+    "usage": {
+      "input_tokens": 27037,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 141,
+      "reasoning_output_tokens": 76
+    },
+    "call_id": "decision-cd7vlkap",
+    "warnings": []
+  }
+}

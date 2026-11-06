@@ -1,0 +1,682 @@
+{
+  "checked_at": "2026-11-03T17:19:47.767068+00:00",
+  "preserved_files_checked": 1597,
+  "preserved_changed": [],
+  "frozen_cases_unchanged": true,
+  "runs_checked": 134,
+  "runs_passed": 134,
+  "runs": [
+    {
+      "run": "examples/mock/impossible_duration",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/mock/missing_information",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/mock/no_material",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/mock/normal",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/mock/over_duration",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/mock/recoverable_failure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/mock/rule_revision",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/mock/tool_failure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/impossible_duration",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/missing_information",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/no_material",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/normal",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/over_duration",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/recoverable_failure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/rule_revision",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/live/tool_failure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live/impossible_duration",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live/missing_information",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live/no_material",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live/normal",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live/over_duration",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live/recoverable_failure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live/rule_revision",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live/tool_failure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live-final/normal",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live-final/over_duration",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live-verified/impossible_duration",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live-verified/missing_information",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live-verified/no_material",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live-verified/normal",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live-verified/over_duration",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live-verified/recoverable_failure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live-verified/rule_revision",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/live-verified/tool_failure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock/impossible_duration",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock/missing_information",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock/no_material",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock/normal",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock/over_duration",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock/recoverable_failure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock/rule_revision",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock/tool_failure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock-final/impossible_duration",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock-final/missing_information",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock-final/no_material",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock-final/normal",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock-final/over_duration",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock-final/recoverable_failure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock-final/rule_revision",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/mock-final/tool_failure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/ui/T02",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/ui/T28",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/ui/T43",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "examples/repairs/ui-final/T43",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T01",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T02",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T03",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T04",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T05",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T06",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T07",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T08",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T09",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T10",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T11",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T12",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T13",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T14",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T15",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T16",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T17",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T18",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T19",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T20",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T21",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T22",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T23",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T24",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T25",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T26",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T27",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T28",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T29",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T30",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T31",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T32",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T33",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T34",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T35",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T36",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T37",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T38",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T39",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T40",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T41",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T42",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T43",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T44",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T45",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T46",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T47",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T48",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T49",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/realistic-50-20261103/runs/T50",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/final-real-acceptance/tool_failure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v2-comparison/N01",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v2-comparison/N02",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v2-comparison/N03",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v2-comparison/N04",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v3-attempt1/N01",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v3-attempt1/N02",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v3-attempt1/N03",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v3-attempt1/N04",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v3-attempt1/N05",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v3-attempt1/N06",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v3-attempt1/N07",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v3-attempt1/N08",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v3-attempt1/T02",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v3-attempt1/T28",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v3-attempt1/T39",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v3-attempt1/T43",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v3-scope-fix/N02",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/live-v3-scope-fix/N03",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/mock-acceptance/impossible_duration",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/mock-acceptance/missing_information",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/mock-acceptance/no_material",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/mock-acceptance/normal",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/mock-acceptance/over_duration",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/mock-acceptance/recoverable_failure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/mock-acceptance/rule_revision",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/mock-acceptance/tool_failure",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/ui-final/N02",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/ui-final/N02-clean",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "run": "evaluations/quality-v3-20261104/ui-final/N06",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "passed": true,
+  "scope": "File integrity, deterministic replay, review structure/hash and revision diff consistency; not semantic truth or remote model authentication."
+}

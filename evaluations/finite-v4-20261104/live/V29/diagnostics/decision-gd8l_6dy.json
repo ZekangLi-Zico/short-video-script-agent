@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-gd8l_6dy",
+  "started_at": "2026-11-03T20:08:11.722319+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:08:27.219386+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a306-c4a5-7482-9add-e011ee912471",
+    "usage": {
+      "input_tokens": 31257,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 116,
+      "reasoning_output_tokens": 56
+    },
+    "call_id": "decision-gd8l_6dy",
+    "warnings": []
+  }
+}

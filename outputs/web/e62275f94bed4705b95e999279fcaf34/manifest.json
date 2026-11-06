@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-11-03T14:50:13.650680+00:00",
+  "finished_at": "2026-11-03T14:51:32.302725+00:00",
+  "provider": "codex",
+  "evidence_kind": "real_model",
+  "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+  "max_steps": 12,
+  "steps": 5,
+  "synthetic_data": true,
+  "model_responses": 5,
+  "fault_injection": {}
+}

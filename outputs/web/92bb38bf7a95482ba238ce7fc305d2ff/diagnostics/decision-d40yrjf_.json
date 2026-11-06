@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-d40yrjf_",
+  "started_at": "2026-11-04T01:39:15.924204+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:39:45.778259+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a435-e237-77e2-9ca8-f0eb7b2148fb",
+    "usage": {
+      "input_tokens": 27198,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 327,
+      "reasoning_output_tokens": 223
+    },
+    "call_id": "decision-d40yrjf_",
+    "warnings": []
+  }
+}

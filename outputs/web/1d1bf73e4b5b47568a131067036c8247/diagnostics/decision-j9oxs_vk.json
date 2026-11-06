@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-j9oxs_vk",
+  "started_at": "2026-11-04T01:05:07.695869+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:06:25.677245+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a416-9e9f-71e1-9d94-71c310a845a3",
+    "usage": {
+      "input_tokens": 28308,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3348,
+      "reasoning_output_tokens": 1482
+    },
+    "call_id": "decision-j9oxs_vk",
+    "warnings": []
+  }
+}

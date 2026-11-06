@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-20ilpykp",
+  "started_at": "2026-11-04T15:51:23.582385+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:53:34.188872+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a742-0c9e-73d1-b9ab-503e8b3b52e1",
+    "usage": {
+      "input_tokens": 28742,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2661,
+      "reasoning_output_tokens": 957
+    },
+    "call_id": "decision-20ilpykp",
+    "warnings": []
+  }
+}

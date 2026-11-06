@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-gaz4rb2z",
+  "started_at": "2026-11-03T20:40:00.293945+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:40:14.688832+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a323-e3fb-7983-802a-34e032b628bc",
+    "usage": {
+      "input_tokens": 33866,
+      "cached_input_tokens": 9600,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 115,
+      "reasoning_output_tokens": 51
+    },
+    "call_id": "decision-gaz4rb2z",
+    "warnings": []
+  }
+}

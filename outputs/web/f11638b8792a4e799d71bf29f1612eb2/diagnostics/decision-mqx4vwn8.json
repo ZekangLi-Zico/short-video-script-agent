@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-mqx4vwn8",
+  "started_at": "2026-11-05T17:55:35.315852+00:00",
+  "response_received": false,
+  "error_code": "codex_timeout",
+  "finished_at": "2026-11-05T17:58:36.876059+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": null,
+    "usage": {},
+    "call_id": "decision-mqx4vwn8",
+    "warnings": [],
+    "recovered_attempts": [
+      {
+        "error_code": "codex_timeout",
+        "call_id": "decision-ewwm0bm8"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "port": 8824,
+  "submitted_at": "2026-11-04T15:22:28.068Z",
+  "fields": {
+    "audience": "不想出镜的知识分享者",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "4b1e45184a504278a6a7e69c5b50e4d8",
+    "initial-script": "",
+    "platform": "小红书",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "陈述式，安静",
+    "target-seconds": "18",
+    "topic": "介绍手动编辑字幕文字，全部画面只用键盘、便签和空白笔记本，不出现人物、人物照片或手机界面。不使用问句开场。"
+  }
+}

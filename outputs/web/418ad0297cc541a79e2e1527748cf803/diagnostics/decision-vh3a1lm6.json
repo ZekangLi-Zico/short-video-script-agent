@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-vh3a1lm6",
+  "started_at": "2026-11-04T00:56:39.952580+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T00:56:52.575624+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a40e-df10-7d11-91c5-6a1f4a7528ee",
+    "usage": {
+      "input_tokens": 29918,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 127,
+      "reasoning_output_tokens": 73
+    },
+    "call_id": "decision-vh3a1lm6",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-0h_hzxio",
+  "started_at": "2026-11-03T22:14:31.546923+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:15:30.710054+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a37a-6ec4-7461-9e70-9e47f9d172d0",
+    "usage": {
+      "input_tokens": 27707,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2164,
+      "reasoning_output_tokens": 1254
+    },
+    "call_id": "decision-0h_hzxio",
+    "warnings": []
+  }
+}

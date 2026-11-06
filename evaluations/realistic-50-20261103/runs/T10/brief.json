@@ -1,0 +1,16 @@
+{
+  "id": "T10",
+  "name": "家庭记录",
+  "context": "家庭录像拍摄者同时需要裁剪和比例选择。",
+  "request": {
+    "topic": "以整理家庭生活录像为背景介绍裁剪片段与横竖屏比例选项，不涉及孩子隐私和人脸识别。",
+    "audience": "记录生活的家庭用户",
+    "platform": "视频号",
+    "style": "温暖、通俗",
+    "product_id": "demo-editor",
+    "target_seconds": 30
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

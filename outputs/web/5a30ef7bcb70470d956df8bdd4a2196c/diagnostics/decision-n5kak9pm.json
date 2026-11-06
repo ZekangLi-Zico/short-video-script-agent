@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-n5kak9pm",
+  "started_at": "2026-11-03T21:59:32.143990+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:59:58.233636+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a36c-b464-75f3-a1d9-a52d8e045166",
+    "usage": {
+      "input_tokens": 27081,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 516,
+      "reasoning_output_tokens": 406
+    },
+    "call_id": "decision-n5kak9pm",
+    "warnings": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "N02",
+  "status": "completed",
+  "steps": 6,
+  "model_responses": 7,
+  "duration": 23.5,
+  "path": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "check_requirements",
+    "finish"
+  ],
+  "message": "已完成三镜头交接脚本：开场介绍社区旧物交换，中段分别介绍裁剪片段和手动编辑字幕，结尾回到交换现场，无节省时间承诺。当前稿无需删改，三项检查均通过；估算23.5秒，符合22.5至25秒要求，实际时长以成片为准。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

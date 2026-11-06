@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-j6fnibre",
+  "started_at": "2026-11-03T23:15:34.118416+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:15:50.830679+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3b2-537f-7c80-a144-bccabf0b8f14",
+    "usage": {
+      "input_tokens": 27371,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 290,
+      "reasoning_output_tokens": 223
+    },
+    "call_id": "decision-j6fnibre",
+    "warnings": []
+  }
+}

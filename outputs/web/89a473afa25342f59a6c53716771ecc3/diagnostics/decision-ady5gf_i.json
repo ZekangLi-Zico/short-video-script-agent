@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ady5gf_i",
+  "started_at": "2026-11-04T15:49:01.763624+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:50:28.038744+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a73f-df08-72b3-9713-7b9e893fdff4",
+    "usage": {
+      "input_tokens": 27881,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1248,
+      "reasoning_output_tokens": 877
+    },
+    "call_id": "decision-ady5gf_i",
+    "warnings": []
+  }
+}

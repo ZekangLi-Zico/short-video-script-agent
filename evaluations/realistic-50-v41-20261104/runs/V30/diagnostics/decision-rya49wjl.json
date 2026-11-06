@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-rya49wjl",
+  "started_at": "2026-11-04T01:31:06.451754+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:31:56.050786+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a42e-6a0e-79f2-aaa7-0a2a58c07708",
+    "usage": {
+      "input_tokens": 27918,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1166,
+      "reasoning_output_tokens": 833
+    },
+    "call_id": "decision-rya49wjl",
+    "warnings": []
+  }
+}

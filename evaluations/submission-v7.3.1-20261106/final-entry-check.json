@@ -1,0 +1,16 @@
+{
+  "reports": [
+    {
+      "path": "outputs/evidence-audit/audit-20261105T211218417857Z.json",
+      "runs_checked": 20,
+      "passed": true
+    },
+    {
+      "path": "outputs/evidence-audit/audit-20261105T211218372544Z.json",
+      "runs_checked": 4,
+      "passed": true
+    }
+  ],
+  "diff_check_exit_code": 0,
+  "passed": true
+}

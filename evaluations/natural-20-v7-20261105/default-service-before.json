@@ -1,0 +1,6 @@
+{
+  "previous_pid": 35564,
+  "previous_idle": true,
+  "previous_version": null,
+  "command": "\"USER_HOME\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" -X utf8 -m src.web --port 8765"
+}

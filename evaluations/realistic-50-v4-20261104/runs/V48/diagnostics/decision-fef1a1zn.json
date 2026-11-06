@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-fef1a1zn",
+  "started_at": "2026-11-03T22:18:53.606254+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:19:08.007750+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a37e-6f22-71c2-9c76-d91d0da7e110",
+    "usage": {
+      "input_tokens": 27399,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 153,
+      "reasoning_output_tokens": 93
+    },
+    "call_id": "decision-fef1a1zn",
+    "warnings": []
+  }
+}

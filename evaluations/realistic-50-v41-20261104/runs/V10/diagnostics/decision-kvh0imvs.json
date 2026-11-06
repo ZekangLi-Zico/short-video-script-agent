@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-kvh0imvs",
+  "started_at": "2026-11-04T01:12:33.197760+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:13:39.868625+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a41d-6a79-7d93-9ce6-513f3760aa6e",
+    "usage": {
+      "input_tokens": 28034,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2772,
+      "reasoning_output_tokens": 1402
+    },
+    "call_id": "decision-kvh0imvs",
+    "warnings": []
+  }
+}

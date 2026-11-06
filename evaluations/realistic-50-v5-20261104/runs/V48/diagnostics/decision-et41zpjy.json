@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-et41zpjy",
+  "started_at": "2026-11-04T16:09:09.985121+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:10:14.121109+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a752-4ae4-73f2-8e52-d46ef203fffa",
+    "usage": {
+      "input_tokens": 29040,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1267,
+      "reasoning_output_tokens": 818
+    },
+    "call_id": "decision-et41zpjy",
+    "warnings": []
+  }
+}

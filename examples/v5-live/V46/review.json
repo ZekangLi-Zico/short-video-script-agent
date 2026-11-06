@@ -1,0 +1,8 @@
+{
+  "case": "V46",
+  "assessment": "改进",
+  "note": "在规则指出风险后删除识别能力与99%准确率，把第二镜改为逐字核对，为第三镜改错字建立原因；保留三镜和原标题，24秒达标。旧版删成两镜并因空镜返工，响应14降至9；新版仍有一次空文案块格式错误后恢复，第二镜文案偏泛。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

@@ -1,0 +1,25 @@
+{
+  "status": "needs_input",
+  "message": "目前可确定温暖生活化的方向：以附近上班族周末路过“晨光面包房”、挑选面包的场景串联，控制在25秒内。检索未找到新品资料，尚不能完成有依据的新品介绍。请补充至少一款新品的名称及一条真实特点（如口感或主要原料）；价格仅在需要展示时补充。",
+  "script": null,
+  "duration": null,
+  "rules_check": null,
+  "requirements_check": null,
+  "sources": [],
+  "metadata": {
+    "started_at": "2026-11-04T17:43:08.668589+00:00",
+    "finished_at": "2026-11-04T17:43:46.439286+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 2,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v6",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+    "model_responses": 2,
+    "run_id": "c9406156b9354666bebaf6946defccb7",
+    "persistence": "checkpoint_v1"
+  }
+}

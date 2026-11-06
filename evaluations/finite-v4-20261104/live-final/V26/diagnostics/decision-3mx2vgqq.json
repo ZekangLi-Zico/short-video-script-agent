@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-3mx2vgqq",
+  "started_at": "2026-11-03T20:21:01.492436+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:21:19.048063+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a312-87a4-7f83-bb73-b6948bce9b4f",
+    "usage": {
+      "input_tokens": 28180,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 155,
+      "reasoning_output_tokens": 98
+    },
+    "call_id": "decision-3mx2vgqq",
+    "warnings": []
+  }
+}

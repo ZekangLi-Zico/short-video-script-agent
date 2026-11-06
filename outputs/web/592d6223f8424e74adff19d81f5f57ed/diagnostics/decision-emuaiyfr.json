@@ -1,0 +1,24 @@
+{
+  "call_id": "decision-emuaiyfr",
+  "started_at": "2026-11-04T15:47:55.178635+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "cleanup_error_type": "PermissionError",
+  "finished_at": "2026-11-04T15:49:01.129078+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a73e-dd75-79e3-9afd-725d37ef24d9",
+    "usage": {
+      "input_tokens": 28050,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1225,
+      "reasoning_output_tokens": 849
+    },
+    "call_id": "decision-emuaiyfr",
+    "warnings": [
+      "cleanup_deferred"
+    ]
+  }
+}

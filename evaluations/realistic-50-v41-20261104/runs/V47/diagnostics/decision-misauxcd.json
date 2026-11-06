@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-misauxcd",
+  "started_at": "2026-11-04T01:44:25.099910+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:44:46.373132+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a43a-990f-7263-8c61-7d0e2c39beda",
+    "usage": {
+      "input_tokens": 28297,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 172,
+      "reasoning_output_tokens": 112
+    },
+    "call_id": "decision-misauxcd",
+    "warnings": []
+  }
+}

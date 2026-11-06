@@ -1,0 +1,109 @@
+{
+  "case": "T03",
+  "name": "餐饮菜单字幕",
+  "run_id": "765b5f1594e5413289ef4dfedbd76303",
+  "status": "needs_input",
+  "message": "现稿估算17秒，时长和规则检查均通过，但未体现餐饮门店拍菜单介绍视频的场景。请在 brand_rules.creative_copy 和 visuals 中补充获准使用的菜单场景文案与画面，以便保留现有结构并针对性修订。",
+  "steps": 6,
+  "model_calls": 6,
+  "seconds": 17.0,
+  "target_seconds": 20,
+  "rules_passed": true,
+  "shots": 4,
+  "title": "字幕，让表达被看见",
+  "citations": [
+    "P01.F1",
+    "P01.F2"
+  ],
+  "script_lines": [
+    "从一段日常记录开始。",
+    "剪影练习版支持为视频添加字幕。",
+    "字幕文字可以手动编辑。",
+    "把想说的话，放进画面里。"
+  ],
+  "actions": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "剪影练习版 demo-editor 字幕文字编辑功能 餐饮门店 菜单介绍视频",
+    "餐饮门店 菜单介绍视频 菜名字幕 手动修改字幕文字 应用场景"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前没有可引用的产品事实，需检索字幕文字编辑素材。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "basis": "已检索到添加字幕和手动编辑文字的事实，可组合为四镜头脚本。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "basis": "当前稿尚无时长检查结果，需确认是否符合20秒上限。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": 17.0,
+      "issues": null
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "basis": "当前稿估算17秒，符合20秒上限，尚需规则检查。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": null,
+      "issues": []
+    },
+    {
+      "step": 5,
+      "action": "search_materials",
+      "basis": "现稿已通过检查，但未体现餐饮门店拍菜单介绍视频的场景，需补充相关素材。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 6,
+      "action": "finish",
+      "basis": "补充检索仅返回通用字幕事实，批准文案和画面缺少菜单介绍场景。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 153.9,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "1dc163b66027fb054ced72a32b646f6f742f511c5a695a8920094460b721b8e7",
+    "output.json": "0c84b4b6c4da9f83ceac36e95e15cf85905ab0e00c2974c7a2846d7e08c8ea31",
+    "trace.jsonl": "fab60340fb18f95149645bad658ba1861e9d11f9e8407eb9e8199ba5e1eace0c",
+    "manifest.json": "2d352171534b887c36af09b16e44a1007558f980108a39d2fc03608137cf8462",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "08f13b460abe56b6224449efe11871faaddd4bcd3888775dfbd2d4a8562e3d66"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-fogw5hb9",
+  "started_at": "2026-11-03T21:28:08.359378+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:29:02.804049+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a34f-f810-7e53-bfd2-141e81be596c",
+    "usage": {
+      "input_tokens": 27899,
+      "cached_input_tokens": 9600,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1934,
+      "reasoning_output_tokens": 516
+    },
+    "call_id": "decision-fogw5hb9",
+    "warnings": []
+  }
+}

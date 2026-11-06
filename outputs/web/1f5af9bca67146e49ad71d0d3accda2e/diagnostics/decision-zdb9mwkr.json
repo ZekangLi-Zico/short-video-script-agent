@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-zdb9mwkr",
+  "started_at": "2026-11-03T21:44:22.361840+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:44:33.750497+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a35e-d221-7c01-9742-41ebe3599a71",
+    "usage": {
+      "input_tokens": 29570,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 113,
+      "reasoning_output_tokens": 57
+    },
+    "call_id": "decision-zdb9mwkr",
+    "warnings": []
+  }
+}

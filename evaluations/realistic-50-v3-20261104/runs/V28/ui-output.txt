@@ -1,0 +1,3282 @@
+{
+  "status": "completed",
+  "message": "已完成六镜头脚本，以社区分享会素材串联字幕添加、手动改字、片段裁剪和横竖屏比例，未重复产品句子凑时长。修订仅明确各镜头展示时间，保留标题、画面、文案及顺序。当前稿三项检查均通过，估算44.1秒，符合40.5—45秒目标范围；实际成片时长仍需结合配音复核。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "把一场社区分享会整理成短片",
+    "shots": [
+      {
+        "visual": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。",
+        "hold_seconds": 6.3,
+        "blocks": [
+          {
+            "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "先看讲者发言，把想呈现的话放进字幕。",
+            "source_id": "",
+            "fact_id": ""
+          },
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。",
+        "hold_seconds": 6.8,
+        "blocks": [
+          {
+            "text": "遇到人名、地名，拿活动名单逐字核对。",
+            "source_id": "",
+            "fact_id": ""
+          },
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      },
+      {
+        "visual": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "开场前的等待，要留下多少？回看后再决定。",
+            "source_id": "",
+            "fact_id": ""
+          },
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ]
+      },
+      {
+        "visual": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。",
+        "hold_seconds": 10,
+        "blocks": [
+          {
+            "text": "最后看构图：讲者近景和会场全景，各试一种比例。",
+            "source_id": "",
+            "fact_id": ""
+          },
+          {
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          }
+        ]
+      },
+      {
+        "visual": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。",
+        "hold_seconds": 5,
+        "blocks": [
+          {
+            "text": "顺着发言与现场画面，再回看一遍活动记录。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "2d65c0d770fe9429b594193d9693e55f14cdc4b8993f69aeaef3f653798f8f48",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 23,
+        "estimated_seconds": 6.3
+      },
+      {
+        "shot": 2,
+        "speech_units": 30,
+        "estimated_seconds": 8
+      },
+      {
+        "shot": 3,
+        "speech_units": 25,
+        "estimated_seconds": 6.8
+      },
+      {
+        "shot": 4,
+        "speech_units": 30,
+        "estimated_seconds": 8
+      },
+      {
+        "shot": 5,
+        "speech_units": 38,
+        "estimated_seconds": 10
+      },
+      {
+        "shot": 6,
+        "speech_units": 18,
+        "estimated_seconds": 5
+      }
+    ],
+    "total_seconds": 44.1,
+    "target_seconds": 45,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true,
+    "duration_mode": "target",
+    "min_seconds": 40.5,
+    "max_seconds": 45,
+    "issue": null
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "2d65c0d770fe9429b594193d9693e55f14cdc4b8993f69aeaef3f653798f8f48",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:2",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:3/block:2",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:4/block:2",
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:5/block:2",
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "把一场社区分享会整理成短片"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "先看讲者发言，把想呈现的话放进字幕。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "遇到人名、地名，拿活动名单逐字核对。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。"
+      },
+      {
+        "location": "shot:4/block:1",
+        "text": "开场前的等待，要留下多少？回看后再决定。"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。"
+      },
+      {
+        "location": "shot:5/block:1",
+        "text": "最后看构图：讲者近景和会场全景，各试一种比例。"
+      },
+      {
+        "location": "shot:6/visual",
+        "text": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。"
+      },
+      {
+        "location": "shot:6/block:1",
+        "text": "顺着发言与现场画面，再回看一遍活动记录。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "2d65c0d770fe9429b594193d9693e55f14cdc4b8993f69aeaef3f653798f8f48",
+    "request_hash": "70d5602bff2600f2b07b038e9e00fce28d2b512a37d54ffc1f3b1c03859acf37",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "接近45秒",
+        "verdict": "met",
+        "evidence": "6个镜头标注的hold_seconds合计44.1秒，覆盖接近45秒的编排目标；实际时长由确定性工具检查。"
+      },
+      {
+        "field": "topic",
+        "requirement": "字幕添加",
+        "verdict": "met",
+        "evidence": "镜头2展示讲者发言配字幕，旁白明确介绍“剪影练习版支持为视频添加字幕。”"
+      },
+      {
+        "field": "topic",
+        "requirement": "手动改字",
+        "verdict": "met",
+        "evidence": "镜头3展示核对姓名及文字修改前后差异，旁白明确说明“字幕文字可以手动编辑。”"
+      },
+      {
+        "field": "topic",
+        "requirement": "片段裁剪",
+        "verdict": "met",
+        "evidence": "镜头4以发言前的等待为例展示裁剪前后对照，旁白为“剪影练习版支持裁剪视频片段。”"
+      },
+      {
+        "field": "topic",
+        "requirement": "横竖屏比例",
+        "verdict": "met",
+        "evidence": "镜头5先后展示讲者近景的竖屏构图与会场全景的横屏构图，并介绍横屏和竖屏画面比例选项。"
+      },
+      {
+        "field": "topic",
+        "requirement": "以整理一场社区分享会素材串联",
+        "verdict": "met",
+        "evidence": "镜头1从分享会散场后整理素材开始；镜头2至5持续使用讲者发言、活动名单、发言前等待和会场全景；镜头6回看活动记录，场景贯穿全片。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不重复相同产品句子填时间",
+        "verdict": "met",
+        "evidence": "四条产品功能句分别在镜头2至5出现一次；镜头6安排人工回看，没有再次朗读产品功能句。"
+      },
+      {
+        "field": "audience",
+        "requirement": "第一次接触视频编辑的展位访客",
+        "verdict": "met",
+        "evidence": "开场说明“我们分四步来看”，用添加字幕、核对名字、删减等待和比较构图等具体示例解释功能，不依赖专业术语或既有编辑经验。"
+      },
+      {
+        "field": "platform",
+        "requirement": "视频号",
+        "verdict": "met",
+        "evidence": "脚本采用短分镜、连贯的社区活动场景和旁白同步字幕，适合视频号短视频观看，未见明显平台适配冲突。"
+      },
+      {
+        "field": "style",
+        "requirement": "耐心",
+        "verdict": "met",
+        "evidence": "镜头3引导“逐字核对”，镜头4提示“回看后再决定”，镜头2和5安排字幕阅读与构图观察，语气平和。"
+      },
+      {
+        "field": "style",
+        "requirement": "条理清楚",
+        "verdict": "met",
+        "evidence": "开场预告四步，镜头2至5依次标明第一步至第四步，每步对应一项功能，镜头6回看收束。"
+      }
+    ],
+    "summary": "需求均已覆盖。四项功能贯穿社区分享会素材整理，未重复产品句子凑时长；产品能力表达有资料支持，各镜头停留有相应内容支撑。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "把一场社区分享会整理成短片",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "标题说明素材整理的叙事目标，没有承诺自动成片或具体产品效果。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "内容为社区活动背景、人工查看素材及旁白字幕的制作安排，没有声称产品自动处理素材或提供特定界面。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "交代场景并引出四步讲解，不包含可验证的产品能力或效果承诺。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "示意视频添加字幕，由P01.F1支持；字幕位置是成片画面安排，没有声称自动语音识别，也没有虚构产品按钮或操作路径。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "先看讲者发言，把想呈现的话放进字幕。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "将选定文字添加为视频字幕属于P01.F1支持的字幕添加能力，未引入自动转写等额外能力。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ],
+        "evidence": "修改前后文字示意由P01.F2的手动编辑能力支持；名单核对由整理者完成，虚构名单用于示例，没有声称真实客户使用或自动纠错。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "遇到人名、地名，拿活动名单逐字核对。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "这是人工核对文字的建议，没有声称产品能够识别人名、地名或读取名单。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ],
+        "evidence": "裁剪片段的前后对照由P02.F1支持；保留发言开头是人工剪辑选择，没有承诺自动识别等待或自动选择裁剪位置。"
+      },
+      {
+        "location": "shot:4/block:1",
+        "text": "开场前的等待，要留下多少？回看后再决定。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "引导整理者回看并决定素材取舍，不包含自动剪辑或效果保证。"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          }
+        ],
+        "evidence": "横屏与竖屏比例示意由P03.F1支持；人物和环境的取景比较属于画面安排，未扩展为自动适配、智能构图或具体比例数值。"
+      },
+      {
+        "location": "shot:5/block:1",
+        "text": "最后看构图：讲者近景和会场全景，各试一种比例。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          }
+        ],
+        "evidence": "结合本镜头的横竖屏示意，“各试一种比例”由P03.F1提供两类画面比例选项支持，没有承诺任意比例或自动构图。"
+      },
+      {
+        "location": "shot:6/visual",
+        "text": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "安排整理者人工回看与检查，并指定收尾画面，没有声称产品执行自动检查或提供额外功能。"
+      },
+      {
+        "location": "shot:6/block:1",
+        "text": "顺着发言与现场画面，再回看一遍活动记录。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于人工回看的行动建议与收尾连接语，没有新增产品能力声明。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "镜头1用6.3秒交代活动场景及四步结构；镜头2用8秒承载两句旁白并阅读字幕；镜头3用6.8秒核对名字及观察一处改字差异；镜头4用8秒回看等待与发言并比较裁剪前后；镜头5用10秒朗读两句旁白、先后观察横竖屏构图；镜头6用5秒配合收尾旁白回看成片。各镜头旁白长度与停留基本相称，较长镜头有明确观察任务，未见重复同一事实或空镜凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "arguments": {
+        "query": "demo-editor：字幕添加、手动修改字幕文字、视频片段裁剪、横竖屏画面比例调整的产品事实，用于串联整理一场社区分享会素材的介绍。",
+        "product_id": "demo-editor"
+      },
+      "decision_basis": "当前没有素材，需要先获取四项功能的可引用事实。",
+      "observation": {
+        "ok": true,
+        "query": "demo-editor：字幕添加、手动修改字幕文字、视频片段裁剪、横竖屏画面比例调整的产品事实，用于串联整理一场社区分享会素材的介绍。",
+        "product_id": "demo-editor",
+        "materials": [
+          {
+            "id": "P02",
+            "product_id": "demo-editor",
+            "title": "剪辑功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "剪辑",
+              "裁剪",
+              "片段",
+              "trim",
+              "edit"
+            ],
+            "facts": [
+              {
+                "id": "P02.F1",
+                "text": "剪影练习版支持裁剪视频片段。"
+              }
+            ]
+          },
+          {
+            "id": "P03",
+            "product_id": "demo-editor",
+            "title": "画面比例说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "比例",
+              "竖屏",
+              "横屏",
+              "画面",
+              "aspect"
+            ],
+            "facts": [
+              {
+                "id": "P03.F1",
+                "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+              }
+            ]
+          },
+          {
+            "id": "P01",
+            "product_id": "demo-editor",
+            "title": "字幕功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "字幕",
+              "口播",
+              "文字",
+              "caption",
+              "subtitle"
+            ],
+            "facts": [
+              {
+                "id": "P01.F1",
+                "text": "剪影练习版支持为视频添加字幕。"
+              },
+              {
+                "id": "P01.F2",
+                "text": "字幕文字可以手动编辑。"
+              }
+            ]
+          }
+        ],
+        "count": 3
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b7-7cd8-70b0-9b6a-37dba693b2c4",
+        "usage": {
+          "input_tokens": 27047,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 186,
+          "reasoning_output_tokens": 92
+        }
+      },
+      "elapsed_ms": 16734
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "arguments": {
+        "script": {
+          "title": "把一场社区分享会整理成短片",
+          "shots": [
+            {
+              "visual": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "先看讲者发言，把想呈现的话放进字幕。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "遇到人名、地名，拿活动名单逐字核对。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "开场前的等待，要留下多少？回看后再决定。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "最后看构图：讲者近景和会场全景，各试一种比例。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "顺着发言与现场画面，再回看一遍活动记录。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision_basis": "四项功能均已有可引用事实，以整理社区分享会素材串联六个镜头。",
+      "observation": {
+        "ok": true,
+        "script_hash": "c7e5ebcf278ff27052d225f3fa2c6e32696e3b2964b65655d306661193f483df",
+        "revision": {
+          "before_hash": null,
+          "after_hash": "c7e5ebcf278ff27052d225f3fa2c6e32696e3b2964b65655d306661193f483df",
+          "changed_fields": [
+            "script:new"
+          ],
+          "unchanged_shots": 0,
+          "unchanged_blocks": 0,
+          "feedback": [],
+          "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+        },
+        "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b7-c0f2-74f1-8029-57315eeece73",
+        "usage": {
+          "input_tokens": 27781,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2147,
+          "reasoning_output_tokens": 1448
+        }
+      },
+      "elapsed_ms": 75063
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "把一场社区分享会整理成短片",
+          "shots": [
+            {
+              "visual": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "先看讲者发言，把想呈现的话放进字幕。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "遇到人名、地名，拿活动名单逐字核对。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "开场前的等待，要留下多少？回看后再决定。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "最后看构图：讲者近景和会场全景，各试一种比例。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "顺着发言与现场画面，再回看一遍活动记录。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "target_seconds": 45,
+        "duration_mode": "target"
+      },
+      "decision_basis": "当前稿尚未估时，先核对是否达到40.5至45秒的目标范围。",
+      "observation": {
+        "ok": true,
+        "script_hash": "c7e5ebcf278ff27052d225f3fa2c6e32696e3b2964b65655d306661193f483df",
+        "shots": [
+          {
+            "shot": 1,
+            "speech_units": 23,
+            "estimated_seconds": 6.3
+          },
+          {
+            "shot": 2,
+            "speech_units": 30,
+            "estimated_seconds": 8
+          },
+          {
+            "shot": 3,
+            "speech_units": 25,
+            "estimated_seconds": 6.8
+          },
+          {
+            "shot": 4,
+            "speech_units": 30,
+            "estimated_seconds": 8
+          },
+          {
+            "shot": 5,
+            "speech_units": 38,
+            "estimated_seconds": 10
+          },
+          {
+            "shot": 6,
+            "speech_units": 18,
+            "estimated_seconds": 5
+          }
+        ],
+        "total_seconds": 44.1,
+        "target_seconds": 45,
+        "passed": true,
+        "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+        "is_estimate": true,
+        "duration_mode": "target",
+        "min_seconds": 40.5,
+        "max_seconds": 45,
+        "issue": null
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b8-e478-79f3-a508-288bc01a67e8",
+        "usage": {
+          "input_tokens": 28763,
+          "cached_input_tokens": 13696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 133,
+          "reasoning_output_tokens": 76
+        }
+      },
+      "elapsed_ms": 13640
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "arguments": {
+        "script": {
+          "title": "把一场社区分享会整理成短片",
+          "shots": [
+            {
+              "visual": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "先看讲者发言，把想呈现的话放进字幕。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "遇到人名、地名，拿活动名单逐字核对。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "开场前的等待，要留下多少？回看后再决定。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "最后看构图：讲者近景和会场全景，各试一种比例。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "顺着发言与现场画面，再回看一遍活动记录。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "retrieved_ids": [
+          "P01",
+          "P02",
+          "P03"
+        ],
+        "expression_mode": "creative"
+      },
+      "decision_basis": "当前稿估时44.1秒，已达目标范围，尚需检查事实引用和公开表达规则。",
+      "observation": {
+        "ok": true,
+        "script_hash": "c7e5ebcf278ff27052d225f3fa2c6e32696e3b2964b65655d306661193f483df",
+        "passed": true,
+        "issues": [],
+        "citations": [
+          {
+            "location": "shot:2/block:2",
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "location": "shot:3/block:2",
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          },
+          {
+            "location": "shot:4/block:2",
+            "source_id": "P02",
+            "fact_id": "P02.F1",
+            "quote": "剪影练习版支持裁剪视频片段。",
+            "version": "2026-11-01"
+          },
+          {
+            "location": "shot:5/block:2",
+            "source_id": "P03",
+            "fact_id": "P03.F1",
+            "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "version": "2026-11-01"
+          }
+        ],
+        "rules_version": "2026-11-03-v1",
+        "requires_expression_review": true,
+        "expression_slots": [
+          {
+            "location": "title",
+            "text": "把一场社区分享会整理成短片"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。"
+          },
+          {
+            "location": "shot:1/block:1",
+            "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。"
+          },
+          {
+            "location": "shot:2/visual",
+            "text": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。"
+          },
+          {
+            "location": "shot:2/block:1",
+            "text": "先看讲者发言，把想呈现的话放进字幕。"
+          },
+          {
+            "location": "shot:3/visual",
+            "text": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。"
+          },
+          {
+            "location": "shot:3/block:1",
+            "text": "遇到人名、地名，拿活动名单逐字核对。"
+          },
+          {
+            "location": "shot:4/visual",
+            "text": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。"
+          },
+          {
+            "location": "shot:4/block:1",
+            "text": "开场前的等待，要留下多少？回看后再决定。"
+          },
+          {
+            "location": "shot:5/visual",
+            "text": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。"
+          },
+          {
+            "location": "shot:5/block:1",
+            "text": "最后看构图：讲者近景和会场全景，各试一种比例。"
+          },
+          {
+            "location": "shot:6/visual",
+            "text": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。"
+          },
+          {
+            "location": "shot:6/block:1",
+            "text": "顺着发言与现场画面，再回看一遍活动记录。"
+          }
+        ],
+        "available_facts": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1",
+            "quote": "剪影练习版支持裁剪视频片段。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P03",
+            "fact_id": "P03.F1",
+            "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "version": "2026-11-01"
+          }
+        ],
+        "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b9-1a8c-7e33-b9b1-bf3be1823695",
+        "usage": {
+          "input_tokens": 30784,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 119,
+          "reasoning_output_tokens": 60
+        }
+      },
+      "elapsed_ms": 14594
+    },
+    {
+      "step": 5,
+      "action": "check_requirements",
+      "arguments": {
+        "script": {
+          "title": "把一场社区分享会整理成短片",
+          "shots": [
+            {
+              "visual": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "先看讲者发言，把想呈现的话放进字幕。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "遇到人名、地名，拿活动名单逐字核对。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "开场前的等待，要留下多少？回看后再决定。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "最后看构图：讲者近景和会场全景，各试一种比例。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "顺着发言与现场画面，再回看一遍活动记录。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "request": {
+          "topic": "接近45秒介绍字幕添加、手动改字、片段裁剪、横竖屏比例。以整理一场社区分享会素材串联，不重复相同产品句子填时间。",
+          "audience": "第一次接触视频编辑的展位访客",
+          "platform": "视频号",
+          "style": "耐心，条理清楚",
+          "product_id": "demo-editor",
+          "duration_mode": "target",
+          "expression_mode": "creative",
+          "target_seconds": 45
+        },
+        "rules_check": {
+          "ok": true,
+          "script_hash": "c7e5ebcf278ff27052d225f3fa2c6e32696e3b2964b65655d306661193f483df",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:2/block:2",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:3/block:2",
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:4/block:2",
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:5/block:2",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "把一场社区分享会整理成短片"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "先看讲者发言，把想呈现的话放进字幕。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "遇到人名、地名，拿活动名单逐字核对。"
+            },
+            {
+              "location": "shot:4/visual",
+              "text": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。"
+            },
+            {
+              "location": "shot:4/block:1",
+              "text": "开场前的等待，要留下多少？回看后再决定。"
+            },
+            {
+              "location": "shot:5/visual",
+              "text": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。"
+            },
+            {
+              "location": "shot:5/block:1",
+              "text": "最后看构图：讲者近景和会场全景，各试一种比例。"
+            },
+            {
+              "location": "shot:6/visual",
+              "text": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。"
+            },
+            {
+              "location": "shot:6/block:1",
+              "text": "顺着发言与现场画面，再回看一遍活动记录。"
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+        }
+      },
+      "decision_basis": "当前稿估时44.1秒，时长与规则检查均通过，尚需核对四项功能、场景串联及公开表达是否符合需求。",
+      "observation": {
+        "ok": true,
+        "script_hash": "c7e5ebcf278ff27052d225f3fa2c6e32696e3b2964b65655d306661193f483df",
+        "request_hash": "70d5602bff2600f2b07b038e9e00fce28d2b512a37d54ffc1f3b1c03859acf37",
+        "passed": false,
+        "items": [
+          {
+            "field": "topic",
+            "requirement": "接近45秒",
+            "verdict": "uncertain",
+            "evidence": "稿件提供了旁白及hold_seconds，但所给检查结果未包含时长测算；是否接近45秒须由确定性时长检查确认。"
+          },
+          {
+            "field": "topic",
+            "requirement": "字幕添加",
+            "verdict": "met",
+            "evidence": "镜头2展示讲者发言配字幕，并明确介绍“剪影练习版支持为视频添加字幕”。"
+          },
+          {
+            "field": "topic",
+            "requirement": "手动改字",
+            "verdict": "met",
+            "evidence": "镜头3展示字幕名字修改前后的差异，旁白明确说明“字幕文字可以手动编辑”。"
+          },
+          {
+            "field": "topic",
+            "requirement": "片段裁剪",
+            "verdict": "met",
+            "evidence": "镜头4通过发言前等待与正式发言的前后对照示意裁剪，旁白明确说明支持裁剪视频片段。"
+          },
+          {
+            "field": "topic",
+            "requirement": "横竖屏比例",
+            "verdict": "met",
+            "evidence": "镜头5分别展示讲者近景的竖屏构图和会场全景的横屏构图，旁白明确介绍两种比例选项。"
+          },
+          {
+            "field": "topic",
+            "requirement": "以整理一场社区分享会素材串联",
+            "verdict": "met",
+            "evidence": "镜头1从社区分享会散场后的素材整理切入，镜头2—5围绕讲者发言、活动名单和会场全景展开，镜头6回看活动记录，场景贯穿全片。"
+          },
+          {
+            "field": "topic",
+            "requirement": "不重复相同产品句子填时间",
+            "verdict": "met",
+            "evidence": "四条产品功能句分别仅出现在镜头2—5各一次；镜头6以“再回看一遍活动记录”收束，没有重复朗读产品句子。"
+          },
+          {
+            "field": "audience",
+            "requirement": "第一次接触视频编辑的展位访客",
+            "verdict": "met",
+            "evidence": "镜头1说明“我们分四步来看”，后续每镜介绍一项基础功能，并用字幕、名单、等待片段和构图示意帮助理解，不依赖专业术语或操作经验。"
+          },
+          {
+            "field": "platform",
+            "requirement": "视频号",
+            "verdict": "met",
+            "evidence": "采用六镜头短视频形式，旁白配同步字幕，以社区活动这一具体场景组织内容，适合信息流观看；无需直接写出平台名称。"
+          },
+          {
+            "field": "style",
+            "requirement": "耐心",
+            "verdict": "met",
+            "evidence": "镜头3提示“逐字核对”，镜头4提示“回看后再决定”，镜头5安排观察取景差异，语气平和且留有理解过程。"
+          },
+          {
+            "field": "style",
+            "requirement": "条理清楚",
+            "verdict": "met",
+            "evidence": "镜头1预告四步，镜头2—5依次标明第一步至第四步，对应四项所需功能，镜头6统一回看。"
+          }
+        ],
+        "summary": "四项功能、社区分享会场景、受众与风格要求均已覆盖；未发现无依据的产品承诺或重复文案凑时长。是否接近45秒，仍需以确定性时长检查结果为准。",
+        "method": "model_assessment_not_deterministic_proof",
+        "expressions": [
+          {
+            "location": "title",
+            "text": "把一场社区分享会整理成短片",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "标题描述素材整理主题，没有承诺自动成片、效率提升或其他产品效果。"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "内容为社区场景、人物动作及旁白字幕的制作安排，没有新增产品能力声明或具体界面。"
+          },
+          {
+            "location": "shot:1/block:1",
+            "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "交代使用场景并预告讲解结构；四步指本片组织方式，不声称产品具有自动工作流。"
+          },
+          {
+            "location": "shot:2/visual",
+            "text": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ],
+            "evidence": "示意视频添加字幕的结果，由“支持为视频添加字幕”支持；未声称语音自动识别，也未虚构产品界面。"
+          },
+          {
+            "location": "shot:2/block:1",
+            "text": "先看讲者发言，把想呈现的话放进字幕。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ],
+            "evidence": "结合本镜头表达为视频添加所选字幕内容，未扩展为自动转录或智能提取。"
+          },
+          {
+            "location": "shot:3/visual",
+            "text": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ],
+            "evidence": "字幕文字修改前后对照由“字幕文字可以手动编辑”支持；核对由整理者完成，虚构名单仅为示例。"
+          },
+          {
+            "location": "shot:3/block:1",
+            "text": "遇到人名、地名，拿活动名单逐字核对。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "属于人工核对内容的建议，没有声称产品能识别人名、读取名单或自动纠错。"
+          },
+          {
+            "location": "shot:4/visual",
+            "text": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1"
+              }
+            ],
+            "evidence": "裁剪前后示意由“支持裁剪视频片段”支持；保留发言开头是人工剪辑安排，没有声称自动识别或自动保留。"
+          },
+          {
+            "location": "shot:4/block:1",
+            "text": "开场前的等待，要留下多少？回看后再决定。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "引导观看者作剪辑取舍，没有增加产品性能或自动化承诺。"
+          },
+          {
+            "location": "shot:5/visual",
+            "text": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P03",
+                "fact_id": "P03.F1"
+              }
+            ],
+            "evidence": "横屏和竖屏构图示意由两种画面比例选项支持；未增加具体比例数值、自动适配能力或产品界面布局。"
+          },
+          {
+            "location": "shot:5/block:1",
+            "text": "最后看构图：讲者近景和会场全景，各试一种比例。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P03",
+                "fact_id": "P03.F1"
+              }
+            ],
+            "evidence": "结合画面指尝试横屏与竖屏选项，与资料一致，没有承诺自动选择最佳构图。"
+          },
+          {
+            "location": "shot:6/visual",
+            "text": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "描述整理者人工回看、检查和片尾画面安排，没有声称产品提供自动检查功能。"
+          },
+          {
+            "location": "shot:6/block:1",
+            "text": "顺着发言与现场画面，再回看一遍活动记录。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "属于回看建议和收束语，没有新增可验证的产品能力或效果承诺。"
+          }
+        ],
+        "pacing": {
+          "verdict": "met",
+          "evidence": "六个镜头的hold_seconds均为0，未设置额外停留，且镜头1明确所有blocks依次朗读。镜头1以查看素材配合问题引入；镜头2有字幕阅读任务；镜头3有名单核对及改字前后对照；镜头4有等待与发言素材的裁剪对照；镜头5有两种构图的先后观察；镜头6有回看检查动作配合收束旁白。各镜头均有对应内容支撑，四条产品事实各讲一次，未见重复事实或空镜凑时长。"
+        },
+        "expression_review_passed": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b9-5234-7502-ab42-b2e9b5efb989",
+        "usage": {
+          "input_tokens": 33779,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 117,
+          "reasoning_output_tokens": 45
+        }
+      },
+      "review_model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2b9-8072-7981-9fc8-93f3b951de22",
+        "usage": {
+          "input_tokens": 27747,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3944,
+          "reasoning_output_tokens": 1448
+        }
+      },
+      "elapsed_ms": 87328
+    },
+    {
+      "step": 6,
+      "action": "check_requirements",
+      "arguments": {
+        "script": {
+          "title": "把一场社区分享会整理成短片",
+          "shots": [
+            {
+              "visual": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "先看讲者发言，把想呈现的话放进字幕。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "遇到人名、地名，拿活动名单逐字核对。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "开场前的等待，要留下多少？回看后再决定。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "最后看构图：讲者近景和会场全景，各试一种比例。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。",
+              "hold_seconds": 0,
+              "blocks": [
+                {
+                  "text": "顺着发言与现场画面，再回看一遍活动记录。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "request": {
+          "topic": "接近45秒介绍字幕添加、手动改字、片段裁剪、横竖屏比例。以整理一场社区分享会素材串联，不重复相同产品句子填时间。",
+          "audience": "第一次接触视频编辑的展位访客",
+          "platform": "视频号",
+          "style": "耐心，条理清楚",
+          "product_id": "demo-editor",
+          "duration_mode": "target",
+          "expression_mode": "creative",
+          "target_seconds": 45
+        },
+        "rules_check": {
+          "ok": true,
+          "script_hash": "c7e5ebcf278ff27052d225f3fa2c6e32696e3b2964b65655d306661193f483df",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:2/block:2",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:3/block:2",
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:4/block:2",
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:5/block:2",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "把一场社区分享会整理成短片"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "先看讲者发言，把想呈现的话放进字幕。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "遇到人名、地名，拿活动名单逐字核对。"
+            },
+            {
+              "location": "shot:4/visual",
+              "text": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。"
+            },
+            {
+              "location": "shot:4/block:1",
+              "text": "开场前的等待，要留下多少？回看后再决定。"
+            },
+            {
+              "location": "shot:5/visual",
+              "text": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。"
+            },
+            {
+              "location": "shot:5/block:1",
+              "text": "最后看构图：讲者近景和会场全景，各试一种比例。"
+            },
+            {
+              "location": "shot:6/visual",
+              "text": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。"
+            },
+            {
+              "location": "shot:6/block:1",
+              "text": "顺着发言与现场画面，再回看一遍活动记录。"
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+        }
+      },
+      "decision_basis": "当前稿估时44.1秒且规则检查通过；需求审核仅因缺少时长依据未通过，保留原稿重试审核。",
+      "observation": {
+        "ok": true,
+        "script_hash": "c7e5ebcf278ff27052d225f3fa2c6e32696e3b2964b65655d306661193f483df",
+        "request_hash": "70d5602bff2600f2b07b038e9e00fce28d2b512a37d54ffc1f3b1c03859acf37",
+        "passed": false,
+        "items": [
+          {
+            "field": "topic",
+            "requirement": "接近45秒",
+            "verdict": "uncertain",
+            "evidence": "输入未包含总时长测算结果；各镜头hold_seconds为0不能代表旁白播放时长。是否接近45秒留由确定性时长检查确认。"
+          },
+          {
+            "field": "topic",
+            "requirement": "字幕添加",
+            "verdict": "met",
+            "evidence": "镜头2展示讲者发言对应的字幕，并明确说明“剪影练习版支持为视频添加字幕。”"
+          },
+          {
+            "field": "topic",
+            "requirement": "手动改字",
+            "verdict": "met",
+            "evidence": "镜头3展示字幕名字修改前后的差异，旁白明确说明“字幕文字可以手动编辑。”"
+          },
+          {
+            "field": "topic",
+            "requirement": "片段裁剪",
+            "verdict": "met",
+            "evidence": "镜头4用发言前等待与正式发言的素材对照示意裁剪，并说明“剪影练习版支持裁剪视频片段。”"
+          },
+          {
+            "field": "topic",
+            "requirement": "横竖屏比例",
+            "verdict": "met",
+            "evidence": "镜头5先后展示讲者近景的竖屏构图和会场全景的横屏构图，并明确介绍两种比例选项。"
+          },
+          {
+            "field": "topic",
+            "requirement": "以整理一场社区分享会素材串联",
+            "verdict": "met",
+            "evidence": "镜头1从社区分享会散场引入；镜头2至5围绕同场讲者发言、活动名单和会场全景展开；镜头6回看活动记录，场景连续。"
+          },
+          {
+            "field": "topic",
+            "requirement": "不重复相同产品句子填时间",
+            "verdict": "met",
+            "evidence": "镜头2至5分别介绍字幕添加、手动编辑、片段裁剪和比例选项，四句产品说明各出现一次；镜头6以回看活动记录收束，没有重复产品句。"
+          },
+          {
+            "field": "audience",
+            "requirement": "第一次接触视频编辑的展位访客",
+            "verdict": "met",
+            "evidence": "开场说明“我们分四步来看”，随后以字幕、人名核对、等待片段和横竖构图等直观例子介绍功能，无需预先理解编辑术语。"
+          },
+          {
+            "field": "platform",
+            "requirement": "视频号",
+            "verdict": "met",
+            "evidence": "采用完整的社区活动叙事、简短旁白、同步字幕和画面对照，适合视频号短视频观看；无需直接写出平台名称。"
+          },
+          {
+            "field": "style",
+            "requirement": "耐心",
+            "verdict": "met",
+            "evidence": "镜头3使用“逐字核对”，镜头4使用“回看后再决定”，镜头6安排再次回看，表达循序渐进，没有催促或夸张承诺。"
+          },
+          {
+            "field": "style",
+            "requirement": "条理清楚",
+            "verdict": "met",
+            "evidence": "开场预告四步，镜头2至5依次标注第一步至第四步，每步对应一项功能，结尾统一复核。"
+          }
+        ],
+        "summary": "四项功能、社区分享会场景、受众和表达风格均已落实，没有重复产品句凑时长，表达未超出资料支持范围。是否接近45秒仍需时长检查确认。",
+        "method": "model_assessment_not_deterministic_proof",
+        "expressions": [
+          {
+            "location": "title",
+            "text": "把一场社区分享会整理成短片",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "标题说明本片的整理任务，没有承诺自动生成、特定效率或额外产品能力。"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "描述活动背景、人工查看素材及成片旁白字幕安排，没有展示或宣称额外产品功能。"
+          },
+          {
+            "location": "shot:1/block:1",
+            "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "属于场景引入和讲解结构预告，后续镜头2至5确实对应四步。"
+          },
+          {
+            "location": "shot:2/visual",
+            "text": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ],
+            "evidence": "示意为视频添加字幕，由P01.F1支持；字幕位置属于示意画面安排，未声称自动识别发言或展示具体产品界面。"
+          },
+          {
+            "location": "shot:2/block:1",
+            "text": "先看讲者发言，把想呈现的话放进字幕。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ],
+            "evidence": "将选定文字作为视频字幕呈现，属于P01.F1支持的字幕添加能力，没有增加自动转写声明。"
+          },
+          {
+            "location": "shot:3/visual",
+            "text": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ],
+            "evidence": "字幕修改前后对照由P01.F2的手动编辑能力支持；名单核对是人工动作，虚构名字仅用于示意，没有真实客户或自动纠错声明。"
+          },
+          {
+            "location": "shot:3/block:1",
+            "text": "遇到人名、地名，拿活动名单逐字核对。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "建议整理者人工核对文字，没有声称产品识别人名、读取名单或自动校正。"
+          },
+          {
+            "location": "shot:4/visual",
+            "text": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1"
+              }
+            ],
+            "evidence": "展示人工选择裁剪范围后的素材对照，由P02.F1支持；保留发言开头是剪辑安排，没有额外宣称自动判断或智能裁剪。"
+          },
+          {
+            "location": "shot:4/block:1",
+            "text": "开场前的等待，要留下多少？回看后再决定。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "引导整理者观察素材并自行决定保留范围，没有产品性能或自动化承诺。"
+          },
+          {
+            "location": "shot:5/visual",
+            "text": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P03",
+                "fact_id": "P03.F1"
+              }
+            ],
+            "evidence": "横屏、竖屏两种比例示意由P03.F1支持；人物与环境的取景差异属于画面安排，没有延伸为自动构图能力。"
+          },
+          {
+            "location": "shot:5/block:1",
+            "text": "最后看构图：讲者近景和会场全景，各试一种比例。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P03",
+                "fact_id": "P03.F1"
+              }
+            ],
+            "evidence": "结合该镜头的横竖屏示意，指向使用已有比例选项，由P03.F1支持，没有承诺自动选择最佳比例。"
+          },
+          {
+            "location": "shot:6/visual",
+            "text": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "描述整理者人工复核成片和结尾画面安排，没有声称产品自动检查字幕、片段或构图。"
+          },
+          {
+            "location": "shot:6/block:1",
+            "text": "顺着发言与现场画面，再回看一遍活动记录。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "属于人工回看的行动建议和收尾连接语，没有新增产品能力或效果承诺。"
+          }
+        ],
+        "pacing": {
+          "verdict": "met",
+          "evidence": "六个镜头hold_seconds均为0，没有额外设置无内容停留。镜头1以旁白引入活动；镜头2安排字幕阅读；镜头3观察改字前后差异；镜头4对照等待与正式发言；镜头5观察横竖构图；镜头6人工复核收尾。各镜头均有对应旁白和观察任务，四项产品说明各出现一次，未发现重复同一事实或空镜凑时长。此判断不替代总时长检查。"
+        },
+        "expression_review_passed": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2ba-a705-7881-8387-87151762eed4",
+        "usage": {
+          "input_tokens": 40478,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 286,
+          "reasoning_output_tokens": 217
+        }
+      },
+      "review_model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2ba-eb7d-7903-ad95-aaff94d46b9d",
+        "usage": {
+          "input_tokens": 28418,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4056,
+          "reasoning_output_tokens": 1552
+        }
+      },
+      "elapsed_ms": 101844
+    },
+    {
+      "step": 7,
+      "action": "write_script",
+      "arguments": {
+        "script": {
+          "title": "把一场社区分享会整理成短片",
+          "shots": [
+            {
+              "visual": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。",
+              "hold_seconds": 6.3,
+              "blocks": [
+                {
+                  "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "先看讲者发言，把想呈现的话放进字幕。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。",
+              "hold_seconds": 6.8,
+              "blocks": [
+                {
+                  "text": "遇到人名、地名，拿活动名单逐字核对。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "开场前的等待，要留下多少？回看后再决定。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。",
+              "hold_seconds": 10,
+              "blocks": [
+                {
+                  "text": "最后看构图：讲者近景和会场全景，各试一种比例。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。",
+              "hold_seconds": 5,
+              "blocks": [
+                {
+                  "text": "顺着发言与现场画面，再回看一遍活动记录。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision_basis": "需求审核仅对时长存疑，将各镜头最短展示时间设为已有估算时长，保留全部文案和画面，不额外延长。",
+      "observation": {
+        "ok": true,
+        "script_hash": "2d65c0d770fe9429b594193d9693e55f14cdc4b8993f69aeaef3f653798f8f48",
+        "revision": {
+          "before_hash": "c7e5ebcf278ff27052d225f3fa2c6e32696e3b2964b65655d306661193f483df",
+          "after_hash": "2d65c0d770fe9429b594193d9693e55f14cdc4b8993f69aeaef3f653798f8f48",
+          "changed_fields": [
+            "shot:1/hold_seconds",
+            "shot:2/hold_seconds",
+            "shot:3/hold_seconds",
+            "shot:4/hold_seconds",
+            "shot:5/hold_seconds",
+            "shot:6/hold_seconds"
+          ],
+          "unchanged_shots": 0,
+          "unchanged_blocks": 10,
+          "feedback": [
+            {
+              "check": "requirements_check",
+              "observation": {
+                "ok": true,
+                "script_hash": "c7e5ebcf278ff27052d225f3fa2c6e32696e3b2964b65655d306661193f483df",
+                "request_hash": "70d5602bff2600f2b07b038e9e00fce28d2b512a37d54ffc1f3b1c03859acf37",
+                "passed": false,
+                "items": [
+                  {
+                    "field": "topic",
+                    "requirement": "接近45秒",
+                    "verdict": "uncertain",
+                    "evidence": "输入未包含总时长测算结果；各镜头hold_seconds为0不能代表旁白播放时长。是否接近45秒留由确定性时长检查确认。"
+                  },
+                  {
+                    "field": "topic",
+                    "requirement": "字幕添加",
+                    "verdict": "met",
+                    "evidence": "镜头2展示讲者发言对应的字幕，并明确说明“剪影练习版支持为视频添加字幕。”"
+                  },
+                  {
+                    "field": "topic",
+                    "requirement": "手动改字",
+                    "verdict": "met",
+                    "evidence": "镜头3展示字幕名字修改前后的差异，旁白明确说明“字幕文字可以手动编辑。”"
+                  },
+                  {
+                    "field": "topic",
+                    "requirement": "片段裁剪",
+                    "verdict": "met",
+                    "evidence": "镜头4用发言前等待与正式发言的素材对照示意裁剪，并说明“剪影练习版支持裁剪视频片段。”"
+                  },
+                  {
+                    "field": "topic",
+                    "requirement": "横竖屏比例",
+                    "verdict": "met",
+                    "evidence": "镜头5先后展示讲者近景的竖屏构图和会场全景的横屏构图，并明确介绍两种比例选项。"
+                  },
+                  {
+                    "field": "topic",
+                    "requirement": "以整理一场社区分享会素材串联",
+                    "verdict": "met",
+                    "evidence": "镜头1从社区分享会散场引入；镜头2至5围绕同场讲者发言、活动名单和会场全景展开；镜头6回看活动记录，场景连续。"
+                  },
+                  {
+                    "field": "topic",
+                    "requirement": "不重复相同产品句子填时间",
+                    "verdict": "met",
+                    "evidence": "镜头2至5分别介绍字幕添加、手动编辑、片段裁剪和比例选项，四句产品说明各出现一次；镜头6以回看活动记录收束，没有重复产品句。"
+                  },
+                  {
+                    "field": "audience",
+                    "requirement": "第一次接触视频编辑的展位访客",
+                    "verdict": "met",
+                    "evidence": "开场说明“我们分四步来看”，随后以字幕、人名核对、等待片段和横竖构图等直观例子介绍功能，无需预先理解编辑术语。"
+                  },
+                  {
+                    "field": "platform",
+                    "requirement": "视频号",
+                    "verdict": "met",
+                    "evidence": "采用完整的社区活动叙事、简短旁白、同步字幕和画面对照，适合视频号短视频观看；无需直接写出平台名称。"
+                  },
+                  {
+                    "field": "style",
+                    "requirement": "耐心",
+                    "verdict": "met",
+                    "evidence": "镜头3使用“逐字核对”，镜头4使用“回看后再决定”，镜头6安排再次回看，表达循序渐进，没有催促或夸张承诺。"
+                  },
+                  {
+                    "field": "style",
+                    "requirement": "条理清楚",
+                    "verdict": "met",
+                    "evidence": "开场预告四步，镜头2至5依次标注第一步至第四步，每步对应一项功能，结尾统一复核。"
+                  }
+                ],
+                "summary": "四项功能、社区分享会场景、受众和表达风格均已落实，没有重复产品句凑时长，表达未超出资料支持范围。是否接近45秒仍需时长检查确认。",
+                "method": "model_assessment_not_deterministic_proof",
+                "expressions": [
+                  {
+                    "location": "title",
+                    "text": "把一场社区分享会整理成短片",
+                    "verdict": "plain_expression",
+                    "references": [],
+                    "evidence": "标题说明本片的整理任务，没有承诺自动生成、特定效率或额外产品能力。"
+                  },
+                  {
+                    "location": "shot:1/visual",
+                    "text": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。",
+                    "verdict": "plain_expression",
+                    "references": [],
+                    "evidence": "描述活动背景、人工查看素材及成片旁白字幕安排，没有展示或宣称额外产品功能。"
+                  },
+                  {
+                    "location": "shot:1/block:1",
+                    "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。",
+                    "verdict": "plain_expression",
+                    "references": [],
+                    "evidence": "属于场景引入和讲解结构预告，后续镜头2至5确实对应四步。"
+                  },
+                  {
+                    "location": "shot:2/visual",
+                    "text": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。",
+                    "verdict": "supported_claim",
+                    "references": [
+                      {
+                        "source_id": "P01",
+                        "fact_id": "P01.F1"
+                      }
+                    ],
+                    "evidence": "示意为视频添加字幕，由P01.F1支持；字幕位置属于示意画面安排，未声称自动识别发言或展示具体产品界面。"
+                  },
+                  {
+                    "location": "shot:2/block:1",
+                    "text": "先看讲者发言，把想呈现的话放进字幕。",
+                    "verdict": "supported_claim",
+                    "references": [
+                      {
+                        "source_id": "P01",
+                        "fact_id": "P01.F1"
+                      }
+                    ],
+                    "evidence": "将选定文字作为视频字幕呈现，属于P01.F1支持的字幕添加能力，没有增加自动转写声明。"
+                  },
+                  {
+                    "location": "shot:3/visual",
+                    "text": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。",
+                    "verdict": "supported_claim",
+                    "references": [
+                      {
+                        "source_id": "P01",
+                        "fact_id": "P01.F2"
+                      }
+                    ],
+                    "evidence": "字幕修改前后对照由P01.F2的手动编辑能力支持；名单核对是人工动作，虚构名字仅用于示意，没有真实客户或自动纠错声明。"
+                  },
+                  {
+                    "location": "shot:3/block:1",
+                    "text": "遇到人名、地名，拿活动名单逐字核对。",
+                    "verdict": "plain_expression",
+                    "references": [],
+                    "evidence": "建议整理者人工核对文字，没有声称产品识别人名、读取名单或自动校正。"
+                  },
+                  {
+                    "location": "shot:4/visual",
+                    "text": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。",
+                    "verdict": "supported_claim",
+                    "references": [
+                      {
+                        "source_id": "P02",
+                        "fact_id": "P02.F1"
+                      }
+                    ],
+                    "evidence": "展示人工选择裁剪范围后的素材对照，由P02.F1支持；保留发言开头是剪辑安排，没有额外宣称自动判断或智能裁剪。"
+                  },
+                  {
+                    "location": "shot:4/block:1",
+                    "text": "开场前的等待，要留下多少？回看后再决定。",
+                    "verdict": "plain_expression",
+                    "references": [],
+                    "evidence": "引导整理者观察素材并自行决定保留范围，没有产品性能或自动化承诺。"
+                  },
+                  {
+                    "location": "shot:5/visual",
+                    "text": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。",
+                    "verdict": "supported_claim",
+                    "references": [
+                      {
+                        "source_id": "P03",
+                        "fact_id": "P03.F1"
+                      }
+                    ],
+                    "evidence": "横屏、竖屏两种比例示意由P03.F1支持；人物与环境的取景差异属于画面安排，没有延伸为自动构图能力。"
+                  },
+                  {
+                    "location": "shot:5/block:1",
+                    "text": "最后看构图：讲者近景和会场全景，各试一种比例。",
+                    "verdict": "supported_claim",
+                    "references": [
+                      {
+                        "source_id": "P03",
+                        "fact_id": "P03.F1"
+                      }
+                    ],
+                    "evidence": "结合该镜头的横竖屏示意，指向使用已有比例选项，由P03.F1支持，没有承诺自动选择最佳比例。"
+                  },
+                  {
+                    "location": "shot:6/visual",
+                    "text": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。",
+                    "verdict": "plain_expression",
+                    "references": [],
+                    "evidence": "描述整理者人工复核成片和结尾画面安排，没有声称产品自动检查字幕、片段或构图。"
+                  },
+                  {
+                    "location": "shot:6/block:1",
+                    "text": "顺着发言与现场画面，再回看一遍活动记录。",
+                    "verdict": "plain_expression",
+                    "references": [],
+                    "evidence": "属于人工回看的行动建议和收尾连接语，没有新增产品能力或效果承诺。"
+                  }
+                ],
+                "pacing": {
+                  "verdict": "met",
+                  "evidence": "六个镜头hold_seconds均为0，没有额外设置无内容停留。镜头1以旁白引入活动；镜头2安排字幕阅读；镜头3观察改字前后差异；镜头4对照等待与正式发言；镜头5观察横竖构图；镜头6人工复核收尾。各镜头均有对应旁白和观察任务，四项产品说明各出现一次，未发现重复同一事实或空镜凑时长。此判断不替代总时长检查。"
+                },
+                "expression_review_passed": true
+              }
+            }
+          ],
+          "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+        },
+        "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2bc-349c-7653-88db-5d42f5108aeb",
+        "usage": {
+          "input_tokens": 44848,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1310,
+          "reasoning_output_tokens": 590
+        }
+      },
+      "elapsed_ms": 40484
+    },
+    {
+      "step": 8,
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "把一场社区分享会整理成短片",
+          "shots": [
+            {
+              "visual": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。",
+              "hold_seconds": 6.3,
+              "blocks": [
+                {
+                  "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "先看讲者发言，把想呈现的话放进字幕。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。",
+              "hold_seconds": 6.8,
+              "blocks": [
+                {
+                  "text": "遇到人名、地名，拿活动名单逐字核对。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "开场前的等待，要留下多少？回看后再决定。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。",
+              "hold_seconds": 10,
+              "blocks": [
+                {
+                  "text": "最后看构图：讲者近景和会场全景，各试一种比例。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。",
+              "hold_seconds": 5,
+              "blocks": [
+                {
+                  "text": "顺着发言与现场画面，再回看一遍活动记录。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "target_seconds": 45,
+        "duration_mode": "target"
+      },
+      "decision_basis": "当前稿已调整镜头停留时间，需重新确认总时长是否在40.5至45秒范围内。",
+      "observation": {
+        "ok": true,
+        "script_hash": "2d65c0d770fe9429b594193d9693e55f14cdc4b8993f69aeaef3f653798f8f48",
+        "shots": [
+          {
+            "shot": 1,
+            "speech_units": 23,
+            "estimated_seconds": 6.3
+          },
+          {
+            "shot": 2,
+            "speech_units": 30,
+            "estimated_seconds": 8
+          },
+          {
+            "shot": 3,
+            "speech_units": 25,
+            "estimated_seconds": 6.8
+          },
+          {
+            "shot": 4,
+            "speech_units": 30,
+            "estimated_seconds": 8
+          },
+          {
+            "shot": 5,
+            "speech_units": 38,
+            "estimated_seconds": 10
+          },
+          {
+            "shot": 6,
+            "speech_units": 18,
+            "estimated_seconds": 5
+          }
+        ],
+        "total_seconds": 44.1,
+        "target_seconds": 45,
+        "passed": true,
+        "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+        "is_estimate": true,
+        "duration_mode": "target",
+        "min_seconds": 40.5,
+        "max_seconds": 45,
+        "issue": null
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2bc-d447-7992-9da4-9003456de5b4",
+        "usage": {
+          "input_tokens": 44536,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 128,
+          "reasoning_output_tokens": 66
+        }
+      },
+      "elapsed_ms": 13407
+    },
+    {
+      "step": 9,
+      "action": "check_rules",
+      "arguments": {
+        "script": {
+          "title": "把一场社区分享会整理成短片",
+          "shots": [
+            {
+              "visual": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。",
+              "hold_seconds": 6.3,
+              "blocks": [
+                {
+                  "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "先看讲者发言，把想呈现的话放进字幕。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。",
+              "hold_seconds": 6.8,
+              "blocks": [
+                {
+                  "text": "遇到人名、地名，拿活动名单逐字核对。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "开场前的等待，要留下多少？回看后再决定。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。",
+              "hold_seconds": 10,
+              "blocks": [
+                {
+                  "text": "最后看构图：讲者近景和会场全景，各试一种比例。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。",
+              "hold_seconds": 5,
+              "blocks": [
+                {
+                  "text": "顺着发言与现场画面，再回看一遍活动记录。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "retrieved_ids": [
+          "P01",
+          "P02",
+          "P03"
+        ],
+        "expression_mode": "creative"
+      },
+      "decision_basis": "当前稿估时44.1秒，已达目标范围；修订后需重新检查事实引用与表达规则。",
+      "observation": {
+        "ok": true,
+        "script_hash": "2d65c0d770fe9429b594193d9693e55f14cdc4b8993f69aeaef3f653798f8f48",
+        "passed": true,
+        "issues": [],
+        "citations": [
+          {
+            "location": "shot:2/block:2",
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "location": "shot:3/block:2",
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          },
+          {
+            "location": "shot:4/block:2",
+            "source_id": "P02",
+            "fact_id": "P02.F1",
+            "quote": "剪影练习版支持裁剪视频片段。",
+            "version": "2026-11-01"
+          },
+          {
+            "location": "shot:5/block:2",
+            "source_id": "P03",
+            "fact_id": "P03.F1",
+            "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "version": "2026-11-01"
+          }
+        ],
+        "rules_version": "2026-11-03-v1",
+        "requires_expression_review": true,
+        "expression_slots": [
+          {
+            "location": "title",
+            "text": "把一场社区分享会整理成短片"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。"
+          },
+          {
+            "location": "shot:1/block:1",
+            "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。"
+          },
+          {
+            "location": "shot:2/visual",
+            "text": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。"
+          },
+          {
+            "location": "shot:2/block:1",
+            "text": "先看讲者发言，把想呈现的话放进字幕。"
+          },
+          {
+            "location": "shot:3/visual",
+            "text": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。"
+          },
+          {
+            "location": "shot:3/block:1",
+            "text": "遇到人名、地名，拿活动名单逐字核对。"
+          },
+          {
+            "location": "shot:4/visual",
+            "text": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。"
+          },
+          {
+            "location": "shot:4/block:1",
+            "text": "开场前的等待，要留下多少？回看后再决定。"
+          },
+          {
+            "location": "shot:5/visual",
+            "text": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。"
+          },
+          {
+            "location": "shot:5/block:1",
+            "text": "最后看构图：讲者近景和会场全景，各试一种比例。"
+          },
+          {
+            "location": "shot:6/visual",
+            "text": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。"
+          },
+          {
+            "location": "shot:6/block:1",
+            "text": "顺着发言与现场画面，再回看一遍活动记录。"
+          }
+        ],
+        "available_facts": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1",
+            "quote": "剪影练习版支持裁剪视频片段。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P03",
+            "fact_id": "P03.F1",
+            "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "version": "2026-11-01"
+          }
+        ],
+        "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2bd-07d8-7d93-8789-658e5b9712d9",
+        "usage": {
+          "input_tokens": 45889,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 138,
+          "reasoning_output_tokens": 77
+        }
+      },
+      "elapsed_ms": 13875
+    },
+    {
+      "step": 10,
+      "action": "check_requirements",
+      "arguments": {
+        "script": {
+          "title": "把一场社区分享会整理成短片",
+          "shots": [
+            {
+              "visual": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。",
+              "hold_seconds": 6.3,
+              "blocks": [
+                {
+                  "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "先看讲者发言，把想呈现的话放进字幕。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。",
+              "hold_seconds": 6.8,
+              "blocks": [
+                {
+                  "text": "遇到人名、地名，拿活动名单逐字核对。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "开场前的等待，要留下多少？回看后再决定。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ]
+            },
+            {
+              "visual": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。",
+              "hold_seconds": 10,
+              "blocks": [
+                {
+                  "text": "最后看构图：讲者近景和会场全景，各试一种比例。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。",
+              "hold_seconds": 5,
+              "blocks": [
+                {
+                  "text": "顺着发言与现场画面，再回看一遍活动记录。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "request": {
+          "topic": "接近45秒介绍字幕添加、手动改字、片段裁剪、横竖屏比例。以整理一场社区分享会素材串联，不重复相同产品句子填时间。",
+          "audience": "第一次接触视频编辑的展位访客",
+          "platform": "视频号",
+          "style": "耐心，条理清楚",
+          "product_id": "demo-editor",
+          "duration_mode": "target",
+          "expression_mode": "creative",
+          "target_seconds": 45
+        },
+        "rules_check": {
+          "ok": true,
+          "script_hash": "2d65c0d770fe9429b594193d9693e55f14cdc4b8993f69aeaef3f653798f8f48",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:2/block:2",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:3/block:2",
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:4/block:2",
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:5/block:2",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "把一场社区分享会整理成短片"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "先看讲者发言，把想呈现的话放进字幕。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "遇到人名、地名，拿活动名单逐字核对。"
+            },
+            {
+              "location": "shot:4/visual",
+              "text": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。"
+            },
+            {
+              "location": "shot:4/block:1",
+              "text": "开场前的等待，要留下多少？回看后再决定。"
+            },
+            {
+              "location": "shot:5/visual",
+              "text": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。"
+            },
+            {
+              "location": "shot:5/block:1",
+              "text": "最后看构图：讲者近景和会场全景，各试一种比例。"
+            },
+            {
+              "location": "shot:6/visual",
+              "text": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。"
+            },
+            {
+              "location": "shot:6/block:1",
+              "text": "顺着发言与现场画面，再回看一遍活动记录。"
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+        }
+      },
+      "decision_basis": "当前稿估时44.1秒且规则检查通过，需重新核对修订后的需求覆盖与公开表达。",
+      "observation": {
+        "ok": true,
+        "script_hash": "2d65c0d770fe9429b594193d9693e55f14cdc4b8993f69aeaef3f653798f8f48",
+        "request_hash": "70d5602bff2600f2b07b038e9e00fce28d2b512a37d54ffc1f3b1c03859acf37",
+        "passed": true,
+        "items": [
+          {
+            "field": "topic",
+            "requirement": "接近45秒",
+            "verdict": "met",
+            "evidence": "6个镜头标注的hold_seconds合计44.1秒，覆盖接近45秒的编排目标；实际时长由确定性工具检查。"
+          },
+          {
+            "field": "topic",
+            "requirement": "字幕添加",
+            "verdict": "met",
+            "evidence": "镜头2展示讲者发言配字幕，旁白明确介绍“剪影练习版支持为视频添加字幕。”"
+          },
+          {
+            "field": "topic",
+            "requirement": "手动改字",
+            "verdict": "met",
+            "evidence": "镜头3展示核对姓名及文字修改前后差异，旁白明确说明“字幕文字可以手动编辑。”"
+          },
+          {
+            "field": "topic",
+            "requirement": "片段裁剪",
+            "verdict": "met",
+            "evidence": "镜头4以发言前的等待为例展示裁剪前后对照，旁白为“剪影练习版支持裁剪视频片段。”"
+          },
+          {
+            "field": "topic",
+            "requirement": "横竖屏比例",
+            "verdict": "met",
+            "evidence": "镜头5先后展示讲者近景的竖屏构图与会场全景的横屏构图，并介绍横屏和竖屏画面比例选项。"
+          },
+          {
+            "field": "topic",
+            "requirement": "以整理一场社区分享会素材串联",
+            "verdict": "met",
+            "evidence": "镜头1从分享会散场后整理素材开始；镜头2至5持续使用讲者发言、活动名单、发言前等待和会场全景；镜头6回看活动记录，场景贯穿全片。"
+          },
+          {
+            "field": "topic",
+            "requirement": "不重复相同产品句子填时间",
+            "verdict": "met",
+            "evidence": "四条产品功能句分别在镜头2至5出现一次；镜头6安排人工回看，没有再次朗读产品功能句。"
+          },
+          {
+            "field": "audience",
+            "requirement": "第一次接触视频编辑的展位访客",
+            "verdict": "met",
+            "evidence": "开场说明“我们分四步来看”，用添加字幕、核对名字、删减等待和比较构图等具体示例解释功能，不依赖专业术语或既有编辑经验。"
+          },
+          {
+            "field": "platform",
+            "requirement": "视频号",
+            "verdict": "met",
+            "evidence": "脚本采用短分镜、连贯的社区活动场景和旁白同步字幕，适合视频号短视频观看，未见明显平台适配冲突。"
+          },
+          {
+            "field": "style",
+            "requirement": "耐心",
+            "verdict": "met",
+            "evidence": "镜头3引导“逐字核对”，镜头4提示“回看后再决定”，镜头2和5安排字幕阅读与构图观察，语气平和。"
+          },
+          {
+            "field": "style",
+            "requirement": "条理清楚",
+            "verdict": "met",
+            "evidence": "开场预告四步，镜头2至5依次标明第一步至第四步，每步对应一项功能，镜头6回看收束。"
+          }
+        ],
+        "summary": "需求均已覆盖。四项功能贯穿社区分享会素材整理，未重复产品句子凑时长；产品能力表达有资料支持，各镜头停留有相应内容支撑。",
+        "method": "model_assessment_not_deterministic_proof",
+        "expressions": [
+          {
+            "location": "title",
+            "text": "把一场社区分享会整理成短片",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "标题说明素材整理的叙事目标，没有承诺自动成片或具体产品效果。"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "社区分享会散场，整理者在桌前查看讲者发言、会场全景等素材。全片 blocks 均依次作为旁白朗读，同步字幕不另作事实卡计时；不展示未经提供的产品界面。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "内容为社区活动背景、人工查看素材及旁白字幕的制作安排，没有声称产品自动处理素材或提供特定界面。"
+          },
+          {
+            "location": "shot:1/block:1",
+            "text": "社区分享会结束了，怎样整理现场视频？我们分四步来看。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "交代场景并引出四步讲解，不包含可验证的产品能力或效果承诺。"
+          },
+          {
+            "location": "shot:2/visual",
+            "text": "第一步：展示讲者发言的示意素材，画面下方出现与其发言对应的字幕，留出阅读空间；不展示按钮或操作路径。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ],
+            "evidence": "示意视频添加字幕，由P01.F1支持；字幕位置是成片画面安排，没有声称自动语音识别，也没有虚构产品按钮或操作路径。"
+          },
+          {
+            "location": "shot:2/block:1",
+            "text": "先看讲者发言，把想呈现的话放进字幕。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ],
+            "evidence": "将选定文字添加为视频字幕属于P01.F1支持的字幕添加能力，未引入自动转写等额外能力。"
+          },
+          {
+            "location": "shot:3/visual",
+            "text": "第二步：整理者对照活动名单核对字幕中的名字。用文字示意展示修改前后的一处差异，不模拟产品界面；名单采用虚构示例。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ],
+            "evidence": "修改前后文字示意由P01.F2的手动编辑能力支持；名单核对由整理者完成，虚构名单用于示例，没有声称真实客户使用或自动纠错。"
+          },
+          {
+            "location": "shot:3/block:1",
+            "text": "遇到人名、地名，拿活动名单逐字核对。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "这是人工核对文字的建议，没有声称产品能够识别人名、地名或读取名单。"
+          },
+          {
+            "location": "shot:4/visual",
+            "text": "第三步：回看讲者开口前的等待与正式发言，用素材前后对照示意裁剪片段，保留完整发言开头；不展示时间线控件。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1"
+              }
+            ],
+            "evidence": "裁剪片段的前后对照由P02.F1支持；保留发言开头是人工剪辑选择，没有承诺自动识别等待或自动选择裁剪位置。"
+          },
+          {
+            "location": "shot:4/block:1",
+            "text": "开场前的等待，要留下多少？回看后再决定。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "引导整理者回看并决定素材取舍，不包含自动剪辑或效果保证。"
+          },
+          {
+            "location": "shot:5/visual",
+            "text": "第四步：先后展示讲者近景的竖屏构图示意和会场全景的横屏构图示意，让观众观察人物与环境的取景差异；不演示自动适配或智能构图。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P03",
+                "fact_id": "P03.F1"
+              }
+            ],
+            "evidence": "横屏与竖屏比例示意由P03.F1支持；人物和环境的取景比较属于画面安排，未扩展为自动适配、智能构图或具体比例数值。"
+          },
+          {
+            "location": "shot:5/block:1",
+            "text": "最后看构图：讲者近景和会场全景，各试一种比例。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P03",
+                "fact_id": "P03.F1"
+              }
+            ],
+            "evidence": "结合本镜头的横竖屏示意，“各试一种比例”由P03.F1提供两类画面比例选项支持，没有承诺任意比例或自动构图。"
+          },
+          {
+            "location": "shot:6/visual",
+            "text": "整理者回看讲者发言与会场画面，依次检查字幕文字、片段起止和构图，最后停在社区分享会的现场画面。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "安排整理者人工回看与检查，并指定收尾画面，没有声称产品执行自动检查或提供额外功能。"
+          },
+          {
+            "location": "shot:6/block:1",
+            "text": "顺着发言与现场画面，再回看一遍活动记录。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "属于人工回看的行动建议与收尾连接语，没有新增产品能力声明。"
+          }
+        ],
+        "pacing": {
+          "verdict": "met",
+          "evidence": "镜头1用6.3秒交代活动场景及四步结构；镜头2用8秒承载两句旁白并阅读字幕；镜头3用6.8秒核对名字及观察一处改字差异；镜头4用8秒回看等待与发言并比较裁剪前后；镜头5用10秒朗读两句旁白、先后观察横竖屏构图；镜头6用5秒配合收尾旁白回看成片。各镜头旁白长度与停留基本相称，较长镜头有明确观察任务，未见重复同一事实或空镜凑时长。"
+        },
+        "expression_review_passed": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2bd-3e5a-7be1-97c1-22fda5b8035e",
+        "usage": {
+          "input_tokens": 48890,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 138,
+          "reasoning_output_tokens": 76
+        }
+      },
+      "review_model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2bd-7abf-7821-846b-03d15270041c",
+        "usage": {
+          "input_tokens": 28427,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4612,
+          "reasoning_output_tokens": 2070
+        }
+      },
+      "elapsed_ms": 125265
+    },
+    {
+      "step": 11,
+      "action": "finish",
+      "arguments": {
+        "status": "completed",
+        "message": "已完成六镜头脚本，以社区分享会素材串联字幕添加、手动改字、片段裁剪和横竖屏比例，未重复产品句子凑时长。修订仅明确各镜头展示时间，保留标题、画面、文案及顺序。当前稿三项检查均通过，估算44.1秒，符合40.5—45秒目标范围；实际成片时长仍需结合配音复核。"
+      },
+      "decision_basis": "当前同一稿的时长、规则和需求检查均已通过。",
+      "observation": {
+        "ok": true,
+        "status": "completed",
+        "script_hash": "2d65c0d770fe9429b594193d9693e55f14cdc4b8993f69aeaef3f653798f8f48"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2bf-26f5-7eb0-bd52-d53bb0074f7a",
+        "usage": {
+          "input_tokens": 55682,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 350,
+          "reasoning_output_tokens": 197
+        }
+      },
+      "elapsed_ms": 20985
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T18:41:35.952900+00:00",
+    "finished_at": "2026-11-03T18:50:19.185176+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 11,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v3",
+    "requirements_review_context": "current_rules_check_v1",
+    "model_responses": 14
+  }
+}

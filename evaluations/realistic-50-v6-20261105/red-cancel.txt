@@ -1,0 +1,21 @@
+test_cancel_at_review_phase_prevents_new_remote_call (tests.test_effective_v6.V6Tests.test_cancel_at_review_phase_prevents_new_remote_call) ... FAIL
+
+======================================================================
+FAIL: test_cancel_at_review_phase_prevents_new_remote_call (tests.test_effective_v6.V6Tests.test_cancel_at_review_phase_prevents_new_remote_call)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_effective_v6.py", line 128, in test_cancel_at_review_phase_prevents_new_remote_call
+    result=Agent(NoReview(),ToolBox(),on_event=observe,cancel_event=cancelled).run(REQUEST)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\src\agent.py", line 148, in run
+    review, review_model = self.model.review(copy.deepcopy(request), copy.deepcopy(state['script']), copy.deepcopy(args['rules_check']), copy.deepcopy(args['duration_check']))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\小影科技笔试\tests\test_effective_v6.py", line 125, in review
+    def review(self,*a,**kw):raise AssertionError('new call after cancellation')
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: new call after cancellation
+
+----------------------------------------------------------------------
+Ran 1 test in 0.011s
+
+FAILED (failures=1)

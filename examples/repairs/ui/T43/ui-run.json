@@ -1,0 +1,14 @@
+{
+  "source_case": "T43",
+  "run_id": "dee589bf69b84173b94026ee2bf2fec4",
+  "finished_observed_at": "2026-11-03T16:10:38.209Z",
+  "actual_page": {
+    "busy": false,
+    "detail": "真实模型 · 8 个执行步骤",
+    "download": "/api/runs/dee589bf69b84173b94026ee2bf2fec4/download/output.json",
+    "message": "已保留旧稿三段结构，将“自动识别语音并生成字幕”替换为资料支持的“为视频添加字幕”，保留有来源的手动编辑功能，并缩短镜头停留；估算时长由28秒降至13秒。时长和规则检查已通过，但需求审核仍未通过，不能标记全部完成。请项目维护者解决审核无法核对已有功能资料的问题，再重新审核。",
+    "status": "未完成"
+  },
+  "method": "Original frozen request entered through visible web form; saved actual UI and backend artifacts.",
+  "ui_capture_mode": "Re-rendered from saved history after archival folder collision; original backend input/output/trace/manifest restored byte-for-byte from original run ID. Not a model rerun. Original pre-submit UI snapshots were overwritten, so removed instead of mislabelled."
+}

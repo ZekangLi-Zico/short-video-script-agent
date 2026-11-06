@@ -1,0 +1,13 @@
+{
+  "case_id": "T27",
+  "capture_mode": "viewport_fallback",
+  "finished_capture_at": "2026-11-03T14:38:12.681Z",
+  "busy": false,
+  "detail": "真实模型 · 3 个执行步骤",
+  "download": "/api/runs/fba5b68437124f06ac541cb86533c513/download/output.json",
+  "error": "",
+  "history": "fba5b68437124f06ac541cb86533c513",
+  "message": "请补充剪映字幕编辑、片段裁剪功能及两款产品价格的可引用事实，附准确的 source_id、fact_id；价格需注明版本、日期和适用范围。",
+  "save": "记录已保存 · fba5b684",
+  "status": "需要补充"
+}

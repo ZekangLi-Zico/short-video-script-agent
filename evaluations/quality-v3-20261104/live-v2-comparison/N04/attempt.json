@@ -1,0 +1,27 @@
+{
+  "case_id": "N04",
+  "started_at": "2026-11-03T16:47:53.153474+00:00",
+  "frozen_cases_sha256": "2c8475d41b6a335dadac3bea53fbe9e879ab981439116c4eb3b0338926ae13e1",
+  "code_root": "D:\\小影科技笔试\\.runtime\\quality-v2-baseline",
+  "source_hashes": {
+    "src/agent.py": "dc90811a483b7ddc5b7355c6c72fe084a9268312f314118f388bb7b5b7147bc3",
+    "src/cli.py": "42ded4d3bdbef521d4ae23c1ec8e077ff12d774c82d2a6fcd5a27127c97a7ac4",
+    "src/mock.py": "0c85865365d6a79dd29c3981bc352a6117cc3b071c362f23f07dfd3dd9037a7f",
+    "src/providers.py": "fc82244790205acc147cabcd05c5b407cc5360beccb9db41536749c39e34c906",
+    "src/reporting.py": "b2e2acf817a9faacac7313309dabdd1fe4c3212c6686b8509d6f428a5a3f589c",
+    "src/requirements.py": "c349f156e320f1d864e5f4f33ad51984151ac9aa39f3134fdac37e5cbad96f88",
+    "src/schema.py": "f860faf5a793d792fa8448475d276ea7b438349c92f03a77d037b445568decc5",
+    "src/tools.py": "59fbd7d10b731535632b0cb1808d221f80a8e7a17d5fdca59201c441eba28ed4",
+    "src/web.py": "09f96912b083d94d1eaa8c67aae673ffcd4b148dde37958149230facef6a0067",
+    "src/__init__.py": "69886b4a16dec45cc89cf493080228ed54e3827fd3a7a12b33e18e6d1247eff1",
+    "data/brand_rules.json": "bb28c202e3e710e0a6eb6e1e90667aba97b951cf0e63c9e2f40ee50864f08f2f",
+    "data/materials.json": "1fc255b84e8776cc73f7c3dbe59c3b9beb92fe5d1ef594fb850ce26a8a289667",
+    "web/app.js": "9d604c9e66c1e6311cc3faecd48322b46ad703051e0814bf5a9939f0798b6138",
+    "web/favicon.svg": "6cf80e7ec2bdb690dea50d5b527489f8d434387d3d1ac4e7cff4c794934af610",
+    "web/index.html": "0fe82972e496ccaad37045d92404b79497a10fe5449583666a1a7a633eec47e2",
+    "web/style.css": "3855e4392bc31e90ed04fe7d480fba272aa26fc1dc3b1f0c9a0ce3986a182ede"
+  },
+  "legacy": true,
+  "entry": "CLI through Agent.run; not a browser test",
+  "workers": 2
+}

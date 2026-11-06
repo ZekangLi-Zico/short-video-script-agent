@@ -1,0 +1,1502 @@
+{
+  "format": "checkpoint_v1",
+  "recorded_at": "2026-11-04T17:18:09.392298+00:00",
+  "last_event": {
+    "kind": "step",
+    "step": 4
+  },
+  "result": {
+    "status": "in_progress",
+    "message": "任务执行中，尚未完成。",
+    "script": {
+      "format_version": 2,
+      "title": "服装店拍款式：裁剪片段与横竖屏选择",
+      "shots": [
+        {
+          "purpose": "从衣架上的款式开始，建立店员拍摄服装的场景。",
+          "visual": "以挂满衣服的衣架为背景，店员拨开相邻衣服，拿出一件展示正面；手机镜头从整件衣服缓缓靠近袖口。",
+          "hold_seconds": 5.5,
+          "blocks": [
+            {
+              "text": "衣架上的款式，先拍一段看看。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "both",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "用面料特写的片段演示裁剪，让拍到的细节成为剪辑对象。",
+          "visual": "面料特写铺满背景，叠加手机剪辑界面实拍：展示包含镜头移入、面料停留、镜头移开的原片，再展示裁剪后保留的面料特写片段，不强调具体按钮。",
+          "hold_seconds": 5.5,
+          "blocks": [
+            {
+              "text": "用剪影练习版裁剪视频片段。",
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "channel": "both",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "结合单件服装和整排货架的构图，展示横屏与竖屏比例选择。",
+          "visual": "衣架与货架作为背景，手机界面展示横屏、竖屏比例选项；随后依次呈现竖向单件服装构图、横向整排货架构图，让店员对照画面选择。",
+          "hold_seconds": 5.5,
+          "blocks": [
+            {
+              "text": "横屏、竖屏，都有画面比例选项。",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "channel": "both",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "回到整排货架，用完整陈列画面收束拍摄过程。",
+          "visual": "切回整排货架全景，店员将刚才展示的衣服挂回原位，理顺衣架后走出画面；镜头稳定停留，完整展示这一排服装。",
+          "hold_seconds": 5.5,
+          "blocks": [
+            {
+              "text": "最后回到整排货架，看看这一排的搭配。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "both",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        }
+      ],
+      "editor_notes": ""
+    },
+    "duration": {
+      "ok": true,
+      "script_hash": "1668e1889556f59a9bea3eb0a150917ce5ef52504a8d1456020e61483e9d75c6",
+      "shots": [
+        {
+          "shot": 1,
+          "estimated_seconds": 5.5,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 3.5,
+              "voice_seconds": 3.5,
+              "screen_read_seconds": 3.5,
+              "display_seconds": 0,
+              "estimated_seconds": 3.5
+            }
+          ],
+          "tail_hold_seconds": 2.0
+        },
+        {
+          "shot": 2,
+          "estimated_seconds": 5.5,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 3.5,
+              "voice_seconds": 3.5,
+              "screen_read_seconds": 3.5,
+              "display_seconds": 0,
+              "estimated_seconds": 3.5
+            }
+          ],
+          "tail_hold_seconds": 2.0
+        },
+        {
+          "shot": 3,
+          "estimated_seconds": 5.5,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 3.5,
+              "voice_seconds": 3.5,
+              "screen_read_seconds": 3.5,
+              "display_seconds": 0,
+              "estimated_seconds": 3.5
+            }
+          ],
+          "tail_hold_seconds": 2.0
+        },
+        {
+          "shot": 4,
+          "estimated_seconds": 5.5,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 4.5,
+              "voice_seconds": 4.5,
+              "screen_read_seconds": 4.5,
+              "display_seconds": 0,
+              "estimated_seconds": 4.5
+            }
+          ],
+          "tail_hold_seconds": 1.0
+        }
+      ],
+      "total_seconds": 22.0,
+      "target_seconds": 24,
+      "passed": true,
+      "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+      "is_estimate": true,
+      "duration_mode": "target",
+      "min_seconds": 21.6,
+      "max_seconds": 24,
+      "issue": null
+    },
+    "rules_check": {
+      "ok": true,
+      "script_hash": "1668e1889556f59a9bea3eb0a150917ce5ef52504a8d1456020e61483e9d75c6",
+      "passed": true,
+      "issues": [],
+      "citations": [
+        {
+          "location": "shot:2/block:1",
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01",
+          "text": "用剪影练习版裁剪视频片段。",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:3/block:1",
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01",
+          "text": "横屏、竖屏，都有画面比例选项。",
+          "requires_semantic_review": true
+        }
+      ],
+      "rules_version": "2026-11-03-v1",
+      "requires_expression_review": true,
+      "expression_slots": [
+        {
+          "location": "title",
+          "text": "服装店拍款式：裁剪片段与横竖屏选择"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "以挂满衣服的衣架为背景，店员拨开相邻衣服，拿出一件展示正面；手机镜头从整件衣服缓缓靠近袖口。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "衣架上的款式，先拍一段看看。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "面料特写铺满背景，叠加手机剪辑界面实拍：展示包含镜头移入、面料停留、镜头移开的原片，再展示裁剪后保留的面料特写片段，不强调具体按钮。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "用剪影练习版裁剪视频片段。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "衣架与货架作为背景，手机界面展示横屏、竖屏比例选项；随后依次呈现竖向单件服装构图、横向整排货架构图，让店员对照画面选择。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "横屏、竖屏，都有画面比例选项。"
+        },
+        {
+          "location": "shot:4/visual",
+          "text": "切回整排货架全景，店员将刚才展示的衣服挂回原位，理顺衣架后走出画面；镜头稳定停留，完整展示这一排服装。"
+        },
+        {
+          "location": "shot:4/block:1",
+          "text": "最后回到整排货架，看看这一排的搭配。"
+        }
+      ],
+      "available_facts": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F2",
+          "quote": "字幕文字可以手动编辑。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01"
+        }
+      ],
+      "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+    },
+    "requirements_check": {
+      "ok": true,
+      "script_hash": "1668e1889556f59a9bea3eb0a150917ce5ef52504a8d1456020e61483e9d75c6",
+      "request_hash": "a1287e529fe441787f396d0b70e8f9dfd410628e843b760cf9c24d46238e63d5",
+      "passed": true,
+      "items": [
+        {
+          "field": "topic",
+          "requirement": "裁剪片段",
+          "verdict": "met",
+          "evidence": "第2镜展示原片与裁剪后保留的面料特写，并同步介绍裁剪功能。"
+        },
+        {
+          "field": "topic",
+          "requirement": "横竖屏比例选择",
+          "verdict": "met",
+          "evidence": "第3镜展示横竖屏比例选项及两种服装构图供对照选择。"
+        },
+        {
+          "field": "topic",
+          "requirement": "以衣架、面料特写、整排货架为背景",
+          "verdict": "met",
+          "evidence": "第1镜为衣架，第2镜为面料特写，第3、4镜包含整排货架。"
+        },
+        {
+          "field": "topic",
+          "requirement": "恰好四个分镜",
+          "verdict": "met",
+          "evidence": "当前稿件共4个分镜。"
+        },
+        {
+          "field": "topic",
+          "requirement": "最后一镜回到整排货架",
+          "verdict": "met",
+          "evidence": "第4镜明确“切回整排货架全景”。"
+        },
+        {
+          "field": "audience",
+          "requirement": "小型服装店店员",
+          "verdict": "met",
+          "evidence": "以店员展示款式、拍摄面料及整理陈列的具体工作场景介绍功能。"
+        },
+        {
+          "field": "platform",
+          "requirement": "抖音",
+          "verdict": "met",
+          "evidence": "四镜短视频以服装实拍配合同步短句介绍功能，符合短视频观看方式。"
+        },
+        {
+          "field": "style",
+          "requirement": "明快",
+          "verdict": "met",
+          "evidence": "各镜使用简短口语，按展示款式、裁剪、比例选择、陈列收束推进。"
+        },
+        {
+          "field": "style",
+          "requirement": "不喊促销口号",
+          "verdict": "met",
+          "evidence": "全部公开文案均为场景说明或功能介绍，没有促销口号。"
+        }
+      ],
+      "summary": "稿件满足全部明确需求，两项功能介绍均有资料支持。预计22秒，已通过目标时长检查，镜头停留也有相应动作与观察内容支撑。",
+      "method": "model_assessment_not_deterministic_proof",
+      "expressions": [
+        {
+          "location": "title",
+          "text": "服装店拍款式：裁剪片段与横竖屏选择",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1"
+            },
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "标题所列裁剪与横竖屏比例选择均由对应资料支持。"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "以挂满衣服的衣架为背景，店员拨开相邻衣服，拿出一件展示正面；手机镜头从整件衣服缓缓靠近袖口。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "仅描述店员动作、服装背景和拍摄安排。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "衣架上的款式，先拍一段看看。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于场景引导，没有产品能力承诺。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "面料特写铺满背景，叠加手机剪辑界面实拍：展示包含镜头移入、面料停留、镜头移开的原片，再展示裁剪后保留的面料特写片段，不强调具体按钮。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1"
+            }
+          ],
+          "evidence": "裁剪前后片段演示属于已支持的裁剪能力，未编造按钮或自动流程。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "用剪影练习版裁剪视频片段。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1"
+            }
+          ],
+          "evidence": "准确改写原文支持裁剪视频片段的能力。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "衣架与货架作为背景，手机界面展示横屏、竖屏比例选项；随后依次呈现竖向单件服装构图、横向整排货架构图，让店员对照画面选择。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "比例选项由资料支持，两种服装构图是示意安排，未新增自动构图承诺。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "横屏、竖屏，都有画面比例选项。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "省略产品名后仍准确表达原文中的横竖屏比例选项。"
+        },
+        {
+          "location": "shot:4/visual",
+          "text": "切回整排货架全景，店员将刚才展示的衣服挂回原位，理顺衣架后走出画面；镜头稳定停留，完整展示这一排服装。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "仅包含服装陈列动作与镜头停留安排。"
+        },
+        {
+          "location": "shot:4/block:1",
+          "text": "最后回到整排货架，看看这一排的搭配。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "属于对陈列画面的观看引导，没有产品效果声明。"
+        }
+      ],
+      "pacing": {
+        "verdict": "met",
+        "evidence": "各镜预计5.5秒，同步声画占3.5至4.5秒；剩余时间分别用于服装展示、裁剪前后观察、横竖构图对照及货架陈列收束，无明显空镜凑时长。"
+      },
+      "expression_review_passed": true
+    },
+    "sources": [
+      {
+        "id": "P02",
+        "product_id": "demo-editor",
+        "title": "剪辑功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "剪辑",
+          "裁剪",
+          "片段",
+          "trim",
+          "edit"
+        ],
+        "facts": [
+          {
+            "id": "P02.F1",
+            "text": "剪影练习版支持裁剪视频片段。"
+          }
+        ]
+      },
+      {
+        "id": "P03",
+        "product_id": "demo-editor",
+        "title": "画面比例说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "比例",
+          "竖屏",
+          "横屏",
+          "画面",
+          "aspect"
+        ],
+        "facts": [
+          {
+            "id": "P03.F1",
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+          }
+        ]
+      },
+      {
+        "id": "P01",
+        "product_id": "demo-editor",
+        "title": "字幕功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "字幕",
+          "口播",
+          "文字",
+          "caption",
+          "subtitle"
+        ],
+        "facts": [
+          {
+            "id": "P01.F1",
+            "text": "剪影练习版支持为视频添加字幕。"
+          },
+          {
+            "id": "P01.F2",
+            "text": "字幕文字可以手动编辑。"
+          }
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "action": "search_materials",
+        "arguments": {
+          "query": "demo-editor 裁剪片段 横竖屏比例选择 功能 适用范围",
+          "product_id": "demo-editor"
+        },
+        "decision_basis": "先获取裁剪片段与横竖屏比例选择的产品依据，用于编排恰好四镜的服装店场景脚本。",
+        "observation": {
+          "ok": true,
+          "query": "demo-editor 裁剪片段 横竖屏比例选择 功能 适用范围",
+          "product_id": "demo-editor",
+          "materials": [
+            {
+              "id": "P02",
+              "product_id": "demo-editor",
+              "title": "剪辑功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "剪辑",
+                "裁剪",
+                "片段",
+                "trim",
+                "edit"
+              ],
+              "facts": [
+                {
+                  "id": "P02.F1",
+                  "text": "剪影练习版支持裁剪视频片段。"
+                }
+              ]
+            },
+            {
+              "id": "P03",
+              "product_id": "demo-editor",
+              "title": "画面比例说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "比例",
+                "竖屏",
+                "横屏",
+                "画面",
+                "aspect"
+              ],
+              "facts": [
+                {
+                  "id": "P03.F1",
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+                }
+              ]
+            },
+            {
+              "id": "P01",
+              "product_id": "demo-editor",
+              "title": "字幕功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "字幕",
+                "口播",
+                "文字",
+                "caption",
+                "subtitle"
+              ],
+              "facts": [
+                {
+                  "id": "P01.F1",
+                  "text": "剪影练习版支持为视频添加字幕。"
+                },
+                {
+                  "id": "P01.F2",
+                  "text": "字幕文字可以手动编辑。"
+                }
+              ]
+            }
+          ],
+          "count": 3
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a78f-0695-7ef3-9965-5a16a281e438",
+          "usage": {
+            "input_tokens": 27264,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 88,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-2qeumflg",
+          "warnings": []
+        },
+        "elapsed_ms": 29656
+      },
+      {
+        "step": 2,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "服装店拍款式：裁剪片段与横竖屏选择",
+            "shots": [
+              {
+                "purpose": "从衣架上的款式开始，建立店员拍摄服装的场景。",
+                "visual": "以挂满衣服的衣架为背景，店员拨开相邻衣服，拿出一件展示正面；手机镜头从整件衣服缓缓靠近袖口。",
+                "hold_seconds": 5.5,
+                "blocks": [
+                  {
+                    "text": "衣架上的款式，先拍一段看看。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "用面料特写的片段演示裁剪，让拍到的细节成为剪辑对象。",
+                "visual": "面料特写铺满背景，叠加手机剪辑界面实拍：展示包含镜头移入、面料停留、镜头移开的原片，再展示裁剪后保留的面料特写片段，不强调具体按钮。",
+                "hold_seconds": 5.5,
+                "blocks": [
+                  {
+                    "text": "用剪影练习版裁剪视频片段。",
+                    "source_id": "P02",
+                    "fact_id": "P02.F1",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "结合单件服装和整排货架的构图，展示横屏与竖屏比例选择。",
+                "visual": "衣架与货架作为背景，手机界面展示横屏、竖屏比例选项；随后依次呈现竖向单件服装构图、横向整排货架构图，让店员对照画面选择。",
+                "hold_seconds": 5.5,
+                "blocks": [
+                  {
+                    "text": "横屏、竖屏，都有画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "回到整排货架，用完整陈列画面收束拍摄过程。",
+                "visual": "切回整排货架全景，店员将刚才展示的衣服挂回原位，理顺衣架后走出画面；镜头稳定停留，完整展示这一排服装。",
+                "hold_seconds": 5.5,
+                "blocks": [
+                  {
+                    "text": "最后回到整排货架，看看这一排的搭配。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          }
+        },
+        "decision_basis": "已有素材覆盖两项必讲功能，编排恰好四镜，以衣架、面料特写和整排货架串起展示，并在最后回到整排货架。",
+        "observation": {
+          "ok": true,
+          "script_hash": "1668e1889556f59a9bea3eb0a150917ce5ef52504a8d1456020e61483e9d75c6",
+          "revision": {
+            "before_hash": null,
+            "after_hash": "1668e1889556f59a9bea3eb0a150917ce5ef52504a8d1456020e61483e9d75c6",
+            "changed_fields": [
+              "script:new"
+            ],
+            "unchanged_shots": 0,
+            "unchanged_blocks": 0,
+            "feedback": [],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a78f-6396-7401-ba2e-02ad8f3a2162",
+          "usage": {
+            "input_tokens": 27655,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 825,
+            "reasoning_output_tokens": 208
+          },
+          "call_id": "decision-epcv4m5h",
+          "warnings": []
+        },
+        "elapsed_ms": 45390
+      },
+      {
+        "step": 3,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "服装店拍款式：裁剪片段与横竖屏选择",
+            "shots": [
+              {
+                "purpose": "从衣架上的款式开始，建立店员拍摄服装的场景。",
+                "visual": "以挂满衣服的衣架为背景，店员拨开相邻衣服，拿出一件展示正面；手机镜头从整件衣服缓缓靠近袖口。",
+                "hold_seconds": 5.5,
+                "blocks": [
+                  {
+                    "text": "衣架上的款式，先拍一段看看。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "用面料特写的片段演示裁剪，让拍到的细节成为剪辑对象。",
+                "visual": "面料特写铺满背景，叠加手机剪辑界面实拍：展示包含镜头移入、面料停留、镜头移开的原片，再展示裁剪后保留的面料特写片段，不强调具体按钮。",
+                "hold_seconds": 5.5,
+                "blocks": [
+                  {
+                    "text": "用剪影练习版裁剪视频片段。",
+                    "source_id": "P02",
+                    "fact_id": "P02.F1",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "结合单件服装和整排货架的构图，展示横屏与竖屏比例选择。",
+                "visual": "衣架与货架作为背景，手机界面展示横屏、竖屏比例选项；随后依次呈现竖向单件服装构图、横向整排货架构图，让店员对照画面选择。",
+                "hold_seconds": 5.5,
+                "blocks": [
+                  {
+                    "text": "横屏、竖屏，都有画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "回到整排货架，用完整陈列画面收束拍摄过程。",
+                "visual": "切回整排货架全景，店员将刚才展示的衣服挂回原位，理顺衣架后走出画面；镜头稳定停留，完整展示这一排服装。",
+                "hold_seconds": 5.5,
+                "blocks": [
+                  {
+                    "text": "最后回到整排货架，看看这一排的搭配。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "both",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "request": {
+            "topic": "介绍裁剪片段和横竖屏比例选择，以衣架、面料特写、整排货架为背景。恰好四个分镜，最后一镜回到整排货架。",
+            "audience": "小型服装店店员",
+            "platform": "抖音",
+            "style": "明快，不喊促销口号",
+            "product_id": "demo-editor",
+            "duration_mode": "target",
+            "expression_mode": "creative",
+            "target_seconds": 24
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "1668e1889556f59a9bea3eb0a150917ce5ef52504a8d1456020e61483e9d75c6",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:2/block:1",
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01",
+                "text": "用剪影练习版裁剪视频片段。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:3/block:1",
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01",
+                "text": "横屏、竖屏，都有画面比例选项。",
+                "requires_semantic_review": true
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "服装店拍款式：裁剪片段与横竖屏选择"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "以挂满衣服的衣架为背景，店员拨开相邻衣服，拿出一件展示正面；手机镜头从整件衣服缓缓靠近袖口。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "衣架上的款式，先拍一段看看。"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "面料特写铺满背景，叠加手机剪辑界面实拍：展示包含镜头移入、面料停留、镜头移开的原片，再展示裁剪后保留的面料特写片段，不强调具体按钮。"
+              },
+              {
+                "location": "shot:2/block:1",
+                "text": "用剪影练习版裁剪视频片段。"
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "衣架与货架作为背景，手机界面展示横屏、竖屏比例选项；随后依次呈现竖向单件服装构图、横向整排货架构图，让店员对照画面选择。"
+              },
+              {
+                "location": "shot:3/block:1",
+                "text": "横屏、竖屏，都有画面比例选项。"
+              },
+              {
+                "location": "shot:4/visual",
+                "text": "切回整排货架全景，店员将刚才展示的衣服挂回原位，理顺衣架后走出画面；镜头稳定停留，完整展示这一排服装。"
+              },
+              {
+                "location": "shot:4/block:1",
+                "text": "最后回到整排货架，看看这一排的搭配。"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "1668e1889556f59a9bea3eb0a150917ce5ef52504a8d1456020e61483e9d75c6",
+            "shots": [
+              {
+                "shot": 1,
+                "estimated_seconds": 5.5,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 3.5,
+                    "voice_seconds": 3.5,
+                    "screen_read_seconds": 3.5,
+                    "display_seconds": 0,
+                    "estimated_seconds": 3.5
+                  }
+                ],
+                "tail_hold_seconds": 2.0
+              },
+              {
+                "shot": 2,
+                "estimated_seconds": 5.5,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 3.5,
+                    "voice_seconds": 3.5,
+                    "screen_read_seconds": 3.5,
+                    "display_seconds": 0,
+                    "estimated_seconds": 3.5
+                  }
+                ],
+                "tail_hold_seconds": 2.0
+              },
+              {
+                "shot": 3,
+                "estimated_seconds": 5.5,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 3.5,
+                    "voice_seconds": 3.5,
+                    "screen_read_seconds": 3.5,
+                    "display_seconds": 0,
+                    "estimated_seconds": 3.5
+                  }
+                ],
+                "tail_hold_seconds": 2.0
+              },
+              {
+                "shot": 4,
+                "estimated_seconds": 5.5,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 4.5,
+                    "voice_seconds": 4.5,
+                    "screen_read_seconds": 4.5,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.5
+                  }
+                ],
+                "tail_hold_seconds": 1.0
+              }
+            ],
+            "total_seconds": 22.0,
+            "target_seconds": 24,
+            "passed": true,
+            "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+            "is_estimate": true,
+            "duration_mode": "target",
+            "min_seconds": 21.6,
+            "max_seconds": 24,
+            "issue": null
+          }
+        },
+        "decision_basis": "当前稿已覆盖裁剪片段、横竖屏比例选择及四镜场景要求，检查本稿时长是否达到24秒目标的90%–100%，并核对品牌规则和全部需求。",
+        "observation": {
+          "ok": true,
+          "script_hash": "1668e1889556f59a9bea3eb0a150917ce5ef52504a8d1456020e61483e9d75c6",
+          "request_hash": "a1287e529fe441787f396d0b70e8f9dfd410628e843b760cf9c24d46238e63d5",
+          "passed": true,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "裁剪片段",
+              "verdict": "met",
+              "evidence": "第2镜展示原片与裁剪后保留的面料特写，并同步介绍裁剪功能。"
+            },
+            {
+              "field": "topic",
+              "requirement": "横竖屏比例选择",
+              "verdict": "met",
+              "evidence": "第3镜展示横竖屏比例选项及两种服装构图供对照选择。"
+            },
+            {
+              "field": "topic",
+              "requirement": "以衣架、面料特写、整排货架为背景",
+              "verdict": "met",
+              "evidence": "第1镜为衣架，第2镜为面料特写，第3、4镜包含整排货架。"
+            },
+            {
+              "field": "topic",
+              "requirement": "恰好四个分镜",
+              "verdict": "met",
+              "evidence": "当前稿件共4个分镜。"
+            },
+            {
+              "field": "topic",
+              "requirement": "最后一镜回到整排货架",
+              "verdict": "met",
+              "evidence": "第4镜明确“切回整排货架全景”。"
+            },
+            {
+              "field": "audience",
+              "requirement": "小型服装店店员",
+              "verdict": "met",
+              "evidence": "以店员展示款式、拍摄面料及整理陈列的具体工作场景介绍功能。"
+            },
+            {
+              "field": "platform",
+              "requirement": "抖音",
+              "verdict": "met",
+              "evidence": "四镜短视频以服装实拍配合同步短句介绍功能，符合短视频观看方式。"
+            },
+            {
+              "field": "style",
+              "requirement": "明快",
+              "verdict": "met",
+              "evidence": "各镜使用简短口语，按展示款式、裁剪、比例选择、陈列收束推进。"
+            },
+            {
+              "field": "style",
+              "requirement": "不喊促销口号",
+              "verdict": "met",
+              "evidence": "全部公开文案均为场景说明或功能介绍，没有促销口号。"
+            }
+          ],
+          "summary": "稿件满足全部明确需求，两项功能介绍均有资料支持。预计22秒，已通过目标时长检查，镜头停留也有相应动作与观察内容支撑。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "服装店拍款式：裁剪片段与横竖屏选择",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                },
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "标题所列裁剪与横竖屏比例选择均由对应资料支持。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "以挂满衣服的衣架为背景，店员拨开相邻衣服，拿出一件展示正面；手机镜头从整件衣服缓缓靠近袖口。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "仅描述店员动作、服装背景和拍摄安排。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "衣架上的款式，先拍一段看看。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于场景引导，没有产品能力承诺。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "面料特写铺满背景，叠加手机剪辑界面实拍：展示包含镜头移入、面料停留、镜头移开的原片，再展示裁剪后保留的面料特写片段，不强调具体按钮。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ],
+              "evidence": "裁剪前后片段演示属于已支持的裁剪能力，未编造按钮或自动流程。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "用剪影练习版裁剪视频片段。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ],
+              "evidence": "准确改写原文支持裁剪视频片段的能力。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "衣架与货架作为背景，手机界面展示横屏、竖屏比例选项；随后依次呈现竖向单件服装构图、横向整排货架构图，让店员对照画面选择。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "比例选项由资料支持，两种服装构图是示意安排，未新增自动构图承诺。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "横屏、竖屏，都有画面比例选项。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "省略产品名后仍准确表达原文中的横竖屏比例选项。"
+            },
+            {
+              "location": "shot:4/visual",
+              "text": "切回整排货架全景，店员将刚才展示的衣服挂回原位，理顺衣架后走出画面；镜头稳定停留，完整展示这一排服装。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "仅包含服装陈列动作与镜头停留安排。"
+            },
+            {
+              "location": "shot:4/block:1",
+              "text": "最后回到整排货架，看看这一排的搭配。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "属于对陈列画面的观看引导，没有产品效果声明。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "各镜预计5.5秒，同步声画占3.5至4.5秒；剩余时间分别用于服装展示、裁剪前后观察、横竖构图对照及货架陈列收束，无明显空镜凑时长。"
+          },
+          "expression_review_passed": true
+        },
+        "preflight_checks": [
+          {
+            "action": "estimate_duration",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "服装店拍款式：裁剪片段与横竖屏选择",
+                "shots": [
+                  {
+                    "purpose": "从衣架上的款式开始，建立店员拍摄服装的场景。",
+                    "visual": "以挂满衣服的衣架为背景，店员拨开相邻衣服，拿出一件展示正面；手机镜头从整件衣服缓缓靠近袖口。",
+                    "hold_seconds": 5.5,
+                    "blocks": [
+                      {
+                        "text": "衣架上的款式，先拍一段看看。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "both",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "用面料特写的片段演示裁剪，让拍到的细节成为剪辑对象。",
+                    "visual": "面料特写铺满背景，叠加手机剪辑界面实拍：展示包含镜头移入、面料停留、镜头移开的原片，再展示裁剪后保留的面料特写片段，不强调具体按钮。",
+                    "hold_seconds": 5.5,
+                    "blocks": [
+                      {
+                        "text": "用剪影练习版裁剪视频片段。",
+                        "source_id": "P02",
+                        "fact_id": "P02.F1",
+                        "channel": "both",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "结合单件服装和整排货架的构图，展示横屏与竖屏比例选择。",
+                    "visual": "衣架与货架作为背景，手机界面展示横屏、竖屏比例选项；随后依次呈现竖向单件服装构图、横向整排货架构图，让店员对照画面选择。",
+                    "hold_seconds": 5.5,
+                    "blocks": [
+                      {
+                        "text": "横屏、竖屏，都有画面比例选项。",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "both",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "回到整排货架，用完整陈列画面收束拍摄过程。",
+                    "visual": "切回整排货架全景，店员将刚才展示的衣服挂回原位，理顺衣架后走出画面；镜头稳定停留，完整展示这一排服装。",
+                    "hold_seconds": 5.5,
+                    "blocks": [
+                      {
+                        "text": "最后回到整排货架，看看这一排的搭配。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "both",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "target_seconds": 24,
+              "duration_mode": "target"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "1668e1889556f59a9bea3eb0a150917ce5ef52504a8d1456020e61483e9d75c6",
+              "shots": [
+                {
+                  "shot": 1,
+                  "estimated_seconds": 5.5,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 3.5,
+                      "voice_seconds": 3.5,
+                      "screen_read_seconds": 3.5,
+                      "display_seconds": 0,
+                      "estimated_seconds": 3.5
+                    }
+                  ],
+                  "tail_hold_seconds": 2.0
+                },
+                {
+                  "shot": 2,
+                  "estimated_seconds": 5.5,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 3.5,
+                      "voice_seconds": 3.5,
+                      "screen_read_seconds": 3.5,
+                      "display_seconds": 0,
+                      "estimated_seconds": 3.5
+                    }
+                  ],
+                  "tail_hold_seconds": 2.0
+                },
+                {
+                  "shot": 3,
+                  "estimated_seconds": 5.5,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 3.5,
+                      "voice_seconds": 3.5,
+                      "screen_read_seconds": 3.5,
+                      "display_seconds": 0,
+                      "estimated_seconds": 3.5
+                    }
+                  ],
+                  "tail_hold_seconds": 2.0
+                },
+                {
+                  "shot": 4,
+                  "estimated_seconds": 5.5,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 4.5,
+                      "voice_seconds": 4.5,
+                      "screen_read_seconds": 4.5,
+                      "display_seconds": 0,
+                      "estimated_seconds": 4.5
+                    }
+                  ],
+                  "tail_hold_seconds": 1.0
+                }
+              ],
+              "total_seconds": 22.0,
+              "target_seconds": 24,
+              "passed": true,
+              "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+              "is_estimate": true,
+              "duration_mode": "target",
+              "min_seconds": 21.6,
+              "max_seconds": 24,
+              "issue": null
+            }
+          },
+          {
+            "action": "check_rules",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "服装店拍款式：裁剪片段与横竖屏选择",
+                "shots": [
+                  {
+                    "purpose": "从衣架上的款式开始，建立店员拍摄服装的场景。",
+                    "visual": "以挂满衣服的衣架为背景，店员拨开相邻衣服，拿出一件展示正面；手机镜头从整件衣服缓缓靠近袖口。",
+                    "hold_seconds": 5.5,
+                    "blocks": [
+                      {
+                        "text": "衣架上的款式，先拍一段看看。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "both",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "用面料特写的片段演示裁剪，让拍到的细节成为剪辑对象。",
+                    "visual": "面料特写铺满背景，叠加手机剪辑界面实拍：展示包含镜头移入、面料停留、镜头移开的原片，再展示裁剪后保留的面料特写片段，不强调具体按钮。",
+                    "hold_seconds": 5.5,
+                    "blocks": [
+                      {
+                        "text": "用剪影练习版裁剪视频片段。",
+                        "source_id": "P02",
+                        "fact_id": "P02.F1",
+                        "channel": "both",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "结合单件服装和整排货架的构图，展示横屏与竖屏比例选择。",
+                    "visual": "衣架与货架作为背景，手机界面展示横屏、竖屏比例选项；随后依次呈现竖向单件服装构图、横向整排货架构图，让店员对照画面选择。",
+                    "hold_seconds": 5.5,
+                    "blocks": [
+                      {
+                        "text": "横屏、竖屏，都有画面比例选项。",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "both",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "回到整排货架，用完整陈列画面收束拍摄过程。",
+                    "visual": "切回整排货架全景，店员将刚才展示的衣服挂回原位，理顺衣架后走出画面；镜头稳定停留，完整展示这一排服装。",
+                    "hold_seconds": 5.5,
+                    "blocks": [
+                      {
+                        "text": "最后回到整排货架，看看这一排的搭配。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "both",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "retrieved_ids": [
+                "P01",
+                "P02",
+                "P03"
+              ],
+              "expression_mode": "creative"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "1668e1889556f59a9bea3eb0a150917ce5ef52504a8d1456020e61483e9d75c6",
+              "passed": true,
+              "issues": [],
+              "citations": [
+                {
+                  "location": "shot:2/block:1",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1",
+                  "quote": "剪影练习版支持裁剪视频片段。",
+                  "version": "2026-11-01",
+                  "text": "用剪影练习版裁剪视频片段。",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:3/block:1",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1",
+                  "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "version": "2026-11-01",
+                  "text": "横屏、竖屏，都有画面比例选项。",
+                  "requires_semantic_review": true
+                }
+              ],
+              "rules_version": "2026-11-03-v1",
+              "requires_expression_review": true,
+              "expression_slots": [
+                {
+                  "location": "title",
+                  "text": "服装店拍款式：裁剪片段与横竖屏选择"
+                },
+                {
+                  "location": "shot:1/visual",
+                  "text": "以挂满衣服的衣架为背景，店员拨开相邻衣服，拿出一件展示正面；手机镜头从整件衣服缓缓靠近袖口。"
+                },
+                {
+                  "location": "shot:1/block:1",
+                  "text": "衣架上的款式，先拍一段看看。"
+                },
+                {
+                  "location": "shot:2/visual",
+                  "text": "面料特写铺满背景，叠加手机剪辑界面实拍：展示包含镜头移入、面料停留、镜头移开的原片，再展示裁剪后保留的面料特写片段，不强调具体按钮。"
+                },
+                {
+                  "location": "shot:2/block:1",
+                  "text": "用剪影练习版裁剪视频片段。"
+                },
+                {
+                  "location": "shot:3/visual",
+                  "text": "衣架与货架作为背景，手机界面展示横屏、竖屏比例选项；随后依次呈现竖向单件服装构图、横向整排货架构图，让店员对照画面选择。"
+                },
+                {
+                  "location": "shot:3/block:1",
+                  "text": "横屏、竖屏，都有画面比例选项。"
+                },
+                {
+                  "location": "shot:4/visual",
+                  "text": "切回整排货架全景，店员将刚才展示的衣服挂回原位，理顺衣架后走出画面；镜头稳定停留，完整展示这一排服装。"
+                },
+                {
+                  "location": "shot:4/block:1",
+                  "text": "最后回到整排货架，看看这一排的搭配。"
+                }
+              ],
+              "available_facts": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1",
+                  "quote": "剪影练习版支持为视频添加字幕。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2",
+                  "quote": "字幕文字可以手动编辑。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1",
+                  "quote": "剪影练习版支持裁剪视频片段。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1",
+                  "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "version": "2026-11-01"
+                }
+              ],
+              "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+            }
+          }
+        ],
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a790-1504-7461-95df-1913e09b35fa",
+          "usage": {
+            "input_tokens": 28410,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 81,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-4mzxf96x",
+          "warnings": []
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a790-8408-7243-8165-2421145edc93",
+          "usage": {
+            "input_tokens": 29284,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1259,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-sbq9a9k1",
+          "warnings": []
+        },
+        "elapsed_ms": 70344
+      },
+      {
+        "step": 4,
+        "action": "finish",
+        "arguments": {
+          "status": "completed",
+          "message": "已完成四分镜脚本，预计22秒：以衣架、面料特写和货架展示裁剪片段及横竖屏比例选择，最后回到整排货架。时长、规则和需求检查均已通过。"
+        },
+        "decision_basis": "当前同一稿件的时长、规则和需求检查均已通过，无需修改。",
+        "observation": {
+          "ok": true,
+          "status": "completed",
+          "script_hash": "1668e1889556f59a9bea3eb0a150917ce5ef52504a8d1456020e61483e9d75c6"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a791-2cb0-7d22-8412-999c2d5cf832",
+          "usage": {
+            "input_tokens": 30552,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 106,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-fw8rmvdi",
+          "warnings": []
+        },
+        "elapsed_ms": 19547
+      }
+    ],
+    "metadata": {
+      "started_at": "2026-11-04T17:15:24.376356+00:00",
+      "finished_at": "2026-11-04T17:18:09.388151+00:00",
+      "provider": "codex",
+      "evidence_kind": "real_model",
+      "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+      "max_steps": 12,
+      "steps": 4,
+      "synthetic_data": true,
+      "completion_policy": "facts_duration_requirements_v6",
+      "requirements_review_context": "current_rules_and_duration_v2",
+      "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+      "model_responses": 5,
+      "run_id": "b17d00e9043c433ea89586fb5fa2e3f2",
+      "persistence": "checkpoint_v1",
+      "fault_injection": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "case": "normal",
+    "expected_status": [
+      "completed"
+    ],
+    "actual_status": "completed",
+    "passed": true,
+    "errors": [],
+    "steps": 6,
+    "evidence_kind": "real_model",
+    "path": "search_materials -> write_script -> estimate_duration -> check_rules -> check_requirements -> finish",
+    "artifacts": "examples\\repairs\\live-final\\normal"
+  },
+  {
+    "case": "over_duration",
+    "expected_status": [
+      "completed"
+    ],
+    "actual_status": "completed",
+    "passed": true,
+    "errors": [],
+    "steps": 8,
+    "evidence_kind": "real_model",
+    "path": "estimate_duration -> check_rules -> search_materials -> write_script -> estimate_duration -> check_rules -> check_requirements -> finish",
+    "artifacts": "examples\\repairs\\live-final\\over_duration"
+  }
+]

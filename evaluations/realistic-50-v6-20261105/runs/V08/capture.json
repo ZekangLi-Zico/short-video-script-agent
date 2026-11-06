@@ -1,0 +1,13 @@
+{
+  "case": "V08",
+  "index": 7,
+  "attempt": 1,
+  "run_id": "f3a992264bc64e1cb9e5c4e04acbefad",
+  "folder": "V08",
+  "status": "completed",
+  "steps": 4,
+  "responses": 5,
+  "provider": "codex",
+  "seconds": 14,
+  "message": "《排练室的这一晚》三镜头脚本已完成，预计14秒。以空排练室、鼓棒和谱架串联，仅介绍添加字幕，全部检查通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

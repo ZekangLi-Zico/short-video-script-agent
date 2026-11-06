@@ -19,14 +19,18 @@ from scripts.evaluate import scenarios
 from .agent import Agent
 from .cli import make_model
 from .providers import discover_codex
-from .reporting import save_run
+from .recording import run_recorded, recover_run
 from .schema import validate_request
 from .tools import ROOT, ToolBox
+from .listening import listening_copy
+from .staging import storyboard_rows
+from .version import APP_VERSION
+from .catalog import toolbox_for, material_catalog, story_presets
 
 PRESET_NAMES = {"normal": "正常生成", "missing_information": "缺少关键信息", "no_material": "没有产品素材",
                 "tool_failure": "工具持续失败", "recoverable_failure": "一次故障后恢复", "over_duration": "38 秒旧稿修订",
                 "rule_revision": "无依据宣传纠错", "impossible_duration": "无法满足的时长"}
-DOWNLOADS = {"script.md", "input.json", "output.json", "trace.jsonl", "manifest.json", "data_snapshot.json"}
+DOWNLOADS = {"script.md", "input.json", "output.json", "trace.jsonl", "manifest.json", "data_snapshot.json", "checkpoint.json", "voice.txt", "listening.json"}
 
 
 class BusyError(ValueError):
@@ -43,21 +47,25 @@ class RunManager:
         self._restore()
 
     def _restore(self):
-        """Restore only completed, saved runs; never resume model calls implicitly."""
+        """Restore saved runs or interrupted checkpoints; never restart models."""
         if not self.output_root.exists():
             return
         folders = sorted((p for p in self.output_root.iterdir() if p.is_dir() and re.fullmatch(r"[a-f0-9]{32}", p.name)),
                          key=lambda p: p.stat().st_mtime)[-32:]
         for folder in folders:
             try:
+                if recover_run(folder) is None:
+                    continue
                 request = json.loads((folder / "input.json").read_text(encoding="utf-8"))
                 result = json.loads((folder / "output.json").read_text(encoding="utf-8"))
                 manifest = json.loads((folder / "manifest.json").read_text(encoding="utf-8"))
                 trace = [json.loads(line) for line in (folder / "trace.jsonl").read_text(encoding="utf-8").splitlines()]
                 result["trace"] = trace
                 self.jobs[folder.name] = {"id": folder.name, "provider": result["metadata"]["provider"],
+                    "requirements_check": result.get('requirements_check'),
                     "request": request, "created_at": result["metadata"]["started_at"], "state": "finished",
                     "phase": "finished", "step": len(trace), "result": result, "error": None, "saved": True,
+                    "checkpoint_saved": (folder/'checkpoint.json').is_file(),
                     "cancel_requested": False, "cancel_event": threading.Event(), "scenario_id": "custom",
                     "failures": manifest.get("fault_injection", {}),
                     **{key: result[key] for key in ("trace", "script", "duration", "rules_check")}}
@@ -68,8 +76,10 @@ class RunManager:
         tools = ToolBox()
         presets = [{"id": name, "name": PRESET_NAMES[name], "request": request, "failures": failures,
                     "expected_status": sorted(expected)} for name, request, failures, expected in scenarios()]
+        presets = story_presets() + presets
         with self.lock:
-            return {"app": "short-video-script-agent", "presets": presets, "materials": tools.materials[:3], "active_id": self.active_id,
+            return {"app": "short-video-script-agent", "app_version":APP_VERSION, "presets": presets, "materials": tools.materials[:3],
+                    "material_packs": material_catalog(), "active_id": self.active_id,
                     "codex_available": bool(discover_codex()),
                     "api_available": bool(os.environ.get("MODEL_API_KEY") and os.environ.get("MODEL_NAME"))}
 
@@ -96,7 +106,8 @@ class RunManager:
                    "failures": copy.deepcopy(failures),
                    "created_at": datetime.now(timezone.utc).isoformat(), "state": "running", "phase": "starting",
                    "step": 0, "trace": [], "script": request.get("initial_script"), "duration": None,
-                   "rules_check": None, "result": None, "error": None, "saved": False,
+                   "rules_check": None, "result": None, "error": None, "saved": False, "checkpoint_saved": False,
+                   "requirements_check": None,
                    "cancel_requested": False, "cancel_event": threading.Event()}
             self.jobs[run_id] = job
             self.active_id = run_id
@@ -109,15 +120,16 @@ class RunManager:
             job = self.jobs[run_id]
         def progress(event):
             with self.lock:
-                job.update({"phase": event["kind"], **{k: event[k] for k in ("step", "trace", "script", "duration", "rules_check")}})
+                job.update({"phase": event["kind"], "checkpoint_saved": True,
+                            **{k: event[k] for k in ("step", "trace", "script", "duration", "rules_check", "requirements_check")}})
         try:
             model = self.model_factory(job["provider"], 180)
-            tools = ToolBox(failures=failures)
-            result = Agent(model, tools, on_event=progress, cancel_event=job["cancel_event"]).run(job["request"])
-            save_run(self.output_root / run_id, job["request"], result, tools)
+            tools = toolbox_for(job['request'], failures)
+            result = run_recorded(self.output_root / run_id, job["request"], model, tools,
+                                  on_event=progress, cancel_event=job["cancel_event"])
             with self.lock:
                 job.update({"result": result, "state": "finished", "phase": "finished", "saved": True,
-                            **{k: result[k] for k in ("trace", "script", "duration", "rules_check")}})
+                            **{k: result[k] for k in ("trace", "script", "duration", "rules_check", "requirements_check")}})
         except (ValueError, OSError) as exc:
             with self.lock:
                 job.update(state="error", error=f"启动或保存失败：{exc}", phase="error")
@@ -133,7 +145,11 @@ class RunManager:
     def get(self, run_id):
         with self.lock:
             job = self.jobs.get(run_id)
-            return copy.deepcopy({k: v for k, v in job.items() if k != "cancel_event"}) if job else None
+            if not job:
+                return None
+            return copy.deepcopy({**{k: v for k, v in job.items() if k != "cancel_event"},
+                                  'listening_copy':listening_copy(job.get('script')),
+                                  'storyboard_rows':storyboard_rows(job.get('script'),job.get('duration'))})
 
     def recent(self):
         with self.lock:
@@ -195,6 +211,12 @@ def make_server(port=8765, manager=None):
                 return self._send(200, (ROOT / "web" / name).read_bytes(), kind)
             if path == "/api/config":
                 return self._send(200, {**manager.config(), "token": token})
+            if path == "/api/materials/city-drama/dossier":
+                return self._send(200, (ROOT/'data/packs/city-drama/资料全文.md').read_bytes(),
+                                  'text/markdown; charset=utf-8', 'city-drama-dossier.md')
+            if path == "/api/materials/city-drama/bundle":
+                return self._send(200, (ROOT/'data/packs/city-drama/city-drama-materials.zip').read_bytes(),
+                                  'application/zip', 'city-drama-materials.zip')
             if path == "/api/runs":
                 return self._send(200, manager.recent())
             match = re.fullmatch(r"/api/runs/([a-f0-9]{32})(?:/download/([a-z_.]+))?", path)
@@ -203,7 +225,7 @@ def make_server(port=8765, manager=None):
                 job = manager.get(run_id)
                 if job and not filename:
                     return self._send(200, job)
-                if job and job["saved"] and filename in DOWNLOADS:
+                if job and filename in DOWNLOADS and (job["saved"] or (filename == 'checkpoint.json' and job.get('checkpoint_saved'))):
                     try:
                         return self._send(200, (manager.output_root / run_id / filename).read_bytes(), "application/octet-stream", filename)
                     except OSError:

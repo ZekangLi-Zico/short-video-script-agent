@@ -1,0 +1,1451 @@
+{
+  "format": "checkpoint_v1",
+  "recorded_at": "2026-11-04T17:23:27.610001+00:00",
+  "last_event": {
+    "kind": "step",
+    "step": 4
+  },
+  "result": {
+    "status": "in_progress",
+    "message": "任务执行中，尚未完成。",
+    "script": {
+      "format_version": 2,
+      "title": "会议素材编辑：添加字幕与横竖屏比例",
+      "shots": [
+        {
+          "purpose": "用会议室空椅子画面展示添加字幕的用途。",
+          "visual": "固定机位拍摄会议室一排空椅子，画面不出现人员、姓名牌或会议屏幕；先呈现空椅子，再叠加字幕“会议准备”。",
+          "hold_seconds": 6,
+          "blocks": [
+            {
+              "text": "剪影练习版支持为视频添加字幕。",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "会议准备",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "screen",
+              "beat": 1,
+              "display_seconds": 3
+            }
+          ]
+        },
+        {
+          "purpose": "用同一份会议资料封面示意横屏和竖屏构图。",
+          "visual": "俯拍仅印有“会议资料”的无姓名封面，不翻开内页；先用横屏画框展示封面，再切换为竖屏画框，均保持标题完整可见。画框用于构图示意。",
+          "hold_seconds": 7,
+          "blocks": [
+            {
+              "text": "提供横屏和竖屏画面比例选项。",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "横屏",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "channel": "screen",
+              "beat": 1,
+              "display_seconds": 3
+            },
+            {
+              "text": "竖屏",
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "channel": "screen",
+              "beat": 2,
+              "display_seconds": 3
+            }
+          ]
+        }
+      ],
+      "editor_notes": ""
+    },
+    "duration": {
+      "ok": true,
+      "script_hash": "7fee4695c0575d0f153676c3f8cc8063f451b483b9fb6146fe3101552ad2b598",
+      "shots": [
+        {
+          "shot": 1,
+          "estimated_seconds": 6.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 4.0,
+              "voice_seconds": 4.0,
+              "screen_read_seconds": 1.5,
+              "display_seconds": 3,
+              "estimated_seconds": 4.0
+            }
+          ],
+          "tail_hold_seconds": 2.0
+        },
+        {
+          "shot": 2,
+          "estimated_seconds": 7.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 3.8,
+              "voice_seconds": 3.75,
+              "screen_read_seconds": 1.0,
+              "display_seconds": 3,
+              "estimated_seconds": 3.8
+            },
+            {
+              "beat": 2,
+              "start_seconds": 3.8,
+              "end_seconds": 6.8,
+              "voice_seconds": 0,
+              "screen_read_seconds": 1.0,
+              "display_seconds": 3,
+              "estimated_seconds": 3.0
+            }
+          ],
+          "tail_hold_seconds": 0.2
+        }
+      ],
+      "total_seconds": 13.0,
+      "target_seconds": 20,
+      "passed": true,
+      "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+      "is_estimate": true
+    },
+    "rules_check": {
+      "ok": true,
+      "script_hash": "7fee4695c0575d0f153676c3f8cc8063f451b483b9fb6146fe3101552ad2b598",
+      "passed": true,
+      "issues": [],
+      "citations": [
+        {
+          "location": "shot:1/block:1",
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01",
+          "text": "剪影练习版支持为视频添加字幕。",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:2/block:1",
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01",
+          "text": "提供横屏和竖屏画面比例选项。",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:2/block:2",
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01",
+          "text": "横屏",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:2/block:3",
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01",
+          "text": "竖屏",
+          "requires_semantic_review": true
+        }
+      ],
+      "rules_version": "2026-11-03-v1",
+      "requires_expression_review": true,
+      "expression_slots": [
+        {
+          "location": "title",
+          "text": "会议素材编辑：添加字幕与横竖屏比例"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "固定机位拍摄会议室一排空椅子，画面不出现人员、姓名牌或会议屏幕；先呈现空椅子，再叠加字幕“会议准备”。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "location": "shot:1/block:2",
+          "text": "会议准备"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "俯拍仅印有“会议资料”的无姓名封面，不翻开内页；先用横屏画框展示封面，再切换为竖屏画框，均保持标题完整可见。画框用于构图示意。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "提供横屏和竖屏画面比例选项。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "横屏"
+        },
+        {
+          "location": "shot:2/block:3",
+          "text": "竖屏"
+        }
+      ],
+      "available_facts": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F2",
+          "quote": "字幕文字可以手动编辑。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P03",
+          "fact_id": "P03.F1",
+          "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "version": "2026-11-01"
+        }
+      ],
+      "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+    },
+    "requirements_check": {
+      "ok": true,
+      "script_hash": "7fee4695c0575d0f153676c3f8cc8063f451b483b9fb6146fe3101552ad2b598",
+      "request_hash": "ba2bdefd5f318c1b41a9d753aafc5e14453b6a56431a14aaa98befe8c588f8ca",
+      "passed": true,
+      "items": [
+        {
+          "field": "topic",
+          "requirement": "添加字幕",
+          "verdict": "met",
+          "evidence": "第一镜旁白介绍添加字幕，画面叠加“会议准备”。"
+        },
+        {
+          "field": "topic",
+          "requirement": "横竖屏比例选项",
+          "verdict": "met",
+          "evidence": "第二镜旁白介绍横竖屏比例，并依次展示横屏、竖屏构图。"
+        },
+        {
+          "field": "topic",
+          "requirement": "固定两个分镜",
+          "verdict": "met",
+          "evidence": "当前稿件恰有两个分镜。"
+        },
+        {
+          "field": "topic",
+          "requirement": "第一镜会议室空椅子",
+          "verdict": "met",
+          "evidence": "第一镜固定机位拍摄会议室一排空椅子。"
+        },
+        {
+          "field": "topic",
+          "requirement": "第二镜会议资料封面",
+          "verdict": "met",
+          "evidence": "第二镜俯拍仅印有“会议资料”的封面，不翻开内页。"
+        },
+        {
+          "field": "topic",
+          "requirement": "不出现发言内容和员工姓名。",
+          "verdict": "met",
+          "evidence": "两镜仅展示空椅子、无姓名封面及功能介绍，未出现发言内容或员工姓名。"
+        },
+        {
+          "field": "audience",
+          "requirement": "公司行政视频编辑",
+          "verdict": "met",
+          "evidence": "使用会议准备与会议资料场景，符合行政视频编辑的工作语境。"
+        },
+        {
+          "field": "platform",
+          "requirement": "视频号",
+          "verdict": "met",
+          "evidence": "两个简短分镜配合清晰旁白和短字幕，适合视频号观看。"
+        },
+        {
+          "field": "style",
+          "requirement": "简洁",
+          "verdict": "met",
+          "evidence": "每镜一句功能旁白，屏幕文字仅为“会议准备”“横屏”“竖屏”。"
+        },
+        {
+          "field": "style",
+          "requirement": "专业",
+          "verdict": "met",
+          "evidence": "功能表述准确克制，会议场景与构图示意清楚，无夸大承诺。"
+        }
+      ],
+      "summary": "稿件落实了两项功能及固定分镜要求，未出现发言内容或员工姓名。公开表达有资料支持，预计13秒，节奏合理且符合20秒上限。",
+      "method": "model_assessment_not_deterministic_proof",
+      "expressions": [
+        {
+          "location": "title",
+          "text": "会议素材编辑：添加字幕与横竖屏比例",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            },
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "标题中的两项功能分别由添加字幕和横竖屏比例选项原文支持。"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "固定机位拍摄会议室一排空椅子，画面不出现人员、姓名牌或会议屏幕；先呈现空椅子，再叠加字幕“会议准备”。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "叠加字幕示意资料支持的添加字幕能力，其余为拍摄安排，无虚构操作界面。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "剪影练习版支持为视频添加字幕。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ],
+          "evidence": "与标注的事实原文一致。"
+        },
+        {
+          "location": "shot:1/block:2",
+          "text": "会议准备",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "场景标签，不含产品能力或效果承诺。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "俯拍仅印有“会议资料”的无姓名封面，不翻开内页；先用横屏画框展示封面，再切换为竖屏画框，均保持标题完整可见。画框用于构图示意。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "横竖屏构图示意对应已支持的比例选项，标题完整可见是拍摄安排，未声称自动适配。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "提供横屏和竖屏画面比例选项。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "仅省略原文产品名，功能范围保持一致。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "横屏",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "对应原文明确提供的横屏比例选项。"
+        },
+        {
+          "location": "shot:2/block:3",
+          "text": "竖屏",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1"
+            }
+          ],
+          "evidence": "对应原文明确提供的竖屏比例选项。"
+        }
+      ],
+      "pacing": {
+        "verdict": "met",
+        "evidence": "第一镜6秒支撑4秒旁白及空椅子、字幕观察；第二镜7秒按3.8秒和3秒依次展示横竖屏构图，声画并行且停留有具体观察内容。"
+      },
+      "expression_review_passed": true
+    },
+    "sources": [
+      {
+        "id": "P03",
+        "product_id": "demo-editor",
+        "title": "画面比例说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "比例",
+          "竖屏",
+          "横屏",
+          "画面",
+          "aspect"
+        ],
+        "facts": [
+          {
+            "id": "P03.F1",
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+          }
+        ]
+      },
+      {
+        "id": "P01",
+        "product_id": "demo-editor",
+        "title": "字幕功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "字幕",
+          "口播",
+          "文字",
+          "caption",
+          "subtitle"
+        ],
+        "facts": [
+          {
+            "id": "P01.F1",
+            "text": "剪影练习版支持为视频添加字幕。"
+          },
+          {
+            "id": "P01.F2",
+            "text": "字幕文字可以手动编辑。"
+          }
+        ]
+      },
+      {
+        "id": "P02",
+        "product_id": "demo-editor",
+        "title": "剪辑功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "剪辑",
+          "裁剪",
+          "片段",
+          "trim",
+          "edit"
+        ],
+        "facts": [
+          {
+            "id": "P02.F1",
+            "text": "剪影练习版支持裁剪视频片段。"
+          }
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "action": "search_materials",
+        "arguments": {
+          "query": "demo-editor 添加字幕 横屏 竖屏 比例选项",
+          "product_id": "demo-editor"
+        },
+        "decision_basis": "检索添加字幕及横竖屏比例选项的产品依据，供固定两镜使用。",
+        "observation": {
+          "ok": true,
+          "query": "demo-editor 添加字幕 横屏 竖屏 比例选项",
+          "product_id": "demo-editor",
+          "materials": [
+            {
+              "id": "P03",
+              "product_id": "demo-editor",
+              "title": "画面比例说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "比例",
+                "竖屏",
+                "横屏",
+                "画面",
+                "aspect"
+              ],
+              "facts": [
+                {
+                  "id": "P03.F1",
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+                }
+              ]
+            },
+            {
+              "id": "P01",
+              "product_id": "demo-editor",
+              "title": "字幕功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "字幕",
+                "口播",
+                "文字",
+                "caption",
+                "subtitle"
+              ],
+              "facts": [
+                {
+                  "id": "P01.F1",
+                  "text": "剪影练习版支持为视频添加字幕。"
+                },
+                {
+                  "id": "P01.F2",
+                  "text": "字幕文字可以手动编辑。"
+                }
+              ]
+            },
+            {
+              "id": "P02",
+              "product_id": "demo-editor",
+              "title": "剪辑功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "剪辑",
+                "裁剪",
+                "片段",
+                "trim",
+                "edit"
+              ],
+              "facts": [
+                {
+                  "id": "P02.F1",
+                  "text": "剪影练习版支持裁剪视频片段。"
+                }
+              ]
+            }
+          ],
+          "count": 3
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a794-b37e-7c03-9e36-4be8c7f4080b",
+          "usage": {
+            "input_tokens": 27247,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 71,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-g_krlaga",
+          "warnings": []
+        },
+        "elapsed_ms": 19516
+      },
+      {
+        "step": 2,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "会议素材编辑：添加字幕与横竖屏比例",
+            "shots": [
+              {
+                "purpose": "用会议室空椅子画面展示添加字幕的用途。",
+                "visual": "固定机位拍摄会议室一排空椅子，画面不出现人员、姓名牌或会议屏幕；先呈现空椅子，再叠加字幕“会议准备”。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "会议准备",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 3
+                  }
+                ]
+              },
+              {
+                "purpose": "用同一份会议资料封面示意横屏和竖屏构图。",
+                "visual": "俯拍仅印有“会议资料”的无姓名封面，不翻开内页；先用横屏画框展示封面，再切换为竖屏画框，均保持标题完整可见。画框用于构图示意。",
+                "hold_seconds": 7,
+                "blocks": [
+                  {
+                    "text": "提供横屏和竖屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "横屏",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 3
+                  },
+                  {
+                    "text": "竖屏",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "screen",
+                    "beat": 2,
+                    "display_seconds": 3
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          }
+        },
+        "decision_basis": "已有资料覆盖两项必讲功能；按固定两镜展示字幕和横竖屏比例，避开发言内容与员工姓名。",
+        "observation": {
+          "ok": true,
+          "script_hash": "7fee4695c0575d0f153676c3f8cc8063f451b483b9fb6146fe3101552ad2b598",
+          "revision": {
+            "before_hash": null,
+            "after_hash": "7fee4695c0575d0f153676c3f8cc8063f451b483b9fb6146fe3101552ad2b598",
+            "changed_fields": [
+              "script:new"
+            ],
+            "unchanged_shots": 0,
+            "unchanged_blocks": 0,
+            "feedback": [],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a794-fdf5-72b0-9945-57b8843aa25c",
+          "usage": {
+            "input_tokens": 27623,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 424,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-zkqb6un3",
+          "warnings": []
+        },
+        "elapsed_ms": 19078
+      },
+      {
+        "step": 3,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "会议素材编辑：添加字幕与横竖屏比例",
+            "shots": [
+              {
+                "purpose": "用会议室空椅子画面展示添加字幕的用途。",
+                "visual": "固定机位拍摄会议室一排空椅子，画面不出现人员、姓名牌或会议屏幕；先呈现空椅子，再叠加字幕“会议准备”。",
+                "hold_seconds": 6,
+                "blocks": [
+                  {
+                    "text": "剪影练习版支持为视频添加字幕。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "会议准备",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 3
+                  }
+                ]
+              },
+              {
+                "purpose": "用同一份会议资料封面示意横屏和竖屏构图。",
+                "visual": "俯拍仅印有“会议资料”的无姓名封面，不翻开内页；先用横屏画框展示封面，再切换为竖屏画框，均保持标题完整可见。画框用于构图示意。",
+                "hold_seconds": 7,
+                "blocks": [
+                  {
+                    "text": "提供横屏和竖屏画面比例选项。",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "横屏",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 3
+                  },
+                  {
+                    "text": "竖屏",
+                    "source_id": "P03",
+                    "fact_id": "P03.F1",
+                    "channel": "screen",
+                    "beat": 2,
+                    "display_seconds": 3
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "request": {
+            "topic": "介绍添加字幕和横竖屏比例选项。固定两个分镜：第一镜会议室空椅子，第二镜会议资料封面。不出现发言内容和员工姓名。",
+            "audience": "公司行政视频编辑",
+            "platform": "视频号",
+            "style": "简洁，专业",
+            "product_id": "demo-editor",
+            "duration_mode": "max",
+            "expression_mode": "creative",
+            "target_seconds": 20
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "7fee4695c0575d0f153676c3f8cc8063f451b483b9fb6146fe3101552ad2b598",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:1/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01",
+                "text": "剪影练习版支持为视频添加字幕。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:2/block:1",
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01",
+                "text": "提供横屏和竖屏画面比例选项。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:2/block:2",
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01",
+                "text": "横屏",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:2/block:3",
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01",
+                "text": "竖屏",
+                "requires_semantic_review": true
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "会议素材编辑：添加字幕与横竖屏比例"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "固定机位拍摄会议室一排空椅子，画面不出现人员、姓名牌或会议屏幕；先呈现空椅子，再叠加字幕“会议准备”。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "剪影练习版支持为视频添加字幕。"
+              },
+              {
+                "location": "shot:1/block:2",
+                "text": "会议准备"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "俯拍仅印有“会议资料”的无姓名封面，不翻开内页；先用横屏画框展示封面，再切换为竖屏画框，均保持标题完整可见。画框用于构图示意。"
+              },
+              {
+                "location": "shot:2/block:1",
+                "text": "提供横屏和竖屏画面比例选项。"
+              },
+              {
+                "location": "shot:2/block:2",
+                "text": "横屏"
+              },
+              {
+                "location": "shot:2/block:3",
+                "text": "竖屏"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P03",
+                "fact_id": "P03.F1",
+                "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "7fee4695c0575d0f153676c3f8cc8063f451b483b9fb6146fe3101552ad2b598",
+            "shots": [
+              {
+                "shot": 1,
+                "estimated_seconds": 6.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 4.0,
+                    "voice_seconds": 4.0,
+                    "screen_read_seconds": 1.5,
+                    "display_seconds": 3,
+                    "estimated_seconds": 4.0
+                  }
+                ],
+                "tail_hold_seconds": 2.0
+              },
+              {
+                "shot": 2,
+                "estimated_seconds": 7.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 3.8,
+                    "voice_seconds": 3.75,
+                    "screen_read_seconds": 1.0,
+                    "display_seconds": 3,
+                    "estimated_seconds": 3.8
+                  },
+                  {
+                    "beat": 2,
+                    "start_seconds": 3.8,
+                    "end_seconds": 6.8,
+                    "voice_seconds": 0,
+                    "screen_read_seconds": 1.0,
+                    "display_seconds": 3,
+                    "estimated_seconds": 3.0
+                  }
+                ],
+                "tail_hold_seconds": 0.2
+              }
+            ],
+            "total_seconds": 13.0,
+            "target_seconds": 20,
+            "passed": true,
+            "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+            "is_estimate": true
+          }
+        },
+        "decision_basis": "当前稿已落实固定两镜和两项功能，提交检查时长、品牌规则及需求符合性，确认不含发言内容与员工姓名。",
+        "observation": {
+          "ok": true,
+          "script_hash": "7fee4695c0575d0f153676c3f8cc8063f451b483b9fb6146fe3101552ad2b598",
+          "request_hash": "ba2bdefd5f318c1b41a9d753aafc5e14453b6a56431a14aaa98befe8c588f8ca",
+          "passed": true,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "添加字幕",
+              "verdict": "met",
+              "evidence": "第一镜旁白介绍添加字幕，画面叠加“会议准备”。"
+            },
+            {
+              "field": "topic",
+              "requirement": "横竖屏比例选项",
+              "verdict": "met",
+              "evidence": "第二镜旁白介绍横竖屏比例，并依次展示横屏、竖屏构图。"
+            },
+            {
+              "field": "topic",
+              "requirement": "固定两个分镜",
+              "verdict": "met",
+              "evidence": "当前稿件恰有两个分镜。"
+            },
+            {
+              "field": "topic",
+              "requirement": "第一镜会议室空椅子",
+              "verdict": "met",
+              "evidence": "第一镜固定机位拍摄会议室一排空椅子。"
+            },
+            {
+              "field": "topic",
+              "requirement": "第二镜会议资料封面",
+              "verdict": "met",
+              "evidence": "第二镜俯拍仅印有“会议资料”的封面，不翻开内页。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不出现发言内容和员工姓名。",
+              "verdict": "met",
+              "evidence": "两镜仅展示空椅子、无姓名封面及功能介绍，未出现发言内容或员工姓名。"
+            },
+            {
+              "field": "audience",
+              "requirement": "公司行政视频编辑",
+              "verdict": "met",
+              "evidence": "使用会议准备与会议资料场景，符合行政视频编辑的工作语境。"
+            },
+            {
+              "field": "platform",
+              "requirement": "视频号",
+              "verdict": "met",
+              "evidence": "两个简短分镜配合清晰旁白和短字幕，适合视频号观看。"
+            },
+            {
+              "field": "style",
+              "requirement": "简洁",
+              "verdict": "met",
+              "evidence": "每镜一句功能旁白，屏幕文字仅为“会议准备”“横屏”“竖屏”。"
+            },
+            {
+              "field": "style",
+              "requirement": "专业",
+              "verdict": "met",
+              "evidence": "功能表述准确克制，会议场景与构图示意清楚，无夸大承诺。"
+            }
+          ],
+          "summary": "稿件落实了两项功能及固定分镜要求，未出现发言内容或员工姓名。公开表达有资料支持，预计13秒，节奏合理且符合20秒上限。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "会议素材编辑：添加字幕与横竖屏比例",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                },
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "标题中的两项功能分别由添加字幕和横竖屏比例选项原文支持。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "固定机位拍摄会议室一排空椅子，画面不出现人员、姓名牌或会议屏幕；先呈现空椅子，再叠加字幕“会议准备”。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "叠加字幕示意资料支持的添加字幕能力，其余为拍摄安排，无虚构操作界面。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "剪影练习版支持为视频添加字幕。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ],
+              "evidence": "与标注的事实原文一致。"
+            },
+            {
+              "location": "shot:1/block:2",
+              "text": "会议准备",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "场景标签，不含产品能力或效果承诺。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "俯拍仅印有“会议资料”的无姓名封面，不翻开内页；先用横屏画框展示封面，再切换为竖屏画框，均保持标题完整可见。画框用于构图示意。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "横竖屏构图示意对应已支持的比例选项，标题完整可见是拍摄安排，未声称自动适配。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "提供横屏和竖屏画面比例选项。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "仅省略原文产品名，功能范围保持一致。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "横屏",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "对应原文明确提供的横屏比例选项。"
+            },
+            {
+              "location": "shot:2/block:3",
+              "text": "竖屏",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ],
+              "evidence": "对应原文明确提供的竖屏比例选项。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "第一镜6秒支撑4秒旁白及空椅子、字幕观察；第二镜7秒按3.8秒和3秒依次展示横竖屏构图，声画并行且停留有具体观察内容。"
+          },
+          "expression_review_passed": true
+        },
+        "preflight_checks": [
+          {
+            "action": "estimate_duration",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "会议素材编辑：添加字幕与横竖屏比例",
+                "shots": [
+                  {
+                    "purpose": "用会议室空椅子画面展示添加字幕的用途。",
+                    "visual": "固定机位拍摄会议室一排空椅子，画面不出现人员、姓名牌或会议屏幕；先呈现空椅子，再叠加字幕“会议准备”。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "剪影练习版支持为视频添加字幕。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "会议准备",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 3
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "用同一份会议资料封面示意横屏和竖屏构图。",
+                    "visual": "俯拍仅印有“会议资料”的无姓名封面，不翻开内页；先用横屏画框展示封面，再切换为竖屏画框，均保持标题完整可见。画框用于构图示意。",
+                    "hold_seconds": 7,
+                    "blocks": [
+                      {
+                        "text": "提供横屏和竖屏画面比例选项。",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "横屏",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 3
+                      },
+                      {
+                        "text": "竖屏",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "screen",
+                        "beat": 2,
+                        "display_seconds": 3
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "target_seconds": 20,
+              "duration_mode": "max"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "7fee4695c0575d0f153676c3f8cc8063f451b483b9fb6146fe3101552ad2b598",
+              "shots": [
+                {
+                  "shot": 1,
+                  "estimated_seconds": 6.0,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 4.0,
+                      "voice_seconds": 4.0,
+                      "screen_read_seconds": 1.5,
+                      "display_seconds": 3,
+                      "estimated_seconds": 4.0
+                    }
+                  ],
+                  "tail_hold_seconds": 2.0
+                },
+                {
+                  "shot": 2,
+                  "estimated_seconds": 7.0,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 3.8,
+                      "voice_seconds": 3.75,
+                      "screen_read_seconds": 1.0,
+                      "display_seconds": 3,
+                      "estimated_seconds": 3.8
+                    },
+                    {
+                      "beat": 2,
+                      "start_seconds": 3.8,
+                      "end_seconds": 6.8,
+                      "voice_seconds": 0,
+                      "screen_read_seconds": 1.0,
+                      "display_seconds": 3,
+                      "estimated_seconds": 3.0
+                    }
+                  ],
+                  "tail_hold_seconds": 0.2
+                }
+              ],
+              "total_seconds": 13.0,
+              "target_seconds": 20,
+              "passed": true,
+              "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+              "is_estimate": true
+            }
+          },
+          {
+            "action": "check_rules",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "会议素材编辑：添加字幕与横竖屏比例",
+                "shots": [
+                  {
+                    "purpose": "用会议室空椅子画面展示添加字幕的用途。",
+                    "visual": "固定机位拍摄会议室一排空椅子，画面不出现人员、姓名牌或会议屏幕；先呈现空椅子，再叠加字幕“会议准备”。",
+                    "hold_seconds": 6,
+                    "blocks": [
+                      {
+                        "text": "剪影练习版支持为视频添加字幕。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "会议准备",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 3
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "用同一份会议资料封面示意横屏和竖屏构图。",
+                    "visual": "俯拍仅印有“会议资料”的无姓名封面，不翻开内页；先用横屏画框展示封面，再切换为竖屏画框，均保持标题完整可见。画框用于构图示意。",
+                    "hold_seconds": 7,
+                    "blocks": [
+                      {
+                        "text": "提供横屏和竖屏画面比例选项。",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "横屏",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 3
+                      },
+                      {
+                        "text": "竖屏",
+                        "source_id": "P03",
+                        "fact_id": "P03.F1",
+                        "channel": "screen",
+                        "beat": 2,
+                        "display_seconds": 3
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "retrieved_ids": [
+                "P01",
+                "P02",
+                "P03"
+              ],
+              "expression_mode": "creative"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "7fee4695c0575d0f153676c3f8cc8063f451b483b9fb6146fe3101552ad2b598",
+              "passed": true,
+              "issues": [],
+              "citations": [
+                {
+                  "location": "shot:1/block:1",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1",
+                  "quote": "剪影练习版支持为视频添加字幕。",
+                  "version": "2026-11-01",
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:2/block:1",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1",
+                  "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "version": "2026-11-01",
+                  "text": "提供横屏和竖屏画面比例选项。",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:2/block:2",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1",
+                  "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "version": "2026-11-01",
+                  "text": "横屏",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:2/block:3",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1",
+                  "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "version": "2026-11-01",
+                  "text": "竖屏",
+                  "requires_semantic_review": true
+                }
+              ],
+              "rules_version": "2026-11-03-v1",
+              "requires_expression_review": true,
+              "expression_slots": [
+                {
+                  "location": "title",
+                  "text": "会议素材编辑：添加字幕与横竖屏比例"
+                },
+                {
+                  "location": "shot:1/visual",
+                  "text": "固定机位拍摄会议室一排空椅子，画面不出现人员、姓名牌或会议屏幕；先呈现空椅子，再叠加字幕“会议准备”。"
+                },
+                {
+                  "location": "shot:1/block:1",
+                  "text": "剪影练习版支持为视频添加字幕。"
+                },
+                {
+                  "location": "shot:1/block:2",
+                  "text": "会议准备"
+                },
+                {
+                  "location": "shot:2/visual",
+                  "text": "俯拍仅印有“会议资料”的无姓名封面，不翻开内页；先用横屏画框展示封面，再切换为竖屏画框，均保持标题完整可见。画框用于构图示意。"
+                },
+                {
+                  "location": "shot:2/block:1",
+                  "text": "提供横屏和竖屏画面比例选项。"
+                },
+                {
+                  "location": "shot:2/block:2",
+                  "text": "横屏"
+                },
+                {
+                  "location": "shot:2/block:3",
+                  "text": "竖屏"
+                }
+              ],
+              "available_facts": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1",
+                  "quote": "剪影练习版支持为视频添加字幕。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2",
+                  "quote": "字幕文字可以手动编辑。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1",
+                  "quote": "剪影练习版支持裁剪视频片段。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P03",
+                  "fact_id": "P03.F1",
+                  "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "version": "2026-11-01"
+                }
+              ],
+              "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+            }
+          }
+        ],
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a795-47fd-71f0-81ed-e5ecb3bbd76c",
+          "usage": {
+            "input_tokens": 27511,
+            "cached_input_tokens": 13696,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 68,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-jkl9r438",
+          "warnings": []
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a795-7bcc-7c40-8e44-9d3b96df0ab3",
+          "usage": {
+            "input_tokens": 28954,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1179,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-z02mj3hf",
+          "warnings": []
+        },
+        "elapsed_ms": 48968
+      },
+      {
+        "step": 4,
+        "action": "finish",
+        "arguments": {
+          "status": "completed",
+          "message": "已完成固定两镜脚本：会议室空椅子展示添加字幕，会议资料封面展示横竖屏比例。预计13秒，不含发言内容或员工姓名，全部检查通过。"
+        },
+        "decision_basis": "当前同一稿的时长、规则和需求检查均已通过。",
+        "observation": {
+          "ok": true,
+          "status": "completed",
+          "script_hash": "7fee4695c0575d0f153676c3f8cc8063f451b483b9fb6146fe3101552ad2b598"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a796-08fb-7ec3-a96b-c65fea928512",
+          "usage": {
+            "input_tokens": 31028,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 92,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-uq9k72m4",
+          "warnings": []
+        },
+        "elapsed_ms": 18250
+      }
+    ],
+    "metadata": {
+      "started_at": "2026-11-04T17:21:41.745720+00:00",
+      "finished_at": "2026-11-04T17:23:27.604989+00:00",
+      "provider": "codex",
+      "evidence_kind": "real_model",
+      "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+      "max_steps": 12,
+      "steps": 4,
+      "synthetic_data": true,
+      "completion_policy": "facts_duration_requirements_v6",
+      "requirements_review_context": "current_rules_and_duration_v2",
+      "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+      "model_responses": 5,
+      "run_id": "aa59f27657b444f89b8373590010d3e4",
+      "persistence": "checkpoint_v1",
+      "fault_injection": {}
+    }
+  }
+}

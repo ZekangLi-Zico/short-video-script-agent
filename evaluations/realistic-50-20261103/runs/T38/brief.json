@@ -1,0 +1,16 @@
+{
+  "id": "T38",
+  "name": "不用问句开场",
+  "context": "品牌编辑不接受套路问句。",
+  "request": {
+    "topic": "介绍字幕添加功能。开头必须是陈述句，不要用问题、悬念或反问开场。",
+    "audience": "不喜欢夸张广告的用户",
+    "platform": "小红书",
+    "style": "自然、陈述式",
+    "product_id": "demo-editor",
+    "target_seconds": 20
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

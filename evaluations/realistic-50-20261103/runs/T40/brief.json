@@ -1,0 +1,16 @@
+{
+  "id": "T40",
+  "name": "大字卡片",
+  "context": "门店屏幕要求每行文字很短。",
+  "request": {
+    "topic": "介绍裁剪片段功能，用大字卡片呈现。每个分镜的屏幕文字最多8个汉字，可以拆成多个镜头，不能用很长的整句挤满屏幕。",
+    "audience": "远处观看门店屏幕的人",
+    "platform": "视频号",
+    "style": "大字、短句、无旁白依赖",
+    "product_id": "demo-editor",
+    "target_seconds": 20
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

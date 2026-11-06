@@ -1,0 +1,19 @@
+{
+  "port": 8802,
+  "submitted_at": "2026-11-03T23:13:17.163Z",
+  "fields": {
+    "audience": "第一次制作口播短视频的创作者",
+    "duration-mode": "max",
+    "expression-mode": "strict",
+    "fault": "none",
+    "history": "b054c3e9a4e7418bb932217375740f57",
+    "initial-script": "",
+    "platform": "抖音",
+    "preset": "custom",
+    "product": "product-without-materials",
+    "provider": "codex",
+    "style": "清楚、友好、克制",
+    "target-seconds": "30",
+    "topic": "介绍字幕功能"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-wrv3w2el",
+  "started_at": "2026-11-04T01:24:08.927209+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:24:39.335572+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a428-0a7c-71c2-a434-dd6b53256d63",
+    "usage": {
+      "input_tokens": 28374,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 658,
+      "reasoning_output_tokens": 516
+    },
+    "call_id": "decision-wrv3w2el",
+    "warnings": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "N01",
+  "status": "completed",
+  "steps": 6,
+  "model_responses": 7,
+  "duration": 29.6,
+  "path": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "check_requirements",
+    "finish"
+  ],
+  "message": "已完成《把这节课记下来》5镜头竖屏脚本，按揉泥、拉坯、展示杯子的顺序，介绍添加字幕和手动编辑字幕文字，无报名或购买引导。当前稿无需删改，估算29.6秒，符合27—30秒要求，三项检查均通过。实际成片时长需以录制剪辑结果为准。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

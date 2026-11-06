@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-hsgm_km1",
+  "started_at": "2026-11-03T22:05:34.243735+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:05:53.436237+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a372-3ad9-7af0-b800-595999b4b5d2",
+    "usage": {
+      "input_tokens": 27761,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 359,
+      "reasoning_output_tokens": 268
+    },
+    "call_id": "decision-hsgm_km1",
+    "warnings": []
+  }
+}

@@ -1,0 +1,61 @@
+test_cli_reports_missing_record_as_failure (tests.test_evidence_versions.EvidenceVersionTests.test_cli_reports_missing_record_as_failure) ... ERROR
+test_cli_writes_new_report_and_preserves_original_audit (tests.test_evidence_versions.EvidenceVersionTests.test_cli_writes_new_report_and_preserves_original_audit) ... ERROR
+test_contract_selection_is_explicit_not_chosen_by_saved_success (tests.test_evidence_versions.EvidenceVersionTests.test_contract_selection_is_explicit_not_chosen_by_saved_success) ... ERROR
+test_legacy_replay_still_rejects_changed_search_results (tests.test_evidence_versions.EvidenceVersionTests.test_legacy_replay_still_rejects_changed_search_results) ... ok
+test_new_record_pins_search_contract_and_replays (tests.test_evidence_versions.EvidenceVersionTests.test_new_record_pins_search_contract_and_replays) ... ERROR
+test_original_over_duration_replays_without_editing_the_record (tests.test_evidence_versions.EvidenceVersionTests.test_original_over_duration_replays_without_editing_the_record) ... FAIL
+
+======================================================================
+ERROR: test_cli_reports_missing_record_as_failure (tests.test_evidence_versions.EvidenceVersionTests.test_cli_reports_missing_record_as_failure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_evidence_versions.py", line 74, in test_cli_reports_missing_record_as_failure
+    code=main(['--run',str(Path(folder)/'missing'),'--output',str(target)])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: main() takes 0 positional arguments but 1 was given
+
+======================================================================
+ERROR: test_cli_writes_new_report_and_preserves_original_audit (tests.test_evidence_versions.EvidenceVersionTests.test_cli_writes_new_report_and_preserves_original_audit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_evidence_versions.py", line 63, in test_cli_writes_new_report_and_preserves_original_audit
+    code=main(['--run',str(ROOT/'examples/live/over_duration'),'--output',str(target)])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: main() takes 0 positional arguments but 1 was given
+
+======================================================================
+ERROR: test_contract_selection_is_explicit_not_chosen_by_saved_success (tests.test_evidence_versions.EvidenceVersionTests.test_contract_selection_is_explicit_not_chosen_by_saved_success)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_evidence_versions.py", line 36, in test_contract_selection_is_explicit_not_chosen_by_saved_success
+    from scripts.replay_compat import search_contract, replay_tools
+ModuleNotFoundError: No module named 'scripts.replay_compat'
+
+======================================================================
+ERROR: test_new_record_pins_search_contract_and_replays (tests.test_evidence_versions.EvidenceVersionTests.test_new_record_pins_search_contract_and_replays)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_evidence_versions.py", line 54, in test_new_record_pins_search_contract_and_replays
+    self.assertEqual(read_json(Path(folder)/'manifest.json')['tool_contracts']['search_materials'],'id_first_v2')
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'tool_contracts'
+
+======================================================================
+FAIL: test_original_over_duration_replays_without_editing_the_record (tests.test_evidence_versions.EvidenceVersionTests.test_original_over_duration_replays_without_editing_the_record)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_evidence_versions.py", line 23, in test_original_over_duration_replays_without_editing_the_record
+    self.assertEqual(verify_run(ROOT/'examples/live/over_duration'), [])
+AssertionError: Lists differ: ['step 3: 工具返回不能由当前快照复算', 'step 6: 宿主绑定参数不一致'] != []
+
+First list contains 2 additional elements.
+First extra element 0:
+'step 3: 工具返回不能由当前快照复算'
+
+- ['step 3: 工具返回不能由当前快照复算', 'step 6: 宿主绑定参数不一致']
++ []
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.114s
+
+FAILED (failures=1, errors=4)

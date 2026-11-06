@@ -1,0 +1,13 @@
+{
+  "case_id": "T14",
+  "capture_mode": "fullPage",
+  "finished_capture_at": "2026-11-03T14:15:23.891Z",
+  "busy": false,
+  "detail": "真实模型 · 5 个执行步骤",
+  "download": "/api/runs/0f16e8cfddc24aaa979aa813cd415a49/download/output.json",
+  "error": "",
+  "history": "0f16e8cfddc24aaa979aa813cd415a49",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "save": "记录已保存 · 0f16e8cf",
+  "status": "检查通过"
+}

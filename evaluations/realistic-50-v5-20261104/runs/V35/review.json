@@ -1,0 +1,8 @@
+{
+  "case": "V35",
+  "assessment": "仍需补充",
+  "note": "两版都未把手动编辑等同离线或不上传，指出所需离线、上传触发和测试记录。新版少一次重复检索，响应3降为2，实际资料能力未改变；未成稿。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

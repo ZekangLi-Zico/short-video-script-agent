@@ -1,0 +1,108 @@
+Browser tab: 1, Title: "脚本试验台 · 短视频 Agent", URL: "http://127.0.0.1:8765/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 2655-2656, 2672
++				2794 text 需求已修改，将按当前内容运行。
+~				27 text entry area (settable) 主题, Value: 把旧稿改成10秒以内，保留裁剪片段和横竖屏比例两个功能，不需要开场和结尾。, ID: topic
+~				29 text field (settable) 给谁看, Value: 已有素材的日常用户, ID: audience
+~				39 stepper (settable, integer) 目标时长 秒, Value: 10, ID: target-seconds
+~				41 text field (settable) 表达风格, Value: 干脆、信息优先, ID: style
++				2795 text 调用本机已登录的 Codex，通常需要一到数分钟。
+~					2670 text entry area (settable) 待修订旧稿 JSON，可选, ID: initial-script, Value: {
+  "title": "从一段记录开始",
+  "shots": [
+    {
+      "visual": "日常生活素材蒙太奇",
+      "hold_seconds": 3,
+      "blocks": [
+        {
+          "text": "从一段日常记录开始。",
+          "source_id": "",
+          "fact_id": ""
+        }
+      ]
+    },
+    {
+      "visual": "产品功能文字卡片，不展示未经提供的界面",
+      "hold_seconds": 6,
+      "blocks": [
+        {
+          "text": "剪影练习版支持裁剪视频片段。",
+          "source_id": "P02",
+          "fact_id": "P02.F1"
+        }
+      ]
+    },
+    {
+      "visual": "人物展示创作过程的示意画面",
+      "hold_seconds": 7,
+      "blocks": [
+        {
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "source_id": "P03",
+          "fact_id": "P03.F1"
+        }
+      ]
+    },
+    {
+      "visual": "简洁背景展示结尾文字",
+      "hold_seconds": 8,
+      "blocks": [
+        {
+          "text": "试试你的下一条短片吧。",
+          "source_id": "",
+          "fact_id": ""
+        }
+      ]
+    }
+  ]
+}
++				2796 text 真实模型运行会使用当前账号的额度。
+The focused UI element is 2670 text entry area (settable) 待修订旧稿 JSON，可选, ID: initial-script, Value: {
+  "title": "从一段记录开始",
+  "shots": [
+    {
+      "visual": "日常生活素材蒙太奇",
+      "hold_seconds": 3,
+      "blocks": [
+        {
+          "text": "从一段日常记录开始。",
+          "source_id": "",
+          "fact_id": ""
+        }
+      ]
+    },
+    {
+      "visual": "产品功能文字卡片，不展示未经提供的界面",
+      "hold_seconds": 6,
+      "blocks": [
+        {
+          "text": "剪影练习版支持裁剪视频片段。",
+          "source_id": "P02",
+          "fact_id": "P02.F1"
+        }
+      ]
+    },
+    {
+      "visual": "人物展示创作过程的示意画面",
+      "hold_seconds": 7,
+      "blocks": [
+        {
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+          "source_id": "P03",
+          "fact_id": "P03.F1"
+        }
+      ]
+    },
+    {
+      "visual": "简洁背景展示结尾文字",
+      "hold_seconds": 8,
+      "blocks": [
+        {
+          "text": "试试你的下一条短片吧。",
+          "source_id": "",
+          "fact_id": ""
+        }
+      ]
+    }
+  ]
+}

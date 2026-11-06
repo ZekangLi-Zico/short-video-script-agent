@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-tp0pohek",
+  "started_at": "2026-11-03T22:07:40.737590+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:07:53.231064+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a374-28e4-72a3-b472-9d07e4f80d9f",
+    "usage": {
+      "input_tokens": 27033,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 191,
+      "reasoning_output_tokens": 89
+    },
+    "call_id": "decision-tp0pohek",
+    "warnings": []
+  }
+}

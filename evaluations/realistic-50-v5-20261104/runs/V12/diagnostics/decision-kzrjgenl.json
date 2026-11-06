@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-kzrjgenl",
+  "started_at": "2026-11-04T15:13:25.732586+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:13:47.652278+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a71f-4497-7cd3-8251-15039b9cb7b6",
+    "usage": {
+      "input_tokens": 31872,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 172,
+      "reasoning_output_tokens": 77
+    },
+    "call_id": "decision-kzrjgenl",
+    "warnings": []
+  }
+}

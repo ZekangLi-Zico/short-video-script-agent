@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-po73xtdv",
+  "started_at": "2026-11-04T00:55:38.628433+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T00:56:27.941077+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a40d-f14d-7c41-aebd-72ad571f9dbc",
+    "usage": {
+      "input_tokens": 27877,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1506,
+      "reasoning_output_tokens": 1034
+    },
+    "call_id": "decision-po73xtdv",
+    "warnings": []
+  }
+}

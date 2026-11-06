@@ -1,0 +1,12 @@
+{
+  "frozen_at": "2026-11-04T14:41:04.757510+00:00",
+  "baseline": "realistic-50-v41-20261104",
+  "cases_sha256": "d173710d0f93a63744584cd839b4070c70f8f748022721b200b51d50fb9fe1a3",
+  "cases": 50,
+  "unique_briefs": 49,
+  "submission": "browser UI only",
+  "provider": "codex real model",
+  "concurrency": 4,
+  "fault": "none",
+  "rule": "Inputs unchanged. Save all attempts. No retry of received-model failures to replace outcome."
+}

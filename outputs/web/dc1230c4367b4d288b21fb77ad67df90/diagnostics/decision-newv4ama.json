@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-newv4ama",
+  "started_at": "2026-11-03T22:21:51.078259+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:22:42.027544+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a381-22d0-74e3-b590-20e59866ec7c",
+    "usage": {
+      "input_tokens": 27701,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2032,
+      "reasoning_output_tokens": 1034
+    },
+    "call_id": "decision-newv4ama",
+    "warnings": []
+  }
+}

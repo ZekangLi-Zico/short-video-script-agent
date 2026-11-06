@@ -1,0 +1,13 @@
+{
+  "case": "V39",
+  "index": 38,
+  "attempt": 1,
+  "run_id": "5713af61de764b0d83209c3455a8f0e9",
+  "folder": "V39",
+  "status": "needs_input",
+  "steps": 3,
+  "responses": 3,
+  "provider": "codex",
+  "seconds": null,
+  "message": "尚未生成脚本，三项导出问题都缺少依据。请向项目维护者提供适用于当前产品版本的资料，明确：是否支持4K及条件、导出是否带水印及去除条件、竖屏导出的分辨率和帧率等限制。横竖屏画面比例选项不能替代导出规格；资料缺失也不能据此判定产品不支持。"
+}

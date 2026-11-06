@@ -1,0 +1,16 @@
+{
+  "app_version": "v7.3-staged-storyboard",
+  "started_at": "2026-11-05T20:46:07.482898+00:00",
+  "finished_at": "2026-11-05T20:46:07.482898+00:00",
+  "provider": "mock",
+  "evidence_kind": "offline_mock_not_model_evidence",
+  "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+  "max_steps": 12,
+  "steps": 0,
+  "synthetic_data": true,
+  "completion_policy": "facts_duration_requirements_v6",
+  "requirements_review_context": "current_rules_and_duration_v2",
+  "script_format": "staged_storyboard_v3; legacy_v1_v2_readable",
+  "model_responses": 0,
+  "fault_injection": {}
+}

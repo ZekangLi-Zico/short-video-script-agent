@@ -21,12 +21,12 @@ class CLITests(unittest.TestCase):
             self.assertIn("offline_mock_not_model_evidence", stdout.getvalue())
 
     def test_save_failure_never_prints_success(self):
-        with patch("src.cli.save_run", side_effect=OSError("test-disk-full")):
+        with tempfile.TemporaryDirectory(dir=ROOT/'.runtime') as folder, patch("src.recording.save_run", side_effect=OSError("test-disk-full")):
             with contextlib.redirect_stdout(io.StringIO()) as stdout, contextlib.redirect_stderr(io.StringIO()) as stderr:
-                code = main(["--provider", "mock", "--input", str(ROOT / "examples/inputs/normal.json")])
+                code = main(["--provider", "mock", "--input", str(ROOT / "examples/inputs/normal.json"), "--output",folder])
         self.assertEqual(code, 2)
         self.assertNotIn("completed", stdout.getvalue())
-        self.assertIn("test-disk-full", stderr.getvalue())
+        self.assertIn("最终记录未保存完成", stderr.getvalue())
 
     def test_step_limit_cli_exit_is_nonzero(self):
         scratch = ROOT / ".runtime/tests"

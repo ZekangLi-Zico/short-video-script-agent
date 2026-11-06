@@ -1,0 +1,95 @@
+{
+  "case": "T37",
+  "name": "只有两个素材位",
+  "run_id": "e62275f94bed4705b95e999279fcaf34",
+  "status": "completed",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "steps": 5,
+  "model_calls": 5,
+  "seconds": 15.0,
+  "target_seconds": 16,
+  "rules_passed": true,
+  "shots": 2,
+  "title": "把想法放进画面",
+  "citations": [
+    "P02.F1",
+    "P03.F1"
+  ],
+  "script_lines": [
+    "剪影练习版支持裁剪视频片段。",
+    "剪影练习版提供横屏和竖屏画面比例选项。"
+  ],
+  "actions": [
+    "search_materials",
+    "write_script",
+    "estimate_duration",
+    "check_rules",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 裁剪片段 横竖屏比例"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前无素材，需要检索裁剪片段和横竖屏比例的产品事实。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "basis": "已检索到两项对应事实，按指定顺序编写两个功能分镜。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "basis": "当前两镜头稿尚未检查时长，需要确认是否符合16秒上限。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": 15.0,
+      "issues": null
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "basis": "当前稿估算15秒，已通过16秒上限检查，尚需规则检查。",
+      "ok": true,
+      "passed": true,
+      "error": null,
+      "seconds": null,
+      "issues": []
+    },
+    {
+      "step": 5,
+      "action": "finish",
+      "basis": "当前同一稿的时长检查与规则检查均已通过，两个分镜符合指定顺序。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 78.7,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "da152414be5e92374597ff008436555ade88d98b46cab1cf2b07f5726bf9384e",
+    "output.json": "db6a430495a98eca98aaabee4ca239bf1dd428cd64655409b7034c8c9400b039",
+    "trace.jsonl": "dda5f8626503d36a206b5229f39c644584271ac345433b56b2cfd01441fa7a0d",
+    "manifest.json": "1ada64c7ea3d6c669e0c49a09c7f6fc71b4f65d6d609586c90984e05ada66b04",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "068cb8508138d237cbc6338a02ef55bc5e6ab0a97ff10119e5a4906f8ce9c6e4"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-y_xia_b1",
+  "started_at": "2026-11-03T22:02:46.413771+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:02:59.499194+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a36f-aae4-7720-980c-db5677c1facb",
+    "usage": {
+      "input_tokens": 28556,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 154,
+      "reasoning_output_tokens": 93
+    },
+    "call_id": "decision-y_xia_b1",
+    "warnings": []
+  }
+}

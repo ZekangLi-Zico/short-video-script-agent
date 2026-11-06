@@ -1,0 +1,8 @@
+{
+  "case": "V25",
+  "assessment": "退步",
+  "note": "新版首稿额外介绍手动编辑，违反只讲添加字幕；需求审核发现后模型删除对应旁白和操作，保留前两镜，最终18秒合格。旧版一次成稿19秒，标题更贴课程；新稿额外返工使响应7增至12，最终内容未形成明显收益，按实际交付效率与成稿综合记退步。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

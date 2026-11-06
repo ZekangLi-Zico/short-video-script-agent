@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-hqhettce",
+  "started_at": "2026-11-03T20:57:11.040064+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:57:59.880575+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a333-9e40-74a1-b2e8-61c7b09bf8df",
+    "usage": {
+      "input_tokens": 27732,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1277,
+      "reasoning_output_tokens": 896
+    },
+    "call_id": "decision-hqhettce",
+    "warnings": []
+  }
+}

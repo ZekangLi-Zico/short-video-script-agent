@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-wnd33ynw",
+  "started_at": "2026-11-04T15:51:29.795126+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:52:39.790341+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a742-2e90-7e41-8d81-69bb2a0e0d3f",
+    "usage": {
+      "input_tokens": 49476,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 278,
+      "reasoning_output_tokens": 172
+    },
+    "call_id": "decision-wnd33ynw",
+    "warnings": []
+  }
+}

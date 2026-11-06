@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-kdcddemx",
+  "started_at": "2026-11-04T17:39:03.546354+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:39:40.232365+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a7a4-9851-7400-bb02-609cc4d99361",
+    "usage": {
+      "input_tokens": 28948,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1193,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-kdcddemx",
+    "warnings": []
+  }
+}

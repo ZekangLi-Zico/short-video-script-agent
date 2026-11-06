@@ -1,0 +1,275 @@
+# 短视频脚本运行结果
+
+- 状态：`completed`
+- 证据类型：`real_model`
+- 说明：已完成《把读书会的话留下》：恰好三个分镜，依次呈现签到桌、书页、分享者背影，覆盖字幕添加和手动编辑字幕文字。当前稿无需再删改。预计23秒，符合24秒目标的允许范围；实际成片时长以配音和剪辑为准。
+
+当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。
+
+## 把读书会的话留下
+
+> 未完成或检查失败时，下列内容仅为未通过验收的草稿。
+
+### 分镜 1
+
+画面：签到桌近景：志愿者摆好签到册，来宾落笔签到，随后相互点头问候。以下文字作为旁白，镜头随签到动作自然停留。
+
+旁白/字幕：签到桌前，落笔、问候，读书会从这里开始。
+
+来源：
+
+预计镜头时长：7.0 秒
+
+### 分镜 2
+
+画面：书页特写：手指停在正在分享的段落，随后轻轻翻页。以下文字均作为旁白，并同步叠加示例字幕；不展示软件界面。
+
+旁白/字幕：剪影练习版支持为视频添加字幕。翻开书页，为这一段分享配上字幕。
+
+来源：P01/P01.F1
+
+预计镜头时长：8.0 秒
+
+### 分镜 3
+
+画面：分享者背影中景：分享者手持书本，志愿者在一旁边听边对照记录。以下文字作为旁白，镜头缓缓靠近书本后停稳。
+
+旁白/字幕：字幕文字可以手动编辑。听一遍分享，再核对字幕中的书名和人名。
+
+来源：P01/P01.F2
+
+预计镜头时长：8.0 秒
+
+时长要求：21.6–24 秒（接近目标）。
+
+预计总时长：23.0 秒（基于语速与镜头停留估算，非成片实测）。
+
+## 检查结果与来源
+
+```json
+{
+  "ok": true,
+  "script_hash": "0215bb9b06b6e3c2079264ca922a849567a6c6dc2adf62a588dbf2b0658ed932",
+  "passed": true,
+  "issues": [],
+  "citations": [
+    {
+      "location": "shot:2/block:1",
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01"
+    },
+    {
+      "location": "shot:3/block:1",
+      "source_id": "P01",
+      "fact_id": "P01.F2",
+      "quote": "字幕文字可以手动编辑。",
+      "version": "2026-11-01"
+    }
+  ],
+  "rules_version": "2026-11-03-v1",
+  "requires_expression_review": true,
+  "expression_slots": [
+    {
+      "location": "title",
+      "text": "把读书会的话留下"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "签到桌近景：志愿者摆好签到册，来宾落笔签到，随后相互点头问候。以下文字作为旁白，镜头随签到动作自然停留。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "签到桌前，落笔、问候，读书会从这里开始。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "书页特写：手指停在正在分享的段落，随后轻轻翻页。以下文字均作为旁白，并同步叠加示例字幕；不展示软件界面。"
+    },
+    {
+      "location": "shot:2/block:2",
+      "text": "翻开书页，为这一段分享配上字幕。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "分享者背影中景：分享者手持书本，志愿者在一旁边听边对照记录。以下文字作为旁白，镜头缓缓靠近书本后停稳。"
+    },
+    {
+      "location": "shot:3/block:2",
+      "text": "听一遍分享，再核对字幕中的书名和人名。"
+    }
+  ],
+  "available_facts": [
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F2",
+      "quote": "字幕文字可以手动编辑。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P02",
+      "fact_id": "P02.F1",
+      "quote": "剪影练习版支持裁剪视频片段。",
+      "version": "2026-11-01"
+    }
+  ],
+  "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+}
+```
+
+## 需求覆盖核对
+
+以下为模型评估，可能漏判或误判，仍需人工确认。
+
+```json
+{
+  "ok": true,
+  "script_hash": "0215bb9b06b6e3c2079264ca922a849567a6c6dc2adf62a588dbf2b0658ed932",
+  "request_hash": "19501a3419a2e7a54b42e8fa42d7c37ee31f2ee574c4a5de11438014ffcdbf26",
+  "passed": true,
+  "items": [
+    {
+      "field": "topic",
+      "requirement": "介绍字幕添加",
+      "verdict": "met",
+      "evidence": "分镜2明确介绍“剪影练习版支持为视频添加字幕。”，并安排叠加示例字幕。"
+    },
+    {
+      "field": "topic",
+      "requirement": "手动编辑字幕文字",
+      "verdict": "met",
+      "evidence": "分镜3明确说明“字幕文字可以手动编辑。”，随后引导核对书名和人名。"
+    },
+    {
+      "field": "topic",
+      "requirement": "签到桌",
+      "verdict": "met",
+      "evidence": "分镜1为“签到桌近景”，包含摆好签到册、来宾签到和点头问候。"
+    },
+    {
+      "field": "topic",
+      "requirement": "书页",
+      "verdict": "met",
+      "evidence": "分镜2为“书页特写”，包含手指停在分享段落、轻轻翻页。"
+    },
+    {
+      "field": "topic",
+      "requirement": "分享者背影",
+      "verdict": "met",
+      "evidence": "分镜3明确使用“分享者背影中景”，分享者手持书本。"
+    },
+    {
+      "field": "topic",
+      "requirement": "恰好三个分镜",
+      "verdict": "met",
+      "evidence": "稿件共3个分镜，依次为签到桌、书页、分享者背影。"
+    },
+    {
+      "field": "topic",
+      "requirement": "标题用“把读书会的话留下”。",
+      "verdict": "met",
+      "evidence": "标题为“把读书会的话留下”，与要求完全一致。"
+    },
+    {
+      "field": "audience",
+      "requirement": "图书馆活动志愿者",
+      "verdict": "met",
+      "evidence": "分镜1呈现志愿者组织签到，分镜3呈现志愿者对照记录并核对字幕中的书名、人名，贴合读书会活动记录工作。"
+    },
+    {
+      "field": "platform",
+      "requirement": "视频号",
+      "verdict": "met",
+      "evidence": "稿件以3个连贯活动场景配合简短旁白及示例字幕，内容集中、便于理解，适合视频号短视频呈现。"
+    },
+    {
+      "field": "style",
+      "requirement": "温和",
+      "verdict": "met",
+      "evidence": "分镜1“相互点头问候”、分镜2“轻轻翻页”、分镜3“镜头缓缓靠近书本后停稳”，画面与旁白均语气平和。"
+    },
+    {
+      "field": "style",
+      "requirement": "清楚",
+      "verdict": "met",
+      "evidence": "分镜2、3分别用“支持为视频添加字幕”和“字幕文字可以手动编辑”直接说明两项功能，随后给出配字幕及核对文字的具体用途。"
+    }
+  ],
+  "summary": "全部明确要求均已落实；两项字幕功能有资料支持，未发现额外能力承诺，三个镜头的内容与停留时间相称。",
+  "method": "model_assessment_not_deterministic_proof",
+  "expressions": [
+    {
+      "location": "title",
+      "text": "把读书会的话留下",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "标题表达记录读书会分享的意愿，未承诺具体产品性能或自动化能力。"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "签到桌近景：志愿者摆好签到册，来宾落笔签到，随后相互点头问候。以下文字作为旁白，镜头随签到动作自然停留。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "全部为活动场景、人物动作及旁白和镜头安排，不含产品声明。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "签到桌前，落笔、问候，读书会从这里开始。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "描述读书会签到和问候场景，不涉及产品能力、效果或真实客户背书。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "书页特写：手指停在正在分享的段落，随后轻轻翻页。以下文字均作为旁白，并同步叠加示例字幕；不展示软件界面。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "书页动作、旁白及叠加示例字幕均为成片制作安排；“同步叠加”未表述为产品自动同步功能，也未虚构软件界面或操作步骤。"
+    },
+    {
+      "location": "shot:2/block:2",
+      "text": "翻开书页，为这一段分享配上字幕。",
+      "verdict": "supported_claim",
+      "references": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1"
+        }
+      ],
+      "evidence": "结合分镜上下文，产品用途仅为给分享视频添加字幕，由P01.F1“剪影练习版支持为视频添加字幕。”支持，未扩展为自动识别或自动生成。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "分享者背影中景：分享者手持书本，志愿者在一旁边听边对照记录。以下文字作为旁白，镜头缓缓靠近书本后停稳。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "描述分享者、志愿者的活动及镜头运动；对照记录由人物完成，未宣称产品自动核对或纠错。"
+    },
+    {
+      "location": "shot:3/block:2",
+      "text": "听一遍分享，再核对字幕中的书名和人名。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "属于人工听辨和核对文字的行动建议，未承诺产品识别人名、书名或自动纠错。"
+    }
+  ],
+  "pacing": {
+    "verdict": "met",
+    "evidence": "duration_check给出分镜1、2、3预计时长分别为7、8、8秒，与各镜hold_seconds一致。分镜1有16个旁白单位，并安排摆签到册、签到、问候；分镜2有28个旁白单位，并安排段落停留、翻页及示例字幕阅读；分镜3有27个旁白单位，并安排听分享、对照记录及镜头靠近后停稳。各镜均有具体动作或观察内容支撑停留，未发现重复事实或空镜凑时长；宿主总长判定亦已通过。"
+  },
+  "expression_review_passed": true
+}
+```
+
+## 执行路径
+
+search_materials → write_script → estimate_duration → check_rules → check_requirements → finish
+
+逐步参数、观察和简短决策依据见 trace.jsonl。未记录模型内部思维过程。

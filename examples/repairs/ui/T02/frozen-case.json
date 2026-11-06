@@ -1,0 +1,16 @@
+{
+  "id": "T02",
+  "name": "校园采访",
+  "context": "社团要给采访花絮做一条工具介绍。",
+  "request": {
+    "topic": "社团准备发布校园采访花絮，写一条介绍添加字幕和编辑字幕文字的短视频脚本，画面以采访花絮为背景。",
+    "audience": "大学社团宣传成员",
+    "platform": "B站",
+    "style": "轻松、有条理",
+    "product_id": "demo-editor",
+    "target_seconds": 25
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

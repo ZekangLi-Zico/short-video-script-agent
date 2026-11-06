@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-lta5rsex",
+  "started_at": "2026-11-04T15:04:02.286413+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:04:24.716409+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a716-ad64-7af3-bdca-c7ac6c45878e",
+    "usage": {
+      "input_tokens": 39174,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 262,
+      "reasoning_output_tokens": 158
+    },
+    "call_id": "decision-lta5rsex",
+    "warnings": []
+  }
+}

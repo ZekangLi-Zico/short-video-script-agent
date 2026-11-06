@@ -1,0 +1,13 @@
+{
+  "case": "V34",
+  "index": 33,
+  "attempt": 1,
+  "run_id": "661e9ae5d85849dfb273249a32db4b04",
+  "folder": "V34",
+  "status": "needs_input",
+  "steps": 2,
+  "responses": 2,
+  "provider": "codex",
+  "seconds": null,
+  "message": "请补充字幕功能的收费规则或权益说明：未付费用户可用次数及重置周期、是否必须开通会员、付费后次数或功能有何变化。现有资料不足以回答这三项，暂未成稿。"
+}

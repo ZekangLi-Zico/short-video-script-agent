@@ -1,0 +1,19 @@
+{
+  "port": 8832,
+  "submitted_at": "2026-11-04T17:15:16.650Z",
+  "fields": {
+    "audience": "社区修理铺店主",
+    "duration-mode": "target",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "1e833c7dcd014acb982f6493d0dbd15d",
+    "initial-script": "",
+    "platform": "B站",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "朴实，教学感",
+    "target-seconds": "35",
+    "topic": "介绍裁剪视频片段与添加字幕。用检查车链、擦拭工具、收工台面三段素材，不说明具体维修安全操作，也不要虚构产品按钮。"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "V12",
+  "name": "花店晨间记录",
+  "context": "花店运营要为晨间素材制作工具介绍。",
+  "request": {
+    "topic": "以修剪花枝、摆花桶、整理台面的录像为背景，只介绍裁剪视频片段。片子像工作记录，不是花店广告，不能出现价格或优惠。",
+    "audience": "独立花店运营",
+    "platform": "小红书",
+    "target_seconds": 18,
+    "style": "轻松，真实",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

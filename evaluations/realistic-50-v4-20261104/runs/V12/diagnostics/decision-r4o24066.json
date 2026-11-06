@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-r4o24066",
+  "started_at": "2026-11-03T21:17:49.701138+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:18:04.216003+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a346-85bc-7462-b8cd-5ce0028f0b74",
+    "usage": {
+      "input_tokens": 28073,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 128,
+      "reasoning_output_tokens": 77
+    },
+    "call_id": "decision-r4o24066",
+    "warnings": []
+  }
+}

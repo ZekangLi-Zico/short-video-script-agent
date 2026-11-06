@@ -1,0 +1,17 @@
+..F.
+======================================================================
+FAIL: test_saved_run_exposes_exact_listening_artifact_and_current_version (tests.test_natural_v7.NaturalVoiceTests.test_saved_run_exposes_exact_listening_artifact_and_current_version)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_natural_v7.py", line 46, in test_saved_run_exposes_exact_listening_artifact_and_current_version
+    self.assertEqual((target/'voice.txt').read_text(encoding='utf8'),
+AssertionError: '剪影练习版支持为视频添加字幕。\n' != '旧稿合并文案（未区分声画，不能直接视为旁白）\n\n剪影练习版支持为视频添加字幕。\n'
++ 旧稿合并文案（未区分声画，不能直接视为旁白）
++ 
+  剪影练习版支持为视频添加字幕。
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.092s
+
+FAILED (failures=1)

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ki_styi3",
+  "started_at": "2026-11-03T22:16:23.421083+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:16:35.204962+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a37c-2361-7672-8c7d-bb78615bf6b0",
+    "usage": {
+      "input_tokens": 34915,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 120,
+      "reasoning_output_tokens": 57
+    },
+    "call_id": "decision-ki_styi3",
+    "warnings": []
+  }
+}

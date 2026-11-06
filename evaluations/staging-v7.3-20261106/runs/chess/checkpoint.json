@@ -1,0 +1,3274 @@
+{
+  "format": "checkpoint_v1",
+  "recorded_at": "2026-11-05T20:11:19.985568+00:00",
+  "last_event": {
+    "kind": "step",
+    "step": 4
+  },
+  "result": {
+    "status": "in_progress",
+    "message": "任务执行中，尚未完成。",
+    "script": {
+      "format_version": 3,
+      "title": "徐承岳：棋盘前，还要上拳台",
+      "shots": [
+        {
+          "purpose": "用腹伤与落子引出继续上台的选择。",
+          "visual": "徐宅书房，日光落在棋盘上。祖孙对坐，徐承岳伸手落子时牵动腹伤，徐尚田看在眼里。",
+          "hold_seconds": 0,
+          "blocks": [
+            {
+              "text": "伤还没好，就想着上台？",
+              "source_id": "CZ-E12",
+              "fact_id": "CZ-E12.F4",
+              "channel": "voice",
+              "beat": 2,
+              "display_seconds": 0,
+              "speaker": "徐尚田"
+            },
+            {
+              "text": "伤会好，拳台我还要上。",
+              "source_id": "CZ-C-XU",
+              "fact_id": "CZ-C-XU.F3",
+              "channel": "voice",
+              "beat": 3,
+              "display_seconds": 0,
+              "speaker": "徐承岳"
+            }
+          ],
+          "staging": [
+            {
+              "beat": 1,
+              "action": "徐承岳探身落子，腹部一紧，另一只手按住腹侧。他坐回去，慢慢松开手；徐尚田的目光从棋盘移向他的腹部。",
+              "camera": "棋盘近景，缓抬至祖孙双人中景。",
+              "sound": "棋子轻响，衣料摩擦声。",
+              "min_seconds": 2.5
+            },
+            {
+              "beat": 2,
+              "action": "徐尚田看着孙子，语气平稳。徐承岳将按过腹部的手放回膝上。",
+              "camera": "保持双人中景。",
+              "sound": "",
+              "min_seconds": 0
+            },
+            {
+              "beat": 3,
+              "action": "徐承岳抬眼迎住祖父的目光，把因疼痛微弯的背挺直。",
+              "camera": "徐承岳近景。",
+              "sound": "",
+              "min_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "祖父追问上台的理由，晚辈表露对胜负的执拗。",
+          "visual": "棋盘隔在两人之间。徐尚田从容应下一手，徐承岳盯着新落下的棋子。",
+          "hold_seconds": 0,
+          "blocks": [
+            {
+              "text": "有人上台是为吃饭。你呢？",
+              "source_id": "CZ-E12",
+              "fact_id": "CZ-E12.F4",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0,
+              "speaker": "徐尚田"
+            },
+            {
+              "text": "我要赢。总不能赢了一场，就不敢再打。",
+              "source_id": "CZ-C-XU",
+              "fact_id": "CZ-C-XU.F3",
+              "channel": "voice",
+              "beat": 3,
+              "display_seconds": 0,
+              "speaker": "徐承岳"
+            }
+          ],
+          "staging": [
+            {
+              "beat": 1,
+              "action": "徐尚田说完前半句才落子，问到“你呢”时看向孙子。",
+              "camera": "祖父侧面中近景，棋盘在前景。",
+              "sound": "一声清楚的落子声。",
+              "min_seconds": 0
+            },
+            {
+              "beat": 2,
+              "action": "徐承岳看着棋盘，没有立即接话；随后把视线抬向祖父。",
+              "camera": "徐承岳近景。",
+              "sound": "保留室内底噪。",
+              "min_seconds": 1.5
+            },
+            {
+              "beat": 3,
+              "action": "徐承岳回答得干脆，后半句语速放缓，目光没有避开祖父。",
+              "camera": "保持近景。",
+              "sound": "",
+              "min_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "将争论从输赢推向身体与性命的代价。",
+          "visual": "祖父没有继续看棋。徐承岳捏起一枚棋子，却迟迟没有落下。",
+          "hold_seconds": 0,
+          "blocks": [
+            {
+              "text": "赢了，腹上还留着伤。下回拿什么换？",
+              "source_id": "CZ-C-XU",
+              "fact_id": "CZ-C-XU.F2",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0,
+              "speaker": "徐尚田"
+            },
+            {
+              "text": "您怕我输？",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "voice",
+              "beat": 2,
+              "display_seconds": 0,
+              "speaker": "徐承岳"
+            },
+            {
+              "text": "我怕你只想着赢，忘了自己也会死。",
+              "source_id": "CZ-E12",
+              "fact_id": "CZ-E12.F4",
+              "channel": "voice",
+              "beat": 3,
+              "display_seconds": 0,
+              "speaker": "徐尚田"
+            }
+          ],
+          "staging": [
+            {
+              "beat": 1,
+              "action": "徐尚田看向孙子的腹侧，再看回他的脸。徐承岳捏起棋子，停在棋盘上方。",
+              "camera": "祖父近景，切孙子持子的手。",
+              "sound": "",
+              "min_seconds": 0
+            },
+            {
+              "beat": 2,
+              "action": "徐承岳抬起下巴反问，棋子仍悬着。",
+              "camera": "徐承岳近景。",
+              "sound": "",
+              "min_seconds": 0
+            },
+            {
+              "beat": 3,
+              "action": "徐尚田不接他的傲气，直视着他把话说完。徐承岳嘴角绷紧，没再抢话。",
+              "camera": "祖父近景，末尾切祖孙侧面双人景。",
+              "sound": "",
+              "min_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "让徐承岳在听见代价后作出回答，以指定台词结束。",
+          "visual": "日光中的棋盘与两人静止的身影。徐承岳终于落子，再正视祖父。",
+          "hold_seconds": 0,
+          "blocks": [
+            {
+              "text": "既上拳台，生死无怨",
+              "source_id": "CZ-E12",
+              "fact_id": "CZ-E12.F5",
+              "channel": "voice",
+              "beat": 2,
+              "display_seconds": 0,
+              "speaker": "徐承岳"
+            }
+          ],
+          "staging": [
+            {
+              "beat": 1,
+              "action": "徐承岳低头看了一眼腹侧，缓缓将悬着的棋子落下。徐尚田看着他，没有催促。",
+              "camera": "从持子的手切至徐承岳面部。",
+              "sound": "呼吸声，落子声。",
+              "min_seconds": 3
+            },
+            {
+              "beat": 2,
+              "action": "徐承岳抬眼，声音压低，一字一句回答祖父。徐尚田与他对视；最后一字落下，画面切黑。",
+              "camera": "徐承岳正面近景，祖父肩背留在前景。",
+              "sound": "无配乐，保留人声与室内底噪。",
+              "min_seconds": 0
+            }
+          ]
+        }
+      ],
+      "editor_notes": ""
+    },
+    "duration": {
+      "ok": true,
+      "script_hash": "a6543d3f18ea0483a4a97e028ecf48a376ed39257e70a84ad3b5cd2f3aba28f6",
+      "shots": [
+        {
+          "shot": 1,
+          "estimated_seconds": 8.1,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 2.5,
+              "voice_seconds": 0,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 2.5,
+              "action_seconds": 2.5
+            },
+            {
+              "beat": 2,
+              "start_seconds": 2.5,
+              "end_seconds": 5.3,
+              "voice_seconds": 2.75,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 2.8,
+              "action_seconds": 0
+            },
+            {
+              "beat": 3,
+              "start_seconds": 5.3,
+              "end_seconds": 8.1,
+              "voice_seconds": 2.75,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 2.8,
+              "action_seconds": 0
+            }
+          ],
+          "tail_hold_seconds": 0.0
+        },
+        {
+          "shot": 2,
+          "estimated_seconds": 8.8,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 3.0,
+              "voice_seconds": 3.0,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 3.0,
+              "action_seconds": 0
+            },
+            {
+              "beat": 2,
+              "start_seconds": 3.0,
+              "end_seconds": 4.5,
+              "voice_seconds": 0,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 1.5,
+              "action_seconds": 1.5
+            },
+            {
+              "beat": 3,
+              "start_seconds": 4.5,
+              "end_seconds": 8.8,
+              "voice_seconds": 4.25,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 4.3,
+              "action_seconds": 0
+            }
+          ],
+          "tail_hold_seconds": 0.0
+        },
+        {
+          "shot": 3,
+          "estimated_seconds": 9.5,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 4.0,
+              "voice_seconds": 4.0,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 4.0,
+              "action_seconds": 0
+            },
+            {
+              "beat": 2,
+              "start_seconds": 4.0,
+              "end_seconds": 5.5,
+              "voice_seconds": 1.5,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 1.5,
+              "action_seconds": 0
+            },
+            {
+              "beat": 3,
+              "start_seconds": 5.5,
+              "end_seconds": 9.5,
+              "voice_seconds": 4.0,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 4.0,
+              "action_seconds": 0
+            }
+          ],
+          "tail_hold_seconds": 0.0
+        },
+        {
+          "shot": 4,
+          "estimated_seconds": 5.5,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 3.0,
+              "voice_seconds": 0,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 3.0,
+              "action_seconds": 3
+            },
+            {
+              "beat": 2,
+              "start_seconds": 3.0,
+              "end_seconds": 5.5,
+              "voice_seconds": 2.5,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 2.5,
+              "action_seconds": 0
+            }
+          ],
+          "tail_hold_seconds": 0.0
+        }
+      ],
+      "total_seconds": 31.9,
+      "target_seconds": 45,
+      "passed": true,
+      "method": "动作与声画v3：每段max(声音,屏幕文字阅读,展示停留,动作最低时长)，各段相加；再取镜头最低停留较大者。说话者和动作说明不计入朗读。",
+      "is_estimate": true
+    },
+    "rules_check": {
+      "ok": true,
+      "script_hash": "a6543d3f18ea0483a4a97e028ecf48a376ed39257e70a84ad3b5cd2f3aba28f6",
+      "passed": true,
+      "issues": [],
+      "citations": [
+        {
+          "location": "shot:1/block:1",
+          "source_id": "CZ-E12",
+          "fact_id": "CZ-E12.F4",
+          "quote": "徐承岳在家与祖父徐尚田下棋，腹伤尚未恢复，仍坚持继续上拳台。祖孙对谋生、意气与代价有不同看法。",
+          "version": "2026-11-06-v1",
+          "text": "伤还没好，就想着上台？",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:1/block:2",
+          "source_id": "CZ-C-XU",
+          "fact_id": "CZ-C-XU.F3",
+          "quote": "他对拳台胜负有执拗的看法，与陈峥发生冲突；第十二集伤势尚未痊愈，在棋盘前坚持继续上拳台。",
+          "version": "2026-11-06-v1",
+          "text": "伤会好，拳台我还要上。",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:2/block:1",
+          "source_id": "CZ-E12",
+          "fact_id": "CZ-E12.F4",
+          "quote": "徐承岳在家与祖父徐尚田下棋，腹伤尚未恢复，仍坚持继续上拳台。祖孙对谋生、意气与代价有不同看法。",
+          "version": "2026-11-06-v1",
+          "text": "有人上台是为吃饭。你呢？",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:2/block:2",
+          "source_id": "CZ-C-XU",
+          "fact_id": "CZ-C-XU.F3",
+          "quote": "他对拳台胜负有执拗的看法，与陈峥发生冲突；第十二集伤势尚未痊愈，在棋盘前坚持继续上拳台。",
+          "version": "2026-11-06-v1",
+          "text": "我要赢。总不能赢了一场，就不敢再打。",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:3/block:1",
+          "source_id": "CZ-C-XU",
+          "fact_id": "CZ-C-XU.F2",
+          "quote": "第九集徐承岳持双八斩刀击败小韩，自己腹部也受伤；天魁安排陈峥护送他离开围堵。",
+          "version": "2026-11-06-v1",
+          "text": "赢了，腹上还留着伤。下回拿什么换？",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:3/block:3",
+          "source_id": "CZ-E12",
+          "fact_id": "CZ-E12.F4",
+          "quote": "徐承岳在家与祖父徐尚田下棋，腹伤尚未恢复，仍坚持继续上拳台。祖孙对谋生、意气与代价有不同看法。",
+          "version": "2026-11-06-v1",
+          "text": "我怕你只想着赢，忘了自己也会死。",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:4/block:1",
+          "source_id": "CZ-E12",
+          "fact_id": "CZ-E12.F5",
+          "quote": "以徐承岳“既上拳台，生死无怨”和“中篇完”收尾；这不是全书结局，不提前拍最终对决、任务成功或回到现实。",
+          "version": "2026-11-06-v1",
+          "text": "既上拳台，生死无怨",
+          "requires_semantic_review": true
+        }
+      ],
+      "rules_version": "city-drama-2026-11-06-v1",
+      "material_kind": "narrative",
+      "requires_expression_review": true,
+      "expression_slots": [
+        {
+          "location": "title",
+          "text": "徐承岳：棋盘前，还要上拳台"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "徐宅书房，日光落在棋盘上。祖孙对坐，徐承岳伸手落子时牵动腹伤，徐尚田看在眼里。"
+        },
+        {
+          "location": "shot:1/staging:1",
+          "text": "动作：徐承岳探身落子，腹部一紧，另一只手按住腹侧。他坐回去，慢慢松开手；徐尚田的目光从棋盘移向他的腹部。\n镜头：棋盘近景，缓抬至祖孙双人中景。\n现场声：棋子轻响，衣料摩擦声。"
+        },
+        {
+          "location": "shot:1/staging:2",
+          "text": "动作：徐尚田看着孙子，语气平稳。徐承岳将按过腹部的手放回膝上。\n镜头：保持双人中景。"
+        },
+        {
+          "location": "shot:1/staging:3",
+          "text": "动作：徐承岳抬眼迎住祖父的目光，把因疼痛微弯的背挺直。\n镜头：徐承岳近景。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "伤还没好，就想着上台？"
+        },
+        {
+          "location": "shot:1/block:2",
+          "text": "伤会好，拳台我还要上。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "棋盘隔在两人之间。徐尚田从容应下一手，徐承岳盯着新落下的棋子。"
+        },
+        {
+          "location": "shot:2/staging:1",
+          "text": "动作：徐尚田说完前半句才落子，问到“你呢”时看向孙子。\n镜头：祖父侧面中近景，棋盘在前景。\n现场声：一声清楚的落子声。"
+        },
+        {
+          "location": "shot:2/staging:2",
+          "text": "动作：徐承岳看着棋盘，没有立即接话；随后把视线抬向祖父。\n镜头：徐承岳近景。\n现场声：保留室内底噪。"
+        },
+        {
+          "location": "shot:2/staging:3",
+          "text": "动作：徐承岳回答得干脆，后半句语速放缓，目光没有避开祖父。\n镜头：保持近景。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "有人上台是为吃饭。你呢？"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "我要赢。总不能赢了一场，就不敢再打。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "祖父没有继续看棋。徐承岳捏起一枚棋子，却迟迟没有落下。"
+        },
+        {
+          "location": "shot:3/staging:1",
+          "text": "动作：徐尚田看向孙子的腹侧，再看回他的脸。徐承岳捏起棋子，停在棋盘上方。\n镜头：祖父近景，切孙子持子的手。"
+        },
+        {
+          "location": "shot:3/staging:2",
+          "text": "动作：徐承岳抬起下巴反问，棋子仍悬着。\n镜头：徐承岳近景。"
+        },
+        {
+          "location": "shot:3/staging:3",
+          "text": "动作：徐尚田不接他的傲气，直视着他把话说完。徐承岳嘴角绷紧，没再抢话。\n镜头：祖父近景，末尾切祖孙侧面双人景。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "赢了，腹上还留着伤。下回拿什么换？"
+        },
+        {
+          "location": "shot:3/block:2",
+          "text": "您怕我输？"
+        },
+        {
+          "location": "shot:3/block:3",
+          "text": "我怕你只想着赢，忘了自己也会死。"
+        },
+        {
+          "location": "shot:4/visual",
+          "text": "日光中的棋盘与两人静止的身影。徐承岳终于落子，再正视祖父。"
+        },
+        {
+          "location": "shot:4/staging:1",
+          "text": "动作：徐承岳低头看了一眼腹侧，缓缓将悬着的棋子落下。徐尚田看着他，没有催促。\n镜头：从持子的手切至徐承岳面部。\n现场声：呼吸声，落子声。"
+        },
+        {
+          "location": "shot:4/staging:2",
+          "text": "动作：徐承岳抬眼，声音压低，一字一句回答祖父。徐尚田与他对视；最后一字落下，画面切黑。\n镜头：徐承岳正面近景，祖父肩背留在前景。\n现场声：无配乐，保留人声与室内底噪。"
+        },
+        {
+          "location": "shot:4/block:1",
+          "text": "既上拳台，生死无怨"
+        }
+      ],
+      "available_facts": [
+        {
+          "source_id": "CZ-E12",
+          "fact_id": "CZ-E12.F1",
+          "quote": "冲突后，新闻和饭局交代势力重新分配；天魁招揽陈峥留在香港掌住拳台，陈峥没有立即答应。",
+          "version": "2026-11-06-v1"
+        },
+        {
+          "source_id": "CZ-E12",
+          "fact_id": "CZ-E12.F2",
+          "quote": "陈峥到医院探望右臂重伤的小韩，削好苹果，劝他退出社团拳台，别再把自己搭进去。小韩感谢的是这次探望与劝说，不存在此前让拳台给陈峥的人情。",
+          "version": "2026-11-06-v1"
+        },
+        {
+          "source_id": "CZ-E12",
+          "fact_id": "CZ-E12.F3",
+          "quote": "陈峥借花衫七的渠道继续找一张古书残页，并提出想见太子乐；想见太子乐的是陈峥，不是花衫七另起诉求。",
+          "version": "2026-11-06-v1"
+        },
+        {
+          "source_id": "CZ-E12",
+          "fact_id": "CZ-E12.F4",
+          "quote": "徐承岳在家与祖父徐尚田下棋，腹伤尚未恢复，仍坚持继续上拳台。祖孙对谋生、意气与代价有不同看法。",
+          "version": "2026-11-06-v1"
+        },
+        {
+          "source_id": "CZ-E12",
+          "fact_id": "CZ-E12.F5",
+          "quote": "以徐承岳“既上拳台，生死无怨”和“中篇完”收尾；这不是全书结局，不提前拍最终对决、任务成功或回到现实。",
+          "version": "2026-11-06-v1"
+        },
+        {
+          "source_id": "CZ-C-XU",
+          "fact_id": "CZ-C-XU.F1",
+          "quote": "徐承岳是十九岁的年轻拳手，祖父是咏春徐尚田；第六集先出现在资料照片中，不是成熟中年反派。",
+          "version": "2026-11-06-v1"
+        },
+        {
+          "source_id": "CZ-C-XU",
+          "fact_id": "CZ-C-XU.F2",
+          "quote": "第九集徐承岳持双八斩刀击败小韩，自己腹部也受伤；天魁安排陈峥护送他离开围堵。",
+          "version": "2026-11-06-v1"
+        },
+        {
+          "source_id": "CZ-C-XU",
+          "fact_id": "CZ-C-XU.F3",
+          "quote": "他对拳台胜负有执拗的看法，与陈峥发生冲突；第十二集伤势尚未痊愈，在棋盘前坚持继续上拳台。",
+          "version": "2026-11-06-v1"
+        },
+        {
+          "source_id": "CZ-C-XU",
+          "fact_id": "CZ-C-XU.F4",
+          "quote": "前十二集没有陈峥与徐承岳的正式最终拳赛，不提前给两人的决战宣布胜负。",
+          "version": "2026-11-06-v1"
+        },
+        {
+          "source_id": "CZ-S-HOSPITAL",
+          "fact_id": "CZ-S-HOSPITAL.F1",
+          "quote": "医院病房里，小韩的右臂缠着纱布，陈峥坐床边削苹果，劝他退出拳台，放下苹果后起身离开，小韩在门口前道谢。",
+          "version": "2026-11-06-v1"
+        },
+        {
+          "source_id": "CZ-S-HOSPITAL",
+          "fact_id": "CZ-S-HOSPITAL.F2",
+          "quote": "徐宅书房的日光落在棋盘上，徐承岳腹伤未好，与祖父徐尚田谈继续上台的选择。安静棋局与小韩付出的代价形成对照。",
+          "version": "2026-11-06-v1"
+        }
+      ],
+      "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+    },
+    "requirements_check": {
+      "ok": true,
+      "script_hash": "a6543d3f18ea0483a4a97e028ecf48a376ed39257e70a84ad3b5cd2f3aba28f6",
+      "request_hash": "3e1ec013fa3a992113e0740ed80b2b98819ac8cb5f201fe29cbaaf0fde7e1eef",
+      "passed": true,
+      "items": [
+        {
+          "field": "topic",
+          "requirement": "把第十二集徐承岳与祖父徐尚田下棋这一段",
+          "verdict": "met",
+          "evidence": "四镜均围绕徐宅祖孙棋局展开，没有引入其他剧情支线。"
+        },
+        {
+          "field": "topic",
+          "requirement": "改成一条安静但有张力的短片",
+          "verdict": "met",
+          "evidence": "落子声、对视与悬棋停顿维持安静氛围，对话从伤势推进到死亡代价。"
+        },
+        {
+          "field": "topic",
+          "requirement": "徐承岳腹伤还没好，却仍想继续上拳台",
+          "verdict": "met",
+          "evidence": "第1镜按住腹侧的动作与“伤会好，拳台我还要上”共同落实伤未愈仍坚持上台。"
+        },
+        {
+          "field": "topic",
+          "requirement": "祖父和他对上台的理由、要付出的代价有不同看法",
+          "verdict": "met",
+          "evidence": "第2镜以谋生对照求胜，第3镜以“您怕我输”对照祖父对性命的担忧。"
+        },
+        {
+          "field": "topic",
+          "requirement": "让两个人一边下棋一边说",
+          "verdict": "met",
+          "evidence": "第1镜徐承岳落子，第2镜徐尚田应子，第3至4镜徐承岳持子后落下，对话贯穿棋局。"
+        },
+        {
+          "field": "topic",
+          "requirement": "落子、停顿和眼神都参与表达",
+          "verdict": "met",
+          "evidence": "第2镜停顿后抬眼，第3镜棋子悬停，第4镜落子后正视祖父，动作均对应态度变化。"
+        },
+        {
+          "field": "topic",
+          "requirement": "全片用祖孙对白推进",
+          "verdict": "met",
+          "evidence": "全部有声文案的speaker均为徐尚田或徐承岳，没有旁白或内部审稿说明。"
+        },
+        {
+          "field": "topic",
+          "requirement": "以徐承岳“既上拳台，生死无怨”收尾",
+          "verdict": "met",
+          "evidence": "第4镜由徐承岳说出指定原句，最后一字落下即切黑。"
+        },
+        {
+          "field": "audience",
+          "requirement": "已经看过徐承岳与小韩交手、想进一步了解徐承岳的观众",
+          "verdict": "met",
+          "evidence": "“赢了，腹上还留着伤”承接此前交手，并通过求胜执念和祖孙争论补充人物理解。"
+        },
+        {
+          "field": "platform",
+          "requirement": "B站",
+          "verdict": "met",
+          "evidence": "31.9秒的完整人物对话短片有明确情境、冲突与收束，适合B站剧情片段观看。"
+        },
+        {
+          "field": "style",
+          "requirement": "长辈沉稳，晚辈有傲气",
+          "verdict": "met",
+          "evidence": "祖父平稳追问且不接傲气，徐承岳挺背迎视并反问“您怕我输”。"
+        },
+        {
+          "field": "style",
+          "requirement": "台词能直接说出口",
+          "verdict": "met",
+          "evidence": "连续对白从伤势、上台理由推进至性命代价，问答对象清楚，“您怕我输”体现晚辈执拗而非语义断裂。"
+        },
+        {
+          "field": "style",
+          "requirement": "留出思考和落子的时间",
+          "verdict": "met",
+          "evidence": "第2镜留出1.5秒沉默思考，第4镜留出3秒低头、落子与等待。"
+        }
+      ],
+      "summary": "稿件落实了祖孙棋局、带伤上台的执念与代价之争，并以指定对白收尾。剧情表达有资料支持，动作衔接和停顿合理，预计31.9秒符合45秒上限。",
+      "method": "model_assessment_not_deterministic_proof",
+      "expressions": [
+        {
+          "location": "title",
+          "text": "徐承岳：棋盘前，还要上拳台",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "CZ-E12",
+              "fact_id": "CZ-E12.F4"
+            }
+          ],
+          "evidence": "资料明确记载徐承岳在棋局中坚持继续上拳台。"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "徐宅书房，日光落在棋盘上。祖孙对坐，徐承岳伸手落子时牵动腹伤，徐尚田看在眼里。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "CZ-S-HOSPITAL",
+              "fact_id": "CZ-S-HOSPITAL.F2"
+            }
+          ],
+          "evidence": "书房、日光棋盘、祖孙关系与未愈腹伤均有依据，牵动伤处是合理表演。"
+        },
+        {
+          "location": "shot:1/staging:1",
+          "text": "动作：徐承岳探身落子，腹部一紧，另一只手按住腹侧。他坐回去，慢慢松开手；徐尚田的目光从棋盘移向他的腹部。\n镜头：棋盘近景，缓抬至祖孙双人中景。\n现场声：棋子轻响，衣料摩擦声。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "以自然疼痛反应和祖父观察表现已有伤势，未新增剧情结果。"
+        },
+        {
+          "location": "shot:1/staging:2",
+          "text": "动作：徐尚田看着孙子，语气平稳。徐承岳将按过腹部的手放回膝上。\n镜头：保持双人中景。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "语气、视线和放手动作属于连续表演安排。"
+        },
+        {
+          "location": "shot:1/staging:3",
+          "text": "动作：徐承岳抬眼迎住祖父的目光，把因疼痛微弯的背挺直。\n镜头：徐承岳近景。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "挺背迎视是符合带伤逞强情境的动作表达。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "伤还没好，就想着上台？",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "CZ-E12",
+              "fact_id": "CZ-E12.F4"
+            }
+          ],
+          "evidence": "准确改述伤势未愈仍坚持上台的既有情境。"
+        },
+        {
+          "location": "shot:1/block:2",
+          "text": "伤会好，拳台我还要上。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "CZ-C-XU",
+              "fact_id": "CZ-C-XU.F3"
+            }
+          ],
+          "evidence": "体现角色对伤势的自信及继续上台的坚持，没有宣布伤势已经痊愈。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "棋盘隔在两人之间。徐尚田从容应下一手，徐承岳盯着新落下的棋子。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "应子与注视是棋局中的自然动作，没有增加关键剧情。"
+        },
+        {
+          "location": "shot:2/staging:1",
+          "text": "动作：徐尚田说完前半句才落子，问到“你呢”时看向孙子。\n镜头：祖父侧面中近景，棋盘在前景。\n现场声：一声清楚的落子声。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "落子时机、机位与现场声服务追问的表演节奏。"
+        },
+        {
+          "location": "shot:2/staging:2",
+          "text": "动作：徐承岳看着棋盘，没有立即接话；随后把视线抬向祖父。\n镜头：徐承岳近景。\n现场声：保留室内底噪。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "停顿与抬眼是自然思考反应。"
+        },
+        {
+          "location": "shot:2/staging:3",
+          "text": "动作：徐承岳回答得干脆，后半句语速放缓，目光没有避开祖父。\n镜头：保持近景。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "语速和目光属于角色态度的表演安排。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "有人上台是为吃饭。你呢？",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "CZ-E12",
+              "fact_id": "CZ-E12.F4"
+            }
+          ],
+          "evidence": "以口语问句呈现资料中的谋生与意气之辨。"
+        },
+        {
+          "location": "shot:2/block:2",
+          "text": "我要赢。总不能赢了一场，就不敢再打。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "CZ-C-XU",
+              "fact_id": "CZ-C-XU.F3"
+            },
+            {
+              "source_id": "CZ-C-XU",
+              "fact_id": "CZ-C-XU.F2"
+            }
+          ],
+          "evidence": "求胜执念由F3支持，此前已赢一场由F2击败小韩的记载支持。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "祖父没有继续看棋。徐承岳捏起一枚棋子，却迟迟没有落下。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "视线转移与持子犹疑是表现冲突的自然动作。"
+        },
+        {
+          "location": "shot:3/staging:1",
+          "text": "动作：徐尚田看向孙子的腹侧，再看回他的脸。徐承岳捏起棋子，停在棋盘上方。\n镜头：祖父近景，切孙子持子的手。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "眼神与悬棋将对白代价落实为动作，没有新增事件。"
+        },
+        {
+          "location": "shot:3/staging:2",
+          "text": "动作：徐承岳抬起下巴反问，棋子仍悬着。\n镜头：徐承岳近景。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "抬下巴承接反问，悬棋状态与上一段连续。"
+        },
+        {
+          "location": "shot:3/staging:3",
+          "text": "动作：徐尚田不接他的傲气，直视着他把话说完。徐承岳嘴角绷紧，没再抢话。\n镜头：祖父近景，末尾切祖孙侧面双人景。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "沉稳回应与绷紧嘴角属于情绪反应和镜头安排。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "赢了，腹上还留着伤。下回拿什么换？",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "CZ-C-XU",
+              "fact_id": "CZ-C-XU.F2"
+            },
+            {
+              "source_id": "CZ-E12",
+              "fact_id": "CZ-E12.F4"
+            }
+          ],
+          "evidence": "胜出受伤及伤势未愈均有依据，末句是关于未来代价的追问。"
+        },
+        {
+          "location": "shot:3/block:2",
+          "text": "您怕我输？",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "符合求胜心理的原创反问，没有断言祖父的真实动机。"
+        },
+        {
+          "location": "shot:3/block:3",
+          "text": "我怕你只想着赢，忘了自己也会死。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "CZ-E12",
+              "fact_id": "CZ-E12.F4"
+            },
+            {
+              "source_id": "CZ-C-XU",
+              "fact_id": "CZ-C-XU.F3"
+            }
+          ],
+          "evidence": "以祖父担忧改述意气与代价之争，并承接资料中的求胜执念，没有预告死亡结果。"
+        },
+        {
+          "location": "shot:4/visual",
+          "text": "日光中的棋盘与两人静止的身影。徐承岳终于落子，再正视祖父。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "落子承接上一镜悬棋，正视祖父为最后回答作准备。"
+        },
+        {
+          "location": "shot:4/staging:1",
+          "text": "动作：徐承岳低头看了一眼腹侧，缓缓将悬着的棋子落下。徐尚田看着他，没有催促。\n镜头：从持子的手切至徐承岳面部。\n现场声：呼吸声，落子声。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "低头、落子与等待是回应性命代价的自然表演。"
+        },
+        {
+          "location": "shot:4/staging:2",
+          "text": "动作：徐承岳抬眼，声音压低，一字一句回答祖父。徐尚田与他对视；最后一字落下，画面切黑。\n镜头：徐承岳正面近景，祖父肩背留在前景。\n现场声：无配乐，保留人声与室内底噪。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "声音、对视和切黑均为结尾表演及剪辑安排。"
+        },
+        {
+          "location": "shot:4/block:1",
+          "text": "既上拳台，生死无怨",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "CZ-E12",
+              "fact_id": "CZ-E12.F5"
+            }
+          ],
+          "evidence": "与资料中徐承岳的收尾原句一致。"
+        }
+      ],
+      "pacing": {
+        "verdict": "met",
+        "evidence": "四镜预计8.1、8.8、9.5、5.5秒；第1镜2.5秒表现牵伤，第2镜1.5秒思考，第4镜3秒观察腹侧并落子，均有动作支撑，连续对白和持子状态衔接合理，无重复空镜凑时长。"
+      },
+      "expression_review_passed": true
+    },
+    "sources": [
+      {
+        "id": "CZ-E12",
+        "product_id": "city-drama",
+        "title": "第12集·云与泥",
+        "version": "2026-11-06-v1",
+        "category": "分集剧情",
+        "keywords": [
+          "CZ-E12",
+          "第12集·云与泥",
+          "第12集",
+          "云与泥",
+          "医院",
+          "探望",
+          "小韩",
+          "韩振涛",
+          "苹果",
+          "徐尚田",
+          "棋盘",
+          "中篇完"
+        ],
+        "facts": [
+          {
+            "id": "CZ-E12.F1",
+            "text": "冲突后，新闻和饭局交代势力重新分配；天魁招揽陈峥留在香港掌住拳台，陈峥没有立即答应。"
+          },
+          {
+            "id": "CZ-E12.F2",
+            "text": "陈峥到医院探望右臂重伤的小韩，削好苹果，劝他退出社团拳台，别再把自己搭进去。小韩感谢的是这次探望与劝说，不存在此前让拳台给陈峥的人情。"
+          },
+          {
+            "id": "CZ-E12.F3",
+            "text": "陈峥借花衫七的渠道继续找一张古书残页，并提出想见太子乐；想见太子乐的是陈峥，不是花衫七另起诉求。"
+          },
+          {
+            "id": "CZ-E12.F4",
+            "text": "徐承岳在家与祖父徐尚田下棋，腹伤尚未恢复，仍坚持继续上拳台。祖孙对谋生、意气与代价有不同看法。"
+          },
+          {
+            "id": "CZ-E12.F5",
+            "text": "以徐承岳“既上拳台，生死无怨”和“中篇完”收尾；这不是全书结局，不提前拍最终对决、任务成功或回到现实。"
+          }
+        ],
+        "evidence": [
+          {
+            "source": "S01",
+            "start_line": 661,
+            "end_line": 721
+          },
+          {
+            "source": "S09",
+            "start_line": 31,
+            "end_line": 60
+          }
+        ]
+      },
+      {
+        "id": "CZ-C-XU",
+        "product_id": "city-drama",
+        "title": "徐承岳",
+        "version": "2026-11-06-v1",
+        "category": "人物关系",
+        "keywords": [
+          "CZ-C-XU",
+          "徐承岳",
+          "徐尚田",
+          "十九岁",
+          "咏春",
+          "八斩刀",
+          "棋盘"
+        ],
+        "facts": [
+          {
+            "id": "CZ-C-XU.F1",
+            "text": "徐承岳是十九岁的年轻拳手，祖父是咏春徐尚田；第六集先出现在资料照片中，不是成熟中年反派。"
+          },
+          {
+            "id": "CZ-C-XU.F2",
+            "text": "第九集徐承岳持双八斩刀击败小韩，自己腹部也受伤；天魁安排陈峥护送他离开围堵。"
+          },
+          {
+            "id": "CZ-C-XU.F3",
+            "text": "他对拳台胜负有执拗的看法，与陈峥发生冲突；第十二集伤势尚未痊愈，在棋盘前坚持继续上拳台。"
+          },
+          {
+            "id": "CZ-C-XU.F4",
+            "text": "前十二集没有陈峥与徐承岳的正式最终拳赛，不提前给两人的决战宣布胜负。"
+          }
+        ],
+        "evidence": [
+          {
+            "source": "S05",
+            "start_line": 84,
+            "end_line": 96
+          },
+          {
+            "source": "S01",
+            "start_line": 479,
+            "end_line": 552
+          },
+          {
+            "source": "S01",
+            "start_line": 661,
+            "end_line": 721
+          }
+        ]
+      },
+      {
+        "id": "CZ-S-HOSPITAL",
+        "product_id": "city-drama",
+        "title": "医院病房与徐宅棋盘",
+        "version": "2026-11-06-v1",
+        "category": "场景",
+        "keywords": [
+          "CZ-S-HOSPITAL",
+          "医院病房与徐宅棋盘",
+          "医院",
+          "病房",
+          "苹果",
+          "棋盘",
+          "书房",
+          "云与泥"
+        ],
+        "facts": [
+          {
+            "id": "CZ-S-HOSPITAL.F1",
+            "text": "医院病房里，小韩的右臂缠着纱布，陈峥坐床边削苹果，劝他退出拳台，放下苹果后起身离开，小韩在门口前道谢。"
+          },
+          {
+            "id": "CZ-S-HOSPITAL.F2",
+            "text": "徐宅书房的日光落在棋盘上，徐承岳腹伤未好，与祖父徐尚田谈继续上台的选择。安静棋局与小韩付出的代价形成对照。"
+          }
+        ],
+        "evidence": [
+          {
+            "source": "S01",
+            "start_line": 661,
+            "end_line": 721
+          },
+          {
+            "source": "S09",
+            "start_line": 31,
+            "end_line": 45
+          }
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "action": "search_materials",
+        "arguments": {
+          "query": "CZ-E12 CZ-C-XU CZ-S-HOSPITAL 徐承岳 徐尚田 下棋 上拳台 生死无怨",
+          "product_id": "city-drama"
+        },
+        "decision_basis": "先核对第十二集下棋段的争执原因、祖孙动机及腹伤状态，确保对白与动作符合原剧情。",
+        "observation": {
+          "ok": true,
+          "query": "CZ-E12 CZ-C-XU CZ-S-HOSPITAL 徐承岳 徐尚田 下棋 上拳台 生死无怨",
+          "product_id": "city-drama",
+          "materials": [
+            {
+              "id": "CZ-E12",
+              "product_id": "city-drama",
+              "title": "第12集·云与泥",
+              "version": "2026-11-06-v1",
+              "category": "分集剧情",
+              "keywords": [
+                "CZ-E12",
+                "第12集·云与泥",
+                "第12集",
+                "云与泥",
+                "医院",
+                "探望",
+                "小韩",
+                "韩振涛",
+                "苹果",
+                "徐尚田",
+                "棋盘",
+                "中篇完"
+              ],
+              "facts": [
+                {
+                  "id": "CZ-E12.F1",
+                  "text": "冲突后，新闻和饭局交代势力重新分配；天魁招揽陈峥留在香港掌住拳台，陈峥没有立即答应。"
+                },
+                {
+                  "id": "CZ-E12.F2",
+                  "text": "陈峥到医院探望右臂重伤的小韩，削好苹果，劝他退出社团拳台，别再把自己搭进去。小韩感谢的是这次探望与劝说，不存在此前让拳台给陈峥的人情。"
+                },
+                {
+                  "id": "CZ-E12.F3",
+                  "text": "陈峥借花衫七的渠道继续找一张古书残页，并提出想见太子乐；想见太子乐的是陈峥，不是花衫七另起诉求。"
+                },
+                {
+                  "id": "CZ-E12.F4",
+                  "text": "徐承岳在家与祖父徐尚田下棋，腹伤尚未恢复，仍坚持继续上拳台。祖孙对谋生、意气与代价有不同看法。"
+                },
+                {
+                  "id": "CZ-E12.F5",
+                  "text": "以徐承岳“既上拳台，生死无怨”和“中篇完”收尾；这不是全书结局，不提前拍最终对决、任务成功或回到现实。"
+                }
+              ],
+              "evidence": [
+                {
+                  "source": "S01",
+                  "start_line": 661,
+                  "end_line": 721
+                },
+                {
+                  "source": "S09",
+                  "start_line": 31,
+                  "end_line": 60
+                }
+              ]
+            },
+            {
+              "id": "CZ-C-XU",
+              "product_id": "city-drama",
+              "title": "徐承岳",
+              "version": "2026-11-06-v1",
+              "category": "人物关系",
+              "keywords": [
+                "CZ-C-XU",
+                "徐承岳",
+                "徐尚田",
+                "十九岁",
+                "咏春",
+                "八斩刀",
+                "棋盘"
+              ],
+              "facts": [
+                {
+                  "id": "CZ-C-XU.F1",
+                  "text": "徐承岳是十九岁的年轻拳手，祖父是咏春徐尚田；第六集先出现在资料照片中，不是成熟中年反派。"
+                },
+                {
+                  "id": "CZ-C-XU.F2",
+                  "text": "第九集徐承岳持双八斩刀击败小韩，自己腹部也受伤；天魁安排陈峥护送他离开围堵。"
+                },
+                {
+                  "id": "CZ-C-XU.F3",
+                  "text": "他对拳台胜负有执拗的看法，与陈峥发生冲突；第十二集伤势尚未痊愈，在棋盘前坚持继续上拳台。"
+                },
+                {
+                  "id": "CZ-C-XU.F4",
+                  "text": "前十二集没有陈峥与徐承岳的正式最终拳赛，不提前给两人的决战宣布胜负。"
+                }
+              ],
+              "evidence": [
+                {
+                  "source": "S05",
+                  "start_line": 84,
+                  "end_line": 96
+                },
+                {
+                  "source": "S01",
+                  "start_line": 479,
+                  "end_line": 552
+                },
+                {
+                  "source": "S01",
+                  "start_line": 661,
+                  "end_line": 721
+                }
+              ]
+            },
+            {
+              "id": "CZ-S-HOSPITAL",
+              "product_id": "city-drama",
+              "title": "医院病房与徐宅棋盘",
+              "version": "2026-11-06-v1",
+              "category": "场景",
+              "keywords": [
+                "CZ-S-HOSPITAL",
+                "医院病房与徐宅棋盘",
+                "医院",
+                "病房",
+                "苹果",
+                "棋盘",
+                "书房",
+                "云与泥"
+              ],
+              "facts": [
+                {
+                  "id": "CZ-S-HOSPITAL.F1",
+                  "text": "医院病房里，小韩的右臂缠着纱布，陈峥坐床边削苹果，劝他退出拳台，放下苹果后起身离开，小韩在门口前道谢。"
+                },
+                {
+                  "id": "CZ-S-HOSPITAL.F2",
+                  "text": "徐宅书房的日光落在棋盘上，徐承岳腹伤未好，与祖父徐尚田谈继续上台的选择。安静棋局与小韩付出的代价形成对照。"
+                }
+              ],
+              "evidence": [
+                {
+                  "source": "S01",
+                  "start_line": 661,
+                  "end_line": 721
+                },
+                {
+                  "source": "S09",
+                  "start_line": 31,
+                  "end_line": 45
+                }
+              ]
+            }
+          ],
+          "count": 3
+        },
+        "model": {
+          "provider": "codex",
+          "model": "gpt-6-astra",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1ad53-a600-7103-ba02-d804a7552889",
+          "usage": {
+            "input_tokens": 24518,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 94,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-jevw1u5w",
+          "warnings": [],
+          "configuration_mode": "isolated",
+          "phase": "decision"
+        },
+        "elapsed_ms": 13609
+      },
+      {
+        "step": 2,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "format_version": 3,
+            "title": "徐承岳：棋盘前，还要上拳台",
+            "shots": [
+              {
+                "purpose": "用腹伤与落子引出继续上台的选择。",
+                "visual": "徐宅书房，日光落在棋盘上。祖孙对坐，徐承岳伸手落子时牵动腹伤，徐尚田看在眼里。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "伤还没好，就想着上台？",
+                    "source_id": "CZ-E12",
+                    "fact_id": "CZ-E12.F4",
+                    "channel": "voice",
+                    "beat": 2,
+                    "display_seconds": 0,
+                    "speaker": "徐尚田"
+                  },
+                  {
+                    "text": "伤会好，拳台我还要上。",
+                    "source_id": "CZ-C-XU",
+                    "fact_id": "CZ-C-XU.F3",
+                    "channel": "voice",
+                    "beat": 3,
+                    "display_seconds": 0,
+                    "speaker": "徐承岳"
+                  }
+                ],
+                "staging": [
+                  {
+                    "beat": 1,
+                    "action": "徐承岳探身落子，腹部一紧，另一只手按住腹侧。他坐回去，慢慢松开手；徐尚田的目光从棋盘移向他的腹部。",
+                    "camera": "棋盘近景，缓抬至祖孙双人中景。",
+                    "sound": "棋子轻响，衣料摩擦声。",
+                    "min_seconds": 2.5
+                  },
+                  {
+                    "beat": 2,
+                    "action": "徐尚田看着孙子，语气平稳。徐承岳将按过腹部的手放回膝上。",
+                    "camera": "保持双人中景。",
+                    "sound": "",
+                    "min_seconds": 0
+                  },
+                  {
+                    "beat": 3,
+                    "action": "徐承岳抬眼迎住祖父的目光，把因疼痛微弯的背挺直。",
+                    "camera": "徐承岳近景。",
+                    "sound": "",
+                    "min_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "祖父追问上台的理由，晚辈表露对胜负的执拗。",
+                "visual": "棋盘隔在两人之间。徐尚田从容应下一手，徐承岳盯着新落下的棋子。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "有人上台是为吃饭。你呢？",
+                    "source_id": "CZ-E12",
+                    "fact_id": "CZ-E12.F4",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0,
+                    "speaker": "徐尚田"
+                  },
+                  {
+                    "text": "我要赢。总不能赢了一场，就不敢再打。",
+                    "source_id": "CZ-C-XU",
+                    "fact_id": "CZ-C-XU.F3",
+                    "channel": "voice",
+                    "beat": 3,
+                    "display_seconds": 0,
+                    "speaker": "徐承岳"
+                  }
+                ],
+                "staging": [
+                  {
+                    "beat": 1,
+                    "action": "徐尚田说完前半句才落子，问到“你呢”时看向孙子。",
+                    "camera": "祖父侧面中近景，棋盘在前景。",
+                    "sound": "一声清楚的落子声。",
+                    "min_seconds": 0
+                  },
+                  {
+                    "beat": 2,
+                    "action": "徐承岳看着棋盘，没有立即接话；随后把视线抬向祖父。",
+                    "camera": "徐承岳近景。",
+                    "sound": "保留室内底噪。",
+                    "min_seconds": 1.5
+                  },
+                  {
+                    "beat": 3,
+                    "action": "徐承岳回答得干脆，后半句语速放缓，目光没有避开祖父。",
+                    "camera": "保持近景。",
+                    "sound": "",
+                    "min_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "将争论从输赢推向身体与性命的代价。",
+                "visual": "祖父没有继续看棋。徐承岳捏起一枚棋子，却迟迟没有落下。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "赢了，腹上还留着伤。下回拿什么换？",
+                    "source_id": "CZ-C-XU",
+                    "fact_id": "CZ-C-XU.F2",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0,
+                    "speaker": "徐尚田"
+                  },
+                  {
+                    "text": "您怕我输？",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 2,
+                    "display_seconds": 0,
+                    "speaker": "徐承岳"
+                  },
+                  {
+                    "text": "我怕你只想着赢，忘了自己也会死。",
+                    "source_id": "CZ-E12",
+                    "fact_id": "CZ-E12.F4",
+                    "channel": "voice",
+                    "beat": 3,
+                    "display_seconds": 0,
+                    "speaker": "徐尚田"
+                  }
+                ],
+                "staging": [
+                  {
+                    "beat": 1,
+                    "action": "徐尚田看向孙子的腹侧，再看回他的脸。徐承岳捏起棋子，停在棋盘上方。",
+                    "camera": "祖父近景，切孙子持子的手。",
+                    "sound": "",
+                    "min_seconds": 0
+                  },
+                  {
+                    "beat": 2,
+                    "action": "徐承岳抬起下巴反问，棋子仍悬着。",
+                    "camera": "徐承岳近景。",
+                    "sound": "",
+                    "min_seconds": 0
+                  },
+                  {
+                    "beat": 3,
+                    "action": "徐尚田不接他的傲气，直视着他把话说完。徐承岳嘴角绷紧，没再抢话。",
+                    "camera": "祖父近景，末尾切祖孙侧面双人景。",
+                    "sound": "",
+                    "min_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "让徐承岳在听见代价后作出回答，以指定台词结束。",
+                "visual": "日光中的棋盘与两人静止的身影。徐承岳终于落子，再正视祖父。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "既上拳台，生死无怨",
+                    "source_id": "CZ-E12",
+                    "fact_id": "CZ-E12.F5",
+                    "channel": "voice",
+                    "beat": 2,
+                    "display_seconds": 0,
+                    "speaker": "徐承岳"
+                  }
+                ],
+                "staging": [
+                  {
+                    "beat": 1,
+                    "action": "徐承岳低头看了一眼腹侧，缓缓将悬着的棋子落下。徐尚田看着他，没有催促。",
+                    "camera": "从持子的手切至徐承岳面部。",
+                    "sound": "呼吸声，落子声。",
+                    "min_seconds": 3
+                  },
+                  {
+                    "beat": 2,
+                    "action": "徐承岳抬眼，声音压低，一字一句回答祖父。徐尚田与他对视；最后一字落下，画面切黑。",
+                    "camera": "徐承岳正面近景，祖父肩背留在前景。",
+                    "sound": "无配乐，保留人声与室内底噪。",
+                    "min_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          }
+        },
+        "decision_basis": "已有资料覆盖棋局、伤势和祖孙分歧；用对白与落子推进冲突，留出停顿，并以指定台词收尾。",
+        "observation": {
+          "ok": true,
+          "script_hash": "a6543d3f18ea0483a4a97e028ecf48a376ed39257e70a84ad3b5cd2f3aba28f6",
+          "revision": {
+            "before_hash": null,
+            "after_hash": "a6543d3f18ea0483a4a97e028ecf48a376ed39257e70a84ad3b5cd2f3aba28f6",
+            "changed_fields": [
+              "script:new"
+            ],
+            "unchanged_shots": 0,
+            "unchanged_blocks": 0,
+            "feedback": [],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "gpt-6-astra",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1ad53-d26e-7a90-98d8-2fd8fdacf2fe",
+          "usage": {
+            "input_tokens": 25082,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1608,
+            "reasoning_output_tokens": 165
+          },
+          "call_id": "decision-s0wynhah",
+          "warnings": [],
+          "configuration_mode": "isolated",
+          "phase": "decision"
+        },
+        "elapsed_ms": 41047
+      },
+      {
+        "step": 3,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "format_version": 3,
+            "title": "徐承岳：棋盘前，还要上拳台",
+            "shots": [
+              {
+                "purpose": "用腹伤与落子引出继续上台的选择。",
+                "visual": "徐宅书房，日光落在棋盘上。祖孙对坐，徐承岳伸手落子时牵动腹伤，徐尚田看在眼里。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "伤还没好，就想着上台？",
+                    "source_id": "CZ-E12",
+                    "fact_id": "CZ-E12.F4",
+                    "channel": "voice",
+                    "beat": 2,
+                    "display_seconds": 0,
+                    "speaker": "徐尚田"
+                  },
+                  {
+                    "text": "伤会好，拳台我还要上。",
+                    "source_id": "CZ-C-XU",
+                    "fact_id": "CZ-C-XU.F3",
+                    "channel": "voice",
+                    "beat": 3,
+                    "display_seconds": 0,
+                    "speaker": "徐承岳"
+                  }
+                ],
+                "staging": [
+                  {
+                    "beat": 1,
+                    "action": "徐承岳探身落子，腹部一紧，另一只手按住腹侧。他坐回去，慢慢松开手；徐尚田的目光从棋盘移向他的腹部。",
+                    "camera": "棋盘近景，缓抬至祖孙双人中景。",
+                    "sound": "棋子轻响，衣料摩擦声。",
+                    "min_seconds": 2.5
+                  },
+                  {
+                    "beat": 2,
+                    "action": "徐尚田看着孙子，语气平稳。徐承岳将按过腹部的手放回膝上。",
+                    "camera": "保持双人中景。",
+                    "sound": "",
+                    "min_seconds": 0
+                  },
+                  {
+                    "beat": 3,
+                    "action": "徐承岳抬眼迎住祖父的目光，把因疼痛微弯的背挺直。",
+                    "camera": "徐承岳近景。",
+                    "sound": "",
+                    "min_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "祖父追问上台的理由，晚辈表露对胜负的执拗。",
+                "visual": "棋盘隔在两人之间。徐尚田从容应下一手，徐承岳盯着新落下的棋子。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "有人上台是为吃饭。你呢？",
+                    "source_id": "CZ-E12",
+                    "fact_id": "CZ-E12.F4",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0,
+                    "speaker": "徐尚田"
+                  },
+                  {
+                    "text": "我要赢。总不能赢了一场，就不敢再打。",
+                    "source_id": "CZ-C-XU",
+                    "fact_id": "CZ-C-XU.F3",
+                    "channel": "voice",
+                    "beat": 3,
+                    "display_seconds": 0,
+                    "speaker": "徐承岳"
+                  }
+                ],
+                "staging": [
+                  {
+                    "beat": 1,
+                    "action": "徐尚田说完前半句才落子，问到“你呢”时看向孙子。",
+                    "camera": "祖父侧面中近景，棋盘在前景。",
+                    "sound": "一声清楚的落子声。",
+                    "min_seconds": 0
+                  },
+                  {
+                    "beat": 2,
+                    "action": "徐承岳看着棋盘，没有立即接话；随后把视线抬向祖父。",
+                    "camera": "徐承岳近景。",
+                    "sound": "保留室内底噪。",
+                    "min_seconds": 1.5
+                  },
+                  {
+                    "beat": 3,
+                    "action": "徐承岳回答得干脆，后半句语速放缓，目光没有避开祖父。",
+                    "camera": "保持近景。",
+                    "sound": "",
+                    "min_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "将争论从输赢推向身体与性命的代价。",
+                "visual": "祖父没有继续看棋。徐承岳捏起一枚棋子，却迟迟没有落下。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "赢了，腹上还留着伤。下回拿什么换？",
+                    "source_id": "CZ-C-XU",
+                    "fact_id": "CZ-C-XU.F2",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0,
+                    "speaker": "徐尚田"
+                  },
+                  {
+                    "text": "您怕我输？",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 2,
+                    "display_seconds": 0,
+                    "speaker": "徐承岳"
+                  },
+                  {
+                    "text": "我怕你只想着赢，忘了自己也会死。",
+                    "source_id": "CZ-E12",
+                    "fact_id": "CZ-E12.F4",
+                    "channel": "voice",
+                    "beat": 3,
+                    "display_seconds": 0,
+                    "speaker": "徐尚田"
+                  }
+                ],
+                "staging": [
+                  {
+                    "beat": 1,
+                    "action": "徐尚田看向孙子的腹侧，再看回他的脸。徐承岳捏起棋子，停在棋盘上方。",
+                    "camera": "祖父近景，切孙子持子的手。",
+                    "sound": "",
+                    "min_seconds": 0
+                  },
+                  {
+                    "beat": 2,
+                    "action": "徐承岳抬起下巴反问，棋子仍悬着。",
+                    "camera": "徐承岳近景。",
+                    "sound": "",
+                    "min_seconds": 0
+                  },
+                  {
+                    "beat": 3,
+                    "action": "徐尚田不接他的傲气，直视着他把话说完。徐承岳嘴角绷紧，没再抢话。",
+                    "camera": "祖父近景，末尾切祖孙侧面双人景。",
+                    "sound": "",
+                    "min_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "让徐承岳在听见代价后作出回答，以指定台词结束。",
+                "visual": "日光中的棋盘与两人静止的身影。徐承岳终于落子，再正视祖父。",
+                "hold_seconds": 0,
+                "blocks": [
+                  {
+                    "text": "既上拳台，生死无怨",
+                    "source_id": "CZ-E12",
+                    "fact_id": "CZ-E12.F5",
+                    "channel": "voice",
+                    "beat": 2,
+                    "display_seconds": 0,
+                    "speaker": "徐承岳"
+                  }
+                ],
+                "staging": [
+                  {
+                    "beat": 1,
+                    "action": "徐承岳低头看了一眼腹侧，缓缓将悬着的棋子落下。徐尚田看着他，没有催促。",
+                    "camera": "从持子的手切至徐承岳面部。",
+                    "sound": "呼吸声，落子声。",
+                    "min_seconds": 3
+                  },
+                  {
+                    "beat": 2,
+                    "action": "徐承岳抬眼，声音压低，一字一句回答祖父。徐尚田与他对视；最后一字落下，画面切黑。",
+                    "camera": "徐承岳正面近景，祖父肩背留在前景。",
+                    "sound": "无配乐，保留人声与室内底噪。",
+                    "min_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "request": {
+            "topic": "把第十二集徐承岳与祖父徐尚田下棋这一段，改成一条安静但有张力的短片。徐承岳腹伤还没好，却仍想继续上拳台；祖父和他对上台的理由、要付出的代价有不同看法。让两个人一边下棋一边说，落子、停顿和眼神都参与表达。全片用祖孙对白推进，以徐承岳“既上拳台，生死无怨”收尾。",
+            "audience": "已经看过徐承岳与小韩交手、想进一步了解徐承岳的观众",
+            "platform": "B站",
+            "style": "长辈沉稳，晚辈有傲气；台词能直接说出口，留出思考和落子的时间。",
+            "product_id": "city-drama",
+            "duration_mode": "max",
+            "expression_mode": "creative",
+            "target_seconds": 45
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "a6543d3f18ea0483a4a97e028ecf48a376ed39257e70a84ad3b5cd2f3aba28f6",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:1/block:1",
+                "source_id": "CZ-E12",
+                "fact_id": "CZ-E12.F4",
+                "quote": "徐承岳在家与祖父徐尚田下棋，腹伤尚未恢复，仍坚持继续上拳台。祖孙对谋生、意气与代价有不同看法。",
+                "version": "2026-11-06-v1",
+                "text": "伤还没好，就想着上台？",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:1/block:2",
+                "source_id": "CZ-C-XU",
+                "fact_id": "CZ-C-XU.F3",
+                "quote": "他对拳台胜负有执拗的看法，与陈峥发生冲突；第十二集伤势尚未痊愈，在棋盘前坚持继续上拳台。",
+                "version": "2026-11-06-v1",
+                "text": "伤会好，拳台我还要上。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:2/block:1",
+                "source_id": "CZ-E12",
+                "fact_id": "CZ-E12.F4",
+                "quote": "徐承岳在家与祖父徐尚田下棋，腹伤尚未恢复，仍坚持继续上拳台。祖孙对谋生、意气与代价有不同看法。",
+                "version": "2026-11-06-v1",
+                "text": "有人上台是为吃饭。你呢？",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:2/block:2",
+                "source_id": "CZ-C-XU",
+                "fact_id": "CZ-C-XU.F3",
+                "quote": "他对拳台胜负有执拗的看法，与陈峥发生冲突；第十二集伤势尚未痊愈，在棋盘前坚持继续上拳台。",
+                "version": "2026-11-06-v1",
+                "text": "我要赢。总不能赢了一场，就不敢再打。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:3/block:1",
+                "source_id": "CZ-C-XU",
+                "fact_id": "CZ-C-XU.F2",
+                "quote": "第九集徐承岳持双八斩刀击败小韩，自己腹部也受伤；天魁安排陈峥护送他离开围堵。",
+                "version": "2026-11-06-v1",
+                "text": "赢了，腹上还留着伤。下回拿什么换？",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:3/block:3",
+                "source_id": "CZ-E12",
+                "fact_id": "CZ-E12.F4",
+                "quote": "徐承岳在家与祖父徐尚田下棋，腹伤尚未恢复，仍坚持继续上拳台。祖孙对谋生、意气与代价有不同看法。",
+                "version": "2026-11-06-v1",
+                "text": "我怕你只想着赢，忘了自己也会死。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:4/block:1",
+                "source_id": "CZ-E12",
+                "fact_id": "CZ-E12.F5",
+                "quote": "以徐承岳“既上拳台，生死无怨”和“中篇完”收尾；这不是全书结局，不提前拍最终对决、任务成功或回到现实。",
+                "version": "2026-11-06-v1",
+                "text": "既上拳台，生死无怨",
+                "requires_semantic_review": true
+              }
+            ],
+            "rules_version": "city-drama-2026-11-06-v1",
+            "material_kind": "narrative",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "徐承岳：棋盘前，还要上拳台"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "徐宅书房，日光落在棋盘上。祖孙对坐，徐承岳伸手落子时牵动腹伤，徐尚田看在眼里。"
+              },
+              {
+                "location": "shot:1/staging:1",
+                "text": "动作：徐承岳探身落子，腹部一紧，另一只手按住腹侧。他坐回去，慢慢松开手；徐尚田的目光从棋盘移向他的腹部。\n镜头：棋盘近景，缓抬至祖孙双人中景。\n现场声：棋子轻响，衣料摩擦声。"
+              },
+              {
+                "location": "shot:1/staging:2",
+                "text": "动作：徐尚田看着孙子，语气平稳。徐承岳将按过腹部的手放回膝上。\n镜头：保持双人中景。"
+              },
+              {
+                "location": "shot:1/staging:3",
+                "text": "动作：徐承岳抬眼迎住祖父的目光，把因疼痛微弯的背挺直。\n镜头：徐承岳近景。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "伤还没好，就想着上台？"
+              },
+              {
+                "location": "shot:1/block:2",
+                "text": "伤会好，拳台我还要上。"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "棋盘隔在两人之间。徐尚田从容应下一手，徐承岳盯着新落下的棋子。"
+              },
+              {
+                "location": "shot:2/staging:1",
+                "text": "动作：徐尚田说完前半句才落子，问到“你呢”时看向孙子。\n镜头：祖父侧面中近景，棋盘在前景。\n现场声：一声清楚的落子声。"
+              },
+              {
+                "location": "shot:2/staging:2",
+                "text": "动作：徐承岳看着棋盘，没有立即接话；随后把视线抬向祖父。\n镜头：徐承岳近景。\n现场声：保留室内底噪。"
+              },
+              {
+                "location": "shot:2/staging:3",
+                "text": "动作：徐承岳回答得干脆，后半句语速放缓，目光没有避开祖父。\n镜头：保持近景。"
+              },
+              {
+                "location": "shot:2/block:1",
+                "text": "有人上台是为吃饭。你呢？"
+              },
+              {
+                "location": "shot:2/block:2",
+                "text": "我要赢。总不能赢了一场，就不敢再打。"
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "祖父没有继续看棋。徐承岳捏起一枚棋子，却迟迟没有落下。"
+              },
+              {
+                "location": "shot:3/staging:1",
+                "text": "动作：徐尚田看向孙子的腹侧，再看回他的脸。徐承岳捏起棋子，停在棋盘上方。\n镜头：祖父近景，切孙子持子的手。"
+              },
+              {
+                "location": "shot:3/staging:2",
+                "text": "动作：徐承岳抬起下巴反问，棋子仍悬着。\n镜头：徐承岳近景。"
+              },
+              {
+                "location": "shot:3/staging:3",
+                "text": "动作：徐尚田不接他的傲气，直视着他把话说完。徐承岳嘴角绷紧，没再抢话。\n镜头：祖父近景，末尾切祖孙侧面双人景。"
+              },
+              {
+                "location": "shot:3/block:1",
+                "text": "赢了，腹上还留着伤。下回拿什么换？"
+              },
+              {
+                "location": "shot:3/block:2",
+                "text": "您怕我输？"
+              },
+              {
+                "location": "shot:3/block:3",
+                "text": "我怕你只想着赢，忘了自己也会死。"
+              },
+              {
+                "location": "shot:4/visual",
+                "text": "日光中的棋盘与两人静止的身影。徐承岳终于落子，再正视祖父。"
+              },
+              {
+                "location": "shot:4/staging:1",
+                "text": "动作：徐承岳低头看了一眼腹侧，缓缓将悬着的棋子落下。徐尚田看着他，没有催促。\n镜头：从持子的手切至徐承岳面部。\n现场声：呼吸声，落子声。"
+              },
+              {
+                "location": "shot:4/staging:2",
+                "text": "动作：徐承岳抬眼，声音压低，一字一句回答祖父。徐尚田与他对视；最后一字落下，画面切黑。\n镜头：徐承岳正面近景，祖父肩背留在前景。\n现场声：无配乐，保留人声与室内底噪。"
+              },
+              {
+                "location": "shot:4/block:1",
+                "text": "既上拳台，生死无怨"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "CZ-E12",
+                "fact_id": "CZ-E12.F1",
+                "quote": "冲突后，新闻和饭局交代势力重新分配；天魁招揽陈峥留在香港掌住拳台，陈峥没有立即答应。",
+                "version": "2026-11-06-v1"
+              },
+              {
+                "source_id": "CZ-E12",
+                "fact_id": "CZ-E12.F2",
+                "quote": "陈峥到医院探望右臂重伤的小韩，削好苹果，劝他退出社团拳台，别再把自己搭进去。小韩感谢的是这次探望与劝说，不存在此前让拳台给陈峥的人情。",
+                "version": "2026-11-06-v1"
+              },
+              {
+                "source_id": "CZ-E12",
+                "fact_id": "CZ-E12.F3",
+                "quote": "陈峥借花衫七的渠道继续找一张古书残页，并提出想见太子乐；想见太子乐的是陈峥，不是花衫七另起诉求。",
+                "version": "2026-11-06-v1"
+              },
+              {
+                "source_id": "CZ-E12",
+                "fact_id": "CZ-E12.F4",
+                "quote": "徐承岳在家与祖父徐尚田下棋，腹伤尚未恢复，仍坚持继续上拳台。祖孙对谋生、意气与代价有不同看法。",
+                "version": "2026-11-06-v1"
+              },
+              {
+                "source_id": "CZ-E12",
+                "fact_id": "CZ-E12.F5",
+                "quote": "以徐承岳“既上拳台，生死无怨”和“中篇完”收尾；这不是全书结局，不提前拍最终对决、任务成功或回到现实。",
+                "version": "2026-11-06-v1"
+              },
+              {
+                "source_id": "CZ-C-XU",
+                "fact_id": "CZ-C-XU.F1",
+                "quote": "徐承岳是十九岁的年轻拳手，祖父是咏春徐尚田；第六集先出现在资料照片中，不是成熟中年反派。",
+                "version": "2026-11-06-v1"
+              },
+              {
+                "source_id": "CZ-C-XU",
+                "fact_id": "CZ-C-XU.F2",
+                "quote": "第九集徐承岳持双八斩刀击败小韩，自己腹部也受伤；天魁安排陈峥护送他离开围堵。",
+                "version": "2026-11-06-v1"
+              },
+              {
+                "source_id": "CZ-C-XU",
+                "fact_id": "CZ-C-XU.F3",
+                "quote": "他对拳台胜负有执拗的看法，与陈峥发生冲突；第十二集伤势尚未痊愈，在棋盘前坚持继续上拳台。",
+                "version": "2026-11-06-v1"
+              },
+              {
+                "source_id": "CZ-C-XU",
+                "fact_id": "CZ-C-XU.F4",
+                "quote": "前十二集没有陈峥与徐承岳的正式最终拳赛，不提前给两人的决战宣布胜负。",
+                "version": "2026-11-06-v1"
+              },
+              {
+                "source_id": "CZ-S-HOSPITAL",
+                "fact_id": "CZ-S-HOSPITAL.F1",
+                "quote": "医院病房里，小韩的右臂缠着纱布，陈峥坐床边削苹果，劝他退出拳台，放下苹果后起身离开，小韩在门口前道谢。",
+                "version": "2026-11-06-v1"
+              },
+              {
+                "source_id": "CZ-S-HOSPITAL",
+                "fact_id": "CZ-S-HOSPITAL.F2",
+                "quote": "徐宅书房的日光落在棋盘上，徐承岳腹伤未好，与祖父徐尚田谈继续上台的选择。安静棋局与小韩付出的代价形成对照。",
+                "version": "2026-11-06-v1"
+              }
+            ],
+            "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "a6543d3f18ea0483a4a97e028ecf48a376ed39257e70a84ad3b5cd2f3aba28f6",
+            "shots": [
+              {
+                "shot": 1,
+                "estimated_seconds": 8.1,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 2.5,
+                    "voice_seconds": 0,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 2.5,
+                    "action_seconds": 2.5
+                  },
+                  {
+                    "beat": 2,
+                    "start_seconds": 2.5,
+                    "end_seconds": 5.3,
+                    "voice_seconds": 2.75,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 2.8,
+                    "action_seconds": 0
+                  },
+                  {
+                    "beat": 3,
+                    "start_seconds": 5.3,
+                    "end_seconds": 8.1,
+                    "voice_seconds": 2.75,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 2.8,
+                    "action_seconds": 0
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              },
+              {
+                "shot": 2,
+                "estimated_seconds": 8.8,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 3.0,
+                    "voice_seconds": 3.0,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 3.0,
+                    "action_seconds": 0
+                  },
+                  {
+                    "beat": 2,
+                    "start_seconds": 3.0,
+                    "end_seconds": 4.5,
+                    "voice_seconds": 0,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 1.5,
+                    "action_seconds": 1.5
+                  },
+                  {
+                    "beat": 3,
+                    "start_seconds": 4.5,
+                    "end_seconds": 8.8,
+                    "voice_seconds": 4.25,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.3,
+                    "action_seconds": 0
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              },
+              {
+                "shot": 3,
+                "estimated_seconds": 9.5,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 4.0,
+                    "voice_seconds": 4.0,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.0,
+                    "action_seconds": 0
+                  },
+                  {
+                    "beat": 2,
+                    "start_seconds": 4.0,
+                    "end_seconds": 5.5,
+                    "voice_seconds": 1.5,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 1.5,
+                    "action_seconds": 0
+                  },
+                  {
+                    "beat": 3,
+                    "start_seconds": 5.5,
+                    "end_seconds": 9.5,
+                    "voice_seconds": 4.0,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.0,
+                    "action_seconds": 0
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              },
+              {
+                "shot": 4,
+                "estimated_seconds": 5.5,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 3.0,
+                    "voice_seconds": 0,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 3.0,
+                    "action_seconds": 3
+                  },
+                  {
+                    "beat": 2,
+                    "start_seconds": 3.0,
+                    "end_seconds": 5.5,
+                    "voice_seconds": 2.5,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 2.5,
+                    "action_seconds": 0
+                  }
+                ],
+                "tail_hold_seconds": 0.0
+              }
+            ],
+            "total_seconds": 31.9,
+            "target_seconds": 45,
+            "passed": true,
+            "method": "动作与声画v3：每段max(声音,屏幕文字阅读,展示停留,动作最低时长)，各段相加；再取镜头最低停留较大者。说话者和动作说明不计入朗读。",
+            "is_estimate": true
+          }
+        },
+        "decision_basis": "检查当前稿的45秒上限、剧情依据、祖孙纯对白及指定收尾，并核对落子、停顿和腹伤动作的连贯性。",
+        "observation": {
+          "ok": true,
+          "script_hash": "a6543d3f18ea0483a4a97e028ecf48a376ed39257e70a84ad3b5cd2f3aba28f6",
+          "request_hash": "3e1ec013fa3a992113e0740ed80b2b98819ac8cb5f201fe29cbaaf0fde7e1eef",
+          "passed": true,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "把第十二集徐承岳与祖父徐尚田下棋这一段",
+              "verdict": "met",
+              "evidence": "四镜均围绕徐宅祖孙棋局展开，没有引入其他剧情支线。"
+            },
+            {
+              "field": "topic",
+              "requirement": "改成一条安静但有张力的短片",
+              "verdict": "met",
+              "evidence": "落子声、对视与悬棋停顿维持安静氛围，对话从伤势推进到死亡代价。"
+            },
+            {
+              "field": "topic",
+              "requirement": "徐承岳腹伤还没好，却仍想继续上拳台",
+              "verdict": "met",
+              "evidence": "第1镜按住腹侧的动作与“伤会好，拳台我还要上”共同落实伤未愈仍坚持上台。"
+            },
+            {
+              "field": "topic",
+              "requirement": "祖父和他对上台的理由、要付出的代价有不同看法",
+              "verdict": "met",
+              "evidence": "第2镜以谋生对照求胜，第3镜以“您怕我输”对照祖父对性命的担忧。"
+            },
+            {
+              "field": "topic",
+              "requirement": "让两个人一边下棋一边说",
+              "verdict": "met",
+              "evidence": "第1镜徐承岳落子，第2镜徐尚田应子，第3至4镜徐承岳持子后落下，对话贯穿棋局。"
+            },
+            {
+              "field": "topic",
+              "requirement": "落子、停顿和眼神都参与表达",
+              "verdict": "met",
+              "evidence": "第2镜停顿后抬眼，第3镜棋子悬停，第4镜落子后正视祖父，动作均对应态度变化。"
+            },
+            {
+              "field": "topic",
+              "requirement": "全片用祖孙对白推进",
+              "verdict": "met",
+              "evidence": "全部有声文案的speaker均为徐尚田或徐承岳，没有旁白或内部审稿说明。"
+            },
+            {
+              "field": "topic",
+              "requirement": "以徐承岳“既上拳台，生死无怨”收尾",
+              "verdict": "met",
+              "evidence": "第4镜由徐承岳说出指定原句，最后一字落下即切黑。"
+            },
+            {
+              "field": "audience",
+              "requirement": "已经看过徐承岳与小韩交手、想进一步了解徐承岳的观众",
+              "verdict": "met",
+              "evidence": "“赢了，腹上还留着伤”承接此前交手，并通过求胜执念和祖孙争论补充人物理解。"
+            },
+            {
+              "field": "platform",
+              "requirement": "B站",
+              "verdict": "met",
+              "evidence": "31.9秒的完整人物对话短片有明确情境、冲突与收束，适合B站剧情片段观看。"
+            },
+            {
+              "field": "style",
+              "requirement": "长辈沉稳，晚辈有傲气",
+              "verdict": "met",
+              "evidence": "祖父平稳追问且不接傲气，徐承岳挺背迎视并反问“您怕我输”。"
+            },
+            {
+              "field": "style",
+              "requirement": "台词能直接说出口",
+              "verdict": "met",
+              "evidence": "连续对白从伤势、上台理由推进至性命代价，问答对象清楚，“您怕我输”体现晚辈执拗而非语义断裂。"
+            },
+            {
+              "field": "style",
+              "requirement": "留出思考和落子的时间",
+              "verdict": "met",
+              "evidence": "第2镜留出1.5秒沉默思考，第4镜留出3秒低头、落子与等待。"
+            }
+          ],
+          "summary": "稿件落实了祖孙棋局、带伤上台的执念与代价之争，并以指定对白收尾。剧情表达有资料支持，动作衔接和停顿合理，预计31.9秒符合45秒上限。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "徐承岳：棋盘前，还要上拳台",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "CZ-E12",
+                  "fact_id": "CZ-E12.F4"
+                }
+              ],
+              "evidence": "资料明确记载徐承岳在棋局中坚持继续上拳台。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "徐宅书房，日光落在棋盘上。祖孙对坐，徐承岳伸手落子时牵动腹伤，徐尚田看在眼里。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "CZ-S-HOSPITAL",
+                  "fact_id": "CZ-S-HOSPITAL.F2"
+                }
+              ],
+              "evidence": "书房、日光棋盘、祖孙关系与未愈腹伤均有依据，牵动伤处是合理表演。"
+            },
+            {
+              "location": "shot:1/staging:1",
+              "text": "动作：徐承岳探身落子，腹部一紧，另一只手按住腹侧。他坐回去，慢慢松开手；徐尚田的目光从棋盘移向他的腹部。\n镜头：棋盘近景，缓抬至祖孙双人中景。\n现场声：棋子轻响，衣料摩擦声。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "以自然疼痛反应和祖父观察表现已有伤势，未新增剧情结果。"
+            },
+            {
+              "location": "shot:1/staging:2",
+              "text": "动作：徐尚田看着孙子，语气平稳。徐承岳将按过腹部的手放回膝上。\n镜头：保持双人中景。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "语气、视线和放手动作属于连续表演安排。"
+            },
+            {
+              "location": "shot:1/staging:3",
+              "text": "动作：徐承岳抬眼迎住祖父的目光，把因疼痛微弯的背挺直。\n镜头：徐承岳近景。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "挺背迎视是符合带伤逞强情境的动作表达。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "伤还没好，就想着上台？",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "CZ-E12",
+                  "fact_id": "CZ-E12.F4"
+                }
+              ],
+              "evidence": "准确改述伤势未愈仍坚持上台的既有情境。"
+            },
+            {
+              "location": "shot:1/block:2",
+              "text": "伤会好，拳台我还要上。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "CZ-C-XU",
+                  "fact_id": "CZ-C-XU.F3"
+                }
+              ],
+              "evidence": "体现角色对伤势的自信及继续上台的坚持，没有宣布伤势已经痊愈。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "棋盘隔在两人之间。徐尚田从容应下一手，徐承岳盯着新落下的棋子。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "应子与注视是棋局中的自然动作，没有增加关键剧情。"
+            },
+            {
+              "location": "shot:2/staging:1",
+              "text": "动作：徐尚田说完前半句才落子，问到“你呢”时看向孙子。\n镜头：祖父侧面中近景，棋盘在前景。\n现场声：一声清楚的落子声。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "落子时机、机位与现场声服务追问的表演节奏。"
+            },
+            {
+              "location": "shot:2/staging:2",
+              "text": "动作：徐承岳看着棋盘，没有立即接话；随后把视线抬向祖父。\n镜头：徐承岳近景。\n现场声：保留室内底噪。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "停顿与抬眼是自然思考反应。"
+            },
+            {
+              "location": "shot:2/staging:3",
+              "text": "动作：徐承岳回答得干脆，后半句语速放缓，目光没有避开祖父。\n镜头：保持近景。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "语速和目光属于角色态度的表演安排。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "有人上台是为吃饭。你呢？",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "CZ-E12",
+                  "fact_id": "CZ-E12.F4"
+                }
+              ],
+              "evidence": "以口语问句呈现资料中的谋生与意气之辨。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "我要赢。总不能赢了一场，就不敢再打。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "CZ-C-XU",
+                  "fact_id": "CZ-C-XU.F3"
+                },
+                {
+                  "source_id": "CZ-C-XU",
+                  "fact_id": "CZ-C-XU.F2"
+                }
+              ],
+              "evidence": "求胜执念由F3支持，此前已赢一场由F2击败小韩的记载支持。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "祖父没有继续看棋。徐承岳捏起一枚棋子，却迟迟没有落下。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "视线转移与持子犹疑是表现冲突的自然动作。"
+            },
+            {
+              "location": "shot:3/staging:1",
+              "text": "动作：徐尚田看向孙子的腹侧，再看回他的脸。徐承岳捏起棋子，停在棋盘上方。\n镜头：祖父近景，切孙子持子的手。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "眼神与悬棋将对白代价落实为动作，没有新增事件。"
+            },
+            {
+              "location": "shot:3/staging:2",
+              "text": "动作：徐承岳抬起下巴反问，棋子仍悬着。\n镜头：徐承岳近景。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "抬下巴承接反问，悬棋状态与上一段连续。"
+            },
+            {
+              "location": "shot:3/staging:3",
+              "text": "动作：徐尚田不接他的傲气，直视着他把话说完。徐承岳嘴角绷紧，没再抢话。\n镜头：祖父近景，末尾切祖孙侧面双人景。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "沉稳回应与绷紧嘴角属于情绪反应和镜头安排。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "赢了，腹上还留着伤。下回拿什么换？",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "CZ-C-XU",
+                  "fact_id": "CZ-C-XU.F2"
+                },
+                {
+                  "source_id": "CZ-E12",
+                  "fact_id": "CZ-E12.F4"
+                }
+              ],
+              "evidence": "胜出受伤及伤势未愈均有依据，末句是关于未来代价的追问。"
+            },
+            {
+              "location": "shot:3/block:2",
+              "text": "您怕我输？",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "符合求胜心理的原创反问，没有断言祖父的真实动机。"
+            },
+            {
+              "location": "shot:3/block:3",
+              "text": "我怕你只想着赢，忘了自己也会死。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "CZ-E12",
+                  "fact_id": "CZ-E12.F4"
+                },
+                {
+                  "source_id": "CZ-C-XU",
+                  "fact_id": "CZ-C-XU.F3"
+                }
+              ],
+              "evidence": "以祖父担忧改述意气与代价之争，并承接资料中的求胜执念，没有预告死亡结果。"
+            },
+            {
+              "location": "shot:4/visual",
+              "text": "日光中的棋盘与两人静止的身影。徐承岳终于落子，再正视祖父。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "落子承接上一镜悬棋，正视祖父为最后回答作准备。"
+            },
+            {
+              "location": "shot:4/staging:1",
+              "text": "动作：徐承岳低头看了一眼腹侧，缓缓将悬着的棋子落下。徐尚田看着他，没有催促。\n镜头：从持子的手切至徐承岳面部。\n现场声：呼吸声，落子声。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "低头、落子与等待是回应性命代价的自然表演。"
+            },
+            {
+              "location": "shot:4/staging:2",
+              "text": "动作：徐承岳抬眼，声音压低，一字一句回答祖父。徐尚田与他对视；最后一字落下，画面切黑。\n镜头：徐承岳正面近景，祖父肩背留在前景。\n现场声：无配乐，保留人声与室内底噪。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "声音、对视和切黑均为结尾表演及剪辑安排。"
+            },
+            {
+              "location": "shot:4/block:1",
+              "text": "既上拳台，生死无怨",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "CZ-E12",
+                  "fact_id": "CZ-E12.F5"
+                }
+              ],
+              "evidence": "与资料中徐承岳的收尾原句一致。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "四镜预计8.1、8.8、9.5、5.5秒；第1镜2.5秒表现牵伤，第2镜1.5秒思考，第4镜3秒观察腹侧并落子，均有动作支撑，连续对白和持子状态衔接合理，无重复空镜凑时长。"
+          },
+          "expression_review_passed": true
+        },
+        "preflight_checks": [
+          {
+            "action": "estimate_duration",
+            "arguments": {
+              "script": {
+                "format_version": 3,
+                "title": "徐承岳：棋盘前，还要上拳台",
+                "shots": [
+                  {
+                    "purpose": "用腹伤与落子引出继续上台的选择。",
+                    "visual": "徐宅书房，日光落在棋盘上。祖孙对坐，徐承岳伸手落子时牵动腹伤，徐尚田看在眼里。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "伤还没好，就想着上台？",
+                        "source_id": "CZ-E12",
+                        "fact_id": "CZ-E12.F4",
+                        "channel": "voice",
+                        "beat": 2,
+                        "display_seconds": 0,
+                        "speaker": "徐尚田"
+                      },
+                      {
+                        "text": "伤会好，拳台我还要上。",
+                        "source_id": "CZ-C-XU",
+                        "fact_id": "CZ-C-XU.F3",
+                        "channel": "voice",
+                        "beat": 3,
+                        "display_seconds": 0,
+                        "speaker": "徐承岳"
+                      }
+                    ],
+                    "staging": [
+                      {
+                        "beat": 1,
+                        "action": "徐承岳探身落子，腹部一紧，另一只手按住腹侧。他坐回去，慢慢松开手；徐尚田的目光从棋盘移向他的腹部。",
+                        "camera": "棋盘近景，缓抬至祖孙双人中景。",
+                        "sound": "棋子轻响，衣料摩擦声。",
+                        "min_seconds": 2.5
+                      },
+                      {
+                        "beat": 2,
+                        "action": "徐尚田看着孙子，语气平稳。徐承岳将按过腹部的手放回膝上。",
+                        "camera": "保持双人中景。",
+                        "sound": "",
+                        "min_seconds": 0
+                      },
+                      {
+                        "beat": 3,
+                        "action": "徐承岳抬眼迎住祖父的目光，把因疼痛微弯的背挺直。",
+                        "camera": "徐承岳近景。",
+                        "sound": "",
+                        "min_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "祖父追问上台的理由，晚辈表露对胜负的执拗。",
+                    "visual": "棋盘隔在两人之间。徐尚田从容应下一手，徐承岳盯着新落下的棋子。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "有人上台是为吃饭。你呢？",
+                        "source_id": "CZ-E12",
+                        "fact_id": "CZ-E12.F4",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0,
+                        "speaker": "徐尚田"
+                      },
+                      {
+                        "text": "我要赢。总不能赢了一场，就不敢再打。",
+                        "source_id": "CZ-C-XU",
+                        "fact_id": "CZ-C-XU.F3",
+                        "channel": "voice",
+                        "beat": 3,
+                        "display_seconds": 0,
+                        "speaker": "徐承岳"
+                      }
+                    ],
+                    "staging": [
+                      {
+                        "beat": 1,
+                        "action": "徐尚田说完前半句才落子，问到“你呢”时看向孙子。",
+                        "camera": "祖父侧面中近景，棋盘在前景。",
+                        "sound": "一声清楚的落子声。",
+                        "min_seconds": 0
+                      },
+                      {
+                        "beat": 2,
+                        "action": "徐承岳看着棋盘，没有立即接话；随后把视线抬向祖父。",
+                        "camera": "徐承岳近景。",
+                        "sound": "保留室内底噪。",
+                        "min_seconds": 1.5
+                      },
+                      {
+                        "beat": 3,
+                        "action": "徐承岳回答得干脆，后半句语速放缓，目光没有避开祖父。",
+                        "camera": "保持近景。",
+                        "sound": "",
+                        "min_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "将争论从输赢推向身体与性命的代价。",
+                    "visual": "祖父没有继续看棋。徐承岳捏起一枚棋子，却迟迟没有落下。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "赢了，腹上还留着伤。下回拿什么换？",
+                        "source_id": "CZ-C-XU",
+                        "fact_id": "CZ-C-XU.F2",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0,
+                        "speaker": "徐尚田"
+                      },
+                      {
+                        "text": "您怕我输？",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 2,
+                        "display_seconds": 0,
+                        "speaker": "徐承岳"
+                      },
+                      {
+                        "text": "我怕你只想着赢，忘了自己也会死。",
+                        "source_id": "CZ-E12",
+                        "fact_id": "CZ-E12.F4",
+                        "channel": "voice",
+                        "beat": 3,
+                        "display_seconds": 0,
+                        "speaker": "徐尚田"
+                      }
+                    ],
+                    "staging": [
+                      {
+                        "beat": 1,
+                        "action": "徐尚田看向孙子的腹侧，再看回他的脸。徐承岳捏起棋子，停在棋盘上方。",
+                        "camera": "祖父近景，切孙子持子的手。",
+                        "sound": "",
+                        "min_seconds": 0
+                      },
+                      {
+                        "beat": 2,
+                        "action": "徐承岳抬起下巴反问，棋子仍悬着。",
+                        "camera": "徐承岳近景。",
+                        "sound": "",
+                        "min_seconds": 0
+                      },
+                      {
+                        "beat": 3,
+                        "action": "徐尚田不接他的傲气，直视着他把话说完。徐承岳嘴角绷紧，没再抢话。",
+                        "camera": "祖父近景，末尾切祖孙侧面双人景。",
+                        "sound": "",
+                        "min_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "让徐承岳在听见代价后作出回答，以指定台词结束。",
+                    "visual": "日光中的棋盘与两人静止的身影。徐承岳终于落子，再正视祖父。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "既上拳台，生死无怨",
+                        "source_id": "CZ-E12",
+                        "fact_id": "CZ-E12.F5",
+                        "channel": "voice",
+                        "beat": 2,
+                        "display_seconds": 0,
+                        "speaker": "徐承岳"
+                      }
+                    ],
+                    "staging": [
+                      {
+                        "beat": 1,
+                        "action": "徐承岳低头看了一眼腹侧，缓缓将悬着的棋子落下。徐尚田看着他，没有催促。",
+                        "camera": "从持子的手切至徐承岳面部。",
+                        "sound": "呼吸声，落子声。",
+                        "min_seconds": 3
+                      },
+                      {
+                        "beat": 2,
+                        "action": "徐承岳抬眼，声音压低，一字一句回答祖父。徐尚田与他对视；最后一字落下，画面切黑。",
+                        "camera": "徐承岳正面近景，祖父肩背留在前景。",
+                        "sound": "无配乐，保留人声与室内底噪。",
+                        "min_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "target_seconds": 45,
+              "duration_mode": "max"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "a6543d3f18ea0483a4a97e028ecf48a376ed39257e70a84ad3b5cd2f3aba28f6",
+              "shots": [
+                {
+                  "shot": 1,
+                  "estimated_seconds": 8.1,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 2.5,
+                      "voice_seconds": 0,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 2.5,
+                      "action_seconds": 2.5
+                    },
+                    {
+                      "beat": 2,
+                      "start_seconds": 2.5,
+                      "end_seconds": 5.3,
+                      "voice_seconds": 2.75,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 2.8,
+                      "action_seconds": 0
+                    },
+                    {
+                      "beat": 3,
+                      "start_seconds": 5.3,
+                      "end_seconds": 8.1,
+                      "voice_seconds": 2.75,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 2.8,
+                      "action_seconds": 0
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                },
+                {
+                  "shot": 2,
+                  "estimated_seconds": 8.8,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 3.0,
+                      "voice_seconds": 3.0,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 3.0,
+                      "action_seconds": 0
+                    },
+                    {
+                      "beat": 2,
+                      "start_seconds": 3.0,
+                      "end_seconds": 4.5,
+                      "voice_seconds": 0,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 1.5,
+                      "action_seconds": 1.5
+                    },
+                    {
+                      "beat": 3,
+                      "start_seconds": 4.5,
+                      "end_seconds": 8.8,
+                      "voice_seconds": 4.25,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 4.3,
+                      "action_seconds": 0
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                },
+                {
+                  "shot": 3,
+                  "estimated_seconds": 9.5,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 4.0,
+                      "voice_seconds": 4.0,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 4.0,
+                      "action_seconds": 0
+                    },
+                    {
+                      "beat": 2,
+                      "start_seconds": 4.0,
+                      "end_seconds": 5.5,
+                      "voice_seconds": 1.5,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 1.5,
+                      "action_seconds": 0
+                    },
+                    {
+                      "beat": 3,
+                      "start_seconds": 5.5,
+                      "end_seconds": 9.5,
+                      "voice_seconds": 4.0,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 4.0,
+                      "action_seconds": 0
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                },
+                {
+                  "shot": 4,
+                  "estimated_seconds": 5.5,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 3.0,
+                      "voice_seconds": 0,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 3.0,
+                      "action_seconds": 3
+                    },
+                    {
+                      "beat": 2,
+                      "start_seconds": 3.0,
+                      "end_seconds": 5.5,
+                      "voice_seconds": 2.5,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 2.5,
+                      "action_seconds": 0
+                    }
+                  ],
+                  "tail_hold_seconds": 0.0
+                }
+              ],
+              "total_seconds": 31.9,
+              "target_seconds": 45,
+              "passed": true,
+              "method": "动作与声画v3：每段max(声音,屏幕文字阅读,展示停留,动作最低时长)，各段相加；再取镜头最低停留较大者。说话者和动作说明不计入朗读。",
+              "is_estimate": true
+            }
+          },
+          {
+            "action": "check_rules",
+            "arguments": {
+              "script": {
+                "format_version": 3,
+                "title": "徐承岳：棋盘前，还要上拳台",
+                "shots": [
+                  {
+                    "purpose": "用腹伤与落子引出继续上台的选择。",
+                    "visual": "徐宅书房，日光落在棋盘上。祖孙对坐，徐承岳伸手落子时牵动腹伤，徐尚田看在眼里。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "伤还没好，就想着上台？",
+                        "source_id": "CZ-E12",
+                        "fact_id": "CZ-E12.F4",
+                        "channel": "voice",
+                        "beat": 2,
+                        "display_seconds": 0,
+                        "speaker": "徐尚田"
+                      },
+                      {
+                        "text": "伤会好，拳台我还要上。",
+                        "source_id": "CZ-C-XU",
+                        "fact_id": "CZ-C-XU.F3",
+                        "channel": "voice",
+                        "beat": 3,
+                        "display_seconds": 0,
+                        "speaker": "徐承岳"
+                      }
+                    ],
+                    "staging": [
+                      {
+                        "beat": 1,
+                        "action": "徐承岳探身落子，腹部一紧，另一只手按住腹侧。他坐回去，慢慢松开手；徐尚田的目光从棋盘移向他的腹部。",
+                        "camera": "棋盘近景，缓抬至祖孙双人中景。",
+                        "sound": "棋子轻响，衣料摩擦声。",
+                        "min_seconds": 2.5
+                      },
+                      {
+                        "beat": 2,
+                        "action": "徐尚田看着孙子，语气平稳。徐承岳将按过腹部的手放回膝上。",
+                        "camera": "保持双人中景。",
+                        "sound": "",
+                        "min_seconds": 0
+                      },
+                      {
+                        "beat": 3,
+                        "action": "徐承岳抬眼迎住祖父的目光，把因疼痛微弯的背挺直。",
+                        "camera": "徐承岳近景。",
+                        "sound": "",
+                        "min_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "祖父追问上台的理由，晚辈表露对胜负的执拗。",
+                    "visual": "棋盘隔在两人之间。徐尚田从容应下一手，徐承岳盯着新落下的棋子。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "有人上台是为吃饭。你呢？",
+                        "source_id": "CZ-E12",
+                        "fact_id": "CZ-E12.F4",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0,
+                        "speaker": "徐尚田"
+                      },
+                      {
+                        "text": "我要赢。总不能赢了一场，就不敢再打。",
+                        "source_id": "CZ-C-XU",
+                        "fact_id": "CZ-C-XU.F3",
+                        "channel": "voice",
+                        "beat": 3,
+                        "display_seconds": 0,
+                        "speaker": "徐承岳"
+                      }
+                    ],
+                    "staging": [
+                      {
+                        "beat": 1,
+                        "action": "徐尚田说完前半句才落子，问到“你呢”时看向孙子。",
+                        "camera": "祖父侧面中近景，棋盘在前景。",
+                        "sound": "一声清楚的落子声。",
+                        "min_seconds": 0
+                      },
+                      {
+                        "beat": 2,
+                        "action": "徐承岳看着棋盘，没有立即接话；随后把视线抬向祖父。",
+                        "camera": "徐承岳近景。",
+                        "sound": "保留室内底噪。",
+                        "min_seconds": 1.5
+                      },
+                      {
+                        "beat": 3,
+                        "action": "徐承岳回答得干脆，后半句语速放缓，目光没有避开祖父。",
+                        "camera": "保持近景。",
+                        "sound": "",
+                        "min_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "将争论从输赢推向身体与性命的代价。",
+                    "visual": "祖父没有继续看棋。徐承岳捏起一枚棋子，却迟迟没有落下。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "赢了，腹上还留着伤。下回拿什么换？",
+                        "source_id": "CZ-C-XU",
+                        "fact_id": "CZ-C-XU.F2",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0,
+                        "speaker": "徐尚田"
+                      },
+                      {
+                        "text": "您怕我输？",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 2,
+                        "display_seconds": 0,
+                        "speaker": "徐承岳"
+                      },
+                      {
+                        "text": "我怕你只想着赢，忘了自己也会死。",
+                        "source_id": "CZ-E12",
+                        "fact_id": "CZ-E12.F4",
+                        "channel": "voice",
+                        "beat": 3,
+                        "display_seconds": 0,
+                        "speaker": "徐尚田"
+                      }
+                    ],
+                    "staging": [
+                      {
+                        "beat": 1,
+                        "action": "徐尚田看向孙子的腹侧，再看回他的脸。徐承岳捏起棋子，停在棋盘上方。",
+                        "camera": "祖父近景，切孙子持子的手。",
+                        "sound": "",
+                        "min_seconds": 0
+                      },
+                      {
+                        "beat": 2,
+                        "action": "徐承岳抬起下巴反问，棋子仍悬着。",
+                        "camera": "徐承岳近景。",
+                        "sound": "",
+                        "min_seconds": 0
+                      },
+                      {
+                        "beat": 3,
+                        "action": "徐尚田不接他的傲气，直视着他把话说完。徐承岳嘴角绷紧，没再抢话。",
+                        "camera": "祖父近景，末尾切祖孙侧面双人景。",
+                        "sound": "",
+                        "min_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "让徐承岳在听见代价后作出回答，以指定台词结束。",
+                    "visual": "日光中的棋盘与两人静止的身影。徐承岳终于落子，再正视祖父。",
+                    "hold_seconds": 0,
+                    "blocks": [
+                      {
+                        "text": "既上拳台，生死无怨",
+                        "source_id": "CZ-E12",
+                        "fact_id": "CZ-E12.F5",
+                        "channel": "voice",
+                        "beat": 2,
+                        "display_seconds": 0,
+                        "speaker": "徐承岳"
+                      }
+                    ],
+                    "staging": [
+                      {
+                        "beat": 1,
+                        "action": "徐承岳低头看了一眼腹侧，缓缓将悬着的棋子落下。徐尚田看着他，没有催促。",
+                        "camera": "从持子的手切至徐承岳面部。",
+                        "sound": "呼吸声，落子声。",
+                        "min_seconds": 3
+                      },
+                      {
+                        "beat": 2,
+                        "action": "徐承岳抬眼，声音压低，一字一句回答祖父。徐尚田与他对视；最后一字落下，画面切黑。",
+                        "camera": "徐承岳正面近景，祖父肩背留在前景。",
+                        "sound": "无配乐，保留人声与室内底噪。",
+                        "min_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "retrieved_ids": [
+                "CZ-C-XU",
+                "CZ-E12",
+                "CZ-S-HOSPITAL"
+              ],
+              "expression_mode": "creative"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "a6543d3f18ea0483a4a97e028ecf48a376ed39257e70a84ad3b5cd2f3aba28f6",
+              "passed": true,
+              "issues": [],
+              "citations": [
+                {
+                  "location": "shot:1/block:1",
+                  "source_id": "CZ-E12",
+                  "fact_id": "CZ-E12.F4",
+                  "quote": "徐承岳在家与祖父徐尚田下棋，腹伤尚未恢复，仍坚持继续上拳台。祖孙对谋生、意气与代价有不同看法。",
+                  "version": "2026-11-06-v1",
+                  "text": "伤还没好，就想着上台？",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:1/block:2",
+                  "source_id": "CZ-C-XU",
+                  "fact_id": "CZ-C-XU.F3",
+                  "quote": "他对拳台胜负有执拗的看法，与陈峥发生冲突；第十二集伤势尚未痊愈，在棋盘前坚持继续上拳台。",
+                  "version": "2026-11-06-v1",
+                  "text": "伤会好，拳台我还要上。",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:2/block:1",
+                  "source_id": "CZ-E12",
+                  "fact_id": "CZ-E12.F4",
+                  "quote": "徐承岳在家与祖父徐尚田下棋，腹伤尚未恢复，仍坚持继续上拳台。祖孙对谋生、意气与代价有不同看法。",
+                  "version": "2026-11-06-v1",
+                  "text": "有人上台是为吃饭。你呢？",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:2/block:2",
+                  "source_id": "CZ-C-XU",
+                  "fact_id": "CZ-C-XU.F3",
+                  "quote": "他对拳台胜负有执拗的看法，与陈峥发生冲突；第十二集伤势尚未痊愈，在棋盘前坚持继续上拳台。",
+                  "version": "2026-11-06-v1",
+                  "text": "我要赢。总不能赢了一场，就不敢再打。",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:3/block:1",
+                  "source_id": "CZ-C-XU",
+                  "fact_id": "CZ-C-XU.F2",
+                  "quote": "第九集徐承岳持双八斩刀击败小韩，自己腹部也受伤；天魁安排陈峥护送他离开围堵。",
+                  "version": "2026-11-06-v1",
+                  "text": "赢了，腹上还留着伤。下回拿什么换？",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:3/block:3",
+                  "source_id": "CZ-E12",
+                  "fact_id": "CZ-E12.F4",
+                  "quote": "徐承岳在家与祖父徐尚田下棋，腹伤尚未恢复，仍坚持继续上拳台。祖孙对谋生、意气与代价有不同看法。",
+                  "version": "2026-11-06-v1",
+                  "text": "我怕你只想着赢，忘了自己也会死。",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:4/block:1",
+                  "source_id": "CZ-E12",
+                  "fact_id": "CZ-E12.F5",
+                  "quote": "以徐承岳“既上拳台，生死无怨”和“中篇完”收尾；这不是全书结局，不提前拍最终对决、任务成功或回到现实。",
+                  "version": "2026-11-06-v1",
+                  "text": "既上拳台，生死无怨",
+                  "requires_semantic_review": true
+                }
+              ],
+              "rules_version": "city-drama-2026-11-06-v1",
+              "material_kind": "narrative",
+              "requires_expression_review": true,
+              "expression_slots": [
+                {
+                  "location": "title",
+                  "text": "徐承岳：棋盘前，还要上拳台"
+                },
+                {
+                  "location": "shot:1/visual",
+                  "text": "徐宅书房，日光落在棋盘上。祖孙对坐，徐承岳伸手落子时牵动腹伤，徐尚田看在眼里。"
+                },
+                {
+                  "location": "shot:1/staging:1",
+                  "text": "动作：徐承岳探身落子，腹部一紧，另一只手按住腹侧。他坐回去，慢慢松开手；徐尚田的目光从棋盘移向他的腹部。\n镜头：棋盘近景，缓抬至祖孙双人中景。\n现场声：棋子轻响，衣料摩擦声。"
+                },
+                {
+                  "location": "shot:1/staging:2",
+                  "text": "动作：徐尚田看着孙子，语气平稳。徐承岳将按过腹部的手放回膝上。\n镜头：保持双人中景。"
+                },
+                {
+                  "location": "shot:1/staging:3",
+                  "text": "动作：徐承岳抬眼迎住祖父的目光，把因疼痛微弯的背挺直。\n镜头：徐承岳近景。"
+                },
+                {
+                  "location": "shot:1/block:1",
+                  "text": "伤还没好，就想着上台？"
+                },
+                {
+                  "location": "shot:1/block:2",
+                  "text": "伤会好，拳台我还要上。"
+                },
+                {
+                  "location": "shot:2/visual",
+                  "text": "棋盘隔在两人之间。徐尚田从容应下一手，徐承岳盯着新落下的棋子。"
+                },
+                {
+                  "location": "shot:2/staging:1",
+                  "text": "动作：徐尚田说完前半句才落子，问到“你呢”时看向孙子。\n镜头：祖父侧面中近景，棋盘在前景。\n现场声：一声清楚的落子声。"
+                },
+                {
+                  "location": "shot:2/staging:2",
+                  "text": "动作：徐承岳看着棋盘，没有立即接话；随后把视线抬向祖父。\n镜头：徐承岳近景。\n现场声：保留室内底噪。"
+                },
+                {
+                  "location": "shot:2/staging:3",
+                  "text": "动作：徐承岳回答得干脆，后半句语速放缓，目光没有避开祖父。\n镜头：保持近景。"
+                },
+                {
+                  "location": "shot:2/block:1",
+                  "text": "有人上台是为吃饭。你呢？"
+                },
+                {
+                  "location": "shot:2/block:2",
+                  "text": "我要赢。总不能赢了一场，就不敢再打。"
+                },
+                {
+                  "location": "shot:3/visual",
+                  "text": "祖父没有继续看棋。徐承岳捏起一枚棋子，却迟迟没有落下。"
+                },
+                {
+                  "location": "shot:3/staging:1",
+                  "text": "动作：徐尚田看向孙子的腹侧，再看回他的脸。徐承岳捏起棋子，停在棋盘上方。\n镜头：祖父近景，切孙子持子的手。"
+                },
+                {
+                  "location": "shot:3/staging:2",
+                  "text": "动作：徐承岳抬起下巴反问，棋子仍悬着。\n镜头：徐承岳近景。"
+                },
+                {
+                  "location": "shot:3/staging:3",
+                  "text": "动作：徐尚田不接他的傲气，直视着他把话说完。徐承岳嘴角绷紧，没再抢话。\n镜头：祖父近景，末尾切祖孙侧面双人景。"
+                },
+                {
+                  "location": "shot:3/block:1",
+                  "text": "赢了，腹上还留着伤。下回拿什么换？"
+                },
+                {
+                  "location": "shot:3/block:2",
+                  "text": "您怕我输？"
+                },
+                {
+                  "location": "shot:3/block:3",
+                  "text": "我怕你只想着赢，忘了自己也会死。"
+                },
+                {
+                  "location": "shot:4/visual",
+                  "text": "日光中的棋盘与两人静止的身影。徐承岳终于落子，再正视祖父。"
+                },
+                {
+                  "location": "shot:4/staging:1",
+                  "text": "动作：徐承岳低头看了一眼腹侧，缓缓将悬着的棋子落下。徐尚田看着他，没有催促。\n镜头：从持子的手切至徐承岳面部。\n现场声：呼吸声，落子声。"
+                },
+                {
+                  "location": "shot:4/staging:2",
+                  "text": "动作：徐承岳抬眼，声音压低，一字一句回答祖父。徐尚田与他对视；最后一字落下，画面切黑。\n镜头：徐承岳正面近景，祖父肩背留在前景。\n现场声：无配乐，保留人声与室内底噪。"
+                },
+                {
+                  "location": "shot:4/block:1",
+                  "text": "既上拳台，生死无怨"
+                }
+              ],
+              "available_facts": [
+                {
+                  "source_id": "CZ-E12",
+                  "fact_id": "CZ-E12.F1",
+                  "quote": "冲突后，新闻和饭局交代势力重新分配；天魁招揽陈峥留在香港掌住拳台，陈峥没有立即答应。",
+                  "version": "2026-11-06-v1"
+                },
+                {
+                  "source_id": "CZ-E12",
+                  "fact_id": "CZ-E12.F2",
+                  "quote": "陈峥到医院探望右臂重伤的小韩，削好苹果，劝他退出社团拳台，别再把自己搭进去。小韩感谢的是这次探望与劝说，不存在此前让拳台给陈峥的人情。",
+                  "version": "2026-11-06-v1"
+                },
+                {
+                  "source_id": "CZ-E12",
+                  "fact_id": "CZ-E12.F3",
+                  "quote": "陈峥借花衫七的渠道继续找一张古书残页，并提出想见太子乐；想见太子乐的是陈峥，不是花衫七另起诉求。",
+                  "version": "2026-11-06-v1"
+                },
+                {
+                  "source_id": "CZ-E12",
+                  "fact_id": "CZ-E12.F4",
+                  "quote": "徐承岳在家与祖父徐尚田下棋，腹伤尚未恢复，仍坚持继续上拳台。祖孙对谋生、意气与代价有不同看法。",
+                  "version": "2026-11-06-v1"
+                },
+                {
+                  "source_id": "CZ-E12",
+                  "fact_id": "CZ-E12.F5",
+                  "quote": "以徐承岳“既上拳台，生死无怨”和“中篇完”收尾；这不是全书结局，不提前拍最终对决、任务成功或回到现实。",
+                  "version": "2026-11-06-v1"
+                },
+                {
+                  "source_id": "CZ-C-XU",
+                  "fact_id": "CZ-C-XU.F1",
+                  "quote": "徐承岳是十九岁的年轻拳手，祖父是咏春徐尚田；第六集先出现在资料照片中，不是成熟中年反派。",
+                  "version": "2026-11-06-v1"
+                },
+                {
+                  "source_id": "CZ-C-XU",
+                  "fact_id": "CZ-C-XU.F2",
+                  "quote": "第九集徐承岳持双八斩刀击败小韩，自己腹部也受伤；天魁安排陈峥护送他离开围堵。",
+                  "version": "2026-11-06-v1"
+                },
+                {
+                  "source_id": "CZ-C-XU",
+                  "fact_id": "CZ-C-XU.F3",
+                  "quote": "他对拳台胜负有执拗的看法，与陈峥发生冲突；第十二集伤势尚未痊愈，在棋盘前坚持继续上拳台。",
+                  "version": "2026-11-06-v1"
+                },
+                {
+                  "source_id": "CZ-C-XU",
+                  "fact_id": "CZ-C-XU.F4",
+                  "quote": "前十二集没有陈峥与徐承岳的正式最终拳赛，不提前给两人的决战宣布胜负。",
+                  "version": "2026-11-06-v1"
+                },
+                {
+                  "source_id": "CZ-S-HOSPITAL",
+                  "fact_id": "CZ-S-HOSPITAL.F1",
+                  "quote": "医院病房里，小韩的右臂缠着纱布，陈峥坐床边削苹果，劝他退出拳台，放下苹果后起身离开，小韩在门口前道谢。",
+                  "version": "2026-11-06-v1"
+                },
+                {
+                  "source_id": "CZ-S-HOSPITAL",
+                  "fact_id": "CZ-S-HOSPITAL.F2",
+                  "quote": "徐宅书房的日光落在棋盘上，徐承岳腹伤未好，与祖父徐尚田谈继续上台的选择。安静棋局与小韩付出的代价形成对照。",
+                  "version": "2026-11-06-v1"
+                }
+              ],
+              "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+            }
+          }
+        ],
+        "model": {
+          "provider": "codex",
+          "model": "gpt-6-astra",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1ad54-7340-7fa3-ab1f-98417cbcd865",
+          "usage": {
+            "input_tokens": 27506,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 71,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-lrvdgoam",
+          "warnings": [],
+          "configuration_mode": "isolated",
+          "phase": "decision"
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "gpt-6-astra",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1ad54-9c2b-7941-91d7-1e9e1da405e2",
+          "usage": {
+            "input_tokens": 28329,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 3830,
+            "reasoning_output_tokens": 43
+          },
+          "call_id": "decision-by2l35cc",
+          "warnings": [],
+          "configuration_mode": "isolated",
+          "phase": "review"
+        },
+        "elapsed_ms": 103219
+      },
+      {
+        "step": 4,
+        "action": "finish",
+        "arguments": {
+          "status": "completed",
+          "message": "已完成四镜祖孙棋局短片，预计31.9秒。全片由对白推进，编排落子、停顿与眼神，以徐承岳“既上拳台，生死无怨”收尾，全部检查通过。"
+        },
+        "decision_basis": "当前稿的时长、规则与需求检查均已通过，可交付。",
+        "observation": {
+          "ok": true,
+          "status": "completed",
+          "script_hash": "a6543d3f18ea0483a4a97e028ecf48a376ed39257e70a84ad3b5cd2f3aba28f6"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "gpt-6-astra",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1ad56-06b8-73b1-bf7e-caf29fb7d731",
+          "usage": {
+            "input_tokens": 28374,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 104,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-ebsk6st1",
+          "warnings": [],
+          "configuration_mode": "isolated",
+          "phase": "decision"
+        },
+        "elapsed_ms": 22000
+      }
+    ],
+    "metadata": {
+      "app_version": "v7.3-staged-storyboard",
+      "started_at": "2026-11-05T20:08:20.073149+00:00",
+      "finished_at": "2026-11-05T20:11:19.978573+00:00",
+      "provider": "codex",
+      "evidence_kind": "real_model",
+      "data_hash": "5d865600d50d103f98dc820f7ba7505232f2991b7eda6b008e02601df670bf25",
+      "max_steps": 12,
+      "steps": 4,
+      "synthetic_data": false,
+      "completion_policy": "facts_duration_requirements_v6",
+      "requirements_review_context": "current_rules_and_duration_v2",
+      "script_format": "staged_storyboard_v3; legacy_v1_v2_readable",
+      "model_responses": 5,
+      "run_id": "12698c63407f4f948e98c34d7b666945",
+      "persistence": "checkpoint_v1",
+      "fault_injection": {}
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "input_and_ui_match": true,
+  "errors": [],
+  "provider": "codex",
+  "responses": 6,
+  "files_sha256": {
+    "after.txt": "fc6aa2d9bbfa385bed8a7d8ceda3be3e869a6b7ef4c5d027cf04847b73c476d3",
+    "before.txt": "6956fc8e49474eb76acf292f0995469128cb6128ba04f265faf25e2ad3ee0f57",
+    "brief.json": "fe894253fcf0a6b8d753ff2aa4c3887d317a1233456083ba07bdef29e0c9e4d5",
+    "capture.json": "290d2cdc16ebcd09352c5704aa3b3303b5a43897680a88f7d0528debbb0d1738",
+    "checkpoint.json": "cd35160f4df9eb0cffb8e3920fae69cd78bb6ff9e33f3acfa29afbdf1be266d3",
+    "data_snapshot.json": "9999df256468ed0ee8026a96d9a73e71c65824ebebb2dd35e7664b3cffdded2a",
+    "input.json": "fd660a89db742a0852494b13fb3fef7f0e557b84cfd489cfdbb59ffe7b67f335",
+    "manifest.json": "dd17bf58bdc581d32c8a67dea76aaba173f59beff40f420549aa5a92905413c4",
+    "output.json": "7558e7dce8d739ba736ea3f2cf3ef6972fba4ca69ce19ad3955d6ea521664cfa",
+    "page.png": "e232d3693b72716ca140cd57647f5197bd3c9403e227d74a9fb3c9e9835f706d",
+    "run.json": "008c3ad281ea36cba5f7599738257641d735f9f46d5f5a7958c1d2adcfed2402",
+    "script.md": "c89975d75ba724fc24595cfcc6c75462cf179802392b252b83d2d2b1d4e949aa",
+    "submitted.txt": "683ccd0ef4ddebc2011d15b0a0fc4121a897ee68fbd20516f315aeafdc19f763",
+    "trace.jsonl": "fdefc925317b62c22516bcfe9922547ef08ba014684d969c08dd70cc75d34986",
+    "ui-input.json": "2e0ce72c045b049674a7d5573de2cb63e2a9d423424f0618572c5fc743c19fad",
+    "ui-record.json": "ce1129aea70f3cec55d5027f78039f76bf05157323e0fec7d7242dbc16203b29",
+    "diagnostics/decision-9d9mgdl6.json": "e0e5e606ca7877bc1f2dc4fb25debc1ace6677b783413e6ac611ae72c28aaf33",
+    "diagnostics/decision-gavb6kur.json": "8506a590ab2068fe46580c83758586bc4b331bbeb241501d079e935581eacf8e",
+    "diagnostics/decision-kriak2md.json": "68c98245c46675e27b7eb66a28a082d2b43d3dda96652f3bd8654e05a643abb1",
+    "diagnostics/decision-q8kqpqcy.json": "d50bb520e8045094dc54368822f4a9a9e058e90e18dd38a514237a44f7980310",
+    "diagnostics/decision-rgrhq5_a.json": "3547860b8736e9fdd157a60fde012d457394b979a31e9056b70e7c15cc35a564",
+    "diagnostics/decision-t7k4ps40.json": "f51f3f9ac33d383168ec7c6a3cef4a4b5121e4c057c37b5ae56824a12397f258"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "T33",
+  "name": "风格未确定",
+  "context": "客户没有提供风格要求。",
+  "request": {
+    "topic": "介绍横屏和竖屏画面比例选项，品牌表达风格还没确定。",
+    "audience": "日常记录用户",
+    "platform": "小红书",
+    "style": "",
+    "product_id": "demo-editor",
+    "target_seconds": 20
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

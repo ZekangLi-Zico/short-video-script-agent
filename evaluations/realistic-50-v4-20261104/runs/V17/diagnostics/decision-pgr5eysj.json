@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-pgr5eysj",
+  "started_at": "2026-11-03T21:31:38.915615+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:32:06.625292+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a353-2e6f-71c2-a087-7372f78eb404",
+    "usage": {
+      "input_tokens": 29447,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 130,
+      "reasoning_output_tokens": 72
+    },
+    "call_id": "decision-pgr5eysj",
+    "warnings": []
+  }
+}

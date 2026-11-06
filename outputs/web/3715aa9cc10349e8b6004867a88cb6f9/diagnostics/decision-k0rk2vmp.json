@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-k0rk2vmp",
+  "started_at": "2026-11-03T23:19:06.319439+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:19:25.351533+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3b5-8fc8-7823-adcb-4dfe933f6391",
+    "usage": {
+      "input_tokens": 31898,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 289,
+      "reasoning_output_tokens": 165
+    },
+    "call_id": "decision-k0rk2vmp",
+    "warnings": []
+  }
+}

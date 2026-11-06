@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-s22r6pv4",
+  "started_at": "2026-11-03T21:21:50.217549+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:23:05.227967+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a34a-312f-7422-a0db-79ddb85806bf",
+    "usage": {
+      "input_tokens": 27742,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2288,
+      "reasoning_output_tokens": 1751
+    },
+    "call_id": "decision-s22r6pv4",
+    "warnings": []
+  }
+}

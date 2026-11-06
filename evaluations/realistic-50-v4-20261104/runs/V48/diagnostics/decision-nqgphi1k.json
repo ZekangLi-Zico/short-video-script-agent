@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-nqgphi1k",
+  "started_at": "2026-11-03T22:20:39.655930+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:20:53.204717+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a380-0b94-7f62-b974-a21c928f77d2",
+    "usage": {
+      "input_tokens": 31734,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 117,
+      "reasoning_output_tokens": 46
+    },
+    "call_id": "decision-nqgphi1k",
+    "warnings": []
+  }
+}

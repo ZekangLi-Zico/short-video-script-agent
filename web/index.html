@@ -16,7 +16,7 @@
         ></a
       >
       <div class="header-note">
-        <span class="connection-dot"></span>本地人工测试
+        <span class="connection-dot"></span><span id="runtime-version">本地人工测试</span>
       </div>
     </header>
     <main>
@@ -40,7 +40,20 @@
                   重置
                 </button>
               </div>
-              <label for="preset">载入测试场景</label>
+              <label for="product">使用的资料</label>
+              <select id="product" name="product"></select>
+              <p id="pack-description" class="field-help"></p>
+              <details class="material-details">
+                <summary id="material-summary">查看资料</summary>
+                <p id="material-note" class="field-help"></p>
+                <label for="material-category">资料分类</label>
+                <select id="material-category"><option value="">全部资料</option></select>
+                <label for="material-search">查找人物、场景或关键词</label>
+                <input id="material-search" type="search" placeholder="例如：阿晴、烛光、第8集" />
+                <div id="materials" class="material-list"></div>
+                <a id="dossier-download" href="/api/materials/city-drama/bundle" download hidden>下载完整资料包（含正文与来源）</a>
+              </details>
+              <label for="preset">载入创作需求 / 测试场景</label>
               <select id="preset" name="preset">
                 <option value="normal">正常生成</option>
               </select>
@@ -90,6 +103,16 @@
                   />
                 </div>
               </div>
+              <label for="duration-mode">时长要求</label>
+              <select id="duration-mode" name="duration_mode">
+                <option value="max">不超过目标秒数</option>
+                <option value="target">接近目标（90%–100%）</option>
+              </select>
+              <label for="expression-mode">创作方式</label>
+              <select id="expression-mode" name="expression_mode">
+                <option value="creative">场景创作 · 保留事实来源与表达审核</option>
+                <option value="strict">严格引用 · 仅用原版批准表达</option>
+              </select>
               <label for="style">表达风格</label>
               <input
                 id="style"
@@ -97,21 +120,6 @@
                 maxlength="500"
                 value="清楚、友好、克制"
               />
-              <label for="product">使用的产品资料</label>
-              <select id="product" name="product">
-                <option value="demo-editor">剪影练习版 · 示例素材</option>
-                <option value="product-without-materials">
-                  无素材产品 · 测试资料不足
-                </option>
-              </select>
-              <details class="material-details">
-                <summary>查看可用素材</summary>
-                <div id="materials" class="material-list"></div>
-                <p class="field-help">
-                  全部为虚构产品资料。当前脚本以这些原文与批准的连接语组合生成。
-                </p>
-              </details>
-
               <div class="model-section">
                 <label for="provider">运行方式</label>
                 <select id="provider" name="provider">
@@ -217,6 +225,7 @@
           <div id="summary-bar" class="summary-bar" hidden>
             <span>预计时长 <strong id="duration-value">—</strong></span
             ><span>事实与规则 <strong id="rule-value">待检查</strong></span
+            ><span>需求核对 <strong id="requirements-value">待检查</strong></span
             ><span>引用素材 <strong id="source-value">—</strong></span>
           </div>
 
@@ -246,8 +255,14 @@
                 <h2 id="script-title"></h2>
                 <span id="draft-label" class="subtle-tag">草稿 · 待检查</span>
               </div>
+              <details id="listening-panel" class="editor-notes" open>
+                <summary id="listening-label">连读旁白 · 配音前通读</summary>
+                <div id="listening-text"></div>
+              </details>
               <div id="shots" class="shots"></div>
+              <aside id="editor-notes" class="editor-notes" aria-label="审稿备注" hidden></aside>
               <div id="risks" class="risks" hidden></div>
+              <div id="requirements-review" class="risks" hidden></div>
               <p class="estimate-note">
                 时长按旁白和镜头停留估算，未经实际配音或成片测量。
               </p>
@@ -294,14 +309,16 @@
             <span id="save-note">运行记录会保存在本机，便于复验。</span>
             <div id="downloads" hidden>
               <a id="download-script" class="download-link">下载脚本</a
+              ><a id="download-voice" class="download-link" hidden>下载旁白</a
               ><a id="download-trace" class="download-link">下载 Trace</a
-              ><a id="download-result" class="download-link">下载 JSON</a>
+              ><a id="download-result" class="download-link">下载 JSON</a
+              ><a id="download-checkpoint" class="download-link" hidden>下载检查点</a>
             </div>
           </footer>
         </section>
       </div>
       <footer class="page-footer">
-        <span>本地运行 · 合成素材 · 只生成脚本</span
+        <span>本地运行 · 按所选资料创作 · 只生成脚本</span
         ><span>先核对事实，再判断表达。</span>
       </footer>
     </main>

@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-pk84adge",
+  "started_at": "2026-11-04T17:02:57.958323+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:03:57.728286+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a783-8c08-7d40-9880-1706cc2d2ce1",
+    "usage": {
+      "input_tokens": 29856,
+      "cached_input_tokens": 29696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2139,
+      "reasoning_output_tokens": 84
+    },
+    "call_id": "decision-pk84adge",
+    "warnings": []
+  }
+}

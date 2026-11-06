@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-uamaohqi",
+  "started_at": "2026-11-05T17:00:00.326282+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-05T17:00:39.705847+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1aca7-3166-7470-9eda-67d094a3ea3d",
+    "usage": {
+      "input_tokens": 27880,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 639,
+      "reasoning_output_tokens": 146
+    },
+    "call_id": "decision-uamaohqi",
+    "warnings": []
+  }
+}

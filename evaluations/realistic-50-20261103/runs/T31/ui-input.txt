@@ -1,0 +1,11 @@
+Browser tab: 1, Title: "脚本试验台 · 短视频 Agent", URL: "http://127.0.0.1:8765/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 1958-1960
++				2016 text 需求已修改，将按当前内容运行。
+~				27 text entry area (settable) 主题, Value: 客户想介绍字幕添加和手动编辑两项功能，但投放位置还没定，先帮我准备脚本。, ID: topic
+~				29 text field (settable) 给谁看, Value: 新手创作者, ID: audience
+~				39 stepper (settable) 目标时长 秒, ID: target-seconds
+~				41 text field (settable) 表达风格, Value: 清楚、克制, ID: style
++				2017 text 调用本机已登录的 Codex，通常需要一到数分钟。
++				2018 text 真实模型运行会使用当前账号的额度。
+The focused UI element is 41 text field (settable) 表达风格, Value: 清楚、克制, ID: style

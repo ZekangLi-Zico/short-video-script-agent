@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-x767p_41",
+  "started_at": "2026-11-05T18:08:57.450301+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-05T18:09:57.162629+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1ace6-53bc-7ef0-bd9b-1271618e30c2",
+    "usage": {
+      "input_tokens": 32263,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1089,
+      "reasoning_output_tokens": 91
+    },
+    "call_id": "decision-x767p_41",
+    "warnings": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "case_id": "T08",
+  "finished_capture_at": "2026-11-03T14:01:55.343Z",
+  "busy": false,
+  "detail": "真实模型 · 5 个执行步骤",
+  "download": "/api/runs/b841e253f8ab4660ab5ba0b5cb1c0250/download/output.json",
+  "error": "",
+  "history": "b841e253f8ab4660ab5ba0b5cb1c0250",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "save": "记录已保存 · b841e253",
+  "status": "检查通过"
+}

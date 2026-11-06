@@ -1,0 +1,19 @@
+{
+  "port": 8813,
+  "submitted_at": "2026-11-04T01:20:13.567Z",
+  "fields": {
+    "audience": "English-speaking student volunteers",
+    "duration-mode": "target",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "7d4170d8cebd4b0ba7714a150ecadaf3",
+    "initial-script": "",
+    "platform": "B站",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "Plain English narration, clear scene directions",
+    "target-seconds": "35",
+    "topic": "Write an English narration introducing caption addition and manual text editing in 剪影练习版. Chinese source quotations may appear as silent screen cards. Use a club room and a notice board, with no invented menu names."
+  }
+}

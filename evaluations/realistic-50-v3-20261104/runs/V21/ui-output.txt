@@ -1,0 +1,1522 @@
+{
+  "status": "completed",
+  "message": "已完成5镜头英文旁白稿，覆盖字幕添加与手动改字，包含社团室、公告板及静音中文来源卡，无虚构菜单。本轮保留当前稿，无新增删改。估时33秒，符合31.5—35秒要求；工具将卡片文字串行计入估时，实际配音与卡片展示时长仍需在制作时复核。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "A Club Notice in 剪影练习版",
+    "shots": [
+      {
+        "visual": "Club room: pin a Thursday meeting notice to the board. English VO.",
+        "hold_seconds": 6,
+        "blocks": [
+          {
+            "text": "We're making a short welcome video for our club. Start with the notice board.",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "Add captions to the club clip; no UI. Silent Chinese card; English VO.",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "First, the captions. Listen to the announcement and follow the words on screen.",
+            "source_id": "",
+            "fact_id": ""
+          },
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "Board close-up: Thursday; draft caption: Tuesday. English VO.",
+        "hold_seconds": 5,
+        "blocks": [
+          {
+            "text": "The notice says Thursday. Look closely: our draft says Tuesday. That needs a correction.",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "Edit Tuesday to Thursday; no UI. Silent Chinese card; English VO.",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "Next, the wording. Change Tuesday to Thursday, then read the line against the notice.",
+            "source_id": "",
+            "fact_id": ""
+          },
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      },
+      {
+        "visual": "Club room: compare the revised line with the notice. English VO.",
+        "hold_seconds": 6,
+        "blocks": [
+          {
+            "text": "Read it once more: “See you on Thursday.” Now the words match our club notice.",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "70a8e3f653fcd2be2c8ccca6b2e3f9baed8a14d8199997619b4beec00eca4b5b",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 14,
+        "estimated_seconds": 6
+      },
+      {
+        "shot": 2,
+        "speech_units": 27,
+        "estimated_seconds": 8
+      },
+      {
+        "shot": 3,
+        "speech_units": 14,
+        "estimated_seconds": 5
+      },
+      {
+        "shot": 4,
+        "speech_units": 24,
+        "estimated_seconds": 8
+      },
+      {
+        "shot": 5,
+        "speech_units": 15,
+        "estimated_seconds": 6
+      }
+    ],
+    "total_seconds": 33,
+    "target_seconds": 35,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true,
+    "duration_mode": "target",
+    "min_seconds": 31.5,
+    "max_seconds": 35,
+    "issue": null
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "70a8e3f653fcd2be2c8ccca6b2e3f9baed8a14d8199997619b4beec00eca4b5b",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:2",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:4/block:2",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "A Club Notice in 剪影练习版"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "Club room: pin a Thursday meeting notice to the board. English VO."
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "We're making a short welcome video for our club. Start with the notice board."
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "Add captions to the club clip; no UI. Silent Chinese card; English VO."
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "First, the captions. Listen to the announcement and follow the words on screen."
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "Board close-up: Thursday; draft caption: Tuesday. English VO."
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "The notice says Thursday. Look closely: our draft says Tuesday. That needs a correction."
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "Edit Tuesday to Thursday; no UI. Silent Chinese card; English VO."
+      },
+      {
+        "location": "shot:4/block:1",
+        "text": "Next, the wording. Change Tuesday to Thursday, then read the line against the notice."
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "Club room: compare the revised line with the notice. English VO."
+      },
+      {
+        "location": "shot:5/block:1",
+        "text": "Read it once more: “See you on Thursday.” Now the words match our club notice."
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "70a8e3f653fcd2be2c8ccca6b2e3f9baed8a14d8199997619b4beec00eca4b5b",
+    "request_hash": "e4173b95878922dcc7fc2e4d47f1090a021fcb424a8170f3946bd9dd04293e44",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "Write an English narration",
+        "verdict": "met",
+        "evidence": "全部镜头均标注“English VO.”；旁白为英文，中文来源引文明确安排为静音卡片。"
+      },
+      {
+        "field": "topic",
+        "requirement": "caption addition",
+        "verdict": "met",
+        "evidence": "镜头2明确安排“Add captions to the club clip”，配合英文旁白“First, the captions.”及支持添加字幕的来源卡。"
+      },
+      {
+        "field": "topic",
+        "requirement": "manual text editing",
+        "verdict": "met",
+        "evidence": "镜头4展示将Tuesday改为Thursday，旁白明确说“Change Tuesday to Thursday”，并配有“字幕文字可以手动编辑。”静音卡。"
+      },
+      {
+        "field": "topic",
+        "requirement": "in 剪影练习版",
+        "verdict": "met",
+        "evidence": "标题“A Club Notice in 剪影练习版”明确产品，镜头2来源卡再次写明剪影练习版。"
+      },
+      {
+        "field": "topic",
+        "requirement": "Chinese source quotations may appear as silent screen cards.",
+        "verdict": "met",
+        "evidence": "镜头2、4均明确标注“Silent Chinese card; English VO.”，中文内容为对应来源引文。"
+      },
+      {
+        "field": "topic",
+        "requirement": "Use a club room",
+        "verdict": "met",
+        "evidence": "镜头1和镜头5的画面说明均明确写出“Club room”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "a notice board",
+        "verdict": "met",
+        "evidence": "镜头1将周四会议通知钉到公告板上；镜头3特写公告板，作为字幕纠错的参照。"
+      },
+      {
+        "field": "topic",
+        "requirement": "no invented menu names",
+        "verdict": "met",
+        "evidence": "全文没有菜单或按钮名称；镜头2、4明确标注“no UI”，仅展示添加字幕和修改文字的示意。"
+      },
+      {
+        "field": "audience",
+        "requirement": "English-speaking student volunteers",
+        "verdict": "met",
+        "evidence": "使用英文旁白，以制作社团欢迎视频、核对会议通知为任务，场景适合学生志愿者理解和使用。"
+      },
+      {
+        "field": "platform",
+        "requirement": "B站",
+        "verdict": "met",
+        "evidence": "五个镜头以社团任务串联功能展示和纠错示例，内容连贯，适合B站短视频呈现；没有与平台要求冲突的安排。"
+      },
+      {
+        "field": "style",
+        "requirement": "Plain English narration",
+        "verdict": "met",
+        "evidence": "旁白采用“Start with the notice board.”、“That needs a correction.”等简短、直白的英文表达。"
+      },
+      {
+        "field": "style",
+        "requirement": "clear scene directions",
+        "verdict": "met",
+        "evidence": "画面说明具体交代社团室、贴通知、公告板特写、Tuesday改为Thursday，以及中文卡静音、英文配音和不展示UI。"
+      }
+    ],
+    "summary": "明确需求均已落实：英文旁白、静音中文来源卡、社团室和公告板场景齐全，字幕添加与手动改字均有呈现。未发现无依据的产品承诺或虚构菜单，镜头停留也有明确内容支撑。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "A Club Notice in 剪影练习版",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "标题交代社团通知主题及产品名称，没有提出具体性能、自动化或效果承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "Club room: pin a Thursday meeting notice to the board. English VO.",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "社团室贴通知属于生活场景和拍摄安排，不涉及产品能力声明。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "We're making a short welcome video for our club. Start with the notice board.",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "说明示例视频的用途并引导观看公告板，没有声称产品自动生成欢迎视频。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "Add captions to the club clip; no UI. Silent Chinese card; English VO.",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "“Add captions”由“剪影练习版支持为视频添加字幕。”直接支持；其余为拍摄及声音安排，没有补充自动识别或虚构UI操作。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "First, the captions. Listen to the announcement and follow the words on screen.",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于转场和观看引导，未宣称字幕由语音自动识别、自动同步或自动生成。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "Board close-up: Thursday; draft caption: Tuesday. English VO.",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "设置通知与字幕草稿日期不一致的示例，不声称产品会自动发现错误。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "The notice says Thursday. Look closely: our draft says Tuesday. That needs a correction.",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "指出示意画面中的文字差异并提出纠错需要，没有增加产品能力承诺。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "Edit Tuesday to Thursday; no UI. Silent Chinese card; English VO.",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ],
+        "evidence": "修改字幕中的星期文字属于“字幕文字可以手动编辑。”支持的能力；未虚构按钮、菜单或操作路径。"
+      },
+      {
+        "location": "shot:4/block:1",
+        "text": "Next, the wording. Change Tuesday to Thursday, then read the line against the notice.",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ],
+        "evidence": "将Tuesday改为Thursday是手动编辑字幕的具体示例；随后对照通知阅读属于人工核对，没有宣称自动校验。"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "Club room: compare the revised line with the notice. English VO.",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "安排在社团室人工比对修改后的文字，属于观察任务，没有引入自动比对功能。"
+      },
+      {
+        "location": "shot:5/block:1",
+        "text": "Read it once more: “See you on Thursday.” Now the words match our club notice.",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "复读并确认本次示例中已明确改正的日期，属于场景结果描述，没有作出普遍准确率或自动纠错承诺。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "各镜头英文旁白约13—15词。镜头1的6秒用于贴通知和引入任务；镜头2、4各8秒用于展示字幕、修改文字并阅读静音来源卡；镜头3的5秒用于辨认Thursday与Tuesday的差异；镜头5的6秒用于复读和核对结果。各段均有具体动作或观察内容，未见明显空镜或重复事实凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "arguments": {
+        "query": "剪影练习版 添加字幕 手动编辑字幕文字 英文说明或中文原文",
+        "product_id": "demo-editor"
+      },
+      "decision_basis": "需要先获取字幕添加与手动文字编辑的可引用产品事实。",
+      "observation": {
+        "ok": true,
+        "query": "剪影练习版 添加字幕 手动编辑字幕文字 英文说明或中文原文",
+        "product_id": "demo-editor",
+        "materials": [
+          {
+            "id": "P01",
+            "product_id": "demo-editor",
+            "title": "字幕功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "字幕",
+              "口播",
+              "文字",
+              "caption",
+              "subtitle"
+            ],
+            "facts": [
+              {
+                "id": "P01.F1",
+                "text": "剪影练习版支持为视频添加字幕。"
+              },
+              {
+                "id": "P01.F2",
+                "text": "字幕文字可以手动编辑。"
+              }
+            ]
+          },
+          {
+            "id": "P02",
+            "product_id": "demo-editor",
+            "title": "剪辑功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "剪辑",
+              "裁剪",
+              "片段",
+              "trim",
+              "edit"
+            ],
+            "facts": [
+              {
+                "id": "P02.F1",
+                "text": "剪影练习版支持裁剪视频片段。"
+              }
+            ]
+          },
+          {
+            "id": "P03",
+            "product_id": "demo-editor",
+            "title": "画面比例说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "比例",
+              "竖屏",
+              "横屏",
+              "画面",
+              "aspect"
+            ],
+            "facts": [
+              {
+                "id": "P03.F1",
+                "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+              }
+            ]
+          }
+        ],
+        "count": 3
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2aa-9233-7772-bc0d-87b007e43c65",
+        "usage": {
+          "input_tokens": 27040,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 145,
+          "reasoning_output_tokens": 73
+        }
+      },
+      "elapsed_ms": 15500
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "arguments": {
+        "query": "剪影练习版 demo-editor English source facts: adding captions to videos and manually editing caption text 英文功能说明",
+        "product_id": "demo-editor"
+      },
+      "decision_basis": "现有功能事实仅有中文，需要查找可逐字引用的英文说明以满足英文旁白要求。",
+      "observation": {
+        "ok": true,
+        "query": "剪影练习版 demo-editor English source facts: adding captions to videos and manually editing caption text 英文功能说明",
+        "product_id": "demo-editor",
+        "materials": [
+          {
+            "id": "P01",
+            "product_id": "demo-editor",
+            "title": "字幕功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "字幕",
+              "口播",
+              "文字",
+              "caption",
+              "subtitle"
+            ],
+            "facts": [
+              {
+                "id": "P01.F1",
+                "text": "剪影练习版支持为视频添加字幕。"
+              },
+              {
+                "id": "P01.F2",
+                "text": "字幕文字可以手动编辑。"
+              }
+            ]
+          },
+          {
+            "id": "P02",
+            "product_id": "demo-editor",
+            "title": "剪辑功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "剪辑",
+              "裁剪",
+              "片段",
+              "trim",
+              "edit"
+            ],
+            "facts": [
+              {
+                "id": "P02.F1",
+                "text": "剪影练习版支持裁剪视频片段。"
+              }
+            ]
+          },
+          {
+            "id": "P03",
+            "product_id": "demo-editor",
+            "title": "画面比例说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "比例",
+              "竖屏",
+              "横屏",
+              "画面",
+              "aspect"
+            ],
+            "facts": [
+              {
+                "id": "P03.F1",
+                "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+              }
+            ]
+          }
+        ],
+        "count": 3
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2aa-cf94-7e50-808d-a82bc4a2041b",
+        "usage": {
+          "input_tokens": 27726,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 411,
+          "reasoning_output_tokens": 326
+        }
+      },
+      "elapsed_ms": 24969
+    },
+    {
+      "step": 3,
+      "action": "invalid_model_action",
+      "arguments": {},
+      "decision_basis": "结构校验失败，反馈模型调整",
+      "observation": {
+        "ok": false,
+        "error": "visual 不能为空或过长"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2ab-31f1-7802-9fcf-ba97be17a7ff",
+        "usage": {
+          "input_tokens": 28148,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1576,
+          "reasoning_output_tokens": 1034
+        }
+      }
+    },
+    {
+      "step": 4,
+      "action": "write_script",
+      "arguments": {
+        "script": {
+          "title": "A Club Notice in 剪影练习版",
+          "shots": [
+            {
+              "visual": "Club room: pin a Thursday meeting notice to the board. English VO.",
+              "hold_seconds": 6,
+              "blocks": [
+                {
+                  "text": "We're making a short welcome video for our club. Start with the notice board.",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "Add captions to the club clip; no UI. Silent Chinese card; English VO.",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "First, the captions. Listen to the announcement and follow the words on screen.",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "Board close-up: Thursday; draft caption: Tuesday. English VO.",
+              "hold_seconds": 5,
+              "blocks": [
+                {
+                  "text": "The notice says Thursday. Look closely: our draft says Tuesday. That needs a correction.",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "Edit Tuesday to Thursday; no UI. Silent Chinese card; English VO.",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "Next, the wording. Change Tuesday to Thursday, then read the line against the notice.",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "Club room: compare the revised line with the notice. English VO.",
+              "hold_seconds": 6,
+              "blocks": [
+                {
+                  "text": "Read it once more: “See you on Thursday.” Now the words match our club notice.",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision_basis": "已有两项功能事实，采用英文场景旁白与中文静默原文卡，并缩短画面说明。",
+      "observation": {
+        "ok": true,
+        "script_hash": "70a8e3f653fcd2be2c8ccca6b2e3f9baed8a14d8199997619b4beec00eca4b5b",
+        "revision": {
+          "before_hash": null,
+          "after_hash": "70a8e3f653fcd2be2c8ccca6b2e3f9baed8a14d8199997619b4beec00eca4b5b",
+          "changed_fields": [
+            "script:new"
+          ],
+          "unchanged_shots": 0,
+          "unchanged_blocks": 0,
+          "feedback": [],
+          "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+        },
+        "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2ac-3281-7872-9b3b-71d5cf07cf77",
+        "usage": {
+          "input_tokens": 27527,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1950,
+          "reasoning_output_tokens": 1552
+        }
+      },
+      "elapsed_ms": 54078
+    },
+    {
+      "step": 5,
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "A Club Notice in 剪影练习版",
+          "shots": [
+            {
+              "visual": "Club room: pin a Thursday meeting notice to the board. English VO.",
+              "hold_seconds": 6,
+              "blocks": [
+                {
+                  "text": "We're making a short welcome video for our club. Start with the notice board.",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "Add captions to the club clip; no UI. Silent Chinese card; English VO.",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "First, the captions. Listen to the announcement and follow the words on screen.",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "Board close-up: Thursday; draft caption: Tuesday. English VO.",
+              "hold_seconds": 5,
+              "blocks": [
+                {
+                  "text": "The notice says Thursday. Look closely: our draft says Tuesday. That needs a correction.",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "Edit Tuesday to Thursday; no UI. Silent Chinese card; English VO.",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "Next, the wording. Change Tuesday to Thursday, then read the line against the notice.",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "Club room: compare the revised line with the notice. English VO.",
+              "hold_seconds": 6,
+              "blocks": [
+                {
+                  "text": "Read it once more: “See you on Thursday.” Now the words match our club notice.",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "target_seconds": 35,
+        "duration_mode": "target"
+      },
+      "decision_basis": "当前稿尚未估时，先核对是否处于35秒目标要求的31.5至35秒范围。",
+      "observation": {
+        "ok": true,
+        "script_hash": "70a8e3f653fcd2be2c8ccca6b2e3f9baed8a14d8199997619b4beec00eca4b5b",
+        "shots": [
+          {
+            "shot": 1,
+            "speech_units": 14,
+            "estimated_seconds": 6
+          },
+          {
+            "shot": 2,
+            "speech_units": 27,
+            "estimated_seconds": 8
+          },
+          {
+            "shot": 3,
+            "speech_units": 14,
+            "estimated_seconds": 5
+          },
+          {
+            "shot": 4,
+            "speech_units": 24,
+            "estimated_seconds": 8
+          },
+          {
+            "shot": 5,
+            "speech_units": 15,
+            "estimated_seconds": 6
+          }
+        ],
+        "total_seconds": 33,
+        "target_seconds": 35,
+        "passed": true,
+        "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+        "is_estimate": true,
+        "duration_mode": "target",
+        "min_seconds": 31.5,
+        "max_seconds": 35,
+        "issue": null
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2ad-0569-7fe3-8149-eec3ad80b6f2",
+        "usage": {
+          "input_tokens": 29231,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 165,
+          "reasoning_output_tokens": 104
+        }
+      },
+      "elapsed_ms": 17594
+    },
+    {
+      "step": 6,
+      "action": "check_rules",
+      "arguments": {
+        "script": {
+          "title": "A Club Notice in 剪影练习版",
+          "shots": [
+            {
+              "visual": "Club room: pin a Thursday meeting notice to the board. English VO.",
+              "hold_seconds": 6,
+              "blocks": [
+                {
+                  "text": "We're making a short welcome video for our club. Start with the notice board.",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "Add captions to the club clip; no UI. Silent Chinese card; English VO.",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "First, the captions. Listen to the announcement and follow the words on screen.",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "Board close-up: Thursday; draft caption: Tuesday. English VO.",
+              "hold_seconds": 5,
+              "blocks": [
+                {
+                  "text": "The notice says Thursday. Look closely: our draft says Tuesday. That needs a correction.",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "Edit Tuesday to Thursday; no UI. Silent Chinese card; English VO.",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "Next, the wording. Change Tuesday to Thursday, then read the line against the notice.",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "Club room: compare the revised line with the notice. English VO.",
+              "hold_seconds": 6,
+              "blocks": [
+                {
+                  "text": "Read it once more: “See you on Thursday.” Now the words match our club notice.",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "retrieved_ids": [
+          "P01",
+          "P02",
+          "P03"
+        ],
+        "expression_mode": "creative"
+      },
+      "decision_basis": "当前稿估时33秒，已通过目标时长检查，尚需检查事实引用与公开表达规则。",
+      "observation": {
+        "ok": true,
+        "script_hash": "70a8e3f653fcd2be2c8ccca6b2e3f9baed8a14d8199997619b4beec00eca4b5b",
+        "passed": true,
+        "issues": [],
+        "citations": [
+          {
+            "location": "shot:2/block:2",
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "location": "shot:4/block:2",
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          }
+        ],
+        "rules_version": "2026-11-03-v1",
+        "requires_expression_review": true,
+        "expression_slots": [
+          {
+            "location": "title",
+            "text": "A Club Notice in 剪影练习版"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "Club room: pin a Thursday meeting notice to the board. English VO."
+          },
+          {
+            "location": "shot:1/block:1",
+            "text": "We're making a short welcome video for our club. Start with the notice board."
+          },
+          {
+            "location": "shot:2/visual",
+            "text": "Add captions to the club clip; no UI. Silent Chinese card; English VO."
+          },
+          {
+            "location": "shot:2/block:1",
+            "text": "First, the captions. Listen to the announcement and follow the words on screen."
+          },
+          {
+            "location": "shot:3/visual",
+            "text": "Board close-up: Thursday; draft caption: Tuesday. English VO."
+          },
+          {
+            "location": "shot:3/block:1",
+            "text": "The notice says Thursday. Look closely: our draft says Tuesday. That needs a correction."
+          },
+          {
+            "location": "shot:4/visual",
+            "text": "Edit Tuesday to Thursday; no UI. Silent Chinese card; English VO."
+          },
+          {
+            "location": "shot:4/block:1",
+            "text": "Next, the wording. Change Tuesday to Thursday, then read the line against the notice."
+          },
+          {
+            "location": "shot:5/visual",
+            "text": "Club room: compare the revised line with the notice. English VO."
+          },
+          {
+            "location": "shot:5/block:1",
+            "text": "Read it once more: “See you on Thursday.” Now the words match our club notice."
+          }
+        ],
+        "available_facts": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1",
+            "quote": "剪影练习版支持裁剪视频片段。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P03",
+            "fact_id": "P03.F1",
+            "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "version": "2026-11-01"
+          }
+        ],
+        "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2ad-4aa6-74b2-a183-55293619c4aa",
+        "usage": {
+          "input_tokens": 30224,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 129,
+          "reasoning_output_tokens": 70
+        }
+      },
+      "elapsed_ms": 15328
+    },
+    {
+      "step": 7,
+      "action": "check_requirements",
+      "arguments": {
+        "script": {
+          "title": "A Club Notice in 剪影练习版",
+          "shots": [
+            {
+              "visual": "Club room: pin a Thursday meeting notice to the board. English VO.",
+              "hold_seconds": 6,
+              "blocks": [
+                {
+                  "text": "We're making a short welcome video for our club. Start with the notice board.",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "Add captions to the club clip; no UI. Silent Chinese card; English VO.",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "First, the captions. Listen to the announcement and follow the words on screen.",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "Board close-up: Thursday; draft caption: Tuesday. English VO.",
+              "hold_seconds": 5,
+              "blocks": [
+                {
+                  "text": "The notice says Thursday. Look closely: our draft says Tuesday. That needs a correction.",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "Edit Tuesday to Thursday; no UI. Silent Chinese card; English VO.",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "Next, the wording. Change Tuesday to Thursday, then read the line against the notice.",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ]
+            },
+            {
+              "visual": "Club room: compare the revised line with the notice. English VO.",
+              "hold_seconds": 6,
+              "blocks": [
+                {
+                  "text": "Read it once more: “See you on Thursday.” Now the words match our club notice.",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "request": {
+          "topic": "Write an English narration introducing caption addition and manual text editing in 剪影练习版. Chinese source quotations may appear as silent screen cards. Use a club room and a notice board, with no invented menu names.",
+          "audience": "English-speaking student volunteers",
+          "platform": "B站",
+          "style": "Plain English narration, clear scene directions",
+          "product_id": "demo-editor",
+          "duration_mode": "target",
+          "expression_mode": "creative",
+          "target_seconds": 35
+        },
+        "rules_check": {
+          "ok": true,
+          "script_hash": "70a8e3f653fcd2be2c8ccca6b2e3f9baed8a14d8199997619b4beec00eca4b5b",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:2/block:2",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:4/block:2",
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "A Club Notice in 剪影练习版"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "Club room: pin a Thursday meeting notice to the board. English VO."
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "We're making a short welcome video for our club. Start with the notice board."
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "Add captions to the club clip; no UI. Silent Chinese card; English VO."
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "First, the captions. Listen to the announcement and follow the words on screen."
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "Board close-up: Thursday; draft caption: Tuesday. English VO."
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "The notice says Thursday. Look closely: our draft says Tuesday. That needs a correction."
+            },
+            {
+              "location": "shot:4/visual",
+              "text": "Edit Tuesday to Thursday; no UI. Silent Chinese card; English VO."
+            },
+            {
+              "location": "shot:4/block:1",
+              "text": "Next, the wording. Change Tuesday to Thursday, then read the line against the notice."
+            },
+            {
+              "location": "shot:5/visual",
+              "text": "Club room: compare the revised line with the notice. English VO."
+            },
+            {
+              "location": "shot:5/block:1",
+              "text": "Read it once more: “See you on Thursday.” Now the words match our club notice."
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P03",
+              "fact_id": "P03.F1",
+              "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+        }
+      },
+      "decision_basis": "当前稿估时33秒且规则检查通过，尚需核对英文旁白、两项功能、指定场景及公开表达是否满足需求。",
+      "observation": {
+        "ok": true,
+        "script_hash": "70a8e3f653fcd2be2c8ccca6b2e3f9baed8a14d8199997619b4beec00eca4b5b",
+        "request_hash": "e4173b95878922dcc7fc2e4d47f1090a021fcb424a8170f3946bd9dd04293e44",
+        "passed": true,
+        "items": [
+          {
+            "field": "topic",
+            "requirement": "Write an English narration",
+            "verdict": "met",
+            "evidence": "全部镜头均标注“English VO.”；旁白为英文，中文来源引文明确安排为静音卡片。"
+          },
+          {
+            "field": "topic",
+            "requirement": "caption addition",
+            "verdict": "met",
+            "evidence": "镜头2明确安排“Add captions to the club clip”，配合英文旁白“First, the captions.”及支持添加字幕的来源卡。"
+          },
+          {
+            "field": "topic",
+            "requirement": "manual text editing",
+            "verdict": "met",
+            "evidence": "镜头4展示将Tuesday改为Thursday，旁白明确说“Change Tuesday to Thursday”，并配有“字幕文字可以手动编辑。”静音卡。"
+          },
+          {
+            "field": "topic",
+            "requirement": "in 剪影练习版",
+            "verdict": "met",
+            "evidence": "标题“A Club Notice in 剪影练习版”明确产品，镜头2来源卡再次写明剪影练习版。"
+          },
+          {
+            "field": "topic",
+            "requirement": "Chinese source quotations may appear as silent screen cards.",
+            "verdict": "met",
+            "evidence": "镜头2、4均明确标注“Silent Chinese card; English VO.”，中文内容为对应来源引文。"
+          },
+          {
+            "field": "topic",
+            "requirement": "Use a club room",
+            "verdict": "met",
+            "evidence": "镜头1和镜头5的画面说明均明确写出“Club room”。"
+          },
+          {
+            "field": "topic",
+            "requirement": "a notice board",
+            "verdict": "met",
+            "evidence": "镜头1将周四会议通知钉到公告板上；镜头3特写公告板，作为字幕纠错的参照。"
+          },
+          {
+            "field": "topic",
+            "requirement": "no invented menu names",
+            "verdict": "met",
+            "evidence": "全文没有菜单或按钮名称；镜头2、4明确标注“no UI”，仅展示添加字幕和修改文字的示意。"
+          },
+          {
+            "field": "audience",
+            "requirement": "English-speaking student volunteers",
+            "verdict": "met",
+            "evidence": "使用英文旁白，以制作社团欢迎视频、核对会议通知为任务，场景适合学生志愿者理解和使用。"
+          },
+          {
+            "field": "platform",
+            "requirement": "B站",
+            "verdict": "met",
+            "evidence": "五个镜头以社团任务串联功能展示和纠错示例，内容连贯，适合B站短视频呈现；没有与平台要求冲突的安排。"
+          },
+          {
+            "field": "style",
+            "requirement": "Plain English narration",
+            "verdict": "met",
+            "evidence": "旁白采用“Start with the notice board.”、“That needs a correction.”等简短、直白的英文表达。"
+          },
+          {
+            "field": "style",
+            "requirement": "clear scene directions",
+            "verdict": "met",
+            "evidence": "画面说明具体交代社团室、贴通知、公告板特写、Tuesday改为Thursday，以及中文卡静音、英文配音和不展示UI。"
+          }
+        ],
+        "summary": "明确需求均已落实：英文旁白、静音中文来源卡、社团室和公告板场景齐全，字幕添加与手动改字均有呈现。未发现无依据的产品承诺或虚构菜单，镜头停留也有明确内容支撑。",
+        "method": "model_assessment_not_deterministic_proof",
+        "expressions": [
+          {
+            "location": "title",
+            "text": "A Club Notice in 剪影练习版",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "标题交代社团通知主题及产品名称，没有提出具体性能、自动化或效果承诺。"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "Club room: pin a Thursday meeting notice to the board. English VO.",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "社团室贴通知属于生活场景和拍摄安排，不涉及产品能力声明。"
+          },
+          {
+            "location": "shot:1/block:1",
+            "text": "We're making a short welcome video for our club. Start with the notice board.",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "说明示例视频的用途并引导观看公告板，没有声称产品自动生成欢迎视频。"
+          },
+          {
+            "location": "shot:2/visual",
+            "text": "Add captions to the club clip; no UI. Silent Chinese card; English VO.",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ],
+            "evidence": "“Add captions”由“剪影练习版支持为视频添加字幕。”直接支持；其余为拍摄及声音安排，没有补充自动识别或虚构UI操作。"
+          },
+          {
+            "location": "shot:2/block:1",
+            "text": "First, the captions. Listen to the announcement and follow the words on screen.",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "属于转场和观看引导，未宣称字幕由语音自动识别、自动同步或自动生成。"
+          },
+          {
+            "location": "shot:3/visual",
+            "text": "Board close-up: Thursday; draft caption: Tuesday. English VO.",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "设置通知与字幕草稿日期不一致的示例，不声称产品会自动发现错误。"
+          },
+          {
+            "location": "shot:3/block:1",
+            "text": "The notice says Thursday. Look closely: our draft says Tuesday. That needs a correction.",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "指出示意画面中的文字差异并提出纠错需要，没有增加产品能力承诺。"
+          },
+          {
+            "location": "shot:4/visual",
+            "text": "Edit Tuesday to Thursday; no UI. Silent Chinese card; English VO.",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ],
+            "evidence": "修改字幕中的星期文字属于“字幕文字可以手动编辑。”支持的能力；未虚构按钮、菜单或操作路径。"
+          },
+          {
+            "location": "shot:4/block:1",
+            "text": "Next, the wording. Change Tuesday to Thursday, then read the line against the notice.",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ],
+            "evidence": "将Tuesday改为Thursday是手动编辑字幕的具体示例；随后对照通知阅读属于人工核对，没有宣称自动校验。"
+          },
+          {
+            "location": "shot:5/visual",
+            "text": "Club room: compare the revised line with the notice. English VO.",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "安排在社团室人工比对修改后的文字，属于观察任务，没有引入自动比对功能。"
+          },
+          {
+            "location": "shot:5/block:1",
+            "text": "Read it once more: “See you on Thursday.” Now the words match our club notice.",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "复读并确认本次示例中已明确改正的日期，属于场景结果描述，没有作出普遍准确率或自动纠错承诺。"
+          }
+        ],
+        "pacing": {
+          "verdict": "met",
+          "evidence": "各镜头英文旁白约13—15词。镜头1的6秒用于贴通知和引入任务；镜头2、4各8秒用于展示字幕、修改文字并阅读静音来源卡；镜头3的5秒用于辨认Thursday与Tuesday的差异；镜头5的6秒用于复读和核对结果。各段均有具体动作或观察内容，未见明显空镜或重复事实凑时长。"
+        },
+        "expression_review_passed": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2ad-855f-7c53-8473-fba28f7b8906",
+        "usage": {
+          "input_tokens": 32186,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 105,
+          "reasoning_output_tokens": 36
+        }
+      },
+      "review_model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2ad-c9c3-74b0-9422-fc281317398a",
+        "usage": {
+          "input_tokens": 27734,
+          "cached_input_tokens": 24576,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3542,
+          "reasoning_output_tokens": 1526
+        }
+      },
+      "elapsed_ms": 114860
+    },
+    {
+      "step": 8,
+      "action": "finish",
+      "arguments": {
+        "status": "completed",
+        "message": "已完成5镜头英文旁白稿，覆盖字幕添加与手动改字，包含社团室、公告板及静音中文来源卡，无虚构菜单。本轮保留当前稿，无新增删改。估时33秒，符合31.5—35秒要求；工具将卡片文字串行计入估时，实际配音与卡片展示时长仍需在制作时复核。"
+      },
+      "decision_basis": "当前同一稿的时长、规则和需求检查均已通过。",
+      "observation": {
+        "ok": true,
+        "status": "completed",
+        "script_hash": "70a8e3f653fcd2be2c8ccca6b2e3f9baed8a14d8199997619b4beec00eca4b5b"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2af-4806-72a1-aedf-1633eb8135d7",
+        "usage": {
+          "input_tokens": 37292,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 324,
+          "reasoning_output_tokens": 185
+        }
+      },
+      "elapsed_ms": 22860
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T18:27:29.461634+00:00",
+    "finished_at": "2026-11-03T18:33:00.309067+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 8,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v3",
+    "requirements_review_context": "current_rules_check_v1",
+    "model_responses": 9
+  }
+}

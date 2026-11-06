@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-fxaw9843",
+  "started_at": "2026-11-04T16:10:31.675543+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:11:11.808454+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a753-8a34-7351-bde2-64d25d241edf",
+    "usage": {
+      "input_tokens": 28923,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1127,
+      "reasoning_output_tokens": 652
+    },
+    "call_id": "decision-fxaw9843",
+    "warnings": []
+  }
+}

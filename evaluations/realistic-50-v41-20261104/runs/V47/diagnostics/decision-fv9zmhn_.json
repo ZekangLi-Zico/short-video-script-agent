@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-fv9zmhn_",
+  "started_at": "2026-11-04T01:45:07.305051+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:45:37.704075+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a43b-3e54-7832-963f-3a145195c1d1",
+    "usage": {
+      "input_tokens": 29914,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 608,
+      "reasoning_output_tokens": 182
+    },
+    "call_id": "decision-fv9zmhn_",
+    "warnings": []
+  }
+}

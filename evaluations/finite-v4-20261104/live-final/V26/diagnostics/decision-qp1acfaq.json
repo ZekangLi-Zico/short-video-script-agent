@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-qp1acfaq",
+  "started_at": "2026-11-03T20:21:19.096767+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:21:35.381766+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a312-cf2a-7bb0-90df-3249b8b79e68",
+    "usage": {
+      "input_tokens": 28943,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 108,
+      "reasoning_output_tokens": 46
+    },
+    "call_id": "decision-qp1acfaq",
+    "warnings": []
+  }
+}

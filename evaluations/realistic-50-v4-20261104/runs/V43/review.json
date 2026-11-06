@@ -1,0 +1,5 @@
+{
+  "assessment": "资料不足时合理停止",
+  "note": "只获得活动名称，返回报名时间（含时区）、奖品和规则的具体补充项，未借用其他活动或编造比赛内容。2步后needs_input，无脚本。",
+  "reviewer": "AI developer reading original brief and actual artifacts; not independent blind evaluation"
+}

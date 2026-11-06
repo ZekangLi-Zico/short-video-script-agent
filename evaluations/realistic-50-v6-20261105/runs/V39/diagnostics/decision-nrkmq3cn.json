@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-nrkmq3cn",
+  "started_at": "2026-11-04T17:42:18.520171+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:42:33.763516+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a7a7-91bb-7ae3-b377-b226af88e380",
+    "usage": {
+      "input_tokens": 27766,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 139,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-nrkmq3cn",
+    "warnings": []
+  }
+}

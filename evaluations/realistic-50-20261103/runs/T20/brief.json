@@ -1,0 +1,16 @@
+{
+  "id": "T20",
+  "name": "按钮教程",
+  "context": "客服希望用视频回答具体操作问题。",
+  "request": {
+    "topic": "写一条一步一步教新手添加字幕并修改错字的教程，要说明每步点击哪个按钮、进入哪个菜单。",
+    "audience": "完全没有使用经验的新用户",
+    "platform": "B站",
+    "style": "具体、操作步骤清楚",
+    "product_id": "demo-editor",
+    "target_seconds": 40
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

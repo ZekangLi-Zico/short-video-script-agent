@@ -1,0 +1,13 @@
+{
+  "case": "V44",
+  "index": 43,
+  "attempt": 1,
+  "run_id": "ee35750a54b849c280f25617e8b15189",
+  "folder": "V44",
+  "status": "needs_input",
+  "steps": 3,
+  "responses": 3,
+  "provider": "codex",
+  "seconds": null,
+  "message": "尚未生成招生脚本。请将老师确认的课程简介、教学内容或适合人群说明交给项目维护者补充资料，再继续制作35秒以内的介绍。未确认的课表、价格和退费规则暂不写入，也不编造学员效果或许诺学习结果。"
+}

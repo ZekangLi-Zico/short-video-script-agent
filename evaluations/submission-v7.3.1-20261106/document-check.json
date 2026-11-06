@@ -1,0 +1,533 @@
+{
+  "documents_checked": 13,
+  "documents": [
+    "README.md",
+    "PRODUCT.md",
+    "DESIGN.md",
+    "docs/01-requirements.md",
+    "docs/02-solution.md",
+    "docs/03-evaluation.md",
+    "docs/04-ai-usage.md",
+    "docs/05-retrospective.md",
+    "docs/06-submission.md",
+    "docs/07-web-manual-test.md",
+    "docs/13-reviewer-and-practice-guide.md",
+    "examples/current/evaluation.md",
+    "evaluations/submission-v7.3.1-20261106/README.md"
+  ],
+  "links_checked": 102,
+  "passed": true,
+  "missing": [],
+  "links": [
+    {
+      "file": "README.md",
+      "link": "examples/current/evaluation.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "link": "evaluations/submission-v7.3.1-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "link": "docs/13-reviewer-and-practice-guide.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "link": "docs/06-submission.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "link": "docs/18-story-materials.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "link": "docs/17-v7-natural-voice.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "link": "evaluations/call-fix-v7.2-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "link": "evaluations/staging-v7.3-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "link": "docs/07-web-manual-test.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "link": "examples/mock/over_duration/input.json",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "link": "docs/06-submission.md",
+      "exists": true
+    },
+    {
+      "file": "docs/01-requirements.md",
+      "link": "../examples/current/evaluation.md",
+      "exists": true
+    },
+    {
+      "file": "docs/01-requirements.md",
+      "link": "../evaluations/submission-v7.3.1-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/01-requirements.md",
+      "link": "17-v7-natural-voice.md",
+      "exists": true
+    },
+    {
+      "file": "docs/01-requirements.md",
+      "link": "16-v6-titles-latency.md",
+      "exists": true
+    },
+    {
+      "file": "docs/02-solution.md",
+      "link": "../examples/current/evaluation.md",
+      "exists": true
+    },
+    {
+      "file": "docs/02-solution.md",
+      "link": "../evaluations/submission-v7.3.1-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/02-solution.md",
+      "link": "../evaluations/staging-v7.3-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/02-solution.md",
+      "link": "17-v7-natural-voice.md",
+      "exists": true
+    },
+    {
+      "file": "docs/02-solution.md",
+      "link": "16-v6-titles-latency.md",
+      "exists": true
+    },
+    {
+      "file": "docs/02-solution.md",
+      "link": "15-v5-effective-scripts.md",
+      "exists": true
+    },
+    {
+      "file": "docs/02-solution.md",
+      "link": "10-finite-v4-report.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../examples/current/evaluation.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../evaluations/submission-v7.3.1-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../evaluations/staging-v7.3-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../evaluations/call-fix-v7.2-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "17-v7-natural-voice.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "16-v6-titles-latency.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../evaluations/realistic-50-v6-20261105/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../evaluations/realistic-50-v5-20261104/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "15-v5-effective-scripts.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../examples/v5-live/evaluation.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "12-final-polish-report.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../evaluations/final-polish-20261104/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "14-v41-real50-comparison.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../evaluations/realistic-50-v41-20261104/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "10-finite-v4-report.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "11-v4-real50-comparison.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../evaluations/realistic-50-v4-20261104/复盘报告.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../evaluations/realistic-50-v4-20261104/逐条复盘.csv",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "09-quality-v3-report.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "08-limited-repair-report.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../examples/test-results/unittest.txt",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../examples/test-results/summary.json",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../examples/mock/evaluation.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../examples/live/evaluation.md",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../examples/attempts/codex_sandbox/normal/trace.jsonl",
+      "exists": true
+    },
+    {
+      "file": "docs/03-evaluation.md",
+      "link": "../examples/ui/live-run/",
+      "exists": true
+    },
+    {
+      "file": "docs/04-ai-usage.md",
+      "link": "../evaluations/submission-v7.3.1-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/04-ai-usage.md",
+      "link": "../evaluations/staging-v7.3-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/04-ai-usage.md",
+      "link": "18-story-materials.md",
+      "exists": true
+    },
+    {
+      "file": "docs/04-ai-usage.md",
+      "link": "17-v7-natural-voice.md",
+      "exists": true
+    },
+    {
+      "file": "docs/04-ai-usage.md",
+      "link": "16-v6-titles-latency.md",
+      "exists": true
+    },
+    {
+      "file": "docs/04-ai-usage.md",
+      "link": "../evaluations/call-fix-v7.2-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/05-retrospective.md",
+      "link": "../evaluations/submission-v7.3.1-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/05-retrospective.md",
+      "link": "19-call-reliability.md",
+      "exists": true
+    },
+    {
+      "file": "docs/05-retrospective.md",
+      "link": "17-v7-natural-voice.md",
+      "exists": true
+    },
+    {
+      "file": "docs/05-retrospective.md",
+      "link": "16-v6-titles-latency.md",
+      "exists": true
+    },
+    {
+      "file": "docs/05-retrospective.md",
+      "link": "15-v5-effective-scripts.md",
+      "exists": true
+    },
+    {
+      "file": "docs/05-retrospective.md",
+      "link": "14-v41-real50-comparison.md",
+      "exists": true
+    },
+    {
+      "file": "docs/05-retrospective.md",
+      "link": "10-finite-v4-report.md",
+      "exists": true
+    },
+    {
+      "file": "docs/06-submission.md",
+      "link": "../README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/06-submission.md",
+      "link": "../examples/current/evaluation.md",
+      "exists": true
+    },
+    {
+      "file": "docs/06-submission.md",
+      "link": "../evaluations/submission-v7.3.1-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/07-web-manual-test.md",
+      "link": "../examples/current/evaluation.md",
+      "exists": true
+    },
+    {
+      "file": "docs/07-web-manual-test.md",
+      "link": "10-finite-v4-report.md",
+      "exists": true
+    },
+    {
+      "file": "docs/13-reviewer-and-practice-guide.md",
+      "link": "../examples/current/evaluation.md",
+      "exists": true
+    },
+    {
+      "file": "docs/13-reviewer-and-practice-guide.md",
+      "link": "../evaluations/staging-v7.3-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/13-reviewer-and-practice-guide.md",
+      "link": "../evaluations/submission-v7.3.1-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "product_normal/input.json",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "product_normal/script.md",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "product_normal/output.json",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "product_normal/trace.jsonl",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "over_duration/input.json",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "over_duration/script.md",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "over_duration/output.json",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "over_duration/trace.jsonl",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "no_material/input.json",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "no_material/output.json",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "no_material/trace.jsonl",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "tool_failure/input.json",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "tool_failure/output.json",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "tool_failure/trace.jsonl",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "../../evaluations/submission-v7.3.1-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "../../evaluations/submission-v7.3.1-20261106/live-results.json",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "../../evaluations/submission-v7.3.1-20261106/automated/summary.json",
+      "exists": true
+    },
+    {
+      "file": "examples/current/evaluation.md",
+      "link": "../live/evaluation.md",
+      "exists": true
+    },
+    {
+      "file": "evaluations/submission-v7.3.1-20261106/README.md",
+      "link": "../requirements-audit-v7.3-20261106/README.md",
+      "exists": true
+    },
+    {
+      "file": "evaluations/submission-v7.3.1-20261106/README.md",
+      "link": "regression-red-complete.txt",
+      "exists": true
+    },
+    {
+      "file": "evaluations/submission-v7.3.1-20261106/README.md",
+      "link": "regression-green.txt",
+      "exists": true
+    },
+    {
+      "file": "evaluations/submission-v7.3.1-20261106/README.md",
+      "link": "automated/summary.json",
+      "exists": true
+    },
+    {
+      "file": "evaluations/submission-v7.3.1-20261106/README.md",
+      "link": "cases.json",
+      "exists": true
+    },
+    {
+      "file": "evaluations/submission-v7.3.1-20261106/README.md",
+      "link": "../../examples/current/evaluation.md",
+      "exists": true
+    },
+    {
+      "file": "evaluations/submission-v7.3.1-20261106/README.md",
+      "link": "live-results.json",
+      "exists": true
+    },
+    {
+      "file": "evaluations/submission-v7.3.1-20261106/README.md",
+      "link": "web-runs.json",
+      "exists": true
+    },
+    {
+      "file": "evaluations/submission-v7.3.1-20261106/README.md",
+      "link": "final-replay.json",
+      "exists": true
+    },
+    {
+      "file": "evaluations/submission-v7.3.1-20261106/README.md",
+      "link": "historical-replay.json",
+      "exists": true
+    },
+    {
+      "file": "evaluations/submission-v7.3.1-20261106/README.md",
+      "link": "final-entry-check.json",
+      "exists": true
+    },
+    {
+      "file": "evaluations/submission-v7.3.1-20261106/README.md",
+      "link": "document-check.json",
+      "exists": true
+    },
+    {
+      "file": "evaluations/submission-v7.3.1-20261106/README.md",
+      "link": "../../archives/v7.3-before-submission-20261106/source.zip",
+      "exists": true
+    },
+    {
+      "file": "evaluations/submission-v7.3.1-20261106/README.md",
+      "link": "preservation.json",
+      "exists": true
+    },
+    {
+      "file": "evaluations/submission-v7.3.1-20261106/README.md",
+      "link": "git-readiness.json",
+      "exists": true
+    }
+  ]
+}

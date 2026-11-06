@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-8gtz1ck4",
+  "started_at": "2026-11-04T15:41:33.732144+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:44:27.269827+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a739-0c2f-7470-a706-816d3a23b42d",
+    "usage": {
+      "input_tokens": 28880,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3822,
+      "reasoning_output_tokens": 1898
+    },
+    "call_id": "decision-8gtz1ck4",
+    "warnings": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-b4gro_w9",
+  "started_at": "2026-11-04T15:30:30.395372+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:30:49.657795+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a72e-e870-7fc2-ab45-dced6dd26a60",
+    "usage": {
+      "input_tokens": 29840,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 161,
+      "reasoning_output_tokens": 86
+    },
+    "call_id": "decision-b4gro_w9",
+    "warnings": []
+  }
+}

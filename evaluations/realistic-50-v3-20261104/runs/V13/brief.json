@@ -1,0 +1,18 @@
+{
+  "id": "V13",
+  "name": "会议花絮交付",
+  "context": "行政同事给剪辑师提供固定结构。",
+  "request": {
+    "topic": "介绍添加字幕和横竖屏比例选项。固定两个分镜：第一镜会议室空椅子，第二镜会议资料封面。不出现发言内容和员工姓名。",
+    "audience": "公司行政视频编辑",
+    "platform": "视频号",
+    "target_seconds": 20,
+    "style": "简洁，专业",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

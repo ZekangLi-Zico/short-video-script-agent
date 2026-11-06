@@ -1,0 +1,441 @@
+{
+  "status": "completed",
+  "message": "《收摊以后》三镜脚本已完成，预计16.6秒。按折叠桌、旧书、收摊纸箱的顺序介绍裁剪片段与添加字幕，结尾无关注点赞引导，全部检查通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "format_version": 2,
+    "title": "收摊以后",
+    "shots": [
+      {
+        "purpose": "用折叠桌收起的动作引出裁剪片段，留下收摊的关键瞬间。",
+        "visual": "摊主收起折叠桌。随后展示这段素材裁剪前后的播放对照：从包含动作前等待的片段，变为收桌动作片段；不展示具体按钮。",
+        "hold_seconds": 6,
+        "blocks": [
+          {
+            "text": "最后一张桌子，收好了。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1",
+            "channel": "voice",
+            "beat": 2,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "为旧书画面添加一句字幕，让收摊记录留下一点生活感。",
+        "visual": "旧书一本本叠起，镜头停在磨旧的书脊。展示为这段视频添加字幕后的画面，字幕随旧书画面出现，不展示具体按钮。",
+        "hold_seconds": 6,
+        "blocks": [
+          {
+            "text": "也能为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "channel": "voice",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "没卖完的书，下周再见。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "screen",
+            "beat": 1,
+            "display_seconds": 3
+          }
+        ]
+      },
+      {
+        "purpose": "以纸箱封合完成收摊叙事，留下下周再来的期待。",
+        "visual": "摊主将旧书放入收摊纸箱，合上箱盖，抱起纸箱走出画面。",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "装好这一箱，等下一个周末。",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      }
+    ],
+    "editor_notes": ""
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "290028608f5bc5d2cc6ded5d9421dcf687d0c2fa7e18fe6f65f90c6d450c6b79",
+    "shots": [
+      {
+        "shot": 1,
+        "estimated_seconds": 6.6,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 2.8,
+            "voice_seconds": 2.75,
+            "screen_read_seconds": 2.75,
+            "display_seconds": 0,
+            "estimated_seconds": 2.8
+          },
+          {
+            "beat": 2,
+            "start_seconds": 2.8,
+            "end_seconds": 6.6,
+            "voice_seconds": 3.75,
+            "screen_read_seconds": 0,
+            "display_seconds": 0,
+            "estimated_seconds": 3.8
+          }
+        ],
+        "tail_hold_seconds": 0.0
+      },
+      {
+        "shot": 2,
+        "estimated_seconds": 6.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 3.0,
+            "voice_seconds": 2.75,
+            "screen_read_seconds": 2.75,
+            "display_seconds": 3,
+            "estimated_seconds": 3.0
+          }
+        ],
+        "tail_hold_seconds": 3.0
+      },
+      {
+        "shot": 3,
+        "estimated_seconds": 4.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 3.3,
+            "voice_seconds": 3.25,
+            "screen_read_seconds": 3.25,
+            "display_seconds": 0,
+            "estimated_seconds": 3.3
+          }
+        ],
+        "tail_hold_seconds": 0.7
+      }
+    ],
+    "total_seconds": 16.6,
+    "target_seconds": 22,
+    "passed": true,
+    "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "290028608f5bc5d2cc6ded5d9421dcf687d0c2fa7e18fe6f65f90c6d450c6b79",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:1/block:2",
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01",
+        "text": "剪影练习版支持裁剪视频片段。",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01",
+        "text": "也能为视频添加字幕。",
+        "requires_semantic_review": true
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "收摊以后"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "摊主收起折叠桌。随后展示这段素材裁剪前后的播放对照：从包含动作前等待的片段，变为收桌动作片段；不展示具体按钮。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "最后一张桌子，收好了。"
+      },
+      {
+        "location": "shot:1/block:2",
+        "text": "剪影练习版支持裁剪视频片段。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "旧书一本本叠起，镜头停在磨旧的书脊。展示为这段视频添加字幕后的画面，字幕随旧书画面出现，不展示具体按钮。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "也能为视频添加字幕。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "没卖完的书，下周再见。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "摊主将旧书放入收摊纸箱，合上箱盖，抱起纸箱走出画面。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "装好这一箱，等下一个周末。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "290028608f5bc5d2cc6ded5d9421dcf687d0c2fa7e18fe6f65f90c6d450c6b79",
+    "request_hash": "bceb0659a6ebdae1e0dc6ecf8ecaa4c0a9a8ee07337ab0c24112bb4db60db25d",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "裁剪片段",
+        "verdict": "met",
+        "evidence": "第1镜介绍裁剪视频片段，并展示保留收桌动作的裁剪前后对照。"
+      },
+      {
+        "field": "topic",
+        "requirement": "添加字幕",
+        "verdict": "met",
+        "evidence": "第2镜旁白介绍添加字幕，旧书画面展示“没卖完的书，下周再见。”"
+      },
+      {
+        "field": "topic",
+        "requirement": "画面顺序为折叠桌、旧书、收摊纸箱。",
+        "verdict": "met",
+        "evidence": "第1至3镜依次呈现收折叠桌、叠旧书、装好收摊纸箱。"
+      },
+      {
+        "field": "topic",
+        "requirement": "标题用“收摊以后”",
+        "verdict": "met",
+        "evidence": "当前标题为“收摊以后”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "结尾不说关注点赞。",
+        "verdict": "met",
+        "evidence": "结尾为“装好这一箱，等下一个周末。”，没有关注点赞引导。"
+      },
+      {
+        "field": "audience",
+        "requirement": "周末市集摊主",
+        "verdict": "met",
+        "evidence": "收桌、整理未售旧书和装箱的场景，配合“等下一个周末”，贴合周末市集摊主。"
+      },
+      {
+        "field": "platform",
+        "requirement": "抖音",
+        "verdict": "met",
+        "evidence": "三镜短叙事配合简短字幕及功能展示，估算16.6秒，适合短视频观看。"
+      },
+      {
+        "field": "style",
+        "requirement": "朴素",
+        "verdict": "met",
+        "evidence": "“最后一张桌子，收好了。”等文案使用日常语言，画面围绕普通收摊动作。"
+      },
+      {
+        "field": "style",
+        "requirement": "轻叙事",
+        "verdict": "met",
+        "evidence": "从收桌、整理旧书到装箱离开形成简短故事，并以期待下个周末收束。"
+      }
+    ],
+    "summary": "当前稿件落实了两项功能、指定画面顺序、标题及结尾要求，公开产品声明均有资料支持。预计16.6秒，符合22秒上限，镜头停留有相应动作支撑。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "收摊以后",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "叙事标题，不含产品能力承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "摊主收起折叠桌。随后展示这段素材裁剪前后的播放对照：从包含动作前等待的片段，变为收桌动作片段；不展示具体按钮。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ],
+        "evidence": "裁去等待部分、保留动作属于已支持的片段裁剪，没有新增自动化或具体操作承诺。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "最后一张桌子，收好了。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "收摊场景台词，不含产品声明。"
+      },
+      {
+        "location": "shot:1/block:2",
+        "text": "剪影练习版支持裁剪视频片段。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ],
+        "evidence": "与标注来源原文一致。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "旧书一本本叠起，镜头停在磨旧的书脊。展示为这段视频添加字幕后的画面，字幕随旧书画面出现，不展示具体按钮。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "展示视频添加字幕后的效果，符合资料支持的能力，未声称自动识别或生成字幕。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "也能为视频添加字幕。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "省略重复产品名后，含义仍与标注来源一致。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "没卖完的书，下周再见。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "示意场景中的生活化字幕，不构成产品效果或真实客户背书。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "摊主将旧书放入收摊纸箱，合上箱盖，抱起纸箱走出画面。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "收摊动作安排，不含可验证的产品承诺。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "装好这一箱，等下一个周末。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "叙事收尾与情绪表达，不含产品声明。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "第1镜6.6秒依次承载收桌台词和裁剪对照；第2镜6秒中声画同拍3秒，余下时间可观察叠书和书脊；第3镜4秒配合装箱离场及3.3秒声画，无明显重复或空镜凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-04T17:23:15.500113+00:00",
+    "finished_at": "2026-11-04T17:25:25.038492+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 4,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v6",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+    "model_responses": 5,
+    "run_id": "7270b5dfef6545368b0c36dd195ba39b",
+    "persistence": "checkpoint_v1"
+  }
+}

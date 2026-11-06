@@ -1,0 +1,936 @@
+{
+  "checked_at": "2026-11-04T13:55:41.051561+00:00",
+  "source_files_checked": 41,
+  "source_changed": [],
+  "missing_required_files": [],
+  "saved_runs_verified": 58,
+  "saved_real_model_responses": 371,
+  "fresh_automated_tests": {
+    "started_at": "2026-11-04T13:54:19.614720+00:00",
+    "finished_at": "2026-11-04T13:54:26.881193+00:00",
+    "python": "3.12.14",
+    "platform": "Windows",
+    "tests_run": 101,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "scope": "Offline unit, integration and adapter-contract tests; not a real API benchmark."
+  },
+  "archive_sha256_matches": true,
+  "git_remotes": "",
+  "evidence_errors": [],
+  "rows": [
+    {
+      "directory": "evaluations/final-polish-20261104/runs/P01",
+      "status": "completed",
+      "steps": 12,
+      "responses": 14,
+      "fault_injection": {},
+      "path": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/final-polish-20261104/runs/P02",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/final-polish-20261104/runs/P03",
+      "status": "completed",
+      "steps": 8,
+      "responses": 9,
+      "fault_injection": {},
+      "path": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/final-polish-20261104/runs/P04",
+      "status": "completed",
+      "steps": 8,
+      "responses": 9,
+      "fault_injection": {},
+      "path": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/final-polish-20261104/runs/P05",
+      "status": "needs_input",
+      "steps": 0,
+      "responses": 0,
+      "fault_injection": {},
+      "path": [],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/final-polish-20261104/runs/P06",
+      "status": "needs_input",
+      "steps": 3,
+      "responses": 3,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/final-polish-20261104/runs/P07",
+      "status": "blocked",
+      "steps": 4,
+      "responses": 4,
+      "fault_injection": {
+        "search_materials": -1
+      },
+      "path": [
+        "search_materials",
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/final-polish-20261104/runs/P08",
+      "status": "completed",
+      "steps": 7,
+      "responses": 8,
+      "fault_injection": {
+        "search_materials": 1
+      },
+      "path": [
+        "search_materials",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V01",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V02",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V03",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V04",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V05",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V06",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V07",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V08",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V09",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V10",
+      "status": "completed",
+      "steps": 7,
+      "responses": 8,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "invalid_model_action",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V11",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V12",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V13",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V14",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V15",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V16",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V17",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V18",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V19",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V20",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V21",
+      "status": "completed",
+      "steps": 12,
+      "responses": 14,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "invalid_model_action",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V22",
+      "status": "needs_input",
+      "steps": 3,
+      "responses": 3,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V23",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V24",
+      "status": "needs_input",
+      "steps": 3,
+      "responses": 3,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V25",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V26",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V27",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V28",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V29",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V30",
+      "status": "needs_input",
+      "steps": 5,
+      "responses": 5,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V31",
+      "status": "completed",
+      "steps": 7,
+      "responses": 8,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V32",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V33",
+      "status": "needs_input",
+      "steps": 3,
+      "responses": 3,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V34",
+      "status": "needs_input",
+      "steps": 3,
+      "responses": 3,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V35",
+      "status": "needs_input",
+      "steps": 3,
+      "responses": 3,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V36",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V37",
+      "status": "needs_input",
+      "steps": 2,
+      "responses": 2,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V38",
+      "status": "needs_input",
+      "steps": 3,
+      "responses": 3,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V39",
+      "status": "needs_input",
+      "steps": 3,
+      "responses": 3,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V40",
+      "status": "needs_input",
+      "steps": 2,
+      "responses": 2,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V41",
+      "status": "needs_input",
+      "steps": 3,
+      "responses": 3,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V42",
+      "status": "needs_input",
+      "steps": 3,
+      "responses": 3,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V43",
+      "status": "needs_input",
+      "steps": 2,
+      "responses": 2,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V44",
+      "status": "needs_input",
+      "steps": 3,
+      "responses": 3,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V45",
+      "status": "completed",
+      "steps": 8,
+      "responses": 9,
+      "fault_injection": {},
+      "path": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V46",
+      "status": "completed",
+      "steps": 12,
+      "responses": 14,
+      "fault_injection": {},
+      "path": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V47",
+      "status": "completed",
+      "steps": 8,
+      "responses": 9,
+      "fault_injection": {},
+      "path": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V48",
+      "status": "completed",
+      "steps": 8,
+      "responses": 9,
+      "fault_injection": {},
+      "path": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V49",
+      "status": "completed",
+      "steps": 8,
+      "responses": 9,
+      "fault_injection": {},
+      "path": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    },
+    {
+      "directory": "evaluations/realistic-50-v41-20261104/runs/V50",
+      "status": "completed",
+      "steps": 6,
+      "responses": 7,
+      "fault_injection": {},
+      "path": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "check_requirements",
+        "finish"
+      ],
+      "errors": []
+    }
+  ],
+  "scope": "Fresh local tests plus read-only saved evidence verification. No new real-model experiments, application changes, Git commit, push, or exam submission."
+}

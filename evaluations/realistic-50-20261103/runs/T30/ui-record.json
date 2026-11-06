@@ -1,0 +1,13 @@
+{
+  "case_id": "T30",
+  "capture_mode": "viewport_fallback",
+  "finished_capture_at": "2026-11-03T14:43:14.511Z",
+  "busy": false,
+  "detail": "真实模型 · 3 个执行步骤",
+  "download": "/api/runs/0e2ddcf784544af6b90c6fd816c09859/download/output.json",
+  "error": "",
+  "history": "0e2ddcf784544af6b90c6fd816c09859",
+  "message": "现有素材只能确认支持添加字幕和手动编辑，无法确认这些功能是本周新增。请提供本周更新说明及旧版字幕功能资料，包含可引用原文和来源，以便准确介绍版本差异。",
+  "save": "记录已保存 · 0e2ddcf7",
+  "status": "需要补充"
+}

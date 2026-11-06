@@ -1,0 +1,13 @@
+{
+  "case_id": "T22",
+  "capture_mode": "fullPage",
+  "finished_capture_at": "2026-11-03T14:30:03.556Z",
+  "busy": false,
+  "detail": "真实模型 · 3 个执行步骤",
+  "download": "/api/runs/157b44c39ddb4fdd89f0d99223bec748/download/output.json",
+  "error": "",
+  "history": "157b44c39ddb4fdd89f0d99223bec748",
+  "message": "现有素材仅确认支持添加字幕和手动编辑，无法判断是否支持中译英。请补充明确说明该功能是否支持及使用限制的产品资料，再编写25秒以内的脚本。",
+  "save": "记录已保存 · 157b44c3",
+  "status": "需要补充"
+}

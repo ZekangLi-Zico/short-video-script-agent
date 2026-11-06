@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-m4ox5ixe",
+  "started_at": "2026-11-03T21:00:15.058472+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:00:30.901955+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a336-6dd8-79d3-9c8f-86fce6069f0c",
+    "usage": {
+      "input_tokens": 27041,
+      "cached_input_tokens": 9600,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 132,
+      "reasoning_output_tokens": 68
+    },
+    "call_id": "decision-m4ox5ixe",
+    "warnings": []
+  }
+}

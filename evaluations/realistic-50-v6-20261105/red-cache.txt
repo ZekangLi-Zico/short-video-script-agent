@@ -1,0 +1,17 @@
+test_retrieval_change_refreshes_rule_check_for_existing_draft (tests.test_effective_v6.V6Tests.test_retrieval_change_refreshes_rule_check_for_existing_draft) ... FAIL
+
+======================================================================
+FAIL: test_retrieval_change_refreshes_rule_check_for_existing_draft (tests.test_effective_v6.V6Tests.test_retrieval_change_refreshes_rule_check_for_existing_draft)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\小影科技笔试\tests\test_effective_v6.py", line 119, in test_retrieval_change_refreshes_rule_check_for_existing_draft
+    self.assertEqual(r['status'],'completed')
+AssertionError: 'step_limit' != 'completed'
+- step_limit
++ completed
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.102s
+
+FAILED (failures=1)

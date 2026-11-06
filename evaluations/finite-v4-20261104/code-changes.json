@@ -1,0 +1,25 @@
+{
+  "baseline": "archives/v3-before-finite-v4-20261104/source.zip",
+  "changed_or_added_files": [
+    "scripts/audit_finite.py",
+    "scripts/evaluate_finite.py",
+    "scripts/package_quality.py",
+    "scripts/verify_evidence.py",
+    "src/agent.py",
+    "src/cli.py",
+    "src/mock.py",
+    "src/providers.py",
+    "src/recording.py",
+    "src/reporting.py",
+    "src/requirements.py",
+    "src/web.py",
+    "tests/test_cli.py",
+    "tests/test_finite_v4.py",
+    "tests/test_providers.py",
+    "tests/test_quality.py",
+    "tests/test_repairs.py",
+    "tests/test_web.py",
+    "web/app.js",
+    "web/index.html"
+  ]
+}

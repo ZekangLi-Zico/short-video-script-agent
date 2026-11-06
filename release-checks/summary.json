@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-11-06T01:12:50.358294+00:00",
+  "automatic_tests": {
+    "started_at": "2026-11-06T01:09:05.717074+00:00",
+    "finished_at": "2026-11-06T01:09:15.590157+00:00",
+    "python": "3.12.14",
+    "platform": "Windows",
+    "tests_run": 161,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "scope": "Offline unit, integration and adapter-contract tests; not a real API benchmark."
+  },
+  "evidence_replay": {
+    "scope": "Replay of local tools and saved state only; does not rerun or authenticate the remote model.",
+    "runs_checked": 20,
+    "passed": true
+  },
+  "mock_smoke_status": "completed",
+  "historical_git_scan": {
+    "blobs_checked": 816,
+    "hits": [],
+    "passed": true
+  },
+  "public_copy_redacted_files": 10,
+  "test_side_effects_restored_from_preserved_original": []
+}

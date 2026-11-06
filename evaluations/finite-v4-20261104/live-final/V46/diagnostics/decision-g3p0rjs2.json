@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-g3p0rjs2",
+  "started_at": "2026-11-03T20:16:00.037005+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:17:07.167444+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a30d-ea94-7233-b650-dcadaaa229fe",
+    "usage": {
+      "input_tokens": 27714,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2316,
+      "reasoning_output_tokens": 1385
+    },
+    "call_id": "decision-g3p0rjs2",
+    "warnings": []
+  }
+}

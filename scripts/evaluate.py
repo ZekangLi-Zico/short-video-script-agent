@@ -9,6 +9,7 @@ from src.agent import Agent
 from src.cli import make_model
 from src.mock import example_script
 from src.reporting import save_run
+from src.schema import fingerprint
 from src.tools import ToolBox, ROOT, read_json
 
 
@@ -32,11 +33,22 @@ def scenarios():
 def check_case(name, result, expected):
     problems = []
     trace = result["trace"]
+    if any(t['action'] == 'model_error' for t in trace):
+        problems.append('模型调用失败不能替代业务场景验收证据')
+    if name == 'no_material' and not any(t['action'] == 'search_materials'
+                                       and t['observation'].get('ok') and t['observation'].get('count') == 0 for t in trace):
+        problems.append('缺少实际空检索结果')
     if result["status"] not in expected:
         problems.append(f"status={result['status']}, expected one of {sorted(expected)}")
     if result["status"] == "completed":
         if not all((result[k] or {}).get("passed") for k in ("duration", "rules_check")):
             problems.append("完成状态未同时通过两项检查")
+        # This runner evaluates the current Agent contract, not a list of version
+        # names. A new version must never silently bypass the completion check.
+        reviewed = result.get('requirements_check') or {}
+        if not (reviewed.get('ok') and reviewed.get('passed')
+                and reviewed.get('script_hash') == fingerprint(result.get('script'))):
+            problems.append('完成状态缺少当前稿件的有效需求覆盖核对')
     if name == "over_duration" and result["status"] == "completed":
         rejected = [i for i, t in enumerate(trace) if t["action"] == "estimate_duration"
                     and t["observation"].get("ok") and not t["observation"].get("passed")]

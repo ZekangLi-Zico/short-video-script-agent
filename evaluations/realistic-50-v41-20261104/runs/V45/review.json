@@ -1,0 +1,8 @@
+{
+  "case": "V45",
+  "assessment": "有效压缩；备注有过时措辞",
+  "note": "先估时观察旧稿45秒超时，再取证修订；仅将三镜hold从15各自改为3、4、3，总10秒，原标题、镜头顺序、visual及全部文案均保留，无新功能。比v4的12秒进一步缩短，但两者均满足25秒上限，不证明越短越好。修改说明已独立于视频内容；末句待重新检查仍过时。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": true
+}

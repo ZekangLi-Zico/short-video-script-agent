@@ -1,0 +1,19 @@
+{
+  "port": 8814,
+  "submitted_at": "2026-11-04T01:23:29.767Z",
+  "fields": {
+    "audience": "中英双语展览观众",
+    "duration-mode": "target",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "16cc5421f82b4126a90020a5e9658787",
+    "initial-script": "",
+    "platform": "视频号",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "清楚，克制",
+    "target-seconds": "30",
+    "topic": "介绍横竖屏比例选项，用中文旁白与对应英文屏幕翻译，明确区分两种语言的用途。不要宣称产品自带翻译功能。背景是展厅入口和画册。"
+  }
+}

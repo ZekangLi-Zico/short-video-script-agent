@@ -1,0 +1,19 @@
+{
+  "port": 8834,
+  "submitted_at": "2026-11-04T17:35:18.607Z",
+  "fields": {
+    "audience": "广告位快速浏览者",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "a2944031d7514814ac00665665f1ba6f",
+    "initial-script": "",
+    "platform": "抖音",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "信息优先，紧凑",
+    "target-seconds": "8",
+    "topic": "八秒内必须讲完字幕添加、片段裁剪和横竖屏比例三个功能，各出现一次。画面不用人物，不允许把三项合并成一句含糊的“多功能编辑”。"
+  }
+}

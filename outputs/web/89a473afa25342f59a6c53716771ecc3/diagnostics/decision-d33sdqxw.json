@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-d33sdqxw",
+  "started_at": "2026-11-04T15:53:10.253612+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:55:08.008360+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a743-b9d5-71e3-879a-fec7d7631bdf",
+    "usage": {
+      "input_tokens": 28503,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2364,
+      "reasoning_output_tokens": 822
+    },
+    "call_id": "decision-d33sdqxw",
+    "warnings": []
+  }
+}

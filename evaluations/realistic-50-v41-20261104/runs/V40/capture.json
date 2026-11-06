@@ -1,0 +1,13 @@
+{
+  "case": "V40",
+  "index": 39,
+  "attempt": 1,
+  "run_id": "0c9226486f4146f7bf7db0cdf54a0a41",
+  "folder": "V40",
+  "status": "needs_input",
+  "steps": 2,
+  "responses": 2,
+  "provider": "codex",
+  "seconds": null,
+  "message": "现有资料只确认支持添加字幕、手动编辑字幕，不能据此称为本周新增。尚未生成公告稿。请向项目维护者提供本周版本及发布日期、新增字幕能力说明或新旧版对照，以及旧版能否继续使用、是否有停用安排的确认材料；不必是完整更新日志。"
+}

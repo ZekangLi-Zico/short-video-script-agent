@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-11-03T18:44:28.400916+00:00",
+  "finished_at": "2026-11-03T18:51:12.121459+00:00",
+  "provider": "codex",
+  "evidence_kind": "real_model",
+  "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+  "max_steps": 12,
+  "steps": 7,
+  "synthetic_data": true,
+  "completion_policy": "facts_duration_requirements_v3",
+  "requirements_review_context": "current_rules_check_v1",
+  "model_responses": 9,
+  "fault_injection": {}
+}

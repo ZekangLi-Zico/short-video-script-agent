@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-a5kbmnea",
+  "started_at": "2026-11-03T21:35:21.929313+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:36:03.251740+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a356-9540-7621-9a09-d009a184af96",
+    "usage": {
+      "input_tokens": 27524,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1088,
+      "reasoning_output_tokens": 827
+    },
+    "call_id": "decision-a5kbmnea",
+    "warnings": []
+  }
+}

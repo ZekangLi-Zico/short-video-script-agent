@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-z3w1iqvd",
+  "started_at": "2026-11-05T17:41:22.634564+00:00",
+  "response_received": false,
+  "error_code": "codex_timeout",
+  "finished_at": "2026-11-05T17:44:23.924046+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": null,
+    "usage": {},
+    "call_id": "decision-z3w1iqvd",
+    "warnings": [],
+    "recovered_attempts": [
+      {
+        "error_code": "codex_timeout",
+        "call_id": "decision-y50a044p"
+      }
+    ]
+  }
+}

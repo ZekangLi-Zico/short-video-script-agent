@@ -1,0 +1,13 @@
+Browser tab: 1, Title: "脚本试验台 · 短视频 Agent", URL: "http://127.0.0.1:8765/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 139-141
++				241 text 需求已修改，将按当前内容运行。
+~				28 text entry area (settable) 主题, Value: 客户口头说用了字幕功能后播放量涨了30%，希望把这个说法放进脚本里，同时介绍字幕编辑功能。我们目前没有提供统计表。, ID: topic
+~				30 text field (settable) 给谁看, Value: 想改善内容表达的店铺运营, ID: audience
+~				32 pop up button (collapsed, settable) 发布平台, Value: 抖音, ID: platform, Secondary Actions: Expand
+~						34 (selected) 抖音
+~						37 B站
+~				42 text field (settable) 表达风格, Value: 真实、有说服力，不夸张, ID: style
++				242 text 调用本机已登录的 Codex，通常需要一到数分钟。
++				243 text 真实模型运行会使用当前账号的额度。
+The focused UI element is 42 text field (settable) 表达风格, Value: 真实、有说服力，不夸张, ID: style

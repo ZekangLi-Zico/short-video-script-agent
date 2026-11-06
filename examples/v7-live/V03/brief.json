@@ -1,0 +1,18 @@
+{
+  "id": "V03",
+  "name": "图书馆活动交接",
+  "context": "志愿者需要把读书会视频编辑工作交给下一班。",
+  "request": {
+    "topic": "介绍字幕添加和手动编辑字幕文字，画面围绕签到桌、书页、分享者背影。恰好三个分镜；标题用“把读书会的话留下”。",
+    "audience": "图书馆活动志愿者",
+    "platform": "视频号",
+    "target_seconds": 24,
+    "style": "温和，清楚",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "target"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

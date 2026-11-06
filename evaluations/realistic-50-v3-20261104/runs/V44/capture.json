@@ -1,0 +1,10 @@
+{
+  "case": "V44",
+  "run_id": "f78e6ff0481c43818d504d34f7ce9a46",
+  "status": "needs_input",
+  "steps": 3,
+  "responses": 3,
+  "provider": "codex",
+  "seconds": null,
+  "message": "尚未生成或完成脚本审核。请将老师确认的课程简介、手机摄影教学内容交给项目维护者补充。课表、价格和退费规则未确认前暂不写入，也不添加学员效果或学习结果承诺。"
+}

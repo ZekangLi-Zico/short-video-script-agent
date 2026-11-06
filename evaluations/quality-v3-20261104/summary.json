@@ -1,0 +1,271 @@
+{
+  "groups": {
+    "live-v3-attempt1": {
+      "runs": 12,
+      "states": {
+        "completed": 8,
+        "needs_input": 4
+      },
+      "actual_model_runs": 11,
+      "model_responses": 71,
+      "rows": [
+        {
+          "id": "N01",
+          "status": "completed",
+          "seconds": 29.6,
+          "steps": 6,
+          "model_responses": 7,
+          "started_at": "2026-11-03T16:50:45.913096+00:00",
+          "finished_at": "2026-11-03T16:55:55.714291+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v3-attempt1/N01"
+        },
+        {
+          "id": "N02",
+          "status": "completed",
+          "seconds": 23.5,
+          "steps": 6,
+          "model_responses": 7,
+          "started_at": "2026-11-03T16:55:15.578444+00:00",
+          "finished_at": "2026-11-03T16:59:16.219979+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v3-attempt1/N02"
+        },
+        {
+          "id": "N03",
+          "status": "completed",
+          "seconds": 15.0,
+          "steps": 6,
+          "model_responses": 7,
+          "started_at": "2026-11-03T16:55:55.738656+00:00",
+          "finished_at": "2026-11-03T16:59:29.099388+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v3-attempt1/N03"
+        },
+        {
+          "id": "N04",
+          "status": "completed",
+          "seconds": 27.4,
+          "steps": 7,
+          "model_responses": 8,
+          "started_at": "2026-11-03T16:59:16.247075+00:00",
+          "finished_at": "2026-11-03T17:05:37.121393+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v3-attempt1/N04"
+        },
+        {
+          "id": "N05",
+          "status": "completed",
+          "seconds": 15.0,
+          "steps": 6,
+          "model_responses": 7,
+          "started_at": "2026-11-03T16:59:29.124902+00:00",
+          "finished_at": "2026-11-03T17:04:16.509235+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v3-attempt1/N05"
+        },
+        {
+          "id": "N06",
+          "status": "needs_input",
+          "seconds": null,
+          "steps": 2,
+          "model_responses": 2,
+          "started_at": "2026-11-03T17:04:16.567626+00:00",
+          "finished_at": "2026-11-03T17:05:16.036973+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v3-attempt1/N06"
+        },
+        {
+          "id": "N07",
+          "status": "needs_input",
+          "seconds": null,
+          "steps": 0,
+          "model_responses": 0,
+          "started_at": "2026-11-03T17:05:16.058371+00:00",
+          "finished_at": "2026-11-03T17:05:16.058371+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v3-attempt1/N07"
+        },
+        {
+          "id": "N08",
+          "status": "needs_input",
+          "seconds": null,
+          "steps": 3,
+          "model_responses": 3,
+          "started_at": "2026-11-03T17:05:16.071499+00:00",
+          "finished_at": "2026-11-03T17:06:17.992815+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v3-attempt1/N08"
+        },
+        {
+          "id": "T02",
+          "status": "completed",
+          "seconds": 16.3,
+          "steps": 6,
+          "model_responses": 7,
+          "started_at": "2026-11-03T16:46:06.263764+00:00",
+          "finished_at": "2026-11-03T16:49:42.780721+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v3-attempt1/T02"
+        },
+        {
+          "id": "T28",
+          "status": "needs_input",
+          "seconds": null,
+          "steps": 2,
+          "model_responses": 2,
+          "started_at": "2026-11-03T16:49:42.794535+00:00",
+          "finished_at": "2026-11-03T16:50:45.890920+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v3-attempt1/T28"
+        },
+        {
+          "id": "T39",
+          "status": "completed",
+          "seconds": 15.0,
+          "steps": 6,
+          "model_responses": 7,
+          "started_at": "2026-11-03T16:46:06.265764+00:00",
+          "finished_at": "2026-11-03T16:49:29.534387+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v3-attempt1/T39"
+        },
+        {
+          "id": "T43",
+          "status": "completed",
+          "seconds": 13.5,
+          "steps": 12,
+          "model_responses": 14,
+          "started_at": "2026-11-03T16:49:29.560388+00:00",
+          "finished_at": "2026-11-03T16:55:15.547279+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v3-attempt1/T43"
+        }
+      ]
+    },
+    "live-v2-comparison": {
+      "runs": 4,
+      "states": {
+        "needs_input": 4
+      },
+      "actual_model_runs": 4,
+      "model_responses": 8,
+      "rows": [
+        {
+          "id": "N01",
+          "status": "needs_input",
+          "seconds": null,
+          "steps": 1,
+          "model_responses": 1,
+          "started_at": "2026-11-03T16:46:20.614616+00:00",
+          "finished_at": "2026-11-03T16:47:05.713184+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v2-comparison/N01"
+        },
+        {
+          "id": "N02",
+          "status": "needs_input",
+          "seconds": null,
+          "steps": 3,
+          "model_responses": 3,
+          "started_at": "2026-11-03T16:46:20.613615+00:00",
+          "finished_at": "2026-11-03T16:47:53.138474+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v2-comparison/N02"
+        },
+        {
+          "id": "N03",
+          "status": "needs_input",
+          "seconds": null,
+          "steps": 2,
+          "model_responses": 2,
+          "started_at": "2026-11-03T16:47:05.746787+00:00",
+          "finished_at": "2026-11-03T16:48:06.627033+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v2-comparison/N03"
+        },
+        {
+          "id": "N04",
+          "status": "needs_input",
+          "seconds": null,
+          "steps": 2,
+          "model_responses": 2,
+          "started_at": "2026-11-03T16:47:53.156474+00:00",
+          "finished_at": "2026-11-03T16:48:49.280926+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v2-comparison/N04"
+        }
+      ]
+    },
+    "live-v3-scope-fix": {
+      "runs": 2,
+      "states": {
+        "completed": 2
+      },
+      "actual_model_runs": 2,
+      "model_responses": 19,
+      "rows": [
+        {
+          "id": "N02",
+          "status": "completed",
+          "seconds": 24.0,
+          "steps": 6,
+          "model_responses": 7,
+          "started_at": "2026-11-03T17:01:36.002059+00:00",
+          "finished_at": "2026-11-03T17:05:59.239691+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v3-scope-fix/N02"
+        },
+        {
+          "id": "N03",
+          "status": "completed",
+          "seconds": 13.8,
+          "steps": 10,
+          "model_responses": 12,
+          "started_at": "2026-11-03T17:01:36.003374+00:00",
+          "finished_at": "2026-11-03T17:08:32.419647+00:00",
+          "path": "evaluations/quality-v3-20261104/live-v3-scope-fix/N03"
+        }
+      ]
+    },
+    "ui-final": {
+      "runs": 3,
+      "states": {
+        "completed": 2,
+        "needs_input": 1
+      },
+      "actual_model_runs": 3,
+      "model_responses": 18,
+      "rows": [
+        {
+          "id": "N02",
+          "status": "completed",
+          "seconds": 24.0,
+          "steps": 8,
+          "model_responses": 9,
+          "started_at": "2026-11-03T16:51:26.449236+00:00",
+          "finished_at": "2026-11-03T16:56:07.705354+00:00",
+          "path": "evaluations/quality-v3-20261104/ui-final/N02"
+        },
+        {
+          "id": "N02-clean",
+          "status": "completed",
+          "seconds": 23.8,
+          "steps": 6,
+          "model_responses": 7,
+          "started_at": "2026-11-03T16:56:51.122501+00:00",
+          "finished_at": "2026-11-03T17:01:04.067543+00:00",
+          "path": "evaluations/quality-v3-20261104/ui-final/N02-clean"
+        },
+        {
+          "id": "N06",
+          "status": "needs_input",
+          "seconds": null,
+          "steps": 2,
+          "model_responses": 2,
+          "started_at": "2026-11-03T17:03:37.357446+00:00",
+          "finished_at": "2026-11-03T17:04:51.078952+00:00",
+          "path": "evaluations/quality-v3-20261104/ui-final/N06"
+        }
+      ]
+    }
+  },
+  "total_entries": 21,
+  "actual_model_runs": 20,
+  "model_responses": 116,
+  "review": "First campaign N03 has a scope false acceptance; fixed original brief and multi-feature control rerun. Status counts are not quality rates.",
+  "final_tests": "final-tests-confirmed/summary.json",
+  "evidence_audit": "audit-final.json",
+  "separate_engineering_acceptance": {
+    "case": "tool_failure",
+    "actual_status": "blocked",
+    "steps": 4,
+    "model_responses": 4,
+    "passed": true,
+    "artifacts": "final-real-acceptance/tool_failure",
+    "note": "Final-code real-model fault injection; excluded from realistic quality totals."
+  }
+}

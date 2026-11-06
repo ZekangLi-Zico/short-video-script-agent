@@ -1,0 +1,18 @@
+{
+  "id": "V41",
+  "name": "面包新品没资料",
+  "context": "新店第一次使用脚本工具。",
+  "request": {
+    "topic": "给虚构门店“晨光面包房”写新品视频，想介绍周末新出的面包。现在只有门店名字，没有品名、价格或成分资料，先看能推进到哪一步。",
+    "audience": "附近通勤上班族",
+    "platform": "小红书",
+    "target_seconds": 25,
+    "style": "温暖，生活化",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "N08",
+  "status": "needs_input",
+  "steps": 3,
+  "model_responses": 3,
+  "duration": null,
+  "path": [
+    "search_materials",
+    "search_materials",
+    "finish"
+  ],
+  "message": "尚未生成脚本，时长、规则和需求检查均未完成。请将云帆课堂剪辑器本产品的官方功能说明或使用文档交给项目维护者，需明确其为课程录像添加字幕的能力与限制。补齐后才能围绕老师整理公开课录像的场景制作30秒以内脚本；未使用其他产品资料。"
+}

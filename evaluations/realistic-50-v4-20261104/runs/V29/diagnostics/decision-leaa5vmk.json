@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-leaa5vmk",
+  "started_at": "2026-11-03T21:56:46.555047+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:57:42.472582+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a36a-2d4d-7ee3-a5f8-fb43d6d0b226",
+    "usage": {
+      "input_tokens": 27792,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2151,
+      "reasoning_output_tokens": 1338
+    },
+    "call_id": "decision-leaa5vmk",
+    "warnings": []
+  }
+}

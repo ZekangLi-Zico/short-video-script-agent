@@ -1,0 +1,13 @@
+{
+  "case_id": "T23",
+  "capture_mode": "viewport_fallback",
+  "finished_capture_at": "2026-11-03T14:32:09.856Z",
+  "busy": false,
+  "detail": "真实模型 · 3 个执行步骤",
+  "download": "/api/runs/b8baba1b32a64ea5bc839ca571ce539b/download/output.json",
+  "error": "",
+  "history": "b8baba1b32a64ea5bc839ca571ce539b",
+  "message": "现有素材仅能确认字幕添加和手动编辑，无法确认是否支持SRT导出。请补充可引用的SRT导出支持情况、操作步骤及向合作剪辑师交付的适用场景说明，以继续制作30秒脚本。",
+  "save": "记录已保存 · b8baba1b",
+  "status": "需要补充"
+}

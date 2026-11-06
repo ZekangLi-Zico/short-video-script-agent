@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-8rx84qcg",
+  "started_at": "2026-11-04T01:07:38.349784+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:07:56.701063+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a418-eade-7552-9787-9088aaadd7fc",
+    "usage": {
+      "input_tokens": 31737,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 156,
+      "reasoning_output_tokens": 87
+    },
+    "call_id": "decision-8rx84qcg",
+    "warnings": []
+  }
+}

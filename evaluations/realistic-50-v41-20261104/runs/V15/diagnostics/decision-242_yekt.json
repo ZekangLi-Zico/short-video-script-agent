@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-242_yekt",
+  "started_at": "2026-11-04T01:17:14.957194+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:17:28.899471+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a421-b75c-7aa1-9e50-a24ac5059c84",
+    "usage": {
+      "input_tokens": 30326,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 98,
+      "reasoning_output_tokens": 40
+    },
+    "call_id": "decision-242_yekt",
+    "warnings": []
+  }
+}

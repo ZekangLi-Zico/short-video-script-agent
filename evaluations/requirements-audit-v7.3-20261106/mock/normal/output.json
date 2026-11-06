@@ -1,0 +1,126 @@
+{
+  "status": "completed",
+  "message": "当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "字幕，让表达被看见",
+    "shots": [
+      {
+        "visual": "产品功能文字卡片，不展示未经提供的界面",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "dee0c4cf8a9e7629e42ce06857ea4023f4187e26e99fccc4b0594db0e3fe4996",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 14,
+        "estimated_seconds": 4.0
+      }
+    ],
+    "total_seconds": 4.0,
+    "target_seconds": 30,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "dee0c4cf8a9e7629e42ce06857ea4023f4187e26e99fccc4b0594db0e3fe4996",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:1/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "dee0c4cf8a9e7629e42ce06857ea4023f4187e26e99fccc4b0594db0e3fe4996",
+    "request_hash": "405fda7ba61c0d7613c9cdcba2f46e53964582afa08d59d1d10281de288afaef",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "介绍字幕功能",
+        "verdict": "met",
+        "evidence": "固定离线桩返回；仅验证接线，不证明语义符合。"
+      },
+      {
+        "field": "audience",
+        "requirement": "第一次制作口播短视频的创作者",
+        "verdict": "met",
+        "evidence": "固定离线桩返回；仅验证接线，不证明语义符合。"
+      },
+      {
+        "field": "platform",
+        "requirement": "抖音",
+        "verdict": "met",
+        "evidence": "固定离线桩返回；仅验证接线，不证明语义符合。"
+      },
+      {
+        "field": "style",
+        "requirement": "清楚、友好、克制",
+        "verdict": "met",
+        "evidence": "固定离线桩返回；仅验证接线，不证明语义符合。"
+      }
+    ],
+    "summary": "固定离线需求检查，不证明真实语义判断。",
+    "method": "model_assessment_not_deterministic_proof"
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "app_version": "v7.3-staged-storyboard",
+    "started_at": "2026-11-05T20:46:07.454795+00:00",
+    "finished_at": "2026-11-05T20:46:07.457794+00:00",
+    "provider": "mock",
+    "evidence_kind": "offline_mock_not_model_evidence",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v6",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "staged_storyboard_v3; legacy_v1_v2_readable",
+    "model_responses": 7
+  }
+}

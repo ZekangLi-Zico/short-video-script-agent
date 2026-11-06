@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-3dvauzmt",
+  "started_at": "2026-11-03T23:17:56.631677+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:18:10.779590+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3b4-7ee1-7eb3-84b8-ecdd8fc06dac",
+    "usage": {
+      "input_tokens": 28569,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 122,
+      "reasoning_output_tokens": 71
+    },
+    "call_id": "decision-3dvauzmt",
+    "warnings": []
+  }
+}

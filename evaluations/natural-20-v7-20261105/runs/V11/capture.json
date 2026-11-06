@@ -1,0 +1,13 @@
+{
+  "case": "V11",
+  "index": 6,
+  "attempt": 1,
+  "run_id": "eb70c83908a3449abc766c2b6aceb5f7",
+  "folder": "V11",
+  "status": "completed",
+  "steps": 4,
+  "responses": 5,
+  "provider": "codex",
+  "seconds": 37,
+  "message": "已完成4镜脚本，预计37秒。以手写练习本和手机背面展示字幕添加与手动改字，旁白耐心易懂，符合长者课堂需求，全部检查通过。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

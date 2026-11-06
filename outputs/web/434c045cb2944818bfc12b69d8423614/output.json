@@ -1,0 +1,320 @@
+{
+  "status": "completed",
+  "message": "已完成三镜脚本，介绍为领养日花絮添加字幕及手动修改文字，风格温暖但不煽情。画面仅拍笼牌、牵引绳和志愿者手部，不使用真实姓名或联系方式。保留当前稿，无需删改。估算14秒，符合28秒上限；实际时长以成片为准。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "领养日花絮里的小细节",
+    "shots": [
+      {
+        "visual": "纯色背景下，特写志愿者双手扶正空白笼牌。画面仅包含手部和笼牌，不出现人脸、真实姓名或联系方式。旁白温和自然。",
+        "hold_seconds": 4,
+        "blocks": [
+          {
+            "text": "领养日，记下这些小小的忙碌。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "俯拍志愿者手部整理牵引绳，画面仅包含手部和牵引绳，背景纯色。将本镜事实原文作为旁白和同步字幕叠加，示意为花絮添加字幕后的呈现，不展示软件界面，不出现个人信息。",
+        "hold_seconds": 5,
+        "blocks": [
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "近景拍摄志愿者双手将牵引绳轻轻盘好，末尾短暂停留。画面仅包含手部和牵引绳，背景纯色。本镜事实原文作为旁白和同步字幕，说明文字可以手动修改；不展示按钮或操作界面，不出现个人信息。",
+        "hold_seconds": 5,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "cbcb7bbcce32a2852e5cc28ddf0e2bddf6a71bf38ba26503b38a1463b39f09f1",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 12,
+        "estimated_seconds": 4.0
+      },
+      {
+        "shot": 2,
+        "speech_units": 14,
+        "estimated_seconds": 5.0
+      },
+      {
+        "shot": 3,
+        "speech_units": 10,
+        "estimated_seconds": 5.0
+      }
+    ],
+    "total_seconds": 14.0,
+    "target_seconds": 28,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "cbcb7bbcce32a2852e5cc28ddf0e2bddf6a71bf38ba26503b38a1463b39f09f1",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:3/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "领养日花絮里的小细节"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "纯色背景下，特写志愿者双手扶正空白笼牌。画面仅包含手部和笼牌，不出现人脸、真实姓名或联系方式。旁白温和自然。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "领养日，记下这些小小的忙碌。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "俯拍志愿者手部整理牵引绳，画面仅包含手部和牵引绳，背景纯色。将本镜事实原文作为旁白和同步字幕叠加，示意为花絮添加字幕后的呈现，不展示软件界面，不出现个人信息。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "近景拍摄志愿者双手将牵引绳轻轻盘好，末尾短暂停留。画面仅包含手部和牵引绳，背景纯色。本镜事实原文作为旁白和同步字幕，说明文字可以手动修改；不展示按钮或操作界面，不出现个人信息。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "cbcb7bbcce32a2852e5cc28ddf0e2bddf6a71bf38ba26503b38a1463b39f09f1",
+    "request_hash": "5c0b0575b38040eae7c360d4797877a9d0ce4b18e4b26ee4c709496cad63c2dd",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "做一条工具介绍",
+        "verdict": "met",
+        "evidence": "镜头2介绍“剪影练习版支持为视频添加字幕”，镜头3继续介绍字幕文字编辑能力，工具及用途明确。"
+      },
+      {
+        "field": "topic",
+        "requirement": "说明可为领养日花絮添加字幕",
+        "verdict": "met",
+        "evidence": "标题为“领养日花絮里的小细节”，镜头1旁白点明“领养日”；镜头2在志愿者整理牵引绳的画面上叠加字幕，并说明添加字幕能力。"
+      },
+      {
+        "field": "topic",
+        "requirement": "手动修改文字",
+        "verdict": "met",
+        "evidence": "镜头3明确说明“字幕文字可以手动编辑。”"
+      },
+      {
+        "field": "topic",
+        "requirement": "画面只拍笼牌、牵引绳和志愿者手部",
+        "verdict": "met",
+        "evidence": "镜头1仅拍手部和笼牌；镜头2、3仅拍手部和牵引绳。均使用纯色背景，未安排人脸、动物或软件界面等额外拍摄对象。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不使用真实姓名和联系方式",
+        "verdict": "met",
+        "evidence": "真实姓名限制已落实：镜头1使用“空白笼牌”并明确“不出现……真实姓名”；镜头2、3均要求“不出现个人信息”，全部文案也未使用姓名。"
+      },
+      {
+        "field": "topic",
+        "requirement": "不使用真实姓名和联系方式",
+        "verdict": "met",
+        "evidence": "联系方式限制已落实：镜头1明确不出现联系方式，镜头2、3均要求不出现个人信息；标题、旁白及字幕中没有电话、账号或其他联系方式。"
+      },
+      {
+        "field": "audience",
+        "requirement": "动物救助志愿者",
+        "verdict": "met",
+        "evidence": "以领养日、笼牌和志愿者整理牵引绳为具体场景，介绍记录活动花絮所需的字幕功能，符合该受众的使用情境。"
+      },
+      {
+        "field": "platform",
+        "requirement": "视频号",
+        "verdict": "met",
+        "evidence": "采用三个简洁镜头、清楚的旁白及同步字幕，内容适合短视频观看；无需在脚本中直接写出平台名称。"
+      },
+      {
+        "field": "style",
+        "requirement": "温暖",
+        "verdict": "met",
+        "evidence": "镜头1使用“记下这些小小的忙碌”并要求旁白温和自然；镜头3安排双手将牵引绳“轻轻盘好”，表达柔和。"
+      },
+      {
+        "field": "style",
+        "requirement": "不煽情",
+        "verdict": "met",
+        "evidence": "全稿围绕志愿者手部动作和两项字幕能力展开，没有悲情故事、夸张情绪或情感施压。"
+      }
+    ],
+    "summary": "当前稿已落实领养日工具介绍、添加字幕及手动修改文字的要求，拍摄范围和隐私限制均符合要求，表达有资料支持，节奏合理。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "领养日花絮里的小细节",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "用于点明场景和叙述视角，不包含产品能力或效果承诺。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "纯色背景下，特写志愿者双手扶正空白笼牌。画面仅包含手部和笼牌，不出现人脸、真实姓名或联系方式。旁白温和自然。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "仅规定拍摄对象、构图、隐私处理和旁白语气，不涉及产品声明。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "领养日，记下这些小小的忙碌。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "属于场景引入和情绪表达，未承诺产品性能或自动记录能力。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "俯拍志愿者手部整理牵引绳，画面仅包含手部和牵引绳，背景纯色。将本镜事实原文作为旁白和同步字幕叠加，示意为花絮添加字幕后的呈现，不展示软件界面，不出现个人信息。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "添加字幕后的示意由“剪影练习版支持为视频添加字幕”支持。“同步字幕叠加”是本片制作安排，未声称产品自动识别、自动同步，也未虚构界面或操作步骤。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "近景拍摄志愿者双手将牵引绳轻轻盘好，末尾短暂停留。画面仅包含手部和牵引绳，背景纯色。本镜事实原文作为旁白和同步字幕，说明文字可以手动修改；不展示按钮或操作界面，不出现个人信息。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          },
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ],
+        "evidence": "字幕呈现及文字可手动修改分别得到添加字幕、字幕文字可手动编辑两条事实支持；其余内容为拍摄安排，未增加自动化能力或虚构操作。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "duration_check给出的三镜预计时长为4秒、5秒、5秒，对应旁白单位数12、14、10，均满足各镜最低停留时间。扶正笼牌、整理牵引绳、盘好牵引绳分别提供观察动作，后两镜还需阅读不同的功能字幕，未见重复事实或空镜凑时长。总长估算14秒，已通过28秒上限判定。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T21:05:09.287901+00:00",
+    "finished_at": "2026-11-03T21:08:48.533841+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "model_responses": 7,
+    "run_id": "22e64e2c343f446b8f914e878f75a210",
+    "persistence": "checkpoint_v1"
+  }
+}

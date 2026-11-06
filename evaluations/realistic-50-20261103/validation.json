@@ -1,0 +1,517 @@
+{
+  "verified_at": "2026-11-03T15:20:55.947452+00:00",
+  "stats": {
+    "ui_submissions": 50,
+    "unique_briefs": 48,
+    "planned_repeats": 2,
+    "statuses": {
+      "completed": 29,
+      "needs_input": 21
+    },
+    "runs_with_model_calls": 47,
+    "runs_without_model_calls": 3,
+    "model_calls": 209,
+    "median_model_run_seconds": 85.7,
+    "max_model_run_seconds": 153.9,
+    "capture_modes": {
+      "fullPage": 24,
+      "viewport_fallback": 26
+    },
+    "repeated_requests": [
+      {
+        "first": "T01",
+        "repeat": "T49",
+        "same_request": true,
+        "statuses": [
+          "completed",
+          "completed"
+        ],
+        "seconds": [
+          26.0,
+          25.0
+        ],
+        "shots": [
+          5,
+          5
+        ],
+        "same_citation_set": true,
+        "same_script_text": false
+      },
+      {
+        "first": "T11",
+        "repeat": "T50",
+        "same_request": true,
+        "statuses": [
+          "completed",
+          "completed"
+        ],
+        "seconds": [
+          41.0,
+          40.0
+        ],
+        "shots": [
+          5,
+          5
+        ],
+        "same_citation_set": true,
+        "same_script_text": false
+      }
+    ],
+    "cases_sha256": "b363aa99c320ff4a2ec0ff63939c60eb56758528c9af27a2367d6f010a8d0db5",
+    "application_unchanged": true,
+    "started_at": "2026-11-03T13:42:52.591692+00:00",
+    "finished_at": "2026-11-03T15:17:58.770160+00:00"
+  },
+  "cases": [
+    {
+      "case": "T01",
+      "run_id": "2a169b877feb4b69a468cf5f85e99e9b",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T02",
+      "run_id": "68a3d29af3c14b3ab8e1ab0ac1941d54",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T03",
+      "run_id": "765b5f1594e5413289ef4dfedbd76303",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T04",
+      "run_id": "55e683e512dc48c09244b635254cfa0f",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T05",
+      "run_id": "82669d60c4254e6f9a98a675fa779390",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T06",
+      "run_id": "72540a32a35e4280ba9c88cf1e3daa73",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T07",
+      "run_id": "0b139062246a44228fbd0c39211a2966",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T08",
+      "run_id": "b841e253f8ab4660ab5ba0b5cb1c0250",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T09",
+      "run_id": "99c237eeb54942159d18d3c5a3fc7c48",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T10",
+      "run_id": "46eae8743d3f4eeb92e2667c83a1cd8b",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T11",
+      "run_id": "189f84c13c1e4f40be7461c1ea0b4149",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T12",
+      "run_id": "c5076f49df714f1681a0d85c1c86a335",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T13",
+      "run_id": "9bb9032b483b4150a510a028fc1d069c",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T14",
+      "run_id": "0f16e8cfddc24aaa979aa813cd415a49",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T15",
+      "run_id": "d8d33bda527b4d75a68d32a46160ea8a",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T16",
+      "run_id": "084d1a34d3844b2c8edda7439e241f43",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T17",
+      "run_id": "0ec5cb80022d4644b0f97a2898b622ea",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T18",
+      "run_id": "5a75c4d081974ee7ac0e4a276a4ec926",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T19",
+      "run_id": "5edede063ac745eebb39b670bc39e56c",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T20",
+      "run_id": "9e1822fa1d1e4bf48dc369172198a74d",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T21",
+      "run_id": "408506a128c24ef984614b3cab5c8b5d",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T22",
+      "run_id": "157b44c39ddb4fdd89f0d99223bec748",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T23",
+      "run_id": "b8baba1b32a64ea5bc839ca571ce539b",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T24",
+      "run_id": "53fe9c47201348f0873b449152b21246",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T25",
+      "run_id": "f5dfd4dd41054b8f8eb883a6793dc08b",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T26",
+      "run_id": "0b7e2f5a07d041359d8fe6c9765ecbe4",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T27",
+      "run_id": "fba5b68437124f06ac541cb86533c513",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T28",
+      "run_id": "8e5e7dbc8df54e2e85362cee9639374b",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T29",
+      "run_id": "4ad92f8b2f08482aae5f7198dfd5ad6b",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T30",
+      "run_id": "0e2ddcf784544af6b90c6fd816c09859",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T31",
+      "run_id": "0533d7cf7e86429ab16f1cce7ec22e09",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T32",
+      "run_id": "0984400887104d51a082321dc4f437e9",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T33",
+      "run_id": "0d16943d79c94dfc8b7878f722d56630",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T34",
+      "run_id": "5a48f7e150f5412e983da3ad74608adb",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T35",
+      "run_id": "a0882cce48a747488e624c3ab6fa9600",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T36",
+      "run_id": "7c7466aad6424a5b9c78de2ce08428b9",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T37",
+      "run_id": "e62275f94bed4705b95e999279fcaf34",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T38",
+      "run_id": "6f8f9b5d51fb4d88b3fa879a803ae5f6",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T39",
+      "run_id": "415d590301794c6182c9543e8c09acba",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T40",
+      "run_id": "c9b8475d7d234702bcd978240403eb62",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T41",
+      "run_id": "16c5992e2dba4a21ae981ee3688b93ec",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T42",
+      "run_id": "01298921584e478c823f34310f95dc95",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T43",
+      "run_id": "545b560fe736431e9a963df642b05aff",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T44",
+      "run_id": "c6fcf08e67a04f089958246a74e191a1",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T45",
+      "run_id": "3dcb7f79f12042e79b2cfcc86e427016",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T46",
+      "run_id": "0cc9ebb532094e9fa9166a27d157f5fa",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T47",
+      "run_id": "7deb04fae51249778077fc2ef3e82089",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T48",
+      "run_id": "0d0add6b8ef14533aa07dd9a1abb9534",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T49",
+      "run_id": "9caa4a30c6c5469e816ec0ffd645ce34",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    },
+    {
+      "case": "T50",
+      "run_id": "780021505f174bd18adf4f57347744e1",
+      "required_files_verified": 14,
+      "ui_output_fields_match_saved_output": true,
+      "ui_trace_matches_saved_trace": true,
+      "input_matches_frozen_brief": true,
+      "offline_replay_errors": []
+    }
+  ]
+}

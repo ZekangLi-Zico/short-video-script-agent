@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-iws_ojhq",
+  "started_at": "2026-11-04T01:44:35.034079+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:44:56.953037+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a43a-becf-7cc1-941b-b3d0f9680126",
+    "usage": {
+      "input_tokens": 30122,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 138,
+      "reasoning_output_tokens": 83
+    },
+    "call_id": "decision-iws_ojhq",
+    "warnings": []
+  }
+}

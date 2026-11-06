@@ -1,0 +1,8 @@
+{
+  "case": "V47",
+  "assessment": "有效压缩；备注有过时措辞",
+  "note": "先观察40秒超时，再将四镜hold由各10秒调整为3、5、4、3，总15秒小于22秒；四镜顺序数量、全部visual及文案不变，保留P01两项字幕功能，无新场景。修改后估时规则需求复检齐全，但备注仍称尚待重新检查。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": true
+}

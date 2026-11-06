@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-na9ds73c",
+  "started_at": "2026-11-03T20:58:36.569918+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:59:04.909470+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a334-eca1-7272-82e1-6f883db09c39",
+    "usage": {
+      "input_tokens": 31034,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 762,
+      "reasoning_output_tokens": 308
+    },
+    "call_id": "decision-na9ds73c",
+    "warnings": []
+  }
+}

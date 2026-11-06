@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-xz8g0ps2",
+  "started_at": "2026-11-04T01:36:04.861496+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:36:18.900547+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a432-f584-72f0-9ac6-8e1a337fea0b",
+    "usage": {
+      "input_tokens": 28786,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 154,
+      "reasoning_output_tokens": 87
+    },
+    "call_id": "decision-xz8g0ps2",
+    "warnings": []
+  }
+}

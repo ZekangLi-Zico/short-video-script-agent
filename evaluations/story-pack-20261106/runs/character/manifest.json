@@ -1,0 +1,18 @@
+{
+  "app_version": "v7.1-story-materials",
+  "started_at": "2026-11-05T17:49:14.118333+00:00",
+  "finished_at": "2026-11-05T17:58:36.933056+00:00",
+  "provider": "codex",
+  "evidence_kind": "real_model",
+  "data_hash": "5d865600d50d103f98dc820f7ba7505232f2991b7eda6b008e02601df670bf25",
+  "max_steps": 12,
+  "steps": 5,
+  "synthetic_data": false,
+  "completion_policy": "facts_duration_requirements_v6",
+  "requirements_review_context": "current_rules_and_duration_v2",
+  "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+  "model_responses": 5,
+  "run_id": "f2609d71e751475f82a6e9c51302c50c",
+  "persistence": "checkpoint_v1",
+  "fault_injection": {}
+}

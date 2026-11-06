@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-naiotnrp",
+  "started_at": "2026-11-04T14:54:46.868856+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T14:57:07.481579+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a70e-33b7-7222-a0c9-2f22cea82c88",
+    "usage": {
+      "input_tokens": 29384,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 4277,
+      "reasoning_output_tokens": 1552
+    },
+    "call_id": "decision-naiotnrp",
+    "warnings": []
+  }
+}

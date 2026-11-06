@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-gidpj9u4",
+  "started_at": "2026-11-03T21:19:38.463802+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:20:00.205723+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a348-2f02-7b23-9671-19a94fc55f37",
+    "usage": {
+      "input_tokens": 33793,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 323,
+      "reasoning_output_tokens": 195
+    },
+    "call_id": "decision-gidpj9u4",
+    "warnings": []
+  }
+}

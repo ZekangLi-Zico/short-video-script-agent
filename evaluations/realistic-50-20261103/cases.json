@@ -1,0 +1,1035 @@
+[
+  {
+    "id": "T01",
+    "name": "新手口播",
+    "context": "个人创作者第一次发布口播视频，需要介绍可用的字幕功能。",
+    "request": {
+      "topic": "给第一次拍口播的人介绍剪影练习版：支持为视频添加字幕，也能手动编辑字幕文字。不要讲还没有提供的功能。",
+      "audience": "刚开始拍口播的学生",
+      "platform": "抖音",
+      "style": "自然、清楚，像同学分享",
+      "product_id": "demo-editor",
+      "target_seconds": 30
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T02",
+    "name": "校园采访",
+    "context": "社团要给采访花絮做一条工具介绍。",
+    "request": {
+      "topic": "社团准备发布校园采访花絮，写一条介绍添加字幕和编辑字幕文字的短视频脚本，画面以采访花絮为背景。",
+      "audience": "大学社团宣传成员",
+      "platform": "B站",
+      "style": "轻松、有条理",
+      "product_id": "demo-editor",
+      "target_seconds": 25
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T03",
+    "name": "餐饮菜单字幕",
+    "context": "门店运营需要解释视频里的菜名文字可调整。",
+    "request": {
+      "topic": "为餐饮门店运营介绍剪影练习版的字幕文字编辑功能，结合拍菜单介绍视频的场景，不写价格或促销。",
+      "audience": "自己拍视频的小餐馆老板",
+      "platform": "视频号",
+      "style": "朴实、少术语",
+      "product_id": "demo-editor",
+      "target_seconds": 20
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T04",
+    "name": "读书分享",
+    "context": "读书账号准备简短介绍添加字幕功能。",
+    "request": {
+      "topic": "做一期读书视频制作工具介绍，这条只讲为视频添加字幕，不介绍剪辑和画面比例。",
+      "audience": "读书分享账号的新手作者",
+      "platform": "小红书",
+      "style": "安静、简洁",
+      "product_id": "demo-editor",
+      "target_seconds": 15
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T05",
+    "name": "宠物片段",
+    "context": "宠物博主需要介绍裁剪功能。",
+    "request": {
+      "topic": "以整理宠物日常录像为背景，介绍剪影练习版支持裁剪视频片段，不提字幕。",
+      "audience": "拍宠物日常的年轻用户",
+      "platform": "抖音",
+      "style": "活泼但不夸张",
+      "product_id": "demo-editor",
+      "target_seconds": 12
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T06",
+    "name": "旅行片段",
+    "context": "旅行返程后想整理多段素材。",
+    "request": {
+      "topic": "写一条介绍裁剪视频片段功能的脚本，用旅行回来整理录像作为开场语境。不要承诺自动剪辑。",
+      "audience": "喜欢记录旅行的人",
+      "platform": "小红书",
+      "style": "轻松、实用",
+      "product_id": "demo-editor",
+      "target_seconds": 20
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T07",
+    "name": "运动录像",
+    "context": "健身教练想缩短训练录像开头和结尾。",
+    "request": {
+      "topic": "为拍训练录像的教练介绍视频片段裁剪功能，只介绍功能，不提供具体按钮操作步骤。",
+      "audience": "独立健身教练",
+      "platform": "视频号",
+      "style": "直接、专业但易懂",
+      "product_id": "demo-editor",
+      "target_seconds": 15
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T08",
+    "name": "手工过程",
+    "context": "手工作者要展示制作过程中的几个片段。",
+    "request": {
+      "topic": "介绍裁剪视频片段和为视频添加字幕两项功能，场景是一位手工作者整理制作过程录像。",
+      "audience": "手工内容创作者",
+      "platform": "B站",
+      "style": "温和、有条理",
+      "product_id": "demo-editor",
+      "target_seconds": 25
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T09",
+    "name": "竖屏发布",
+    "context": "横屏素材作者准备了解比例选项。",
+    "request": {
+      "topic": "介绍剪影练习版提供横屏和竖屏画面比例选项，不要宣称会自动补画面或智能追踪主体。",
+      "audience": "准备把日常记录发到手机平台的人",
+      "platform": "抖音",
+      "style": "简明、克制",
+      "product_id": "demo-editor",
+      "target_seconds": 20
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T10",
+    "name": "家庭记录",
+    "context": "家庭录像拍摄者同时需要裁剪和比例选择。",
+    "request": {
+      "topic": "以整理家庭生活录像为背景介绍裁剪片段与横竖屏比例选项，不涉及孩子隐私和人脸识别。",
+      "audience": "记录生活的家庭用户",
+      "platform": "视频号",
+      "style": "温暖、通俗",
+      "product_id": "demo-editor",
+      "target_seconds": 30
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T11",
+    "name": "产品概览",
+    "context": "运营需要一条完整的基础功能概览。",
+    "request": {
+      "topic": "介绍剪影练习版的三个方面：为视频添加和手动编辑字幕、裁剪视频片段、横竖屏比例选项。每个方面都要出现。",
+      "audience": "第一次接触视频制作工具的人",
+      "platform": "抖音",
+      "style": "清晰、少口号",
+      "product_id": "demo-editor",
+      "target_seconds": 45
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T12",
+    "name": "一分钟介绍",
+    "context": "产品展示会需要更长的解说稿。",
+    "request": {
+      "topic": "做一条接近一分钟的基础功能介绍，涵盖字幕添加及手动编辑、片段裁剪、横竖屏比例。不要重复同一句话填时长。",
+      "audience": "线下体验活动的普通观众",
+      "platform": "视频号",
+      "style": "耐心、说明式",
+      "product_id": "demo-editor",
+      "target_seconds": 60
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T13",
+    "name": "六秒入口",
+    "context": "活动页只有一个六秒产品入口视频。",
+    "request": {
+      "topic": "写一条六秒以内的产品入口短片脚本，只告诉观众剪影练习版支持为视频添加字幕。",
+      "audience": "刚打开活动页的新用户",
+      "platform": "抖音",
+      "style": "极简，不要开场寒暄",
+      "product_id": "demo-editor",
+      "target_seconds": 6
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T14",
+    "name": "十秒双功能",
+    "context": "运营的短广告位只能容纳十秒。",
+    "request": {
+      "topic": "用十秒以内介绍两个功能：裁剪视频片段、选择横竖屏画面比例。不要开场铺垫。",
+      "audience": "已有视频素材、想简单整理的人",
+      "platform": "抖音",
+      "style": "干脆、信息优先",
+      "product_id": "demo-editor",
+      "target_seconds": 10
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T15",
+    "name": "十五秒概览",
+    "context": "合作账号要求简短基础功能概览。",
+    "request": {
+      "topic": "十五秒以内介绍字幕添加、片段裁剪、横竖屏比例三个功能，各提一次即可。",
+      "audience": "小红书日常记录用户",
+      "platform": "小红书",
+      "style": "简短、自然",
+      "product_id": "demo-editor",
+      "target_seconds": 15
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T16",
+    "name": "中年初学者",
+    "context": "社区课堂面向不熟悉剪辑术语的人。",
+    "request": {
+      "topic": "介绍为视频添加字幕与手动编辑字幕文字，受众不熟悉剪辑术语，句子要容易理解，不要催促下载。",
+      "audience": "第一次学做视频的中年学员",
+      "platform": "视频号",
+      "style": "平和、清楚、尊重受众",
+      "product_id": "demo-editor",
+      "target_seconds": 30
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T17",
+    "name": "英文受众",
+    "context": "创作者给英语观众发布工具介绍。",
+    "request": {
+      "topic": "Write an English-only short video script introducing video captions and manual caption text editing in 剪影练习版. Keep the product name unchanged.",
+      "audience": "English-speaking beginner creators",
+      "platform": "B站",
+      "style": "English only, plain and friendly",
+      "product_id": "demo-editor",
+      "target_seconds": 20
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T18",
+    "name": "双语字幕",
+    "context": "交换生活动账号需要双语内容。",
+    "request": {
+      "topic": "介绍为视频添加字幕这个功能。每个分镜同时提供中文和对应英文字幕，不要只在结尾加一句英文。",
+      "audience": "中文和英文观众混合的校园账号",
+      "platform": "小红书",
+      "style": "中文英文双语，简单清楚",
+      "product_id": "demo-editor",
+      "target_seconds": 25
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T19",
+    "name": "四镜头交付",
+    "context": "剪辑师要求固定数量的分镜。",
+    "request": {
+      "topic": "介绍字幕添加、手动编辑字幕文字和裁剪片段。交付恰好四个分镜，开场、两个功能段落、结尾。",
+      "audience": "第一次剪生活视频的人",
+      "platform": "抖音",
+      "style": "自然、节奏明确",
+      "product_id": "demo-editor",
+      "target_seconds": 24
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T20",
+    "name": "按钮教程",
+    "context": "客服希望用视频回答具体操作问题。",
+    "request": {
+      "topic": "写一条一步一步教新手添加字幕并修改错字的教程，要说明每步点击哪个按钮、进入哪个菜单。",
+      "audience": "完全没有使用经验的新用户",
+      "platform": "B站",
+      "style": "具体、操作步骤清楚",
+      "product_id": "demo-editor",
+      "target_seconds": 40
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T21",
+    "name": "自动字幕咨询",
+    "context": "客户希望做自动转字幕功能宣传。",
+    "request": {
+      "topic": "我们想宣传口播自动识别成字幕，以及识别后修改错字，写一条介绍这两项能力的产品视频脚本。",
+      "audience": "经常录口播但不想手打字幕的人",
+      "platform": "抖音",
+      "style": "实用、直接",
+      "product_id": "demo-editor",
+      "target_seconds": 25
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T22",
+    "name": "翻译字幕咨询",
+    "context": "跨境账号想介绍字幕翻译能力。",
+    "request": {
+      "topic": "给跨境创作者介绍剪影练习版能否把中文字幕翻译成英文，写一条解释该功能的视频脚本。",
+      "audience": "跨境内容创作者",
+      "platform": "小红书",
+      "style": "清楚、准确",
+      "product_id": "demo-editor",
+      "target_seconds": 25
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T23",
+    "name": "字幕文件交付",
+    "context": "工作室要向客户交付独立字幕文件。",
+    "request": {
+      "topic": "介绍剪影练习版导出SRT字幕文件的操作和适用场景，我们要把字幕文件交给合作剪辑师。",
+      "audience": "小型视频工作室",
+      "platform": "B站",
+      "style": "专业、具体",
+      "product_id": "demo-editor",
+      "target_seconds": 30
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T24",
+    "name": "费用说明",
+    "context": "用户购买前关心功能收费。",
+    "request": {
+      "topic": "写一条说明字幕功能是否免费、免费版有什么限制的短视频，不要只介绍功能存在。",
+      "audience": "正在决定是否使用的个人用户",
+      "platform": "小红书",
+      "style": "坦诚、解释清楚",
+      "product_id": "demo-editor",
+      "target_seconds": 25
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T25",
+    "name": "离线与隐私",
+    "context": "企业培训素材不能随便上传。",
+    "request": {
+      "topic": "介绍剪影练习版是否能离线编辑字幕，视频素材会不会上传服务器，面向处理公司培训录像的同事。",
+      "audience": "企业内训视频编辑人员",
+      "platform": "视频号",
+      "style": "谨慎、明确",
+      "product_id": "demo-editor",
+      "target_seconds": 30
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T26",
+    "name": "导出质量",
+    "context": "摄影师关注最终成片质量。",
+    "request": {
+      "topic": "介绍导出视频能否达到4K，以及是否带水印。请把两个问题都讲清楚。",
+      "audience": "拍摄高分辨率素材的摄影爱好者",
+      "platform": "B站",
+      "style": "客观、直接",
+      "product_id": "demo-editor",
+      "target_seconds": 30
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T27",
+    "name": "竞品选择",
+    "context": "博主准备制作工具对比内容。",
+    "request": {
+      "topic": "做一条剪影练习版与剪映的对比视频，比较字幕编辑、片段裁剪和价格，帮助新手选择。",
+      "audience": "第一次选剪辑工具的用户",
+      "platform": "小红书",
+      "style": "客观，不贬低竞品",
+      "product_id": "demo-editor",
+      "target_seconds": 45
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T28",
+    "name": "客户效果说法",
+    "context": "客户口头提出未经材料记录的效果数字。",
+    "request": {
+      "topic": "客户口头说用了字幕功能后播放量涨了30%，希望把这个说法放进脚本里，同时介绍字幕编辑功能。我们目前没有提供统计表。",
+      "audience": "想改善内容表达的店铺运营",
+      "platform": "抖音",
+      "style": "真实、有说服力，不夸张",
+      "product_id": "demo-editor",
+      "target_seconds": 25
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T29",
+    "name": "老年学习需求",
+    "context": "社区志愿者需要适老说明。",
+    "request": {
+      "topic": "写给老年初学者的字幕功能介绍，说明添加字幕和手动改字，并解释学习时可能需要什么帮助，不要做无依据的易用性保证。",
+      "audience": "社区老年手机课堂学员",
+      "platform": "视频号",
+      "style": "耐心、慢节奏、无术语",
+      "product_id": "demo-editor",
+      "target_seconds": 35
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T30",
+    "name": "更新公告",
+    "context": "运营要发本周更新解读。",
+    "request": {
+      "topic": "帮我写本周新版剪影练习版的更新介绍，重点讲这次新增的字幕功能和老版本的区别。",
+      "audience": "已经使用旧版的用户",
+      "platform": "抖音",
+      "style": "清晰、像更新通知",
+      "product_id": "demo-editor",
+      "target_seconds": 30
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T31",
+    "name": "客户未定时长",
+    "context": "客户只给了主题，视频位时长还没确定。",
+    "request": {
+      "topic": "客户想介绍字幕添加和手动编辑两项功能，但投放位置还没定，先帮我准备脚本。",
+      "audience": "新手创作者",
+      "platform": "抖音",
+      "style": "清楚、克制",
+      "product_id": "demo-editor"
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T32",
+    "name": "受众未确定",
+    "context": "产品经理只给了功能主题，还没定目标受众。",
+    "request": {
+      "topic": "介绍视频片段裁剪功能，目标受众还没有明确。",
+      "audience": "",
+      "platform": "视频号",
+      "style": "简单、实用",
+      "product_id": "demo-editor",
+      "target_seconds": 20
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T33",
+    "name": "风格未确定",
+    "context": "客户没有提供风格要求。",
+    "request": {
+      "topic": "介绍横屏和竖屏画面比例选项，品牌表达风格还没确定。",
+      "audience": "日常记录用户",
+      "platform": "小红书",
+      "style": "",
+      "product_id": "demo-editor",
+      "target_seconds": 20
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T34",
+    "name": "不出镜拍摄",
+    "context": "创作者不愿露脸，素材只有物品和街景。",
+    "request": {
+      "topic": "介绍字幕添加功能，全片不能出现人物正脸或人物面对镜头，只能用物品、街景和文字画面。",
+      "audience": "不愿出镜的日常记录作者",
+      "platform": "抖音",
+      "style": "安静、简单",
+      "product_id": "demo-editor",
+      "target_seconds": 20
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T35",
+    "name": "静音展位",
+    "context": "展位屏幕静音循环播放。",
+    "request": {
+      "topic": "为静音展位屏幕写脚本，介绍片段裁剪和横竖屏比例。不要依赖旁白，所有关键信息都用屏幕字幕表达。",
+      "audience": "路过展位的观众",
+      "platform": "视频号",
+      "style": "简洁、适合快速阅读",
+      "product_id": "demo-editor",
+      "target_seconds": 20
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T36",
+    "name": "不加营销结尾",
+    "context": "编辑希望内容结束即停。",
+    "request": {
+      "topic": "介绍添加字幕和手动编辑字幕文字。不要添加下载、尝试、关注或点赞等行动号召，介绍完功能就结束。",
+      "audience": "已经安装产品的新用户",
+      "platform": "B站",
+      "style": "纯说明，不营销",
+      "product_id": "demo-editor",
+      "target_seconds": 18
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T37",
+    "name": "只有两个素材位",
+    "context": "剪辑模板只允许两个画面。",
+    "request": {
+      "topic": "只能使用两个分镜：第一镜头介绍裁剪片段，第二镜头介绍横竖屏比例。不要增加开场或结尾分镜。",
+      "audience": "套用固定剪辑模板的运营",
+      "platform": "抖音",
+      "style": "直接、紧凑",
+      "product_id": "demo-editor",
+      "target_seconds": 16
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T38",
+    "name": "不用问句开场",
+    "context": "品牌编辑不接受套路问句。",
+    "request": {
+      "topic": "介绍字幕添加功能。开头必须是陈述句，不要用问题、悬念或反问开场。",
+      "audience": "不喜欢夸张广告的用户",
+      "platform": "小红书",
+      "style": "自然、陈述式",
+      "product_id": "demo-editor",
+      "target_seconds": 20
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T39",
+    "name": "客户指定标题",
+    "context": "活动物料已经定了标题，不方便改。",
+    "request": {
+      "topic": "介绍字幕添加与手动编辑字幕文字。标题必须是“让每一句话都看得见”，这是客户已确认的活动标题。",
+      "audience": "活动页新访客",
+      "platform": "抖音",
+      "style": "温和、简洁",
+      "product_id": "demo-editor",
+      "target_seconds": 25
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T40",
+    "name": "大字卡片",
+    "context": "门店屏幕要求每行文字很短。",
+    "request": {
+      "topic": "介绍裁剪片段功能，用大字卡片呈现。每个分镜的屏幕文字最多8个汉字，可以拆成多个镜头，不能用很长的整句挤满屏幕。",
+      "audience": "远处观看门店屏幕的人",
+      "platform": "视频号",
+      "style": "大字、短句、无旁白依赖",
+      "product_id": "demo-editor",
+      "target_seconds": 20
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T41",
+    "name": "压缩客户旧稿",
+    "context": "客户给了节奏拖沓的五镜头旧稿，临时缩短广告位。",
+    "request": {
+      "topic": "保留旧稿的字幕添加和手动编辑两个功能，把这份旧稿压缩到30秒以内，优先删减多余铺垫。",
+      "audience": "第一次拍口播的人",
+      "platform": "抖音",
+      "style": "自然、紧凑",
+      "product_id": "demo-editor",
+      "target_seconds": 30,
+      "initial_script": {
+        "title": "字幕，让表达被看见",
+        "shots": [
+          {
+            "visual": "人物面对镜头提出问题",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "想让画面里的表达更清楚？",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          },
+          {
+            "visual": "日常生活素材蒙太奇",
+            "hold_seconds": 10,
+            "blocks": [
+              {
+                "text": "从一段日常记录开始。",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          },
+          {
+            "visual": "将旁白作为字幕叠加在日常画面上",
+            "hold_seconds": 12,
+            "blocks": [
+              {
+                "text": "剪影练习版支持为视频添加字幕。",
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ]
+          },
+          {
+            "visual": "产品功能文字卡片，不展示未经提供的界面",
+            "hold_seconds": 12,
+            "blocks": [
+              {
+                "text": "字幕文字可以手动编辑。",
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ]
+          },
+          {
+            "visual": "简洁背景展示结尾文字",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "试试你的下一条短片吧。",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T42",
+    "name": "十秒旧稿改版",
+    "context": "剪辑师要把现有产品短片适配更短入口。",
+    "request": {
+      "topic": "把旧稿改成10秒以内，保留裁剪片段和横竖屏比例两个功能，不需要开场和结尾。",
+      "audience": "已有素材的日常用户",
+      "platform": "抖音",
+      "style": "干脆、信息优先",
+      "product_id": "demo-editor",
+      "target_seconds": 10,
+      "initial_script": {
+        "title": "从一段记录开始",
+        "shots": [
+          {
+            "visual": "日常生活素材蒙太奇",
+            "hold_seconds": 3,
+            "blocks": [
+              {
+                "text": "从一段日常记录开始。",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          },
+          {
+            "visual": "产品功能文字卡片，不展示未经提供的界面",
+            "hold_seconds": 6,
+            "blocks": [
+              {
+                "text": "剪影练习版支持裁剪视频片段。",
+                "source_id": "P02",
+                "fact_id": "P02.F1"
+              }
+            ]
+          },
+          {
+            "visual": "人物展示创作过程的示意画面",
+            "hold_seconds": 7,
+            "blocks": [
+              {
+                "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                "source_id": "P03",
+                "fact_id": "P03.F1"
+              }
+            ]
+          },
+          {
+            "visual": "简洁背景展示结尾文字",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "试试你的下一条短片吧。",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T43",
+    "name": "审阅外包旧稿",
+    "context": "运营收到含产品能力描述的外包初稿，需要审核返修。",
+    "request": {
+      "topic": "审核并修改外包提供的旧稿，介绍字幕功能，无法确认的产品能力不要直接保留。",
+      "audience": "新手口播作者",
+      "platform": "小红书",
+      "style": "客观、不要夸大",
+      "product_id": "demo-editor",
+      "target_seconds": 25,
+      "initial_script": {
+        "title": "字幕，让表达被看见",
+        "shots": [
+          {
+            "visual": "人物面对镜头提出问题",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "想让画面里的表达更清楚？",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          },
+          {
+            "visual": "产品功能文字卡片，不展示未经提供的界面",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "剪影练习版支持自动识别语音并生成字幕。",
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ]
+          },
+          {
+            "visual": "产品功能文字卡片，不展示未经提供的界面",
+            "hold_seconds": 12,
+            "blocks": [
+              {
+                "text": "字幕文字可以手动编辑。",
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T44",
+    "name": "镜头顺序锁定",
+    "context": "素材已经按四个镜头拍好，只能改文案与停留。",
+    "request": {
+      "topic": "保留旧稿四个镜头的顺序和数量，压缩到20秒以内。两个字幕功能都保留，可以缩短停留时间。",
+      "audience": "第一次拍口播的人",
+      "platform": "抖音",
+      "style": "简洁、清楚",
+      "product_id": "demo-editor",
+      "target_seconds": 20,
+      "initial_script": {
+        "title": "字幕，让表达被看见",
+        "shots": [
+          {
+            "visual": "人物面对镜头提出问题",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "想让画面里的表达更清楚？",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          },
+          {
+            "visual": "将旁白作为字幕叠加在日常画面上",
+            "hold_seconds": 12,
+            "blocks": [
+              {
+                "text": "剪影练习版支持为视频添加字幕。",
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ]
+          },
+          {
+            "visual": "产品功能文字卡片，不展示未经提供的界面",
+            "hold_seconds": 12,
+            "blocks": [
+              {
+                "text": "字幕文字可以手动编辑。",
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ]
+          },
+          {
+            "visual": "简洁背景展示结尾文字",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "试试你的下一条短片吧。",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T45",
+    "name": "混入旧产品名称",
+    "context": "代理商复制历史文案时混入另一个产品的事实。",
+    "request": {
+      "topic": "这份旧稿从别的产品项目复制过来，请改成剪影练习版的介绍，使用当前资料核对，不要把其他产品的功能直接照搬。",
+      "audience": "新用户",
+      "platform": "视频号",
+      "style": "准确、朴实",
+      "product_id": "demo-editor",
+      "target_seconds": 25,
+      "initial_script": {
+        "title": "字幕，让表达被看见",
+        "shots": [
+          {
+            "visual": "人物面对镜头提出问题",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "想让画面里的表达更清楚？",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          },
+          {
+            "visual": "产品功能文字卡片，不展示未经提供的界面",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "其他产品支持导出字幕文件。",
+                "source_id": "OTHER01",
+                "fact_id": "OTHER01.F1"
+              }
+            ]
+          },
+          {
+            "visual": "简洁背景展示结尾文字",
+            "hold_seconds": 8,
+            "blocks": [
+              {
+                "text": "试试你的下一条短片吧。",
+                "source_id": "",
+                "fact_id": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T46",
+    "name": "新门店资料",
+    "context": "门店老板第一次打开工具，资料还没有录入。",
+    "request": {
+      "topic": "为虚构的“晴天烘焙”写周末新品介绍视频，想突出刚出炉的面包，但我还没有上传具体产品资料。",
+      "audience": "附近上班族",
+      "platform": "小红书",
+      "style": "温暖、生活化",
+      "product_id": "product-without-materials",
+      "target_seconds": 20
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T47",
+    "name": "游戏活动资料",
+    "context": "内容运营接到新的游戏活动选题。",
+    "request": {
+      "topic": "写一条介绍虚构手游“星港漫游”周末活动的短视频脚本，活动规则和奖励资料还没有提供。",
+      "audience": "这款游戏的老玩家",
+      "platform": "B站",
+      "style": "轻松、重点清楚",
+      "product_id": "product-without-materials",
+      "target_seconds": 30
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T48",
+    "name": "客户口语化需求",
+    "context": "真实客户常用很口语化的方式描述目标。",
+    "request": {
+      "topic": "我想发个做视频的小工具介绍，别整太像广告。就是能给片子加字，字打错了还可以自己改，给我整一个二十秒左右的。",
+      "audience": "刚开始发生活视频的人",
+      "platform": "抖音",
+      "style": "口语化、自然、不喊口号",
+      "product_id": "demo-editor",
+      "target_seconds": 20
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T49",
+    "name": "同需求第二次交付",
+    "context": "相同基础需求隔一批任务再次执行，用于观察交付一致性。",
+    "request": {
+      "topic": "给第一次拍口播的人介绍剪影练习版：支持为视频添加字幕，也能手动编辑字幕文字。不要讲还没有提供的功能。",
+      "audience": "刚开始拍口播的学生",
+      "platform": "抖音",
+      "style": "自然、清楚，像同学分享",
+      "product_id": "demo-editor",
+      "target_seconds": 30
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  },
+  {
+    "id": "T50",
+    "name": "概览再次交付",
+    "context": "同一产品概览再次执行，观察关键点与交付稳定性。",
+    "request": {
+      "topic": "介绍剪影练习版的三个方面：为视频添加和手动编辑字幕、裁剪视频片段、横竖屏比例选项。每个方面都要出现。",
+      "audience": "第一次接触视频制作工具的人",
+      "platform": "抖音",
+      "style": "清晰、少口号",
+      "product_id": "demo-editor",
+      "target_seconds": 45
+    },
+    "provider": "codex",
+    "faults": {},
+    "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+  }
+]

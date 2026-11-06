@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-wgbu1n84",
+  "started_at": "2026-11-04T01:43:36.973665+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:44:00.502619+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a439-dc0d-7ec0-a105-e244ea2e110e",
+    "usage": {
+      "input_tokens": 28929,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 243,
+      "reasoning_output_tokens": 168
+    },
+    "call_id": "decision-wgbu1n84",
+    "warnings": []
+  }
+}

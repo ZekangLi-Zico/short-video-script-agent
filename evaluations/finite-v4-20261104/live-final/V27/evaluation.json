@@ -1,0 +1,12 @@
+{
+  "case": "V27",
+  "status": "completed",
+  "model_responses": 7,
+  "provider": "codex",
+  "steps": 6,
+  "seconds": 8.8,
+  "review_calls": 1,
+  "review_has_current_duration": true,
+  "replay_errors": [],
+  "message": "已完成两个分镜：第一镜用剪刀和胶片意象介绍裁剪片段；第二镜用横竖相框介绍比例选项，无开场或结尾镜头。当前稿无需删改，估算总长8.8秒，符合10秒上限；实际成片时长仍需复核。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

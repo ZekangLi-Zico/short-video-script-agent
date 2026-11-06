@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-lme35ylo",
+  "started_at": "2026-11-03T21:20:21.106644+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:20:39.468219+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a348-d6e1-7601-a071-eacee3505719",
+    "usage": {
+      "input_tokens": 27036,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 127,
+      "reasoning_output_tokens": 62
+    },
+    "call_id": "decision-lme35ylo",
+    "warnings": []
+  }
+}

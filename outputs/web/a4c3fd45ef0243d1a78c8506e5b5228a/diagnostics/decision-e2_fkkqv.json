@@ -1,0 +1,16 @@
+{
+  "call_id": "decision-e2_fkkqv",
+  "started_at": "2026-11-05T18:09:57.252919+00:00",
+  "response_received": false,
+  "error_code": "codex_timeout",
+  "finished_at": "2026-11-05T18:12:58.034052+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": null,
+    "usage": {},
+    "call_id": "decision-e2_fkkqv",
+    "warnings": []
+  }
+}

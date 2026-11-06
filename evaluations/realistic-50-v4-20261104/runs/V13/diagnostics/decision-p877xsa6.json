@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-p877xsa6",
+  "started_at": "2026-11-03T21:20:39.484220+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:21:08.213725+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a349-1bd8-7712-9ef9-ca2b8062c7eb",
+    "usage": {
+      "input_tokens": 27707,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 647,
+      "reasoning_output_tokens": 398
+    },
+    "call_id": "decision-p877xsa6",
+    "warnings": []
+  }
+}

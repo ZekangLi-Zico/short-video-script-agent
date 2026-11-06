@@ -1,0 +1,13 @@
+{
+  "case": "V22",
+  "index": 13,
+  "attempt": 1,
+  "run_id": "1308fcd1e97841d1966ea1acf77524c1",
+  "folder": "V22",
+  "status": "completed",
+  "steps": 4,
+  "responses": 5,
+  "provider": "codex",
+  "seconds": 28.6,
+  "message": "已完成4镜脚本，预计28.6秒：以展厅入口和画册介绍横竖屏比例，中文旁白配对应英文屏幕译文，未宣称产品具有翻译功能。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。"
+}

@@ -1,0 +1,270 @@
+# 短视频脚本运行结果
+
+- 状态：`completed`
+- 证据类型：`real_model`
+- 说明：已完成早餐备料场景的三镜脚本，只介绍添加字幕，按蒸笼、手写菜单、打包台排序，明确不拍顾客正脸。当前稿无需修改；预计13秒，符合25秒上限，三项检查均通过。
+
+当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。
+
+## 早餐备料，给口播加上字幕
+
+> 未完成或检查失败时，下列内容仅为未通过验收的草稿。
+
+### 分镜 1
+
+画面：竖屏近拍蒸笼，摊主双手摆好包子。摊主以日常聊天的语气说本镜头文案，画面同步叠加同文字幕，展示添加字幕后的效果。只拍蒸笼和手部，不出现顾客正脸。
+
+旁白/字幕：今天备料，包子先上笼。
+
+来源：
+
+预计镜头时长：3.0 秒
+
+### 分镜 2
+
+画面：切到手写菜单特写，摊主的手将菜单摆正。以同事分享经验的口吻读出产品事实，同文字幕叠加在画面上。只展示添加字幕后的成片效果，不展示软件界面，不出现顾客正脸。
+
+旁白/字幕：剪影练习版支持为视频添加字幕。
+
+来源：P01/P01.F1
+
+预计镜头时长：4.0 秒
+
+### 分镜 3
+
+画面：切到打包台，近拍摊主双手整理打包袋。第一块是摊主口播，第二块是同事口吻的收尾旁白，依次配上同文字幕。画面始终只取打包台和手部，不出现顾客正脸。
+
+旁白/字幕：打包袋备齐了，准备开摊。拍备料日常，给口播加上字幕。
+
+来源：
+
+预计镜头时长：6.0 秒
+
+预计总时长：13.0 秒（基于语速与镜头停留估算，非成片实测）。
+
+## 检查结果与来源
+
+```json
+{
+  "ok": true,
+  "script_hash": "c1dd302182184a7844e4f942393971b58826c1aa46c5b5e1bb1114da703aedee",
+  "passed": true,
+  "issues": [],
+  "citations": [
+    {
+      "location": "shot:2/block:1",
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01"
+    }
+  ],
+  "rules_version": "2026-11-03-v1",
+  "requires_expression_review": true,
+  "expression_slots": [
+    {
+      "location": "title",
+      "text": "早餐备料，给口播加上字幕"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "竖屏近拍蒸笼，摊主双手摆好包子。摊主以日常聊天的语气说本镜头文案，画面同步叠加同文字幕，展示添加字幕后的效果。只拍蒸笼和手部，不出现顾客正脸。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "今天备料，包子先上笼。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "切到手写菜单特写，摊主的手将菜单摆正。以同事分享经验的口吻读出产品事实，同文字幕叠加在画面上。只展示添加字幕后的成片效果，不展示软件界面，不出现顾客正脸。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "切到打包台，近拍摊主双手整理打包袋。第一块是摊主口播，第二块是同事口吻的收尾旁白，依次配上同文字幕。画面始终只取打包台和手部，不出现顾客正脸。"
+    },
+    {
+      "location": "shot:3/block:1",
+      "text": "打包袋备齐了，准备开摊。"
+    },
+    {
+      "location": "shot:3/block:2",
+      "text": "拍备料日常，给口播加上字幕。"
+    }
+  ],
+  "available_facts": [
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F1",
+      "quote": "剪影练习版支持为视频添加字幕。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P01",
+      "fact_id": "P01.F2",
+      "quote": "字幕文字可以手动编辑。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P02",
+      "fact_id": "P02.F1",
+      "quote": "剪影练习版支持裁剪视频片段。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P03",
+      "fact_id": "P03.F1",
+      "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+      "version": "2026-11-01"
+    }
+  ],
+  "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+}
+```
+
+## 需求覆盖核对
+
+以下为模型评估，可能漏判或误判，仍需人工确认。
+
+```json
+{
+  "ok": true,
+  "script_hash": "c1dd302182184a7844e4f942393971b58826c1aa46c5b5e1bb1114da703aedee",
+  "request_hash": "4299792130470435332510610b8526e5f391e330ac68588a7ba5d1498ead5ad2",
+  "passed": true,
+  "items": [
+    {
+      "field": "topic",
+      "requirement": "做一条剪影练习版字幕功能介绍",
+      "verdict": "met",
+      "evidence": "第2镜明确介绍“剪影练习版支持为视频添加字幕。”，各镜头展示添加字幕后的画面。"
+    },
+    {
+      "field": "topic",
+      "requirement": "背景是早餐摊主讲今日备料",
+      "verdict": "met",
+      "evidence": "第1镜摊主摆包子并口播“今天备料，包子先上笼。”；第3镜整理打包袋并口播“打包袋备齐了，准备开摊。”，明确体现早餐摊备料场景。"
+    },
+    {
+      "field": "topic",
+      "requirement": "只介绍添加字幕",
+      "verdict": "met",
+      "evidence": "第2镜功能介绍和各镜字幕效果均仅涉及添加字幕。竖屏近拍、切换场景是拍摄安排，未介绍产品的画面比例、裁剪或字幕手动编辑功能。"
+    },
+    {
+      "field": "topic",
+      "requirement": "画面按蒸笼、手写菜单、打包台的顺序",
+      "verdict": "met",
+      "evidence": "第1镜“竖屏近拍蒸笼”，第2镜“切到手写菜单特写”，第3镜“切到打包台”，顺序一致。"
+    },
+    {
+      "field": "topic",
+      "requirement": "不要出现顾客正脸",
+      "verdict": "met",
+      "evidence": "三镜均明确“不出现顾客正脸”；第1、3镜限定蒸笼或打包台与手部，第2镜限定菜单特写。"
+    },
+    {
+      "field": "audience",
+      "requirement": "小店新媒体兼职",
+      "verdict": "met",
+      "evidence": "以早餐摊日常素材介绍添加字幕，文案简短，无专业术语；蒸笼、菜单、打包台的具体拍摄安排适合小店内容制作。"
+    },
+    {
+      "field": "platform",
+      "requirement": "抖音",
+      "verdict": "met",
+      "evidence": "第1镜明确竖屏，采用连续三个近景或特写并配字幕，适合手机短视频观看；宿主估算总长13秒。"
+    },
+    {
+      "field": "style",
+      "requirement": "像同事分享经验",
+      "verdict": "met",
+      "evidence": "第2、3镜明确采用同事口吻；“拍备料日常，给口播加上字幕。”以直接、日常的建议收尾。"
+    },
+    {
+      "field": "style",
+      "requirement": "短句",
+      "verdict": "met",
+      "evidence": "口播使用“今天备料，包子先上笼。”“打包袋备齐了，准备开摊。”等短句，产品介绍也只有一句。"
+    }
+  ],
+  "summary": "当前稿满足全部明确需求：只介绍添加字幕，早餐备料场景、镜头顺序及避开顾客正脸均已落实。表达未超出资料支持的能力，预计13秒，符合25秒上限，节奏合理。",
+  "method": "model_assessment_not_deterministic_proof",
+  "expressions": [
+    {
+      "location": "title",
+      "text": "早餐备料，给口播加上字幕",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "以早餐备料为场景，邀请给口播添加字幕，没有额外的性能或效果承诺。"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "竖屏近拍蒸笼，摊主双手摆好包子。摊主以日常聊天的语气说本镜头文案，画面同步叠加同文字幕，展示添加字幕后的效果。只拍蒸笼和手部，不出现顾客正脸。",
+      "verdict": "supported_claim",
+      "references": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1"
+        }
+      ],
+      "evidence": "产品能力展示仅为视频添加字幕，由P01.F1支持。“同步叠加同文字幕”描述成片呈现，未声称自动识别或自动生成；其余为场景和拍摄安排。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "今天备料，包子先上笼。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "摊主讲述备料动作，不含产品能力、效果或真实客户背书。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "切到手写菜单特写，摊主的手将菜单摆正。以同事分享经验的口吻读出产品事实，同文字幕叠加在画面上。只展示添加字幕后的成片效果，不展示软件界面，不出现顾客正脸。",
+      "verdict": "supported_claim",
+      "references": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1"
+        }
+      ],
+      "evidence": "同文字幕和添加字幕后的成片效果均对应P01.F1。没有虚构软件界面、按钮或操作流程；菜单特写属于拍摄安排。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "切到打包台，近拍摊主双手整理打包袋。第一块是摊主口播，第二块是同事口吻的收尾旁白，依次配上同文字幕。画面始终只取打包台和手部，不出现顾客正脸。",
+      "verdict": "supported_claim",
+      "references": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1"
+        }
+      ],
+      "evidence": "为两段口播依次配字幕的成片展示由P01.F1支持，没有增加自动化能力声明；打包动作、说话角色和取景范围属于拍摄安排。"
+    },
+    {
+      "location": "shot:3/block:1",
+      "text": "打包袋备齐了，准备开摊。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "描述早餐摊备料进度，不含产品声明。"
+    },
+    {
+      "location": "shot:3/block:2",
+      "text": "拍备料日常，给口播加上字幕。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "属于拍摄与添加字幕的行动建议，没有承诺额外产品能力或传播效果。"
+    }
+  ],
+  "pacing": {
+    "verdict": "met",
+    "evidence": "宿主估算第1镜3秒、9个旁白单位，配摆包子动作；第2镜4秒、14个旁白单位，配摆正菜单与字幕展示；第3镜6秒、22个旁白单位，配整理打包袋及两段短句。各镜均满足3秒最低停留，内容能够支撑预计时长。字幕效果贯穿不同备料动作，未见靠重复空镜凑时长；总长13秒且上限检查通过。"
+  },
+  "expression_review_passed": true
+}
+```
+
+## 执行路径
+
+search_materials → write_script → estimate_duration → check_rules → check_requirements → finish
+
+逐步参数、观察和简短决策依据见 trace.jsonl。未记录模型内部思维过程。

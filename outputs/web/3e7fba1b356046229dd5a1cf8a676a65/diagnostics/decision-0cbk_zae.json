@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-0cbk_zae",
+  "started_at": "2026-11-03T21:18:04.236266+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:18:19.481650+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a346-be3a-76c3-a3bd-010bf31b3fb7",
+    "usage": {
+      "input_tokens": 28760,
+      "cached_input_tokens": 9600,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 148,
+      "reasoning_output_tokens": 90
+    },
+    "call_id": "decision-0cbk_zae",
+    "warnings": []
+  }
+}

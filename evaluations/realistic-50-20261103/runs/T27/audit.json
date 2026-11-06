@@ -1,0 +1,68 @@
+{
+  "case": "T27",
+  "name": "竞品选择",
+  "run_id": "fba5b68437124f06ac541cb86533c513",
+  "status": "needs_input",
+  "message": "请补充剪映字幕编辑、片段裁剪功能及两款产品价格的可引用事实，附准确的 source_id、fact_id；价格需注明版本、日期和适用范围。",
+  "steps": 3,
+  "model_calls": 3,
+  "seconds": null,
+  "target_seconds": 45,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "search_materials",
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "剪影练习版（product_id: demo-editor）与剪映：字幕编辑、片段裁剪、价格的可引用事实及来源；价格注明版本、适用范围和时间。",
+    "补充缺失素材：剪映的字幕文字编辑、视频片段裁剪功能；剪映与剪影练习版各自的价格、收费套餐。请提供可逐字引用的事实及来源，价格注明版本、日期和适用范围。"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "当前没有素材，需要检索两款工具的字幕编辑、片段裁剪及价格事实。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "basis": "现有素材缺少剪映功能事实及两款产品的价格，尚不足以完成对比。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "basis": "两次检索均未取得剪映功能及两款产品的价格事实，素材不足以完成对比。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 69.1,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "d59ef2222d1b7fa0c481dbb1c96f96d8a08298c4864e703eb86a76b7af075397",
+    "output.json": "24fda3f250b6fe424a416522d6991adb6b2c479bbc48f2d529308df0eabaa6f2",
+    "trace.jsonl": "ddbf5dd64e217524e525568883cd969e12cb9334d93310d2c8781a245e1660e0",
+    "manifest.json": "60addd3ca2604870599665f2f35da1db869545323545be34fa0420cd9f55c351",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "52d884865de0eeff69ccc381c3a90bc2607621873f9921fffbc935c9a22cef37"
+  }
+}

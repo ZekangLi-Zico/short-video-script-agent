@@ -1,0 +1,8 @@
+{
+  "case": "V46",
+  "assessment": "有效纠错；审稿解释与公开稿分离",
+  "note": "公开稿只保留P01添加字幕与手动编辑两镜，自动识别示意和99%准确率均删除；删除原因、资料缺口及不等于不支持的说明完整放在editor_notes，不再朗读内部审稿过程。第一次需求审核因静态话筒8秒节奏不足拒绝，随后首镜改4秒，最终12秒。与v4同为12步14响应，改进是交付内容分离，不是降低调用；未观察到时长证据误读。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

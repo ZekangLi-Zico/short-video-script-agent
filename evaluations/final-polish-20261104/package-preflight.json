@@ -1,0 +1,6 @@
+{
+  "files_considered": 5830,
+  "forbidden_filename_matches": [],
+  "credential_pattern_file_matches": [],
+  "scope": "Limited name/pattern inspection; runtime/auth directories are excluded from package, not a comprehensive secret scanner."
+}

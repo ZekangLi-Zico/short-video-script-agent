@@ -1,0 +1,12 @@
+{
+  "frozen_at": "2026-11-04T16:50:47.315657+00:00",
+  "baseline": "realistic-50-v5-20261104",
+  "cases": 50,
+  "unique_briefs": 49,
+  "cases_sha256": "d173710d0f93a63744584cd839b4070c70f8f748022721b200b51d50fb9fe1a3",
+  "submission": "browser UI only",
+  "provider": "codex real model",
+  "concurrency": 4,
+  "fault": "none",
+  "rule": "Inputs unchanged, no expected answers passed to model. Preserve every attempt. Count received-model failures, no replacement rerun. Freeze code after development."
+}

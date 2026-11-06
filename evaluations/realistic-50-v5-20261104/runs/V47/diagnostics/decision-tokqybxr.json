@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-tokqybxr",
+  "started_at": "2026-11-04T16:07:54.151953+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:08:30.294390+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a751-2784-72b2-8c56-efd3af612579",
+    "usage": {
+      "input_tokens": 30438,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 126,
+      "reasoning_output_tokens": 63
+    },
+    "call_id": "decision-tokqybxr",
+    "warnings": []
+  }
+}

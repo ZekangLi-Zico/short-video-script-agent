@@ -1,0 +1,1226 @@
+{
+  "status": "blocked",
+  "message": "模型调用失败，未完成；见执行记录。",
+  "script": {
+    "format_version": 2,
+    "title": "《城寨风云》陈峥人物预告：他比谁都想活着赢",
+    "shots": [
+      {
+        "purpose": "交代陈峥身患白血病，为求生接受试炼来到城寨。",
+        "visual": "旧音像店内，陈峥垂眼看化验单；切至1986年九龙城寨地下拳台，他抬头面对对手。全镜为同一名画外解说，不对口型。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "白血病困住了陈峥。为了活下去，他接受试炼，来到九龙城寨。",
+            "source_id": "CZ-C-CHEN",
+            "fact_id": "CZ-C-CHEN.F1",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "说明陈峥要靠赢拳筹钱，兑换用于治病的补完剂。",
+        "visual": "陈峥清点奖金，画面切至手中钞票；随后切回拳台，他迎向对手。延续画外解说。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "他要换补完剂治病，得攒够三百万港币。",
+            "source_id": "CZ-WORLD",
+            "fact_id": "CZ-WORLD.F3",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "晋级越高，奖金越多。他得一场场赢，往上打。",
+            "source_id": "CZ-E02",
+            "fact_id": "CZ-E02.F2",
+            "channel": "both",
+            "beat": 2,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "展现赢拳并未消除疾病，求生仍有代价。",
+        "visual": "陈峥以步法避开黑川隼的关节技，反击获胜；战后收拳，疲惫地喘息。延续画外解说，最后留半拍呼吸声。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "赢下黑川隼，他还是那副病体。",
+            "source_id": "CZ-E03",
+            "fact_id": "CZ-E03.F2",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "通过枪口下的选择，展现陈峥保护阿晴的一面。",
+        "visual": "楼道内，贺振坤持枪挟住陈峥；阿晴从另一端走近。先由画外解说交代处境，再切陈峥对白，他放缓语气支走阿晴，目送她离开。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "可被枪指着时，他还惦记着让路过的阿晴脱身。",
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F4",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "阿晴，去街口买点糖。",
+            "source_id": "CZ-E04",
+            "fact_id": "CZ-E04.F4",
+            "channel": "both",
+            "beat": 2,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "承接挟持事件，呈现陈峥抓住机会自救。",
+        "visual": "转至医馆，劫匪争执；陈峥挣脱束缚，夺取手术刀反制郭劲。警方破门的瞬间切黑。声音回到画外解说。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "到了医馆，他趁劫匪内讧，挣出一条活路。",
+            "source_id": "CZ-E05",
+            "fact_id": "CZ-E05.F3",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          }
+        ]
+      },
+      {
+        "purpose": "用陈峥自己的话收束求生动机，以未交手的对手留下悬念。",
+        "visual": "保释后的餐桌前，陈峥看向薇娜，亲口说出对白；切赤锋翻看徐承岳的静态档案照片，最后出现片名。末句为画外解说，不展示两人交手。",
+        "hold_seconds": 0,
+        "blocks": [
+          {
+            "text": "我比谁都想活着赢。",
+            "source_id": "CZ-E06",
+            "fact_id": "CZ-E06.F2",
+            "channel": "both",
+            "beat": 1,
+            "display_seconds": 0
+          },
+          {
+            "text": "下一场，他还能赢吗？",
+            "source_id": "",
+            "fact_id": "",
+            "channel": "both",
+            "beat": 2,
+            "display_seconds": 0
+          }
+        ]
+      }
+    ],
+    "editor_notes": "依据CZ-WORLD.F3补明补完剂用于治病，并在第2镜串起晋级、奖金与求生目标；其余镜头文案保持不变。"
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "a855fd2d60c29c9e6f97084c627f9c79ce09b7dbb90723ff9edd200b852a4819",
+    "shots": [
+      {
+        "shot": 1,
+        "estimated_seconds": 6.5,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 6.5,
+            "voice_seconds": 6.5,
+            "screen_read_seconds": 6.5,
+            "display_seconds": 0,
+            "estimated_seconds": 6.5
+          }
+        ],
+        "tail_hold_seconds": 0.0
+      },
+      {
+        "shot": 2,
+        "estimated_seconds": 9.3,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 4.5,
+            "voice_seconds": 4.5,
+            "screen_read_seconds": 4.5,
+            "display_seconds": 0,
+            "estimated_seconds": 4.5
+          },
+          {
+            "beat": 2,
+            "start_seconds": 4.5,
+            "end_seconds": 9.3,
+            "voice_seconds": 4.75,
+            "screen_read_seconds": 4.75,
+            "display_seconds": 0,
+            "estimated_seconds": 4.8
+          }
+        ],
+        "tail_hold_seconds": 0.0
+      },
+      {
+        "shot": 3,
+        "estimated_seconds": 3.5,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 3.5,
+            "voice_seconds": 3.5,
+            "screen_read_seconds": 3.5,
+            "display_seconds": 0,
+            "estimated_seconds": 3.5
+          }
+        ],
+        "tail_hold_seconds": 0.0
+      },
+      {
+        "shot": 4,
+        "estimated_seconds": 7.8,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 5.3,
+            "voice_seconds": 5.25,
+            "screen_read_seconds": 5.25,
+            "display_seconds": 0,
+            "estimated_seconds": 5.3
+          },
+          {
+            "beat": 2,
+            "start_seconds": 5.3,
+            "end_seconds": 7.8,
+            "voice_seconds": 2.5,
+            "screen_read_seconds": 2.5,
+            "display_seconds": 0,
+            "estimated_seconds": 2.5
+          }
+        ],
+        "tail_hold_seconds": 0.0
+      },
+      {
+        "shot": 5,
+        "estimated_seconds": 4.5,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 4.5,
+            "voice_seconds": 4.5,
+            "screen_read_seconds": 4.5,
+            "display_seconds": 0,
+            "estimated_seconds": 4.5
+          }
+        ],
+        "tail_hold_seconds": 0.0
+      },
+      {
+        "shot": 6,
+        "estimated_seconds": 5.0,
+        "beats": [
+          {
+            "beat": 1,
+            "start_seconds": 0,
+            "end_seconds": 2.5,
+            "voice_seconds": 2.5,
+            "screen_read_seconds": 2.5,
+            "display_seconds": 0,
+            "estimated_seconds": 2.5
+          },
+          {
+            "beat": 2,
+            "start_seconds": 2.5,
+            "end_seconds": 5.0,
+            "voice_seconds": 2.5,
+            "screen_read_seconds": 2.5,
+            "display_seconds": 0,
+            "estimated_seconds": 2.5
+          }
+        ],
+        "tail_hold_seconds": 0.0
+      }
+    ],
+    "total_seconds": 36.6,
+    "target_seconds": 45,
+    "passed": true,
+    "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "a855fd2d60c29c9e6f97084c627f9c79ce09b7dbb90723ff9edd200b852a4819",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:1/block:1",
+        "source_id": "CZ-C-CHEN",
+        "fact_id": "CZ-C-CHEN.F1",
+        "quote": "陈峥曾是国术高手，现因白血病身体虚弱，现实线经营旧音像店；进入城寨的核心动机是活下去，不是征服城寨。",
+        "version": "2026-11-06-v1",
+        "text": "白血病困住了陈峥。为了活下去，他接受试炼，来到九龙城寨。",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:2/block:1",
+        "source_id": "CZ-WORLD",
+        "fact_id": "CZ-WORLD.F3",
+        "quote": "确认港币拥有权后，10000港币可兑换1点阎浮点数。ES造血细胞增强剂为10点，能缓解症状；补完剂为300点，对应治病目标，折合三百万港币。",
+        "version": "2026-11-06-v1",
+        "text": "他要换补完剂治病，得攒够三百万港币。",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:2/block:2",
+        "source_id": "CZ-E02",
+        "fact_id": "CZ-E02.F2",
+        "quote": "陈峥将五万港币确认为己有，兑换到5点，计算出300点补完剂需要三百万港币；赤锋告诉他晋级越高奖金越多。",
+        "version": "2026-11-06-v1",
+        "text": "晋级越高，奖金越多。他得一场场赢，往上打。",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:3/block:1",
+        "source_id": "CZ-E03",
+        "fact_id": "CZ-E03.F2",
+        "quote": "陈峥利用步法避开黑川隼的关节技，再用鸣鹤拳破坏对方进攻节奏并获胜；战后陈峥仍明显疲惫，疾病没有消失。",
+        "version": "2026-11-06-v1",
+        "text": "赢下黑川隼，他还是那副病体。",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:4/block:1",
+        "source_id": "CZ-E04",
+        "fact_id": "CZ-E04.F4",
+        "quote": "贺振坤以枪挟持陈峥。阿晴路过时，陈峥借口让她去街口买糖，将她支离危险区域，然后独自面对困局。",
+        "version": "2026-11-06-v1",
+        "text": "可被枪指着时，他还惦记着让路过的阿晴脱身。",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:4/block:2",
+        "source_id": "CZ-E04",
+        "fact_id": "CZ-E04.F4",
+        "quote": "贺振坤以枪挟持陈峥。阿晴路过时，陈峥借口让她去街口买糖，将她支离危险区域，然后独自面对困局。",
+        "version": "2026-11-06-v1",
+        "text": "阿晴，去街口买点糖。",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:5/block:1",
+        "source_id": "CZ-E05",
+        "fact_id": "CZ-E05.F3",
+        "quote": "陈峥使用惊鸿一瞥获得有限信息，在混乱中挣脱束缚，用手术刀反制郭劲并与贺振坤周旋；不是持枪互射。",
+        "version": "2026-11-06-v1",
+        "text": "到了医馆，他趁劫匪内讧，挣出一条活路。",
+        "requires_semantic_review": true
+      },
+      {
+        "location": "shot:6/block:1",
+        "source_id": "CZ-E06",
+        "fact_id": "CZ-E06.F2",
+        "quote": "保释后，薇娜与陈峥吃饭：薇娜支付保释金，天魁提供帮助。薇娜视他为投资，陈峥回应“我比谁都想活着赢”。两人是互相试探，尚非确认的情侣。",
+        "version": "2026-11-06-v1",
+        "text": "我比谁都想活着赢。",
+        "requires_semantic_review": true
+      }
+    ],
+    "rules_version": "city-drama-2026-11-06-v1",
+    "material_kind": "narrative",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "《城寨风云》陈峥人物预告：他比谁都想活着赢"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "旧音像店内，陈峥垂眼看化验单；切至1986年九龙城寨地下拳台，他抬头面对对手。全镜为同一名画外解说，不对口型。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "白血病困住了陈峥。为了活下去，他接受试炼，来到九龙城寨。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "陈峥清点奖金，画面切至手中钞票；随后切回拳台，他迎向对手。延续画外解说。"
+      },
+      {
+        "location": "shot:2/block:1",
+        "text": "他要换补完剂治病，得攒够三百万港币。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "晋级越高，奖金越多。他得一场场赢，往上打。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "陈峥以步法避开黑川隼的关节技，反击获胜；战后收拳，疲惫地喘息。延续画外解说，最后留半拍呼吸声。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "赢下黑川隼，他还是那副病体。"
+      },
+      {
+        "location": "shot:4/visual",
+        "text": "楼道内，贺振坤持枪挟住陈峥；阿晴从另一端走近。先由画外解说交代处境，再切陈峥对白，他放缓语气支走阿晴，目送她离开。"
+      },
+      {
+        "location": "shot:4/block:1",
+        "text": "可被枪指着时，他还惦记着让路过的阿晴脱身。"
+      },
+      {
+        "location": "shot:4/block:2",
+        "text": "阿晴，去街口买点糖。"
+      },
+      {
+        "location": "shot:5/visual",
+        "text": "转至医馆，劫匪争执；陈峥挣脱束缚，夺取手术刀反制郭劲。警方破门的瞬间切黑。声音回到画外解说。"
+      },
+      {
+        "location": "shot:5/block:1",
+        "text": "到了医馆，他趁劫匪内讧，挣出一条活路。"
+      },
+      {
+        "location": "shot:6/visual",
+        "text": "保释后的餐桌前，陈峥看向薇娜，亲口说出对白；切赤锋翻看徐承岳的静态档案照片，最后出现片名。末句为画外解说，不展示两人交手。"
+      },
+      {
+        "location": "shot:6/block:1",
+        "text": "我比谁都想活着赢。"
+      },
+      {
+        "location": "shot:6/block:2",
+        "text": "下一场，他还能赢吗？"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "CZ-WORLD",
+        "fact_id": "CZ-WORLD.F1",
+        "quote": "进入城寨时，打至第七擂、获得任意《古小说钩沉》录本残片、唤醒姑获鸟，是三个可任选其一的事件开启条件。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-WORLD",
+        "fact_id": "CZ-WORLD.F2",
+        "quote": "城寨这次最长停留一个月；一旦输掉拳赛即刻回归。一个月是试炼停留上限，不是医生宣布陈峥只剩一个月寿命。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-WORLD",
+        "fact_id": "CZ-WORLD.F3",
+        "quote": "确认港币拥有权后，10000港币可兑换1点阎浮点数。ES造血细胞增强剂为10点，能缓解症状；补完剂为300点，对应治病目标，折合三百万港币。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-WORLD",
+        "fact_id": "CZ-WORLD.F4",
+        "quote": "陈峥争取尽快赚够三百万是自己的目标，原设定给他三次阎浮事件筹齐点数的机会，并非系统要求这一个月必须赚够三百万。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-WORLD",
+        "fact_id": "CZ-WORLD.F5",
+        "quote": "取得两张残片后，事件已开启，目标是唤醒姑获鸟。失败扣除本事件全部点数并抹除本事件开启的购买权限，不抹杀本人。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-WORLD",
+        "fact_id": "CZ-WORLD.F6",
+        "quote": "残片会提供位置通报；人物需要结合多次通报调查。它不是全天开启的精准导航，也没有必须集齐五张才能行动的既定规则。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-WORLD",
+        "fact_id": "CZ-WORLD.F7",
+        "quote": "惊鸿一瞥是主动消耗点数获取信息的能力，不保证立即发现弱点；敌意红光是另一提示。二者都不是时间停止。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-WORLD",
+        "fact_id": "CZ-WORLD.F8",
+        "quote": "系统信息是相应行走的主观信息。赤锋、薇娜、警方没有被告知阎浮规则，不能因为站在旁边就看到或听到系统。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E01",
+        "fact_id": "CZ-E01.F1",
+        "quote": "梁宁到旧音像店邀请陈峥去广东做协会顾问；陈峥出示病情化验单，婉拒邀请。来访谈及梁振山，陈峥回忆他对自己“三分恶气”的评价。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E01",
+        "fact_id": "CZ-E01.F2",
+        "quote": "梁宁和真正的杜叔离开后，貘借杜叔外形试探陈峥。陈峥识破异样，在病体中应对，随后主动接受去阎浮试炼的机会。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E01",
+        "fact_id": "CZ-E01.F3",
+        "quote": "陈峥来到1986年九龙城寨的地下拳台，击败巴颂。主持人确认陈峥获胜，他随即挑战下一人；本集不止于登上擂台。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E01",
+        "fact_id": "CZ-E01.F4",
+        "quote": "陈峥的求生欲从音像店里的疲惫沉静转为拳台上的主动争取；真正杜叔未受到伤害。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E02",
+        "fact_id": "CZ-E02.F1",
+        "quote": "韩振涛奉花衫七之意试探陈峥，短暂交手被叫停，未分正式胜负；赤锋介入，与陈峥建立拳手和经理人的关系。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E02",
+        "fact_id": "CZ-E02.F2",
+        "quote": "陈峥将五万港币确认为己有，兑换到5点，计算出300点补完剂需要三百万港币；赤锋告诉他晋级越高奖金越多。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E02",
+        "fact_id": "CZ-E02.F3",
+        "quote": "陈峥认识贫民女孩阿晴，看到她照料橘猫阿咪，表现出对弱小生命的关心。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E02",
+        "fact_id": "CZ-E02.F4",
+        "quote": "陈峥连胜后，由赤锋带往福义大厦，得知下一场第六擂对手是黑川隼。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E03",
+        "fact_id": "CZ-E03.F1",
+        "quote": "薇娜在福义大厦观看陈峥对黑川隼的拳赛，最初怀疑苍白病弱的陈峥，随后因他的表现产生兴趣。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E03",
+        "fact_id": "CZ-E03.F2",
+        "quote": "陈峥利用步法避开黑川隼的关节技，再用鸣鹤拳破坏对方进攻节奏并获胜；战后陈峥仍明显疲惫，疾病没有消失。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E03",
+        "fact_id": "CZ-E03.F3",
+        "quote": "方绍钧与赵仲衡讨论丰宝银行劫案：四名劫匪抢走现金、珠宝和一本《古小说钩沉》录本。银行经理死于城寨，相关关系尚待调查。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E03",
+        "fact_id": "CZ-E03.F4",
+        "quote": "本集把拳台扬名和古书失窃两条线并置；陈峥尚不知道警方掌握的全部线索。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E04",
+        "fact_id": "CZ-E04.F1",
+        "quote": "火锅摊上，阿晴因泼汤受到鼻环男刁难；陈峥及时替她解围，赤锋压住其余人的挑衅，陈峥事后仍受病弱影响。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E04",
+        "fact_id": "CZ-E04.F2",
+        "quote": "陈峥在楼道遇见河北同乡贺振坤，因熟悉的乡音放松警惕，两人原本自然交谈。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E04",
+        "fact_id": "CZ-E04.F3",
+        "quote": "赤锋打来电话，声音过大，揭出贺振坤是劫匪的身份，被贺振坤听见；不是陈峥故意开免提暴露他。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E04",
+        "fact_id": "CZ-E04.F4",
+        "quote": "贺振坤以枪挟持陈峥。阿晴路过时，陈峥借口让她去街口买糖，将她支离危险区域，然后独自面对困局。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E05",
+        "fact_id": "CZ-E05.F1",
+        "quote": "贺振坤把陈峥押进潘叔医馆。劫匪共四人：贺振坤、郭劲、小伍和一名未具名同伙；潘叔是医生，陈峥是被劫持者。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E05",
+        "fact_id": "CZ-E05.F2",
+        "quote": "潘叔事先报警，引来警方围捕；贺振坤随后发现告密并对潘叔下手。劫匪是否带走重伤小伍的争执形成脱困机会。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E05",
+        "fact_id": "CZ-E05.F3",
+        "quote": "陈峥使用惊鸿一瞥获得有限信息，在混乱中挣脱束缚，用手术刀反制郭劲并与贺振坤周旋；不是持枪互射。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E05",
+        "fact_id": "CZ-E05.F4",
+        "quote": "陈峥反击脱困后，警方破门控制现场并要求他配合。前六集承接时已取得两张古书残片、事件进行中；局部第六集不重复演出开启。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E06",
+        "fact_id": "CZ-E06.F1",
+        "quote": "警局里，方绍钧追问医馆经过和失窃古书。陈峥说明自己遭挟持、趁内讧脱身，保持求生立场；探长可以怀疑，未直接证明其主观动机。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E06",
+        "fact_id": "CZ-E06.F2",
+        "quote": "保释后，薇娜与陈峥吃饭：薇娜支付保释金，天魁提供帮助。薇娜视他为投资，陈峥回应“我比谁都想活着赢”。两人是互相试探，尚非确认的情侣。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E06",
+        "fact_id": "CZ-E06.F3",
+        "quote": "陈峥向薇娜打听收旧书和老物件的门路，薇娜避开问题。随后他用典当传家宝的借口向花衫七、小韩问路。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E06",
+        "fact_id": "CZ-E06.F4",
+        "quote": "小韩建议去利兴大押，并与陈峥再次约战。利兴大押是问出的交易渠道，不是系统直接给出的精确藏片地点。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-E06",
+        "fact_id": "CZ-E06.F5",
+        "quote": "结尾赤锋看徐承岳资料：徐承岳是咏春徐尚田之孙。徐只以静态档案照片出现，尚未与陈峥正面对战。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-C-CHEN",
+        "fact_id": "CZ-C-CHEN.F1",
+        "quote": "陈峥曾是国术高手，现因白血病身体虚弱，现实线经营旧音像店；进入城寨的核心动机是活下去，不是征服城寨。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-C-CHEN",
+        "fact_id": "CZ-C-CHEN.F2",
+        "quote": "陈峥做事冷静、机敏、果断，话少而有对象，带自嘲和人情味；他保护阿晴，也关心小韩，不能只写成逞狠的拳手。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-C-CHEN",
+        "fact_id": "CZ-C-CHEN.F3",
+        "quote": "前六集病弱持续影响体力；第七集增强剂暂缓症状；第八集与顾明川对决后右臂暂时失力，随后护送中仍受影响。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-C-CHEN",
+        "fact_id": "CZ-C-CHEN.F4",
+        "quote": "陈峥可以有内心旁白；人物不张口的心声、正常对白和只有他感知的系统信息在表现上分开。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-C-QING",
+        "fact_id": "CZ-C-QING.F1",
+        "quote": "阿晴是住在陈峥附近的贫民女孩，照料橘猫阿咪。陈峥曾替她解围，并在遭劫持时支她去买糖，让她离开危险。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-C-QING",
+        "fact_id": "CZ-C-QING.F2",
+        "quote": "第八集阿晴替母亲送叉烧饭，陈峥在自己家门口接过；饭盒随后仍由陈峥拿着。阿晴母亲只被提及，未在这段出场。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-C-QING",
+        "fact_id": "CZ-C-QING.F3",
+        "quote": "阿晴家以蜡烛照明，她说电路坏了很久，却迅速拒绝陈峥帮忙。她随后平常地道别；异常是拒绝修电路，资料未揭晓屋内真相。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-PROPS",
+        "fact_id": "CZ-PROPS.F1",
+        "quote": "拦面叟是顾明川使用的约90厘米烟杆形短兵器；八面汉剑是陈峥借来的约一米三长剑，是两件不同道具。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-PROPS",
+        "fact_id": "CZ-PROPS.F2",
+        "quote": "第七集武三郎右手持拦面叟，左手摘下面具并放在台面，然后空出的左手才可触胸。面具和斗篷是同一角色的服饰状态。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-PROPS",
+        "fact_id": "CZ-PROPS.F3",
+        "quote": "第八集陈峥右臂失力后，先空手反击，再左手夺剑；要抓人必须先放下剑，离台前左手取回剑。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-PROPS",
+        "fact_id": "CZ-PROPS.F4",
+        "quote": "送饭时饭盒从阿晴交给陈峥后保持在他手中；第十集手机先交徐承岳暂拿，再由陈峥左手接回。",
+        "version": "2026-11-06-v1"
+      },
+      {
+        "source_id": "CZ-PROPS",
+        "fact_id": "CZ-PROPS.F5",
+        "quote": "残片是《古小说钩沉》录本的纸页；第六集承接中已取得两张，第九集再得顾明川交出的夔牛残片。没有新增自动隐身或收入系统空间的设定。",
+        "version": "2026-11-06-v1"
+      }
+    ],
+    "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+  },
+  "requirements_check": {
+    "ok": false,
+    "error": "requirements_review_failed",
+    "message": "codex_timeout; call_id=decision-alfp0iaq"
+  },
+  "sources": [
+    {
+      "id": "CZ-E01",
+      "product_id": "city-drama",
+      "title": "第1集·三分恶气",
+      "version": "2026-11-06-v1",
+      "category": "分集剧情",
+      "keywords": [
+        "CZ-E01",
+        "第1集·三分恶气",
+        "第1集",
+        "三分恶气",
+        "音像店",
+        "梁宁",
+        "杜叔",
+        "貘",
+        "巴颂",
+        "求生",
+        "开篇"
+      ],
+      "facts": [
+        {
+          "id": "CZ-E01.F1",
+          "text": "梁宁到旧音像店邀请陈峥去广东做协会顾问；陈峥出示病情化验单，婉拒邀请。来访谈及梁振山，陈峥回忆他对自己“三分恶气”的评价。"
+        },
+        {
+          "id": "CZ-E01.F2",
+          "text": "梁宁和真正的杜叔离开后，貘借杜叔外形试探陈峥。陈峥识破异样，在病体中应对，随后主动接受去阎浮试炼的机会。"
+        },
+        {
+          "id": "CZ-E01.F3",
+          "text": "陈峥来到1986年九龙城寨的地下拳台，击败巴颂。主持人确认陈峥获胜，他随即挑战下一人；本集不止于登上擂台。"
+        },
+        {
+          "id": "CZ-E01.F4",
+          "text": "陈峥的求生欲从音像店里的疲惫沉静转为拳台上的主动争取；真正杜叔未受到伤害。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S01",
+          "start_line": 1,
+          "end_line": 66
+        },
+        {
+          "source": "S03",
+          "start_line": 51,
+          "end_line": 59
+        }
+      ]
+    },
+    {
+      "id": "CZ-E02",
+      "product_id": "city-drama",
+      "title": "第2集·三百万",
+      "version": "2026-11-06-v1",
+      "category": "分集剧情",
+      "keywords": [
+        "CZ-E02",
+        "第2集·三百万",
+        "第2集",
+        "三百万",
+        "赤锋",
+        "韩振涛",
+        "小韩",
+        "阿晴",
+        "阿咪",
+        "赚钱",
+        "治病"
+      ],
+      "facts": [
+        {
+          "id": "CZ-E02.F1",
+          "text": "韩振涛奉花衫七之意试探陈峥，短暂交手被叫停，未分正式胜负；赤锋介入，与陈峥建立拳手和经理人的关系。"
+        },
+        {
+          "id": "CZ-E02.F2",
+          "text": "陈峥将五万港币确认为己有，兑换到5点，计算出300点补完剂需要三百万港币；赤锋告诉他晋级越高奖金越多。"
+        },
+        {
+          "id": "CZ-E02.F3",
+          "text": "陈峥认识贫民女孩阿晴，看到她照料橘猫阿咪，表现出对弱小生命的关心。"
+        },
+        {
+          "id": "CZ-E02.F4",
+          "text": "陈峥连胜后，由赤锋带往福义大厦，得知下一场第六擂对手是黑川隼。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S01",
+          "start_line": 67,
+          "end_line": 122
+        },
+        {
+          "source": "S03",
+          "start_line": 51,
+          "end_line": 59
+        }
+      ]
+    },
+    {
+      "id": "CZ-E05",
+      "product_id": "city-drama",
+      "title": "第5集·生死翻盘",
+      "version": "2026-11-06-v1",
+      "category": "分集剧情",
+      "keywords": [
+        "CZ-E05",
+        "第5集·生死翻盘",
+        "第5集",
+        "生死翻盘",
+        "医馆",
+        "潘叔",
+        "郭劲",
+        "小伍",
+        "贺振坤",
+        "脱困"
+      ],
+      "facts": [
+        {
+          "id": "CZ-E05.F1",
+          "text": "贺振坤把陈峥押进潘叔医馆。劫匪共四人：贺振坤、郭劲、小伍和一名未具名同伙；潘叔是医生，陈峥是被劫持者。"
+        },
+        {
+          "id": "CZ-E05.F2",
+          "text": "潘叔事先报警，引来警方围捕；贺振坤随后发现告密并对潘叔下手。劫匪是否带走重伤小伍的争执形成脱困机会。"
+        },
+        {
+          "id": "CZ-E05.F3",
+          "text": "陈峥使用惊鸿一瞥获得有限信息，在混乱中挣脱束缚，用手术刀反制郭劲并与贺振坤周旋；不是持枪互射。"
+        },
+        {
+          "id": "CZ-E05.F4",
+          "text": "陈峥反击脱困后，警方破门控制现场并要求他配合。前六集承接时已取得两张古书残片、事件进行中；局部第六集不重复演出开启。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S01",
+          "start_line": 213,
+          "end_line": 271
+        },
+        {
+          "source": "S03",
+          "start_line": 51,
+          "end_line": 59
+        }
+      ]
+    },
+    {
+      "id": "CZ-E06",
+      "product_id": "city-drama",
+      "title": "第6集·残篇现踪",
+      "version": "2026-11-06-v1",
+      "category": "分集剧情",
+      "keywords": [
+        "CZ-E06",
+        "第6集·残篇现踪",
+        "第6集",
+        "残篇现踪",
+        "警局",
+        "审讯",
+        "薇娜",
+        "晚餐",
+        "典当",
+        "利兴大押",
+        "徐承岳"
+      ],
+      "facts": [
+        {
+          "id": "CZ-E06.F1",
+          "text": "警局里，方绍钧追问医馆经过和失窃古书。陈峥说明自己遭挟持、趁内讧脱身，保持求生立场；探长可以怀疑，未直接证明其主观动机。"
+        },
+        {
+          "id": "CZ-E06.F2",
+          "text": "保释后，薇娜与陈峥吃饭：薇娜支付保释金，天魁提供帮助。薇娜视他为投资，陈峥回应“我比谁都想活着赢”。两人是互相试探，尚非确认的情侣。"
+        },
+        {
+          "id": "CZ-E06.F3",
+          "text": "陈峥向薇娜打听收旧书和老物件的门路，薇娜避开问题。随后他用典当传家宝的借口向花衫七、小韩问路。"
+        },
+        {
+          "id": "CZ-E06.F4",
+          "text": "小韩建议去利兴大押，并与陈峥再次约战。利兴大押是问出的交易渠道，不是系统直接给出的精确藏片地点。"
+        },
+        {
+          "id": "CZ-E06.F5",
+          "text": "结尾赤锋看徐承岳资料：徐承岳是咏春徐尚田之孙。徐只以静态档案照片出现，尚未与陈峥正面对战。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S05",
+          "start_line": 1,
+          "end_line": 96
+        }
+      ]
+    },
+    {
+      "id": "CZ-C-CHEN",
+      "product_id": "city-drama",
+      "title": "陈峥",
+      "version": "2026-11-06-v1",
+      "category": "人物关系",
+      "keywords": [
+        "CZ-C-CHEN",
+        "陈峥",
+        "阿峥",
+        "峥哥",
+        "陈师傅",
+        "主角",
+        "人物预告"
+      ],
+      "facts": [
+        {
+          "id": "CZ-C-CHEN.F1",
+          "text": "陈峥曾是国术高手，现因白血病身体虚弱，现实线经营旧音像店；进入城寨的核心动机是活下去，不是征服城寨。"
+        },
+        {
+          "id": "CZ-C-CHEN.F2",
+          "text": "陈峥做事冷静、机敏、果断，话少而有对象，带自嘲和人情味；他保护阿晴，也关心小韩，不能只写成逞狠的拳手。"
+        },
+        {
+          "id": "CZ-C-CHEN.F3",
+          "text": "前六集病弱持续影响体力；第七集增强剂暂缓症状；第八集与顾明川对决后右臂暂时失力，随后护送中仍受影响。"
+        },
+        {
+          "id": "CZ-C-CHEN.F4",
+          "text": "陈峥可以有内心旁白；人物不张口的心声、正常对白和只有他感知的系统信息在表现上分开。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S03",
+          "start_line": 21,
+          "end_line": 39
+        },
+        {
+          "source": "S04",
+          "start_line": 17,
+          "end_line": 28
+        },
+        {
+          "source": "S05",
+          "start_line": 3,
+          "end_line": 10
+        }
+      ]
+    },
+    {
+      "id": "CZ-E03",
+      "product_id": "city-drama",
+      "title": "第3集·一战扬名",
+      "version": "2026-11-06-v1",
+      "category": "分集剧情",
+      "keywords": [
+        "CZ-E03",
+        "第3集·一战扬名",
+        "第3集",
+        "一战扬名",
+        "黑川隼",
+        "薇娜",
+        "方绍钧",
+        "古书",
+        "丰宝银行"
+      ],
+      "facts": [
+        {
+          "id": "CZ-E03.F1",
+          "text": "薇娜在福义大厦观看陈峥对黑川隼的拳赛，最初怀疑苍白病弱的陈峥，随后因他的表现产生兴趣。"
+        },
+        {
+          "id": "CZ-E03.F2",
+          "text": "陈峥利用步法避开黑川隼的关节技，再用鸣鹤拳破坏对方进攻节奏并获胜；战后陈峥仍明显疲惫，疾病没有消失。"
+        },
+        {
+          "id": "CZ-E03.F3",
+          "text": "方绍钧与赵仲衡讨论丰宝银行劫案：四名劫匪抢走现金、珠宝和一本《古小说钩沉》录本。银行经理死于城寨，相关关系尚待调查。"
+        },
+        {
+          "id": "CZ-E03.F4",
+          "text": "本集把拳台扬名和古书失窃两条线并置；陈峥尚不知道警方掌握的全部线索。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S01",
+          "start_line": 123,
+          "end_line": 162
+        },
+        {
+          "source": "S03",
+          "start_line": 51,
+          "end_line": 59
+        }
+      ]
+    },
+    {
+      "id": "CZ-E04",
+      "product_id": "city-drama",
+      "title": "第4集·危险的同乡",
+      "version": "2026-11-06-v1",
+      "category": "分集剧情",
+      "keywords": [
+        "CZ-E04",
+        "第4集·危险的同乡",
+        "第4集",
+        "危险的同乡",
+        "阿晴",
+        "贺振坤",
+        "同乡",
+        "电话",
+        "枪口",
+        "火锅"
+      ],
+      "facts": [
+        {
+          "id": "CZ-E04.F1",
+          "text": "火锅摊上，阿晴因泼汤受到鼻环男刁难；陈峥及时替她解围，赤锋压住其余人的挑衅，陈峥事后仍受病弱影响。"
+        },
+        {
+          "id": "CZ-E04.F2",
+          "text": "陈峥在楼道遇见河北同乡贺振坤，因熟悉的乡音放松警惕，两人原本自然交谈。"
+        },
+        {
+          "id": "CZ-E04.F3",
+          "text": "赤锋打来电话，声音过大，揭出贺振坤是劫匪的身份，被贺振坤听见；不是陈峥故意开免提暴露他。"
+        },
+        {
+          "id": "CZ-E04.F4",
+          "text": "贺振坤以枪挟持陈峥。阿晴路过时，陈峥借口让她去街口买糖，将她支离危险区域，然后独自面对困局。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S01",
+          "start_line": 163,
+          "end_line": 212
+        },
+        {
+          "source": "S03",
+          "start_line": 51,
+          "end_line": 59
+        }
+      ]
+    },
+    {
+      "id": "CZ-C-QING",
+      "product_id": "city-drama",
+      "title": "阿晴",
+      "version": "2026-11-06-v1",
+      "category": "人物关系",
+      "keywords": [
+        "CZ-C-QING",
+        "阿晴",
+        "阿咪",
+        "送饭",
+        "烛光",
+        "女孩",
+        "邻居"
+      ],
+      "facts": [
+        {
+          "id": "CZ-C-QING.F1",
+          "text": "阿晴是住在陈峥附近的贫民女孩，照料橘猫阿咪。陈峥曾替她解围，并在遭劫持时支她去买糖，让她离开危险。"
+        },
+        {
+          "id": "CZ-C-QING.F2",
+          "text": "第八集阿晴替母亲送叉烧饭，陈峥在自己家门口接过；饭盒随后仍由陈峥拿着。阿晴母亲只被提及，未在这段出场。"
+        },
+        {
+          "id": "CZ-C-QING.F3",
+          "text": "阿晴家以蜡烛照明，她说电路坏了很久，却迅速拒绝陈峥帮忙。她随后平常地道别；异常是拒绝修电路，资料未揭晓屋内真相。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S01",
+          "start_line": 67,
+          "end_line": 122
+        },
+        {
+          "source": "S03",
+          "start_line": 30,
+          "end_line": 50
+        },
+        {
+          "source": "S08",
+          "start_line": 48,
+          "end_line": 68
+        }
+      ]
+    },
+    {
+      "id": "CZ-WORLD",
+      "product_id": "city-drama",
+      "title": "阎浮、点数与残片规则",
+      "version": "2026-11-06-v1",
+      "category": "故事与世界观",
+      "keywords": [
+        "CZ-WORLD",
+        "阎浮、点数与残片规则",
+        "阎浮",
+        "规则",
+        "点数",
+        "残片",
+        "姑获鸟",
+        "三百万",
+        "一个月",
+        "增强剂",
+        "补完剂"
+      ],
+      "facts": [
+        {
+          "id": "CZ-WORLD.F1",
+          "text": "进入城寨时，打至第七擂、获得任意《古小说钩沉》录本残片、唤醒姑获鸟，是三个可任选其一的事件开启条件。"
+        },
+        {
+          "id": "CZ-WORLD.F2",
+          "text": "城寨这次最长停留一个月；一旦输掉拳赛即刻回归。一个月是试炼停留上限，不是医生宣布陈峥只剩一个月寿命。"
+        },
+        {
+          "id": "CZ-WORLD.F3",
+          "text": "确认港币拥有权后，10000港币可兑换1点阎浮点数。ES造血细胞增强剂为10点，能缓解症状；补完剂为300点，对应治病目标，折合三百万港币。"
+        },
+        {
+          "id": "CZ-WORLD.F4",
+          "text": "陈峥争取尽快赚够三百万是自己的目标，原设定给他三次阎浮事件筹齐点数的机会，并非系统要求这一个月必须赚够三百万。"
+        },
+        {
+          "id": "CZ-WORLD.F5",
+          "text": "取得两张残片后，事件已开启，目标是唤醒姑获鸟。失败扣除本事件全部点数并抹除本事件开启的购买权限，不抹杀本人。"
+        },
+        {
+          "id": "CZ-WORLD.F6",
+          "text": "残片会提供位置通报；人物需要结合多次通报调查。它不是全天开启的精准导航，也没有必须集齐五张才能行动的既定规则。"
+        },
+        {
+          "id": "CZ-WORLD.F7",
+          "text": "惊鸿一瞥是主动消耗点数获取信息的能力，不保证立即发现弱点；敌意红光是另一提示。二者都不是时间停止。"
+        },
+        {
+          "id": "CZ-WORLD.F8",
+          "text": "系统信息是相应行走的主观信息。赤锋、薇娜、警方没有被告知阎浮规则，不能因为站在旁边就看到或听到系统。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S03",
+          "start_line": 10,
+          "end_line": 20
+        },
+        {
+          "source": "S04",
+          "start_line": 68,
+          "end_line": 79
+        }
+      ]
+    },
+    {
+      "id": "CZ-PROPS",
+      "product_id": "city-drama",
+      "title": "道具、兵器与状态",
+      "version": "2026-11-06-v1",
+      "category": "道具与动作承接",
+      "keywords": [
+        "CZ-PROPS",
+        "道具、兵器与状态",
+        "汉剑",
+        "拦面叟",
+        "面具",
+        "饭盒",
+        "手机",
+        "档案",
+        "残片"
+      ],
+      "facts": [
+        {
+          "id": "CZ-PROPS.F1",
+          "text": "拦面叟是顾明川使用的约90厘米烟杆形短兵器；八面汉剑是陈峥借来的约一米三长剑，是两件不同道具。"
+        },
+        {
+          "id": "CZ-PROPS.F2",
+          "text": "第七集武三郎右手持拦面叟，左手摘下面具并放在台面，然后空出的左手才可触胸。面具和斗篷是同一角色的服饰状态。"
+        },
+        {
+          "id": "CZ-PROPS.F3",
+          "text": "第八集陈峥右臂失力后，先空手反击，再左手夺剑；要抓人必须先放下剑，离台前左手取回剑。"
+        },
+        {
+          "id": "CZ-PROPS.F4",
+          "text": "送饭时饭盒从阿晴交给陈峥后保持在他手中；第十集手机先交徐承岳暂拿，再由陈峥左手接回。"
+        },
+        {
+          "id": "CZ-PROPS.F5",
+          "text": "残片是《古小说钩沉》录本的纸页；第六集承接中已取得两张，第九集再得顾明川交出的夔牛残片。没有新增自动隐身或收入系统空间的设定。"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "S07",
+          "start_line": 8,
+          "end_line": 13
+        },
+        {
+          "source": "S09",
+          "start_line": 5,
+          "end_line": 30
+        },
+        {
+          "source": "S08",
+          "start_line": 48,
+          "end_line": 68
+        },
+        {
+          "source": "S05",
+          "start_line": 3,
+          "end_line": 10
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "app_version": "v7.1-story-materials",
+    "started_at": "2026-11-05T18:08:18.763634+00:00",
+    "finished_at": "2026-11-05T18:22:30.194091+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "5d865600d50d103f98dc820f7ba7505232f2991b7eda6b008e02601df670bf25",
+    "max_steps": 12,
+    "steps": 8,
+    "synthetic_data": false,
+    "completion_policy": "facts_duration_requirements_v6",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+    "model_responses": 8,
+    "run_id": "3e1813034553413e8b100b658a7e390e",
+    "persistence": "checkpoint_v1"
+  }
+}

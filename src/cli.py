@@ -7,8 +7,9 @@ import sys
 from .agent import Agent
 from .mock import MockModel
 from .providers import APIModel, CodexModel
-from .reporting import save_run
+from .recording import run_recorded
 from .tools import ToolBox, read_json
+from .catalog import toolbox_for
 
 
 def make_model(provider, timeout=180):
@@ -38,10 +39,10 @@ def main(argv=None):
         failures = {args.fail_tool: args.fail_count} if args.fail_tool else {}
         material_file = read_json(args.materials) if args.materials else None
         materials = material_file["materials"] if material_file is not None else None
-        tools = ToolBox(materials=materials, failures=failures,
-                        synthetic_data=material_file.get("synthetic", False) if material_file is not None else True)
-        result = Agent(model, tools, max_steps=args.max_steps).run(request)
-        save_run(args.output, request, result, tools)
+        tools = (ToolBox(materials=materials, rules=material_file.get('rules'), failures=failures,
+                         synthetic_data=material_file.get("synthetic", False))
+                 if material_file is not None else toolbox_for(request, failures))
+        result = run_recorded(args.output, request, model, tools, max_steps=args.max_steps)
     except (ValueError, OSError, KeyError) as exc:
         print(f"运行或保存失败：{exc}", file=sys.stderr)
         return 2

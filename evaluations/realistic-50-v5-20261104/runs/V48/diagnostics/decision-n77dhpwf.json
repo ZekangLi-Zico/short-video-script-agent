@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-n77dhpwf",
+  "started_at": "2026-11-04T16:11:26.530414+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T16:13:29.673245+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a754-6643-7562-bd89-1f4c5f241fcb",
+    "usage": {
+      "input_tokens": 28837,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3019,
+      "reasoning_output_tokens": 1516
+    },
+    "call_id": "decision-n77dhpwf",
+    "warnings": []
+  }
+}

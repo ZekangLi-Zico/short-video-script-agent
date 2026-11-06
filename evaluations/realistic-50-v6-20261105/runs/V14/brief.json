@@ -1,0 +1,18 @@
+{
+  "id": "V14",
+  "name": "运动社团招新",
+  "context": "社团用训练花絮介绍工具而非承诺效果。",
+  "request": {
+    "topic": "介绍裁剪片段、字幕添加和横竖屏比例。画面是空球场、记分牌和队员背影，三项功能各提一次，不宣传提高运动成绩。",
+    "audience": "校体育社团运营",
+    "platform": "B站",
+    "target_seconds": 40,
+    "style": "清晰，有节奏",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "target"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

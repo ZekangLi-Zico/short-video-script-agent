@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-5xzsylda",
+  "started_at": "2026-11-04T14:57:07.527922+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T14:57:25.964352+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a710-5748-75c2-a32d-e68898695c50",
+    "usage": {
+      "input_tokens": 41329,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 190,
+      "reasoning_output_tokens": 75
+    },
+    "call_id": "decision-5xzsylda",
+    "warnings": []
+  }
+}

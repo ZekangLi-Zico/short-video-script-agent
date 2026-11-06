@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-x33tmc2m",
+  "started_at": "2026-11-03T21:18:45.672773+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:20:11.030312+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a347-5f89-7061-b911-0b7606808e5f",
+    "usage": {
+      "input_tokens": 27833,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3870,
+      "reasoning_output_tokens": 1481
+    },
+    "call_id": "decision-x33tmc2m",
+    "warnings": []
+  }
+}

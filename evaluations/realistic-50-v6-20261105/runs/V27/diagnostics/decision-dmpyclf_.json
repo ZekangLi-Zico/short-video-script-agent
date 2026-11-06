@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-dmpyclf_",
+  "started_at": "2026-11-04T17:35:30.973039+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:35:50.633137+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a7a1-5913-7532-b04d-1c7540aae4b9",
+    "usage": {
+      "input_tokens": 30046,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 90,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-dmpyclf_",
+    "warnings": []
+  }
+}

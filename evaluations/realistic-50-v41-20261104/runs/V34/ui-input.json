@@ -1,0 +1,19 @@
+{
+  "port": 8811,
+  "submitted_at": "2026-11-04T01:36:53.001Z",
+  "fields": {
+    "audience": "准备决定是否使用的新用户",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "9ed787b7d3c54ab88c54fe8907f65bc3",
+    "initial-script": "",
+    "platform": "小红书",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "坦诚，解释清楚",
+    "target-seconds": "30",
+    "topic": "写字幕功能收费说明：免费版能用多少次、是否有会员门槛、付费后有何变化。不要只用存在字幕功能来代替回答收费问题。"
+  }
+}

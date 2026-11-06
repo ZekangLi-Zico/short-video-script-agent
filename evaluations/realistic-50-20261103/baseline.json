@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-11-03T13:40:56.732164+00:00",
+  "case_count": 50,
+  "cases_sha256": "b363aa99c320ff4a2ec0ff63939c60eb56758528c9af27a2367d6f010a8d0db5",
+  "git_commit": "e624c5a872f26fb0689fcc6a3e246da35edccbb7",
+  "source_sha256": {
+    "src/__init__.py": "69886b4a16dec45cc89cf493080228ed54e3827fd3a7a12b33e18e6d1247eff1",
+    "src/agent.py": "f5d711da678e78b14bf3bb7c4028f5b3086c5cec1969df6742df55ece976c3c2",
+    "src/cli.py": "42ded4d3bdbef521d4ae23c1ec8e077ff12d774c82d2a6fcd5a27127c97a7ac4",
+    "src/mock.py": "6db2d706c8214fdfbe1f802b52e1a026fd91481a46abbbbdaad705b793e3327c",
+    "src/providers.py": "ac1c85ec02a1987206b7d6eddde3b42c24b02d8bc708dddc1a6a9714e4443ba7",
+    "src/reporting.py": "5a910184fa16cf767cb565005e95126ffecb88d61ff54e9c1cbcc8fa3459a6eb",
+    "src/schema.py": "d64130d6a32179afe3a9a2d128f6c1d3fa7652a18d09b89bc55ece9a1f5e8dfc",
+    "src/tools.py": "59fbd7d10b731535632b0cb1808d221f80a8e7a17d5fdca59201c441eba28ed4",
+    "src/web.py": "763a9e12cf8773d49a2db2f15e08d6432ae69785070e921b1e1bab701fe9d7d2",
+    "web/app.js": "c8bc39d412243357bc90694eab808e269739034bc92567c8a8fa57427f81b43b",
+    "web/favicon.svg": "6cf80e7ec2bdb690dea50d5b527489f8d434387d3d1ac4e7cff4c794934af610",
+    "web/index.html": "1b137144ae572f9ce605074b0d5ba221ca98854e9ad0784ed312b4d30a2fdd55",
+    "web/style.css": "3855e4392bc31e90ed04fe7d480fba272aa26fc1dc3b1f0c9a0ce3986a182ede",
+    "data/brand_rules.json": "bb28c202e3e710e0a6eb6e1e90667aba97b951cf0e63c9e2f40ee50864f08f2f",
+    "data/materials.json": "1fc255b84e8776cc73f7c3dbe59c3b9beb92fe5d1ef594fb850ce26a8a289667"
+  },
+  "method": "All 50 briefs frozen before campaign submission. UI form submission only. Local filesystem used only for archiving and offline evidence analysis. No app or data changes during campaign. No expected statuses/paths assigned. One attempt per case; failures preserved. All synthetic personas and briefs."
+}

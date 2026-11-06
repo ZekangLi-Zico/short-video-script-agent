@@ -1,0 +1,1136 @@
+{
+  "status": "completed",
+  "message": "已完成三个分镜，覆盖字幕添加和手动改字，包含笔记本、字幕示意卡、讲义夹场景。每镜分别停留7.5、8、8秒，估算总长23.5秒，符合接近25秒的目标。当前稿无需删改；实际成片时长需制作后确认。\n\n当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "课程视频字幕入门：添加字幕与手动改字",
+    "shots": [
+      {
+        "visual": "笔记本场景：教师坐在桌前，笔记本播放一小段课程画面。随后在画面下方叠加课程例句，并标注“字幕示意”。留出阅读时间，不展示软件按钮或操作界面。",
+        "hold_seconds": 7.5,
+        "blocks": [
+          {
+            "text": "先从一小段课程内容开始。",
+            "source_id": "",
+            "fact_id": ""
+          },
+          {
+            "text": "剪影练习版支持为视频添加字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "字幕示意卡场景：桌面纸卡写着“今天学习分树”，旁边标注“改字示意”。教师指向“树”字，再换成写着“今天学习分数”的纸卡，前后并排展示，让观众看清改动。纸卡仅说明文字修改，不模拟软件操作。",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          },
+          {
+            "text": "比如，把“分树”改成“分数”。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "讲义夹场景：教师翻开讲义夹，用手指找到讲义中的“分数”，再与旁边改好的字幕示意卡逐字对照。镜头停在讲义关键词和对应字幕上，留出核对与阅读时间。",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "对照讲义，读一遍字幕，再核对课程里的关键词。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "fbecd3f37f41bcf8cb16abadfc09c8cf7b575c9727c96c58ad783ecefd668b79",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 25,
+        "estimated_seconds": 7.5
+      },
+      {
+        "shot": 2,
+        "speech_units": 19,
+        "estimated_seconds": 8
+      },
+      {
+        "shot": 3,
+        "speech_units": 19,
+        "estimated_seconds": 8
+      }
+    ],
+    "total_seconds": 23.5,
+    "target_seconds": 25,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true,
+    "duration_mode": "target",
+    "min_seconds": 22.5,
+    "max_seconds": 25,
+    "issue": null
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "fbecd3f37f41bcf8cb16abadfc09c8cf7b575c9727c96c58ad783ecefd668b79",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:1/block:2",
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1",
+    "requires_expression_review": true,
+    "expression_slots": [
+      {
+        "location": "title",
+        "text": "课程视频字幕入门：添加字幕与手动改字"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "笔记本场景：教师坐在桌前，笔记本播放一小段课程画面。随后在画面下方叠加课程例句，并标注“字幕示意”。留出阅读时间，不展示软件按钮或操作界面。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "先从一小段课程内容开始。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "字幕示意卡场景：桌面纸卡写着“今天学习分树”，旁边标注“改字示意”。教师指向“树”字，再换成写着“今天学习分数”的纸卡，前后并排展示，让观众看清改动。纸卡仅说明文字修改，不模拟软件操作。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "比如，把“分树”改成“分数”。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "讲义夹场景：教师翻开讲义夹，用手指找到讲义中的“分数”，再与旁边改好的字幕示意卡逐字对照。镜头停在讲义关键词和对应字幕上，留出核对与阅读时间。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "对照讲义，读一遍字幕，再核对课程里的关键词。"
+      }
+    ],
+    "available_facts": [
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F1",
+        "quote": "剪影练习版支持为视频添加字幕。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P01",
+        "fact_id": "P01.F2",
+        "quote": "字幕文字可以手动编辑。",
+        "version": "2026-11-01"
+      },
+      {
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      }
+    ],
+    "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+  },
+  "requirements_check": {
+    "ok": true,
+    "script_hash": "fbecd3f37f41bcf8cb16abadfc09c8cf7b575c9727c96c58ad783ecefd668b79",
+    "request_hash": "5a8a440420139279ec1553d5df17e98f299a81d8749d3f199cabda7f4dd353a5",
+    "passed": true,
+    "items": [
+      {
+        "field": "topic",
+        "requirement": "用三个分镜",
+        "verdict": "met",
+        "evidence": "当前稿件共3个分镜，依次呈现字幕添加、手动改字和对照讲义核对。"
+      },
+      {
+        "field": "topic",
+        "requirement": "字幕添加",
+        "verdict": "met",
+        "evidence": "分镜1旁白明确介绍“剪影练习版支持为视频添加字幕”，画面叠加课程例句并标注“字幕示意”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "手动改字",
+        "verdict": "met",
+        "evidence": "分镜2旁白说明“字幕文字可以手动编辑”，配合将“分树”改为“分数”的纸卡示例。"
+      },
+      {
+        "field": "topic",
+        "requirement": "每个镜头至少停留5秒",
+        "verdict": "met",
+        "evidence": "三个分镜的hold_seconds分别为7.5、8、8，均不少于5秒。"
+      },
+      {
+        "field": "topic",
+        "requirement": "笔记本",
+        "verdict": "met",
+        "evidence": "分镜1明确安排“教师坐在桌前，笔记本播放一小段课程画面”。"
+      },
+      {
+        "field": "topic",
+        "requirement": "字幕示意卡",
+        "verdict": "met",
+        "evidence": "分镜2以字幕示意卡展示修改前后的例句，并安排两张纸卡并排观察。"
+      },
+      {
+        "field": "topic",
+        "requirement": "讲义夹",
+        "verdict": "met",
+        "evidence": "分镜3明确安排教师翻开讲义夹，找到“分数”并与字幕示意卡逐字对照。"
+      },
+      {
+        "field": "topic",
+        "requirement": "目标接近25秒",
+        "verdict": "met",
+        "evidence": "稿件标注的镜头停留合计23.5秒，接近25秒目标；此处依据脚本安排判断覆盖，不代表成片实测时长。"
+      },
+      {
+        "field": "audience",
+        "requirement": "初次编辑课程视频的教师",
+        "verdict": "met",
+        "evidence": "标题定位“课程视频字幕入门”，画面采用教师、课程例句和讲义核对，内容从添加字幕与基础改字开始，适合初次编辑者。"
+      },
+      {
+        "field": "platform",
+        "requirement": "B站",
+        "verdict": "met",
+        "evidence": "稿件采用主题明确的入门标题、连续分镜和口播示例，知识讲解形式适合B站短视频。"
+      },
+      {
+        "field": "style",
+        "requirement": "慢节奏",
+        "verdict": "met",
+        "evidence": "每镜停留7.5至8秒，分别安排例句阅读、修改前后对比和讲义核对，均留有观察时间。"
+      },
+      {
+        "field": "style",
+        "requirement": "明确",
+        "verdict": "met",
+        "evidence": "分镜1直接说明添加字幕，分镜2直接说明手动编辑并展示“分树→分数”，分镜3给出具体核对动作，表述清楚。"
+      }
+    ],
+    "summary": "全部需求均已覆盖。涉及产品能力的表达有资料支持，三个镜头的阅读、改字对比和讲义核对能合理支撑慢节奏停留。",
+    "method": "model_assessment_not_deterministic_proof",
+    "expressions": [
+      {
+        "location": "title",
+        "text": "课程视频字幕入门：添加字幕与手动改字",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          },
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ],
+        "evidence": "标题涉及添加字幕和手动改字，分别由P01.F1的添加字幕能力、P01.F2的手动编辑字幕文字能力支持。"
+      },
+      {
+        "location": "shot:1/visual",
+        "text": "笔记本场景：教师坐在桌前，笔记本播放一小段课程画面。随后在画面下方叠加课程例句，并标注“字幕示意”。留出阅读时间，不展示软件按钮或操作界面。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ],
+        "evidence": "叠加课程例句示意为视频添加字幕，由P01.F1支持；教师和笔记本属于拍摄场景，未虚构软件按钮、界面或操作流程。"
+      },
+      {
+        "location": "shot:1/block:1",
+        "text": "先从一小段课程内容开始。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "这是选择课程片段的引导语，不含产品能力或效果承诺。"
+      },
+      {
+        "location": "shot:2/visual",
+        "text": "字幕示意卡场景：桌面纸卡写着“今天学习分树”，旁边标注“改字示意”。教师指向“树”字，再换成写着“今天学习分数”的纸卡，前后并排展示，让观众看清改动。纸卡仅说明文字修改，不模拟软件操作。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ],
+        "evidence": "纸卡前后对比示意手动修改字幕文字，由P01.F2支持；没有声称自动纠错，也未模拟具体软件操作。"
+      },
+      {
+        "location": "shot:2/block:2",
+        "text": "比如，把“分树”改成“分数”。",
+        "verdict": "supported_claim",
+        "references": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ],
+        "evidence": "承接手动编辑字幕的旁白，给出文字替换示例，未超出P01.F2支持的能力范围。"
+      },
+      {
+        "location": "shot:3/visual",
+        "text": "讲义夹场景：教师翻开讲义夹，用手指找到讲义中的“分数”，再与旁边改好的字幕示意卡逐字对照。镜头停在讲义关键词和对应字幕上，留出核对与阅读时间。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "全部动作由教师对纸质讲义和示意卡完成，是人工核对与拍摄安排，没有承诺产品自动核对等能力。"
+      },
+      {
+        "location": "shot:3/block:1",
+        "text": "对照讲义，读一遍字幕，再核对课程里的关键词。",
+        "verdict": "plain_expression",
+        "references": [],
+        "evidence": "这是面向教师的人工检查建议，不含产品性能、自动化或效果保证。"
+      }
+    ],
+    "pacing": {
+      "verdict": "met",
+      "evidence": "分镜1停留7.5秒，两句简短旁白配课程画面和例句阅读；分镜2停留8秒，旁白配指字、换卡及前后对比；分镜3停留8秒，一句旁白配翻讲义、定位关键词和逐字核对。每镜均有明确观察或动作任务，未见重复同一事实或空镜凑时长。"
+    },
+    "expression_review_passed": true
+  },
+  "sources": [
+    {
+      "id": "P01",
+      "product_id": "demo-editor",
+      "title": "字幕功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "字幕",
+        "口播",
+        "文字",
+        "caption",
+        "subtitle"
+      ],
+      "facts": [
+        {
+          "id": "P01.F1",
+          "text": "剪影练习版支持为视频添加字幕。"
+        },
+        {
+          "id": "P01.F2",
+          "text": "字幕文字可以手动编辑。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "arguments": {
+        "query": "demo-editor 添加字幕、手动修改字幕文字的功能说明与可引用事实",
+        "product_id": "demo-editor"
+      },
+      "decision_basis": "当前没有素材，需要检索字幕添加和手动改字的产品事实。",
+      "observation": {
+        "ok": true,
+        "query": "demo-editor 添加字幕、手动修改字幕文字的功能说明与可引用事实",
+        "product_id": "demo-editor",
+        "materials": [
+          {
+            "id": "P01",
+            "product_id": "demo-editor",
+            "title": "字幕功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "字幕",
+              "口播",
+              "文字",
+              "caption",
+              "subtitle"
+            ],
+            "facts": [
+              {
+                "id": "P01.F1",
+                "text": "剪影练习版支持为视频添加字幕。"
+              },
+              {
+                "id": "P01.F2",
+                "text": "字幕文字可以手动编辑。"
+              }
+            ]
+          },
+          {
+            "id": "P02",
+            "product_id": "demo-editor",
+            "title": "剪辑功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "剪辑",
+              "裁剪",
+              "片段",
+              "trim",
+              "edit"
+            ],
+            "facts": [
+              {
+                "id": "P02.F1",
+                "text": "剪影练习版支持裁剪视频片段。"
+              }
+            ]
+          }
+        ],
+        "count": 2
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2c2-5fa3-7ca1-940f-fdf1ea946d14",
+        "usage": {
+          "input_tokens": 27042,
+          "cached_input_tokens": 13696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 146,
+          "reasoning_output_tokens": 75
+        }
+      },
+      "elapsed_ms": 19797
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "arguments": {
+        "script": {
+          "title": "课程视频字幕入门：添加字幕与手动改字",
+          "shots": [
+            {
+              "visual": "笔记本场景：教师坐在桌前，笔记本播放一小段课程画面。随后在画面下方叠加课程例句，并标注“字幕示意”。留出阅读时间，不展示软件按钮或操作界面。",
+              "hold_seconds": 7.5,
+              "blocks": [
+                {
+                  "text": "先从一小段课程内容开始。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "字幕示意卡场景：桌面纸卡写着“今天学习分树”，旁边标注“改字示意”。教师指向“树”字，再换成写着“今天学习分数”的纸卡，前后并排展示，让观众看清改动。纸卡仅说明文字修改，不模拟软件操作。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                },
+                {
+                  "text": "比如，把“分树”改成“分数”。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "讲义夹场景：教师翻开讲义夹，用手指找到讲义中的“分数”，再与旁边改好的字幕示意卡逐字对照。镜头停在讲义关键词和对应字幕上，留出核对与阅读时间。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "对照讲义，读一遍字幕，再核对课程里的关键词。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision_basis": "已取得字幕添加和手动改字的事实，按三个指定场景编排初稿，每镜至少停留5秒。",
+      "observation": {
+        "ok": true,
+        "script_hash": "fbecd3f37f41bcf8cb16abadfc09c8cf7b575c9727c96c58ad783ecefd668b79",
+        "revision": {
+          "before_hash": null,
+          "after_hash": "fbecd3f37f41bcf8cb16abadfc09c8cf7b575c9727c96c58ad783ecefd668b79",
+          "changed_fields": [
+            "script:new"
+          ],
+          "unchanged_shots": 0,
+          "unchanged_blocks": 0,
+          "feedback": [],
+          "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+        },
+        "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2c2-a266-7b32-a639-09760c3e90b1",
+        "usage": {
+          "input_tokens": 26866,
+          "cached_input_tokens": 13696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1255,
+          "reasoning_output_tokens": 823
+        }
+      },
+      "elapsed_ms": 48203
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "课程视频字幕入门：添加字幕与手动改字",
+          "shots": [
+            {
+              "visual": "笔记本场景：教师坐在桌前，笔记本播放一小段课程画面。随后在画面下方叠加课程例句，并标注“字幕示意”。留出阅读时间，不展示软件按钮或操作界面。",
+              "hold_seconds": 7.5,
+              "blocks": [
+                {
+                  "text": "先从一小段课程内容开始。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "字幕示意卡场景：桌面纸卡写着“今天学习分树”，旁边标注“改字示意”。教师指向“树”字，再换成写着“今天学习分数”的纸卡，前后并排展示，让观众看清改动。纸卡仅说明文字修改，不模拟软件操作。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                },
+                {
+                  "text": "比如，把“分树”改成“分数”。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "讲义夹场景：教师翻开讲义夹，用手指找到讲义中的“分数”，再与旁边改好的字幕示意卡逐字对照。镜头停在讲义关键词和对应字幕上，留出核对与阅读时间。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "对照讲义，读一遍字幕，再核对课程里的关键词。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "target_seconds": 25,
+        "duration_mode": "target"
+      },
+      "decision_basis": "当前稿尚未估时，需要确认总时长在22.5至25秒之间，且每个镜头至少5秒。",
+      "observation": {
+        "ok": true,
+        "script_hash": "fbecd3f37f41bcf8cb16abadfc09c8cf7b575c9727c96c58ad783ecefd668b79",
+        "shots": [
+          {
+            "shot": 1,
+            "speech_units": 25,
+            "estimated_seconds": 7.5
+          },
+          {
+            "shot": 2,
+            "speech_units": 19,
+            "estimated_seconds": 8
+          },
+          {
+            "shot": 3,
+            "speech_units": 19,
+            "estimated_seconds": 8
+          }
+        ],
+        "total_seconds": 23.5,
+        "target_seconds": 25,
+        "passed": true,
+        "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+        "is_estimate": true,
+        "duration_mode": "target",
+        "min_seconds": 22.5,
+        "max_seconds": 25,
+        "issue": null
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2c3-6116-7ee1-9e6c-4c9b67002b40",
+        "usage": {
+          "input_tokens": 28586,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 211,
+          "reasoning_output_tokens": 147
+        }
+      },
+      "elapsed_ms": 30453
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "arguments": {
+        "script": {
+          "title": "课程视频字幕入门：添加字幕与手动改字",
+          "shots": [
+            {
+              "visual": "笔记本场景：教师坐在桌前，笔记本播放一小段课程画面。随后在画面下方叠加课程例句，并标注“字幕示意”。留出阅读时间，不展示软件按钮或操作界面。",
+              "hold_seconds": 7.5,
+              "blocks": [
+                {
+                  "text": "先从一小段课程内容开始。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "字幕示意卡场景：桌面纸卡写着“今天学习分树”，旁边标注“改字示意”。教师指向“树”字，再换成写着“今天学习分数”的纸卡，前后并排展示，让观众看清改动。纸卡仅说明文字修改，不模拟软件操作。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                },
+                {
+                  "text": "比如，把“分树”改成“分数”。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "讲义夹场景：教师翻开讲义夹，用手指找到讲义中的“分数”，再与旁边改好的字幕示意卡逐字对照。镜头停在讲义关键词和对应字幕上，留出核对与阅读时间。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "对照讲义，读一遍字幕，再核对课程里的关键词。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "retrieved_ids": [
+          "P01",
+          "P02"
+        ],
+        "expression_mode": "creative"
+      },
+      "decision_basis": "当前稿估算23.5秒，时长检查已通过，需检查事实引用及公开文案是否符合规则。",
+      "observation": {
+        "ok": true,
+        "script_hash": "fbecd3f37f41bcf8cb16abadfc09c8cf7b575c9727c96c58ad783ecefd668b79",
+        "passed": true,
+        "issues": [],
+        "citations": [
+          {
+            "location": "shot:1/block:2",
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "location": "shot:2/block:1",
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          }
+        ],
+        "rules_version": "2026-11-03-v1",
+        "requires_expression_review": true,
+        "expression_slots": [
+          {
+            "location": "title",
+            "text": "课程视频字幕入门：添加字幕与手动改字"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "笔记本场景：教师坐在桌前，笔记本播放一小段课程画面。随后在画面下方叠加课程例句，并标注“字幕示意”。留出阅读时间，不展示软件按钮或操作界面。"
+          },
+          {
+            "location": "shot:1/block:1",
+            "text": "先从一小段课程内容开始。"
+          },
+          {
+            "location": "shot:2/visual",
+            "text": "字幕示意卡场景：桌面纸卡写着“今天学习分树”，旁边标注“改字示意”。教师指向“树”字，再换成写着“今天学习分数”的纸卡，前后并排展示，让观众看清改动。纸卡仅说明文字修改，不模拟软件操作。"
+          },
+          {
+            "location": "shot:2/block:2",
+            "text": "比如，把“分树”改成“分数”。"
+          },
+          {
+            "location": "shot:3/visual",
+            "text": "讲义夹场景：教师翻开讲义夹，用手指找到讲义中的“分数”，再与旁边改好的字幕示意卡逐字对照。镜头停在讲义关键词和对应字幕上，留出核对与阅读时间。"
+          },
+          {
+            "location": "shot:3/block:1",
+            "text": "对照讲义，读一遍字幕，再核对课程里的关键词。"
+          }
+        ],
+        "available_facts": [
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F1",
+            "quote": "剪影练习版支持为视频添加字幕。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P01",
+            "fact_id": "P01.F2",
+            "quote": "字幕文字可以手动编辑。",
+            "version": "2026-11-01"
+          },
+          {
+            "source_id": "P02",
+            "fact_id": "P02.F1",
+            "quote": "剪影练习版支持裁剪视频片段。",
+            "version": "2026-11-01"
+          }
+        ],
+        "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2c3-d5ae-7c31-a823-4f4108dbe056",
+        "usage": {
+          "input_tokens": 28813,
+          "cached_input_tokens": 23808,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 128,
+          "reasoning_output_tokens": 66
+        }
+      },
+      "elapsed_ms": 12797
+    },
+    {
+      "step": 5,
+      "action": "check_requirements",
+      "arguments": {
+        "script": {
+          "title": "课程视频字幕入门：添加字幕与手动改字",
+          "shots": [
+            {
+              "visual": "笔记本场景：教师坐在桌前，笔记本播放一小段课程画面。随后在画面下方叠加课程例句，并标注“字幕示意”。留出阅读时间，不展示软件按钮或操作界面。",
+              "hold_seconds": 7.5,
+              "blocks": [
+                {
+                  "text": "先从一小段课程内容开始。",
+                  "source_id": "",
+                  "fact_id": ""
+                },
+                {
+                  "text": "剪影练习版支持为视频添加字幕。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                }
+              ]
+            },
+            {
+              "visual": "字幕示意卡场景：桌面纸卡写着“今天学习分树”，旁边标注“改字示意”。教师指向“树”字，再换成写着“今天学习分数”的纸卡，前后并排展示，让观众看清改动。纸卡仅说明文字修改，不模拟软件操作。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "字幕文字可以手动编辑。",
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                },
+                {
+                  "text": "比如，把“分树”改成“分数”。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "讲义夹场景：教师翻开讲义夹，用手指找到讲义中的“分数”，再与旁边改好的字幕示意卡逐字对照。镜头停在讲义关键词和对应字幕上，留出核对与阅读时间。",
+              "hold_seconds": 8,
+              "blocks": [
+                {
+                  "text": "对照讲义，读一遍字幕，再核对课程里的关键词。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "request": {
+          "topic": "用三个分镜介绍字幕添加和手动改字，每个镜头至少停留5秒。场景为笔记本、字幕示意卡、讲义夹，目标接近25秒。",
+          "audience": "初次编辑课程视频的教师",
+          "platform": "B站",
+          "style": "慢节奏，明确",
+          "product_id": "demo-editor",
+          "duration_mode": "target",
+          "expression_mode": "creative",
+          "target_seconds": 25
+        },
+        "rules_check": {
+          "ok": true,
+          "script_hash": "fbecd3f37f41bcf8cb16abadfc09c8cf7b575c9727c96c58ad783ecefd668b79",
+          "passed": true,
+          "issues": [],
+          "citations": [
+            {
+              "location": "shot:1/block:2",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "location": "shot:2/block:1",
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            }
+          ],
+          "rules_version": "2026-11-03-v1",
+          "requires_expression_review": true,
+          "expression_slots": [
+            {
+              "location": "title",
+              "text": "课程视频字幕入门：添加字幕与手动改字"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "笔记本场景：教师坐在桌前，笔记本播放一小段课程画面。随后在画面下方叠加课程例句，并标注“字幕示意”。留出阅读时间，不展示软件按钮或操作界面。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "先从一小段课程内容开始。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "字幕示意卡场景：桌面纸卡写着“今天学习分树”，旁边标注“改字示意”。教师指向“树”字，再换成写着“今天学习分数”的纸卡，前后并排展示，让观众看清改动。纸卡仅说明文字修改，不模拟软件操作。"
+            },
+            {
+              "location": "shot:2/block:2",
+              "text": "比如，把“分树”改成“分数”。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "讲义夹场景：教师翻开讲义夹，用手指找到讲义中的“分数”，再与旁边改好的字幕示意卡逐字对照。镜头停在讲义关键词和对应字幕上，留出核对与阅读时间。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "对照讲义，读一遍字幕，再核对课程里的关键词。"
+            }
+          ],
+          "available_facts": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "quote": "剪影练习版支持为视频添加字幕。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2",
+              "quote": "字幕文字可以手动编辑。",
+              "version": "2026-11-01"
+            },
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "quote": "剪影练习版支持裁剪视频片段。",
+              "version": "2026-11-01"
+            }
+          ],
+          "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+        }
+      },
+      "decision_basis": "当前稿时长与规则检查已通过，尚需审核需求覆盖和原创表达。",
+      "observation": {
+        "ok": true,
+        "script_hash": "fbecd3f37f41bcf8cb16abadfc09c8cf7b575c9727c96c58ad783ecefd668b79",
+        "request_hash": "5a8a440420139279ec1553d5df17e98f299a81d8749d3f199cabda7f4dd353a5",
+        "passed": true,
+        "items": [
+          {
+            "field": "topic",
+            "requirement": "用三个分镜",
+            "verdict": "met",
+            "evidence": "当前稿件共3个分镜，依次呈现字幕添加、手动改字和对照讲义核对。"
+          },
+          {
+            "field": "topic",
+            "requirement": "字幕添加",
+            "verdict": "met",
+            "evidence": "分镜1旁白明确介绍“剪影练习版支持为视频添加字幕”，画面叠加课程例句并标注“字幕示意”。"
+          },
+          {
+            "field": "topic",
+            "requirement": "手动改字",
+            "verdict": "met",
+            "evidence": "分镜2旁白说明“字幕文字可以手动编辑”，配合将“分树”改为“分数”的纸卡示例。"
+          },
+          {
+            "field": "topic",
+            "requirement": "每个镜头至少停留5秒",
+            "verdict": "met",
+            "evidence": "三个分镜的hold_seconds分别为7.5、8、8，均不少于5秒。"
+          },
+          {
+            "field": "topic",
+            "requirement": "笔记本",
+            "verdict": "met",
+            "evidence": "分镜1明确安排“教师坐在桌前，笔记本播放一小段课程画面”。"
+          },
+          {
+            "field": "topic",
+            "requirement": "字幕示意卡",
+            "verdict": "met",
+            "evidence": "分镜2以字幕示意卡展示修改前后的例句，并安排两张纸卡并排观察。"
+          },
+          {
+            "field": "topic",
+            "requirement": "讲义夹",
+            "verdict": "met",
+            "evidence": "分镜3明确安排教师翻开讲义夹，找到“分数”并与字幕示意卡逐字对照。"
+          },
+          {
+            "field": "topic",
+            "requirement": "目标接近25秒",
+            "verdict": "met",
+            "evidence": "稿件标注的镜头停留合计23.5秒，接近25秒目标；此处依据脚本安排判断覆盖，不代表成片实测时长。"
+          },
+          {
+            "field": "audience",
+            "requirement": "初次编辑课程视频的教师",
+            "verdict": "met",
+            "evidence": "标题定位“课程视频字幕入门”，画面采用教师、课程例句和讲义核对，内容从添加字幕与基础改字开始，适合初次编辑者。"
+          },
+          {
+            "field": "platform",
+            "requirement": "B站",
+            "verdict": "met",
+            "evidence": "稿件采用主题明确的入门标题、连续分镜和口播示例，知识讲解形式适合B站短视频。"
+          },
+          {
+            "field": "style",
+            "requirement": "慢节奏",
+            "verdict": "met",
+            "evidence": "每镜停留7.5至8秒，分别安排例句阅读、修改前后对比和讲义核对，均留有观察时间。"
+          },
+          {
+            "field": "style",
+            "requirement": "明确",
+            "verdict": "met",
+            "evidence": "分镜1直接说明添加字幕，分镜2直接说明手动编辑并展示“分树→分数”，分镜3给出具体核对动作，表述清楚。"
+          }
+        ],
+        "summary": "全部需求均已覆盖。涉及产品能力的表达有资料支持，三个镜头的阅读、改字对比和讲义核对能合理支撑慢节奏停留。",
+        "method": "model_assessment_not_deterministic_proof",
+        "expressions": [
+          {
+            "location": "title",
+            "text": "课程视频字幕入门：添加字幕与手动改字",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ],
+            "evidence": "标题涉及添加字幕和手动改字，分别由P01.F1的添加字幕能力、P01.F2的手动编辑字幕文字能力支持。"
+          },
+          {
+            "location": "shot:1/visual",
+            "text": "笔记本场景：教师坐在桌前，笔记本播放一小段课程画面。随后在画面下方叠加课程例句，并标注“字幕示意”。留出阅读时间，不展示软件按钮或操作界面。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1"
+              }
+            ],
+            "evidence": "叠加课程例句示意为视频添加字幕，由P01.F1支持；教师和笔记本属于拍摄场景，未虚构软件按钮、界面或操作流程。"
+          },
+          {
+            "location": "shot:1/block:1",
+            "text": "先从一小段课程内容开始。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "这是选择课程片段的引导语，不含产品能力或效果承诺。"
+          },
+          {
+            "location": "shot:2/visual",
+            "text": "字幕示意卡场景：桌面纸卡写着“今天学习分树”，旁边标注“改字示意”。教师指向“树”字，再换成写着“今天学习分数”的纸卡，前后并排展示，让观众看清改动。纸卡仅说明文字修改，不模拟软件操作。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ],
+            "evidence": "纸卡前后对比示意手动修改字幕文字，由P01.F2支持；没有声称自动纠错，也未模拟具体软件操作。"
+          },
+          {
+            "location": "shot:2/block:2",
+            "text": "比如，把“分树”改成“分数”。",
+            "verdict": "supported_claim",
+            "references": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2"
+              }
+            ],
+            "evidence": "承接手动编辑字幕的旁白，给出文字替换示例，未超出P01.F2支持的能力范围。"
+          },
+          {
+            "location": "shot:3/visual",
+            "text": "讲义夹场景：教师翻开讲义夹，用手指找到讲义中的“分数”，再与旁边改好的字幕示意卡逐字对照。镜头停在讲义关键词和对应字幕上，留出核对与阅读时间。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "全部动作由教师对纸质讲义和示意卡完成，是人工核对与拍摄安排，没有承诺产品自动核对等能力。"
+          },
+          {
+            "location": "shot:3/block:1",
+            "text": "对照讲义，读一遍字幕，再核对课程里的关键词。",
+            "verdict": "plain_expression",
+            "references": [],
+            "evidence": "这是面向教师的人工检查建议，不含产品性能、自动化或效果保证。"
+          }
+        ],
+        "pacing": {
+          "verdict": "met",
+          "evidence": "分镜1停留7.5秒，两句简短旁白配课程画面和例句阅读；分镜2停留8秒，旁白配指字、换卡及前后对比；分镜3停留8秒，一句旁白配翻讲义、定位关键词和逐字核对。每镜均有明确观察或动作任务，未见重复同一事实或空镜凑时长。"
+        },
+        "expression_review_passed": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2c4-0809-7990-97ce-0f08707abecc",
+        "usage": {
+          "input_tokens": 31355,
+          "cached_input_tokens": 13696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 94,
+          "reasoning_output_tokens": 39
+        }
+      },
+      "review_model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2c4-3414-7473-9d8b-d5c6c65414e3",
+        "usage": {
+          "input_tokens": 27697,
+          "cached_input_tokens": 24576,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2876,
+          "reasoning_output_tokens": 1004
+        }
+      },
+      "elapsed_ms": 78500
+    },
+    {
+      "step": 6,
+      "action": "finish",
+      "arguments": {
+        "status": "completed",
+        "message": "已完成三个分镜，覆盖字幕添加和手动改字，包含笔记本、字幕示意卡、讲义夹场景。每镜分别停留7.5、8、8秒，估算总长23.5秒，符合接近25秒的目标。当前稿无需删改；实际成片时长需制作后确认。"
+      },
+      "decision_basis": "当前同一稿的时长、规则和需求检查均已通过。",
+      "observation": {
+        "ok": true,
+        "status": "completed",
+        "script_hash": "fbecd3f37f41bcf8cb16abadfc09c8cf7b575c9727c96c58ad783ecefd668b79"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a2c5-3b0d-7471-898a-9037bfd40dec",
+        "usage": {
+          "input_tokens": 36162,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 309,
+          "reasoning_output_tokens": 182
+        }
+      },
+      "elapsed_ms": 16953
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T18:53:26.692996+00:00",
+    "finished_at": "2026-11-03T18:56:53.411494+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 6,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v3",
+    "requirements_review_context": "current_rules_check_v1",
+    "model_responses": 7
+  }
+}

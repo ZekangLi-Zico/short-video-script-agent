@@ -1,0 +1,43 @@
+{
+  "call_id": "decision-1iltjv35",
+  "started_at": "2026-11-05T20:58:34.448125+00:00",
+  "response_received": true,
+  "phase": "decision",
+  "timeout_seconds": 180,
+  "request_bytes": 10726,
+  "exit_code": 0,
+  "runtime": {
+    "event_counts": {
+      "thread.started": 1,
+      "turn.started": 1,
+      "item.completed": 1,
+      "turn.completed": 1
+    },
+    "last_event": "turn.completed",
+    "turn_started": true,
+    "turn_completed": true,
+    "external_tool_used": false,
+    "signals": [],
+    "stdout_bytes": 3183,
+    "stderr_bytes": 158
+  },
+  "finished_at": "2026-11-05T20:59:07.313379+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1ad81-a10a-74f1-a875-0530bc0b8d66",
+    "usage": {
+      "input_tokens": 23446,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 733,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-1iltjv35",
+    "warnings": [],
+    "configuration_mode": "isolated",
+    "phase": "decision"
+  },
+  "elapsed_seconds": 32.859
+}

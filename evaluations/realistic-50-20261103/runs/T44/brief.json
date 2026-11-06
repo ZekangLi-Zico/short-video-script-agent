@@ -1,0 +1,65 @@
+{
+  "id": "T44",
+  "name": "镜头顺序锁定",
+  "context": "素材已经按四个镜头拍好，只能改文案与停留。",
+  "request": {
+    "topic": "保留旧稿四个镜头的顺序和数量，压缩到20秒以内。两个字幕功能都保留，可以缩短停留时间。",
+    "audience": "第一次拍口播的人",
+    "platform": "抖音",
+    "style": "简洁、清楚",
+    "product_id": "demo-editor",
+    "target_seconds": 20,
+    "initial_script": {
+      "title": "字幕，让表达被看见",
+      "shots": [
+        {
+          "visual": "人物面对镜头提出问题",
+          "hold_seconds": 8,
+          "blocks": [
+            {
+              "text": "想让画面里的表达更清楚？",
+              "source_id": "",
+              "fact_id": ""
+            }
+          ]
+        },
+        {
+          "visual": "将旁白作为字幕叠加在日常画面上",
+          "hold_seconds": 12,
+          "blocks": [
+            {
+              "text": "剪影练习版支持为视频添加字幕。",
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            }
+          ]
+        },
+        {
+          "visual": "产品功能文字卡片，不展示未经提供的界面",
+          "hold_seconds": 12,
+          "blocks": [
+            {
+              "text": "字幕文字可以手动编辑。",
+              "source_id": "P01",
+              "fact_id": "P01.F2"
+            }
+          ]
+        },
+        {
+          "visual": "简洁背景展示结尾文字",
+          "hold_seconds": 8,
+          "blocks": [
+            {
+              "text": "试试你的下一条短片吧。",
+              "source_id": "",
+              "fact_id": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "provider": "codex",
+  "faults": {},
+  "input_origin": "prewritten realistic brief; not derived from expected status or observed campaign output"
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-i3pf_pa8",
+  "started_at": "2026-11-04T15:02:19.538699+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:04:02.233572+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a715-19fe-7453-8e9b-51524dad8339",
+    "usage": {
+      "input_tokens": 29080,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2987,
+      "reasoning_output_tokens": 924
+    },
+    "call_id": "decision-i3pf_pa8",
+    "warnings": []
+  }
+}

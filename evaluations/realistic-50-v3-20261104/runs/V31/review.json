@@ -1,0 +1,6 @@
+{
+  "case": "V31",
+  "assessment": "可用性限制",
+  "note": "已有裁剪事实，但模型要求8字以内独立引用事实或放宽单卡字数，未生成脚本。没有虚报完成；反映引用/呈现策略对短字卡场景的限制，不能直接归为缺少产品能力资料。",
+  "reviewer": "AI developer reading original brief and actual artifacts; not independent blind evaluation"
+}

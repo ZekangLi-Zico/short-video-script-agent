@@ -1,0 +1,1576 @@
+{
+  "format": "checkpoint_v1",
+  "recorded_at": "2026-11-04T21:22:42.201149+00:00",
+  "last_event": {
+    "kind": "step",
+    "step": 4
+  },
+  "result": {
+    "status": "in_progress",
+    "message": "任务执行中，尚未完成。",
+    "script": {
+      "format_version": 2,
+      "title": "这一帧，留给今天",
+      "shots": [
+        {
+          "purpose": "交代社区活动记录的场景",
+          "visual": "雨后街角，地面有积水。镜头从街边移向门口的伞架，一位居民拿着收好的伞走近。",
+          "hold_seconds": 6.5,
+          "blocks": [
+            {
+              "text": "雨停了，我们拍下街角的伞架，记录这次社区活动。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "结合归还雨伞的画面介绍片段裁剪",
+          "visual": "拍摄居民把伞放回伞架的动作；切到剪辑中的视频素材，展示裁剪后保留的放伞片段，不突出未经证实的按钮或操作路径。",
+          "hold_seconds": 7,
+          "blocks": [
+            {
+              "text": "用剪影练习版裁剪视频片段，把伞放回架上的这一段留下。",
+              "source_id": "P02",
+              "fact_id": "P02.F1",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "为保留的片段添加契合活动的字幕",
+          "visual": "放伞片段继续播放，画面下方出现字幕“谢谢你，把伞留给下一个人”。居民松开伞柄，转身离开。",
+          "hold_seconds": 7,
+          "blocks": [
+            {
+              "text": "再用它为视频添加字幕，写上：谢谢你，把伞留给下一个人。",
+              "source_id": "P01",
+              "fact_id": "P01.F1",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "谢谢你，把伞留给下一个人。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "screen",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        },
+        {
+          "purpose": "收束活动记录并呈现指定片名",
+          "visual": "镜头停在归还的雨伞上，背景仍是雨后街角。片名“这一帧，留给今天”淡入，作为这条活动视频的结尾。",
+          "hold_seconds": 5,
+          "blocks": [
+            {
+              "text": "这段街角的小事，就留在今天的记录里。",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "voice",
+              "beat": 1,
+              "display_seconds": 0
+            },
+            {
+              "text": "这一帧，留给今天",
+              "source_id": "",
+              "fact_id": "",
+              "channel": "screen",
+              "beat": 1,
+              "display_seconds": 0
+            }
+          ]
+        }
+      ],
+      "editor_notes": ""
+    },
+    "duration": {
+      "ok": true,
+      "script_hash": "0eb5fc2b89d027e32294f5a50d5ae9564adc85b6a56299364471befc601059e5",
+      "shots": [
+        {
+          "shot": 1,
+          "estimated_seconds": 6.5,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 5.5,
+              "voice_seconds": 5.5,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 5.5
+            }
+          ],
+          "tail_hold_seconds": 1.0
+        },
+        {
+          "shot": 2,
+          "estimated_seconds": 7.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 6.5,
+              "voice_seconds": 6.5,
+              "screen_read_seconds": 0,
+              "display_seconds": 0,
+              "estimated_seconds": 6.5
+            }
+          ],
+          "tail_hold_seconds": 0.5
+        },
+        {
+          "shot": 3,
+          "estimated_seconds": 7.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 6.3,
+              "voice_seconds": 6.25,
+              "screen_read_seconds": 3.25,
+              "display_seconds": 0,
+              "estimated_seconds": 6.3
+            }
+          ],
+          "tail_hold_seconds": 0.7
+        },
+        {
+          "shot": 4,
+          "estimated_seconds": 5.0,
+          "beats": [
+            {
+              "beat": 1,
+              "start_seconds": 0,
+              "end_seconds": 4.5,
+              "voice_seconds": 4.5,
+              "screen_read_seconds": 2.25,
+              "display_seconds": 0,
+              "estimated_seconds": 4.5
+            }
+          ],
+          "tail_hold_seconds": 0.5
+        }
+      ],
+      "total_seconds": 25.5,
+      "target_seconds": 28,
+      "passed": true,
+      "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+      "is_estimate": true,
+      "duration_mode": "target",
+      "min_seconds": 25.2,
+      "max_seconds": 28,
+      "issue": null
+    },
+    "rules_check": {
+      "ok": true,
+      "script_hash": "0eb5fc2b89d027e32294f5a50d5ae9564adc85b6a56299364471befc601059e5",
+      "passed": true,
+      "issues": [],
+      "citations": [
+        {
+          "location": "shot:2/block:1",
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01",
+          "text": "用剪影练习版裁剪视频片段，把伞放回架上的这一段留下。",
+          "requires_semantic_review": true
+        },
+        {
+          "location": "shot:3/block:1",
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01",
+          "text": "再用它为视频添加字幕，写上：谢谢你，把伞留给下一个人。",
+          "requires_semantic_review": true
+        }
+      ],
+      "rules_version": "2026-11-03-v1",
+      "requires_expression_review": true,
+      "expression_slots": [
+        {
+          "location": "title",
+          "text": "这一帧，留给今天"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "雨后街角，地面有积水。镜头从街边移向门口的伞架，一位居民拿着收好的伞走近。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "雨停了，我们拍下街角的伞架，记录这次社区活动。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "拍摄居民把伞放回伞架的动作；切到剪辑中的视频素材，展示裁剪后保留的放伞片段，不突出未经证实的按钮或操作路径。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "用剪影练习版裁剪视频片段，把伞放回架上的这一段留下。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "放伞片段继续播放，画面下方出现字幕“谢谢你，把伞留给下一个人”。居民松开伞柄，转身离开。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "再用它为视频添加字幕，写上：谢谢你，把伞留给下一个人。"
+        },
+        {
+          "location": "shot:3/block:2",
+          "text": "谢谢你，把伞留给下一个人。"
+        },
+        {
+          "location": "shot:4/visual",
+          "text": "镜头停在归还的雨伞上，背景仍是雨后街角。片名“这一帧，留给今天”淡入，作为这条活动视频的结尾。"
+        },
+        {
+          "location": "shot:4/block:1",
+          "text": "这段街角的小事，就留在今天的记录里。"
+        },
+        {
+          "location": "shot:4/block:2",
+          "text": "这一帧，留给今天"
+        }
+      ],
+      "available_facts": [
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F1",
+          "quote": "剪影练习版支持为视频添加字幕。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P01",
+          "fact_id": "P01.F2",
+          "quote": "字幕文字可以手动编辑。",
+          "version": "2026-11-01"
+        },
+        {
+          "source_id": "P02",
+          "fact_id": "P02.F1",
+          "quote": "剪影练习版支持裁剪视频片段。",
+          "version": "2026-11-01"
+        }
+      ],
+      "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+    },
+    "requirements_check": {
+      "ok": true,
+      "script_hash": "0eb5fc2b89d027e32294f5a50d5ae9564adc85b6a56299364471befc601059e5",
+      "request_hash": "3492c1a6edb694e8cd4c54e1e1121b943e501daf6cb4e631a15c840fdf8bba89",
+      "passed": true,
+      "items": [
+        {
+          "field": "topic",
+          "requirement": "标题必须逐字为“这一帧，留给今天”",
+          "verdict": "met",
+          "evidence": "标题及第4镜片名字样均为“这一帧，留给今天”，逐字一致。"
+        },
+        {
+          "field": "topic",
+          "requirement": "字幕添加",
+          "verdict": "met",
+          "evidence": "第3镜旁白介绍“为视频添加字幕”，并同步展示具体字幕。"
+        },
+        {
+          "field": "topic",
+          "requirement": "片段裁剪",
+          "verdict": "met",
+          "evidence": "第2镜介绍“裁剪视频片段”，画面展示裁剪后保留的放伞片段。"
+        },
+        {
+          "field": "topic",
+          "requirement": "背景是雨后街角与伞架",
+          "verdict": "met",
+          "evidence": "第1镜明确呈现雨后积水街角和门口伞架，后续围绕归还雨伞展开。"
+        },
+        {
+          "field": "topic",
+          "requirement": "不能把活动片名说成产品功能",
+          "verdict": "met",
+          "evidence": "指定标题仅作为活动视频片名呈现，产品功能表述为裁剪和添加字幕。"
+        },
+        {
+          "field": "audience",
+          "requirement": "社区活动账号",
+          "verdict": "met",
+          "evidence": "第1镜明确记录社区活动，居民归还雨伞与感谢下一位使用者的字幕契合社区内容。"
+        },
+        {
+          "field": "platform",
+          "requirement": "抖音",
+          "verdict": "met",
+          "evidence": "四镜以具体生活动作串联两项功能，短旁白和简短字幕适合短视频观看。"
+        },
+        {
+          "field": "style",
+          "requirement": "温柔",
+          "verdict": "met",
+          "evidence": "“谢谢你，把伞留给下一个人”语气温和，连续旁白从活动记录自然衔接裁剪、字幕与收束。"
+        },
+        {
+          "field": "style",
+          "requirement": "少形容词",
+          "verdict": "met",
+          "evidence": "旁白主要使用拍下、裁剪、留下和添加等具体动作，未堆砌形容词。"
+        }
+      ],
+      "summary": "当前稿满足全部明确要求，两项功能均有资料支持，片名没有被误说成产品功能。声画衔接清楚，预计25.5秒且时长检查通过，节奏合理。",
+      "method": "model_assessment_not_deterministic_proof",
+      "expressions": [
+        {
+          "location": "title",
+          "text": "这一帧，留给今天",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "活动片名，不包含产品能力承诺。"
+        },
+        {
+          "location": "shot:1/visual",
+          "text": "雨后街角，地面有积水。镜头从街边移向门口的伞架，一位居民拿着收好的伞走近。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "生活场景与镜头安排，不涉及产品事实。"
+        },
+        {
+          "location": "shot:1/block:1",
+          "text": "雨停了，我们拍下街角的伞架，记录这次社区活动。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "交代活动拍摄情境，没有产品效果或真实客户背书声明。"
+        },
+        {
+          "location": "shot:2/visual",
+          "text": "拍摄居民把伞放回伞架的动作；切到剪辑中的视频素材，展示裁剪后保留的放伞片段，不突出未经证实的按钮或操作路径。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1"
+            }
+          ],
+          "evidence": "裁剪后保留片段的示意由裁剪能力支持，未指定虚构界面或操作流程。"
+        },
+        {
+          "location": "shot:2/block:1",
+          "text": "用剪影练习版裁剪视频片段，把伞放回架上的这一段留下。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P02",
+              "fact_id": "P02.F1"
+            }
+          ],
+          "evidence": "原文明确支持裁剪视频片段，保留放伞片段是该能力的具体应用。"
+        },
+        {
+          "location": "shot:3/visual",
+          "text": "放伞片段继续播放，画面下方出现字幕“谢谢你，把伞留给下一个人”。居民松开伞柄，转身离开。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2"
+            }
+          ],
+          "evidence": "添加字幕及手动编辑文字支持展示这句字幕，其位置属于成片编排。"
+        },
+        {
+          "location": "shot:3/block:1",
+          "text": "再用它为视频添加字幕，写上：谢谢你，把伞留给下一个人。",
+          "verdict": "supported_claim",
+          "references": [
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F1"
+            },
+            {
+              "source_id": "P01",
+              "fact_id": "P01.F2"
+            }
+          ],
+          "evidence": "添加字幕和写入具体文字分别由字幕添加与手动编辑事实支持。"
+        },
+        {
+          "location": "shot:3/block:2",
+          "text": "谢谢你，把伞留给下一个人。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "社区活动中的感谢语，不含产品承诺。"
+        },
+        {
+          "location": "shot:4/visual",
+          "text": "镜头停在归还的雨伞上，背景仍是雨后街角。片名“这一帧，留给今天”淡入，作为这条活动视频的结尾。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "结尾镜头和片名呈现安排，未声称产品提供淡入功能。"
+        },
+        {
+          "location": "shot:4/block:1",
+          "text": "这段街角的小事，就留在今天的记录里。",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "对社区活动记录的情绪收束，不涉及存储等产品能力声明。"
+        },
+        {
+          "location": "shot:4/block:2",
+          "text": "这一帧，留给今天",
+          "verdict": "plain_expression",
+          "references": [],
+          "evidence": "展示指定活动片名，没有功能含义。"
+        }
+      ],
+      "pacing": {
+        "verdict": "met",
+        "evidence": "四镜预计6.5、7、7、5秒，分别容纳场景移动、放伞与裁剪展示、字幕及离开动作、片名收束；旁白约5.5、6.5、6.25、4.5秒，同拍字幕可同步阅读，无明显空镜凑时长。"
+      },
+      "expression_review_passed": true
+    },
+    "sources": [
+      {
+        "id": "P02",
+        "product_id": "demo-editor",
+        "title": "剪辑功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "剪辑",
+          "裁剪",
+          "片段",
+          "trim",
+          "edit"
+        ],
+        "facts": [
+          {
+            "id": "P02.F1",
+            "text": "剪影练习版支持裁剪视频片段。"
+          }
+        ]
+      },
+      {
+        "id": "P01",
+        "product_id": "demo-editor",
+        "title": "字幕功能说明",
+        "version": "2026-11-01",
+        "keywords": [
+          "字幕",
+          "口播",
+          "文字",
+          "caption",
+          "subtitle"
+        ],
+        "facts": [
+          {
+            "id": "P01.F1",
+            "text": "剪影练习版支持为视频添加字幕。"
+          },
+          {
+            "id": "P01.F2",
+            "text": "字幕文字可以手动编辑。"
+          }
+        ]
+      }
+    ],
+    "trace": [
+      {
+        "step": 1,
+        "action": "search_materials",
+        "arguments": {
+          "query": "demo-editor 字幕添加 片段裁剪 产品功能 活动片名 这一帧，留给今天",
+          "product_id": "demo-editor"
+        },
+        "decision_basis": "查找字幕添加、片段裁剪的产品依据，以及活动片名相关信息，避免将标题误写成功能。",
+        "observation": {
+          "ok": true,
+          "query": "demo-editor 字幕添加 片段裁剪 产品功能 活动片名 这一帧，留给今天",
+          "product_id": "demo-editor",
+          "materials": [
+            {
+              "id": "P02",
+              "product_id": "demo-editor",
+              "title": "剪辑功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "剪辑",
+                "裁剪",
+                "片段",
+                "trim",
+                "edit"
+              ],
+              "facts": [
+                {
+                  "id": "P02.F1",
+                  "text": "剪影练习版支持裁剪视频片段。"
+                }
+              ]
+            },
+            {
+              "id": "P01",
+              "product_id": "demo-editor",
+              "title": "字幕功能说明",
+              "version": "2026-11-01",
+              "keywords": [
+                "字幕",
+                "口播",
+                "文字",
+                "caption",
+                "subtitle"
+              ],
+              "facts": [
+                {
+                  "id": "P01.F1",
+                  "text": "剪影练习版支持为视频添加字幕。"
+                },
+                {
+                  "id": "P01.F2",
+                  "text": "字幕文字可以手动编辑。"
+                }
+              ]
+            }
+          ],
+          "count": 2
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a86e-b250-7a43-b7c4-ab4f89e18431",
+          "usage": {
+            "input_tokens": 27463,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 86,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-_b1atrx0",
+          "warnings": []
+        },
+        "elapsed_ms": 17844
+      },
+      {
+        "step": 2,
+        "action": "write_script",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "这一帧，留给今天",
+            "shots": [
+              {
+                "purpose": "交代社区活动记录的场景",
+                "visual": "雨后街角，地面有积水。镜头从街边移向门口的伞架，一位居民拿着收好的伞走近。",
+                "hold_seconds": 6.5,
+                "blocks": [
+                  {
+                    "text": "雨停了，我们拍下街角的伞架，记录这次社区活动。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "结合归还雨伞的画面介绍片段裁剪",
+                "visual": "拍摄居民把伞放回伞架的动作；切到剪辑中的视频素材，展示裁剪后保留的放伞片段，不突出未经证实的按钮或操作路径。",
+                "hold_seconds": 7,
+                "blocks": [
+                  {
+                    "text": "用剪影练习版裁剪视频片段，把伞放回架上的这一段留下。",
+                    "source_id": "P02",
+                    "fact_id": "P02.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "为保留的片段添加契合活动的字幕",
+                "visual": "放伞片段继续播放，画面下方出现字幕“谢谢你，把伞留给下一个人”。居民松开伞柄，转身离开。",
+                "hold_seconds": 7,
+                "blocks": [
+                  {
+                    "text": "再用它为视频添加字幕，写上：谢谢你，把伞留给下一个人。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "谢谢你，把伞留给下一个人。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "收束活动记录并呈现指定片名",
+                "visual": "镜头停在归还的雨伞上，背景仍是雨后街角。片名“这一帧，留给今天”淡入，作为这条活动视频的结尾。",
+                "hold_seconds": 5,
+                "blocks": [
+                  {
+                    "text": "这段街角的小事，就留在今天的记录里。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "这一帧，留给今天",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          }
+        },
+        "decision_basis": "资料已覆盖字幕添加和片段裁剪；保留指定标题，用雨后街角与伞架串起社区活动记录，只介绍这两项功能。",
+        "observation": {
+          "ok": true,
+          "script_hash": "0eb5fc2b89d027e32294f5a50d5ae9564adc85b6a56299364471befc601059e5",
+          "revision": {
+            "before_hash": null,
+            "after_hash": "0eb5fc2b89d027e32294f5a50d5ae9564adc85b6a56299364471befc601059e5",
+            "changed_fields": [
+              "script:new"
+            ],
+            "unchanged_shots": 0,
+            "unchanged_blocks": 0,
+            "feedback": [],
+            "method": "index_aligned_diff; feedback is observed context, not proof of causality"
+          },
+          "message": "已更新草稿，必须对本稿重新运行时长、规则与需求检查"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a86e-f17c-7442-8919-29eceb1bd126",
+          "usage": {
+            "input_tokens": 27753,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 882,
+            "reasoning_output_tokens": 278
+          },
+          "call_id": "decision-a_85c89t",
+          "warnings": []
+        },
+        "elapsed_ms": 80125
+      },
+      {
+        "step": 3,
+        "action": "check_requirements",
+        "arguments": {
+          "script": {
+            "format_version": 2,
+            "title": "这一帧，留给今天",
+            "shots": [
+              {
+                "purpose": "交代社区活动记录的场景",
+                "visual": "雨后街角，地面有积水。镜头从街边移向门口的伞架，一位居民拿着收好的伞走近。",
+                "hold_seconds": 6.5,
+                "blocks": [
+                  {
+                    "text": "雨停了，我们拍下街角的伞架，记录这次社区活动。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "结合归还雨伞的画面介绍片段裁剪",
+                "visual": "拍摄居民把伞放回伞架的动作；切到剪辑中的视频素材，展示裁剪后保留的放伞片段，不突出未经证实的按钮或操作路径。",
+                "hold_seconds": 7,
+                "blocks": [
+                  {
+                    "text": "用剪影练习版裁剪视频片段，把伞放回架上的这一段留下。",
+                    "source_id": "P02",
+                    "fact_id": "P02.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "为保留的片段添加契合活动的字幕",
+                "visual": "放伞片段继续播放，画面下方出现字幕“谢谢你，把伞留给下一个人”。居民松开伞柄，转身离开。",
+                "hold_seconds": 7,
+                "blocks": [
+                  {
+                    "text": "再用它为视频添加字幕，写上：谢谢你，把伞留给下一个人。",
+                    "source_id": "P01",
+                    "fact_id": "P01.F1",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "谢谢你，把伞留给下一个人。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              },
+              {
+                "purpose": "收束活动记录并呈现指定片名",
+                "visual": "镜头停在归还的雨伞上，背景仍是雨后街角。片名“这一帧，留给今天”淡入，作为这条活动视频的结尾。",
+                "hold_seconds": 5,
+                "blocks": [
+                  {
+                    "text": "这段街角的小事，就留在今天的记录里。",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "voice",
+                    "beat": 1,
+                    "display_seconds": 0
+                  },
+                  {
+                    "text": "这一帧，留给今天",
+                    "source_id": "",
+                    "fact_id": "",
+                    "channel": "screen",
+                    "beat": 1,
+                    "display_seconds": 0
+                  }
+                ]
+              }
+            ],
+            "editor_notes": ""
+          },
+          "request": {
+            "topic": "标题必须逐字为“这一帧，留给今天”。介绍字幕添加和片段裁剪，背景是雨后街角与伞架，不能把活动片名说成产品功能。",
+            "audience": "社区活动账号",
+            "platform": "抖音",
+            "style": "温柔，少形容词",
+            "product_id": "demo-editor",
+            "duration_mode": "target",
+            "expression_mode": "creative",
+            "target_seconds": 28
+          },
+          "rules_check": {
+            "ok": true,
+            "script_hash": "0eb5fc2b89d027e32294f5a50d5ae9564adc85b6a56299364471befc601059e5",
+            "passed": true,
+            "issues": [],
+            "citations": [
+              {
+                "location": "shot:2/block:1",
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01",
+                "text": "用剪影练习版裁剪视频片段，把伞放回架上的这一段留下。",
+                "requires_semantic_review": true
+              },
+              {
+                "location": "shot:3/block:1",
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01",
+                "text": "再用它为视频添加字幕，写上：谢谢你，把伞留给下一个人。",
+                "requires_semantic_review": true
+              }
+            ],
+            "rules_version": "2026-11-03-v1",
+            "requires_expression_review": true,
+            "expression_slots": [
+              {
+                "location": "title",
+                "text": "这一帧，留给今天"
+              },
+              {
+                "location": "shot:1/visual",
+                "text": "雨后街角，地面有积水。镜头从街边移向门口的伞架，一位居民拿着收好的伞走近。"
+              },
+              {
+                "location": "shot:1/block:1",
+                "text": "雨停了，我们拍下街角的伞架，记录这次社区活动。"
+              },
+              {
+                "location": "shot:2/visual",
+                "text": "拍摄居民把伞放回伞架的动作；切到剪辑中的视频素材，展示裁剪后保留的放伞片段，不突出未经证实的按钮或操作路径。"
+              },
+              {
+                "location": "shot:2/block:1",
+                "text": "用剪影练习版裁剪视频片段，把伞放回架上的这一段留下。"
+              },
+              {
+                "location": "shot:3/visual",
+                "text": "放伞片段继续播放，画面下方出现字幕“谢谢你，把伞留给下一个人”。居民松开伞柄，转身离开。"
+              },
+              {
+                "location": "shot:3/block:1",
+                "text": "再用它为视频添加字幕，写上：谢谢你，把伞留给下一个人。"
+              },
+              {
+                "location": "shot:3/block:2",
+                "text": "谢谢你，把伞留给下一个人。"
+              },
+              {
+                "location": "shot:4/visual",
+                "text": "镜头停在归还的雨伞上，背景仍是雨后街角。片名“这一帧，留给今天”淡入，作为这条活动视频的结尾。"
+              },
+              {
+                "location": "shot:4/block:1",
+                "text": "这段街角的小事，就留在今天的记录里。"
+              },
+              {
+                "location": "shot:4/block:2",
+                "text": "这一帧，留给今天"
+              }
+            ],
+            "available_facts": [
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F1",
+                "quote": "剪影练习版支持为视频添加字幕。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P01",
+                "fact_id": "P01.F2",
+                "quote": "字幕文字可以手动编辑。",
+                "version": "2026-11-01"
+              },
+              {
+                "source_id": "P02",
+                "fact_id": "P02.F1",
+                "quote": "剪影练习版支持裁剪视频片段。",
+                "version": "2026-11-01"
+              }
+            ],
+            "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+          },
+          "duration_check": {
+            "ok": true,
+            "script_hash": "0eb5fc2b89d027e32294f5a50d5ae9564adc85b6a56299364471befc601059e5",
+            "shots": [
+              {
+                "shot": 1,
+                "estimated_seconds": 6.5,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 5.5,
+                    "voice_seconds": 5.5,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 5.5
+                  }
+                ],
+                "tail_hold_seconds": 1.0
+              },
+              {
+                "shot": 2,
+                "estimated_seconds": 7.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 6.5,
+                    "voice_seconds": 6.5,
+                    "screen_read_seconds": 0,
+                    "display_seconds": 0,
+                    "estimated_seconds": 6.5
+                  }
+                ],
+                "tail_hold_seconds": 0.5
+              },
+              {
+                "shot": 3,
+                "estimated_seconds": 7.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 6.3,
+                    "voice_seconds": 6.25,
+                    "screen_read_seconds": 3.25,
+                    "display_seconds": 0,
+                    "estimated_seconds": 6.3
+                  }
+                ],
+                "tail_hold_seconds": 0.7
+              },
+              {
+                "shot": 4,
+                "estimated_seconds": 5.0,
+                "beats": [
+                  {
+                    "beat": 1,
+                    "start_seconds": 0,
+                    "end_seconds": 4.5,
+                    "voice_seconds": 4.5,
+                    "screen_read_seconds": 2.25,
+                    "display_seconds": 0,
+                    "estimated_seconds": 4.5
+                  }
+                ],
+                "tail_hold_seconds": 0.5
+              }
+            ],
+            "total_seconds": 25.5,
+            "target_seconds": 28,
+            "passed": true,
+            "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+            "is_estimate": true,
+            "duration_mode": "target",
+            "min_seconds": 25.2,
+            "max_seconds": 28,
+            "issue": null
+          }
+        },
+        "decision_basis": "当前稿已涵盖字幕添加、片段裁剪及雨后街角与伞架场景；检查指定标题、活动片名与产品功能的区分，并核验28秒目标时长和品牌规则。",
+        "observation": {
+          "ok": true,
+          "script_hash": "0eb5fc2b89d027e32294f5a50d5ae9564adc85b6a56299364471befc601059e5",
+          "request_hash": "3492c1a6edb694e8cd4c54e1e1121b943e501daf6cb4e631a15c840fdf8bba89",
+          "passed": true,
+          "items": [
+            {
+              "field": "topic",
+              "requirement": "标题必须逐字为“这一帧，留给今天”",
+              "verdict": "met",
+              "evidence": "标题及第4镜片名字样均为“这一帧，留给今天”，逐字一致。"
+            },
+            {
+              "field": "topic",
+              "requirement": "字幕添加",
+              "verdict": "met",
+              "evidence": "第3镜旁白介绍“为视频添加字幕”，并同步展示具体字幕。"
+            },
+            {
+              "field": "topic",
+              "requirement": "片段裁剪",
+              "verdict": "met",
+              "evidence": "第2镜介绍“裁剪视频片段”，画面展示裁剪后保留的放伞片段。"
+            },
+            {
+              "field": "topic",
+              "requirement": "背景是雨后街角与伞架",
+              "verdict": "met",
+              "evidence": "第1镜明确呈现雨后积水街角和门口伞架，后续围绕归还雨伞展开。"
+            },
+            {
+              "field": "topic",
+              "requirement": "不能把活动片名说成产品功能",
+              "verdict": "met",
+              "evidence": "指定标题仅作为活动视频片名呈现，产品功能表述为裁剪和添加字幕。"
+            },
+            {
+              "field": "audience",
+              "requirement": "社区活动账号",
+              "verdict": "met",
+              "evidence": "第1镜明确记录社区活动，居民归还雨伞与感谢下一位使用者的字幕契合社区内容。"
+            },
+            {
+              "field": "platform",
+              "requirement": "抖音",
+              "verdict": "met",
+              "evidence": "四镜以具体生活动作串联两项功能，短旁白和简短字幕适合短视频观看。"
+            },
+            {
+              "field": "style",
+              "requirement": "温柔",
+              "verdict": "met",
+              "evidence": "“谢谢你，把伞留给下一个人”语气温和，连续旁白从活动记录自然衔接裁剪、字幕与收束。"
+            },
+            {
+              "field": "style",
+              "requirement": "少形容词",
+              "verdict": "met",
+              "evidence": "旁白主要使用拍下、裁剪、留下和添加等具体动作，未堆砌形容词。"
+            }
+          ],
+          "summary": "当前稿满足全部明确要求，两项功能均有资料支持，片名没有被误说成产品功能。声画衔接清楚，预计25.5秒且时长检查通过，节奏合理。",
+          "method": "model_assessment_not_deterministic_proof",
+          "expressions": [
+            {
+              "location": "title",
+              "text": "这一帧，留给今天",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "活动片名，不包含产品能力承诺。"
+            },
+            {
+              "location": "shot:1/visual",
+              "text": "雨后街角，地面有积水。镜头从街边移向门口的伞架，一位居民拿着收好的伞走近。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "生活场景与镜头安排，不涉及产品事实。"
+            },
+            {
+              "location": "shot:1/block:1",
+              "text": "雨停了，我们拍下街角的伞架，记录这次社区活动。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "交代活动拍摄情境，没有产品效果或真实客户背书声明。"
+            },
+            {
+              "location": "shot:2/visual",
+              "text": "拍摄居民把伞放回伞架的动作；切到剪辑中的视频素材，展示裁剪后保留的放伞片段，不突出未经证实的按钮或操作路径。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ],
+              "evidence": "裁剪后保留片段的示意由裁剪能力支持，未指定虚构界面或操作流程。"
+            },
+            {
+              "location": "shot:2/block:1",
+              "text": "用剪影练习版裁剪视频片段，把伞放回架上的这一段留下。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ],
+              "evidence": "原文明确支持裁剪视频片段，保留放伞片段是该能力的具体应用。"
+            },
+            {
+              "location": "shot:3/visual",
+              "text": "放伞片段继续播放，画面下方出现字幕“谢谢你，把伞留给下一个人”。居民松开伞柄，转身离开。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                },
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ],
+              "evidence": "添加字幕及手动编辑文字支持展示这句字幕，其位置属于成片编排。"
+            },
+            {
+              "location": "shot:3/block:1",
+              "text": "再用它为视频添加字幕，写上：谢谢你，把伞留给下一个人。",
+              "verdict": "supported_claim",
+              "references": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1"
+                },
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2"
+                }
+              ],
+              "evidence": "添加字幕和写入具体文字分别由字幕添加与手动编辑事实支持。"
+            },
+            {
+              "location": "shot:3/block:2",
+              "text": "谢谢你，把伞留给下一个人。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "社区活动中的感谢语，不含产品承诺。"
+            },
+            {
+              "location": "shot:4/visual",
+              "text": "镜头停在归还的雨伞上，背景仍是雨后街角。片名“这一帧，留给今天”淡入，作为这条活动视频的结尾。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "结尾镜头和片名呈现安排，未声称产品提供淡入功能。"
+            },
+            {
+              "location": "shot:4/block:1",
+              "text": "这段街角的小事，就留在今天的记录里。",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "对社区活动记录的情绪收束，不涉及存储等产品能力声明。"
+            },
+            {
+              "location": "shot:4/block:2",
+              "text": "这一帧，留给今天",
+              "verdict": "plain_expression",
+              "references": [],
+              "evidence": "展示指定活动片名，没有功能含义。"
+            }
+          ],
+          "pacing": {
+            "verdict": "met",
+            "evidence": "四镜预计6.5、7、7、5秒，分别容纳场景移动、放伞与裁剪展示、字幕及离开动作、片名收束；旁白约5.5、6.5、6.25、4.5秒，同拍字幕可同步阅读，无明显空镜凑时长。"
+          },
+          "expression_review_passed": true
+        },
+        "preflight_checks": [
+          {
+            "action": "estimate_duration",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "这一帧，留给今天",
+                "shots": [
+                  {
+                    "purpose": "交代社区活动记录的场景",
+                    "visual": "雨后街角，地面有积水。镜头从街边移向门口的伞架，一位居民拿着收好的伞走近。",
+                    "hold_seconds": 6.5,
+                    "blocks": [
+                      {
+                        "text": "雨停了，我们拍下街角的伞架，记录这次社区活动。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "结合归还雨伞的画面介绍片段裁剪",
+                    "visual": "拍摄居民把伞放回伞架的动作；切到剪辑中的视频素材，展示裁剪后保留的放伞片段，不突出未经证实的按钮或操作路径。",
+                    "hold_seconds": 7,
+                    "blocks": [
+                      {
+                        "text": "用剪影练习版裁剪视频片段，把伞放回架上的这一段留下。",
+                        "source_id": "P02",
+                        "fact_id": "P02.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "为保留的片段添加契合活动的字幕",
+                    "visual": "放伞片段继续播放，画面下方出现字幕“谢谢你，把伞留给下一个人”。居民松开伞柄，转身离开。",
+                    "hold_seconds": 7,
+                    "blocks": [
+                      {
+                        "text": "再用它为视频添加字幕，写上：谢谢你，把伞留给下一个人。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "谢谢你，把伞留给下一个人。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "收束活动记录并呈现指定片名",
+                    "visual": "镜头停在归还的雨伞上，背景仍是雨后街角。片名“这一帧，留给今天”淡入，作为这条活动视频的结尾。",
+                    "hold_seconds": 5,
+                    "blocks": [
+                      {
+                        "text": "这段街角的小事，就留在今天的记录里。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "这一帧，留给今天",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "target_seconds": 28,
+              "duration_mode": "target"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "0eb5fc2b89d027e32294f5a50d5ae9564adc85b6a56299364471befc601059e5",
+              "shots": [
+                {
+                  "shot": 1,
+                  "estimated_seconds": 6.5,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 5.5,
+                      "voice_seconds": 5.5,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 5.5
+                    }
+                  ],
+                  "tail_hold_seconds": 1.0
+                },
+                {
+                  "shot": 2,
+                  "estimated_seconds": 7.0,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 6.5,
+                      "voice_seconds": 6.5,
+                      "screen_read_seconds": 0,
+                      "display_seconds": 0,
+                      "estimated_seconds": 6.5
+                    }
+                  ],
+                  "tail_hold_seconds": 0.5
+                },
+                {
+                  "shot": 3,
+                  "estimated_seconds": 7.0,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 6.3,
+                      "voice_seconds": 6.25,
+                      "screen_read_seconds": 3.25,
+                      "display_seconds": 0,
+                      "estimated_seconds": 6.3
+                    }
+                  ],
+                  "tail_hold_seconds": 0.7
+                },
+                {
+                  "shot": 4,
+                  "estimated_seconds": 5.0,
+                  "beats": [
+                    {
+                      "beat": 1,
+                      "start_seconds": 0,
+                      "end_seconds": 4.5,
+                      "voice_seconds": 4.5,
+                      "screen_read_seconds": 2.25,
+                      "display_seconds": 0,
+                      "estimated_seconds": 4.5
+                    }
+                  ],
+                  "tail_hold_seconds": 0.5
+                }
+              ],
+              "total_seconds": 25.5,
+              "target_seconds": 28,
+              "passed": true,
+              "method": "声画节拍v2：同拍max(旁白,全部屏幕文字阅读,展示停留)，不同拍相加；镜头取累计与最低停留较大者；中文4字/秒（资料配置），英文2.5词/秒",
+              "is_estimate": true,
+              "duration_mode": "target",
+              "min_seconds": 25.2,
+              "max_seconds": 28,
+              "issue": null
+            }
+          },
+          {
+            "action": "check_rules",
+            "arguments": {
+              "script": {
+                "format_version": 2,
+                "title": "这一帧，留给今天",
+                "shots": [
+                  {
+                    "purpose": "交代社区活动记录的场景",
+                    "visual": "雨后街角，地面有积水。镜头从街边移向门口的伞架，一位居民拿着收好的伞走近。",
+                    "hold_seconds": 6.5,
+                    "blocks": [
+                      {
+                        "text": "雨停了，我们拍下街角的伞架，记录这次社区活动。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "结合归还雨伞的画面介绍片段裁剪",
+                    "visual": "拍摄居民把伞放回伞架的动作；切到剪辑中的视频素材，展示裁剪后保留的放伞片段，不突出未经证实的按钮或操作路径。",
+                    "hold_seconds": 7,
+                    "blocks": [
+                      {
+                        "text": "用剪影练习版裁剪视频片段，把伞放回架上的这一段留下。",
+                        "source_id": "P02",
+                        "fact_id": "P02.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "为保留的片段添加契合活动的字幕",
+                    "visual": "放伞片段继续播放，画面下方出现字幕“谢谢你，把伞留给下一个人”。居民松开伞柄，转身离开。",
+                    "hold_seconds": 7,
+                    "blocks": [
+                      {
+                        "text": "再用它为视频添加字幕，写上：谢谢你，把伞留给下一个人。",
+                        "source_id": "P01",
+                        "fact_id": "P01.F1",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "谢谢你，把伞留给下一个人。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  },
+                  {
+                    "purpose": "收束活动记录并呈现指定片名",
+                    "visual": "镜头停在归还的雨伞上，背景仍是雨后街角。片名“这一帧，留给今天”淡入，作为这条活动视频的结尾。",
+                    "hold_seconds": 5,
+                    "blocks": [
+                      {
+                        "text": "这段街角的小事，就留在今天的记录里。",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "voice",
+                        "beat": 1,
+                        "display_seconds": 0
+                      },
+                      {
+                        "text": "这一帧，留给今天",
+                        "source_id": "",
+                        "fact_id": "",
+                        "channel": "screen",
+                        "beat": 1,
+                        "display_seconds": 0
+                      }
+                    ]
+                  }
+                ],
+                "editor_notes": ""
+              },
+              "retrieved_ids": [
+                "P01",
+                "P02"
+              ],
+              "expression_mode": "creative"
+            },
+            "observation": {
+              "ok": true,
+              "script_hash": "0eb5fc2b89d027e32294f5a50d5ae9564adc85b6a56299364471befc601059e5",
+              "passed": true,
+              "issues": [],
+              "citations": [
+                {
+                  "location": "shot:2/block:1",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1",
+                  "quote": "剪影练习版支持裁剪视频片段。",
+                  "version": "2026-11-01",
+                  "text": "用剪影练习版裁剪视频片段，把伞放回架上的这一段留下。",
+                  "requires_semantic_review": true
+                },
+                {
+                  "location": "shot:3/block:1",
+                  "source_id": "P01",
+                  "fact_id": "P01.F1",
+                  "quote": "剪影练习版支持为视频添加字幕。",
+                  "version": "2026-11-01",
+                  "text": "再用它为视频添加字幕，写上：谢谢你，把伞留给下一个人。",
+                  "requires_semantic_review": true
+                }
+              ],
+              "rules_version": "2026-11-03-v1",
+              "requires_expression_review": true,
+              "expression_slots": [
+                {
+                  "location": "title",
+                  "text": "这一帧，留给今天"
+                },
+                {
+                  "location": "shot:1/visual",
+                  "text": "雨后街角，地面有积水。镜头从街边移向门口的伞架，一位居民拿着收好的伞走近。"
+                },
+                {
+                  "location": "shot:1/block:1",
+                  "text": "雨停了，我们拍下街角的伞架，记录这次社区活动。"
+                },
+                {
+                  "location": "shot:2/visual",
+                  "text": "拍摄居民把伞放回伞架的动作；切到剪辑中的视频素材，展示裁剪后保留的放伞片段，不突出未经证实的按钮或操作路径。"
+                },
+                {
+                  "location": "shot:2/block:1",
+                  "text": "用剪影练习版裁剪视频片段，把伞放回架上的这一段留下。"
+                },
+                {
+                  "location": "shot:3/visual",
+                  "text": "放伞片段继续播放，画面下方出现字幕“谢谢你，把伞留给下一个人”。居民松开伞柄，转身离开。"
+                },
+                {
+                  "location": "shot:3/block:1",
+                  "text": "再用它为视频添加字幕，写上：谢谢你，把伞留给下一个人。"
+                },
+                {
+                  "location": "shot:3/block:2",
+                  "text": "谢谢你，把伞留给下一个人。"
+                },
+                {
+                  "location": "shot:4/visual",
+                  "text": "镜头停在归还的雨伞上，背景仍是雨后街角。片名“这一帧，留给今天”淡入，作为这条活动视频的结尾。"
+                },
+                {
+                  "location": "shot:4/block:1",
+                  "text": "这段街角的小事，就留在今天的记录里。"
+                },
+                {
+                  "location": "shot:4/block:2",
+                  "text": "这一帧，留给今天"
+                }
+              ],
+              "available_facts": [
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F1",
+                  "quote": "剪影练习版支持为视频添加字幕。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P01",
+                  "fact_id": "P01.F2",
+                  "quote": "字幕文字可以手动编辑。",
+                  "version": "2026-11-01"
+                },
+                {
+                  "source_id": "P02",
+                  "fact_id": "P02.F1",
+                  "quote": "剪影练习版支持裁剪视频片段。",
+                  "version": "2026-11-01"
+                }
+              ],
+              "scope": "source_identity_and_brand_checks; every public claim requires semantic entailment review"
+            }
+          }
+        ],
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a870-2b18-72d1-b237-6e5e01ef1e7b",
+          "usage": {
+            "input_tokens": 28518,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 83,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-lismdqf4",
+          "warnings": []
+        },
+        "review_model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a870-6c9e-77a2-8b29-4f739cad2467",
+          "usage": {
+            "input_tokens": 29651,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1814,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-cz7rx2ow",
+          "warnings": []
+        },
+        "elapsed_ms": 64922
+      },
+      {
+        "step": 4,
+        "action": "finish",
+        "arguments": {
+          "status": "completed",
+          "message": "已完成《这一帧，留给今天》四镜脚本，预计25.5秒。以雨后街角与伞架串联片段裁剪和字幕添加，保留指定标题，全部检查通过。"
+        },
+        "decision_basis": "当前同一稿的时长、规则和需求检查均已通过，无需修改。",
+        "observation": {
+          "ok": true,
+          "status": "completed",
+          "script_hash": "0eb5fc2b89d027e32294f5a50d5ae9564adc85b6a56299364471befc601059e5"
+        },
+        "model": {
+          "provider": "codex",
+          "model": "CLI configured default",
+          "reasoning_effort": "medium",
+          "thread_id": "01a1a871-26a2-7ac1-a667-a2258b0d699d",
+          "usage": {
+            "input_tokens": 31770,
+            "cached_input_tokens": 24576,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 100,
+            "reasoning_output_tokens": 0
+          },
+          "call_id": "decision-kd8ybr3v",
+          "warnings": []
+        },
+        "elapsed_ms": 12703
+      }
+    ],
+    "metadata": {
+      "app_version": "v7-natural-voice",
+      "started_at": "2026-11-04T21:19:46.533969+00:00",
+      "finished_at": "2026-11-04T21:22:42.199150+00:00",
+      "provider": "codex",
+      "evidence_kind": "real_model",
+      "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+      "max_steps": 12,
+      "steps": 4,
+      "synthetic_data": true,
+      "completion_policy": "facts_duration_requirements_v6",
+      "requirements_review_context": "current_rules_and_duration_v2",
+      "script_format": "voice_screen_beats_v2; legacy_v1_readable",
+      "model_responses": 5,
+      "run_id": "47613d69041f499db7d4ad8e8d740d5b",
+      "persistence": "checkpoint_v1",
+      "fault_injection": {}
+    }
+  }
+}

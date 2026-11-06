@@ -1,0 +1,18 @@
+{
+  "id": "V36",
+  "name": "客户增长数字",
+  "context": "代理商想引用客户口头反馈。",
+  "request": {
+    "topic": "客户口头说加字幕后播放量提高了30%，但还没有统计表和授权。请写一条介绍字幕功能的脚本，处理这个说法，不要把口头反馈包装成已验证效果。",
+    "audience": "店铺内容运营",
+    "platform": "抖音",
+    "target_seconds": 25,
+    "style": "可信，少口号",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

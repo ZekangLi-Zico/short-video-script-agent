@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-i5ctntcm",
+  "started_at": "2026-11-04T17:25:35.135493+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T17:26:14.462240+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a798-4087-76d1-8362-bbaf6e2d5c4a",
+    "usage": {
+      "input_tokens": 28029,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1363,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-i5ctntcm",
+    "warnings": []
+  }
+}

@@ -1,0 +1,237 @@
+# 短视频脚本运行结果
+
+- 状态：`completed`
+- 证据类型：`real_model`
+- 说明：已完成三镜脚本：先大厅屏、再手机，最后说明横屏与竖屏两种可选画面比例。估算11秒，符合25秒上限；三项检查均通过，无需进一步删改。未加入自动同步裁剪或自动追踪人物声明，无待补事项。
+
+当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。
+
+## 横屏、竖屏：两种画面比例选项
+
+> 未完成或检查失败时，下列内容仅为未通过验收的草稿。
+
+### 分镜 1
+
+画面：大厅内，拍摄横向显示屏上播放的活动画面，作为横屏使用场景示意。
+
+旁白/字幕：先看大厅屏。
+
+来源：
+
+预计镜头时长：3.0 秒
+
+### 分镜 2
+
+画面：切到竖向握持手机的近景，手机上展示活动画面，作为竖屏使用场景示意。
+
+旁白/字幕：再看手机。
+
+来源：
+
+预计镜头时长：3.0 秒
+
+### 分镜 3
+
+画面：简洁背景并排展示横向与竖向画框示意，旁白文字同步作为字幕。
+
+旁白/字幕：剪影练习版提供横屏和竖屏画面比例选项。
+
+来源：P03/P03.F1
+
+预计镜头时长：5.0 秒
+
+预计总时长：11.0 秒（基于语速与镜头停留估算，非成片实测）。
+
+## 检查结果与来源
+
+```json
+{
+  "ok": true,
+  "script_hash": "8ac7abd720ebd339f3bf07438b0aaab580ee8e59c1db2e3876f6b8cffe74dc6a",
+  "passed": true,
+  "issues": [],
+  "citations": [
+    {
+      "location": "shot:3/block:1",
+      "source_id": "P03",
+      "fact_id": "P03.F1",
+      "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+      "version": "2026-11-01"
+    }
+  ],
+  "rules_version": "2026-11-03-v1",
+  "requires_expression_review": true,
+  "expression_slots": [
+    {
+      "location": "title",
+      "text": "横屏、竖屏：两种画面比例选项"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "大厅内，拍摄横向显示屏上播放的活动画面，作为横屏使用场景示意。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "先看大厅屏。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "切到竖向握持手机的近景，手机上展示活动画面，作为竖屏使用场景示意。"
+    },
+    {
+      "location": "shot:2/block:1",
+      "text": "再看手机。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "简洁背景并排展示横向与竖向画框示意，旁白文字同步作为字幕。"
+    }
+  ],
+  "available_facts": [
+    {
+      "source_id": "P02",
+      "fact_id": "P02.F1",
+      "quote": "剪影练习版支持裁剪视频片段。",
+      "version": "2026-11-01"
+    },
+    {
+      "source_id": "P03",
+      "fact_id": "P03.F1",
+      "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+      "version": "2026-11-01"
+    }
+  ],
+  "scope": "exact_quote_and_brand_checks_only; expression semantics require independent model review"
+}
+```
+
+## 需求覆盖核对
+
+以下为模型评估，可能漏判或误判，仍需人工确认。
+
+```json
+{
+  "ok": true,
+  "script_hash": "8ac7abd720ebd339f3bf07438b0aaab580ee8e59c1db2e3876f6b8cffe74dc6a",
+  "request_hash": "8f83e2cbcbb2dd70c13429381120bdf2dd261a226dda5f319aca191d2a7b49e6",
+  "passed": true,
+  "items": [
+    {
+      "field": "topic",
+      "requirement": "介绍横屏、竖屏画面比例选项",
+      "verdict": "met",
+      "evidence": "第3镜旁白明确说“剪影练习版提供横屏和竖屏画面比例选项”，两项均已介绍。"
+    },
+    {
+      "field": "topic",
+      "requirement": "说明这是两种可选画面比例",
+      "verdict": "met",
+      "evidence": "标题“横屏、竖屏：两种画面比例选项”明确说明两种选项，第3镜并排展示两种画框。"
+    },
+    {
+      "field": "topic",
+      "requirement": "场景先大厅屏再手机",
+      "verdict": "met",
+      "evidence": "第1镜为大厅横向显示屏，旁白“先看大厅屏。”；第2镜为竖向握持手机，旁白“再看手机。”，场景及顺序均符合。"
+    },
+    {
+      "field": "topic",
+      "requirement": "不要声称自动同步裁剪",
+      "verdict": "met",
+      "evidence": "标题、全部画面说明及旁白均未声称自动同步裁剪；两种场景之间仅安排切镜。"
+    },
+    {
+      "field": "topic",
+      "requirement": "自动追踪人物",
+      "verdict": "met",
+      "evidence": "此项属于原句“不要声称”的禁用范围；标题、全部画面说明及旁白均未出现自动追踪人物的承诺或演示。"
+    },
+    {
+      "field": "audience",
+      "requirement": "活动视频外包剪辑师",
+      "verdict": "met",
+      "evidence": "第1、2镜均展示活动画面，分别对应大厅屏和手机的展示场景，与活动视频剪辑交付相关。"
+    },
+    {
+      "field": "platform",
+      "requirement": "B站",
+      "verdict": "met",
+      "evidence": "稿件采用简短功能介绍、场景实拍示意及画框对照，第3镜配同步字幕，适合作为B站短视频内容。"
+    },
+    {
+      "field": "style",
+      "requirement": "客观",
+      "verdict": "met",
+      "evidence": "第3镜仅陈述资料支持的画面比例选项，全文没有夸大效果、比较优势或用户背书。"
+    },
+    {
+      "field": "style",
+      "requirement": "直截了当",
+      "verdict": "met",
+      "evidence": "以“先看大厅屏。”“再看手机。”直接切入场景，随后用一句话说明功能，没有无关铺垫。"
+    }
+  ],
+  "summary": "需求均已落实：先大厅屏、再手机，明确介绍横屏和竖屏两种选项，未声称自动同步裁剪或自动追踪人物。表达审核及镜头节奏均通过。",
+  "method": "model_assessment_not_deterministic_proof",
+  "expressions": [
+    {
+      "location": "title",
+      "text": "横屏、竖屏：两种画面比例选项",
+      "verdict": "supported_claim",
+      "references": [
+        {
+          "source_id": "P03",
+          "fact_id": "P03.F1"
+        }
+      ],
+      "evidence": "P03.F1明确支持提供横屏和竖屏画面比例选项；标题未增加自动化或效果承诺。"
+    },
+    {
+      "location": "shot:1/visual",
+      "text": "大厅内，拍摄横向显示屏上播放的活动画面，作为横屏使用场景示意。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "这是大厅屏活动画面的拍摄安排，明确属于场景示意，未承诺产品投屏、自动适配或其他功能。"
+    },
+    {
+      "location": "shot:1/block:1",
+      "text": "先看大厅屏。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "用于引导观看第1个场景，不含产品能力声明。"
+    },
+    {
+      "location": "shot:2/visual",
+      "text": "切到竖向握持手机的近景，手机上展示活动画面，作为竖屏使用场景示意。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "这是手机场景和镜头切换安排，未声称与大厅屏自动同步、自动裁剪或自动追踪。"
+    },
+    {
+      "location": "shot:2/block:1",
+      "text": "再看手机。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "用于连接并引导观看第2个场景，不含产品承诺。"
+    },
+    {
+      "location": "shot:3/visual",
+      "text": "简洁背景并排展示横向与竖向画框示意，旁白文字同步作为字幕。",
+      "verdict": "plain_expression",
+      "references": [],
+      "evidence": "安排通用画框示意和成片字幕，未虚构产品界面、按钮或操作步骤；同步字幕是制作安排，没有声称产品自动生成字幕。"
+    }
+  ],
+  "pacing": {
+    "verdict": "met",
+    "evidence": "duration_check显示第1、2镜各3秒，分别承载5、4个旁白单位及大厅屏、手机场景观察，符合各自3秒最低停留；第3镜预计5秒，承载18个旁白单位、两种画框对照和字幕阅读。其hold_seconds为0不影响已估算的5秒时长。各镜均有明确内容支撑，无明显空镜或重复事实凑时长；总计11秒，宿主已判定符合25秒上限。"
+  },
+  "expression_review_passed": true
+}
+```
+
+## 执行路径
+
+search_materials → write_script → estimate_duration → check_rules → check_requirements → finish
+
+逐步参数、观察和简短决策依据见 trace.jsonl。未记录模型内部思维过程。

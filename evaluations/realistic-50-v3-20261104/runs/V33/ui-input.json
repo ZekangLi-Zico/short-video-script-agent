@@ -1,0 +1,19 @@
+{
+  "port": 8781,
+  "submitted_at": "2026-11-03T18:54:42.000Z",
+  "fields": {
+    "audience": "高频录制口播的作者",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "4ce95c40de0a452ea3551d2fdfb6ce27",
+    "initial-script": "",
+    "platform": "抖音",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "实用，客观",
+    "target-seconds": "30",
+    "topic": "为剪影练习版写一条介绍口播自动识别为字幕、然后手动改错字的视频。客户还没给自动识别的产品演示，但希望这两点都讲清楚。"
+  }
+}

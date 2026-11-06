@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-snnd7fk_",
+  "started_at": "2026-11-04T01:34:37.920215+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:35:06.326531+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a431-a18c-7611-9594-1c91597db418",
+    "usage": {
+      "input_tokens": 41185,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 337,
+      "reasoning_output_tokens": 196
+    },
+    "call_id": "decision-snnd7fk_",
+    "warnings": []
+  }
+}

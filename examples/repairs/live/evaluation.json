@@ -1,0 +1,121 @@
+[
+  {
+    "case": "normal",
+    "expected_status": [
+      "completed"
+    ],
+    "actual_status": "blocked",
+    "passed": false,
+    "errors": [
+      "status=blocked, expected one of ['completed']"
+    ],
+    "steps": 1,
+    "evidence_kind": "real_model",
+    "path": "model_error",
+    "artifacts": "examples\\repairs\\live\\normal"
+  },
+  {
+    "case": "missing_information",
+    "expected_status": [
+      "needs_input"
+    ],
+    "actual_status": "needs_input",
+    "passed": true,
+    "errors": [],
+    "steps": 0,
+    "evidence_kind": "real_model",
+    "path": "",
+    "artifacts": "examples\\repairs\\live\\missing_information"
+  },
+  {
+    "case": "no_material",
+    "expected_status": [
+      "blocked",
+      "needs_input"
+    ],
+    "actual_status": "blocked",
+    "passed": true,
+    "errors": [],
+    "steps": 1,
+    "evidence_kind": "real_model",
+    "path": "model_error",
+    "artifacts": "examples\\repairs\\live\\no_material"
+  },
+  {
+    "case": "tool_failure",
+    "expected_status": [
+      "blocked",
+      "step_limit"
+    ],
+    "actual_status": "blocked",
+    "passed": false,
+    "errors": [
+      "没有实际触发注入故障"
+    ],
+    "steps": 1,
+    "evidence_kind": "real_model",
+    "path": "model_error",
+    "artifacts": "examples\\repairs\\live\\tool_failure"
+  },
+  {
+    "case": "recoverable_failure",
+    "expected_status": [
+      "completed"
+    ],
+    "actual_status": "blocked",
+    "passed": false,
+    "errors": [
+      "status=blocked, expected one of ['completed']",
+      "没有实际触发注入故障"
+    ],
+    "steps": 1,
+    "evidence_kind": "real_model",
+    "path": "model_error",
+    "artifacts": "examples\\repairs\\live\\recoverable_failure"
+  },
+  {
+    "case": "over_duration",
+    "expected_status": [
+      "completed"
+    ],
+    "actual_status": "blocked",
+    "passed": false,
+    "errors": [
+      "status=blocked, expected one of ['completed']"
+    ],
+    "steps": 1,
+    "evidence_kind": "real_model",
+    "path": "model_error",
+    "artifacts": "examples\\repairs\\live\\over_duration"
+  },
+  {
+    "case": "rule_revision",
+    "expected_status": [
+      "completed"
+    ],
+    "actual_status": "blocked",
+    "passed": false,
+    "errors": [
+      "status=blocked, expected one of ['completed']"
+    ],
+    "steps": 1,
+    "evidence_kind": "real_model",
+    "path": "model_error",
+    "artifacts": "examples\\repairs\\live\\rule_revision"
+  },
+  {
+    "case": "impossible_duration",
+    "expected_status": [
+      "blocked",
+      "needs_input",
+      "step_limit"
+    ],
+    "actual_status": "blocked",
+    "passed": true,
+    "errors": [],
+    "steps": 1,
+    "evidence_kind": "real_model",
+    "path": "model_error",
+    "artifacts": "examples\\repairs\\live\\impossible_duration"
+  }
+]

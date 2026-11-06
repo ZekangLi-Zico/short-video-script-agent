@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-diffyvn1",
+  "started_at": "2026-11-04T01:29:29.223476+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:29:51.448013+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a42c-f358-77d1-a1b9-4200901a74d1",
+    "usage": {
+      "input_tokens": 32390,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 252,
+      "reasoning_output_tokens": 139
+    },
+    "call_id": "decision-diffyvn1",
+    "warnings": []
+  }
+}

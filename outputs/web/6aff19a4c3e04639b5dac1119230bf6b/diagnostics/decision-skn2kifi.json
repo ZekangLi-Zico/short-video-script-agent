@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-skn2kifi",
+  "started_at": "2026-11-04T15:16:02.775404+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:16:28.622662+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a721-ae1c-76f2-aa15-a347f06c3692",
+    "usage": {
+      "input_tokens": 27348,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 194,
+      "reasoning_output_tokens": 93
+    },
+    "call_id": "decision-skn2kifi",
+    "warnings": []
+  }
+}

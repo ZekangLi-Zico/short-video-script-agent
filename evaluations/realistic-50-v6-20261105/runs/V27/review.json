@@ -1,0 +1,8 @@
+{
+  "case": "V27",
+  "assessment": "改进",
+  "note": "严格保留两镜且无额外开头结尾，剪刀胶片与横竖相框按原顺序呈现。新标题直接点明裁剪片段和比例，正文更简洁，预计6秒对旧8秒均符合10秒上限；没有把缩短秒数单独算作内容提升。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

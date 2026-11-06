@@ -1,0 +1,176 @@
+Browser tab: 1, Title: "脚本试验台 · 短视频 Agent", URL: "http://127.0.0.1:8765/".
+1 AXWebArea 脚本试验台 · 短视频 Agent, URL: 127.0.0.1:8765/
+	2 container
+		3 link Description: 脚本试验台首页, Value: 127.0.0.1:8765/
+		4 text 本地人工测试
+	5 container
+		6 heading 从一个需求，到一份可核验的脚本。, Value: 1
+			7 text 从一个需求，到一份可核验的脚本。
+		8 text 填入创作需求，观察 Agent 如何查资料、写分镜，再根据检查结果修订。
+		9 container 创作需求与测试设置
+			10 container form-fields
+				11 heading 创作需求, Value: 2
+					12 text 创作需求
+				13 button 重置, ID: reset-button
+				14 text 载入测试场景
+				15 pop up button (collapsed, settable) 载入测试场景, Value: 自定义需求, ID: preset, Secondary Actions: Expand
+					16 menu
+						17 (selected) 自定义需求
+						18 正常生成
+						19 缺少关键信息
+						20 没有产品素材
+						21 工具持续失败
+						22 一次故障后恢复
+						23 38 秒旧稿修订
+						24 无依据宣传纠错
+						25 无法满足的时长
+				187 text 需求已修改，将按当前内容运行。
+				27 text 主题
+				28 text entry area (settable) 主题, Value: 审核并修改外包提供的旧稿，介绍字幕功能，无法确认的产品能力不要直接保留。, ID: topic
+				29 text 给谁看
+				30 text field (settable) 给谁看, Value: 新手口播作者, ID: audience
+				31 text 发布平台
+				32 pop up button (collapsed, settable) 发布平台, Value: 小红书, ID: platform, Secondary Actions: Expand
+					33 menu
+						34 抖音
+						35 (selected) 小红书
+						36 视频号
+						37 B站
+				38 container
+					39 text 目标时长  秒
+				40 stepper (settable, integer) 目标时长 秒, Value: 25, ID: target-seconds
+				41 text 表达风格
+				42 text field (settable) 表达风格, Value: 客观、不要夸大, ID: style
+				43 text 使用的产品资料
+				44 pop up button (collapsed, settable) 使用的产品资料, Value: 剪影练习版 · 示例素材, ID: product, Secondary Actions: Expand
+					45 menu
+						46 (selected) 剪影练习版 · 示例素材
+						47 无素材产品 · 测试资料不足
+				48 button (collapsed) 查看可用素材, Secondary Actions: Expand
+					49 text 查看可用素材
+				50 text 运行方式
+				51 pop up button (collapsed, settable) 运行方式, Value: 真实模型 · Codex, ID: provider, Secondary Actions: Expand
+					52 menu
+						53 (selected) 真实模型 · Codex
+						54 离线演练 · Mock
+						55 (disabled) 模型 API
+				185 text 调用本机已登录的 Codex，通常需要一到数分钟。
+				57 container advanced
+					58 button (expanded) 测试设置与旧稿, Secondary Actions: Collapse
+						59 text 测试设置与旧稿
+					60 text 工具故障模拟
+					61 pop up button (collapsed, settable) 工具故障模拟, Value: 不注入故障, ID: fault, Secondary Actions: Expand
+						62 menu
+							63 (selected) 不注入故障
+							64 素材检索失败一次
+							65 素材检索持续失败
+							66 时长工具持续失败
+							67 规则工具持续失败
+					68 container
+						69 text 待修订旧稿  JSON，可选
+					70 text entry area (settable) 待修订旧稿 JSON，可选, ID: initial-script, Value: {"title":"字幕，让表达被看见","shots":[{"visual":"人物面对镜头提出问题","hold_seconds":8,"blocks":[{"text":"想让画面里的表达更清楚？","source_id":"","fact_id":""}]},{"visual":"产品功能文字卡片，不展示未经提供的界面","hold_seconds":8,"blocks":[{"text":"剪影练习版支持自动识别语音并生成字幕。","source_id":"P01","fact_id":"P01.F1"}]},{"visual":"产品功能文字卡片，不展示未经提供的界面","hold_seconds":12,"blocks":[{"text":"字幕文字可以手动编辑。","source_id":"P01","fact_id":"P01.F2"}]}]}
+					71 text 留空则生成新稿。停止任务会等待当前模型调用返回，不会开始下一步。
+				72 button 生成并检查, ID: run-button
+				186 text 真实模型运行会使用当前账号的额度。
+		74 container 运行结果
+			232 text 检查通过
+			233 text 真实模型 · 8 个执行步骤
+			77 tab group 结果视图
+				78 tab (selectable, settable, boolean) 脚本预览, Value: 0, ID: tab-script
+				79 tab (selected, settable, boolean) 执行过程 8, ID: tab-trace, Value: 1
+执行过程
+8
+				80 tab (selectable, settable, boolean) 原始结果, Value: 0, ID: tab-raw
+			81 container
+				82 text 最近运行
+				83 pop up button (collapsed, settable) Description: 查看最近运行, Value: 11/04 00:04:24 · 模型 · 检查通过 · 审核并修改外包提供的旧稿，介绍, ID: history, Secondary Actions: Expand
+					84 menu
+						234 选择一条记录
+						235 (selected) 11/04 00:04:24 · 模型 · 检查通过 · 审核并修改外包提供的旧稿，介绍
+						236 11/03 23:57:19 · 模型 · 未完成 · 审核并修改外包提供的旧稿，介绍
+						237 11/03 23:55:06 · 模型 · 需要补充 · 客户口头说用了字幕功能后播放量
+						238 11/03 23:52:08 · 模型 · 需要补充 · 社团准备发布校园采访花絮，写一
+						239 11/03 23:16:12 · 模型 · 检查通过 · 介绍剪影练习版的三个方面：为视
+						240 11/03 23:14:03 · 模型 · 检查通过 · 给第一次拍口播的人介绍剪影练习
+						241 11/03 23:11:59 · 模型 · 检查通过 · 我想发个做视频的小工具介绍，别
+						242 11/03 23:10:39 · 模型 · 需要补充 · 写一条介绍虚构手游“星港漫游”
+						243 11/03 23:08:35 · 模型 · 需要补充 · 为虚构的“晴天烘焙”写周末新品
+						244 11/03 23:06:10 · 模型 · 检查通过 · 这份旧稿从别的产品项目复制过来
+						245 11/03 23:03:51 · 模型 · 检查通过 · 保留旧稿四个镜头的顺序和数量，
+						246 11/03 23:01:39 · 模型 · 检查通过 · 审核并修改外包提供的旧稿，介绍
+						247 11/03 22:59:09 · 模型 · 检查通过 · 把旧稿改成10秒以内，保留裁剪
+						248 11/03 22:56:57 · 模型 · 检查通过 · 保留旧稿的字幕添加和手动编辑两
+						249 11/03 22:55:40 · 模型 · 需要补充 · 介绍裁剪片段功能，用大字卡片呈
+						250 11/03 22:54:14 · 模型 · 需要补充 · 介绍字幕添加与手动编辑字幕文字
+						251 11/03 22:52:18 · 模型 · 检查通过 · 介绍字幕添加功能。开头必须是陈
+						252 11/03 22:50:13 · 模型 · 检查通过 · 只能使用两个分镜：第一镜头介绍
+						253 11/03 22:48:05 · 模型 · 检查通过 · 介绍添加字幕和手动编辑字幕文字
+						254 11/03 22:45:57 · 模型 · 检查通过 · 为静音展位屏幕写脚本，介绍片段
+						255 11/03 22:43:54 · 模型 · 检查通过 · 介绍字幕添加功能，全片不能出现
+						256 11/03 22:43:42 · 模型 · 需要补充 · 介绍横屏和竖屏画面比例选项，品
+						257 11/03 22:43:27 · 模型 · 需要补充 · 介绍视频片段裁剪功能，目标受众
+						258 11/03 22:43:16 · 模型 · 需要补充 · 客户想介绍字幕添加和手动编辑两
+						259 11/03 22:41:52 · 模型 · 需要补充 · 帮我写本周新版剪影练习版的更新
+						260 11/03 22:40:32 · 模型 · 需要补充 · 写给老年初学者的字幕功能介绍，
+						261 11/03 22:38:14 · 模型 · 检查通过 · 客户口头说用了字幕功能后播放量
+						262 11/03 22:36:54 · 模型 · 需要补充 · 做一条剪影练习版与剪映的对比视
+						263 11/03 22:35:35 · 模型 · 需要补充 · 介绍导出视频能否达到4K，以及
+						264 11/03 22:33:41 · 模型 · 需要补充 · 介绍剪影练习版是否能离线编辑字
+						265 11/03 22:32:12 · 模型 · 需要补充 · 写一条说明字幕功能是否免费、免
+						266 11/03 22:30:04 · 模型 · 需要补充 · 介绍剪影练习版导出SRT字幕文
+			267 text 已完成旧稿审核与修改，保留原标题和三镜头结构。将未经确认的“自动识别语音并生成字幕”替换为已核实的添加字幕功能，保留手动编辑字幕功能。镜头停留由8/8/12秒缩短为4/5/4秒，当前估算13秒，符合25秒上限；规则与需求检查均通过。 当前稿已通过来源、规则和预计时长检查，模型需求核对未发现遗漏；仍为可编辑脚本，未生成或发布视频。
+			119 container summary-bar
+				120 text 预计时长 
+				268 text 13 / 25 秒
+				122 text 事实与规则 
+				269 text 通过
+				124 text 需求核对 
+				270 text 未发现遗漏
+				126 text 引用素材 
+				271 text 1
+			228 container Description: 执行过程 8, ID: panel-trace
+				229 heading 每一步，都有记录。, Value: 2
+					230 text 每一步，都有记录。
+				231 text 这里展示实际工具调用、观察结果与简短动作依据。
+				272 content list timeline
+					273 container
+						274 text 1 估算时长 需要处理 17.8 s 先核对旧稿时长，确认是否超过25秒上限。 预计 28 秒 / 上限 25 秒，需要压缩脚本
+						275 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
+							276 text 查看参数与返回结果
+					277 container
+						278 text 2 检查事实与规则 需要处理 18.2 s 旧稿估算为28秒，超过25秒上限；需先核查产品表述与引用，再针对性修订。 发现 4 项风险，需要修订或补充
+						279 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
+							280 text 查看参数与返回结果
+					281 container
+						282 text 3 检索素材 已执行 22.5 s 旧稿超出25秒上限，产品事实尚无已检索来源，且“自动识别”违反表达规则；先查证字幕功能。 检索“demo-editor 字幕功能 产品资料 手动编辑字幕”：找到 2 条素材
+						283 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
+							284 text 查看参数与返回结果
+					285 container
+						286 text 4 生成 / 修订脚本 已执行 23.7 s 旧稿估算28秒，超过25秒上限，且资料不支持“自动识别”；保留三镜头结构，替换该表述并缩短停留。 已更新草稿，必须对本稿重新运行时长、规则与需求检查
+						287 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
+							288 text 查看参数与返回结果
+					289 container
+						290 text 5 检查事实与规则 已执行 21.2 s 当前稿已替换未经证实的能力表述，需重新核查事实引用和表达规则。 检查通过，核对 2 处事实引用
+						291 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
+							292 text 查看参数与返回结果
+					293 container
+						294 text 6 估算时长 已执行 17.1 s 当前稿已通过规则检查，缩短镜头停留后需重新确认是否符合25秒上限。 预计 13 秒 / 上限 25 秒，符合上限
+						295 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
+							296 text 查看参数与返回结果
+					297 container
+						298 text 7 核对需求覆盖 已执行 55.2 s 当前稿已通过时长和规则检查，尚需核对是否完整满足旧稿修改与字幕功能介绍需求。 模型核对 7 项需求：未发现遗漏。当前稿已满足所列需求：介绍字幕添加和手动编辑功能，修正了旧稿中未经确认的能力表述，表达客观，适合新手口播作者及小红书短视频。
+						299 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
+							300 text 查看参数与返回结果
+					301 container
+						302 text 8 结束任务 已执行 20.9 s 当前同一稿的时长、规则与需求检查均成功且通过。 检查通过
+						303 button (collapsed) 查看参数与返回结果, Secondary Actions: Expand
+							304 text 查看参数与返回结果
+			305 container
+				306 text 记录已保存 · 9f030976
+				307 container downloads
+					308 link Description: 下载脚本, Value: 127.0.0.1:8765/api/runs/9f0309762e454043b862e46ab555b259/download/script.md, ID: download-script
+					309 link Description: 下载 Trace, Value: 127.0.0.1:8765/api/runs/9f0309762e454043b862e46ab555b259/download/trace.jsonl, ID: download-trace
+					310 link Description: 下载 JSON, Value: 127.0.0.1:8765/api/runs/9f0309762e454043b862e46ab555b259/download/output.json, ID: download-result
+		183 text 本地运行 · 合成素材 · 只生成脚本 先核对事实，再判断表达。
+
+The focused UI element is 1 AXWebArea 脚本试验台 · 短视频 Agent, URL: 127.0.0.1:8765/

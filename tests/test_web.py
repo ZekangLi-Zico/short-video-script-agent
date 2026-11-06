@@ -36,8 +36,8 @@ class ProgressTests(unittest.TestCase):
                 event["script"]["title"] = "must not leak into core"
         result = Agent(MockModel(), ToolBox(), on_event=observer).run(self.request)
         self.assertEqual(result["status"], "completed")
-        self.assertEqual([e["step"] for e in events if e["kind"] == "step"], [1, 2, 3, 4, 5])
-        self.assertEqual(len(result["trace"]), 5)
+        self.assertEqual([e["step"] for e in events if e["kind"] == "step"], [1, 2, 3, 4, 5, 6])
+        self.assertEqual(len(result["trace"]), 6)
         self.assertNotEqual(result["script"]["title"], "must not leak into core")
 
     def test_cancel_before_model_never_calls_model(self):
@@ -59,6 +59,24 @@ class ProgressTests(unittest.TestCase):
 
 
 class WebTests(unittest.TestCase):
+    def test_running_checkpoint_download_is_available_before_final_files(self):
+        entered, release = threading.Event(), threading.Event()
+        class Waiting(MockModel):
+            def decide(self,state,rules):
+                entered.set(); release.wait(2)
+                return action('finish','fixture stop',status='blocked',message='fixture'),{}
+        self.manager.model_factory=lambda *_:Waiting()
+        run_id=self.manager.start({'provider':'mock','request':self.request})
+        try:
+            self.assertTrue(entered.wait(2))
+            status,raw,_=self.http('GET',f'/api/runs/{run_id}/download/checkpoint.json')
+            self.assertEqual(status,200)
+            self.assertEqual(json.loads(raw)['result']['status'],'in_progress')
+            self.assertEqual(self.http('GET',f'/api/runs/{run_id}/download/output.json')[0],404)
+        finally:
+            release.set()
+            wait_finished(self.manager,run_id)
+
     def setUp(self):
         scratch = ROOT / ".runtime/tests"
         scratch.mkdir(parents=True, exist_ok=True)
@@ -101,6 +119,8 @@ class WebTests(unittest.TestCase):
         status, data, headers = self.http("GET", f"/api/runs/{run_id}/download/script.md")
         self.assertEqual(status, 200)
         self.assertIn("短视频脚本运行结果", data.decode())
+        self.assertIn('需求覆盖核对', data.decode())
+        self.assertTrue(job['requirements_check']['passed'])
         self.assertIn("attachment", headers["Content-Disposition"])
         self.assertTrue((Path(self.temp.name) / run_id / "trace.jsonl").exists())
 

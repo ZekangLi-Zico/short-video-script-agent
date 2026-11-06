@@ -1,0 +1,19 @@
+{
+  "port": 8782,
+  "submitted_at": "2026-11-03T18:33:56.727Z",
+  "fields": {
+    "audience": "线上课程剪辑助教",
+    "duration-mode": "target",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "5197580c64a74f92b3d05e6234a37bb2",
+    "initial-script": "",
+    "platform": "B站",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "平实，克制",
+    "target-seconds": "20",
+    "topic": "介绍字幕添加，背景是擦净的黑板、课程讲义、空座位。不要问句、感叹号、下载引导或“轻松搞定”式保证。只讲这个功能。"
+  }
+}

@@ -1,6 +1,7 @@
 """Deterministic offline stub. This is NOT evidence of model reasoning."""
 
 from .tools import read_json, ROOT
+from .expression import extended_review, expression_slots
 
 
 def action(name, reason, query="", script=None, status="running", message=""):
@@ -20,6 +21,18 @@ def example_script(long=False, bad_claim=False):
 class MockModel:
     name = "mock"
     evidence_kind = "offline_mock_not_model_evidence"
+
+    def review(self, request, script, rules_check=None, duration_check=None):
+        report = {'items': [{'field': field, 'requirement': request[field], 'verdict': 'met',
+                           'evidence': '固定离线桩返回；仅验证接线，不证明语义符合。'}
+                          for field in ('topic', 'audience', 'platform', 'style')],
+                'summary': '固定离线需求检查，不证明真实语义判断。'}
+        if extended_review(request):
+            slots = expression_slots(script) if request.get('expression_mode') == 'creative' else []
+            report.update(expressions=[{**s, 'verdict':'plain_expression', 'references':[],
+                                        'evidence':'固定离线桩，不证明语义事实正确'} for s in slots],
+                          pacing={'verdict':'met','evidence':'固定离线桩，不证明节奏合适'})
+        return report, {'provider': 'mock', 'warning': 'offline stub'}
 
     def decide(self, state, rules):
         history = state["history"]
@@ -65,6 +78,10 @@ class MockModel:
                 {"visual": rules["visuals"][2], "hold_seconds": 0,
                  "blocks": [{"text": fact["text"], "source_id": source["id"], "fact_id": fact["id"]}]}]}
             response = action("write_script", "离线桩：删除无依据宣传", script=script)
+        elif state.get('requirements_check') is None:
+            response = action('check_requirements', '离线桩：检查需求接线')
+        elif not state['requirements_check'].get('passed'):
+            response = action('finish', '离线桩：需求未满足', status='needs_input', message='当前稿未满足需求，请补充资料。')
         else:
-            response = action("finish", "离线桩：两项检查通过", status="completed")
+            response = action("finish", "离线桩：检查通过", status="completed")
         return response, {"provider": "mock", "warning": "固定离线桩；不证明真实模型决策效果"}

@@ -1,0 +1,18 @@
+{
+  "id": "V34",
+  "name": "收费说明咨询",
+  "context": "账号运营接到大量是否免费的提问。",
+  "request": {
+    "topic": "写字幕功能收费说明：免费版能用多少次、是否有会员门槛、付费后有何变化。不要只用存在字幕功能来代替回答收费问题。",
+    "audience": "准备决定是否使用的新用户",
+    "platform": "小红书",
+    "target_seconds": 30,
+    "style": "坦诚，解释清楚",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-_gh_yix6",
+  "started_at": "2026-11-03T23:13:06.134441+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:13:33.849494+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3b0-11f4-7083-b89a-27193d81d72e",
+    "usage": {
+      "input_tokens": 29686,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 565,
+      "reasoning_output_tokens": 292
+    },
+    "call_id": "decision-_gh_yix6",
+    "warnings": []
+  }
+}

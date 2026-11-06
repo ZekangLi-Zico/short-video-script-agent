@@ -1,0 +1,13 @@
+{
+  "case_id": "T29",
+  "capture_mode": "viewport_fallback",
+  "finished_capture_at": "2026-11-03T14:41:50.651Z",
+  "busy": false,
+  "detail": "真实模型 · 3 个执行步骤",
+  "download": "/api/runs/4ad92f8b2f08482aae5f7198dfd5ad6b/download/output.json",
+  "error": "",
+  "history": "4ad92f8b2f08482aae5f7198dfd5ad6b",
+  "message": "已找到添加字幕和手动改字的事实依据，但缺少“老年初学者学习时可能需要什么帮助”的可引用内容。请补充相关事实素材，或将帮助说明加入批准文案，才能完整满足要求。",
+  "save": "记录已保存 · 4ad92f8b",
+  "status": "需要补充"
+}

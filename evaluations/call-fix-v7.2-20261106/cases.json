@@ -1,0 +1,34 @@
+[
+  {
+    "name": "character",
+    "prior_run_id": "a4c3fd45ef0243d1a78c8506e5b5228a",
+    "input": {
+      "topic": "给《城寨风云》的陈峥做一支人物预告，用前六集的经历串起他为什么来到城寨、为什么非赢不可，也让人看到他保护阿晴的一面。最后留下继续追剧的念头。",
+      "audience": "没有看过原剧、喜欢港片和人物故事的成年观众",
+      "platform": "B站",
+      "style": "克制、有情绪，旁白像在讲一个人的遭遇，不念人物档案",
+      "product_id": "city-drama",
+      "duration_mode": "max",
+      "expression_mode": "creative",
+      "target_seconds": 45
+    },
+    "input_file_sha256": "86d552bbb66353204fd268bef730d037269bbf0acbdd8c1dcf349a11b20d736d",
+    "selection_reason": "Replay the unchanged request of an existing real-model failure, selected before new execution."
+  },
+  {
+    "name": "candle",
+    "prior_run_id": "5da6d3d86b904fbda9deef30793fda81",
+    "input": {
+      "topic": "把第八集阿晴送叉烧饭这一段改成一个独立短片，从递饭开始，以她拒绝帮忙修电路后离开收尾。主要靠陈峥和阿晴的对白与反应推进，不加解说旁白。",
+      "audience": "已经认识陈峥和阿晴、在追这部漫剧的观众",
+      "platform": "B站",
+      "style": "生活化，先有邻里的温度，再留一点说不清的疑问",
+      "product_id": "city-drama",
+      "duration_mode": "max",
+      "expression_mode": "creative",
+      "target_seconds": 35
+    },
+    "input_file_sha256": "bc34e04389a3d48497bba518b07529d2da4f24ed24c97dd9919399171bd4f9ea",
+    "selection_reason": "Replay the unchanged request of an existing real-model failure, selected before new execution."
+  }
+]

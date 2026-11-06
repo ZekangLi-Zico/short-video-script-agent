@@ -1,0 +1,18 @@
+{
+  "id": "V38",
+  "name": "字幕文件交付",
+  "context": "剪辑工作室要跨软件交换字幕。",
+  "request": {
+    "topic": "写剪影练习版导出SRT字幕文件的介绍和操作说明，客户要把文件交给别的剪辑师；请说明具体支持情况。",
+    "audience": "跨软件协作的视频工作室",
+    "platform": "B站",
+    "target_seconds": 30,
+    "style": "专业，直接",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

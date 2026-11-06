@@ -1,0 +1,8 @@
+{
+  "case": "V28",
+  "assessment": "改进",
+  "note": "旧版写稿超时而无成稿；新版完成五镜44.4秒，以分享会发言、花园字幕改字和合影边缘串联四项能力。预检查发现首稿时长问题，模型仅精简末镜后重检通过，7次有效响应；本例没有超时恢复，不把完成归因于重试。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

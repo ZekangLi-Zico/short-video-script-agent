@@ -1,0 +1,18 @@
+{
+  "id": "V27",
+  "name": "十秒固定两镜",
+  "context": "客户已有两个成片画面不能增加。",
+  "request": {
+    "topic": "十秒内交付两个分镜：第一镜剪刀和胶片意象，介绍裁剪片段；第二镜横竖相框，介绍比例选项。不要开场和结尾镜头。",
+    "audience": "简单整理素材的新手",
+    "platform": "抖音",
+    "target_seconds": 10,
+    "style": "干脆，不铺垫",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "max"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

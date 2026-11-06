@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-bqcfsi_4",
+  "started_at": "2026-11-03T22:23:39.987224+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T22:23:52.486828+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a382-cd5a-7ce0-be25-09cb4296bdd6",
+    "usage": {
+      "input_tokens": 28713,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 118,
+      "reasoning_output_tokens": 68
+    },
+    "call_id": "decision-bqcfsi_4",
+    "warnings": []
+  }
+}

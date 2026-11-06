@@ -1,0 +1,22 @@
+{
+  "kind": "voice",
+  "text": "We’re making a welcome video in our club room, starting with the notices on this board.\n\nI want viewers to read the meeting details as they watch. This editor lets me add captions to the video.\n\nI can also edit the caption text manually. For this scene, I’ll use “Meet in the club room,” matching the notice we filmed.\n\nNow let’s watch that scene again and check that the caption says what we want to share.",
+  "shots": [
+    {
+      "shot": 1,
+      "text": "We’re making a welcome video in our club room, starting with the notices on this board."
+    },
+    {
+      "shot": 2,
+      "text": "I want viewers to read the meeting details as they watch. This editor lets me add captions to the video."
+    },
+    {
+      "shot": 3,
+      "text": "I can also edit the caption text manually. For this scene, I’ll use “Meet in the club room,” matching the notice we filmed."
+    },
+    {
+      "shot": 4,
+      "text": "Now let’s watch that scene again and check that the caption says what we want to share."
+    }
+  ]
+}

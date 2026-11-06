@@ -1,0 +1,19 @@
+{
+  "port": 8822,
+  "submitted_at": "2026-11-04T15:09:51.826Z",
+  "fields": {
+    "audience": "展馆志愿者",
+    "duration-mode": "max",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "6c6dc16adf664e9ea977f38ace6a0137",
+    "initial-script": "",
+    "platform": "视频号",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "安静，说明式",
+    "target-seconds": "26",
+    "topic": "介绍添加字幕和手动编辑字幕文字，背景是空展厅、导览卡和休息区。不要编造文物年代或展品故事，结尾直接结束。"
+  }
+}

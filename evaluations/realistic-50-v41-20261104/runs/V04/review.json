@@ -1,0 +1,8 @@
+{
+  "case": "V04",
+  "assessment": "脚本可用",
+  "note": "横向展台在前、竖向单件花瓶在后，第三镜作对照；原需求未限定必须两镜。仅引用P03.F1的比例能力，没有字幕/剪辑功能、自动裁切或未经提供的具体比例参数。13秒在20秒上限内。构图建议和产品事实分开，备注没有内部删改旁白。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-efz_4itv",
+  "started_at": "2026-11-04T15:18:44.153351+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:19:03.837154+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a724-1e7a-7da0-951e-57ff396136e6",
+    "usage": {
+      "input_tokens": 32804,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 248,
+      "reasoning_output_tokens": 156
+    },
+    "call_id": "decision-efz_4itv",
+    "warnings": []
+  }
+}

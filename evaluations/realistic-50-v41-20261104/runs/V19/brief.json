@@ -1,0 +1,18 @@
+{
+  "id": "V19",
+  "name": "指定片名的活动",
+  "context": "活动方已做好封面，片名不能动。",
+  "request": {
+    "topic": "标题必须逐字为“这一帧，留给今天”。介绍字幕添加和片段裁剪，背景是雨后街角与伞架，不能把活动片名说成产品功能。",
+    "audience": "社区活动账号",
+    "platform": "抖音",
+    "target_seconds": 28,
+    "style": "温柔，少形容词",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "target"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

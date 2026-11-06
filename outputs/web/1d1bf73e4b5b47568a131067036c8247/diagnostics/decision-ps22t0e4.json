@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-ps22t0e4",
+  "started_at": "2026-11-04T01:03:13.812702+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:03:28.364620+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a414-e25a-7e63-bf94-096128504212",
+    "usage": {
+      "input_tokens": 26528,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 215,
+      "reasoning_output_tokens": 128
+    },
+    "call_id": "decision-ps22t0e4",
+    "warnings": []
+  }
+}

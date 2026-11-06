@@ -1,0 +1,13 @@
+{
+  "id": "N02",
+  "status": "needs_input",
+  "steps": 3,
+  "model_responses": 3,
+  "duration": null,
+  "path": [
+    "search_materials",
+    "search_materials",
+    "finish"
+  ],
+  "message": "已找到裁剪视频片段、手动编辑字幕文字的功能依据。但当前模板缺少社区旧物交换活动的开场、志愿者交接用语及交换现场结尾的可用表达和画面选项。请项目维护者补充这些内容；三镜头脚本尚未完成，25秒时长上限、规则及需求检查均未执行。"
+}

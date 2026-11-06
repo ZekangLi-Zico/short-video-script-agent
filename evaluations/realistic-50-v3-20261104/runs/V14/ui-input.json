@@ -1,0 +1,19 @@
+{
+  "port": 8781,
+  "submitted_at": "2026-11-03T18:11:35.852Z",
+  "fields": {
+    "audience": "校体育社团运营",
+    "duration-mode": "target",
+    "expression-mode": "creative",
+    "fault": "none",
+    "history": "b15aec76184a45b99bea498445b39d57",
+    "initial-script": "",
+    "platform": "B站",
+    "preset": "custom",
+    "product": "demo-editor",
+    "provider": "codex",
+    "style": "清晰，有节奏",
+    "target-seconds": "40",
+    "topic": "介绍裁剪片段、字幕添加和横竖屏比例。画面是空球场、记分牌和队员背影，三项功能各提一次，不宣传提高运动成绩。"
+  }
+}

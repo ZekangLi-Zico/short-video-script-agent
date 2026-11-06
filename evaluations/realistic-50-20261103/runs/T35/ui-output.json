@@ -1,0 +1,526 @@
+{
+  "status": "completed",
+  "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+  "script": {
+    "title": "一条短片的开始",
+    "shots": [
+      {
+        "visual": "日常生活素材蒙太奇",
+        "hold_seconds": 3,
+        "blocks": [
+          {
+            "text": "看看这些功能。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "产品功能文字卡片，不展示未经提供的界面",
+        "hold_seconds": 5,
+        "blocks": [
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ]
+      },
+      {
+        "visual": "产品功能文字卡片，不展示未经提供的界面",
+        "hold_seconds": 7,
+        "blocks": [
+          {
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          }
+        ]
+      },
+      {
+        "visual": "简洁背景展示结尾文字",
+        "hold_seconds": 3,
+        "blocks": [
+          {
+            "text": "先从一条短片开始。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  },
+  "duration": {
+    "ok": true,
+    "script_hash": "dd68c2e66b7d997ea7efe7fd489d7670275e41f17b12deb1af54d8a77b676d2e",
+    "shots": [
+      {
+        "shot": 1,
+        "speech_units": 6,
+        "estimated_seconds": 3
+      },
+      {
+        "shot": 2,
+        "speech_units": 13,
+        "estimated_seconds": 5
+      },
+      {
+        "shot": 3,
+        "speech_units": 18,
+        "estimated_seconds": 7
+      },
+      {
+        "shot": 4,
+        "speech_units": 8,
+        "estimated_seconds": 3
+      }
+    ],
+    "total_seconds": 18,
+    "target_seconds": 20,
+    "passed": true,
+    "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+    "is_estimate": true
+  },
+  "rules_check": {
+    "ok": true,
+    "script_hash": "dd68c2e66b7d997ea7efe7fd489d7670275e41f17b12deb1af54d8a77b676d2e",
+    "passed": true,
+    "issues": [],
+    "citations": [
+      {
+        "location": "shot:2/block:1",
+        "source_id": "P02",
+        "fact_id": "P02.F1",
+        "quote": "剪影练习版支持裁剪视频片段。",
+        "version": "2026-11-01"
+      },
+      {
+        "location": "shot:3/block:1",
+        "source_id": "P03",
+        "fact_id": "P03.F1",
+        "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+        "version": "2026-11-01"
+      }
+    ],
+    "rules_version": "2026-11-03-v1"
+  },
+  "sources": [
+    {
+      "id": "P03",
+      "product_id": "demo-editor",
+      "title": "画面比例说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "比例",
+        "竖屏",
+        "横屏",
+        "画面",
+        "aspect"
+      ],
+      "facts": [
+        {
+          "id": "P03.F1",
+          "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "product_id": "demo-editor",
+      "title": "剪辑功能说明",
+      "version": "2026-11-01",
+      "keywords": [
+        "剪辑",
+        "裁剪",
+        "片段",
+        "trim",
+        "edit"
+      ],
+      "facts": [
+        {
+          "id": "P02.F1",
+          "text": "剪影练习版支持裁剪视频片段。"
+        }
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "arguments": {
+        "query": "demo-editor 片段裁剪 横屏 竖屏 画面比例",
+        "product_id": "demo-editor"
+      },
+      "decision_basis": "需要检索片段裁剪和横竖屏比例的产品事实，用于屏幕字幕。",
+      "observation": {
+        "ok": true,
+        "query": "demo-editor 片段裁剪 横屏 竖屏 画面比例",
+        "product_id": "demo-editor",
+        "materials": [
+          {
+            "id": "P03",
+            "product_id": "demo-editor",
+            "title": "画面比例说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "比例",
+              "竖屏",
+              "横屏",
+              "画面",
+              "aspect"
+            ],
+            "facts": [
+              {
+                "id": "P03.F1",
+                "text": "剪影练习版提供横屏和竖屏画面比例选项。"
+              }
+            ]
+          },
+          {
+            "id": "P02",
+            "product_id": "demo-editor",
+            "title": "剪辑功能说明",
+            "version": "2026-11-01",
+            "keywords": [
+              "剪辑",
+              "裁剪",
+              "片段",
+              "trim",
+              "edit"
+            ],
+            "facts": [
+              {
+                "id": "P02.F1",
+                "text": "剪影练习版支持裁剪视频片段。"
+              }
+            ]
+          }
+        ],
+        "count": 2
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1df-c267-7c50-aa00-b5e41a93469f",
+        "usage": {
+          "input_tokens": 26492,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 207,
+          "reasoning_output_tokens": 131
+        }
+      },
+      "elapsed_ms": 18953
+    },
+    {
+      "step": 2,
+      "action": "write_script",
+      "arguments": {
+        "script": {
+          "title": "一条短片的开始",
+          "shots": [
+            {
+              "visual": "日常生活素材蒙太奇",
+              "hold_seconds": 3,
+              "blocks": [
+                {
+                  "text": "看看这些功能。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "产品功能文字卡片，不展示未经提供的界面",
+              "hold_seconds": 5,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ]
+            },
+            {
+              "visual": "产品功能文字卡片，不展示未经提供的界面",
+              "hold_seconds": 7,
+              "blocks": [
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "简洁背景展示结尾文字",
+              "hold_seconds": 3,
+              "blocks": [
+                {
+                  "text": "先从一条短片开始。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision_basis": "已检索到裁剪和横竖屏比例事实，采用屏幕文字卡片呈现关键信息。",
+      "observation": {
+        "ok": true,
+        "script_hash": "dd68c2e66b7d997ea7efe7fd489d7670275e41f17b12deb1af54d8a77b676d2e",
+        "message": "已更新草稿，必须对本稿重新运行时长与规则检查"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1e0-0d42-7b10-aef8-9fa356b9d4c9",
+        "usage": {
+          "input_tokens": 26974,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 613,
+          "reasoning_output_tokens": 353
+        }
+      },
+      "elapsed_ms": 26391
+    },
+    {
+      "step": 3,
+      "action": "estimate_duration",
+      "arguments": {
+        "script": {
+          "title": "一条短片的开始",
+          "shots": [
+            {
+              "visual": "日常生活素材蒙太奇",
+              "hold_seconds": 3,
+              "blocks": [
+                {
+                  "text": "看看这些功能。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "产品功能文字卡片，不展示未经提供的界面",
+              "hold_seconds": 5,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ]
+            },
+            {
+              "visual": "产品功能文字卡片，不展示未经提供的界面",
+              "hold_seconds": 7,
+              "blocks": [
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "简洁背景展示结尾文字",
+              "hold_seconds": 3,
+              "blocks": [
+                {
+                  "text": "先从一条短片开始。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "target_seconds": 20
+      },
+      "decision_basis": "当前稿尚未检查时长，需确认是否满足20秒上限。",
+      "observation": {
+        "ok": true,
+        "script_hash": "dd68c2e66b7d997ea7efe7fd489d7670275e41f17b12deb1af54d8a77b676d2e",
+        "shots": [
+          {
+            "shot": 1,
+            "speech_units": 6,
+            "estimated_seconds": 3
+          },
+          {
+            "shot": 2,
+            "speech_units": 13,
+            "estimated_seconds": 5
+          },
+          {
+            "shot": 3,
+            "speech_units": 18,
+            "estimated_seconds": 7
+          },
+          {
+            "shot": 4,
+            "speech_units": 8,
+            "estimated_seconds": 3
+          }
+        ],
+        "total_seconds": 18,
+        "target_seconds": 20,
+        "passed": true,
+        "method": "max(旁白单位数/语速+停顿, 画面停留, 最短镜头); 按镜头向上取整到0.1秒",
+        "is_estimate": true
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1e0-7330-7490-9c24-fc677364afc2",
+        "usage": {
+          "input_tokens": 27574,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 118,
+          "reasoning_output_tokens": 66
+        }
+      },
+      "elapsed_ms": 13968
+    },
+    {
+      "step": 4,
+      "action": "check_rules",
+      "arguments": {
+        "script": {
+          "title": "一条短片的开始",
+          "shots": [
+            {
+              "visual": "日常生活素材蒙太奇",
+              "hold_seconds": 3,
+              "blocks": [
+                {
+                  "text": "看看这些功能。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            },
+            {
+              "visual": "产品功能文字卡片，不展示未经提供的界面",
+              "hold_seconds": 5,
+              "blocks": [
+                {
+                  "text": "剪影练习版支持裁剪视频片段。",
+                  "source_id": "P02",
+                  "fact_id": "P02.F1"
+                }
+              ]
+            },
+            {
+              "visual": "产品功能文字卡片，不展示未经提供的界面",
+              "hold_seconds": 7,
+              "blocks": [
+                {
+                  "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+                  "source_id": "P03",
+                  "fact_id": "P03.F1"
+                }
+              ]
+            },
+            {
+              "visual": "简洁背景展示结尾文字",
+              "hold_seconds": 3,
+              "blocks": [
+                {
+                  "text": "先从一条短片开始。",
+                  "source_id": "",
+                  "fact_id": ""
+                }
+              ]
+            }
+          ]
+        },
+        "retrieved_ids": [
+          "P02",
+          "P03"
+        ]
+      },
+      "decision_basis": "当前稿估算18秒，已通过20秒上限检查，尚需规则检查。",
+      "observation": {
+        "ok": true,
+        "script_hash": "dd68c2e66b7d997ea7efe7fd489d7670275e41f17b12deb1af54d8a77b676d2e",
+        "passed": true,
+        "issues": [],
+        "citations": [
+          {
+            "location": "shot:2/block:1",
+            "source_id": "P02",
+            "fact_id": "P02.F1",
+            "quote": "剪影练习版支持裁剪视频片段。",
+            "version": "2026-11-01"
+          },
+          {
+            "location": "shot:3/block:1",
+            "source_id": "P03",
+            "fact_id": "P03.F1",
+            "quote": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "version": "2026-11-01"
+          }
+        ],
+        "rules_version": "2026-11-03-v1"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1e0-aa1b-7691-939c-c4ca98f311c0",
+        "usage": {
+          "input_tokens": 28285,
+          "cached_input_tokens": 13696,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 117,
+          "reasoning_output_tokens": 62
+        }
+      },
+      "elapsed_ms": 14438
+    },
+    {
+      "step": 5,
+      "action": "finish",
+      "arguments": {
+        "status": "completed",
+        "message": "脚本已完成，共4个镜头，估算18秒。片段裁剪和横竖屏比例均以屏幕文字卡片呈现，不依赖旁白。"
+      },
+      "decision_basis": "当前同一稿的时长检查和规则检查均已通过，估算18秒，未超过20秒上限。",
+      "observation": {
+        "ok": true,
+        "status": "completed",
+        "script_hash": "dd68c2e66b7d997ea7efe7fd489d7670275e41f17b12deb1af54d8a77b676d2e"
+      },
+      "model": {
+        "provider": "codex",
+        "model": "CLI configured default",
+        "thread_id": "01a1a1e0-e21e-77c2-a088-66245ab36c63",
+        "usage": {
+          "input_tokens": 28979,
+          "cached_input_tokens": 24448,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 183,
+          "reasoning_output_tokens": 83
+        }
+      },
+      "elapsed_ms": 15453
+    }
+  ],
+  "metadata": {
+    "started_at": "2026-11-03T14:45:57.874093+00:00",
+    "finished_at": "2026-11-03T14:47:27.073136+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 5,
+    "synthetic_data": true,
+    "model_responses": 5
+  }
+}

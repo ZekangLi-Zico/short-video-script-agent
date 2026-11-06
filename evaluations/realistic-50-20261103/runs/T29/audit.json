@@ -1,0 +1,68 @@
+{
+  "case": "T29",
+  "name": "老年学习需求",
+  "run_id": "4ad92f8b2f08482aae5f7198dfd5ad6b",
+  "status": "needs_input",
+  "message": "已找到添加字幕和手动改字的事实依据，但缺少“老年初学者学习时可能需要什么帮助”的可引用内容。请补充相关事实素材，或将帮助说明加入批准文案，才能完整满足要求。",
+  "steps": 3,
+  "model_calls": 3,
+  "seconds": null,
+  "target_seconds": 35,
+  "rules_passed": null,
+  "shots": 0,
+  "title": null,
+  "citations": [],
+  "script_lines": [],
+  "actions": [
+    "search_materials",
+    "search_materials",
+    "finish"
+  ],
+  "queries": [
+    "demo-editor 添加字幕 手动修改字幕文字 老年初学者 学习时可能需要的指导与帮助",
+    "demo-editor 老年初学者 字幕学习 操作指导 学习困难 需要的帮助"
+  ],
+  "observations": [
+    {
+      "step": 1,
+      "action": "search_materials",
+      "basis": "尚无素材，需要检索字幕功能及老年初学者学习帮助的依据。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 2,
+      "action": "search_materials",
+      "basis": "现有素材支持添加字幕和手动改字，但缺少学习时可能需要哪些帮助的依据。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "basis": "两次检索均缺少学习帮助的依据，批准文案也未覆盖此要求。",
+      "ok": true,
+      "passed": null,
+      "error": null,
+      "seconds": null,
+      "issues": null
+    }
+  ],
+  "wall_seconds": 70.3,
+  "input_verified": true,
+  "local_replay_errors": [],
+  "artifact_sha256": {
+    "input.json": "fcf055a1b5f13ef28d590257773cf68565d19564689072aedf27ec79658613bd",
+    "output.json": "30e5eecf032bfcc144ac627e866029c2e7e4a279492f2bca0f4ade5fba18e5b3",
+    "trace.jsonl": "a32589db8e745ff681f2d55842056f8cf53d706a0dc96058ba964c19f6764196",
+    "manifest.json": "fcec56ec2325ac2669e65a75967632a5c26436461387240a31fcaf0db53b2a69",
+    "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+    "script.md": "73f42590800d1ece260f38ef88103ac38d65537e4c9727c4d68e2f0aa76062c5"
+  }
+}

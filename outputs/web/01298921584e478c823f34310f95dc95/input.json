@@ -1,0 +1,57 @@
+{
+  "topic": "把旧稿改成10秒以内，保留裁剪片段和横竖屏比例两个功能，不需要开场和结尾。",
+  "audience": "已有素材的日常用户",
+  "platform": "抖音",
+  "style": "干脆、信息优先",
+  "product_id": "demo-editor",
+  "target_seconds": 10,
+  "initial_script": {
+    "title": "从一段记录开始",
+    "shots": [
+      {
+        "visual": "日常生活素材蒙太奇",
+        "hold_seconds": 3,
+        "blocks": [
+          {
+            "text": "从一段日常记录开始。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "产品功能文字卡片，不展示未经提供的界面",
+        "hold_seconds": 6,
+        "blocks": [
+          {
+            "text": "剪影练习版支持裁剪视频片段。",
+            "source_id": "P02",
+            "fact_id": "P02.F1"
+          }
+        ]
+      },
+      {
+        "visual": "人物展示创作过程的示意画面",
+        "hold_seconds": 7,
+        "blocks": [
+          {
+            "text": "剪影练习版提供横屏和竖屏画面比例选项。",
+            "source_id": "P03",
+            "fact_id": "P03.F1"
+          }
+        ]
+      },
+      {
+        "visual": "简洁背景展示结尾文字",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "试试你的下一条短片吧。",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      }
+    ]
+  }
+}

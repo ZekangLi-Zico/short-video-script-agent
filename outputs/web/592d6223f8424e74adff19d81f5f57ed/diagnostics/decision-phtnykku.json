@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-phtnykku",
+  "started_at": "2026-11-04T15:46:51.136966+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:47:55.147632+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a73d-e88f-7cb3-a69d-c8c3f5c23323",
+    "usage": {
+      "input_tokens": 27355,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 214,
+      "reasoning_output_tokens": 133
+    },
+    "call_id": "decision-phtnykku",
+    "warnings": []
+  }
+}

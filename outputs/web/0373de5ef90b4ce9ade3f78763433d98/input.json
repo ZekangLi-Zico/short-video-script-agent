@@ -1,0 +1,48 @@
+{
+  "topic": "做一条剪影练习版的交接说明，使用社区旧物交换活动的拍摄场景。分别介绍裁剪视频片段、手动编辑字幕文字。用三个镜头，开场交代活动，中段说工具，结尾回到交换现场，不许承诺节省多少时间。",
+  "audience": "刚加入的社区志愿者",
+  "platform": "视频号",
+  "style": "亲切直白，避免广告腔",
+  "product_id": "demo-editor",
+  "duration_mode": "target",
+  "expression_mode": "creative",
+  "target_seconds": 25,
+  "initial_script": {
+    "title": "字幕，让表达被看见",
+    "shots": [
+      {
+        "visual": "人物面对镜头提出问题",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "想让画面里的表达更清楚？",
+            "source_id": "",
+            "fact_id": ""
+          }
+        ]
+      },
+      {
+        "visual": "产品功能文字卡片，不展示未经提供的界面",
+        "hold_seconds": 8,
+        "blocks": [
+          {
+            "text": "剪影练习版支持自动识别语音并生成字幕。",
+            "source_id": "P01",
+            "fact_id": "P01.F1"
+          }
+        ]
+      },
+      {
+        "visual": "产品功能文字卡片，不展示未经提供的界面",
+        "hold_seconds": 12,
+        "blocks": [
+          {
+            "text": "字幕文字可以手动编辑。",
+            "source_id": "P01",
+            "fact_id": "P01.F2"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-t51853kq",
+  "started_at": "2026-11-04T15:07:42.147556+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:08:04.252577+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a71a-07b4-7582-96a7-1c4278dec912",
+    "usage": {
+      "input_tokens": 29367,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 175,
+      "reasoning_output_tokens": 100
+    },
+    "call_id": "decision-t51853kq",
+    "warnings": []
+  }
+}

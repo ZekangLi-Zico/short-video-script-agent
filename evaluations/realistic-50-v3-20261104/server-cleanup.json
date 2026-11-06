@@ -1,0 +1,21 @@
+{
+  "kept_for_result_page": {
+    "pid": 31176,
+    "port": 8782
+  },
+  "original_port_8765_untouched": true,
+  "stopped": [
+    {
+      "pid": 31512,
+      "port": 8783
+    },
+    {
+      "pid": 35116,
+      "port": 8784
+    },
+    {
+      "pid": 25524,
+      "port": 8781
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-r11vcnui",
+  "started_at": "2026-11-03T23:07:10.841901+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:07:24.063068+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3aa-a2c4-7700-bda0-502ad113587f",
+    "usage": {
+      "input_tokens": 30190,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 179,
+      "reasoning_output_tokens": 124
+    },
+    "call_id": "decision-r11vcnui",
+    "warnings": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "case_id": "T24",
+  "capture_mode": "viewport_fallback",
+  "finished_capture_at": "2026-11-03T14:33:40.082Z",
+  "busy": false,
+  "detail": "真实模型 · 3 个执行步骤",
+  "download": "/api/runs/53fe9c47201348f0873b449152b21246/download/output.json",
+  "error": "",
+  "history": "53fe9c47201348f0873b449152b21246",
+  "message": "请提供带 source_id/fact_id 的字幕收费政策及免费版限制事实；当前规则禁用“免费”，还需调整该规则或提供获准的替代表述。",
+  "save": "记录已保存 · 53fe9c47",
+  "status": "需要补充"
+}

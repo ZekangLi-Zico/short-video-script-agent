@@ -1,0 +1,4324 @@
+{
+  "updated_at": "2026-11-03T15:18:36.664403+00:00",
+  "planned": 50,
+  "captured": 50,
+  "statuses": {
+    "completed": 29,
+    "needs_input": 21
+  },
+  "cases_frozen": true,
+  "application_unchanged": true,
+  "runs": [
+    {
+      "case": "T01",
+      "name": "新手口播",
+      "run_id": "2a169b877feb4b69a468cf5f85e99e9b",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 26.0,
+      "target_seconds": 30,
+      "rules_passed": true,
+      "shots": 5,
+      "title": "字幕，让表达被看见",
+      "citations": [
+        "P01.F1",
+        "P01.F2"
+      ],
+      "script_lines": [
+        "想让画面里的表达更清楚？",
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。",
+        "把想说的话，放进画面里。",
+        "先从一条短片开始。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 剪影练习版 为视频添加字幕 手动编辑字幕文字"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有产品素材，需要检索字幕添加和手动编辑字幕的事实依据。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到添加字幕和手动编辑字幕文字的事实，可据此编排分镜。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿已更新，尚未检查是否符合30秒时长上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 26.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算为26秒，已通过时长检查，尚未进行规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查和规则检查均已通过。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 87.9,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "da31fc3e24f4b48a115957b38ecfd1fd2dbe7082e5ac1ac296cc8d7b2de6e76f",
+        "output.json": "e5600c706de4492f8614749954fb5a2163cbf08e32808a859ce44ecd7ae2a51d",
+        "trace.jsonl": "3a6fcc7bae32ee998071abb4cceaa2913b16b3a7338df09dc95c90a63f79d24c",
+        "manifest.json": "08d00789eb9a3d1ad68aa438a2e7890b9701c502e43b0c89a2a0bbd77ee29510",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "360b3daf065229c447937ae4ca1e9940f0391cc8355e10924235cb1986fcc416"
+      }
+    },
+    {
+      "case": "T02",
+      "name": "校园采访",
+      "run_id": "68a3d29af3c14b3ab8e1ab0ac1941d54",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 22.0,
+      "target_seconds": 25,
+      "rules_passed": true,
+      "shots": 4,
+      "title": "字幕，让表达被看见",
+      "citations": [
+        "P01.F1",
+        "P01.F2"
+      ],
+      "script_lines": [
+        "想让画面里的表达更清楚？",
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。",
+        "把想说的话，放进画面里。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 添加字幕 编辑字幕文字 校园采访花絮"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有素材，需要检索添加字幕和编辑字幕文字的产品事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到添加字幕和手动编辑字幕文字的产品事实，可据此编排分镜。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未检查时长，需确认是否符合25秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 22.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿预估22秒，符合25秒上限，尚需完成规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查和规则检查均通过，预估22秒，符合25秒上限。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 135.5,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "c07809b7cbe8719d9ff2dfc92b99d3afd89afbe9c138bada7185d77507ffde1a",
+        "output.json": "e76e0d281c3db5a326ce10ccc5fb40ae99f8cb3ee0a7c48411b7313d08dbf073",
+        "trace.jsonl": "593fcde16cade96647e5924569bfb29951f4ed50fc838510f700b27bb90dad9d",
+        "manifest.json": "fca0ff196ac00d71e7b70a67a3afe963918c70b76003507814256eb38442a6df",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "75629f79503502d414dbfbd5d6234939b2613d48ee0b2f280bee58039eca6200"
+      }
+    },
+    {
+      "case": "T03",
+      "name": "餐饮菜单字幕",
+      "run_id": "765b5f1594e5413289ef4dfedbd76303",
+      "status": "needs_input",
+      "message": "现稿估算17秒，时长和规则检查均通过，但未体现餐饮门店拍菜单介绍视频的场景。请在 brand_rules.creative_copy 和 visuals 中补充获准使用的菜单场景文案与画面，以便保留现有结构并针对性修订。",
+      "steps": 6,
+      "model_calls": 6,
+      "seconds": 17.0,
+      "target_seconds": 20,
+      "rules_passed": true,
+      "shots": 4,
+      "title": "字幕，让表达被看见",
+      "citations": [
+        "P01.F1",
+        "P01.F2"
+      ],
+      "script_lines": [
+        "从一段日常记录开始。",
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。",
+        "把想说的话，放进画面里。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "剪影练习版 demo-editor 字幕文字编辑功能 餐饮门店 菜单介绍视频",
+        "餐饮门店 菜单介绍视频 菜名字幕 手动修改字幕文字 应用场景"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有可引用的产品事实，需检索字幕文字编辑素材。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到添加字幕和手动编辑文字的事实，可组合为四镜头脚本。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚无时长检查结果，需确认是否符合20秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 17.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算17秒，符合20秒上限，尚需规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "search_materials",
+          "basis": "现稿已通过检查，但未体现餐饮门店拍菜单介绍视频的场景，需补充相关素材。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 6,
+          "action": "finish",
+          "basis": "补充检索仅返回通用字幕事实，批准文案和画面缺少菜单介绍场景。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 153.9,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "1dc163b66027fb054ced72a32b646f6f742f511c5a695a8920094460b721b8e7",
+        "output.json": "0c84b4b6c4da9f83ceac36e95e15cf85905ab0e00c2974c7a2846d7e08c8ea31",
+        "trace.jsonl": "fab60340fb18f95149645bad658ba1861e9d11f9e8407eb9e8199ba5e1eace0c",
+        "manifest.json": "2d352171534b887c36af09b16e44a1007558f980108a39d2fc03608137cf8462",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "08f13b460abe56b6224449efe11871faaddd4bcd3888775dfbd2d4a8562e3d66"
+      }
+    },
+    {
+      "case": "T04",
+      "name": "读书分享",
+      "run_id": "55e683e512dc48c09244b635254cfa0f",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 13.0,
+      "target_seconds": 15,
+      "rules_passed": true,
+      "shots": 3,
+      "title": "字幕，让表达被看见",
+      "citations": [
+        "P01.F1",
+        "P01.F2"
+      ],
+      "script_lines": [
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。",
+        "把想说的话，放进画面里。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 为视频添加字幕 字幕功能"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有可引用的字幕功能事实，先检索相关素材。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到两条字幕功能事实，可组成仅介绍字幕的简洁分镜。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未检查时长，需确认是否符合15秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 13.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算时长为13秒，已通过15秒上限检查，尚需规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查与规则检查均已通过，预计13秒，符合15秒上限。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 88.3,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "e45a17a9a75d16ac23956c388ebed8f5fac74aa05392d274db3943cbd84bdc4b",
+        "output.json": "852bf34eca4869e3ccd7ed32fa34d628ede3ba5a58d436ac398015eead8bb110",
+        "trace.jsonl": "9478c3f8f565dde7433ac02b07480edbdfc26bec5176ae77e593f5ca32a960e2",
+        "manifest.json": "a991c9e16bf223a1407f0d49dd774b5c4f658823b182646fcca83bc3225ace64",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "592ead7212e7e341e7bbbba223656214d0c074b1fe5286bfcbee986aaf5ecf37"
+      }
+    },
+    {
+      "case": "T05",
+      "name": "宠物片段",
+      "run_id": "82669d60c4254e6f9a98a675fa779390",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 10.0,
+      "target_seconds": 12,
+      "rules_passed": true,
+      "shots": 3,
+      "title": "从一段记录开始",
+      "citations": [
+        "P02.F1"
+      ],
+      "script_lines": [
+        "从一段日常记录开始。",
+        "剪影练习版支持裁剪视频片段。",
+        "试试你的下一条短片吧。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 剪影练习版 支持裁剪视频片段"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有产品事实素材，先检索视频片段裁剪功能。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到裁剪功能事实，采用日常记录、功能介绍和结尾邀请三镜头结构。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未检查时长，先确认是否符合12秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 10.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿时长估算为10秒，已通过12秒上限检查，尚缺规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查和规则检查均已通过，预计10秒，符合12秒上限。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 112.2,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "ea17d35bad2949a5fe9c0ca0b1c3df7b09074492a6e53014a1a996813f893cea",
+        "output.json": "67fda0a38cdc5b0c43433ecb4a4cb7e5e9e529f1281bf72aea866c45ae56a2a2",
+        "trace.jsonl": "237ddca5ed6989e1cb33d8f222a8d4bb31dd1061c8c33ae897cf242b0cc38c04",
+        "manifest.json": "c5cdb7d5462aa29a07b75d53af712affa2e4837c6ef20a291f5350ee45fcef99",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "e2c425c0c125177aab4dd0c66f0291244e2a3e10e769abc78aa43b15ef164387"
+      }
+    },
+    {
+      "case": "T06",
+      "name": "旅行片段",
+      "run_id": "72540a32a35e4280ba9c88cf1e3daa73",
+      "status": "needs_input",
+      "message": "请提供可引用的旅行归来整理录像开场素材，或在 creative_copy / visuals 中补充对应授权选项。已找到裁剪视频片段的产品事实。",
+      "steps": 4,
+      "model_calls": 4,
+      "seconds": null,
+      "target_seconds": 20,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 裁剪视频片段 旅行回来整理录像 手动裁剪",
+        "旅行回来 整理录像 旅行记录 开场文案",
+        "旅行结束 旅游归来 旅拍 游记 整理旅行视频"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有可引用的产品事实，需检索裁剪功能及旅行整理语境素材。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "search_materials",
+          "basis": "现有素材仅含裁剪功能，缺少可引用的旅行回来整理录像开场文案。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "search_materials",
+          "basis": "现有素材仅包含裁剪功能，改用同义词补查旅行结束后整理录像的开场素材。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "finish",
+          "basis": "两次补充检索均无结果，现有授权文案和画面选项无法明确呈现旅行归来整理录像的开场。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 108.4,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "0fb32b2426a378b3bb5b96d0c9934347e133bfca27557182a22cb7412d884112",
+        "output.json": "3e2b5761bc80e777a3ae276512198b84aef8109c572ed66c36ddae30fe5bac32",
+        "trace.jsonl": "956295d435f1839842fc966bc68fdca1ea9702509195bfc78c762793158ce874",
+        "manifest.json": "ba4d8be2d63b667d43d45d9eaf829c1c422c94ec75b918ee4883d6286bc6a810",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "865059df65da722cefdc7e6e22297132a399cba969213ccadaa01c69f07bdd25"
+      }
+    },
+    {
+      "case": "T07",
+      "name": "运动录像",
+      "run_id": "0b139062246a44228fbd0c39211a2966",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 13.0,
+      "target_seconds": 15,
+      "rules_passed": true,
+      "shots": 3,
+      "title": "从一段记录开始",
+      "citations": [
+        "P02.F1"
+      ],
+      "script_lines": [
+        "从一段日常记录开始。",
+        "剪影练习版支持裁剪视频片段。",
+        "试试你的下一条短片吧。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 视频片段裁剪功能介绍，面向拍摄训练录像的健身教练，不含具体按钮操作步骤"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有素材，需要检索片段裁剪功能的可引用事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到片段裁剪功能事实，可编排为不含按钮操作步骤的功能介绍。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未检查时长，需确认是否符合15秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 13.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算时长13秒，符合15秒上限，尚需完成规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查与规则检查均已通过，估算13秒，未超过15秒上限。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 84.0,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "47ce77e9b81002f47ce4438fd8bd4f70d5c2e173192adb97a18ec9d26dd036e2",
+        "output.json": "d67b27c44f193a3e4b4f516dd52f11220bbe557d4112851ca68f09f52c933b0d",
+        "trace.jsonl": "884bc79963871b64c34ce008d0cf7caabe8de9de740b39670a4b12feb217c063",
+        "manifest.json": "e164f38a46ac5c2c15bc0f7d591e07688ef74fcb6dab8874d8074fdd8c0b1d2c",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "63da53639f24ad95792319da22dbe1de0af75e6899605b4d86a8245c7bf6f645"
+      }
+    },
+    {
+      "case": "T08",
+      "name": "手工过程",
+      "run_id": "b841e253f8ab4660ab5ba0b5cb1c0250",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 22.0,
+      "target_seconds": 25,
+      "rules_passed": true,
+      "shots": 5,
+      "title": "从一段记录开始",
+      "citations": [
+        "P02.F1",
+        "P01.F1",
+        "P01.F2"
+      ],
+      "script_lines": [
+        "从一段日常记录开始。",
+        "剪影练习版支持裁剪视频片段。",
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。",
+        "试试你的下一条短片吧。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 裁剪视频片段 为视频添加字幕 功能说明 手工作者整理制作过程录像"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有可引用的产品事实，需检索裁剪视频片段和添加字幕两项功能。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到裁剪、添加字幕和手动编辑字幕的事实，可编排完整分镜。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未检查时长，需确认是否符合25秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 22.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算时长22秒，符合25秒上限，尚需规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长与规则检查均已通过，估算22秒，符合25秒上限。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 85.7,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "2bcfbaacca430c6f9d819a2470c814a8c3f839e12a54b6e33f78934eb3200339",
+        "output.json": "0caa31a729e25bf9d74c3b89a282ecea6c95ae969505818f8ba457ae60654a78",
+        "trace.jsonl": "553dfce604335eef419c0d409341e37b835239e99ff9ae93fd796f9b4422f15e",
+        "manifest.json": "0837c9b8e4ae8878beac11fb9fdd8775fee74879bfb664b0322ae66c71ab81f9",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "8a249738be2238dfd0ed6bf80621e9906659c4032ee2296166eb2bc669443a2e"
+      }
+    },
+    {
+      "case": "T09",
+      "name": "竖屏发布",
+      "run_id": "99c237eeb54942159d18d3c5a3fc7c48",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 17.0,
+      "target_seconds": 20,
+      "rules_passed": true,
+      "shots": 3,
+      "title": "从一段记录开始",
+      "citations": [
+        "P03.F1"
+      ],
+      "script_lines": [
+        "从一段日常记录开始。",
+        "剪影练习版提供横屏和竖屏画面比例选项。",
+        "试试你的下一条短片吧。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 剪影练习版 横屏 竖屏 画面比例选项"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "尚无产品素材，需检索横屏和竖屏画面比例选项的可引用事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到画面比例选项的可引用事实，编排日常记录开场、功能说明和结尾。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未进行时长检查，需确认是否符合20秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 17.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿预计17秒，已通过20秒上限的时长检查，尚未进行规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查和规则检查均成功且通过。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 78.4,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "404c7b463cb0138a8386c9eb40de06f16eacb82b158556fa5627cc9eb27dc82a",
+        "output.json": "56a75ce134665ee4b6f9c5a4a54e49c51aa17b6531846cb34f137a2bbdf2817d",
+        "trace.jsonl": "3a6eb342b28eaaa7c61fdad4da42e251843897089c8b57962b2076a6cdd412a8",
+        "manifest.json": "9214aa1cc1347f35d666fb8ed3c29d9d4cbd49d4b6ec71b4e22bbaae9ce6ed7e",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "66f3dde52d0c9360ed6590622bd8d1b6080999e18dac9ea945f0f82f9eaeb4bf"
+      }
+    },
+    {
+      "case": "T10",
+      "name": "家庭记录",
+      "run_id": "46eae8743d3f4eeb92e2667c83a1cd8b",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 27.0,
+      "target_seconds": 30,
+      "rules_passed": true,
+      "shots": 4,
+      "title": "从一段记录开始",
+      "citations": [
+        "P02.F1",
+        "P03.F1"
+      ],
+      "script_lines": [
+        "从一段日常记录开始。",
+        "剪影练习版支持裁剪视频片段。",
+        "剪影练习版提供横屏和竖屏画面比例选项。",
+        "先从一条短片开始。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 裁剪视频片段 横屏 竖屏 画面比例选项 家庭生活录像"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前尚无产品事实素材，需检索裁剪片段与横竖屏比例选项。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到裁剪片段与横竖屏比例的产品事实，可编排为四镜头脚本。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未检查时长，需确认是否符合30秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 27.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算27秒，已通过30秒上限检查，尚需完成规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查与规则检查均已通过。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 92.3,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "c7be77cb6b97ebec37210adb3a6ce6103f91ef67bfabc09a5d2bd6b81861bc05",
+        "output.json": "06e810c301e6ae5cfad50c310b9495bfebcd43d5db5c4f242f9f94410f09368a",
+        "trace.jsonl": "4ca5048bb829f7cb4881a216dbed1b747609bfa38712a8c6588c7e806b98a476",
+        "manifest.json": "3e9df6be79cefd946bb647f57b85252a1c3b3d7a15f0b50af60e125d934b2812",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "a38fbca01eade34457bc5e8f31ac40e6b093021eb974fbf606dfd02f1a34a3a2"
+      }
+    },
+    {
+      "case": "T11",
+      "name": "产品概览",
+      "run_id": "189f84c13c1e4f40be7461c1ea0b4149",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 41.0,
+      "target_seconds": 45,
+      "rules_passed": true,
+      "shots": 5,
+      "title": "一条短片的开始",
+      "citations": [
+        "P01.F1",
+        "P01.F2",
+        "P02.F1",
+        "P03.F1"
+      ],
+      "script_lines": [
+        "从一段日常记录开始。",
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。",
+        "剪影练习版支持裁剪视频片段。",
+        "剪影练习版提供横屏和竖屏画面比例选项。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "剪影练习版 demo-editor：为视频添加和手动编辑字幕、裁剪视频片段、横竖屏比例选项"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有素材，需要检索覆盖三个方面的产品事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到覆盖三个方面的事实，编排完整分镜并留出阅读时间。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未检查时长，需要确认是否符合45秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 41.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算时长为41秒，已通过45秒上限检查，尚需完成规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查和规则检查均通过，已覆盖全部三个方面。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 97.0,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "57c57a940ea4128a28df5b3b4800576c632099c6ea25be3a7374d10dbf4c33ae",
+        "output.json": "e684520fbc402a13c26e92d306e9143f9d1e3190603f3b0e32b9aa6afd7585a6",
+        "trace.jsonl": "9311702734b5fc6c832b86316f142deb6ee5fa8b1cb9b348a728a5f73ce4e7f9",
+        "manifest.json": "e9e681cf0f31acfe5269a1653929c06e59bb3a4e2641592c73e12be9791df8f5",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "63a2003e2130715460f1a7b32a332dc13115c5d4ac5aa980d9ac5ef890459dcf"
+      }
+    },
+    {
+      "case": "T12",
+      "name": "一分钟介绍",
+      "run_id": "c5076f49df714f1681a0d85c1c86a335",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 58.0,
+      "target_seconds": 60,
+      "rules_passed": true,
+      "shots": 6,
+      "title": "一条短片的开始",
+      "citations": [
+        "P01.F1",
+        "P01.F2",
+        "P02.F1",
+        "P03.F1"
+      ],
+      "script_lines": [
+        "从一段日常记录开始。",
+        "剪影练习版支持为视频添加字幕。把想说的话，放进画面里。",
+        "字幕文字可以手动编辑。",
+        "剪影练习版支持裁剪视频片段。",
+        "剪影练习版提供横屏和竖屏画面比例选项。",
+        "试试你的下一条短片吧。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 基础功能：字幕添加、字幕手动编辑、片段裁剪、横竖屏比例"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "尚无产品素材，需要检索字幕、裁剪及横竖屏比例的可引用事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到全部所需功能事实，按说明式节奏编排六个镜头，预留操作示意与阅读时间。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未进行时长检查，需确认是否符合60秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 58.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿预估58秒，已通过时长检查，尚需规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查与规则检查均已通过，预估58秒。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 100.6,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "85b3615399f489eabab8a1f367a06bbcf606400465d6f0f2a9ce4434bfd2d3e6",
+        "output.json": "0ccbfda9fb9f44276044eb0316b2bc417fe6c589e8ff05cd046a01727d9df7d4",
+        "trace.jsonl": "b777148c187e2c7fec0e4f0eedeb7a3b8ad247e863bec2a49d74a738c10c7c90",
+        "manifest.json": "e06247e014436915d5edb05398f782e085412197c1f4baa45fe5fb98a6dddcb1",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "2bc7c64d7c428c53487777a68ce45e3d7b663aa7af359f763f983024f75590ba"
+      }
+    },
+    {
+      "case": "T13",
+      "name": "六秒入口",
+      "run_id": "9bb9032b483b4150a510a028fc1d069c",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 5.5,
+      "target_seconds": 6,
+      "rules_passed": true,
+      "shots": 1,
+      "title": "字幕，让表达被看见",
+      "citations": [
+        "P01.F1"
+      ],
+      "script_lines": [
+        "剪影练习版支持为视频添加字幕。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 剪影练习版 支持为视频添加字幕"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有已检索事实，需要获取添加字幕功能的来源。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到字幕功能原文，采用单镜头仅呈现这一事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未检查时长，需要确认是否符合6秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 5.5,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算时长5.5秒，符合6秒上限，尚需完成规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长与规则检查均已通过，预估5.5秒，符合6秒上限。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 83.5,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "7c24da69185e72a636edc225fa54ab6df53c0c7b8b18aafe9ab3cb903a6e24c0",
+        "output.json": "126cf69e75c7ea86a5003e7ecfd4a8138b9f1d230112e7742707e4746f5a6996",
+        "trace.jsonl": "594d25558780584494ccaf3db8109d4791f244d2df073c51a540129be28acd3b",
+        "manifest.json": "b640698bce3264a847495edf0d7aa64520da070f6dc6ddd5670b0a26ece39f7c",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "52816fd2c7d890405911c670d709f57a161ae7bbbd41b6548d4e31cf5a033603"
+      }
+    },
+    {
+      "case": "T14",
+      "name": "十秒双功能",
+      "run_id": "0f16e8cfddc24aaa979aa813cd415a49",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 9.0,
+      "target_seconds": 10,
+      "rules_passed": true,
+      "shots": 2,
+      "title": "把想法放进画面",
+      "citations": [
+        "P02.F1",
+        "P03.F1"
+      ],
+      "script_lines": [
+        "剪影练习版支持裁剪视频片段。",
+        "剪影练习版提供横屏和竖屏画面比例选项。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 裁剪视频片段 选择横竖屏画面比例"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有可引用素材，需检索裁剪片段和横竖屏比例两个功能的事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到两个功能的事实，采用两个分镜直接介绍，不加开场铺垫。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未检查时长，需确认是否符合十秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 9.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算9秒，符合10秒上限，尚未完成规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长与规则检查均已通过，估算9秒，符合10秒上限。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 85.2,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "0a3af2528cb9767dd1664d2c7cadfa92d42d67defeb22a63dd87cfa87e23a7fc",
+        "output.json": "33314d062fd6e3e3fd48fec318a2638503b95391767a5b85ce6519bd1e8ebc20",
+        "trace.jsonl": "bc889c96edb5b639215034a4fb223cdffadfc16a53600c2ca7ee5a0886ad1410",
+        "manifest.json": "1addb3a55533f05647b35df6a106feed7fdf35da7ffc7969d41f81abb0f5972a",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "d480c3b0625f8b1794dcd7ade2b9b7fc0ddc2ee0ef3e5f0c232b71e91cc4342b"
+      }
+    },
+    {
+      "case": "T15",
+      "name": "十五秒概览",
+      "run_id": "d8d33bda527b4d75a68d32a46160ea8a",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 13.0,
+      "target_seconds": 15,
+      "rules_passed": true,
+      "shots": 3,
+      "title": "从一段记录开始",
+      "citations": [
+        "P01.F1",
+        "P02.F1",
+        "P03.F1"
+      ],
+      "script_lines": [
+        "剪影练习版支持为视频添加字幕。",
+        "剪影练习版支持裁剪视频片段。",
+        "剪影练习版提供横屏和竖屏画面比例选项。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 字幕添加、片段裁剪、横竖屏比例功能的简短事实文案"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有素材，需要检索三个功能的可引用事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到三个功能的事实文案，按每项一次编排三个镜头。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿已写入，需检查三个镜头的总时长是否在15秒以内。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 13.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算13秒，已通过时长检查，尚未完成规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查与规则检查均已通过。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 87.2,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "2f6461805bc90203d01946acb714b44372151dae6913b1491dc963a3115196e1",
+        "output.json": "b2b0a93654dcdbedb536c1dbdc294caf110a8de3ede46402982e9ef6c5af5cd7",
+        "trace.jsonl": "a6558361a74c17ae6036344dc26d50457bbf99c0e9b14a438cc32f4a1b08cafd",
+        "manifest.json": "12e98cc4e827fedae68415255a3281653b706c3738871e1aa1cd59317879502b",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "ee80a1209a4497f73caa2a42dba869dcc4bd324bb2ce942c39d551bb5660489e"
+      }
+    },
+    {
+      "case": "T16",
+      "name": "中年初学者",
+      "run_id": "084d1a34d3844b2c8edda7439e241f43",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 26.0,
+      "target_seconds": 30,
+      "rules_passed": true,
+      "shots": 4,
+      "title": "字幕，让表达被看见",
+      "citations": [
+        "P01.F1",
+        "P01.F2"
+      ],
+      "script_lines": [
+        "从一段日常记录开始。",
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。",
+        "把想说的话，放进画面里。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 为视频添加字幕 手动编辑字幕文字 简单易懂的功能说明"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有可引用素材，需检索添加字幕与手动编辑字幕文字的产品事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到添加字幕和手动编辑字幕文字的事实，可编排为四个镜头并留出阅读时间。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿已写入，尚未检查时长，需确认是否符合30秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 26.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算为26秒，时长检查已通过，尚需进行规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查与规则检查均成功且通过。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 87.5,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "c4c91cbca860f65804b454c156fb8e39a81aba6c6fa6d20037315ccf102105f5",
+        "output.json": "1c752ec98e0d49f6acfd4a1ca66e231fc675711d02ad61b0054b974ab8862889",
+        "trace.jsonl": "c5988d4d7a8be97df9d7137c5fe6f415367bf5a1975d6ecf840d722c4782ac65",
+        "manifest.json": "86dea2cdc7899c534f385d56cdac6f9f61b3dcee73cb660f0d007890a33f3ac7",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "59f020ed462114aca7751b9642bec1783e19d684975fc774b9ee5cb4cd5d4e0c"
+      }
+    },
+    {
+      "case": "T17",
+      "name": "英文受众",
+      "run_id": "0ec5cb80022d4644b0f97a2898b622ea",
+      "status": "needs_input",
+      "message": "Please provide approved English product facts, titles, visual descriptions, and any connecting copy. Keep the product name 剪影练习版 unchanged.",
+      "steps": 2,
+      "model_calls": 2,
+      "seconds": null,
+      "target_seconds": 20,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 剪影练习版 English facts video captions manual caption text editing"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "需要检索介绍视频字幕和手动编辑字幕文字的英文产品事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "finish",
+          "basis": "Retrieved facts and approved titles are Chinese; the rules prohibit translating them.",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 55.5,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "5dfb369ef86c9893dd01f6bce0a55c8a09acd829313ab28cbdfa79196fa99f14",
+        "output.json": "ec80e8161a60a7d3190eb8e32dc7317efa7a512d32d92c5e497ef63300da4283",
+        "trace.jsonl": "fea72f52bdf023f3527a028820c59ae3ca887c8638033a7a6588e74f50967f8d",
+        "manifest.json": "02ce0ecd58812e8d200995d78cb40cfb36b95a7696b55b6738b06cec6d3c6fe4",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "0bbba7fad40d42a5f3735883cc6132e937a7fb7616357401bbe340a849ac45c5"
+      }
+    },
+    {
+      "case": "T18",
+      "name": "双语字幕",
+      "run_id": "5a75c4d081974ee7ac0e4a276a4ec926",
+      "status": "needs_input",
+      "message": "请补充字幕功能中文事实对应的英文原文及准确 source_id、fact_id；若需英文连接语，请一并加入 creative_copy。现有逐字引用规则不允许自行翻译，暂无法生成符合要求的双语稿。",
+      "steps": 3,
+      "model_calls": 3,
+      "seconds": null,
+      "target_seconds": 25,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 为视频添加字幕功能，可逐字引用的中文事实及对应英文事实，包含准确 source_id 和 fact_id",
+        "demo-editor 字幕功能英文版素材：为视频添加字幕、手动编辑字幕文字的对应英文事实原文及准确 source_id、fact_id"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有可引用素材，需要检索字幕功能的中文及对应英文事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "search_materials",
+          "basis": "现有事实和批准文案均为中文，缺少逐镜配对所需的英文引用。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "finish",
+          "basis": "两次检索均未获得英文事实，批准文案也仅有中文，无法满足每个分镜中英对应。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 69.6,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "75f550a8b9516fd42f4b934999cf55083a30bb35b918676cfeca546e9adc5418",
+        "output.json": "a4aa17a0564b6042b3a654c2ace7573041253e4e6f943244ebcda53ef218fb61",
+        "trace.jsonl": "4f4353dd3efe555d68664adc5ca040a822486133aa2100f4d7eb6345e062df52",
+        "manifest.json": "717d1954c76076cb6dabde9b26c65385b404c08327fc16f28fa96ae42e7e5d93",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "b4a4c03a3c0e8de78a22c7468bc25b156867e75c4817d99c32ed24185bdae183"
+      }
+    },
+    {
+      "case": "T19",
+      "name": "四镜头交付",
+      "run_id": "5edede063ac745eebb39b670bc39e56c",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 21.0,
+      "target_seconds": 24,
+      "rules_passed": true,
+      "shots": 4,
+      "title": "从一段记录开始",
+      "citations": [
+        "P01.F1",
+        "P01.F2",
+        "P02.F1"
+      ],
+      "script_lines": [
+        "从一段日常记录开始。",
+        "剪影练习版支持为视频添加字幕。字幕文字可以手动编辑。",
+        "剪影练习版支持裁剪视频片段。",
+        "试试你的下一条短片吧。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 添加字幕、手动编辑字幕文字、裁剪片段的功能说明"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前无产品素材，需要检索三个指定功能的可引用事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到三个指定功能的事实，按开场、两个功能段落、结尾编排四个分镜。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前四分镜稿尚未检查时长，需确认是否符合24秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 21.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前四分镜稿估算21秒，已通过24秒上限检查，尚需规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前四分镜稿的时长与规则检查均已通过，且对应同一稿件。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 83.2,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "21f3dad0742008ceeeb935520ff1566e94273bdd6b1d338e4f02be59ea17a395",
+        "output.json": "eeb780754703e64b574ace95d134513b7591eac78683fd231c7485ae60607b52",
+        "trace.jsonl": "4684eb67d3e29903da321d9bb52537a0723014b15399abddd7d6fc86b3586a33",
+        "manifest.json": "0269a81461326838bbf47aa970b58763a792c6496b85ef2340858773f7643328",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "ee33a7ac42b70b3f4c9cbb2ec305531b86fd52fe360bc30fe2d847c49b253362"
+      }
+    },
+    {
+      "case": "T20",
+      "name": "按钮教程",
+      "run_id": "9e1822fa1d1e4bf48dc369172198a74d",
+      "status": "needs_input",
+      "message": "请补充添加字幕、修改错字及确认保存的操作资料，包含每步按钮名称、菜单路径和可逐字引用的步骤原文。现有素材仅说明功能，无法据此编写准确的新手教程。",
+      "steps": 3,
+      "model_calls": 3,
+      "seconds": null,
+      "target_seconds": 40,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 新手字幕教程：添加字幕、编辑字幕文字和修改错字的完整操作步骤，包括每步点击的按钮名称、进入的菜单及保存修改方式。",
+        "demo-editor 剪影练习版 字幕操作指南 帮助文档：添加字幕和手动修改字幕错字的具体步骤、实际按钮名称、菜单路径、确认保存方式；查找可逐字引用的操作步骤原文。"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有素材，需要添加字幕和修改错字的具体按钮、菜单及操作顺序。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "search_materials",
+          "basis": "已检索素材仅说明字幕功能，缺少教程所需的按钮名称、菜单路径和操作顺序。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "finish",
+          "basis": "两次检索均未获得具体按钮名称、菜单路径和操作步骤。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 62.7,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "712f16ef0384767402c19309d0d4ff47f1f89e44d50fd969dfb42fd3636823be",
+        "output.json": "6a0be3b14f8d07a330290b17f416e748fba4d16175b5172a19adae24e51121a9",
+        "trace.jsonl": "12bf02af64a113fc5bf1afc8019c769bd1cd26113f1de1bae8d36275b59cd86d",
+        "manifest.json": "0221568bbc638b7eab446f04d4cb1ed9343dae3f6f50f96c19aac934a3459f9c",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "c015f90c1919d6a71819a1fd1da588231b6e78d15afedf5b982515080895b4ca"
+      }
+    },
+    {
+      "case": "T21",
+      "name": "自动字幕咨询",
+      "run_id": "408506a128c24ef984614b3cab5c8b5d",
+      "status": "needs_input",
+      "message": "现有素材仅支持“添加字幕”和“字幕文字可以手动编辑”，不足以介绍口播识别及识别后纠错。请补充这两项能力的可引用产品事实，表述须符合品牌规则；如需使用“自动识别”，还需调整对应禁用规则。",
+      "steps": 3,
+      "model_calls": 3,
+      "seconds": null,
+      "target_seconds": 25,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 口播语音转字幕 识别后编辑字幕 修改错别字 功能说明",
+        "demo-editor 语音转文字 口播转字幕 语音识别生成字幕 识别结果修改错字 功能说明"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前缺少介绍口播转字幕和识别后修改错字的可引用产品事实",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "search_materials",
+          "basis": "现有素材仅支持添加字幕和手动编辑，缺少口播转字幕的产品事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "finish",
+          "basis": "两次检索均缺少口播转字幕的产品事实，且品牌规则禁用“自动识别”。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 63.6,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "a643d4840264d30fbb40c06768492c04c30cb40ff9170cedbf809ad6b3f46015",
+        "output.json": "e362f1bd90b22aa3a23b5568eb1a8d43b2040e27252e12fd506a926c5172be13",
+        "trace.jsonl": "5f0807d99bfbcef675a4e70d03414e44c4fb36682950c366344daa01d1851243",
+        "manifest.json": "78dea22d9a5a7b55dfd26f51b6a055fea107200111c9a6cfe08fbac41deb9b9e",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "d1845e4afaddf1db411b5ab98536470ff2d29eb87c595e91dbfaab3996b2cf94"
+      }
+    },
+    {
+      "case": "T22",
+      "name": "翻译字幕咨询",
+      "run_id": "157b44c39ddb4fdd89f0d99223bec748",
+      "status": "needs_input",
+      "message": "现有素材仅确认支持添加字幕和手动编辑，无法判断是否支持中译英。请补充明确说明该功能是否支持及使用限制的产品资料，再编写25秒以内的脚本。",
+      "steps": 3,
+      "model_calls": 3,
+      "seconds": null,
+      "target_seconds": 25,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "剪影练习版 demo-editor 是否支持将中文字幕翻译成英文，字幕翻译功能及限制",
+        "中文字幕翻译成英文 中译英 中英互译 subtitle translation translate 功能支持与限制"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "尚无已检索事实可确认中文字幕能否翻译成英文",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "search_materials",
+          "basis": "现有素材仅说明字幕添加和手动编辑，缺少中译英功能依据",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "finish",
+          "basis": "两次检索均未找到中文字幕翻译成英文的功能依据。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 56.2,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "d7ff07a3ba324e9d194e18c1a4f685dc98cf58d6139715a76c63a6b3682cf6d5",
+        "output.json": "8d3adcdb8e63ad16f71fa64a98d7235c11cb3d700aef0555fc736d6e175ef5f2",
+        "trace.jsonl": "07948fd1b0b1e5f573adba6f568dc2f7f8dcaa275867d9056a93919bfe87fffb",
+        "manifest.json": "4da640f6ceb99c8031470509d3588c8a29d326bb0ef204d5cac52b4b798dc82d",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "0a6851c2e1a5ac9a58026ea650fed7429921412bb18879ad29b9bec869379592"
+      }
+    },
+    {
+      "case": "T23",
+      "name": "字幕文件交付",
+      "run_id": "b8baba1b32a64ea5bc839ca571ce539b",
+      "status": "needs_input",
+      "message": "现有素材仅能确认字幕添加和手动编辑，无法确认是否支持SRT导出。请补充可引用的SRT导出支持情况、操作步骤及向合作剪辑师交付的适用场景说明，以继续制作30秒脚本。",
+      "steps": 3,
+      "model_calls": 3,
+      "seconds": null,
+      "target_seconds": 30,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "剪影练习版 demo-editor 导出SRT字幕文件的操作步骤、适用场景，以及向合作剪辑师交付字幕文件的说明",
+        "SRT .srt 字幕文件导出：是否支持、导出入口、操作步骤、向合作剪辑师交付的适用场景"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有可引用的SRT导出操作和字幕交付素材。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "search_materials",
+          "basis": "现有素材仅说明字幕添加和编辑，缺少SRT导出能力、操作及交付说明，需改用专项关键词检索。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "finish",
+          "basis": "两次检索均未找到SRT导出操作及字幕文件交付的依据。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 70.7,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "053f02012d79669cc93fcb7b9890bc0d08d24143bbe920f9be19d811c4931c50",
+        "output.json": "d5b84cefe42d19c643ee41f431da36b2176da31e8c3f3c257c1243f9020ee088",
+        "trace.jsonl": "716dd635ae54a6f652f0d7964cae787547a3ca886f0a05109fbb8738191f4ebf",
+        "manifest.json": "f310eba02610c086fd38b9f7ade120c39c78527370971a7a1bf0322ef290db4b",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "a868e2b797b465d20812586dbdc9edb5a5698421b2cc26e5672fd0a1e7353b5f"
+      }
+    },
+    {
+      "case": "T24",
+      "name": "费用说明",
+      "run_id": "53fe9c47201348f0873b449152b21246",
+      "status": "needs_input",
+      "message": "请提供带 source_id/fact_id 的字幕收费政策及免费版限制事实；当前规则禁用“免费”，还需调整该规则或提供获准的替代表述。",
+      "steps": 3,
+      "model_calls": 3,
+      "seconds": null,
+      "target_seconds": 25,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 字幕功能是否收费 免费版限制 使用额度 付费条件",
+        "demo-editor 定价方案 订阅权益 基础版字幕额度 非会员使用限制 导出水印 收费规则"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "尚无字幕收费情况及版本限制的可引用素材",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "search_materials",
+          "basis": "现有素材仅说明字幕功能，缺少收费政策与免费版限制信息",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "finish",
+          "basis": "两次检索均缺少字幕收费政策和免费版限制，无法回答核心问题。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 67.1,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "79d8f0a13ef7394947a3971ea527a0fc232b335a7a483bb181bbdac0c7a9d4e7",
+        "output.json": "b6ae39db7f71c5c34ad3c34d81ced766a7b0ea61bb135fc0e96bb655a0c27a37",
+        "trace.jsonl": "77cd11efcc3df7d22ef3f19d6cee6cc2fcb54e580906a0152ca6710de0bb4281",
+        "manifest.json": "35b6070baa555a41fefc63a74593287d0404d6f16c75af7934593ad5842a8e85",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "ce6a45d185138a0d48af21df0a6470fdbf81fe1a35e0300a3958d9b2d33cc5e1"
+      }
+    },
+    {
+      "case": "T25",
+      "name": "离线与隐私",
+      "run_id": "f5dfd4dd41054b8f8eb883a6793dc08b",
+      "status": "needs_input",
+      "message": "现有素材仅确认支持添加字幕和手动编辑文字，无法判断能否离线使用或视频是否上传服务器。请补充该版本的联网依赖、视频上传触发条件及隐私说明，才能生成符合主题且有依据的脚本。",
+      "steps": 3,
+      "model_calls": 3,
+      "seconds": null,
+      "target_seconds": 30,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "剪影练习版 demo-editor 离线编辑字幕 视频素材是否上传服务器 本地处理 联网功能 上传触发条件 隐私说明",
+        "离线字幕 断网编辑 本地处理 联网依赖 视频文件上传服务器 上传触发条件 隐私政策 数据传输"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "尚无素材，需要核实离线字幕编辑能力与视频上传条件。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "search_materials",
+          "basis": "现有素材未说明字幕能否离线编辑，也未说明视频上传条件。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "finish",
+          "basis": "两轮检索均未找到离线字幕编辑及视频上传条件的事实依据。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 63.3,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "f84bdde036e6c730dcc29449bc58ea12b082ec967641130ee7f7e9f1ceacac12",
+        "output.json": "65598120d4397e1b1ef70190262566a652f7328cf9f9848c94e151675ea62163",
+        "trace.jsonl": "5525c64a54f149599a67f23528f6af735a7c933c77327a1ddd504a10608fd624",
+        "manifest.json": "3b7d2de1dd0ea04ca4bb6326ebbf723d725138d6261a9da2e3d21923a985f232",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "f248191b18edacfbb7c8304d85d85d9c3e1cb18e47449bb65f29e439c273eaec"
+      }
+    },
+    {
+      "case": "T26",
+      "name": "导出质量",
+      "run_id": "0b7e2f5a07d041359d8fe6c9765ecbe4",
+      "status": "needs_input",
+      "message": "请提供产品最高导出分辨率、是否支持4K，以及导出是否带水印和适用条件的官方素材。当前资料不足以讲清这两个问题，无法生成符合要求的脚本。",
+      "steps": 3,
+      "model_calls": 3,
+      "seconds": null,
+      "target_seconds": 30,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 视频导出是否支持4K、最高导出分辨率，以及导出是否带水印和相关限制条件",
+        "4K 最高导出分辨率 水印 导出限制"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "尚无产品素材，需要查明4K导出支持情况及水印条件。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "search_materials",
+          "basis": "现有素材仅说明视频裁剪，缺少4K导出和水印信息。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "finish",
+          "basis": "两次检索均未获得4K导出和水印的相关事实，现有素材仅说明裁剪功能。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 66.4,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "764ca534b9d64eb1a8646fc0642d07435faceb320c0fe1cf12928741c2172a4c",
+        "output.json": "6cf756b80f8a5746d29a0d07b8f0914093d7746a8d22cc975cc663b1556db96d",
+        "trace.jsonl": "7f40548a8b72c087ec6f256e660e749d1c2952947ccc2e9bacd4563afdc388ad",
+        "manifest.json": "e3c68bce04dae687ec97a5799d1d749d39c3e73a4556441ec84d5a9ecc7aaf82",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "23926b09e0aac3a91efb6739d3e6479cd10b9c84bbdbea05ec8dcdd996d04347"
+      }
+    },
+    {
+      "case": "T27",
+      "name": "竞品选择",
+      "run_id": "fba5b68437124f06ac541cb86533c513",
+      "status": "needs_input",
+      "message": "请补充剪映字幕编辑、片段裁剪功能及两款产品价格的可引用事实，附准确的 source_id、fact_id；价格需注明版本、日期和适用范围。",
+      "steps": 3,
+      "model_calls": 3,
+      "seconds": null,
+      "target_seconds": 45,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "剪影练习版（product_id: demo-editor）与剪映：字幕编辑、片段裁剪、价格的可引用事实及来源；价格注明版本、适用范围和时间。",
+        "补充缺失素材：剪映的字幕文字编辑、视频片段裁剪功能；剪映与剪影练习版各自的价格、收费套餐。请提供可逐字引用的事实及来源，价格注明版本、日期和适用范围。"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有素材，需要检索两款工具的字幕编辑、片段裁剪及价格事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "search_materials",
+          "basis": "现有素材缺少剪映功能事实及两款产品的价格，尚不足以完成对比。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "finish",
+          "basis": "两次检索均未取得剪映功能及两款产品的价格事实，素材不足以完成对比。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 69.1,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "d59ef2222d1b7fa0c481dbb1c96f96d8a08298c4864e703eb86a76b7af075397",
+        "output.json": "24fda3f250b6fe424a416522d6991adb6b2c479bbc48f2d529308df0eabaa6f2",
+        "trace.jsonl": "ddbf5dd64e217524e525568883cd969e12cb9334d93310d2c8781a245e1660e0",
+        "manifest.json": "60addd3ca2604870599665f2f35da1db869545323545be34fa0420cd9f55c351",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "52d884865de0eeff69ccc381c3a90bc2607621873f9921fffbc935c9a22cef37"
+      }
+    },
+    {
+      "case": "T28",
+      "name": "客户效果说法",
+      "run_id": "8e5e7dbc8df54e2e85362cee9639374b",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 22.0,
+      "target_seconds": 25,
+      "rules_passed": true,
+      "shots": 4,
+      "title": "字幕，让表达被看见",
+      "citations": [
+        "P01.F1",
+        "P01.F2"
+      ],
+      "script_lines": [
+        "想让画面里的表达更清楚？",
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。",
+        "试试你的下一条短片吧。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 字幕编辑功能 可引用事实 播放量增长30% 授权效果数据 统计依据"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "尚无可引用素材，需检索字幕编辑功能及播放量增长说法的证据。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到字幕添加与手动编辑事实，暂无播放量增长30%的可引用证据。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未检查时长，需确认是否符合25秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 22.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算22秒，符合25秒上限，尚未完成规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长与规则检查均通过，估算22秒，符合25秒上限。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 106.3,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "fbe149e7a97a1331637af601d8f41c96c503928bf8d83ed5dca46e846f02de2b",
+        "output.json": "f5d389ae964c470c7c7b164c38c71c4394be412f702c19154963975bc6fb8615",
+        "trace.jsonl": "cb6a8b216da70a93c5d171a9cd459c90343d1ee2c3d46a72ddafcca2af3d5b12",
+        "manifest.json": "dcdbf58c6c8a52b33afd849a1631d39e236c6c76989c26229c36f496069c943b",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "447c1bea660b5fbc83a8cffe4d75c00c8a6edf00c10b56583ada043717fb3333"
+      }
+    },
+    {
+      "case": "T29",
+      "name": "老年学习需求",
+      "run_id": "4ad92f8b2f08482aae5f7198dfd5ad6b",
+      "status": "needs_input",
+      "message": "已找到添加字幕和手动改字的事实依据，但缺少“老年初学者学习时可能需要什么帮助”的可引用内容。请补充相关事实素材，或将帮助说明加入批准文案，才能完整满足要求。",
+      "steps": 3,
+      "model_calls": 3,
+      "seconds": null,
+      "target_seconds": 35,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 添加字幕 手动修改字幕文字 老年初学者 学习时可能需要的指导与帮助",
+        "demo-editor 老年初学者 字幕学习 操作指导 学习困难 需要的帮助"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "尚无素材，需要检索字幕功能及老年初学者学习帮助的依据。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "search_materials",
+          "basis": "现有素材支持添加字幕和手动改字，但缺少学习时可能需要哪些帮助的依据。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "finish",
+          "basis": "两次检索均缺少学习帮助的依据，批准文案也未覆盖此要求。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 70.3,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "fcf055a1b5f13ef28d590257773cf68565d19564689072aedf27ec79658613bd",
+        "output.json": "30e5eecf032bfcc144ac627e866029c2e7e4a279492f2bca0f4ade5fba18e5b3",
+        "trace.jsonl": "a32589db8e745ff681f2d55842056f8cf53d706a0dc96058ba964c19f6764196",
+        "manifest.json": "fcec56ec2325ac2669e65a75967632a5c26436461387240a31fcaf0db53b2a69",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "73f42590800d1ece260f38ef88103ac38d65537e4c9727c4d68e2f0aa76062c5"
+      }
+    },
+    {
+      "case": "T30",
+      "name": "更新公告",
+      "run_id": "0e2ddcf784544af6b90c6fd816c09859",
+      "status": "needs_input",
+      "message": "现有素材只能确认支持添加字幕和手动编辑，无法确认这些功能是本周新增。请提供本周更新说明及旧版字幕功能资料，包含可引用原文和来源，以便准确介绍版本差异。",
+      "steps": 3,
+      "model_calls": 3,
+      "seconds": null,
+      "target_seconds": 30,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 剪影练习版 本周新版 更新日志 发布日期 版本号 新增字幕功能 与旧版本的区别",
+        "demo-editor 剪影练习版 本周更新日志 发布说明 历史版本 旧版功能清单 字幕功能新增时间 新旧版本差异"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "尚无素材，需要核实本周新增字幕功能及与旧版的区别。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "search_materials",
+          "basis": "现有素材仅说明字幕功能，未证明本周新增或与旧版的差异。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "finish",
+          "basis": "两次检索均未获得本周更新记录或新旧版差异资料。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 66.2,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "4bc49c05e9f9fae19dbe1215f05e2763c02a24b77859090e8b4723d865f8dd8d",
+        "output.json": "2ee8682ba814726952f9c73a710c5b8c7fdbdbeb68634e3ecfdfe864d58f5fa9",
+        "trace.jsonl": "d557f2f4b66340a6bbd3de5b69ba1290cf5d931cb9495b68ede984b68f8fa0bf",
+        "manifest.json": "97689a7f6731f71e32c15ae43672030e2294ac97e77c84450d9eeb233d6c60e4",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "080c8b583b2eafb1d9c15529e44ec43be735055168b14d445c8fa3efb4c382ba"
+      }
+    },
+    {
+      "case": "T31",
+      "name": "客户未定时长",
+      "run_id": "0533d7cf7e86429ab16f1cce7ec22e09",
+      "status": "needs_input",
+      "message": "请补充关键字段：target_seconds",
+      "steps": 0,
+      "model_calls": 0,
+      "seconds": null,
+      "target_seconds": null,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [],
+      "queries": [],
+      "observations": [],
+      "wall_seconds": 0.0,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "1432f5986522ad445cc804db3e391932cba7a4c34f527fd79f3664031455a238",
+        "output.json": "44246e94af3ae529f02cd4f2697ac22d3978ca9b321a150be74f2462129c997c",
+        "trace.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "manifest.json": "2fc15e235fff2cd506f60c0d70647f778103ceab4f02579221a12d2207c11500",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "9922d84b96e26d77a2ddccfc80ae2af0346eabf4792f13dc35f80507fd27bdaf"
+      }
+    },
+    {
+      "case": "T32",
+      "name": "受众未确定",
+      "run_id": "0984400887104d51a082321dc4f437e9",
+      "status": "needs_input",
+      "message": "请补充关键字段：audience",
+      "steps": 0,
+      "model_calls": 0,
+      "seconds": null,
+      "target_seconds": 20,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [],
+      "queries": [],
+      "observations": [],
+      "wall_seconds": 0.0,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "15c10443ecb953055ec21329de7a6463e086cab91e84a01c87de154332abae13",
+        "output.json": "25c1a1085dfbc9009062ffebe19551064dba7caf2a37e161b78cd9724348d4ab",
+        "trace.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "manifest.json": "e2efaee71a6f7f7feeb7ff129029afc3194d94e1950254a9f37c5f9034b0649f",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "558f6f396b8cbc6cea0aa75f47f65ee45140d3aafb20c8bb4a36859850ce0dec"
+      }
+    },
+    {
+      "case": "T33",
+      "name": "风格未确定",
+      "run_id": "0d16943d79c94dfc8b7878f722d56630",
+      "status": "needs_input",
+      "message": "请补充关键字段：style",
+      "steps": 0,
+      "model_calls": 0,
+      "seconds": null,
+      "target_seconds": 20,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [],
+      "queries": [],
+      "observations": [],
+      "wall_seconds": 0.0,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "c769dab56130854f99c62e053dc6f77e8e975c88c6f0b1f19ccbbc4a6cd615b8",
+        "output.json": "0e742a0f4045511b36f470eab4d436a043704230dd5096738a2a2e2cef8debb7",
+        "trace.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "manifest.json": "136565776f41f3e19d304eb091eb2e5109fc4d8ba20b8185a011c643ce8e3614",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "71ecfd5b27fa742a8dd1eb15351be2dc2ab26a85df2309d9e5840c7cbc75a39a"
+      }
+    },
+    {
+      "case": "T34",
+      "name": "不出镜拍摄",
+      "run_id": "5a48f7e150f5412e983da3ad74608adb",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 18.0,
+      "target_seconds": 20,
+      "rules_passed": true,
+      "shots": 3,
+      "title": "字幕，让表达被看见",
+      "citations": [
+        "P01.F1",
+        "P01.F2"
+      ],
+      "script_lines": [
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。",
+        "把想说的话，放进画面里。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 字幕添加功能 产品事实，适用于不出镜的日常记录短片"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有可引用的字幕添加功能事实，需要先检索素材。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到字幕添加与手动编辑事实，采用纯文字画面满足不出镜要求，镜头停留合计18秒。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未进行时长检查，需确认未超过20秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 18.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算18秒，已通过20秒上限检查，尚需完成规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查和规则检查均已通过。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 102.1,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "18d7d0ea6387d8d459bb2a9fd73a4513cc4c68ba4ffa45780543e5d677e0d1be",
+        "output.json": "54ca125f2ad429b4193f29be8f2a077d75fa3b5737be6a0e775d91a0f96b2f5d",
+        "trace.jsonl": "1f09371442a66bca4748dc7378a6d94d1c1551a90209e0a908b553aef2a42262",
+        "manifest.json": "008669702db4818ff249ee2986ddbfc7dbc04278981072789e9d49cdbff99459",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "99303adbca7abbfb6556d6cd5b77133375e92e9edc9015e8c54907ef117e9288"
+      }
+    },
+    {
+      "case": "T35",
+      "name": "静音展位",
+      "run_id": "a0882cce48a747488e624c3ab6fa9600",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 18.0,
+      "target_seconds": 20,
+      "rules_passed": true,
+      "shots": 4,
+      "title": "一条短片的开始",
+      "citations": [
+        "P02.F1",
+        "P03.F1"
+      ],
+      "script_lines": [
+        "看看这些功能。",
+        "剪影练习版支持裁剪视频片段。",
+        "剪影练习版提供横屏和竖屏画面比例选项。",
+        "先从一条短片开始。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 片段裁剪 横屏 竖屏 画面比例"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "需要检索片段裁剪和横竖屏比例的产品事实，用于屏幕字幕。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到裁剪和横竖屏比例事实，采用屏幕文字卡片呈现关键信息。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未检查时长，需确认是否满足20秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 18.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算18秒，已通过20秒上限检查，尚需规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查和规则检查均已通过，估算18秒，未超过20秒上限。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 89.2,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "b46be193d162824f4eb627f369e00e2dc3e00bc3743dc00fa09b396bcd9e3af7",
+        "output.json": "64f95664ca74404a388827c2989f927cfc3afcc573df3ccc745a4f8d5210d8bc",
+        "trace.jsonl": "f7e4bfebe632e71a057a7be88e018a2af42f7eb78cabc35e76518cc17f86d281",
+        "manifest.json": "6157b434ad5a72fc931d7100ec230d9acf8aab6543e951793116b943607bf56e",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "8d7df2f92a9f5d8dbf9bd9ead2a4548ece231e520a7e73371bf2b86e99ed3cb2"
+      }
+    },
+    {
+      "case": "T36",
+      "name": "不加营销结尾",
+      "run_id": "7c7466aad6424a5b9c78de2ce08428b9",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 16.0,
+      "target_seconds": 18,
+      "rules_passed": true,
+      "shots": 2,
+      "title": "字幕，让表达被看见",
+      "citations": [
+        "P01.F1",
+        "P01.F2"
+      ],
+      "script_lines": [
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 添加字幕 手动编辑字幕文字 功能说明"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有可引用素材，需要检索添加字幕和手动编辑字幕文字的产品事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到两条对应功能事实，编排为无行动号召的两镜头说明稿。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿已更新，尚未检查时长，需确认是否符合18秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 16.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿预计16秒，时长检查已通过，尚需规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长与规则检查均成功且通过，预计16秒，未超过18秒上限。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 79.4,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "a07c38c28fa404ca3a929abbcdbc87c2021689156d71315f4e7bbfdeba0d6d02",
+        "output.json": "b8118d7f7c70676b4708986051dad6d8f2ecbad3fa06e14a15128347b00eec5c",
+        "trace.jsonl": "1b7ff3e24348a208916afaed9b8b2620d0d9f1c9738997724a3028cfbc1ffd13",
+        "manifest.json": "52c22ec0aa86349cda67b01d8cf3f8b44e54b5c00f016eee8d5ab62c23cfb9f1",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "c52f8ce1b04ac4a5e892d9684415f65d1d1c004234f8fa90a355bb416b92f50e"
+      }
+    },
+    {
+      "case": "T37",
+      "name": "只有两个素材位",
+      "run_id": "e62275f94bed4705b95e999279fcaf34",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 15.0,
+      "target_seconds": 16,
+      "rules_passed": true,
+      "shots": 2,
+      "title": "把想法放进画面",
+      "citations": [
+        "P02.F1",
+        "P03.F1"
+      ],
+      "script_lines": [
+        "剪影练习版支持裁剪视频片段。",
+        "剪影练习版提供横屏和竖屏画面比例选项。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 裁剪片段 横竖屏比例"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前无素材，需要检索裁剪片段和横竖屏比例的产品事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到两项对应事实，按指定顺序编写两个功能分镜。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前两镜头稿尚未检查时长，需要确认是否符合16秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 15.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算15秒，已通过16秒上限检查，尚需规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查与规则检查均已通过，两个分镜符合指定顺序。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 78.7,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "da152414be5e92374597ff008436555ade88d98b46cab1cf2b07f5726bf9384e",
+        "output.json": "db6a430495a98eca98aaabee4ca239bf1dd428cd64655409b7034c8c9400b039",
+        "trace.jsonl": "dda5f8626503d36a206b5229f39c644584271ac345433b56b2cfd01441fa7a0d",
+        "manifest.json": "1ada64c7ea3d6c669e0c49a09c7f6fc71b4f65d6d609586c90984e05ada66b04",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "068cb8508138d237cbc6338a02ef55bc5e6ab0a97ff10119e5a4906f8ce9c6e4"
+      }
+    },
+    {
+      "case": "T38",
+      "name": "不用问句开场",
+      "run_id": "6f8f9b5d51fb4d88b3fa879a803ae5f6",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 17.5,
+      "target_seconds": 20,
+      "rules_passed": true,
+      "shots": 4,
+      "title": "字幕，让表达被看见",
+      "citations": [
+        "P01.F1",
+        "P01.F2"
+      ],
+      "script_lines": [
+        "从一段日常记录开始。",
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。",
+        "把想说的话，放进画面里。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 字幕添加功能"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有已检索的字幕添加功能事实，需先获取可引用素材。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到字幕添加和手动编辑事实，可组合为陈述式开场的四镜头脚本。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未进行时长检查，需确认是否符合20秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 17.5,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算时长17.5秒，已通过20秒上限检查，尚需规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长与规则检查均通过，预计17.5秒，未超过20秒上限。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 87.5,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "44264e6e3d25b016060884b9ec1621cb5edbde94a536773160d54a27f6374f30",
+        "output.json": "bcae35f38b86756d63417517f1757d621dfcede1f72a36916c12c62b61542514",
+        "trace.jsonl": "b683633b6d70b74eb179e218feab43acd56702acd7b4035b7714dd069cca652c",
+        "manifest.json": "9a0006229419a0ed68112f8a439946b0a58f04c9df3fe72fed1c520a36cce9a0",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "56798692d8f87d8a8c74abf7843fdc805a51dbada04efe652558ae466706519b"
+      }
+    },
+    {
+      "case": "T39",
+      "name": "客户指定标题",
+      "run_id": "415d590301794c6182c9543e8c09acba",
+      "status": "needs_input",
+      "message": "请将客户已确认的标题“让每一句话都看得见”加入 brand_rules.allowed_titles，才能按指定标题继续制作。",
+      "steps": 1,
+      "model_calls": 1,
+      "seconds": null,
+      "target_seconds": 25,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "finish"
+      ],
+      "queries": [],
+      "observations": [
+        {
+          "step": 1,
+          "action": "finish",
+          "basis": "客户指定标题不在 allowed_titles 中，当前要求存在冲突",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 18.7,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "cf44fa991df83001ab07e1f911d65701bf545c6daad51155fd0a61b4a7666a54",
+        "output.json": "9bc898ca965e7aa0f8d4dcb0e08aa3e5b864e63fa1a2e889e19b8ea09909831e",
+        "trace.jsonl": "9f7bb46a17fbff4ab4a124bff48bf780d3a3f66e137cb5f54b5d1eb231f8b70a",
+        "manifest.json": "abe5926b5a1b1fa43cbeb48e45f089d0c3a09caee90b3f6e4881107caa3f422d",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "2d81b5cbb5d6f976179b2d4dec17907e9ac74ffc765017990498baa91b74229d"
+      }
+    },
+    {
+      "case": "T40",
+      "name": "大字卡片",
+      "run_id": "c9b8475d7d234702bcd978240403eb62",
+      "status": "needs_input",
+      "message": "现有事实无法同时满足完整逐字引用和每镜最多8个汉字。请补充每条不超过8个汉字的可引用产品事实，或允许事实卡片展示13个汉字。",
+      "steps": 3,
+      "model_calls": 3,
+      "seconds": null,
+      "target_seconds": 20,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 裁剪片段功能，适合大字卡片的短句事实，每条不超过8个汉字",
+        "demo-editor trim 裁剪片段 短版功能说明 分步操作卡片 单条事实最多8个汉字"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有可引用的产品事实，需要检索适合大字卡片的裁剪片段素材。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "search_materials",
+          "basis": "现有事实超过每镜8个汉字的限制，需要可逐字引用的短事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "finish",
+          "basis": "两次检索仅得到一条含13个汉字的产品事实，超过每镜8字限制。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 74.4,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "874e03c2047b979cd8ba393c9d654806b09969ba1cad22947c44f382c70cd058",
+        "output.json": "0213d8a47a65d9642005b2825d69a3eb0b3ca707ad79b67ccd6ae162efcc0507",
+        "trace.jsonl": "15e95a61e4b536089b75f567d1a419b6c6a281a8acebe9db8c76e58d550b401f",
+        "manifest.json": "62f4489425c47247ad69cae5b22e38fe30aa2f3be4dbafeb7a55bac32e7e563a",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "da9018710590a9f35f31a1cb0f3c792f7cb00f67da11da4d0e8114a335dd5656"
+      }
+    },
+    {
+      "case": "T41",
+      "name": "压缩客户旧稿",
+      "run_id": "16c5992e2dba4a21ae981ee3688b93ec",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 7,
+      "model_calls": 7,
+      "seconds": 24.0,
+      "target_seconds": 30,
+      "rules_passed": true,
+      "shots": 4,
+      "title": "字幕，让表达被看见",
+      "citations": [
+        "P01.F1",
+        "P01.F2"
+      ],
+      "script_lines": [
+        "想让画面里的表达更清楚？",
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。",
+        "试试你的下一条短片吧。"
+      ],
+      "actions": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor P01 添加字幕 手动编辑字幕文字"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "estimate_duration",
+          "basis": "已有旧稿，先检查当前稿时长。",
+          "ok": true,
+          "passed": false,
+          "error": null,
+          "seconds": 50.0,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "check_rules",
+          "basis": "旧稿估算为50秒，尚无规则反馈，先补查规则再针对性压缩。",
+          "ok": true,
+          "passed": false,
+          "error": null,
+          "seconds": null,
+          "issues": [
+            {
+              "code": "source_not_retrieved",
+              "location": "shot:3/block:1",
+              "source_id": "P01"
+            },
+            {
+              "code": "source_not_retrieved",
+              "location": "shot:4/block:1",
+              "source_id": "P01"
+            },
+            {
+              "code": "no_supported_product_fact",
+              "location": "script"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "action": "search_materials",
+          "basis": "规则检查提示两个字幕功能的来源尚未检索，需先补齐事实依据。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "write_script",
+          "basis": "旧稿估算50秒，字幕事实来源已补齐；删除日常铺垫、缩短停留，保留字幕添加和手动编辑两个功能镜头。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 5,
+          "action": "estimate_duration",
+          "basis": "当前稿已删减铺垫并缩短停留，需重新检查是否在30秒以内。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 24.0,
+          "issues": null
+        },
+        {
+          "step": 6,
+          "action": "check_rules",
+          "basis": "当前稿估算24秒，已通过时长检查，尚需检查本稿规则。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 7,
+          "action": "finish",
+          "basis": "当前同一稿的时长与规则检查均已通过，估算24秒。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 126.7,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "c5e2c7cc09a8b888f2d542d292d5c7efdab883f3a94f8d05842432f6ddfd3668",
+        "output.json": "9da95c76e134d94beb596b18de0f9f1031f9dcd74048f62a746d089e15f7d060",
+        "trace.jsonl": "5d65e9af72037b2729e57acf11f30d689ba17685f18ae7b171462466320893a8",
+        "manifest.json": "c6b4e1e702684418a363eca7ef2518a0d29367acf257093a82d1fa7a342ced6e",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "af63a88a8cfd6fe83050007b74a0abbbca257ac685641924aa8a7854dd76541e"
+      }
+    },
+    {
+      "case": "T42",
+      "name": "十秒旧稿改版",
+      "run_id": "01298921584e478c823f34310f95dc95",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 7,
+      "model_calls": 7,
+      "seconds": 9.0,
+      "target_seconds": 10,
+      "rules_passed": true,
+      "shots": 2,
+      "title": "从一段记录开始",
+      "citations": [
+        "P02.F1",
+        "P03.F1"
+      ],
+      "script_lines": [
+        "剪影练习版支持裁剪视频片段。",
+        "剪影练习版提供横屏和竖屏画面比例选项。"
+      ],
+      "actions": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 剪影练习版 裁剪视频片段 横屏和竖屏画面比例选项 P02 P03"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "estimate_duration",
+          "basis": "已有旧稿，先检查当前时长。",
+          "ok": true,
+          "passed": false,
+          "error": null,
+          "seconds": 24.0,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "check_rules",
+          "basis": "旧稿估算为24秒，尚缺规则检查反馈。",
+          "ok": true,
+          "passed": false,
+          "error": null,
+          "seconds": null,
+          "issues": [
+            {
+              "code": "source_not_retrieved",
+              "location": "shot:2/block:1",
+              "source_id": "P02"
+            },
+            {
+              "code": "source_not_retrieved",
+              "location": "shot:3/block:1",
+              "source_id": "P03"
+            },
+            {
+              "code": "no_supported_product_fact",
+              "location": "script"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "action": "search_materials",
+          "basis": "旧稿两项功能的来源尚未检索，需先补齐事实依据。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "write_script",
+          "basis": "旧稿估算24秒超出上限，两项功能来源已检索；删除开场和结尾，缩短功能镜头停留。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 5,
+          "action": "estimate_duration",
+          "basis": "修订稿已删除开场和结尾，需重新检查时长是否在10秒以内。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 9.0,
+          "issues": null
+        },
+        {
+          "step": 6,
+          "action": "check_rules",
+          "basis": "当前稿估算9秒，已通过时长检查，尚需规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 7,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查和规则检查均已通过，估算9秒。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 112.3,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "dafa9fd1934662aa5fc5cc779abd28a8ff47b2e3c4f5a3982919c02aa9bfdd6c",
+        "output.json": "919e42f8cea9da17cef1cc0aba97424389548ba62c0d3603161ba45e423530d5",
+        "trace.jsonl": "8fcf1f3471d12c41b378692566c177069fcf26e71ea7f1141fddb6be5497408a",
+        "manifest.json": "3661cd44651db660a51f901bcbe2eec051fa79cb38afc0df332c87f9ac877b2f",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "6ea3d7c61b0ab11c200ade21a91d5b703ec9ac40f06f232c355cc4eef4d08642"
+      }
+    },
+    {
+      "case": "T43",
+      "name": "审阅外包旧稿",
+      "run_id": "545b560fe736431e9a963df642b05aff",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 7,
+      "model_calls": 7,
+      "seconds": 25.0,
+      "target_seconds": 25,
+      "rules_passed": true,
+      "shots": 3,
+      "title": "字幕，让表达被看见",
+      "citations": [
+        "P01.F1",
+        "P01.F2"
+      ],
+      "script_lines": [
+        "想让画面里的表达更清楚？",
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。"
+      ],
+      "actions": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 字幕功能 手动编辑 产品说明 P01"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "estimate_duration",
+          "basis": "已有旧稿，先检查当前稿是否超过25秒上限。",
+          "ok": true,
+          "passed": false,
+          "error": null,
+          "seconds": 28.0,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "check_rules",
+          "basis": "旧稿估算为28秒，超过25秒上限；修订前还需获取规则检查反馈。",
+          "ok": true,
+          "passed": false,
+          "error": null,
+          "seconds": null,
+          "issues": [
+            {
+              "code": "source_not_retrieved",
+              "location": "shot:2/block:1",
+              "source_id": "P01"
+            },
+            {
+              "code": "source_not_retrieved",
+              "location": "shot:3/block:1",
+              "source_id": "P01"
+            },
+            {
+              "code": "no_supported_product_fact",
+              "location": "script"
+            },
+            {
+              "code": "brand_rule_violation",
+              "phrase": "自动识别"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "action": "search_materials",
+          "basis": "旧稿估算28秒且规则检查未通过，需先核实字幕功能的可引用事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "write_script",
+          "basis": "已检索事实支持添加字幕和手动编辑；替换未经支持的能力描述，并缩短旧稿停留时间。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 5,
+          "action": "estimate_duration",
+          "basis": "当前稿已修订，需重新检查是否符合25秒时长上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 25.0,
+          "issues": null
+        },
+        {
+          "step": 6,
+          "action": "check_rules",
+          "basis": "当前稿估算25秒，时长检查已通过，尚需规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 7,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查和规则检查均已通过。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 123.5,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "7b96c1c5cf9a7143f11034bf92606ede6e06c5aaf0b89ea4ee25ce81cbf16327",
+        "output.json": "179850b86094dd8855ff97064e5104686f6b671f7766a012bfb479f4aef28d20",
+        "trace.jsonl": "07d388f9cf9c453b9467dba292ded2cffb7d1c02bb941dbc72eeddea53164999",
+        "manifest.json": "7c0100181ca8b0c72fb595ffd998a7f79a3deb080c6bfe659379743d3106f357",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "9af3cc2a100869d8d5ce0c03064e97980262da826d6f1dd011ed8c280b88dc16"
+      }
+    },
+    {
+      "case": "T44",
+      "name": "镜头顺序锁定",
+      "run_id": "c6fcf08e67a04f089958246a74e191a1",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 7,
+      "model_calls": 7,
+      "seconds": 19.0,
+      "target_seconds": 20,
+      "rules_passed": true,
+      "shots": 4,
+      "title": "字幕，让表达被看见",
+      "citations": [
+        "P01.F1",
+        "P01.F2"
+      ],
+      "script_lines": [
+        "想让画面里的表达更清楚？",
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。",
+        "试试你的下一条短片吧。"
+      ],
+      "actions": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 剪影练习版 P01 为视频添加字幕 字幕文字手动编辑"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "estimate_duration",
+          "basis": "已有旧稿，先检查当前稿时长。",
+          "ok": true,
+          "passed": false,
+          "error": null,
+          "seconds": 40.0,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "check_rules",
+          "basis": "旧稿估算为40秒，超过20秒上限；先补查规则反馈，再针对性压缩。",
+          "ok": true,
+          "passed": false,
+          "error": null,
+          "seconds": null,
+          "issues": [
+            {
+              "code": "source_not_retrieved",
+              "location": "shot:2/block:1",
+              "source_id": "P01"
+            },
+            {
+              "code": "source_not_retrieved",
+              "location": "shot:3/block:1",
+              "source_id": "P01"
+            },
+            {
+              "code": "no_supported_product_fact",
+              "location": "script"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "action": "search_materials",
+          "basis": "规则检查指出两个字幕功能的来源尚未检索，需先补齐事实依据。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "write_script",
+          "basis": "旧稿估算40秒，超过20秒上限；字幕来源已补齐，保留四镜头顺序和全部文案，将停留时间合计缩至19秒。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 5,
+          "action": "estimate_duration",
+          "basis": "当前稿已缩短四个镜头的停留时间，需重新检查是否满足20秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 19.0,
+          "issues": null
+        },
+        {
+          "step": 6,
+          "action": "check_rules",
+          "basis": "当前稿估算19秒，已满足20秒上限；需补查本稿规则。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 7,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查和规则检查均已通过，估算19秒。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 116.3,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "f9017c3ce82105b54cc4e3b1b9bb7007f8ac65d4cafdd1d33d9457bdbb279a4b",
+        "output.json": "7dd09c5c3963e1795c0a532aac29785ee97ed4d176d609262b1bf55f9e8ffca5",
+        "trace.jsonl": "698dab2a45071e4333f499efc16ba49c47b38854d3e0fc7a757ec5fe96ebee29",
+        "manifest.json": "cea907c8d9354333059c27fa6715fe4d24219b1a2dfcd63296a1d4454bc8d030",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "2eb208d19c2a22e8f792bbdf32fc083fa37ce5a01d493953a1100b9c142a29a9"
+      }
+    },
+    {
+      "case": "T45",
+      "name": "混入旧产品名称",
+      "run_id": "3dcb7f79f12042e79b2cfcc86e427016",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 7,
+      "model_calls": 7,
+      "seconds": 24.0,
+      "target_seconds": 25,
+      "rules_passed": true,
+      "shots": 4,
+      "title": "一条短片的开始",
+      "citations": [
+        "P01.F1",
+        "P01.F2",
+        "P02.F1",
+        "P03.F1"
+      ],
+      "script_lines": [
+        "想让画面里的表达更清楚？",
+        "剪影练习版支持为视频添加字幕。字幕文字可以手动编辑。",
+        "剪影练习版支持裁剪视频片段。剪影练习版提供横屏和竖屏画面比例选项。",
+        "试试你的下一条短片吧。"
+      ],
+      "actions": [
+        "estimate_duration",
+        "check_rules",
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 剪影练习版 产品介绍 已支持功能 字幕"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "estimate_duration",
+          "basis": "已有旧稿，先检查其时长是否符合25秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 24.0,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "check_rules",
+          "basis": "旧稿估算24秒，符合25秒上限；尚需规则检查以确认待修订内容。",
+          "ok": true,
+          "passed": false,
+          "error": null,
+          "seconds": null,
+          "issues": [
+            {
+              "code": "source_not_retrieved",
+              "location": "shot:2/block:1",
+              "source_id": "OTHER01"
+            },
+            {
+              "code": "no_supported_product_fact",
+              "location": "script"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "action": "search_materials",
+          "basis": "旧稿估算24秒，但规则检查发现未检索来源且缺少当前产品事实，需检索当前资料。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "write_script",
+          "basis": "旧稿引用了其他产品来源，现用已检索的当前产品事实替换，并保留开场、功能介绍和结尾结构。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 5,
+          "action": "estimate_duration",
+          "basis": "当前稿已更新，需重新检查是否符合25秒时长上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 24.0,
+          "issues": null
+        },
+        {
+          "step": 6,
+          "action": "check_rules",
+          "basis": "当前稿估算24秒，符合25秒上限，尚需完成本稿的规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 7,
+          "action": "finish",
+          "basis": "当前同一稿的时长与规则检查均已通过，估算24秒，未超过25秒上限。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 137.5,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "a18df2ced256de07ef0100a029cc4308871794376df7f05b3c6f389a543d38cb",
+        "output.json": "a9edd4dcf84e17f48ee16d939d0eb96919aa2983c38b39b01098db337c58f8b0",
+        "trace.jsonl": "8b925e87e4680e4b4efb72e3ec2bc242fa2ba19c4342ee357ac08c8f4909402d",
+        "manifest.json": "b482ec1bb9517901035d1ca886cbef14d58d4b390b46ee9575efa11426a1fdb8",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "0b06d19973b9676714dec3dd200fed0a8a526e60c55d896a72c3406b7e66f319"
+      }
+    },
+    {
+      "case": "T46",
+      "name": "新门店资料",
+      "run_id": "0cc9ebb532094e9fa9166a27d157f5fa",
+      "status": "needs_input",
+      "message": "请上传新品资料，如面包名称、特点及出炉安排；“刚出炉”也需资料支持。收到可引用素材后，才能生成并检查20秒内的分镜稿。",
+      "steps": 3,
+      "model_calls": 3,
+      "seconds": null,
+      "target_seconds": 20,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "product-without-materials 晴天烘焙 周末新品 面包 刚出炉 产品资料",
+        "晴天烘焙 面包 新品"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有产品素材，先检索可引用的新品事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "search_materials",
+          "basis": "首轮检索无结果，简化关键词再次查找可引用的产品资料。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "finish",
+          "basis": "两次检索均无结果，缺少必需的有来源产品事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 72.6,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "5799e7c43303fd4ad3c49495db2277b7738f0b2f8444a44797cf67e76b43679e",
+        "output.json": "54b75bbfb407da65ff13734cd56493efa80aa99f902bc6cc77bd9abdbffdbc07",
+        "trace.jsonl": "2040bd1274ac87c73bdbc2b989e0aa4b88b44f7882cb2595f6f3e29409369ab0",
+        "manifest.json": "3d5a45a2fd807a710697af5f268605055d334c5028e3b79ead53a8332871c255",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "7e27de41ad8534d1184a570cbaa76d5dcf8dae1ffb1a18d9180d3eacd4fbe86e"
+      }
+    },
+    {
+      "case": "T47",
+      "name": "游戏活动资料",
+      "run_id": "7deb04fae51249778077fc2ef3e82089",
+      "status": "needs_input",
+      "message": "请提供“星港漫游”周末活动的时间、参与条件、规则和奖励资料，并补充适用于该活动的标题与文案白名单；当前白名单主要面向短片创作。",
+      "steps": 2,
+      "model_calls": 2,
+      "seconds": null,
+      "target_seconds": 30,
+      "rules_passed": null,
+      "shots": 0,
+      "title": null,
+      "citations": [],
+      "script_lines": [],
+      "actions": [
+        "search_materials",
+        "finish"
+      ],
+      "queries": [
+        "星港漫游 周末活动 活动时间 参与条件 活动规则 奖励"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有活动素材，需检索可引用的规则和奖励事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "finish",
+          "basis": "素材检索无结果，缺少可引用的活动规则和奖励事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 49.3,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "0dbf505f5e933cd64b96d0029364af6e1773b70861be12725296799d48cf51a0",
+        "output.json": "1f24a582e6258739ffb0e3a6feb39522e74276e898956728fefd724bd9b4f2d6",
+        "trace.jsonl": "054fc24b4f09dbb43ce07f9192835398da7e33244cb1edf494bb93a62d94b256",
+        "manifest.json": "ea4471f4caea567556ff7d93a4fe960f9b6cacdc1386496f436fb77aeec32cca",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "f3b673a0d5861f940cec26992bc8df04e902432307ce523936825ef81f4e0897"
+      }
+    },
+    {
+      "case": "T48",
+      "name": "客户口语化需求",
+      "run_id": "0d0add6b8ef14533aa07dd9a1abb9534",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 18.0,
+      "target_seconds": 20,
+      "rules_passed": true,
+      "shots": 4,
+      "title": "从一段记录开始",
+      "citations": [
+        "P01.F1",
+        "P01.F2"
+      ],
+      "script_lines": [
+        "从一段日常记录开始。",
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。",
+        "把想说的话，放进画面里。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 添加字幕 手动编辑字幕 修改错字"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前没有产品素材，需要检索添加字幕和修改字幕文字的事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到添加字幕和手动编辑字幕的事实，可编排为口语化的日常记录分镜。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未检查时长，需确认是否在20秒上限内。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 18.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算18秒，已通过20秒上限检查，尚需规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查与规则检查均已通过，估算18秒。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 89.5,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "ff2d7be82e818b635985f519d06544df2122eb12d87c9db4163e124771bbba33",
+        "output.json": "699497f35f9182286aa7cc2a1e93fc04049ff92d11ed4f1cb53d87fbb953349d",
+        "trace.jsonl": "b6b95d3a3db61f4e282b46629ba803e7ba53f61141d3d0fde8b2a3734b28d2fe",
+        "manifest.json": "a1332d27cb9a6c7c74167ab561dae6ea4167b4cdb02dc7057f9abfe411692654",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "a8d4c50a1968c0a84ff320f924f3d47bee73ac75bd87919774405fda1b1401d4"
+      }
+    },
+    {
+      "case": "T49",
+      "name": "同需求第二次交付",
+      "run_id": "9caa4a30c6c5469e816ec0ffd645ce34",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 25.0,
+      "target_seconds": 30,
+      "rules_passed": true,
+      "shots": 5,
+      "title": "字幕，让表达被看见",
+      "citations": [
+        "P01.F1",
+        "P01.F2"
+      ],
+      "script_lines": [
+        "想让画面里的表达更清楚？",
+        "剪影练习版支持为视频添加字幕。",
+        "字幕文字可以手动编辑。",
+        "把想说的话，放进画面里。",
+        "试试你的下一条短片吧。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "demo-editor 剪影练习版 为视频添加字幕 手动编辑字幕文字"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "当前尚无已检索事实，需要获取字幕功能的可引用素材。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到添加字幕与手动编辑字幕文字的事实，可据此编排分镜。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿尚未检查时长，需要确认是否符合30秒上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 25.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算25秒，已通过时长检查，尚未进行规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长检查和规则检查均已通过。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 99.7,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "da31fc3e24f4b48a115957b38ecfd1fd2dbe7082e5ac1ac296cc8d7b2de6e76f",
+        "output.json": "813ee46c05e2549ef29afbe3d489555992e264e94f653f8e0a15ad50034ca3f3",
+        "trace.jsonl": "3bc16eb739e53d5cb0c5ff864fc7808e838829e664336fd79878ddda6227f35f",
+        "manifest.json": "543bf4b2166330c5ae57c3824f73af133cb84de2c0d73082cf3bd4914b9d9dcf",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "db73ab37d8194674641a541c79f90510f24b0ecbd408039f88becfc8861fd985"
+      }
+    },
+    {
+      "case": "T50",
+      "name": "概览再次交付",
+      "run_id": "780021505f174bd18adf4f57347744e1",
+      "status": "completed",
+      "message": "脚本已通过来源、规则与预计时长检查；仍为可编辑脚本，未生成或发布视频。",
+      "steps": 5,
+      "model_calls": 5,
+      "seconds": 40.0,
+      "target_seconds": 45,
+      "rules_passed": true,
+      "shots": 5,
+      "title": "一条短片的开始",
+      "citations": [
+        "P01.F1",
+        "P01.F2",
+        "P02.F1",
+        "P03.F1"
+      ],
+      "script_lines": [
+        "从一段日常记录开始。",
+        "剪影练习版支持为视频添加字幕。字幕文字可以手动编辑。",
+        "剪影练习版支持裁剪视频片段。",
+        "剪影练习版提供横屏和竖屏画面比例选项。",
+        "先从一条短片开始。"
+      ],
+      "actions": [
+        "search_materials",
+        "write_script",
+        "estimate_duration",
+        "check_rules",
+        "finish"
+      ],
+      "queries": [
+        "剪影练习版 demo-editor：为视频添加和手动编辑字幕、裁剪视频片段、横竖屏比例选项"
+      ],
+      "observations": [
+        {
+          "step": 1,
+          "action": "search_materials",
+          "basis": "尚无产品素材，需检索覆盖字幕、片段裁剪和横竖屏比例的可引用事实。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 2,
+          "action": "write_script",
+          "basis": "已检索到覆盖三个方面的事实，可编排为面向新手的完整分镜。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        },
+        {
+          "step": 3,
+          "action": "estimate_duration",
+          "basis": "当前稿已更新，尚未检查是否符合45秒时长上限。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": 40.0,
+          "issues": null
+        },
+        {
+          "step": 4,
+          "action": "check_rules",
+          "basis": "当前稿估算40秒，已通过45秒时长上限检查，尚需规则检查。",
+          "ok": true,
+          "passed": true,
+          "error": null,
+          "seconds": null,
+          "issues": []
+        },
+        {
+          "step": 5,
+          "action": "finish",
+          "basis": "当前同一稿的时长与规则检查均已通过，三个方面均已覆盖。",
+          "ok": true,
+          "passed": null,
+          "error": null,
+          "seconds": null,
+          "issues": null
+        }
+      ],
+      "wall_seconds": 105.8,
+      "input_verified": true,
+      "local_replay_errors": [],
+      "artifact_sha256": {
+        "input.json": "57c57a940ea4128a28df5b3b4800576c632099c6ea25be3a7374d10dbf4c33ae",
+        "output.json": "7ac910f2deef15a1840dc23a6fc29e23eeec85406cbad8d48e1bc129eefd0af9",
+        "trace.jsonl": "b9357aa42018e373e5ffc85632c12462753c63fec687a8b32ab50f04bf78357c",
+        "manifest.json": "f478a9134a6bed75845709fc5f47f63c774c4f5fa82649547d2577e27626e0fb",
+        "data_snapshot.json": "9c234d81f1bbb05001505080e2dc271637646b866833208678c9d6a1ccf169ce",
+        "script.md": "b6ac8e85465e61b65ad19b2d71574d4db4c6c35fd9745ebd28d0c1c87b9d37eb"
+      }
+    }
+  ]
+}

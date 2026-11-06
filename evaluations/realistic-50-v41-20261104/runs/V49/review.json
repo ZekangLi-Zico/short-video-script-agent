@@ -1,0 +1,8 @@
+{
+  "case": "V49",
+  "assessment": "有效压缩；备注有过时措辞",
+  "note": "先估时28秒超时，再将两镜hold由14各自改为4、5，总9秒小于15秒；标题、原画面、顺序及P02/P03事实原文保持，不增加自动适配或智能追踪。与v4同为9秒；备注修订稿待重新检查仍过时。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": true
+}

@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-irtqi139",
+  "started_at": "2026-11-04T15:20:32.827276+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:21:57.335453+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a725-c8ee-7b11-87f4-262b24579408",
+    "usage": {
+      "input_tokens": 27862,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1532,
+      "reasoning_output_tokens": 1034
+    },
+    "call_id": "decision-irtqi139",
+    "warnings": []
+  }
+}

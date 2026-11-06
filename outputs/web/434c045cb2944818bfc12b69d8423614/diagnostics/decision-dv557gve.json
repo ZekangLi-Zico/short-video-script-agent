@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-dv557gve",
+  "started_at": "2026-11-03T21:06:41.623259+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:06:55.105041+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a33c-538f-7880-96c5-fa9f5a483613",
+    "usage": {
+      "input_tokens": 29263,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 123,
+      "reasoning_output_tokens": 68
+    },
+    "call_id": "decision-dv557gve",
+    "warnings": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "case": "V44",
+  "index": 43,
+  "attempt": 1,
+  "run_id": "b6550cc4dfd740bea9424396b9e371dc",
+  "folder": "V44",
+  "status": "needs_input",
+  "steps": 3,
+  "responses": 3,
+  "provider": "codex",
+  "seconds": null,
+  "message": "请直接粘贴老师已确认的课程介绍或具体教学内容，至少一项即可。课表、价格、退费规则和学员效果数据可先省略，无需补齐；获得课程资料后即可编写35秒内、不许诺结果的招生分镜。"
+}

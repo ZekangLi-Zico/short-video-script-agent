@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-a7ovekbc",
+  "started_at": "2026-11-03T20:21:29.109050+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T20:21:45.297647+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a312-f181-7d82-bf91-48aaa257d3ad",
+    "usage": {
+      "input_tokens": 29985,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 125,
+      "reasoning_output_tokens": 56
+    },
+    "call_id": "decision-a7ovekbc",
+    "warnings": []
+  }
+}

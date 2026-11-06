@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-5hzsud18",
+  "started_at": "2026-11-04T15:39:40.509625+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T15:40:46.171448+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a737-60d8-7d60-97af-e56f27fb13b3",
+    "usage": {
+      "input_tokens": 29342,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 133,
+      "reasoning_output_tokens": 70
+    },
+    "call_id": "decision-5hzsud18",
+    "warnings": []
+  }
+}

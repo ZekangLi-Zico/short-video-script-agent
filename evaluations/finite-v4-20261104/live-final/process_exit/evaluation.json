@@ -1,0 +1,12 @@
+{
+  "case": "process_exit",
+  "status": "blocked",
+  "model_responses": 2,
+  "provider": "codex",
+  "steps": 2,
+  "seconds": null,
+  "review_calls": 0,
+  "review_has_current_duration": null,
+  "replay_errors": [],
+  "message": "上次运行或保存被中断；已恢复最后写入的检查点，任务未完成，未自动重跑模型。"
+}

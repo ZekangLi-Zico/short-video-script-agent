@@ -1,0 +1,25 @@
+{
+  "status": "needs_input",
+  "message": "尚未生成招生脚本。请将老师确认的课程简介、教学内容或适合人群说明交给项目维护者补充资料，再继续制作35秒以内的介绍。未确认的课表、价格和退费规则暂不写入，也不编造学员效果或许诺学习结果。",
+  "script": null,
+  "duration": null,
+  "rules_check": null,
+  "requirements_check": null,
+  "sources": [],
+  "metadata": {
+    "started_at": "2026-11-04T01:42:47.130469+00:00",
+    "finished_at": "2026-11-04T01:44:06.246910+00:00",
+    "provider": "codex",
+    "evidence_kind": "real_model",
+    "data_hash": "4203002fa3b84fa119c99220301b7a7bffe899f245b5c8f3963a9504894ab1ab",
+    "max_steps": 12,
+    "steps": 3,
+    "synthetic_data": true,
+    "completion_policy": "facts_duration_requirements_v4",
+    "requirements_review_context": "current_rules_and_duration_v2",
+    "script_format": "optional_editor_notes_v1",
+    "model_responses": 3,
+    "run_id": "ae9ceea7dfd24746bfba41d7239c5b42",
+    "persistence": "checkpoint_v1"
+  }
+}

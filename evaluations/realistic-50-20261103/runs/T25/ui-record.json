@@ -1,0 +1,13 @@
+{
+  "case_id": "T25",
+  "capture_mode": "viewport_fallback",
+  "finished_capture_at": "2026-11-03T14:35:33.567Z",
+  "busy": false,
+  "detail": "真实模型 · 3 个执行步骤",
+  "download": "/api/runs/f5dfd4dd41054b8f8eb883a6793dc08b/download/output.json",
+  "error": "",
+  "history": "f5dfd4dd41054b8f8eb883a6793dc08b",
+  "message": "现有素材仅确认支持添加字幕和手动编辑文字，无法判断能否离线使用或视频是否上传服务器。请补充该版本的联网依赖、视频上传触发条件及隐私说明，才能生成符合主题且有依据的脚本。",
+  "save": "记录已保存 · f5dfd4dd",
+  "status": "需要补充"
+}

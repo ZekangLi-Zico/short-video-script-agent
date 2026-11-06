@@ -1,0 +1,8 @@
+{
+  "case": "V36",
+  "assessment": "脚本可用；风险解释与公开内容分离",
+  "note": "13.5秒符合25秒上限，公开内容只有P01字幕添加与手动编辑事实及核对动作；未使用30%或效果提升暗示。未经统计授权的口头反馈及补证要求写入editor_notes，不进入旁白，满足处理该说法而不包装为已验证效果的请求。",
+  "reviewer": "AI开发助手，阅读原需求、实际稿件与Trace；非独立盲评",
+  "hard_requirement_violation_observed": false,
+  "editorial_note_staleness": false
+}

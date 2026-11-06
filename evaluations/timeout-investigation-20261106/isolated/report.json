@@ -1,0 +1,81 @@
+{
+  "mode": "isolated",
+  "source_run": "a4c3fd45ef0243d1a78c8506e5b5228a",
+  "timeout_seconds": 180,
+  "payload_bytes": 41809,
+  "payload_sha256": "0d6ded4bb15ac078d84d713c6b3b8c9502fb540cd948e06c98ded3182c21c401",
+  "events": [
+    {
+      "type": "thread.started",
+      "thread_id": "01a1acf9-2bd4-7322-b854-70b5baeba169",
+      "signals": []
+    },
+    {
+      "type": "turn.started",
+      "signals": []
+    },
+    {
+      "type": "item.completed",
+      "item_type": "agent_message",
+      "signals": []
+    },
+    {
+      "type": "turn.completed",
+      "usage": {
+        "input_tokens": 36975,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 79,
+        "reasoning_output_tokens": 0
+      },
+      "signals": []
+    }
+  ],
+  "stderr_bytes": 158,
+  "stderr_signals": {
+    "mcp": 0,
+    "timeout": 0,
+    "capacity": 0,
+    "429": 0,
+    "401": 0,
+    "403": 1,
+    "error": 0,
+    "failed": 1,
+    "retry": 0,
+    "connect": 0
+  },
+  "output_file_exists_at_exit": true,
+  "output_at_exit": {
+    "action": "check_requirements",
+    "reason": "当前稿时长与规则检查均已通过；上次需求审核因超时未返回结果，重试审核，确认补完剂治病的动机补充及人物预告需求是否满足。",
+    "query": "",
+    "script": null,
+    "status": "running",
+    "message": ""
+  },
+  "ok": true,
+  "action": {
+    "action": "check_requirements",
+    "reason": "当前稿时长与规则检查均已通过；上次需求审核因超时未返回结果，重试审核，确认补完剂治病的动机补充及人物预告需求是否满足。",
+    "query": "",
+    "script": null,
+    "status": "running",
+    "message": ""
+  },
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1acf9-2bd4-7322-b854-70b5baeba169",
+    "usage": {
+      "input_tokens": 36975,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 79,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-kipjrd_i",
+    "warnings": []
+  },
+  "elapsed_seconds": 11.2
+}

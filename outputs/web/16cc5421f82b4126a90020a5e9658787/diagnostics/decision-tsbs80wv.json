@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-tsbs80wv",
+  "started_at": "2026-11-04T01:19:21.247781+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:20:08.274135+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a423-a57e-74e0-a68a-af4ea188c26e",
+    "usage": {
+      "input_tokens": 27700,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1153,
+      "reasoning_output_tokens": 755
+    },
+    "call_id": "decision-tsbs80wv",
+    "warnings": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "call_id": "decision-ihc6ms29",
+  "started_at": "2026-11-05T18:19:29.028860+00:00",
+  "response_received": false,
+  "error_code": "codex_timeout",
+  "finished_at": "2026-11-05T18:22:30.133551+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": null,
+    "usage": {},
+    "call_id": "decision-ihc6ms29",
+    "warnings": []
+  }
+}

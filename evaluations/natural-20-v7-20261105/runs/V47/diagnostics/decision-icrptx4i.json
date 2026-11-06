@@ -1,0 +1,22 @@
+{
+  "call_id": "decision-icrptx4i",
+  "started_at": "2026-11-04T21:31:46.782139+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T21:32:00.255545+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "reasoning_effort": "medium",
+    "thread_id": "01a1a879-a74d-7c51-a8a7-652a29b4435e",
+    "usage": {
+      "input_tokens": 31474,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 91,
+      "reasoning_output_tokens": 0
+    },
+    "call_id": "decision-icrptx4i",
+    "warnings": []
+  }
+}

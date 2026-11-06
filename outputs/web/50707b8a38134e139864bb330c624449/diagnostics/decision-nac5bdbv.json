@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-nac5bdbv",
+  "started_at": "2026-11-03T23:07:49.537857+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:09:04.168708+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3ab-3a13-79a3-8a3e-30468e88d7d9",
+    "usage": {
+      "input_tokens": 28018,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2870,
+      "reasoning_output_tokens": 1888
+    },
+    "call_id": "decision-nac5bdbv",
+    "warnings": []
+  }
+}

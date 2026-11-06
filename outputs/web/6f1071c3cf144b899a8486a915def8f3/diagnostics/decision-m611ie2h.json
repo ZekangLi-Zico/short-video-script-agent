@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-m611ie2h",
+  "started_at": "2026-11-03T23:07:09.715508+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T23:07:22.765794+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a3aa-9e7e-7723-9913-f2eebaf32e3f",
+    "usage": {
+      "input_tokens": 28901,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 137,
+      "reasoning_output_tokens": 85
+    },
+    "call_id": "decision-m611ie2h",
+    "warnings": []
+  }
+}

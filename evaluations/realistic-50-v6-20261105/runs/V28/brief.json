@@ -1,0 +1,18 @@
+{
+  "id": "V28",
+  "name": "四十五秒体验讲解",
+  "context": "展位导览员需要完整但不重复的说明。",
+  "request": {
+    "topic": "接近45秒介绍字幕添加、手动改字、片段裁剪、横竖屏比例。以整理一场社区分享会素材串联，不重复相同产品句子填时间。",
+    "audience": "第一次接触视频编辑的展位访客",
+    "platform": "视频号",
+    "target_seconds": 45,
+    "style": "耐心，条理清楚",
+    "product_id": "demo-editor",
+    "expression_mode": "creative",
+    "duration_mode": "target"
+  },
+  "provider": "codex",
+  "faults": {},
+  "origin": "Frozen realistic work brief; no expected outcome or tool path"
+}

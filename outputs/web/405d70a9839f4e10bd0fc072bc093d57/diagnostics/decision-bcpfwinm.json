@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-bcpfwinm",
+  "started_at": "2026-11-03T21:36:39.260006+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-03T21:36:57.939774+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a357-c2a4-7360-9ee0-b98adc6f0b32",
+    "usage": {
+      "input_tokens": 30110,
+      "cached_input_tokens": 24448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 110,
+      "reasoning_output_tokens": 51
+    },
+    "call_id": "decision-bcpfwinm",
+    "warnings": []
+  }
+}

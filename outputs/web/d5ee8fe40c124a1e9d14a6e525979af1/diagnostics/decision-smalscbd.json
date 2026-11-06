@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-smalscbd",
+  "started_at": "2026-11-04T00:55:23.798590+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T00:55:39.187874+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a40d-b58a-7880-ada3-449a199c0ca8",
+    "usage": {
+      "input_tokens": 27193,
+      "cached_input_tokens": 24576,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 232,
+      "reasoning_output_tokens": 155
+    },
+    "call_id": "decision-smalscbd",
+    "warnings": []
+  }
+}

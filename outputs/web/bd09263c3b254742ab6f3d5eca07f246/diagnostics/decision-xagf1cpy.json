@@ -1,0 +1,21 @@
+{
+  "call_id": "decision-xagf1cpy",
+  "started_at": "2026-11-04T01:26:36.282388+00:00",
+  "response_received": true,
+  "exit_code": 0,
+  "finished_at": "2026-11-04T01:27:31.341875+00:00",
+  "metadata": {
+    "provider": "codex",
+    "model": "CLI configured default",
+    "thread_id": "01a1a42a-48ff-7672-a43c-68611e45f8b6",
+    "usage": {
+      "input_tokens": 27990,
+      "cached_input_tokens": 13696,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1941,
+      "reasoning_output_tokens": 516
+    },
+    "call_id": "decision-xagf1cpy",
+    "warnings": []
+  }
+}

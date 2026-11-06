@@ -1,0 +1,147 @@
+Browser tab: 1, Title: "脚本试验台 · 短视频 Agent", URL: "http://127.0.0.1:8765/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 56-57, 2597-2599
++				2655 text 需求已修改，将按当前内容运行。
+~				27 text entry area (settable) 主题, Value: 保留旧稿的字幕添加和手动编辑两个功能，把这份旧稿压缩到30秒以内，优先删减多余铺垫。, ID: topic
+~				29 text field (settable) 给谁看, Value: 第一次拍口播的人, ID: audience
+~				31 pop up button (collapsed, settable) 发布平台, Value: 抖音, ID: platform, Secondary Actions: Expand
+~						33 (selected) 抖音
+~						35 视频号
+~				39 stepper (settable, integer) 目标时长 秒, Value: 30, ID: target-seconds
+~				41 text field (settable) 表达风格, Value: 自然、紧凑, ID: style
++				2656 text 调用本机已登录的 Codex，通常需要一到数分钟。
++				2657 container advanced
++					2658 button (expanded) 测试设置与旧稿, Secondary Actions: Collapse
++						2659 text 测试设置与旧稿
++					2660 text 工具故障模拟
++					2661 pop up button (collapsed, settable) 工具故障模拟, Value: 不注入故障, ID: fault, Secondary Actions: Expand
++						2662 menu
++							2663 (selected) 不注入故障
++							2664 素材检索失败一次
++							2665 素材检索持续失败
++							2666 时长工具持续失败
++							2667 规则工具持续失败
++					2668 container
++						2669 text 待修订旧稿  JSON，可选
++					2670 text entry area (settable) 待修订旧稿 JSON，可选, ID: initial-script, Value: {
+  "title": "字幕，让表达被看见",
+  "shots": [
+    {
+      "visual": "人物面对镜头提出问题",
+      "hold_seconds": 8,
+      "blocks": [
+        {
+          "text": "想让画面里的表达更清楚？",
+          "source_id": "",
+          "fact_id": ""
+        }
+      ]
+    },
+    {
+      "visual": "日常生活素材蒙太奇",
+      "hold_seconds": 10,
+      "blocks": [
+        {
+          "text": "从一段日常记录开始。",
+          "source_id": "",
+          "fact_id": ""
+        }
+      ]
+    },
+    {
+      "visual": "将旁白作为字幕叠加在日常画面上",
+      "hold_seconds": 12,
+      "blocks": [
+        {
+          "text": "剪影练习版支持为视频添加字幕。",
+          "source_id": "P01",
+          "fact_id": "P01.F1"
+        }
+      ]
+    },
+    {
+      "visual": "产品功能文字卡片，不展示未经提供的界面",
+      "hold_seconds": 12,
+      "blocks": [
+        {
+          "text": "字幕文字可以手动编辑。",
+          "source_id": "P01",
+          "fact_id": "P01.F2"
+        }
+      ]
+    },
+    {
+      "visual": "简洁背景展示结尾文字",
+      "hold_seconds": 8,
+      "blocks": [
+        {
+          "text": "试试你的下一条短片吧。",
+          "source_id": "",
+          "fact_id": ""
+        }
+      ]
+    }
+  ]
+}
++					2671 text 留空则生成新稿。停止任务会等待当前模型调用返回，不会开始下一步。
++				2672 text 真实模型运行会使用当前账号的额度。
+The focused UI element is 2670 text entry area (settable) 待修订旧稿 JSON，可选, ID: initial-script, Value: {
+  "title": "字幕，让表达被看见",
+  "shots": [
+    {
+      "visual": "人物面对镜头提出问题",
+      "hold_seconds": 8,
+      "blocks": [
+        {
+          "text": "想让画面里的表达更清楚？",
+          "source_id": "",
+          "fact_id": ""
+        }
+      ]
+    },
+    {
+      "visual": "日常生活素材蒙太奇",
+      "hold_seconds": 10,
+      "blocks": [
+        {
+          "text": "从一段日常记录开始。",
+          "source_id": "",
+          "fact_id": ""
+        }
+      ]
+    },
+    {
+      "visual": "将旁白作为字幕叠加在日常画面上",
+      "hold_seconds": 12,
+      "blocks": [
+        {
+          "text": "剪影练习版支持为视频添加字幕。",
+          "source_id": "P01",
+          "fact_id": "P01.F1"
+        }
+      ]
+    },
+    {
+      "visual": "产品功能文字卡片，不展示未经提供的界面",
+      "hold_seconds": 12,
+      "blocks": [
+        {
+          "text": "字幕文字可以手动编辑。",
+          "source_id": "P01",
+          "fact_id": "P01.F2"
+        }
+      ]
+    },
+    {
+      "visual": "简洁背景展示结尾文字",
+      "hold_seconds": 8,
+      "blocks": [
+        {
+          "text": "试试你的下一条短片吧。",
+          "source_id": "",
+          "fact_id": ""
+        }
+      ]
+    }
+  ]
+}
